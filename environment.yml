@@ -1,0 +1,6 @@
+name: binance-v2-research
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pytest
