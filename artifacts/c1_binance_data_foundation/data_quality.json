@@ -1,0 +1,262 @@
+[
+  {
+    "day": "2024-12-30",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BTCUSDT",
+    "unchanged_close_intervals": 6,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-31",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BTCUSDT",
+    "unchanged_close_intervals": 8,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-01",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BTCUSDT",
+    "unchanged_close_intervals": 54,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-02",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BTCUSDT",
+    "unchanged_close_intervals": 15,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-30",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "ETHUSDT",
+    "unchanged_close_intervals": 3,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-31",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "ETHUSDT",
+    "unchanged_close_intervals": 6,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-01",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "ETHUSDT",
+    "unchanged_close_intervals": 19,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-02",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "ETHUSDT",
+    "unchanged_close_intervals": 10,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-30",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "SOLUSDT",
+    "unchanged_close_intervals": 31,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-31",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "SOLUSDT",
+    "unchanged_close_intervals": 43,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-01",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "SOLUSDT",
+    "unchanged_close_intervals": 43,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-02",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "SOLUSDT",
+    "unchanged_close_intervals": 45,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-30",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "XRPUSDT",
+    "unchanged_close_intervals": 23,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-31",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "XRPUSDT",
+    "unchanged_close_intervals": 45,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-01",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "XRPUSDT",
+    "unchanged_close_intervals": 31,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-02",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "XRPUSDT",
+    "unchanged_close_intervals": 18,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-30",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BNBUSDT",
+    "unchanged_close_intervals": 29,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2024-12-31",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "milliseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BNBUSDT",
+    "unchanged_close_intervals": 21,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-01",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BNBUSDT",
+    "unchanged_close_intervals": 37,
+    "zero_trade_intervals": 0
+  },
+  {
+    "day": "2025-01-02",
+    "gaps": 0,
+    "issues": [],
+    "raw_time_units": [
+      "microseconds"
+    ],
+    "rows": 1440,
+    "status": "pass",
+    "symbol": "BNBUSDT",
+    "unchanged_close_intervals": 39,
+    "zero_trade_intervals": 0
+  }
+]

@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+build/
+dist/
+*.egg-info/
+
+data/raw/
+data/normalized/
+artifacts/c1_binance_data_foundation/raw/
+artifacts/c1_binance_data_foundation/normalized/
