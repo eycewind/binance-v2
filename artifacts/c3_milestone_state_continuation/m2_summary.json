@@ -1,0 +1,71 @@
+{
+  "ambiguous": 1,
+  "by_month": {
+    "2024-01": 23,
+    "2024-02": 17,
+    "2024-03": 31,
+    "2024-04": 21,
+    "2024-05": 21,
+    "2024-06": 14,
+    "2024-07": 29,
+    "2024-08": 20,
+    "2024-09": 24,
+    "2024-10": 18,
+    "2024-11": 25,
+    "2024-12": 22,
+    "2025-01": 26,
+    "2025-02": 30,
+    "2025-03": 33,
+    "2025-04": 24,
+    "2025-05": 25,
+    "2025-06": 14,
+    "2025-07": 26,
+    "2025-08": 20,
+    "2025-09": 15,
+    "2025-10": 27,
+    "2025-11": 18,
+    "2025-12": 29
+  },
+  "by_symbol": {
+    "BNBUSDT": 98,
+    "BTCUSDT": 81,
+    "ETHUSDT": 115,
+    "SOLUSDT": 136,
+    "XRPUSDT": 122
+  },
+  "censored": 8,
+  "complete_case_scope_warning": {
+    "inference_scope": "T3 inference applies only to feature-eligible milestone states and must not claim coverage of the fastest arrivals",
+    "maximum_ineligible_time_from_entry_seconds": 300,
+    "missingness_concentration": "structurally concentrated in the fastest milestone arrivals",
+    "observed_fast_arrival_fact": "all excluded M2 rows reached the milestone within 5 minutes"
+  },
+  "continuation": 279,
+  "fallback": 264,
+  "feature_eligible": 546,
+  "feature_ineligible": 6,
+  "fold_boundary_exclusions": {
+    "unresolved_at_2025_evaluation_boundary": 0,
+    "unresolved_at_training_boundary": 0,
+    "unresolved_at_validation_boundary": 0
+  },
+  "hashes": {
+    "audit_table_file_hash": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+    "audit_table_semantic_hash": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+    "feature_matrix_file_hash": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+    "feature_matrix_semantic_hash": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+    "feature_row_keys_file_hash": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+    "feature_row_keys_semantic_hash": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+    "keyed_feature_table_file_hash": "03e7c7503bc458031e326e89b155c600069a5f6dcef871c399551cc2530ade7a",
+    "keyed_feature_table_semantic_hash": "03e7c7503bc458031e326e89b155c600069a5f6dcef871c399551cc2530ade7a",
+    "outcome_table_file_hash": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3",
+    "outcome_table_semantic_hash": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3"
+  },
+  "m2_conditioned_on_reaching_plus_2pct": true,
+  "milestone_id": "M2_FIRST_PLUS_2PCT_V1",
+  "model_matrix_column_count": 35,
+  "model_matrix_identifiers_absent": true,
+  "model_matrix_rows": 546,
+  "pre_milestone_gap_audit_rows": 0,
+  "total_milestone_rows": 552
+}

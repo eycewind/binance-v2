@@ -1,0 +1,122 @@
+{
+  "boundary_end_exclusive_utc": "2026-01-01T00:00:00Z",
+  "contract_path": "contracts/C3_milestone_state_continuation_CONTRACT.md",
+  "contract_sha256": "d1df751c1005995e27f93d04d7f7dc7c40180862870dfa5727e7b708546d3f2d",
+  "date_bounds": {
+    "end_exclusive_utc": "2026-01-01T00:00:00Z",
+    "source_start_utc": "2023-12-31T00:00:00Z"
+  },
+  "environment": {
+    "conda_env": "binance-v2-research",
+    "interpreter": "/home/ata/miniconda3/envs/binance-v2-research/bin/python",
+    "python": "3.11.16"
+  },
+  "execution_revision": "8cdfe4be2064e4c8aa98642eb655da07066d9832",
+  "explicit_allowlist": [
+    {
+      "path": "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv",
+      "role": "frozen_entries",
+      "sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3"
+    },
+    {
+      "path": "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv",
+      "role": "common_horizons",
+      "sha256": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f"
+    },
+    {
+      "path": "artifacts/c2_asymmetric_exit_experiment/c2a_paired_trade_records.csv",
+      "role": "accepted_paired_table_hash_only",
+      "sha256": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1"
+    },
+    {
+      "path": "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/BTCUSDT_5m.csv.gz",
+      "role": "aggregate_5m",
+      "sha256": "d03158a81dbacd97c149e68b77b467cebe46ba35a4571e8a3c486417372f32d5"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/BTCUSDT_1h.csv.gz",
+      "role": "aggregate_1h",
+      "sha256": "f9f9453665b89a8bb7c10c84c4257f606856f6f31996a6b34b30fa2649c97971"
+    },
+    {
+      "path": "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/ETHUSDT_5m.csv.gz",
+      "role": "aggregate_5m",
+      "sha256": "50e57bce10b6dd4a3b4221adae739f7de406991f4fdb60add9233d4becbcd93e"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/ETHUSDT_1h.csv.gz",
+      "role": "aggregate_1h",
+      "sha256": "ed03a4bafbebdc7c0b3936abc12a7597ff467659d566bf954bc17c41f2b43e67"
+    },
+    {
+      "path": "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/SOLUSDT_5m.csv.gz",
+      "role": "aggregate_5m",
+      "sha256": "6c71ba711fabd286c16de08cf296eb077a88d2d59f743bb0c56e3c3af7afe85d"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/SOLUSDT_1h.csv.gz",
+      "role": "aggregate_1h",
+      "sha256": "936a588a20660ef80ff5f3b2c45590bff4cfafde4232100db8eca14e81716a20"
+    },
+    {
+      "path": "data/normalized/c2_history/XRPUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/XRPUSDT_5m.csv.gz",
+      "role": "aggregate_5m",
+      "sha256": "c55e59696915fd499272e2c82e788ecefeb8935df273dac48e038fee39c0ec4e"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/XRPUSDT_1h.csv.gz",
+      "role": "aggregate_1h",
+      "sha256": "49da571c398801b2b45450aa2d8f7efb0d05720e551815f8f632aa07248943c8"
+    },
+    {
+      "path": "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/BNBUSDT_5m.csv.gz",
+      "role": "aggregate_5m",
+      "sha256": "240f995297f699dbe4447e1b8c75b79fe399486051aacb015e41d9854450df59"
+    },
+    {
+      "path": "data/normalized/c2_frozen_inputs/BNBUSDT_1h.csv.gz",
+      "role": "aggregate_1h",
+      "sha256": "175e102d2893771392dc54df22f33fe3d37a66a0b681fdd33a2d5e5a89899f3a"
+    }
+  ],
+  "manifest_version": "C3_T1_INPUT_MANIFEST_V1",
+  "predecessor_revision": "ab08b62",
+  "schemas": {
+    "aggregates": "c2-causal-aggregate-v1",
+    "entries": "E1_H1_SMA24_CROSS_V1",
+    "history": "c2-history-1m-gzip-v1",
+    "horizons": "P0_H1_SMA24_CROSSDOWN_V1"
+  },
+  "verification": {
+    "2026_market_data_accessed": false,
+    "2026_paths_enumerated": false,
+    "all_hashes_verified": true,
+    "paired_table_outcomes_consumed": false,
+    "timestamps_checked_before_values": true
+  }
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-03",
+    "reason": "path_efficiency_5m",
+    "symbol": "BNBUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-07",
+    "reason": "path_efficiency_5m",
+    "symbol": "BNBUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-12",
+    "reason": "path_efficiency_5m",
+    "symbol": "BNBUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-01",
+    "reason": "path_efficiency_5m",
+    "symbol": "BTCUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-01",
+    "reason": "path_efficiency_5m",
+    "symbol": "ETHUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-07",
+    "reason": "path_efficiency_5m",
+    "symbol": "ETHUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-02",
+    "reason": "path_efficiency_5m",
+    "symbol": "ETHUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-12",
+    "reason": "path_efficiency_5m",
+    "symbol": "ETHUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-01",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-03",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-04",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-07",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 3,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-08",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-11",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-12",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-01",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-02",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-03",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-07",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-08",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-11",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-12",
+    "reason": "path_efficiency_5m",
+    "symbol": "SOLUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-04",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-04",
+    "reason": "pre_milestone_mae",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-07",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-08",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-11",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-12",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2024-12",
+    "reason": "pre_milestone_mae",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-01",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-02",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-02",
+    "reason": "pre_milestone_mae",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-03",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-04",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-08",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-11",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M1_FIRST_PLUS_1PCT_V1",
+    "month": "2025-12",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M2_FIRST_PLUS_2PCT_V1",
+    "month": "2024-04",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M2_FIRST_PLUS_2PCT_V1",
+    "month": "2024-04",
+    "reason": "pre_milestone_mae",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M2_FIRST_PLUS_2PCT_V1",
+    "month": "2024-07",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 2,
+    "feature_family": "A",
+    "milestone_id": "M2_FIRST_PLUS_2PCT_V1",
+    "month": "2024-12",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "count": 1,
+    "feature_family": "A",
+    "milestone_id": "M2_FIRST_PLUS_2PCT_V1",
+    "month": "2025-01",
+    "reason": "path_efficiency_5m",
+    "symbol": "XRPUSDT"
+  }
+]

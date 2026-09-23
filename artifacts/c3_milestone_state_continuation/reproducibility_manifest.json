@@ -1,0 +1,92 @@
+{
+  "2026_market_data_accessed": false,
+  "core_hashes": {
+    "M1": {
+      "audit_table_file_hash": "9d709e18553493c14ec5546cd9c6fcf8755d718c2901a3971fc9e0b39cac499a",
+      "audit_table_semantic_hash": "9d709e18553493c14ec5546cd9c6fcf8755d718c2901a3971fc9e0b39cac499a",
+      "feature_matrix_file_hash": "5797f8c58029017fea8bd2025f0732a97220c9093362e2e18c6267e1238af1c8",
+      "feature_matrix_semantic_hash": "5797f8c58029017fea8bd2025f0732a97220c9093362e2e18c6267e1238af1c8",
+      "feature_row_keys_file_hash": "fc275669e6341c5906c004355f73f6307b10499a1a8478449ba1b5394968b628",
+      "feature_row_keys_semantic_hash": "fc275669e6341c5906c004355f73f6307b10499a1a8478449ba1b5394968b628",
+      "keyed_feature_table_file_hash": "18e22f50982ce2449f50dae05d084c55be8727d8f6db3db4a841595471e44caf",
+      "keyed_feature_table_semantic_hash": "18e22f50982ce2449f50dae05d084c55be8727d8f6db3db4a841595471e44caf",
+      "outcome_table_file_hash": "97c81994b97d714dd25f01c643b627608fd346ebe8942fd54395e05791fba427",
+      "outcome_table_semantic_hash": "97c81994b97d714dd25f01c643b627608fd346ebe8942fd54395e05791fba427"
+    },
+    "M2": {
+      "audit_table_file_hash": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+      "audit_table_semantic_hash": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+      "feature_matrix_file_hash": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+      "feature_matrix_semantic_hash": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+      "feature_row_keys_file_hash": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+      "feature_row_keys_semantic_hash": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+      "keyed_feature_table_file_hash": "03e7c7503bc458031e326e89b155c600069a5f6dcef871c399551cc2530ade7a",
+      "keyed_feature_table_semantic_hash": "03e7c7503bc458031e326e89b155c600069a5f6dcef871c399551cc2530ade7a",
+      "outcome_table_file_hash": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3",
+      "outcome_table_semantic_hash": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3"
+    }
+  },
+  "cross_asset_duplicate_safety": {
+    "BTCUSDT_15m": {
+      "exact_duplicate": false,
+      "rows_checked": 223
+    },
+    "BTCUSDT_5m": {
+      "exact_duplicate": false,
+      "rows_checked": 223
+    },
+    "BTCUSDT_60m": {
+      "exact_duplicate": false,
+      "rows_checked": 223
+    },
+    "ETHUSDT_15m": {
+      "exact_duplicate": false,
+      "rows_checked": 285
+    },
+    "ETHUSDT_5m": {
+      "exact_duplicate": false,
+      "rows_checked": 285
+    },
+    "ETHUSDT_60m": {
+      "exact_duplicate": false,
+      "rows_checked": 285
+    }
+  },
+  "execution_revision": "8cdfe4be2064e4c8aa98642eb655da07066d9832",
+  "feature_schema_file_hash": "1259d04b31364f157108fa7cda737dc7de6d7c8c63bc8af6252d641fe4c41347",
+  "feature_schema_hash": "190a434ff506c633a525ebe9da3bd2369cf1b173d5dcf5e9abad20a22acc1818",
+  "independent_rebuild_verified": true,
+  "independent_rebuilds": 2,
+  "input_manifest_sha256": "cb5dd90fdffaca618a1b504e686206012d73b725d21e83ee1ff1091155e9fd3f",
+  "manifest_version": "C3_T1_T2_REPRODUCIBILITY_V1",
+  "milestone_counts_reconciled": true,
+  "predecessor_revision": "ab08b62",
+  "predictive_metrics_computed": false,
+  "predictive_models_run": false,
+  "verified_core_hashes": {
+    "M1": {
+      "audit_table_file_hash": "9d709e18553493c14ec5546cd9c6fcf8755d718c2901a3971fc9e0b39cac499a",
+      "audit_table_semantic_hash": "9d709e18553493c14ec5546cd9c6fcf8755d718c2901a3971fc9e0b39cac499a",
+      "feature_matrix_file_hash": "5797f8c58029017fea8bd2025f0732a97220c9093362e2e18c6267e1238af1c8",
+      "feature_matrix_semantic_hash": "5797f8c58029017fea8bd2025f0732a97220c9093362e2e18c6267e1238af1c8",
+      "feature_row_keys_file_hash": "fc275669e6341c5906c004355f73f6307b10499a1a8478449ba1b5394968b628",
+      "feature_row_keys_semantic_hash": "fc275669e6341c5906c004355f73f6307b10499a1a8478449ba1b5394968b628",
+      "keyed_feature_table_file_hash": "18e22f50982ce2449f50dae05d084c55be8727d8f6db3db4a841595471e44caf",
+      "keyed_feature_table_semantic_hash": "18e22f50982ce2449f50dae05d084c55be8727d8f6db3db4a841595471e44caf",
+      "outcome_table_file_hash": "97c81994b97d714dd25f01c643b627608fd346ebe8942fd54395e05791fba427",
+      "outcome_table_semantic_hash": "97c81994b97d714dd25f01c643b627608fd346ebe8942fd54395e05791fba427"
+    },
+    "M2": {
+      "audit_table_file_hash": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+      "audit_table_semantic_hash": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+      "feature_matrix_file_hash": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+      "feature_matrix_semantic_hash": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+      "feature_row_keys_file_hash": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+      "feature_row_keys_semantic_hash": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+      "keyed_feature_table_file_hash": "03e7c7503bc458031e326e89b155c600069a5f6dcef871c399551cc2530ade7a",
+      "keyed_feature_table_semantic_hash": "03e7c7503bc458031e326e89b155c600069a5f6dcef871c399551cc2530ade7a",
+      "outcome_table_file_hash": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3",
+      "outcome_table_semantic_hash": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3"
+    }
+  }
+}
