@@ -1,28 +1,37 @@
 {
-  "classification_framework": "C2 contract predeclared four-level classification; no policy ranking or parameter selection",
-  "cost_scenario_for_expectancy_assessment": "C_BASE",
-  "overall": {
-    "classification": "MIXED",
-    "rationale": "All three candidates improve parts of the targeted baseline-failure pattern, but all dependence-aware headline confidence intervals for paired net-return deltas include zero, results vary materially by symbol and period, and premature-exit costs are non-trivial."
-  },
-  "policies": {
-    "P1_BRACKET_TP2_SL1_V1": {
-      "classification": "MIXED",
-      "rationale": "P1 rescues some baseline losers and modestly reduces held-green-then-red outcomes, while its headline paired net-return estimate is slightly positive. The uncertainty interval includes zero, the sanity-period and several symbol results deteriorate, and early exits leave material subsequent opportunity."
+  "dimensions": {
+    "cost_sensitivity": {
+      "basis": "Adverse slippage and two-leg fees reduce candidate net outcomes across required scenarios.",
+      "classification": "COUNTS AGAINST"
     },
-    "P2_M5_TRAIL1_AFTER_GAIN1_V1": {
-      "classification": "MIXED",
-      "rationale": "P2 has strong rescue rates in the predeclared baseline-failure cohorts and reduces held-green-then-red outcomes. Overall and headline paired net-return estimates are negative, the uncertainty interval includes zero, and results are heterogeneous across symbols."
+    "cross_symbol_time_robustness": {
+      "basis": "Monthly block intervals span zero and symbol/time results are heterogeneous.",
+      "classification": "INSUFFICIENT EVIDENCE"
     },
-    "P3_M5_MOMENTUM_DETERIORATION_V1": {
-      "classification": "MIXED",
-      "rationale": "P3 materially reduces held-path surrender and rescues many P0 losers, but it damages more P0 winners than P1 or P2, exits prematurely most often, and has negative overall and headline paired net-return estimates with an uncertainty interval spanning zero."
+    "exit_quality_evidence": {
+      "basis": "Candidates reduce some held-path failure measures, but effects are not uniform.",
+      "classification": "MIXED"
+    },
+    "opportunity_capture_evidence": {
+      "basis": "Rescues coexist with missed later common-horizon appreciation.",
+      "classification": "MIXED"
+    },
+    "premature_exit_damage": {
+      "basis": "Predefined premature-exit diagnostics are material, especially for P3.",
+      "classification": "COUNTS AGAINST"
     }
   },
+  "direct_5m_tests": [
+    "P2_M5_TRAIL1_AFTER_GAIN1_V1",
+    "P3_M5_MOMENTUM_DETERIORATION_V1"
+  ],
   "guardrails": {
-    "winner_selected": false,
+    "c2_b_run": false,
+    "deployment_or_profitability_claim": false,
     "parameters_tuned": false,
-    "nested_mfe_cohorts_treated_as_independent_tests": false,
-    "c2_b_inference_made": false
-  }
+    "temporal_findings_used": false
+  },
+  "overall": "MIXED",
+  "standing_bracket_context": "P1 is a standing bracket diagnostic, not evidence for a 5-minute decision layer.",
+  "winner_selected": false
 }

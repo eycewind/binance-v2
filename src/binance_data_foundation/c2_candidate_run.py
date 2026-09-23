@@ -7,6 +7,7 @@ import math
 import random
 import statistics
 import subprocess
+import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,9 +15,10 @@ from pathlib import Path
 from .c2_candidate_policies import (
     P1_VERSION, P2_VERSION, P3_VERSION, CandidateDecision, decide_p1, decide_p2, decide_p3,
 )
-from .c2_common import ENTRY_COLUMNS, hash_rows, iso, iter_gzip_csv, research_partitions, valid_minute, write_json
+from .c2_common import (ENTRY_COLUMNS, hash_rows, iso, iter_gzip_csv, research_partitions,
+                        require_pre_holdout_ms, valid_minute, write_json)
 from .c2_costs import COST_SCENARIOS, apply_round_trip_costs
-from .c2_p0 import EXPECTED_FROZEN_ENTRY_HASH, HORIZON_COLUMNS, _complete_path
+from .c2_p0 import EXPECTED_FROZEN_ENTRY_HASH, HORIZON_COLUMNS, P0_VERSION, _complete_path
 from .c2_path_metrics import evaluate_path
 from .ingest import sha256_file
 
@@ -38,7 +40,9 @@ EXTRA_COLUMNS = (
 )
 
 
-def build_candidate_checkpoint(normalized_dir: Path, aggregate_dir: Path, artifact_dir: Path) -> dict:
+def build_candidate_checkpoint(normalized_dir: Path, aggregate_dir: Path, artifact_dir: Path, *,
+                               deterministic_offline_rebuild_verified: bool = False,
+                               verification_evidence: dict | None = None) -> dict:
     entries_path = artifact_dir / "frozen_entries.csv"
     horizons_path = artifact_dir / "common_horizons_p0.csv"
     entries = list(csv.DictReader(entries_path.open(encoding="utf-8", newline="")))
@@ -47,6 +51,11 @@ def build_candidate_checkpoint(normalized_dir: Path, aggregate_dir: Path, artifa
         raise ValueError("frozen-entry semantic hash mismatch")
     if hash_rows(horizons, HORIZON_COLUMNS) != EXPECTED_COMMON_HORIZON_HASH:
         raise ValueError("common-horizon semantic hash mismatch")
+    for entry in entries:
+        require_pre_holdout_ms(entry["entry_execution_ms"], "frozen entry")
+    for horizon in horizons:
+        if str(horizon["censored"]).lower() == "false":
+            require_pre_holdout_ms(horizon["common_horizon_end_ms"], "common horizon")
     entry_by_id = {row["trade_id"]: row for row in entries}
     horizon_by_id = {row["trade_id"]: row for row in horizons}
     if entry_by_id.keys() != horizon_by_id.keys():
@@ -60,8 +69,15 @@ def build_candidate_checkpoint(normalized_dir: Path, aggregate_dir: Path, artifa
     for entry in entries:
         by_symbol[entry["symbol"]].append(entry)
     for symbol in sorted(by_symbol):
-        minute_lookup = {int(row["open_time_ms"]): row for row in iter_gzip_csv(normalized_dir / f"{symbol}_1m.csv.gz") if valid_minute(row)}
-        bars5 = {int(row["open_time_ms"]): row for row in iter_gzip_csv(aggregate_dir / f"{symbol}_5m.csv.gz")}
+        minute_lookup = {}
+        for row in iter_gzip_csv(normalized_dir / f"{symbol}_1m.csv.gz"):
+            ts = require_pre_holdout_ms(row["open_time_ms"], "normalized minute")
+            if valid_minute(row):
+                minute_lookup[ts] = row
+        bars5 = {}
+        for row in iter_gzip_csv(aggregate_dir / f"{symbol}_5m.csv.gz"):
+            ts = require_pre_holdout_ms(row["open_time_ms"], "5-minute aggregate")
+            bars5[ts] = row
         for entry in by_symbol[symbol]:
             horizon = horizon_by_id[entry["trade_id"]]
             if str(horizon["censored"]).lower() == "true":
@@ -125,19 +141,25 @@ def build_candidate_checkpoint(normalized_dir: Path, aggregate_dir: Path, artifa
     cohorts = _cohort_summary(resolved)
     groups = _group_summaries(resolved)
     dependence = _dependence_summary(resolved)
+    complete_analysis = _complete_analysis(combined, entries, horizons)
+    interpretation = _research_interpretation()
     write_json(artifact_dir / "candidate_policy_summary.json", summary)
     write_json(artifact_dir / "candidate_cohorts.json", cohorts)
     write_json(artifact_dir / "candidate_group_summaries.json", groups)
     write_json(artifact_dir / "candidate_dependence.json", dependence)
+    write_json(artifact_dir / "candidate_complete_analysis.json", complete_analysis)
+    write_json(artifact_dir / "candidate_interpretation.json", interpretation)
     result = {
         "run_id": RUN_ID, "frozen_entry_hash": EXPECTED_FROZEN_ENTRY_HASH,
         "common_horizon_hash": EXPECTED_COMMON_HORIZON_HASH,
         "paired_trade_rows": len(combined), "paired_trade_semantic_hash": hash_rows(combined, trade_columns),
         "paired_trade_file_hash": sha256_file(table_path),
         "summary_hashes": {name: sha256_file(artifact_dir / name) for name in (
-            "candidate_policy_summary.json", "candidate_cohorts.json", "candidate_group_summaries.json", "candidate_dependence.json")},
+            "candidate_policy_summary.json", "candidate_cohorts.json", "candidate_group_summaries.json",
+            "candidate_dependence.json", "candidate_complete_analysis.json", "candidate_interpretation.json")},
     }
-    _write_manifest(artifact_dir, result, summary)
+    _write_manifest(artifact_dir, result, summary, deterministic_offline_rebuild_verified,
+                    verification_evidence, normalized_dir, aggregate_dir)
     return result
 
 
@@ -259,18 +281,26 @@ def _cost_summary(rows: list[dict]) -> dict:
 
 def _cohort_summary(rows: list[dict]) -> dict:
     p0 = {r["trade_id"]: r for r in rows if r["exit_policy"] == "P0" and r["cost_scenario"] == "C0"}
+    p0_net = {(r["trade_id"],r["cost_scenario"]):float(r["net_return"]) for r in rows if r["exit_policy"]=="P0"}
     result = {}
     for label, threshold in THRESHOLDS:
         eligible = {tid for tid, row in p0.items() if float(row["common_horizon_mfe"]) + 1e-15 >= threshold}
         failure = {tid for tid in eligible if float(p0[tid]["raw_price_return"]) <= 0}
-        result[label] = {"mfe_threshold": threshold, "all_opportunity": {}, "baseline_failure": {}}
+        outside = set(p0) - failure
+        result[label] = {"mfe_threshold": threshold, "all_opportunity": {}, "baseline_failure": {},
+                         "outside_baseline_failure": {},
+                         "governance":"Nested retrospective descriptive cohort; not an independent hypothesis test or policy-selection basis."}
         for version in POLICIES:
-            for name, ids in (("all_opportunity", eligible), ("baseline_failure", failure)):
+            for name, ids in (("all_opportunity", eligible), ("baseline_failure", failure),
+                              ("outside_baseline_failure", outside)):
                 result[label][name][version] = {}
                 for scenario in COST_SCENARIOS:
                     selected = [r for r in rows if r["exit_policy_version"] == version and r["cost_scenario"] == scenario.scenario_id and r["trade_id"] in ids]
+                    net_rescued=sum(float(r["net_return"])>0 and p0_net[(r["trade_id"],scenario.scenario_id)]<=0
+                                    for r in selected)
                     result[label][name][version][scenario.scenario_id] = {
                         "trade_count": len(selected), "rescued": _count_rate(selected, "rescued"),
+                        "net_profitability_rescue":{"count":net_rescued,"rate":net_rescued/len(selected) if selected else None},
                         "damaged": _count_rate(selected, "damaged"), "candidate_raw_return": _dist([float(r["raw_price_return"]) for r in selected]),
                         "candidate_net_return": _dist([float(r["net_return"]) for r in selected]),
                         "paired_net_delta": _dist([float(r["net_return_delta_vs_p0"]) for r in selected]),
@@ -314,6 +344,86 @@ def _dependence_summary(rows: list[dict]) -> dict:
             selected = [r for r in headline if r["exit_policy_version"] == version and r["cost_scenario"] == scenario.scenario_id]
             result["intervals"][version][scenario.scenario_id] = _block_bootstrap(selected, BOOTSTRAP_SEED + sum(map(ord, version + scenario.scenario_id)))
     return result
+
+
+def _complete_analysis(rows:list[dict],entries:list[dict],horizons:list[dict])->dict:
+    """The complete predefined descriptive panel; never supplied to policy code."""
+    resolved=[r for r in rows if not _bool(r["censored"])]
+    groupers={
+        "by_symbol":lambda r:r["symbol"],
+        "by_partition":lambda r:"sanity_calibration" if r["entry_execution_ts"]<"2024-04-01" else "headline_evaluation",
+        "by_year":lambda r:r["entry_execution_ts"][:4],
+        "by_month":lambda r:r["entry_execution_ts"][:7],
+        "by_week":lambda r:datetime.fromisoformat(r["entry_execution_ts"]).strftime("%G-W%V"),
+    }
+    versions=(P0_VERSION,)+POLICIES
+    def grouped(selected:list[dict])->dict:
+        return {version:{scenario.scenario_id:_metric_panel([
+            r for r in selected if r["exit_policy_version"]==version and r["cost_scenario"]==scenario.scenario_id])
+            for scenario in COST_SCENARIOS} for version in versions}
+    groups={name:{key:grouped([r for r in resolved if fn(r)==key])
+                  for key in sorted({fn(r) for r in resolved})} for name,fn in groupers.items()}
+    c0=[r for r in resolved if r["cost_scenario"]=="C0"]
+    intervals=sorted((int(h["entry_execution_ms"]),int(h["common_horizon_end_ms"]))
+                     for h in horizons if not _bool(h["censored"]))
+    events=sorted([(start,1) for start,_ in intervals]+[(end,-1) for _,end in intervals],key=lambda x:(x[0],x[1]))
+    concurrent=peak=0
+    for _ts,delta in events: concurrent+=delta; peak=max(peak,concurrent)
+    equal_weight={}
+    for version in versions:
+        equal_weight[version]={}
+        for scenario in COST_SCENARIOS:
+            selected=[r for r in resolved if r["exit_policy_version"]==version and r["cost_scenario"]==scenario.scenario_id]
+            symbol_means={s:statistics.fmean(float(r["net_return"]) for r in selected if r["symbol"]==s)
+                          for s in sorted({r["symbol"] for r in selected})}
+            equal_weight[version][scenario.scenario_id]={"symbol_means":symbol_means,
+                "equal_weight_symbol_primary":statistics.fmean(symbol_means.values()) if symbol_means else None,
+                "equal_weight_entry":statistics.fmean(float(r["net_return"]) for r in selected) if selected else None}
+    return {"status":"descriptive_complete_predefined_panel","overall":grouped(resolved),"groups":groups,
+            "aggregation":{"primary":"equal_weight_symbol","policy_cost":equal_weight},
+            "dependence":{"naive_per_trade_independence_assumed":False,"max_simultaneously_open_frozen_paths":peak,
+                "resolved_common_paths":len(intervals),"calendar_coverage_utc":{"first_entry":min((e["entry_execution_ts"] for e in entries),default=None),
+                "last_entry":max((e["entry_execution_ts"] for e in entries),default=None)},
+                "uncertainty_artifact":"candidate_dependence.json"},
+            "censoring":{"frozen_entries":len(entries),"p0_right_censored":sum(_bool(h["censored"]) for h in horizons),
+                "records_by_policy":{v:{"resolved":sum(r["exit_policy_version"]==v for r in c0),
+                    "censored":sum(_bool(r["censored"]) and r["exit_policy_version"]==v and r["cost_scenario"]=="C0" for r in rows)} for v in versions}},
+            "fixed_replay_note":"Two executed legs per resolved replay; this is not portfolio turnover. C2-B was not run."}
+
+
+def _metric_panel(rows:list[dict])->dict:
+    distributions=("raw_price_return","gross_return","net_return","held_mfe","held_mae","common_horizon_mfe",
+        "common_horizon_mae","time_to_held_mfe_seconds","time_to_common_horizon_mfe_seconds","holding_duration_seconds",
+        "max_drawdown_from_post_entry_peak","held_peak_gain_surrendered","common_opportunity_capture_gap",
+        "held_peak_gain_retention","common_opportunity_capture_ratio")
+    flags=("held_ever_green","held_ever_above_0_5pct","held_ever_above_1pct","held_ever_above_2pct",
+        "held_ever_above_3pct","common_opportunity_ever_green","common_opportunity_above_0_5pct",
+        "common_opportunity_above_1pct","common_opportunity_above_2pct","common_opportunity_above_3pct",
+        "held_green_then_red","common_opportunity_positive_exit_red")
+    values=lambda key:[float(r[key]) for r in rows if r.get(key) not in (None,"")]
+    raw=values("raw_price_return")
+    return {"count":len(rows),"executed_legs":2*len(rows),"fixed_replay_notional_ratio":2,
+        "exit_outcomes":{"profitable":sum(x>0 for x in raw),"zero":sum(x==0 for x in raw),"losing":sum(x<0 for x in raw)},
+        "flags":{key:_count_rate(rows,key) for key in flags},
+        "distributions":{key:_dist(values(key)) for key in distributions},
+        "downside":{"net_return_p05":_quantile(values("net_return"),.05) if rows else None,
+                    "mean_net_loss":statistics.fmean(x for x in values("net_return") if x<0) if any(x<0 for x in values("net_return")) else None},
+        "retention_missing_reasons":{"held":dict(sorted(Counter(r.get("held_retention_null_reason","") for r in rows if r.get("held_retention_null_reason")).items())),
+            "common":dict(sorted(Counter(r.get("common_retention_null_reason","") for r in rows if r.get("common_retention_null_reason")).items()))}}
+
+
+def _research_interpretation()->dict:
+    return {"overall":"MIXED","winner_selected":False,
+      "standing_bracket_context":"P1 is a standing bracket diagnostic, not evidence for a 5-minute decision layer.",
+      "direct_5m_tests":[P2_VERSION,P3_VERSION],
+      "dimensions":{
+        "exit_quality_evidence":{"classification":"MIXED","basis":"Candidates reduce some held-path failure measures, but effects are not uniform."},
+        "opportunity_capture_evidence":{"classification":"MIXED","basis":"Rescues coexist with missed later common-horizon appreciation."},
+        "cost_sensitivity":{"classification":"COUNTS AGAINST","basis":"Adverse slippage and two-leg fees reduce candidate net outcomes across required scenarios."},
+        "premature_exit_damage":{"classification":"COUNTS AGAINST","basis":"Predefined premature-exit diagnostics are material, especially for P3."},
+        "cross_symbol_time_robustness":{"classification":"INSUFFICIENT EVIDENCE","basis":"Monthly block intervals span zero and symbol/time results are heterogeneous."}},
+      "guardrails":{"parameters_tuned":False,"temporal_findings_used":False,"c2_b_run":False,
+                    "deployment_or_profitability_claim":False}}
 
 
 def _block_bootstrap(rows: list[dict], seed: int) -> dict:
@@ -360,9 +470,15 @@ def _write_csv(path:Path,rows:list[dict],columns:tuple[str,...])->None:
         w=csv.DictWriter(f,fieldnames=columns,lineterminator="\n");w.writeheader();w.writerows(rows)
 
 
-def _write_manifest(artifact_dir:Path,result:dict,summary:dict)->None:
+def _write_manifest(artifact_dir:Path,result:dict,summary:dict,verified:bool=False,evidence:dict|None=None,
+                    normalized_dir:Path=Path("data/normalized/c2_history"),
+                    aggregate_dir:Path=Path("data/normalized/c2_frozen_inputs"))->None:
     contract=Path("contracts/C2_asymmetric_exit_experiment_CONTRACT.md")
-    paths=[Path(__file__),Path(__file__).with_name("c2_candidate_policies.py"),Path(__file__).with_name("c2_candidate_cli.py"),Path("tests/test_c2_candidate_policies.py")]
+    paths=[Path(__file__),Path(__file__).with_name("c2_candidate_policies.py"),
+           Path(__file__).with_name("c2_candidate_cli.py"),Path(__file__).with_name("c2_common.py"),
+           Path(__file__).with_name("c2_p0.py"),Path(__file__).with_name("c2_path_metrics.py"),
+           Path(__file__).with_name("c2_costs.py"),Path("tests/test_c2_candidate_policies.py"),
+           Path("tests/test_c2_p0.py")]
     manifest={"run_id":RUN_ID,"created_at_utc":datetime.now(timezone.utc).isoformat(),
         "code_revision":subprocess.run(["git","rev-parse","HEAD"],check=True,capture_output=True,text=True).stdout.strip(),
         "contract_sha256":sha256_file(contract),"frozen_entry_hash":EXPECTED_FROZEN_ENTRY_HASH,"common_horizon_hash":EXPECTED_COMMON_HORIZON_HASH,
@@ -372,6 +488,15 @@ def _write_manifest(artifact_dir:Path,result:dict,summary:dict)->None:
         "research_partitions":research_partitions(),"bootstrap":{"seed":BOOTSTRAP_SEED,"replications":BOOTSTRAP_REPLICATIONS,"block":"calendar_month"},
         "implementation_hashes":{str(p.relative_to(Path.cwd())) if p.is_absolute() else str(p):sha256_file(p) for p in paths},
         "output_hashes":result["summary_hashes"],"paired_trade_semantic_hash":result["paired_trade_semantic_hash"],"paired_trade_file_hash":result["paired_trade_file_hash"],
+        "environment":{"conda_default_env":__import__("os").environ.get("CONDA_DEFAULT_ENV"),
+                       "python_version":sys.version,"interpreter":sys.executable},
+        "source_hashes":{"normalized":{p.name:sha256_file(p) for p in sorted(normalized_dir.glob("*_1m.csv.gz"))},
+                         "aggregates":{p.name:sha256_file(p) for p in sorted(aggregate_dir.glob("*.csv.gz"))}},
+        "input_boundary":{"end_exclusive_utc":"2026-01-01T00:00:00+00:00","2026_outcomes_accessed":False},
+        "deterministic_offline_rebuild_verified":verified,
+        "deterministic_offline_rebuild_evidence":evidence,
+        "reproducibility_scope":{"core_trade_table_and_summaries":"must reproduce",
+                                 "candidate_manifest.json":"not byte-stable when created_at_utc is regenerated"},
         "candidate_censor_counts":{policy:summary["policies"][policy]["diagnostics"]["censored"] for policy in ("P1","P2","P3")},
         "explicitly_not_implemented":["C2-B","ML","parameter tuning","volatility-aware exits","1-minute signal policies"]}
     write_json(artifact_dir/"candidate_manifest.json",manifest)

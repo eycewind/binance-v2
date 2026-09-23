@@ -7,6 +7,7 @@ import pytest
 
 from binance_data_foundation.c2_candidate_policies import decide_p1, decide_p2, decide_p3
 from binance_data_foundation.c2_path_metrics import evaluate_path
+from binance_data_foundation.c2_common import require_pre_holdout_ms
 
 
 START = 1_704_067_200_000
@@ -160,3 +161,9 @@ def test_policy_decision_interfaces_cannot_receive_final_opportunity_metrics() -
     forbidden = {"mfe", "mae", "common_horizon_mfe", "final_mfe", "held_mfe"}
     for function in (decide_p1, decide_p2, decide_p3):
         assert forbidden.isdisjoint(inspect.signature(function).parameters)
+
+
+def test_exact_2026_boundary_is_rejected_before_replay() -> None:
+    with pytest.raises(ValueError,match="at or after 2026 holdout boundary"):
+        require_pre_holdout_ms(1_767_225_600_000,"candidate outcome")
+    assert require_pre_holdout_ms(1_767_225_600_000-M,"candidate outcome")==1_767_225_600_000-M

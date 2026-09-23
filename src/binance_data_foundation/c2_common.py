@@ -86,6 +86,17 @@ def valid_minute(row: dict) -> bool:
             and math.isfinite(base) and base >= 0 and math.isfinite(quote) and quote >= 0 and trades >= 0)
 
 
+def require_pre_holdout_ms(value: object, label: str) -> int:
+    """Validate a timestamp without inspecting any corresponding 2026 outcome values."""
+    try:
+        timestamp_ms = int(value)
+    except (TypeError, ValueError, OverflowError) as exc:
+        raise ValueError(f"invalid {label} timestamp") from exc
+    if timestamp_ms >= STUDY_END_MS:
+        raise ValueError(f"{label} timestamp at or after 2026 holdout boundary")
+    return timestamp_ms
+
+
 def canonical_number(value: float) -> str:
     return f"{value:.17g}"
 

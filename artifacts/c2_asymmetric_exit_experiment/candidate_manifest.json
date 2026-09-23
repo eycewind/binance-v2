@@ -13,7 +13,7 @@
     "P2_entry_containing_5m_bar": "excluded because its entry-minute high has unknown pre/post-fill ordering",
     "P3_entry_5m_close": "eligible at completion; close is observed after entry fill"
   },
-  "code_revision": "34abfea0ed68c142b335c3f8c0b89184749ffcff",
+  "code_revision": "5c2089bbe9708d1be25ec427a9a4013bcb64601b",
   "common_horizon_hash": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
   "contract_sha256": "b111cde192d28fd346949186d20b2cf6a1c5d195c4ce6bd19fd26fdb92505494",
   "cost_scenarios": [
@@ -38,7 +38,34 @@
       "slippage_rate": 0.001
     }
   ],
-  "created_at_utc": "2026-09-23T03:52:48.121458+00:00",
+  "created_at_utc": "2026-09-23T08:04:10.101244+00:00",
+  "deterministic_offline_rebuild_evidence": {
+    "core_result_match": true,
+    "independent_rebuilds": 2,
+    "mode": "--verify-rebuild",
+    "verified_core_hashes": {
+      "common_horizon_hash": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+      "frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+      "paired_trade_file_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+      "paired_trade_rows": 35184,
+      "paired_trade_semantic_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+      "run_id": "C2A_P0_P1_P2_P3_V1",
+      "summary_hashes": {
+        "candidate_cohorts.json": "ff6e7cbde3607bd4301204e4577c7c29cf0bbc7f588de3d522e116395fa9fb41",
+        "candidate_complete_analysis.json": "35de479f718b422a94cef554df522cdfcdea7ce098349178e7906064438ce807",
+        "candidate_dependence.json": "613716aed4e5d7adce8e8d3132cf6cfeead7110cf480e63fcc8e3b1f3387bd03",
+        "candidate_group_summaries.json": "cfac108043dbd929f586ad44da63684777c66bb8875411f27791f5e08f1a4044",
+        "candidate_interpretation.json": "5aecb7f7b984950f5358d38bfb3edb63b6b07339ed4a746d3b4a8526e3983615",
+        "candidate_policy_summary.json": "72835109c5af25104a0084b1dcc36ffc869076e2fa9cef6c977032a17996985b"
+      }
+    }
+  },
+  "deterministic_offline_rebuild_verified": true,
+  "environment": {
+    "conda_default_env": "binance-v2-research",
+    "interpreter": "/home/ata/miniconda3/envs/binance-v2-research/bin/python",
+    "python_version": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+  },
   "explicitly_not_implemented": [
     "C2-B",
     "ML",
@@ -48,15 +75,26 @@
   ],
   "frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
   "implementation_hashes": {
-    "src/binance_data_foundation/c2_candidate_cli.py": "3c0b44005f938ee02905666465f0249eb47012b7f7a723b255268c34a9658ef7",
+    "src/binance_data_foundation/c2_candidate_cli.py": "ddadebd1ed15f31588a93baf021a4412f7dbd30e87febfaa3ee1b88c47901c16",
     "src/binance_data_foundation/c2_candidate_policies.py": "0d549b80e38fb8312f0d55075d96b25b4ce5ee8f1384cdf75e79568ad97a9701",
-    "src/binance_data_foundation/c2_candidate_run.py": "b3cd858c8f61bd282496126d5fa8af4ff0d3370e06699ba7cc05474bc5fd3e16",
-    "tests/test_c2_candidate_policies.py": "6d115b57d8b71e158d760fbb34ad0182ef0f8d1815a81ad3e7bfb0e0d7a4f13f"
+    "src/binance_data_foundation/c2_candidate_run.py": "be2b808594a6e346781b7cc4e1721d2bf3e3352c8ff5e41c589f0d2e53488672",
+    "src/binance_data_foundation/c2_common.py": "a34c8302e0d7865791c330119fce74a435b6bb540ecf3f087a58e9cdb9ed4685",
+    "src/binance_data_foundation/c2_costs.py": "d6ff5b31b77c51e75ca2dbcb5c7d9fdc9ed7d5b630595407af1cfd0107b9260f",
+    "src/binance_data_foundation/c2_p0.py": "d01eaad44890e16a3dd2e30608b37f9829156cae5c68a5a62ac49a65acee72c2",
+    "src/binance_data_foundation/c2_path_metrics.py": "715d00f6c9f654fe1ddd5f738a280bbfee236ed4d7a390e1efe622bcdfd4223c",
+    "tests/test_c2_candidate_policies.py": "0d2b38b8fbb6ed19e63d369aa09426739430334643c2f188dc3a62c26f269ff9",
+    "tests/test_c2_p0.py": "3ba2beffb512ec22c2aaf53efdc7a00a3dcaeaf90f683ad790a9e53691745305"
+  },
+  "input_boundary": {
+    "2026_outcomes_accessed": false,
+    "end_exclusive_utc": "2026-01-01T00:00:00+00:00"
   },
   "output_hashes": {
-    "candidate_cohorts.json": "88636e03f3f3b14b91491bc8c13ca42128d2f6f3e35fe8d88e5f62cf503eb7e6",
+    "candidate_cohorts.json": "ff6e7cbde3607bd4301204e4577c7c29cf0bbc7f588de3d522e116395fa9fb41",
+    "candidate_complete_analysis.json": "35de479f718b422a94cef554df522cdfcdea7ce098349178e7906064438ce807",
     "candidate_dependence.json": "613716aed4e5d7adce8e8d3132cf6cfeead7110cf480e63fcc8e3b1f3387bd03",
     "candidate_group_summaries.json": "cfac108043dbd929f586ad44da63684777c66bb8875411f27791f5e08f1a4044",
+    "candidate_interpretation.json": "5aecb7f7b984950f5358d38bfb3edb63b6b07339ed4a746d3b4a8526e3983615",
     "candidate_policy_summary.json": "72835109c5af25104a0084b1dcc36ffc869076e2fa9cef6c977032a17996985b"
   },
   "paired_trade_file_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
@@ -79,6 +117,10 @@
     "P2_M5_TRAIL1_AFTER_GAIN1_V1",
     "P3_M5_MOMENTUM_DETERIORATION_V1"
   ],
+  "reproducibility_scope": {
+    "candidate_manifest.json": "not byte-stable when created_at_utc is regenerated",
+    "core_trade_table_and_summaries": "must reproduce"
+  },
   "research_partitions": {
     "headline_evaluation": {
       "end_exclusive_utc": "2026-01-01T00:00:00+00:00",
@@ -93,5 +135,26 @@
       "start_utc": "2023-12-31T00:00:00+00:00"
     }
   },
-  "run_id": "C2A_P0_P1_P2_P3_V1"
+  "run_id": "C2A_P0_P1_P2_P3_V1",
+  "source_hashes": {
+    "aggregates": {
+      "BNBUSDT_1h.csv.gz": "175e102d2893771392dc54df22f33fe3d37a66a0b681fdd33a2d5e5a89899f3a",
+      "BNBUSDT_5m.csv.gz": "240f995297f699dbe4447e1b8c75b79fe399486051aacb015e41d9854450df59",
+      "BTCUSDT_1h.csv.gz": "f9f9453665b89a8bb7c10c84c4257f606856f6f31996a6b34b30fa2649c97971",
+      "BTCUSDT_5m.csv.gz": "d03158a81dbacd97c149e68b77b467cebe46ba35a4571e8a3c486417372f32d5",
+      "ETHUSDT_1h.csv.gz": "ed03a4bafbebdc7c0b3936abc12a7597ff467659d566bf954bc17c41f2b43e67",
+      "ETHUSDT_5m.csv.gz": "50e57bce10b6dd4a3b4221adae739f7de406991f4fdb60add9233d4becbcd93e",
+      "SOLUSDT_1h.csv.gz": "936a588a20660ef80ff5f3b2c45590bff4cfafde4232100db8eca14e81716a20",
+      "SOLUSDT_5m.csv.gz": "6c71ba711fabd286c16de08cf296eb077a88d2d59f743bb0c56e3c3af7afe85d",
+      "XRPUSDT_1h.csv.gz": "49da571c398801b2b45450aa2d8f7efb0d05720e551815f8f632aa07248943c8",
+      "XRPUSDT_5m.csv.gz": "c55e59696915fd499272e2c82e788ecefeb8935df273dac48e038fee39c0ec4e"
+    },
+    "normalized": {
+      "BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+      "BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+      "ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+      "SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+      "XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+    }
+  }
 }

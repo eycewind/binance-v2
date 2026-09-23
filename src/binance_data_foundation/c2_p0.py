@@ -11,7 +11,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .c2_common import ENTRY_COLUMNS, hash_rows, iso, iter_gzip_csv, research_partitions, valid_minute, write_json
+from .c2_common import (ENTRY_COLUMNS, hash_rows, iso, iter_gzip_csv, research_partitions,
+                        require_pre_holdout_ms, valid_minute, write_json)
 from .c2_costs import COST_SCENARIOS, apply_round_trip_costs
 from .c2_entries import hourly_sma24
 from .c2_path_metrics import evaluate_path
@@ -85,6 +86,7 @@ def build_p0_checkpoint(
     entries = list(csv.DictReader(entries_path.open(encoding="utf-8", newline="")))
     by_symbol: dict[str, list[dict]] = defaultdict(list)
     for entry in entries:
+        require_pre_holdout_ms(entry["entry_execution_ms"], "frozen entry")
         by_symbol[entry["symbol"]].append(entry)
     horizons: list[dict] = []
     trades: list[dict] = []
@@ -94,7 +96,7 @@ def build_p0_checkpoint(
         minute_lookup = {}
         dataset_last_ms = -1
         for row in iter_gzip_csv(normalized_dir / f"{symbol}_1m.csv.gz"):
-            ts = int(row["open_time_ms"])
+            ts = require_pre_holdout_ms(row["open_time_ms"], "normalized minute")
             dataset_last_ms = max(dataset_last_ms, ts)
             if valid_minute(row):
                 minute_lookup[ts] = row

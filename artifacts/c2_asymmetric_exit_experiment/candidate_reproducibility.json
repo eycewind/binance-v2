@@ -1,14 +1,18 @@
 {
-  "first_paired_trade_semantic_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
-  "frozen_entry_hash_unchanged": true,
   "common_horizon_hash_unchanged": true,
-  "second_offline_rebuild": true,
-  "second_paired_trade_semantic_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
-  "compact_summary_hashes_reproduced": {
-    "candidate_cohorts.json": "88636e03f3f3b14b91491bc8c13ca42128d2f6f3e35fe8d88e5f62cf503eb7e6",
+  "frozen_entry_hash_unchanged": true,
+  "independent_offline_rebuilds": 2,
+  "manifest_byte_identity_expected": false,
+  "manifest_note": "created_at_utc is regenerated; core trade-table and summary hashes must reproduce",
+  "paired_trade_semantic_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+  "semantic_hashes_reproduced": true,
+  "summary_hashes_reproduced": {
+    "candidate_cohorts.json": "ff6e7cbde3607bd4301204e4577c7c29cf0bbc7f588de3d522e116395fa9fb41",
+    "candidate_complete_analysis.json": "35de479f718b422a94cef554df522cdfcdea7ce098349178e7906064438ce807",
     "candidate_dependence.json": "613716aed4e5d7adce8e8d3132cf6cfeead7110cf480e63fcc8e3b1f3387bd03",
     "candidate_group_summaries.json": "cfac108043dbd929f586ad44da63684777c66bb8875411f27791f5e08f1a4044",
+    "candidate_interpretation.json": "5aecb7f7b984950f5358d38bfb3edb63b6b07339ed4a746d3b4a8526e3983615",
     "candidate_policy_summary.json": "72835109c5af25104a0084b1dcc36ffc869076e2fa9cef6c977032a17996985b"
   },
-  "semantic_hashes_reproduced": true
+  "verification_mode": "--verify-rebuild"
 }
