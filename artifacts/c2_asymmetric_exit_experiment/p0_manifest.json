@@ -1,0 +1,80 @@
+{
+  "aggregate_hashes": {
+    "BNBUSDT_1h.csv.gz": "175e102d2893771392dc54df22f33fe3d37a66a0b681fdd33a2d5e5a89899f3a",
+    "BNBUSDT_5m.csv.gz": "240f995297f699dbe4447e1b8c75b79fe399486051aacb015e41d9854450df59",
+    "BTCUSDT_1h.csv.gz": "f9f9453665b89a8bb7c10c84c4257f606856f6f31996a6b34b30fa2649c97971",
+    "BTCUSDT_5m.csv.gz": "d03158a81dbacd97c149e68b77b467cebe46ba35a4571e8a3c486417372f32d5",
+    "ETHUSDT_1h.csv.gz": "ed03a4bafbebdc7c0b3936abc12a7597ff467659d566bf954bc17c41f2b43e67",
+    "ETHUSDT_5m.csv.gz": "50e57bce10b6dd4a3b4221adae739f7de406991f4fdb60add9233d4becbcd93e",
+    "SOLUSDT_1h.csv.gz": "936a588a20660ef80ff5f3b2c45590bff4cfafde4232100db8eca14e81716a20",
+    "SOLUSDT_5m.csv.gz": "6c71ba711fabd286c16de08cf296eb077a88d2d59f743bb0c56e3c3af7afe85d",
+    "XRPUSDT_1h.csv.gz": "49da571c398801b2b45450aa2d8f7efb0d05720e551815f8f632aa07248943c8",
+    "XRPUSDT_5m.csv.gz": "c55e59696915fd499272e2c82e788ecefeb8935df273dac48e038fee39c0ec4e"
+  },
+  "censor_counts": {},
+  "code_revision": "44ed4c529b793f366761ec05932940047718f842",
+  "common_horizon_semantic_hash": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+  "contract_sha256": "b111cde192d28fd346949186d20b2cf6a1c5d195c4ce6bd19fd26fdb92505494",
+  "cost_scenarios": [
+    {
+      "fee_rate": 0.0,
+      "id": "C0",
+      "slippage_rate": 0.0
+    },
+    {
+      "fee_rate": 0.001,
+      "id": "C_BASE",
+      "slippage_rate": 0.0002
+    },
+    {
+      "fee_rate": 0.001,
+      "id": "C_S5",
+      "slippage_rate": 0.0005
+    },
+    {
+      "fee_rate": 0.001,
+      "id": "C_S10",
+      "slippage_rate": 0.001
+    }
+  ],
+  "created_at_utc": "2026-09-23T02:50:08.040691+00:00",
+  "explicitly_not_implemented": [
+    "P1",
+    "P2",
+    "P3",
+    "C2-B"
+  ],
+  "frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "implementation_hashes": {
+    "src/binance_data_foundation/c2_costs.py": "d6ff5b31b77c51e75ca2dbcb5c7d9fdc9ed7d5b630595407af1cfd0107b9260f",
+    "src/binance_data_foundation/c2_p0.py": "138f0127a5b0915b46985882adfaec729fd0a8c0b08c4c8146998c557357579f",
+    "src/binance_data_foundation/c2_p0_cli.py": "0c00eeb0271618fede7b3eb1125583d8d0e2c00305a7d3ece4d1237488422240",
+    "src/binance_data_foundation/c2_path_metrics.py": "715d00f6c9f654fe1ddd5f738a280bbfee236ed4d7a390e1efe622bcdfd4223c",
+    "tests/test_c2_p0.py": "3ba2beffb512ec22c2aaf53efdc7a00a3dcaeaf90f683ad790a9e53691745305"
+  },
+  "implemented_policies": [
+    "P0_H1_SMA24_CROSSDOWN_V1"
+  ],
+  "output_hashes": {
+    "common_horizons_p0.csv": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+    "p0_reproducibility.json": "ae880839be211011e77e2af55947ef80ca7f4b0d55bae3a4bf65c999fb0254f4",
+    "p0_summary.json": "ece0f53b50c8596e2042c2aa58a1f2dbd37e50a5a2ae4c8888c70385822ac108",
+    "p0_trade_records.csv": "b3c44b5f609d6651cba51ceb743843b709b85bdcb593f1e967034016f7163848"
+  },
+  "p0_version": "P0_H1_SMA24_CROSSDOWN_V1",
+  "research_partitions": {
+    "headline_evaluation": {
+      "end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+      "start_utc": "2024-04-01T00:00:00+00:00"
+    },
+    "sanity_calibration": {
+      "end_exclusive_utc": "2024-04-01T00:00:00+00:00",
+      "start_utc": "2024-01-01T00:00:00+00:00"
+    },
+    "warmup": {
+      "end_exclusive_utc": "2024-01-01T00:00:00+00:00",
+      "start_utc": "2023-12-31T00:00:00+00:00"
+    }
+  },
+  "run_id": "C2A_P0_COMMON_HORIZON_V1"
+}
