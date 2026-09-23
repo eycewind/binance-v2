@@ -1,0 +1,44 @@
+{
+  "candidate_cohort_governance": {
+    "definitions": {
+      "damaged": "p0_raw_return > 0 and candidate raw_price_return <= 0; the P0 outcome may occur after candidate exit",
+      "large_mfe_truncated_prematurely": "common_horizon_mfe >= 0.02 and later foregone gain >= 0.005; uses future common-horizon information",
+      "later_foregone_gain": "max(0, max(candidate-exit-exclusive future 1m highs before the common horizon and the common-horizon execution price) / candidate exit price - 1); uses the future path after candidate exit through the common horizon",
+      "rescued": "p0_raw_return <= 0 and candidate raw_price_return > 0; the P0 outcome may occur after candidate exit"
+    },
+    "status": "retrospective_descriptive_diagnostics_only",
+    "warnings": [
+      "rescued and damaged may depend on P0 outcomes occurring after candidate exit",
+      "later foregone gain uses the future path after candidate exit through the common horizon",
+      "large-MFE prematurely truncated uses future common-horizon information",
+      "these labels are retrospective descriptive diagnostics only",
+      "these labels must not be used as causal features",
+      "these labels must not be used as policy-selection evidence",
+      "these labels do not prove candidate superiority"
+    ]
+  },
+  "candidate_hypotheses_for_future_contract": [
+    "Pre-register whether early milestone arrival distinguishes continuation from reversal using one fixed timing definition and dependence-aware validation.",
+    "Pre-register whether a candidate-policy early exit followed by delayed milestone attainment identifies a reproducible premature-exit regime.",
+    "Pre-register a temporal stability analysis across calendar blocks without choosing thresholds or parameters from the present results."
+  ],
+  "exploratory_findings": [
+    "Positive continuation and reversal are closely balanced after milestones: after +1%, the first resolved event was +2% for 432 trades and return to entry for 385; after +2%, it was +3% for 279 and return to +1% for 264.",
+    "Rescued trades reached early milestones sooner than damaged trades for every accepted candidate; this is associative and must not be converted into a timing rule on these data.",
+    "Damaged and large-MFE prematurely truncated trades retained substantial later appreciation, especially for P3, whose median candidate holding time was much shorter than its median time to +1% or +2% in those cohorts.",
+    "Threshold reach rates and time-to-+1% differ by symbol, with SOL highest/fastest and BTC lowest/slower in this five-symbol sample; symbols are not independent replications.",
+    "The sanity and headline partitions differ at larger thresholds, so any future temporal-regime hypothesis requires pre-registration rather than retrospective subdivision."
+  ],
+  "future_contract_requirement": "Any temporal hypothesis must be pre-registered and frozen before confirmation.",
+  "holdout_note": "2026 data are reserved as untouched confirmation data. No 2026 prices, entries, paths, exits, or outcomes were inspected. Any future rule inspired by this analysis must be frozen before accessing 2026 data.",
+  "prohibited": [
+    "selecting a new TP",
+    "selecting a new SL",
+    "selecting a new trail distance",
+    "selecting a new activation threshold",
+    "selecting a new momentum rule",
+    "ranking thresholds",
+    "optimizing parameters on these data"
+  ],
+  "status": "hypothesis_generating_only"
+}

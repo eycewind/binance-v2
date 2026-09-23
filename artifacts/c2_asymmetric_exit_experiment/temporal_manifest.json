@@ -1,0 +1,79 @@
+{
+  "analysis_only": true,
+  "candidate_paired_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+  "code_revision": "4cac8c6afabcfec415329e82c013897100a018e0",
+  "common_horizon_hash": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+  "contract_sha256": "b111cde192d28fd346949186d20b2cf6a1c5d195c4ce6bd19fd26fdb92505494",
+  "created_at_utc": "2026-09-23T07:36:47.101746+00:00",
+  "deterministic_offline_rebuild_evidence": {
+    "core_result_match": true,
+    "independent_rebuilds": 2,
+    "mode": "--verify-rebuild",
+    "verified_hashes": {
+      "output_hashes": {
+        "temporal_candidate_diagnostics.json": "1e45702d3233dfae0171cb177c986b5f47c192ea304b98201eb41f7820298771",
+        "temporal_drawdown_summary.json": "d52f9773ab839f2e7ad9d590b6c74de1393eebce46546eaf469ada7cb537582e",
+        "temporal_first_passage_summary.json": "937848386506f5e42ce2728a8daaf03a2521f514a726a2f38510afb96d0e575c",
+        "temporal_group_summaries.json": "38639f3b986fe6ff0c4ad738621b32b23be984c273899f625d72a1940cdce348",
+        "temporal_observations.json": "98979d58542ab28f2ded459db2a64c3453b84f489e87f232c4cfbbccee9c3a88",
+        "temporal_transition_1pct.json": "e105d16556946af0acd69da3cfc2f64b5c5b50ee7aa9835cf311fc0d8d260c4c",
+        "temporal_transition_2pct.json": "338248b5c488a6d58d8cb127676ce8a82f0ab9e4e613f267e9569f4fe0f1d6e5"
+      },
+      "row_count": 2199,
+      "row_file_hash": "f74a15be84868c54714fa8e13d48b3e46c3aa74ef527f1b279c56239f7390f1b",
+      "row_semantic_hash": "f74a15be84868c54714fa8e13d48b3e46c3aa74ef527f1b279c56239f7390f1b"
+    }
+  },
+  "deterministic_offline_rebuild_verified": true,
+  "frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "implementation_hashes": {
+    "/media/ata/Data/personal/binance-v2/src/binance_data_foundation/c2_temporal.py": "ecc1f1b349e6c4a5ed0d2678d24ffd5d8d934ba8c7e0faf34bb4a9a702ff8df5",
+    "/media/ata/Data/personal/binance-v2/src/binance_data_foundation/c2_temporal_cli.py": "924051b43f3aa3ca75ed1086994b43f8a37df19ec630cc01efd39ea355d914ea",
+    "tests/test_c2_temporal.py": "5119f4f438c9bef7da37765e4fb509694e99c360dde1e66ca9d1b0e5f0100a7d"
+  },
+  "input_boundary": {
+    "2026_accessed": false,
+    "end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+    "reject_timestamps_at_or_after_boundary": true
+  },
+  "new_exit_rules": false,
+  "output_hashes": {
+    "temporal_candidate_diagnostics.json": "1e45702d3233dfae0171cb177c986b5f47c192ea304b98201eb41f7820298771",
+    "temporal_drawdown_summary.json": "d52f9773ab839f2e7ad9d590b6c74de1393eebce46546eaf469ada7cb537582e",
+    "temporal_first_passage_summary.json": "937848386506f5e42ce2728a8daaf03a2521f514a726a2f38510afb96d0e575c",
+    "temporal_group_summaries.json": "38639f3b986fe6ff0c4ad738621b32b23be984c273899f625d72a1940cdce348",
+    "temporal_observations.json": "98979d58542ab28f2ded459db2a64c3453b84f489e87f232c4cfbbccee9c3a88",
+    "temporal_transition_1pct.json": "e105d16556946af0acd69da3cfc2f64b5c5b50ee7aa9835cf311fc0d8d260c4c",
+    "temporal_transition_2pct.json": "338248b5c488a6d58d8cb127676ce8a82f0ab9e4e613f267e9569f4fe0f1d6e5"
+  },
+  "parameter_tuning": false,
+  "reproducibility_scope": {
+    "core_outputs_and_hashes": "must reproduce",
+    "temporal_manifest.json": "not expected to be byte-identical when created_at_utc is regenerated"
+  },
+  "research_partitions": {
+    "headline_evaluation": {
+      "end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+      "start_utc": "2024-04-01T00:00:00+00:00"
+    },
+    "sanity_calibration": {
+      "end_exclusive_utc": "2024-04-01T00:00:00+00:00",
+      "start_utc": "2024-01-01T00:00:00+00:00"
+    },
+    "warmup": {
+      "end_exclusive_utc": "2024-01-01T00:00:00+00:00",
+      "start_utc": "2023-12-31T00:00:00+00:00"
+    }
+  },
+  "row_count": 2199,
+  "row_file_hash": "f74a15be84868c54714fa8e13d48b3e46c3aa74ef527f1b279c56239f7390f1b",
+  "row_semantic_hash": "f74a15be84868c54714fa8e13d48b3e46c3aa74ef527f1b279c56239f7390f1b",
+  "run_id": "C2A_TEMPORAL_PATH_KINETICS_V1",
+  "thresholds": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ]
+}
