@@ -1,0 +1,9 @@
+{
+  "aggregate_hashes_reproduced": true,
+  "archive_verification_reproduced": true,
+  "first_run_frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "frozen_entry_hash_reproduced": true,
+  "normalized_hashes_reproduced": true,
+  "second_run_frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "second_run_mode": "offline immutable-cache revalidation and complete rebuild"
+}

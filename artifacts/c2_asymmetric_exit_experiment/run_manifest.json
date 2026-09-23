@@ -1,0 +1,256 @@
+{
+  "aggregate_hashes": {
+    "BNBUSDT_1h.csv.gz": "175e102d2893771392dc54df22f33fe3d37a66a0b681fdd33a2d5e5a89899f3a",
+    "BNBUSDT_5m.csv.gz": "240f995297f699dbe4447e1b8c75b79fe399486051aacb015e41d9854450df59",
+    "BTCUSDT_1h.csv.gz": "f9f9453665b89a8bb7c10c84c4257f606856f6f31996a6b34b30fa2649c97971",
+    "BTCUSDT_5m.csv.gz": "d03158a81dbacd97c149e68b77b467cebe46ba35a4571e8a3c486417372f32d5",
+    "ETHUSDT_1h.csv.gz": "ed03a4bafbebdc7c0b3936abc12a7597ff467659d566bf954bc17c41f2b43e67",
+    "ETHUSDT_5m.csv.gz": "50e57bce10b6dd4a3b4221adae739f7de406991f4fdb60add9233d4becbcd93e",
+    "SOLUSDT_1h.csv.gz": "936a588a20660ef80ff5f3b2c45590bff4cfafde4232100db8eca14e81716a20",
+    "SOLUSDT_5m.csv.gz": "6c71ba711fabd286c16de08cf296eb077a88d2d59f743bb0c56e3c3af7afe85d",
+    "XRPUSDT_1h.csv.gz": "49da571c398801b2b45450aa2d8f7efb0d05720e551815f8f632aa07248943c8",
+    "XRPUSDT_5m.csv.gz": "c55e59696915fd499272e2c82e788ecefeb8935df273dac48e038fee39c0ec4e"
+  },
+  "aggregation_version": "c2-causal-aggregate-v1",
+  "code_revision": "0de9f9d97bec7bc87a7bd3963a147d7f779e24c9",
+  "contract_sha256": "b111cde192d28fd346949186d20b2cf6a1c5d195c4ce6bd19fd26fdb92505494",
+  "created_at_utc": "2026-09-23T01:05:40.713375+00:00",
+  "entry_fixture_id": "E1_H1_SMA24_CROSS_V1",
+  "environment": {
+    "dependency_lock": "environment.yml",
+    "interpreter": {
+      "executable_name": "python",
+      "implementation": "cpython"
+    },
+    "name": "binance-v2-research",
+    "python": "3.11.16"
+  },
+  "exclusion_counts": {
+    "aggregates": {
+      "BNBUSDT": {
+        "1h": 0,
+        "5m": 0
+      },
+      "BTCUSDT": {
+        "1h": 0,
+        "5m": 0
+      },
+      "ETHUSDT": {
+        "1h": 0,
+        "5m": 0
+      },
+      "SOLUSDT": {
+        "1h": 0,
+        "5m": 0
+      },
+      "XRPUSDT": {
+        "1h": 0,
+        "5m": 0
+      }
+    },
+    "refractory": 2689,
+    "unexecutable": 0
+  },
+  "frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "gap_rules": "no imputation; invalid/missing minute invalidates aggregate; gap breaks SMA24",
+  "implementation_hashes": {
+    "environment.yml": "b95c4487610ac6ace868d808ee37be58a10b9a28facdfe718950ccd853d51097",
+    "pyproject.toml": "46067806b1143d055c258901cd6c17858133e5d8370575f37078c683408cf52b",
+    "src/binance_data_foundation/c2_acquisition.py": "01ad6071e80003a269993ec4ef32cef2c39690747df10850b96ed8b81d1653a5",
+    "src/binance_data_foundation/c2_aggregation.py": "881d0eb148173ec64d8c8b44d0bf545a895153346252eeddeb0d7d6cb5d4dc24",
+    "src/binance_data_foundation/c2_cli.py": "e38016debb0005e8a4495f399fc7c4080ff74e69a64c4412761808c18ae0f792",
+    "src/binance_data_foundation/c2_common.py": "4a29d0ba89870a5c97d407dfe659e7b75652751b95fa819b9e0f884a7cc99564",
+    "src/binance_data_foundation/c2_entries.py": "afa045fb99ca559c8f88435f3ec274042783b2fafcb3f043ff4483fffa8daa6b",
+    "src/binance_data_foundation/c2_inputs.py": "ef948719be94b4b6a0246744bb069f6fd32fab497174ff0d320a50d601029c99",
+    "tests/test_c2_inputs.py": "fb5c85e9215b4771c1055f685e9722f789aa355f11b3c54ff970160816ff3771"
+  },
+  "normalized_data_hashes": {
+    "BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+    "BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+    "ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+    "SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+    "XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+  },
+  "research_partitions": {
+    "headline_evaluation": {
+      "end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+      "start_utc": "2024-04-01T00:00:00+00:00"
+    },
+    "sanity_calibration": {
+      "end_exclusive_utc": "2024-04-01T00:00:00+00:00",
+      "start_utc": "2024-01-01T00:00:00+00:00"
+    },
+    "warmup": {
+      "end_exclusive_utc": "2024-01-01T00:00:00+00:00",
+      "start_utc": "2023-12-31T00:00:00+00:00"
+    }
+  },
+  "row_counts": {
+    "aggregates": {
+      "BNBUSDT": {
+        "1h": 17568,
+        "5m": 210816
+      },
+      "BTCUSDT": {
+        "1h": 17568,
+        "5m": 210816
+      },
+      "ETHUSDT": {
+        "1h": 17568,
+        "5m": 210816
+      },
+      "SOLUSDT": {
+        "1h": 17568,
+        "5m": 210816
+      },
+      "XRPUSDT": {
+        "1h": 17568,
+        "5m": 210816
+      }
+    },
+    "normalized": {
+      "BNBUSDT": 1054080,
+      "BTCUSDT": 1054080,
+      "ETHUSDT": 1054080,
+      "SOLUSDT": 1054080,
+      "XRPUSDT": 1054080
+    }
+  },
+  "source_hashes": {
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2023-12.zip": "c0d5c4b0e25e4ec6935045f7ff96a6b18b5744486c986f48624c880fc7acfdd1",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-01.zip": "6bc9948753f7ef4b109782e893b7178ee66fdb0a699452cb3b79fb2e8034a8be",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-02.zip": "84800bd26ab0dea2155e53635d17694ab4f451f45dc03c9f537a36bdc6ebf621",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-03.zip": "8a4df7dbdd67d4bb9ff502651c302017438582679cc1be0e92e45c670dd9842d",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-04.zip": "c6550174f5d7c18c17059a2fb04b2feb1f0ba157d81bfd59ddd35620f098d985",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-05.zip": "5ddce5d44b87aff836793d64d9c2df82ffc86f6c3aab816ccc67663fe4dd41d8",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-06.zip": "67c99e87129b17e820ea32efb556c879df768ca811ed11bba0619f41defe6818",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-07.zip": "91a63ac48834904c5b3f82cdb830a810c53754a1e7bb93cdd84e5a86bb07afa5",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-08.zip": "3e9dc5b4c0e9855a37cc0e26634c0f076005a5657e0bc94c7bcb5d1d7659b114",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-09.zip": "831a16a2f11ba502dceb26ae850ab470223c25ff475471058f41d640fca28c67",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-10.zip": "08a49b62fd39ef74744031f88bfe4daf55f33a6f86ef24c58a54a36951c932b0",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-11.zip": "3c2d85c31afa46074579b7fa5bb7115ff04d992f3ef64f276b02d2cc97958e2c",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2024-12.zip": "90a679f7a36190e1cfdf2ac86d81be50d7f1f4ddcb70587cf4c42391c8204926",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-01.zip": "f342de7d79c41337c7937b25fe41f8e9ca2472ab1cb5c5de3cf328f0636d587c",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-02.zip": "57a5659e7f9662f5962288f95ecb730a739d51fcfa3ed15ce13715dfdc156ce8",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-03.zip": "ca8bbcefab05f22410deaeda7afcd5ac010ba6a21e52290b2c28e350279952e7",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-04.zip": "3747f8dc45267a102b5a95cfff7d090610e9d9cc804635d9b8a48b84c38878da",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-05.zip": "55dec1a2ce8ce174a45b13982a4f57837d31de4565ccd180dba6e8fdc606787b",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-06.zip": "e25f4d9b207c477c29d5c518d56e867fcde27da88a2e42fd9e738f1ab1b41c14",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-07.zip": "24b0467ca191a502478fcbeea18b624461e3b4841ed31e900dc6956a53b333e6",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-08.zip": "639e8ac67badd8c1b7b7b88d38fa916bb5c93aba101db12f6aca7109b095d263",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-09.zip": "fd7dfed0ad339c4965b82a30fe429ab45fe1a1332ab119d7c1d5a58c885ecda9",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-10.zip": "7bfeb8f2d94e3df58edaa71c52cb45ea2107d096edba1f0c562b7c538743529d",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-11.zip": "991d89f1a096d58207bc803f69e554c8a3578342167b4c3687801706da9ac954",
+    "data/raw/c2_binance_vision_monthly/BNBUSDT/1m/BNBUSDT-1m-2025-12.zip": "d7a1c0fca809b140fab5e07f20ca13322448c1d55bc6e63e42a6bcb75958fc67",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2023-12.zip": "c8b684a66b5ddbb58bf116251359c2dd83a07ce46791f4caa16dd4301eb17636",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-01.zip": "40b78258091a468f8756843f207f5913eafc1d6e756c40a78711320d93fa5e75",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-02.zip": "431132e0db8b9fe6e5c93c8e9ba3ae37dbcfa0edcdd57618b1b78ac18d14be79",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-03.zip": "a9af86295eae839f1d072643c67eed7fcc47bb1d82c12ef312d041eec9511e7b",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-04.zip": "753040cbfaa72bf9b1fdc6253a3b521a9a174a664dfd0929a556be327b016bc6",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-05.zip": "0f709143f66a09acc430d24a5f27f9accd52689c23ce10f2c0b6ea26997bfa8a",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-06.zip": "90f4fc3f55918787848c71f4cd0f2f1a5851bbffaf6392e76e9ab555b7479d2b",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-07.zip": "9cfd749fd2027a0c6f261bed607b49dd1256369fb41b784934544a3676f8162e",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-08.zip": "6a1cac2a5482132dc5a030534aa028e2becc560877f2b93b7add90194f576c42",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-09.zip": "1e30f6091b05eeb7b0449735d749354b81ab429ab1449bae82a21e316db8eac3",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-10.zip": "13f7f9f9bed652fd152422246cfbcaefa6223692c5c37fb3ca4e72f45501e607",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-11.zip": "c30a63bd0e8a77f2d18a2a019272b907f29a84fd5378796cf9333b041edcb12b",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2024-12.zip": "58fef0b7c7abce7a0201efd04ed3732f236f607f3fcecf228fb8384cad1ae2c1",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-01.zip": "8d028b2f91aad57d6b693d44449c93f9c4b7044f55f298c8a3ac40ab676dafac",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-02.zip": "26b3795072983a66bdbe8327e0d5e71069bdd5ca831d4da3850ba68ef7a991ef",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-03.zip": "e333601b6c721434f3cdd6670ffde2371bef7946572864c49ba6431a690ab1ca",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-04.zip": "4103d48887f9f5ec04144b190314ec31db9e3094674e5d53a3436b338854848f",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-05.zip": "7f95bf97e3ccfbb55cd002f124a54dc1726ced7cfd54e6fd200e59845ca95d5c",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-06.zip": "f95f6169e253d38fb321c87984c827878634250cdcc3ff84fc3507f036bcabbd",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-07.zip": "3377e023fe252418cfaf46c9e23b3f0d1e56fb2fd89b4191fc66262b947a0ee2",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-08.zip": "11da1c7db8949cbdcbb757531756eda55f2a3d663cfac671c5d1a8a87911318f",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-09.zip": "52bb4a4a52afbcc0af77e3eb92c114bf810982ca63bf02f8fe15062e59c5f44b",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-10.zip": "985d878cacbfdde85c9e0da2e8830ab913fe01bfdcde6e488563d8194df11f6b",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-11.zip": "c54159d1216ab07f040a96d6678748e8746ac4200cba373fb6b758f2cdd1e5e5",
+    "data/raw/c2_binance_vision_monthly/BTCUSDT/1m/BTCUSDT-1m-2025-12.zip": "7b47647352b01356dcd678a1438efb8baac03ed798785ed2179d428aab0cca9b",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2023-12.zip": "9a0d342828ced43d17a97341234ec9d6344eba9945b5a5dccc73eabb253a83bb",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-01.zip": "2fb2c9b77365183f77e185de3578de2f3be5fefe433d7c0564f033f968d5e23c",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-02.zip": "ede3c9d4d47a5e9fdbc2e37b7086d97d4bcceec54316dd345fe0a1f8e648c443",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-03.zip": "b63d885ef49b4e0f2a654ab02c5dcb502fb8abeb7300f3ebff4a33aadd3d4a82",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-04.zip": "9c6ef16ea4e0593ac4547d2f6c64c272d8f39806871473c4877885af47a67b88",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-05.zip": "4e09e26b7a2b352d24c25f6fc6cdd531d167d460a48226e4a8080413e0bb5e66",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-06.zip": "27040862f050687c6da296108dfcfb29e0500e0f9c8dd73669146e9e68a128c0",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-07.zip": "bda530d17235096c0e619edff1bef56154923b980d7a73406ea66114966ba0d2",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-08.zip": "de64ff8c0e9bd0ff9ca7fc4015948fac94087c7293915a2a7f7bb47780e98e60",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-09.zip": "cb2ef3750b2608a871dcc6db479382e33b7d341f89ea17ed58b9fd44db88a793",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-10.zip": "99b11df1d79a2408d639cf512f1cfc6a4df4687de9146bd6271f9489ba15a8ba",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-11.zip": "2c3e15ae6458707b07d2d8b51ad6634756153bc65f9bbb44d5ddb7ecdbccd0c6",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2024-12.zip": "76e33a1db36f036c1e5866de2ebc54ab825522c801e1f9c487a85be781af4716",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-01.zip": "04ab6131e9f8ad979676b72115a8cfaf7e4f827b06f44cdf80c840d95016766d",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-02.zip": "5ec2fb4e87e29241745ee7e9449fb86f4f44bad96508a80a1af0e308d73c6f5a",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-03.zip": "609346fc0dc8f8f1cf283c5cb373d1bb25f26f1716fc67c3883d2176ce9cf40b",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-04.zip": "32505b36565f7c446a3946dc6ea2f511e71d0f72c13cca2b09bb83307f198f8e",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-05.zip": "743268912388656e3c53d21e6e4b6c2b155c1b1f67c7bcbdae5e14cc3d9c633c",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-06.zip": "eb7641c42f642697524ce45f64c92bcc33a751b6ade791f91f70e3ec52880a70",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-07.zip": "b95c721b528260d865585f0723d287c836f2f22bb681ac45e0c56eaaf0047bd9",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-08.zip": "aaebc0e2baa7d7dcfcf6eb3eeb681b55a2e746dad86e758be0af7fca4391c480",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-09.zip": "2912831352b3e194ac38f7a66a373ea78f138dfd4fe5a3ac25acb80c5ccaa0ec",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-10.zip": "a384d1bea37e4f59f7cae491a6f3f2dffe262259a4a0bc9324310a9aef16a843",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-11.zip": "30b80de8cbbd68edf2b2bf76154f60e6edb0f8365e08e6d5afc63657e26e0f7c",
+    "data/raw/c2_binance_vision_monthly/ETHUSDT/1m/ETHUSDT-1m-2025-12.zip": "57b653e4ff3558fae8d2e6da616c40e6cfad4002f131584f82ae7a80bd228293",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2023-12.zip": "335a0559f1002c6df42ab766f10536fa59e0f1dcc1f1b1b2075e2b36e9e1b310",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-01.zip": "8cd5f9de14cfc4df6be0ca8d3a31312dfcb73e8708a43bd0771f72362e6801a1",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-02.zip": "98634ed346b2033d13007f61d8dcf74300707336b04b84c18b700c534d57f579",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-03.zip": "c45e24d174a27184832f9eaf51fc0a868b94b4a54ab3593f695b9c8f11c68551",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-04.zip": "1d00b8db8e8e7cc857f03294b62013a5359da916035569807e2b5a8c4a1ca790",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-05.zip": "cf7d3fdbfd054d6b04e038d8ec77b7b061aa931d6f826ce61827d9581d96c5d7",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-06.zip": "9306082f84656cf28fca2b873445f32307bccd0b5ea6663de77ae80b6e7df9a3",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-07.zip": "c7b3651243e94833644c533ba80c10815281043aeaa7a76b8444f90db4746bad",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-08.zip": "52d6a02057c08d24eae41a53dede0d8af12b8ef8bf2306ae205593937f53264f",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-09.zip": "958f32e0f6ac85f101a7df60d3db315bed43e17029123916e043576219dc044c",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-10.zip": "c815560ef2e4cbafa16f8e8c671a9aedca2fcc1553b27bcf58563164ee6df3e8",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-11.zip": "623bef1653fe496b04fe96c5629ab6fbb46adcd4a3f2d25d34106beed1aeffa6",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2024-12.zip": "3e9e2d3e525c4afea0d55366354af2ad839424e7104f98b40c847137a45f1376",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-01.zip": "17417b784a28ba659dcd6adb3598f67cc1a987ceda7e5048ce20807617d2c603",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-02.zip": "1a7e23c61791fe35644b464d9e464d666f3920a2dfd608890ec39b3c01cd5eef",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-03.zip": "092baef0e6d61a56b33ea11272651fa4e1a323e012befa67dee193c1eb39550a",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-04.zip": "21189f395bd5d7e15f55956139812212e9c5e329eb6eacde552cedaff2b59a6f",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-05.zip": "7fdc3b4c5a7440f3967ccf610a50f7476ce08f8d353dbc547da27aa9597acf11",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-06.zip": "df0158c33ab9fc73b268f31b5af5b3c22f0be44470f821e8cccf5e99f24d8ca1",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-07.zip": "5b7ef20e0fbc11a99f3cd5dcc677f35599723bbc85598de9bf3654a885905e52",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-08.zip": "ace20c6d317ff28f70b5b3684afc3ba7bc2099a98ddc6c1bde4f63db46fa571b",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-09.zip": "067ddd8e2e2b09f4848175ec04371b67d8c7d2ad5d37460b37cca7b24b0d0b10",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-10.zip": "af138c5fae53940a0da3d5af1a296a8ef22ffade83e054e4803a5d7371af3763",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-11.zip": "5188939b56b57813d2b39d4d5d184e0a6e3e44fc79206eb25e0c6e958cf3cb3d",
+    "data/raw/c2_binance_vision_monthly/SOLUSDT/1m/SOLUSDT-1m-2025-12.zip": "8ff4ac3d9f3411c31a892585e6906a71df701e3febc195e1da685c244125f774",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2023-12.zip": "133af64d455ff9030fb87b5fe2030a8d4e9b1d26f0ceecb5c19afae93d23763c",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-01.zip": "7307c945202ff1ca4c7253cafd0eb32c7fb386f6affc626b05085dcca8bc6ab1",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-02.zip": "bb09ee2826c57f65cbbe01910e8ee87865e3e2c0e61bfa53bde2d85052361c03",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-03.zip": "67b6cc9a7a95f742598c2e322aa3575150ca72f0ce97c8d2d35fc7b02c6a0875",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-04.zip": "7723a19e8e732ebac38bfd602772b5bc35866d878c02d37da8e4fd6892010c6e",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-05.zip": "a1231fd035be7bab1094c652de47a5943fc6dbd1055e3ae41c61f96134aece73",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-06.zip": "21cbc69db10fe45a7ec09983332dc6d6421ff84518d9fa6ef4f4943b67e6eb40",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-07.zip": "08c29b28bc0408777ee9b3e5d4ad083972ca494f1d9f9611909d5130df8e67a6",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-08.zip": "4c59e3ea764bdd93aea41c1431aa9fb6279ccf652ddfac58a4e5271317defdb6",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-09.zip": "bc5dc9b1f099dbf7abf37234badb0ace9a0dd9d72883be63cd3dac540d5eee1e",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-10.zip": "00d72539d3a2e6759b460e2f969ec446bfb23ada4a3cd2df081c0e61253a6a0a",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-11.zip": "95b32d9b9b25a3c214f2eb225897e786c2469f7f9c759774b5d7ab87ce3de97c",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2024-12.zip": "1772d2484aade02a23777136c98ac3dad2373cc3418a356f6d9fe70d88bfb83e",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-01.zip": "adb07ea7b299df986e8a74fa9525ad5522c795bfacc682526c903bfd17d5de8c",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-02.zip": "2f3a926688aa36a940e2052fcc55464ea7f034cc9ee62552e4210639fe0153c1",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-03.zip": "46d8e32361471192470a749d45b3fb167b4329e45a4b15d22110ceec1618f151",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-04.zip": "a36194224399ccb1a53e19610de4c2a0dd8be4cf0d85893005b1893c37b28590",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-05.zip": "0e17b5a7e1d0e8598e694a8c763d0224f730fbf82970719f4dc1cb2b4e48b48d",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-06.zip": "f54e89eb4911d54c17143d32f223cf892113cc1db7c0e482fde3a2ef4941d75c",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-07.zip": "93036a494c26e7296cc96070a1ae2aecc1839a992f05fd40191b35775a13991b",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-08.zip": "3525f0f8100e0943d2791022b2739b8f8a67f9bbe3b6a0e98e4c80ebcb111884",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-09.zip": "ccbf9cbff5114b17730d636736a0cf43d10890c47fd717c570acd855ed0eca65",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-10.zip": "62d243fdd90cfaabc9ddaf9f18b92c20cae0961904e03aaedbe6a611452ddc83",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-11.zip": "057714b020871ce17c7161cd24c844bacc8191fc6051b4e65103619f26934453",
+    "data/raw/c2_binance_vision_monthly/XRPUSDT/1m/XRPUSDT-1m-2025-12.zip": "1135342ebc45fd42a1d344882e08a44b2e8ad08f21f07a937ad48b5e313a932d"
+  },
+  "source_start_utc": "2023-12-31T00:00:00+00:00",
+  "study_end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+  "study_start_utc": "2024-01-01T00:00:00+00:00",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "BNBUSDT"
+  ]
+}

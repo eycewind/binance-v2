@@ -1,0 +1,65 @@
+{
+  "actual_verified_archives": 125,
+  "archive_bytes": 238284231,
+  "expected_archives": 125,
+  "first_open_utc": {
+    "BNBUSDT": "2023-12-31T00:00:00+00:00",
+    "BTCUSDT": "2023-12-31T00:00:00+00:00",
+    "ETHUSDT": "2023-12-31T00:00:00+00:00",
+    "SOLUSDT": "2023-12-31T00:00:00+00:00",
+    "XRPUSDT": "2023-12-31T00:00:00+00:00"
+  },
+  "last_open_utc": {
+    "BNBUSDT": "2025-12-31T23:59:00+00:00",
+    "BTCUSDT": "2025-12-31T23:59:00+00:00",
+    "ETHUSDT": "2025-12-31T23:59:00+00:00",
+    "SOLUSDT": "2025-12-31T23:59:00+00:00",
+    "XRPUSDT": "2025-12-31T23:59:00+00:00"
+  },
+  "normalized_bytes": 217270796,
+  "normalized_hashes": {
+    "BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+    "BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+    "ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+    "SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+    "XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+  },
+  "research_partitions": {
+    "headline_evaluation": {
+      "end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+      "start_utc": "2024-04-01T00:00:00+00:00"
+    },
+    "sanity_calibration": {
+      "end_exclusive_utc": "2024-04-01T00:00:00+00:00",
+      "start_utc": "2024-01-01T00:00:00+00:00"
+    },
+    "warmup": {
+      "end_exclusive_utc": "2024-01-01T00:00:00+00:00",
+      "start_utc": "2023-12-31T00:00:00+00:00"
+    }
+  },
+  "row_counts": {
+    "BNBUSDT": 1054080,
+    "BTCUSDT": 1054080,
+    "ETHUSDT": 1054080,
+    "SOLUSDT": 1054080,
+    "XRPUSDT": 1054080
+  },
+  "schema_version": "c2-history-1m-gzip-v1",
+  "source_start_utc": "2023-12-31T00:00:00+00:00",
+  "study_end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+  "study_start_utc": "2024-01-01T00:00:00+00:00",
+  "success": true,
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "BNBUSDT"
+  ],
+  "theoretical_row_counts": {
+    "1h_per_symbol": 17568,
+    "1m_per_symbol": 1054080,
+    "5m_per_symbol": 210816
+  }
+}
