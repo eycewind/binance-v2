@@ -1,0 +1,97 @@
+{
+  "bootstrap": {
+    "block": "calendar_month",
+    "replications": 2000,
+    "seed": 20260923
+  },
+  "candidate_censor_counts": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "causal_assumptions": {
+    "P2_entry_containing_5m_bar": "excluded because its entry-minute high has unknown pre/post-fill ordering",
+    "P3_entry_5m_close": "eligible at completion; close is observed after entry fill"
+  },
+  "code_revision": "34abfea0ed68c142b335c3f8c0b89184749ffcff",
+  "common_horizon_hash": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+  "contract_sha256": "b111cde192d28fd346949186d20b2cf6a1c5d195c4ce6bd19fd26fdb92505494",
+  "cost_scenarios": [
+    {
+      "fee_rate": 0.0,
+      "id": "C0",
+      "slippage_rate": 0.0
+    },
+    {
+      "fee_rate": 0.001,
+      "id": "C_BASE",
+      "slippage_rate": 0.0002
+    },
+    {
+      "fee_rate": 0.001,
+      "id": "C_S5",
+      "slippage_rate": 0.0005
+    },
+    {
+      "fee_rate": 0.001,
+      "id": "C_S10",
+      "slippage_rate": 0.001
+    }
+  ],
+  "created_at_utc": "2026-09-23T03:52:48.121458+00:00",
+  "explicitly_not_implemented": [
+    "C2-B",
+    "ML",
+    "parameter tuning",
+    "volatility-aware exits",
+    "1-minute signal policies"
+  ],
+  "frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "implementation_hashes": {
+    "src/binance_data_foundation/c2_candidate_cli.py": "3c0b44005f938ee02905666465f0249eb47012b7f7a723b255268c34a9658ef7",
+    "src/binance_data_foundation/c2_candidate_policies.py": "0d549b80e38fb8312f0d55075d96b25b4ce5ee8f1384cdf75e79568ad97a9701",
+    "src/binance_data_foundation/c2_candidate_run.py": "b3cd858c8f61bd282496126d5fa8af4ff0d3370e06699ba7cc05474bc5fd3e16",
+    "tests/test_c2_candidate_policies.py": "6d115b57d8b71e158d760fbb34ad0182ef0f8d1815a81ad3e7bfb0e0d7a4f13f"
+  },
+  "output_hashes": {
+    "candidate_cohorts.json": "88636e03f3f3b14b91491bc8c13ca42128d2f6f3e35fe8d88e5f62cf503eb7e6",
+    "candidate_dependence.json": "613716aed4e5d7adce8e8d3132cf6cfeead7110cf480e63fcc8e3b1f3387bd03",
+    "candidate_group_summaries.json": "cfac108043dbd929f586ad44da63684777c66bb8875411f27791f5e08f1a4044",
+    "candidate_policy_summary.json": "72835109c5af25104a0084b1dcc36ffc869076e2fa9cef6c977032a17996985b"
+  },
+  "paired_trade_file_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+  "paired_trade_semantic_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+  "parameters": {
+    "P1": {
+      "sl": 0.01,
+      "tp": 0.02
+    },
+    "P2": {
+      "activation": 0.01,
+      "trail": 0.01
+    },
+    "P3": {
+      "consecutive_negative_5m_returns": 2
+    }
+  },
+  "policy_versions": [
+    "P1_BRACKET_TP2_SL1_V1",
+    "P2_M5_TRAIL1_AFTER_GAIN1_V1",
+    "P3_M5_MOMENTUM_DETERIORATION_V1"
+  ],
+  "research_partitions": {
+    "headline_evaluation": {
+      "end_exclusive_utc": "2026-01-01T00:00:00+00:00",
+      "start_utc": "2024-04-01T00:00:00+00:00"
+    },
+    "sanity_calibration": {
+      "end_exclusive_utc": "2024-04-01T00:00:00+00:00",
+      "start_utc": "2024-01-01T00:00:00+00:00"
+    },
+    "warmup": {
+      "end_exclusive_utc": "2024-01-01T00:00:00+00:00",
+      "start_utc": "2023-12-31T00:00:00+00:00"
+    }
+  },
+  "run_id": "C2A_P0_P1_P2_P3_V1"
+}

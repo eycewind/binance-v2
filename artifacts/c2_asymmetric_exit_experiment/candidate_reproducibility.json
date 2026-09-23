@@ -1,0 +1,14 @@
+{
+  "first_paired_trade_semantic_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+  "frozen_entry_hash_unchanged": true,
+  "common_horizon_hash_unchanged": true,
+  "second_offline_rebuild": true,
+  "second_paired_trade_semantic_hash": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+  "compact_summary_hashes_reproduced": {
+    "candidate_cohorts.json": "88636e03f3f3b14b91491bc8c13ca42128d2f6f3e35fe8d88e5f62cf503eb7e6",
+    "candidate_dependence.json": "613716aed4e5d7adce8e8d3132cf6cfeead7110cf480e63fcc8e3b1f3387bd03",
+    "candidate_group_summaries.json": "cfac108043dbd929f586ad44da63684777c66bb8875411f27791f5e08f1a4044",
+    "candidate_policy_summary.json": "72835109c5af25104a0084b1dcc36ffc869076e2fa9cef6c977032a17996985b"
+  },
+  "semantic_hashes_reproduced": true
+}
