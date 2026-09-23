@@ -9,3 +9,5 @@ data/raw/
 data/normalized/
 artifacts/c1_binance_data_foundation/raw/
 artifacts/c1_binance_data_foundation/normalized/
+artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv
+artifacts/c2_asymmetric_exit_experiment/p0_trade_records.csv
