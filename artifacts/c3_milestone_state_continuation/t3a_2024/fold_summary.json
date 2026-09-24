@@ -1,0 +1,110 @@
+{
+  "M1": {
+    "fold_a": {
+      "purged": {
+        "train": {
+          "boundary_resolution": 0,
+          "null_label": 5,
+          "total": 5
+        },
+        "validation": {
+          "boundary_resolution": 0,
+          "null_label": 2,
+          "total": 2
+        }
+      },
+      "train": {
+        "base_rate": 0.5337078651685393,
+        "n": 178,
+        "negative": 83,
+        "positive": 95
+      },
+      "validation": {
+        "base_rate": 0.45714285714285713,
+        "n": 105,
+        "negative": 57,
+        "positive": 48
+      }
+    },
+    "fold_b": {
+      "purged": {
+        "train": {
+          "boundary_resolution": 0,
+          "null_label": 7,
+          "total": 7
+        },
+        "validation": {
+          "boundary_resolution": 0,
+          "null_label": 5,
+          "total": 5
+        }
+      },
+      "train": {
+        "base_rate": 0.5053003533568905,
+        "n": 283,
+        "negative": 140,
+        "positive": 143
+      },
+      "validation": {
+        "base_rate": 0.5,
+        "n": 98,
+        "negative": 49,
+        "positive": 49
+      }
+    }
+  },
+  "M2": {
+    "fold_a": {
+      "purged": {
+        "train": {
+          "boundary_resolution": 0,
+          "null_label": 1,
+          "total": 1
+        },
+        "validation": {
+          "boundary_resolution": 0,
+          "null_label": 0,
+          "total": 0
+        }
+      },
+      "train": {
+        "base_rate": 0.532258064516129,
+        "n": 124,
+        "negative": 58,
+        "positive": 66
+      },
+      "validation": {
+        "base_rate": 0.4583333333333333,
+        "n": 72,
+        "negative": 39,
+        "positive": 33
+      }
+    },
+    "fold_b": {
+      "purged": {
+        "train": {
+          "boundary_resolution": 0,
+          "null_label": 1,
+          "total": 1
+        },
+        "validation": {
+          "boundary_resolution": 0,
+          "null_label": 3,
+          "total": 3
+        }
+      },
+      "train": {
+        "base_rate": 0.5051020408163265,
+        "n": 196,
+        "negative": 97,
+        "positive": 99
+      },
+      "validation": {
+        "base_rate": 0.4666666666666667,
+        "n": 60,
+        "negative": 32,
+        "positive": 28
+      }
+    }
+  }
+}

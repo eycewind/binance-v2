@@ -1,0 +1,87 @@
+{
+  "attempt_count": 56,
+  "attempt_ledger_semantics": "immutable complete per-run ledger; cumulative research-history ledger not produced",
+  "bootstrap": {
+    "block": "calendar month",
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "replications": 2000,
+    "rule": "linear type-7",
+    "seed": 20240923
+  },
+  "configuration_sha256": "59708bd6bd981a0f2dcca3d1b21e79a7ccf700397930c550bfe8a3125d1af9c4",
+  "core_hashes": {
+    "attempt_ledger.json": "b23f769e34664a78a2f856e84078b916da929a8abc7f2b0d0d9f0956821032d2",
+    "attempt_ledger.jsonl": "002def89359f49974a55c7614e9f6bde88679c522d2c84e4b4c4f9b8df8563e8",
+    "coefficients.json": "b45e63ed90cc68ddf710a35f0ac6cb929525e0dcd929e51074f51148b4d0ced5",
+    "comparisons.json": "10874e80e3c0a12b4199841abcd7ab8a7f81ec7bcff4ca937c283d177a369fc3",
+    "final_models.json": "14b3466599ebb1f9ed2add7ca956fea669084298708b9c0c47fd531a528d2602",
+    "final_preprocessing.json": "f9201c2657533954a4c29f3231134586e4987aee7353012ca598082cf5f78ae9",
+    "final_training.json": "1247236ef331a81e4b2c37ee70efe1d7a331112cf4768722522c03220bc17ea4",
+    "fold_summary.json": "272aafe3bdb59e0ebd696ab9eab30740e6461a5a21ca6d0100c4979cfc91db22",
+    "freeze_specifications.json": "bf90102aea6f45d39d1a179ed392086d82716aa7274282941536f2f94e739c68",
+    "metrics.json": "d9bfe03d4a2122dc6f75d8993200e46e9744a0fb28b6c18d432ddf5d5a85e148",
+    "models.json": "491a35facd648f57f7112be70f641888b8dfb17f3dfa0d6bf2c39fba62ea6398",
+    "predictions.json": "5500bdaf5be8c85b85a8d8cbc86e13bb1a7c42728d553283234396754b0bfe0c",
+    "preprocessing.json": "48eee1b64afe96d6ec97fc01fc0d0b9f1ec69078766a54112de42a7e888545b1",
+    "robust_probability_changes.json": "1966bc6f737d908d9f8d4a01edfb3edba11974bed0c0aa427ebdf93df9401ee5"
+  },
+  "development_rows_loaded": {
+    "M1": 393,
+    "M2": 260
+  },
+  "economic_analysis_run": false,
+  "environment": {
+    "conda": "binance-v2-research",
+    "interpreter": "/home/ata/miniconda3/envs/binance-v2-research/bin/python",
+    "python": "3.11.16"
+  },
+  "expected_attempt_count": 56,
+  "feature_eligible_totals": {
+    "M1": 806,
+    "M2": 546
+  },
+  "limitations": {
+    "M1": "fastest excluded arrivals are under 10 minutes",
+    "M2": "fastest excluded arrivals are within 5 minutes",
+    "path_efficiency_5m": "unchanged; no imputation"
+  },
+  "repository": {
+    "branch": "research/c3-milestone-state-continuation",
+    "head": "6661fdaebc4da5acb8429abe5558b6e5abab35a1",
+    "remote": "git@github.com:eycewind/binance-v2.git"
+  },
+  "seals": {
+    "2025_predictive_outcomes_inspected": false,
+    "2025_scored": false,
+    "2026_data_accessed": false,
+    "2026_paths_enumerated": false
+  },
+  "source_and_test_hashes": {
+    "artifacts/c3_milestone_state_continuation/feature_schema.json": "1259d04b31364f157108fa7cda737dc7de6d7c8c63bc8af6252d641fe4c41347",
+    "contracts/C3_milestone_state_continuation_CONTRACT.md": "d1df751c1005995e27f93d04d7f7dc7c40180862870dfa5727e7b708546d3f2d",
+    "src/binance_data_foundation/c3_t3a.py": "432a1110205187d4014fbdfc0ec0829e0b6aef0b8eb20bda808533784850acfb",
+    "src/binance_data_foundation/c3_t3a_cli.py": "6c4f34c3be5064d92a6aa6f495a97512adac4cb9af605dc67bf4e2c9537e2c34",
+    "tests/test_c3_t3a.py": "2220b2abe51a2c1c18a2dd20049f1e06de8d7a41197157b466be015f64eb6f93"
+  },
+  "verified_t1t2_hashes": {
+    "artifacts/c2_asymmetric_exit_experiment/c2a_paired_trade_records.csv": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+    "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+    "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "contracts/C3_milestone_state_continuation_CONTRACT.md": "d1df751c1005995e27f93d04d7f7dc7c40180862870dfa5727e7b708546d3f2d",
+    "feature_schema.json": "1259d04b31364f157108fa7cda737dc7de6d7c8c63bc8af6252d641fe4c41347",
+    "input_manifest.json": "cb5dd90fdffaca618a1b504e686206012d73b725d21e83ee1ff1091155e9fd3f",
+    "m1_audit.csv": "9d709e18553493c14ec5546cd9c6fcf8755d718c2901a3971fc9e0b39cac499a",
+    "m1_feature_row_keys.csv": "fc275669e6341c5906c004355f73f6307b10499a1a8478449ba1b5394968b628",
+    "m1_features.csv": "5797f8c58029017fea8bd2025f0732a97220c9093362e2e18c6267e1238af1c8",
+    "m1_outcomes.csv": "97c81994b97d714dd25f01c643b627608fd346ebe8942fd54395e05791fba427",
+    "m2_audit.csv": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+    "m2_feature_row_keys.csv": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+    "m2_features.csv": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+    "m2_outcomes.csv": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3",
+    "reproducibility_manifest.json": "c72dbc290f16281cfa145a55715688c4a0baf57008491a056602d13d3520e292"
+  },
+  "version": "C3_T3A_REPRODUCIBILITY_V1"
+}

@@ -1,0 +1,438 @@
+{
+  "M1": {
+    "fold_a_L1_C0.1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.05552731533264434,
+        "q025": -0.12038372305145165,
+        "q975": -0.018568832117814512
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.15437355029725816,
+        "q025": -0.3202265515435291,
+        "q975": -0.04376454342410283
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L1_C10_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.020613914383571744,
+        "q025": -0.027895688243226746,
+        "q975": 0.05912280696798929
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.1845728528272632,
+        "q025": 0.04473199429853226,
+        "q975": 0.3709667191225048
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L1_C1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.0021425407502846648,
+        "q025": -0.04633145972121066,
+        "q975": 0.04053792512506481
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.07565445744150767,
+        "q025": -0.05976407583925039,
+        "q975": 0.22144903285647866
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L2_C0.1_minus_L1_C0.1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.010500947574395925,
+        "q025": -0.006484967780916245,
+        "q975": 0.030550847580010265
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.03626683784641449,
+        "q025": 0.008635034552154652,
+        "q975": 0.08412306501481985
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L2_C10_minus_L1_C10": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.00982458390986509,
+        "q025": -0.008294275316377803,
+        "q975": 0.018935977355732693
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.08548726328585196,
+        "q025": 0.050931799990999706,
+        "q975": 0.1387450791897645
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L2_C1_minus_L1_C1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.007721460969325562,
+        "q025": -0.013489114609332081,
+        "q975": 0.026667707839726044
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.059343894484269945,
+        "q025": 0.01621264415224786,
+        "q975": 0.12475102816134603
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L1_C0.1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.01328926218321781,
+        "q025": -0.0003103854229586552,
+        "q975": 0.03503583906387541
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.03149209892776883,
+        "q025": 0.003257405028524141,
+        "q975": 0.07606136281097227
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L1_C10_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.03148818640358336,
+        "q025": 0.00912833217813181,
+        "q975": 0.06504532639747665
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.08298726601926264,
+        "q025": 0.029481905447614445,
+        "q975": 0.16381776432871087
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L1_C1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.027792548689060056,
+        "q025": 0.007091301575765764,
+        "q975": 0.05924274748284917
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.07159871613909648,
+        "q025": 0.023638582875464206,
+        "q975": 0.14508193962374494
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L2_C0.1_minus_L1_C0.1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.004511706791404455,
+        "q025": -0.013082175715147715,
+        "q975": 0.0052430965256489845
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.009810215367506812,
+        "q025": -0.031933687664156066,
+        "q975": 0.014883773626834147
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L2_C10_minus_L1_C10": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.002184005328418582,
+        "q025": -0.01106074865746347,
+        "q975": 0.00649070294138128
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.009408994479419034,
+        "q025": -0.03174453358360488,
+        "q975": 0.005472375446675183
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L2_C1_minus_L1_C1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.002819413789763614,
+        "q025": -0.011538630262447754,
+        "q975": 0.006086235890959547
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.00965478011936758,
+        "q025": -0.03177460213791799,
+        "q975": 0.007724081438961373
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    }
+  },
+  "M2": {
+    "fold_a_L1_C0.1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.021897005434033962,
+        "q025": -0.05216623437844537,
+        "q975": 0.03943683127380733
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.05898738535613467,
+        "q025": -0.12400384480919463,
+        "q975": 0.08231145209021254
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L1_C10_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.05310004495992198,
+        "q025": -0.0016786522372125485,
+        "q975": 0.09173293497996896
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.2228881188640399,
+        "q025": 0.08148876444187529,
+        "q975": 0.3260063960946841
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L1_C1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.02960046689788013,
+        "q025": -0.012846667203217185,
+        "q975": 0.06897296745227637
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.10627140113644065,
+        "q025": 0.015550208144020014,
+        "q975": 0.18204651660339372
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L2_C0.1_minus_L1_C0.1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.022705664852663454,
+        "q025": -0.03043535408503432,
+        "q975": -0.009657826298815871
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.04963212490602782,
+        "q025": -0.06462882638261344,
+        "q975": -0.026017979334035077
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L2_C10_minus_L1_C10": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.01973885868571681,
+        "q025": -0.029117844972317206,
+        "q975": -0.01239163077018168
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.05442594030548546,
+        "q025": -0.10128217679628324,
+        "q975": -0.01954413720575197
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_a_L2_C1_minus_L1_C1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.027999626976361706,
+        "q025": -0.04510039504286857,
+        "q975": -0.007335705660692646
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.076366764963712,
+        "q025": -0.12475644393759183,
+        "q975": -0.029268158107541218
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L1_C0.1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.006502766404814881,
+        "q025": -0.01830695784048054,
+        "q975": 0.005144398910837161
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.012000437176140874,
+        "q025": -0.03680219783709507,
+        "q975": 0.01242630610582394
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L1_C10_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.013493556635429498,
+        "q025": 0.002616422059956971,
+        "q975": 0.03222737260713154
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.04158234310442338,
+        "q025": 0.005085563715385488,
+        "q975": 0.09867722317596038
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L1_C1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.007660700774853267,
+        "q025": 0.0010108337861510024,
+        "q975": 0.01918699299341591
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.025283645847644056,
+        "q025": 0.005757470745252876,
+        "q975": 0.062126472994665234
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L2_C0.1_minus_L1_C0.1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.0026841085022111053,
+        "q025": -0.04002084256709893,
+        "q975": 0.05862231588245452
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.003671199054653489,
+        "q025": -0.0898274079097148,
+        "q975": 0.11793912725337487
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L2_C10_minus_L1_C10": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.03446809000580557,
+        "q025": -0.0071137356565068,
+        "q975": 0.10785287430208275
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.10477581185186047,
+        "q025": 0.019952295481446763,
+        "q975": 0.23020833726355683
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "fold_b_L2_C1_minus_L1_C1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.024077526128629973,
+        "q025": -0.020394568249046785,
+        "q975": 0.09652792660754825
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.060795293386541494,
+        "q025": -0.04306991174493624,
+        "q975": 0.20326257693841068
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    }
+  }
+}

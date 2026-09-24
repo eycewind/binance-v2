@@ -1,0 +1,4938 @@
+{
+  "M1_fold_a_L0_C1": [
+    {
+      "coefficient": 0.007455675305757648,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.14433465845525328,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.013816464785374466,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1750643947747177,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.28567312361629166,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.13612377380661553,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.30757371326230315,
+      "name": "symbol=SOLUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.28928757893532175,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3441862452088807,
+      "name": "sin_month",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6126400292387773,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_a_L1_C0.1": [
+    {
+      "coefficient": 0.3769289777319285,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1902455368505179,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.033720537413798,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.18809768336752886,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09985821542063805,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.13523560097570886,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.011377677488912413,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.038610004238183684,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.0894028464332196,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.18166617289799486,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.20111451438493108,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3013369327603624,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.07146095951284112,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09502015720597848,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10454675104994698,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.061584329423495426,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.21202978875718073,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.008054720131056195,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2014211124346999,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.004880336504640236,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15764431403021642,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.07809728124277907,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3050325018717566,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15434352897119477,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0858437269138411,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09319427295708355,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.2934345076271621,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.06389615188748717,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.053861565217196296,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08476386415657569,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.047891017269747836,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.022424778651611535,
+      "name": "symbol=SOLUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.16409166799190836,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.21411641612004415,
+      "name": "sin_month",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.22501758454529358,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_a_L1_C1": [
+    {
+      "coefficient": 0.4635532752806209,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.30640211567884706,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.03974062071997709,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.2957428382899457,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.10835292150626248,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6811576637381792,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.061588864671823805,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.18791877429961923,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.18166485256171158,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3390663630868942,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.4592591841709777,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5963347676667221,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03133106128999841,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1579096059417967,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.4032915078268067,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.02305736813887315,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.5575537098431684,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1484486810198031,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5082470479811599,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1262300541268346,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20454518356560578,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.14199698819473835,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6407045771065651,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3462066390260442,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.20378574511537692,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.284311186318139,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.8120369807702094,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.0892293055180657,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.19577351481755675,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1285612072195886,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.023249997734008408,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.05914908954108741,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.36023381384422515,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3909974927358679,
+      "name": "sin_month",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5296190707401061,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_a_L1_C10": [
+    {
+      "coefficient": 0.5334563210788182,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.37013614655101496,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.05677798575835984,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3049044763936366,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.11560703133893588,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 1.2461341248636866,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.05366893112034206,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2515591003844822,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3405369608529278,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.5203163141224325,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.48511928489989725,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.7093586014700519,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08731511279941301,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.22737739273041474,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5166114501008268,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20168365947930889,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.6863711796865558,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.22180212522199264,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6393881938885847,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.190990691779241,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20931458109706164,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.16752981401161163,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.7802247902096606,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.4263231238981313,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.10429272955210751,
+      "name": "base_volume_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.729907398088576,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -1.0253847064638342,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.11440067812351265,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2928196432610175,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0903512305741327,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.10450346416011452,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10689351488665307,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.38556092456168095,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.45731724134986595,
+      "name": "sin_month",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.656710767210157,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_a_L2_C0.1": [
+    {
+      "coefficient": 0.3881762953230598,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.18277169474645377,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.030692911891082836,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.18170987931884194,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.06839904904144326,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.11220710080891826,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.023242520998261094,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.08552252236410066,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.07850602204451483,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09266445324932245,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.14515447855346367,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2513136306775779,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0012408183043776824,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.09448656254141945,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15240800565775822,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.020780381521468973,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2019395756135604,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.010062196131640569,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2121786156767196,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.012611780530341525,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1985903063706517,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.04170535689887618,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.2550768681510668,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.16261652349826644,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.052639345274932324,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.05971397242190156,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.25860111031477756,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.0981909337646293,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.18161811837664762,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3080343884979614,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.08260538716101498,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1714962655620208,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1496684536679155,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.022889095726359672,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03323239643181395,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.037229791224141676,
+      "name": "btc_eth_agreement_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.05859356833090271,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.07321771937832171,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.010058693470402764,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.029768568245251176,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.17163854942487816,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2260475300197588,
+      "name": "sin_month",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.23229706001572362,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_a_L2_C1": [
+    {
+      "coefficient": 0.5315452630332759,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3091398347561495,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05273329003323657,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3083762414982701,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.045272739147045625,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.48546376595272384,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.14108730525295887,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.30644672665321115,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3170832829747868,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.20348027734294422,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.37730647476702767,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.4862692183109243,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.07847627332431821,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.10751631491773712,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5744035580811694,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09584747212732798,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.5832281867292849,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.14650197325119996,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5397043576295156,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09352176436362361,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2903795009651571,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09896550427516126,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5161127627362327,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3374658182315205,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15349996501722496,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.22839328715883547,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.747328290836687,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15585341386082588,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.6516604277041923,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.928963903208053,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3772247723080695,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3799458684120195,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.15299011413292257,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2851895121911964,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.014195408172790866,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12127506778703583,
+      "name": "btc_eth_agreement_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20021868315572325,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.14432137245256588,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.06446598646816172,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.16051288453231766,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.44058695367244427,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.39522695092307975,
+      "name": "sin_month",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5188723169774565,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_a_L2_C10": [
+    {
+      "coefficient": 0.664157562936851,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.35251747374002174,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.03808240306999018,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.38663715792781483,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.032054806818357186,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.7485063011104733,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1888309463617889,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.4543537737954512,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6385479631222329,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.39044374095645035,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.4647658360673699,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5875723391207682,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.19222238733691743,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.10291057616536947,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.7938257694754414,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.3923346611210991,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.8146003090965056,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.22481719692900404,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.695401741723228,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1646236884967338,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.3403965951939819,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.12409295986199599,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6096393506556179,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.43675153433146263,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.10053023487869697,
+      "name": "base_volume_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6658576368527737,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -1.009373354519914,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1969623078513864,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.9865394667974201,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 1.4903013153087825,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6946909231143944,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5907900608394844,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5738336174652954,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5882470353686807,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.024548030913237318,
+      "name": "other_four_breadth_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20862723055118151,
+      "name": "btc_eth_agreement_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2984293594086392,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.132436336155522,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.09059598818748893,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2146075988727731,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5548773062494277,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.454744013421741,
+      "name": "sin_month",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6005419532109582,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_b_L0_C1": [
+    {
+      "coefficient": -0.03033524940457147,
+      "name": "intercept",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.012155274243636322,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.030778461833837322,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1387957932344576,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.021401630290306454,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1389566630577251,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.21721810092804283,
+      "name": "symbol=SOLUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08193598565444764,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.07953559736656174,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.3205996574659095,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_b_L1_C0.1": [
+    {
+      "coefficient": 0.2185197897925467,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.13690169947610611,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.001918130539276004,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1355572560887652,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08648409759008299,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12567707395068076,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.06461812146712385,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.08203000055997452,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.012330965207367437,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2409154736673623,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.21100102278152544,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.24329227361484534,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.14586015470851063,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.02447532638144367,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10672904913484531,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.041221412191810594,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15300608106283495,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.12950060766148033,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.273018733000495,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.020106944115994434,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.20189813396059825,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0899120690203539,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.326721037129927,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.14210669603802434,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.015749867266739874,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.022470911336107884,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3160999127981563,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.16285164812008646,
+      "name": "quote_volume_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.06885841512056337,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.05380567227450901,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.039362674256385725,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.02629927962412642,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.08071469672656624,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.07647853141574633,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.22226999781841889,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_b_L1_C1": [
+    {
+      "coefficient": 0.3102389095329493,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.219157801254264,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.0448838951447993,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.21145794363304196,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09333807069282346,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.4353162202394101,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.08193755504555278,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.17223037391953921,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.02826792815630583,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.36659307788585277,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.4015304975289902,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.4362294716140294,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.12419833928195159,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.004322891159590429,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2860532844245937,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.09009450645567212,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.24655174959536363,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.15583188015860552,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.4742026794604488,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.007544434669297856,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.24749060339713788,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.13925391531828626,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5160427730577232,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2586048835890996,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.007832169193971832,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09073333973219982,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5784387997958765,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.23333134142128992,
+      "name": "quote_volume_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.16753295312108352,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.16885808702786692,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.016395764396789272,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.13073818520457783,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.14580881569458748,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15063935865161232,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.25605669248353236,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_b_L1_C10": [
+    {
+      "coefficient": 0.35318202415928124,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.26132316152471047,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05396222937895462,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2013431530545381,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09539895058491046,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6348260240778265,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.035098470318869666,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.19370013854408724,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08627119982844832,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5179144425964929,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.37380565262171517,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.4843424835104047,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.017495575119805862,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.00477475358059902,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3296697070467181,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1515114139512511,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.26005059498336064,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.16130551732804496,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.521190817952184,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.01507604935291608,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.25397291819587475,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.14983422293262658,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5589765126760612,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.28949315763842376,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.36722925899967623,
+      "name": "base_volume_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.48689537242757736,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6398958402834778,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.24487727036047302,
+      "name": "quote_volume_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2074981170515841,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.21270478021879569,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.004658228378357911,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15569708942725483,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.14583219788169371,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.17260607893238458,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.25759007096716285,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_b_L2_C0.1": [
+    {
+      "coefficient": 0.20294747988303896,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.13355438099852163,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.03956829540094057,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.13282042206997954,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.07924942954524088,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10983844393810323,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.08197461542892236,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1277271634809591,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.004880939781334404,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.16438442619922652,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1600436048982182,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.17208399117415285,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.08538720668054808,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.03553528210990453,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.11842658264605371,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.01301595688792938,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1273082674463604,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.13157196435877874,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2769511674399217,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.04276090496627952,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.23619205841462595,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08568574185179074,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.2810021515085668,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15317232959264943,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0006935240151829261,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0068340361258031465,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.30077071366030167,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1629914292548651,
+      "name": "quote_volume_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03517310795602096,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.18349667902743225,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1322835094709917,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10620189956987099,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.10648064033758202,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.046666735095204526,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.059316751055774435,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.049983429895753495,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.04978816403800595,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.061732377839737805,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.023808892204872985,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.059230948059637384,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.07109562646277853,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.054144323553925164,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.22086808823912768,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_b_L2_C1": [
+    {
+      "coefficient": 0.2890723669035169,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.21478028131097704,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08272439416270239,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2120091905113866,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08006891241052391,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3394132549950634,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.13516690560523814,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2198816837867936,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.015398471005521913,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.26111405893796646,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3200251641987527,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3110216013249173,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.05262258383284722,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.006420035081987071,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3157301773818524,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.032275860076899685,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.21413009867646676,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1586033330204197,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.48371438101134007,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03180758638349056,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.29833890832351984,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1471137081155133,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4347495418203902,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.25637067890498355,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.009736315495317506,
+      "name": "base_volume_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.06534768064543515,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5600135750170736,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.23371637716865817,
+      "name": "quote_volume_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1244351904514832,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.33953821453538535,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.24229454227249148,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15402337697841098,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.015568511773105264,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.029505496364553525,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.05275883612695842,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1270067396964618,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12127858167023013,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.17063847599127374,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.004885437475848008,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.18407027746650567,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.13959582062130885,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10227659456117519,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2540785696159132,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M1_fold_b_L2_C10": [
+    {
+      "coefficient": 0.32818783964626097,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.23607333758803142,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08836101977806925,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.22603371760307603,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08081019236211354,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.46995647099910637,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.11907349271942007,
+      "name": "negative_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.24156675332243335,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0014316416874870614,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3979322941341169,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2928827699656387,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3453151703681123,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.04485637832271192,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.006323262867895998,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.36770414946553626,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.053608709119745086,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.23270210633334215,
+      "name": "realized_volatility_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1634821928546034,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.5321440722079047,
+      "name": "latest_5m_range_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.02529675927754359,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.30973303280187364,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.16122444664408744,
+      "name": "distance_from_6h_high",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.470328417924607,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.28240886036320056,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.34802428693256193,
+      "name": "base_volume_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.4241778033119608,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6227013737051318,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.24381229789241182,
+      "name": "quote_volume_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.15286344157844245,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.398590113469264,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.28107651373709025,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.17358805994329443,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.033652753118443936,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.06931570854974343,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.049490689975948264,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1621384316891359,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.14806674058138353,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.21109848641218995,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.00845262549127585,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2158480215400063,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.14436365021795727,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.11707854157365911,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2521666561886102,
+      "name": "cos_month",
+      "sign": "positive"
+    }
+  ],
+  "M2_fold_a_L0_C1": [
+    {
+      "coefficient": 0.30376390748505505,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.13111817082770988,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09954054322681725,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08801325280032242,
+      "name": "symbol=BNBUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.02851596079178182,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.08223895917580894,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.34189992611365727,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.20016367492930773,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.41083669011124496,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4968559015102259,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_a_L1_C0.1": [
+    {
+      "coefficient": 0.17331276606861254,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.07028719434040379,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.039360838044750324,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.06731654517988178,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.0072154336394014895,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05132050354309564,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.08159895048841141,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.22093716007430989,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.007405712792391516,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.059104232853377306,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.025773634264419174,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.030962542258291217,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.12264601146311768,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.09039987938765943,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.0785230738953305,
+      "name": "consecutive_negative_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.018505244963643672,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1526232776896312,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.010108693947812877,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15373324916433803,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0027580322428858036,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.19970866106689872,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4135872470273622,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.006493272931099415,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.24471625557267807,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.17860460934411437,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.18300659805023145,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.050077819530784,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.04795133390296618,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.007958359008861868,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.03223194638747549,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.06063026502695159,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12658243274463576,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.10614247311402152,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.14332563237463677,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.15857976981796318,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_a_L1_C1": [
+    {
+      "coefficient": 0.29262385631754834,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1579171373136978,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08120602183241397,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1298398944743063,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0907341894239207,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.06998269641202468,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.14315093104360765,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.34768659434295623,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.15167251220382888,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.16443842360954475,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.034157378448211186,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3945591235154809,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.23145397726708367,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.22630210775378395,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1551660147678271,
+      "name": "consecutive_negative_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.11581225512668472,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6378557722850575,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.021318995489525573,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.31088975979925293,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1102506422102981,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.41590505326931626,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6812154213416384,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.04925529651747324,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.6732889441975264,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.36043354857073673,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.40943922953628564,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.30018677404187744,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.043905631543948796,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.02743109633676076,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0458769222922841,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1751294656751683,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5226849068356534,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.42086345978952916,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2695675134309149,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4537091298064497,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_a_L1_C10": [
+    {
+      "coefficient": 0.3590764075056796,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.29836035471162436,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09699549462309341,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.03647963729657433,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.15662024246573825,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.05272045082204853,
+      "name": "positive_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20388495065806628,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.428869063382454,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.7374658450892825,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.22737921799561614,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.13137801820460973,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.7635723106708399,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.24879305223588152,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.28592199938159063,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.20046665089809168,
+      "name": "consecutive_negative_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6379427693115424,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -1.034823833518173,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.040432883210028685,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3040632404697356,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.22321028695120487,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.5192618785753678,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.8093226791713507,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09610923486516752,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.9636679026265963,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2416686529489018,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.7429806955396865,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5228484376301611,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.01276246565583242,
+      "name": "quote_volume_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0004985787352035795,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.026210165340889716,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.26646352633482684,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.822858830621444,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5831040483627127,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3115660823877889,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5816800170253387,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_a_L2_C0.1": [
+    {
+      "coefficient": -0.018195682578801463,
+      "name": "intercept",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.054989218300254716,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.02543349791094276,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.052319225701329776,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.0074614788884005655,
+      "name": "path_efficiency_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05055889764199045,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1064431241473811,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.24261079060947552,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03453201520389069,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.005397129182056276,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.03262922367678717,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.0013433149757799904,
+      "name": "local_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.04209872060319847,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.13516572256662648,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.11609557292043834,
+      "name": "consecutive_negative_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.03050127390138272,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.14105041888079703,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.015448994309804943,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1547450743749497,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.04187253211766613,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.14407988865587915,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4176338865100335,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.006223272843793006,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2436652151764443,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1827153603750146,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1880217163195806,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03586773086914417,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.045136912388544816,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.006768936294552871,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.19091574104498293,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03027510623541586,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.11752428298779231,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.02680834064528662,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.11428938134782737,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.17557776777529366,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.19786473585080866,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.010771906880973223,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.011625114063332961,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.013535746084975882,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.11240008978695769,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.121261364646288,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10490693192873372,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.17828175134202928,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_a_L2_C1": [
+    {
+      "coefficient": 0.0755905335767393,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.15263961353015518,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05213613131364777,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.12771575643919414,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.06097328067624524,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.15041744124162804,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.17292053288760367,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.39287514280618563,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.2840335413782566,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.126344526660815,
+      "name": "local_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1512203781228957,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09454093404202107,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.055180963480244025,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.30013451209869474,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3004348230720264,
+      "name": "consecutive_negative_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.04078060162234682,
+      "name": "absolute_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.6558563354074666,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.028850788569464905,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3087037517095177,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.01992072019825054,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.35031028622583454,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.671214616847075,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.023893348417494444,
+      "name": "distance_from_6h_low",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5972447535357704,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3633488139791082,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.42003673529900537,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.2664515774516538,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.07706855814526718,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.10736758361623744,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6949593107402939,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.30591877389462824,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2707144002280634,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.20832361972239538,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.16580369322562927,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.24420000167330874,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.7469339604050839,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05546778879170112,
+      "name": "symbol=BNBUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05477342597428525,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.034998038184023854,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5413423335099139,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.39610308055990456,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.20610931721996242,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5686445050435845,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_a_L2_C10": [
+    {
+      "coefficient": 0.16302029959436284,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3362937266399068,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08667358081584792,
+      "name": "pre_milestone_mae",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.0815269288122146,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.11142615625539207,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.39891009861076,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.09918854173797159,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.46891198113169547,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -1.052555752028795,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.32442953642882916,
+      "name": "local_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.36845161653398756,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08450469511949255,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.19174822755512427,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.327329365391424,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.49644940161957557,
+      "name": "consecutive_negative_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5054447028705255,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -1.1795614268457313,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.02719962689346313,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3030641082239305,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0464239428925525,
+      "name": "distance_from_h1_sma24",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.5001981857224183,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.7937619157638065,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.023070285800877145,
+      "name": "distance_from_6h_low",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.7525717816210099,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.22551001095466236,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.7391667339768009,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4868861000128983,
+      "name": "trade_count_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.03232245227076641,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3302915945454773,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 1.288488649817314,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.6574536526949548,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2756502068851347,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.25247410564977735,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.15970024715270936,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.24645055871459642,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -1.1820552455425717,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2752080632253494,
+      "name": "symbol=BNBUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.09456061478754782,
+      "name": "symbol=BTCUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.01705011571868086,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.9585880475629074,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5717692538313318,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.256624794710669,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.8264254754100745,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_b_L0_C1": [
+    {
+      "coefficient": 0.31344795333216413,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.09311726332035752,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.3447584528019814,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.031343068189982774,
+      "name": "symbol=BNBUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12621990885843812,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.01711638358628478,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.018087645856853594,
+      "name": "symbol=SOLUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05967281122531703,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5946702601688475,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.34414299659166003,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_b_L1_C0.1": [
+    {
+      "coefficient": 0.16383952267690385,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08487830314503785,
+      "name": "time_from_entry_seconds",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.028583650273524174,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08923106516886722,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.035474450151493205,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.11402419749118621,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10961750501796473,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2242664224365385,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09706494506785941,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.05805897422933759,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.01583146033487625,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.11931497649192711,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.11733700020253336,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.011699816254495623,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.025126584226757395,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08575921842137416,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.07492226108155449,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.019199592841943277,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.18885497534555604,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1749476084558086,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1235069425237738,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3351648012044491,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15194563658053817,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.11787947913914969,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.09467302542900792,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09732889217576622,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.12153014565344204,
+      "name": "trade_count_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.029282853709760488,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.021486823060048475,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08358626308058294,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.0009397949303604786,
+      "name": "symbol=ETHUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.0009810835448378489,
+      "name": "symbol=SOLUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.10315220766543301,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2975419378229473,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.17964018354635747,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_b_L1_C1": [
+    {
+      "coefficient": 0.23752271050177562,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.09569891572162192,
+      "name": "time_from_entry_seconds",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.021535633759113597,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1325414395369049,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.07448409383579656,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3366650868688193,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.08008330946839136,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.31139006516697737,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.13534702619259312,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.17219551966069305,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.10593228220785458,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2750263544705664,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.20193693479193683,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.019507323661580006,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.10471660689093665,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20751080703863758,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.12121832098379384,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.017706893586273576,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4871124631234754,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.19222518424671606,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.14387101709521657,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.44053823593906694,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.21264995909682688,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15900879446510577,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12286827679720444,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.14980463273732153,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.3142330129563393,
+      "name": "trade_count_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.031641338279697694,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.003617792496116385,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.19094342599384395,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.016223044017611925,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.034921777905944223,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.24570604041351632,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5790292827055321,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3161533615559068,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_b_L1_C10": [
+    {
+      "coefficient": 0.22836843731705805,
+      "name": "intercept",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.060557229352502025,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.016808028769047287,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.30176849667460204,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08533075220855335,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5213748626306612,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.008015953753933564,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.34065749363595327,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.02130805854346137,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.18690546338796232,
+      "name": "local_return_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.17303583915300427,
+      "name": "local_return_30m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3214453333116354,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.23077334075858683,
+      "name": "local_momentum_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.04174450098279114,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.15001496609203846,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.38608043909100676,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.1330947502636857,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.03288093063031203,
+      "name": "volatility_expansion_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.5924776343949519,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.17751533019873217,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1340799356381691,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4665221963235323,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.23844102294434152,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.16734366504638926,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.010504038340990124,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2784825503153162,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.38630464566047634,
+      "name": "trade_count_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.03160334439565428,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.035521125822101554,
+      "name": "symbol=BNBUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.24132956251965354,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.04139224484032396,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.05137422754250907,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.29857490908037726,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.6472123246225331,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3458443939212576,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_b_L2_C0.1": [
+    {
+      "coefficient": -0.0936801064192404,
+      "name": "intercept",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10577228433250732,
+      "name": "time_from_entry_seconds",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.03406106593344765,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.10966209342353712,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.037064064199854495,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.07938204956279626,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12717698130392727,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.2857533701804785,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.029794197787175937,
+      "name": "local_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.04776481251425213,
+      "name": "local_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.07765286968633847,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.07583881783295049,
+      "name": "local_return_60m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0057204054420410015,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.024891006656159963,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.01991000458787062,
+      "name": "consecutive_negative_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.013316765830569894,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.057602983286672876,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.05297545110967572,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.21695640748245562,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.19700866406562506,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0492831438200621,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.34932609100083717,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.18726233968308467,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.12870986740727813,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.10675889002584252,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.11084972603026014,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.12189353103387622,
+      "name": "trade_count_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.005701991490004622,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.005786435156933517,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2509181207281074,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.04097704040144767,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.21848336753086145,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.12923227886956834,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.12683328530848342,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.37467926535008667,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15434354948602452,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.029718848047254418,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.0798265022214369,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.04983739650367668,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.0018742389754023696,
+      "name": "symbol=SOLUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.15750850779696549,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2411666852717124,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.202625519116988,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_b_L2_C1": [
+    {
+      "coefficient": -0.11989570843794566,
+      "name": "intercept",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.13088900425083538,
+      "name": "time_from_entry_seconds",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.05203214370021479,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.16217827178582353,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08623964594930084,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.22402736580242794,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.14506893010795133,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.4369188441629746,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.0048323819723122274,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1993154608547827,
+      "name": "local_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.20275339664108324,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.08032254472606581,
+      "name": "local_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1445224543885768,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.014424446822714286,
+      "name": "consecutive_positive_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.021757549035523047,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.08674273399789185,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.09759921601339598,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.08541658669056325,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.5739625701040202,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2454539646089382,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0340039201355776,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.46218375265566997,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.24027383707722347,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.1472316330978378,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.1359911167736351,
+      "name": "base_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.17945774464392436,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.35840227480176107,
+      "name": "trade_count_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.028115587674593566,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.05586153116032327,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.6652613746293925,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.2771654182945092,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.4368777018300527,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2854372120745774,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.19767251245542378,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.5712654041823745,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.4705141615260011,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.040722198843394154,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.12735027175061567,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.1377393542499696,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.027214411489097992,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3330262363330767,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.45214162549759396,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3905403599193421,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ],
+  "M2_fold_b_L2_C10": [
+    {
+      "coefficient": -0.16350413392262966,
+      "name": "intercept",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.008758974800322587,
+      "name": "time_from_entry_seconds",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.05454220067556768,
+      "name": "pre_milestone_mae",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.30766423246725455,
+      "name": "complete_5m_bars_since_entry",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.10641936344961576,
+      "name": "path_efficiency_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.43809353246979077,
+      "name": "positive_5m_fraction_last6",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.06674524509257926,
+      "name": "negative_5m_fraction_last6",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.48876219481259975,
+      "name": "recent_drawdown_last6_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.21440495434175447,
+      "name": "local_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3153972242849494,
+      "name": "local_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.3206852837445547,
+      "name": "local_return_30m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.3103103748052799,
+      "name": "local_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.2311575602568383,
+      "name": "local_momentum_acceleration",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.0042549542029122,
+      "name": "consecutive_positive_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.05532661924506816,
+      "name": "consecutive_negative_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.327516721839924,
+      "name": "absolute_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.09455303604634706,
+      "name": "realized_volatility_last6_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.10059021056553791,
+      "name": "volatility_expansion_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.7435828534551518,
+      "name": "latest_5m_range_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.25976764542050096,
+      "name": "distance_from_h1_sma24",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.01560564037836496,
+      "name": "h1_sma24_slope",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.47768761457081377,
+      "name": "distance_from_6h_high",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.2466790067749518,
+      "name": "distance_from_6h_low",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.12301282024990821,
+      "name": "trend_persistence_last12_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.04675659684730059,
+      "name": "base_volume_ratio",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.38359229271728607,
+      "name": "quote_volume_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.4887467184179134,
+      "name": "trade_count_ratio",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.049236692384283354,
+      "name": "quote_volume_acceleration",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.06621879166974158,
+      "name": "btc_minus_subject_return_5m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.9541019486189619,
+      "name": "btc_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.47643774408782136,
+      "name": "btc_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.5350787725097599,
+      "name": "eth_minus_subject_return_5m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.3289136786667772,
+      "name": "eth_minus_subject_return_15m",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.20674444236896072,
+      "name": "eth_minus_subject_return_60m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.6215670142616079,
+      "name": "other_four_breadth_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": -0.6362649806730695,
+      "name": "btc_eth_agreement_15m",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.0029205022493494033,
+      "name": "symbol=BNBUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.13817126755000886,
+      "name": "symbol=BTCUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.21439848406637727,
+      "name": "symbol=ETHUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": 0.025463787436307415,
+      "name": "symbol=SOLUSDT",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.38095404130203625,
+      "name": "symbol=XRPUSDT",
+      "sign": "negative"
+    },
+    {
+      "coefficient": 0.5030488444625288,
+      "name": "sin_month",
+      "sign": "positive"
+    },
+    {
+      "coefficient": -0.4568849957357879,
+      "name": "cos_month",
+      "sign": "negative"
+    }
+  ]
+}

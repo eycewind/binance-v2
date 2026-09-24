@@ -1,0 +1,79 @@
+{
+  "configuration_sha256": "59708bd6bd981a0f2dcca3d1b21e79a7ccf700397930c550bfe8a3125d1af9c4",
+  "environment": {
+    "conda": "binance-v2-research",
+    "interpreter": "/home/ata/miniconda3/envs/binance-v2-research/bin/python",
+    "python": "3.11.16"
+  },
+  "evidence_sha256": "223cad375d070137c106736ccc72ff8668d718f037acb27e89604a29a6b54c56",
+  "published_core_hashes": {
+    "attempt_ledger.json": "b23f769e34664a78a2f856e84078b916da929a8abc7f2b0d0d9f0956821032d2",
+    "attempt_ledger.jsonl": "002def89359f49974a55c7614e9f6bde88679c522d2c84e4b4c4f9b8df8563e8",
+    "coefficients.json": "b45e63ed90cc68ddf710a35f0ac6cb929525e0dcd929e51074f51148b4d0ced5",
+    "comparisons.json": "10874e80e3c0a12b4199841abcd7ab8a7f81ec7bcff4ca937c283d177a369fc3",
+    "final_models.json": "14b3466599ebb1f9ed2add7ca956fea669084298708b9c0c47fd531a528d2602",
+    "final_preprocessing.json": "f9201c2657533954a4c29f3231134586e4987aee7353012ca598082cf5f78ae9",
+    "final_training.json": "1247236ef331a81e4b2c37ee70efe1d7a331112cf4768722522c03220bc17ea4",
+    "fold_summary.json": "272aafe3bdb59e0ebd696ab9eab30740e6461a5a21ca6d0100c4979cfc91db22",
+    "freeze_specifications.json": "bf90102aea6f45d39d1a179ed392086d82716aa7274282941536f2f94e739c68",
+    "metrics.json": "d9bfe03d4a2122dc6f75d8993200e46e9744a0fb28b6c18d432ddf5d5a85e148",
+    "models.json": "491a35facd648f57f7112be70f641888b8dfb17f3dfa0d6bf2c39fba62ea6398",
+    "predictions.json": "5500bdaf5be8c85b85a8d8cbc86e13bb1a7c42728d553283234396754b0bfe0c",
+    "preprocessing.json": "48eee1b64afe96d6ec97fc01fc0d0b9f1ec69078766a54112de42a7e888545b1",
+    "robust_probability_changes.json": "1966bc6f737d908d9f8d4a01edfb3edba11974bed0c0aa427ebdf93df9401ee5"
+  },
+  "rebuild_equals_published": true,
+  "run_a_core_hashes": {
+    "attempt_ledger.json": "b23f769e34664a78a2f856e84078b916da929a8abc7f2b0d0d9f0956821032d2",
+    "attempt_ledger.jsonl": "002def89359f49974a55c7614e9f6bde88679c522d2c84e4b4c4f9b8df8563e8",
+    "coefficients.json": "b45e63ed90cc68ddf710a35f0ac6cb929525e0dcd929e51074f51148b4d0ced5",
+    "comparisons.json": "10874e80e3c0a12b4199841abcd7ab8a7f81ec7bcff4ca937c283d177a369fc3",
+    "final_models.json": "14b3466599ebb1f9ed2add7ca956fea669084298708b9c0c47fd531a528d2602",
+    "final_preprocessing.json": "f9201c2657533954a4c29f3231134586e4987aee7353012ca598082cf5f78ae9",
+    "final_training.json": "1247236ef331a81e4b2c37ee70efe1d7a331112cf4768722522c03220bc17ea4",
+    "fold_summary.json": "272aafe3bdb59e0ebd696ab9eab30740e6461a5a21ca6d0100c4979cfc91db22",
+    "freeze_specifications.json": "bf90102aea6f45d39d1a179ed392086d82716aa7274282941536f2f94e739c68",
+    "metrics.json": "d9bfe03d4a2122dc6f75d8993200e46e9744a0fb28b6c18d432ddf5d5a85e148",
+    "models.json": "491a35facd648f57f7112be70f641888b8dfb17f3dfa0d6bf2c39fba62ea6398",
+    "predictions.json": "5500bdaf5be8c85b85a8d8cbc86e13bb1a7c42728d553283234396754b0bfe0c",
+    "preprocessing.json": "48eee1b64afe96d6ec97fc01fc0d0b9f1ec69078766a54112de42a7e888545b1",
+    "robust_probability_changes.json": "1966bc6f737d908d9f8d4a01edfb3edba11974bed0c0aa427ebdf93df9401ee5"
+  },
+  "run_a_equals_run_b": true,
+  "run_b_core_hashes": {
+    "attempt_ledger.json": "b23f769e34664a78a2f856e84078b916da929a8abc7f2b0d0d9f0956821032d2",
+    "attempt_ledger.jsonl": "002def89359f49974a55c7614e9f6bde88679c522d2c84e4b4c4f9b8df8563e8",
+    "coefficients.json": "b45e63ed90cc68ddf710a35f0ac6cb929525e0dcd929e51074f51148b4d0ced5",
+    "comparisons.json": "10874e80e3c0a12b4199841abcd7ab8a7f81ec7bcff4ca937c283d177a369fc3",
+    "final_models.json": "14b3466599ebb1f9ed2add7ca956fea669084298708b9c0c47fd531a528d2602",
+    "final_preprocessing.json": "f9201c2657533954a4c29f3231134586e4987aee7353012ca598082cf5f78ae9",
+    "final_training.json": "1247236ef331a81e4b2c37ee70efe1d7a331112cf4768722522c03220bc17ea4",
+    "fold_summary.json": "272aafe3bdb59e0ebd696ab9eab30740e6461a5a21ca6d0100c4979cfc91db22",
+    "freeze_specifications.json": "bf90102aea6f45d39d1a179ed392086d82716aa7274282941536f2f94e739c68",
+    "metrics.json": "d9bfe03d4a2122dc6f75d8993200e46e9744a0fb28b6c18d432ddf5d5a85e148",
+    "models.json": "491a35facd648f57f7112be70f641888b8dfb17f3dfa0d6bf2c39fba62ea6398",
+    "predictions.json": "5500bdaf5be8c85b85a8d8cbc86e13bb1a7c42728d553283234396754b0bfe0c",
+    "preprocessing.json": "48eee1b64afe96d6ec97fc01fc0d0b9f1ec69078766a54112de42a7e888545b1",
+    "robust_probability_changes.json": "1966bc6f737d908d9f8d4a01edfb3edba11974bed0c0aa427ebdf93df9401ee5"
+  },
+  "seed_and_config": {
+    "C_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "bootstrap": {
+      "block": "calendar month",
+      "quantiles": [
+        0.025,
+        0.975
+      ],
+      "replications": 2000,
+      "rule": "linear type-7",
+      "seed": 20240923
+    },
+    "solver_max_iterations": 100,
+    "solver_tolerance": 1e-10
+  },
+  "version": "C3_T3A_INDEPENDENT_REBUILD_V2"
+}
