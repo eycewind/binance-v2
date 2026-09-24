@@ -1,0 +1,23 @@
+{
+  "evidence_sha256": "7891109b9fa72039796af004284c7ed08c428dff7394617981c3412444bc85eb",
+  "identical": true,
+  "published_core_hashes": {
+    "calibration.json": "54e9f8777634a5f5847038de317ffede7bd86aa56641fd81f0a9f38392bcad5c",
+    "comparisons.json": "13e2469c3f7675d1970ca8265fc176be860b2e122f0d49f6b18762ad19f9f9e4",
+    "interpretation.json": "69b2bb5eaee230ab852afbcc5e3eaa3b32a956eccb3aff3eb63109bb56433e7f",
+    "metrics.json": "a594ebaa0872be85bfb326f2aece98ef9c1bfe9863b55e429edf368ad3917fe7",
+    "predictions.csv": "825d2629e76b3c66ab481a09dfe3d97b3d902abbbca785a20c5b876daf8903d3",
+    "selection_summary.json": "4f50208ef5c9e3a8067de7dc71a6792ada50873f146d9b218d111367700071ca",
+    "stability.json": "5f75c52adacf61c40ca60934252480955efaa8681cda92caeb5d238e7ca9b21d"
+  },
+  "rebuilt_core_hashes": {
+    "calibration.json": "54e9f8777634a5f5847038de317ffede7bd86aa56641fd81f0a9f38392bcad5c",
+    "comparisons.json": "13e2469c3f7675d1970ca8265fc176be860b2e122f0d49f6b18762ad19f9f9e4",
+    "interpretation.json": "69b2bb5eaee230ab852afbcc5e3eaa3b32a956eccb3aff3eb63109bb56433e7f",
+    "metrics.json": "a594ebaa0872be85bfb326f2aece98ef9c1bfe9863b55e429edf368ad3917fe7",
+    "predictions.csv": "825d2629e76b3c66ab481a09dfe3d97b3d902abbbca785a20c5b876daf8903d3",
+    "selection_summary.json": "4f50208ef5c9e3a8067de7dc71a6792ada50873f146d9b218d111367700071ca",
+    "stability.json": "5f75c52adacf61c40ca60934252480955efaa8681cda92caeb5d238e7ca9b21d"
+  },
+  "version": "C3_T3B_INDEPENDENT_REBUILD_V1"
+}

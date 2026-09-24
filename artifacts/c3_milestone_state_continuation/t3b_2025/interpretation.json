@@ -1,0 +1,26 @@
+{
+  "M1": {
+    "L1_calibration_reasonable": false,
+    "cross_asset_both_intervals_below_zero": false,
+    "dominance_flag": false,
+    "path_state_both_intervals_below_zero": false,
+    "path_state_improves_both_proper_scores": false,
+    "rule": "contract evidence panel; no single metric or AUC threshold determines verdict",
+    "target": "M1",
+    "verdict": "MIXED"
+  },
+  "M2": {
+    "L1_calibration_reasonable": false,
+    "cross_asset_both_intervals_below_zero": false,
+    "dominance_flag": false,
+    "path_state_both_intervals_below_zero": false,
+    "path_state_improves_both_proper_scores": false,
+    "rule": "contract evidence panel; no single metric or AUC threshold determines verdict",
+    "target": "M2",
+    "verdict": "COUNTS AGAINST"
+  },
+  "overall": {
+    "pooled_or_averaged": false,
+    "verdict": "M1: MIXED; M2: COUNTS AGAINST"
+  }
+}

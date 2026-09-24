@@ -1,0 +1,78 @@
+{
+  "M1": {
+    "L1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.004563139707247072,
+        "q025": -0.0042505611536733726,
+        "q975": 0.01329779855779679
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.016722145292875492,
+        "q025": -0.004636713333678885,
+        "q975": 0.03796300589915768
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "L2_minus_L1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": -0.0009904899383063439,
+        "q025": -0.006110479898749401,
+        "q975": 0.004752023590144037
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": -0.00045482026565355334,
+        "q025": -0.011329530427602487,
+        "q975": 0.011176005284377077
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    }
+  },
+  "M2": {
+    "L1_minus_L0": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.01273603589732893,
+        "q025": 0.0012939807051796698,
+        "q975": 0.02272781692642558
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.03765280409476536,
+        "q025": 0.011616722809095077,
+        "q975": 0.06131236642515417
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    },
+    "L2_minus_L1": {
+      "block": "UTC calendar month; all symbols/events retained",
+      "brier": {
+        "mean": 0.005632827390434849,
+        "q025": -0.007939297470785677,
+        "q975": 0.019843598763823824
+      },
+      "comparison_direction": "first_minus_second; negative favors first",
+      "log_loss": {
+        "mean": 0.020495001062321702,
+        "q025": -0.015913859644747088,
+        "q975": 0.06035647320712476
+      },
+      "month_block_integrity": true,
+      "quantile_rule": "linear type-7",
+      "replications": 2000,
+      "seed": 20240923
+    }
+  }
+}

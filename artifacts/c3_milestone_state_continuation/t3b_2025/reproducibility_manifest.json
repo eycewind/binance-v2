@@ -1,0 +1,98 @@
+{
+  "bootstrap": {
+    "block": "UTC calendar month; all symbols/events together",
+    "quantile_method": "linear type-7",
+    "replications": 2000,
+    "seed": 20240923
+  },
+  "core_hashes": {
+    "calibration.json": "54e9f8777634a5f5847038de317ffede7bd86aa56641fd81f0a9f38392bcad5c",
+    "comparisons.json": "13e2469c3f7675d1970ca8265fc176be860b2e122f0d49f6b18762ad19f9f9e4",
+    "interpretation.json": "69b2bb5eaee230ab852afbcc5e3eaa3b32a956eccb3aff3eb63109bb56433e7f",
+    "metrics.json": "a594ebaa0872be85bfb326f2aece98ef9c1bfe9863b55e429edf368ad3917fe7",
+    "predictions.csv": "825d2629e76b3c66ab481a09dfe3d97b3d902abbbca785a20c5b876daf8903d3",
+    "selection_summary.json": "4f50208ef5c9e3a8067de7dc71a6792ada50873f146d9b218d111367700071ca",
+    "stability.json": "5f75c52adacf61c40ca60934252480955efaa8681cda92caeb5d238e7ca9b21d"
+  },
+  "economic_analysis_run": false,
+  "repository_environment": {
+    "branch": "research/c3-milestone-state-continuation",
+    "conda_environment": "binance-v2-research",
+    "git_status_before_execution": "clean",
+    "head": "045fec846f2b3e47817555e908e647a7ae159792",
+    "interpreter": "/home/ata/miniconda3/envs/binance-v2-research/bin/python",
+    "python": "3.11.16",
+    "remote": "git@github.com:eycewind/binance-v2.git"
+  },
+  "seals": {
+    "2026_data_accessed": false,
+    "2026_paths_enumerated": false,
+    "no_model_selection": true,
+    "no_refitting": true,
+    "no_threshold_optimization": true
+  },
+  "selection_summary": {
+    "M1": {
+      "candidate": 434,
+      "eligible_supervised": 391,
+      "feature_ineligible": 21,
+      "n": 391,
+      "negative": 173,
+      "null_or_non_supervised_label": 22,
+      "positive": 218
+    },
+    "M2": {
+      "candidate": 287,
+      "eligible_supervised": 281,
+      "feature_ineligible": 1,
+      "n": 281,
+      "negative": 133,
+      "null_or_non_supervised_label": 5,
+      "positive": 148
+    }
+  },
+  "verified_freeze_hashes": {
+    "files": {
+      "artifacts/c2_asymmetric_exit_experiment/c2a_paired_trade_records.csv": "43de8894095963bda5aee47d8d24f6dec34a3b9cc7def1eec80256156baff5f1",
+      "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+      "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+      "artifacts/c3_milestone_state_continuation/feature_schema.json": "1259d04b31364f157108fa7cda737dc7de6d7c8c63bc8af6252d641fe4c41347",
+      "contracts/C3_milestone_state_continuation_CONTRACT.md": "d1df751c1005995e27f93d04d7f7dc7c40180862870dfa5727e7b708546d3f2d",
+      "feature_schema.json": "1259d04b31364f157108fa7cda737dc7de6d7c8c63bc8af6252d641fe4c41347",
+      "input_manifest.json": "cb5dd90fdffaca618a1b504e686206012d73b725d21e83ee1ff1091155e9fd3f",
+      "m1_audit.csv": "9d709e18553493c14ec5546cd9c6fcf8755d718c2901a3971fc9e0b39cac499a",
+      "m1_feature_row_keys.csv": "fc275669e6341c5906c004355f73f6307b10499a1a8478449ba1b5394968b628",
+      "m1_features.csv": "5797f8c58029017fea8bd2025f0732a97220c9093362e2e18c6267e1238af1c8",
+      "m1_outcomes.csv": "97c81994b97d714dd25f01c643b627608fd346ebe8942fd54395e05791fba427",
+      "m2_audit.csv": "978d79c9393ed4551a4b314e047b53d777c48e4c207f28a3be4c9dbbf2072635",
+      "m2_feature_row_keys.csv": "faeb18b58f9a35a5e67bc4933edcbde23f59cdfc3d0e58839d8aca59f5e9ea00",
+      "m2_features.csv": "5cd591770642a25e159e13459140c53bf5d4326ed943714f01b5fb0eeebf4a17",
+      "m2_outcomes.csv": "eae1c7a1d7a089234e0500f0ead4596d7e8e24fabefe1c13d95ab8324b6f63b3",
+      "reproducibility_manifest.json": "c72dbc290f16281cfa145a55715688c4a0baf57008491a056602d13d3520e292",
+      "src/binance_data_foundation/c3_t3a.py": "432a1110205187d4014fbdfc0ec0829e0b6aef0b8eb20bda808533784850acfb",
+      "src/binance_data_foundation/c3_t3a_cli.py": "6c4f34c3be5064d92a6aa6f495a97512adac4cb9af605dc67bf4e2c9537e2c34",
+      "tests/test_c3_t3a.py": "2220b2abe51a2c1c18a2dd20049f1e06de8d7a41197157b466be015f64eb6f93"
+    },
+    "freeze": {
+      "M1": "7f865c696f46472417d01bedc136369b7b5158a7cd3b12e66e1c97a8d318f6be",
+      "M2": "1106208972fa2d404a02717dd772fd8e09dbaf25343def0c24dbcc25937532ad"
+    },
+    "models": {
+      "M1_L0": "c9a26dfa02b8e4416fe11ca1511110d53c1fbf3d594186d6537bad4e4ae17a9f",
+      "M1_L1": "47a425c132661e67bea440383a4131a185729d8a78ae3545325be10bb38d4aa0",
+      "M1_L2": "f99bd98dfd351f2a3382b36db3187da2f32de6adf7aa35e726ce968b248491fc",
+      "M2_L0": "1d9b3d5b0ae1a87b613be94b5db42b692659d52524f7b25e071a7d72d46088e4",
+      "M2_L1": "a08ced297571f266cedde3006288d8ed9dfdf63a206fbcf8bab9ded471177aef",
+      "M2_L2": "d4ed0e60a2c748ba5b71513a0bb9ab9a4f36803de4e6adcfebb4fc65a416b508"
+    },
+    "preprocessing": {
+      "M1_L0": "10af5400c34734eb83421fd4a1f661e22aa21bb0d0df2194dcbc71cc3999d509",
+      "M1_L1": "370db97c155218ff34c5db6351dfa91dc7c4c68d2876ae31e93a2552914b7d38",
+      "M1_L2": "36096795a7df36b909f1de3c9f2fc9df02620baa0b8e89d7888c0e1f262b8b69",
+      "M2_L0": "cd4e315d353c8ae9f409008be6e0ae4af5a006549e12986db5e66086140683f9",
+      "M2_L1": "4690e89b71a61ad95b02d192fb087fa510a162defddc42e228c468ee8c77df12",
+      "M2_L2": "5f948376fb2c8e68ca5ee70dd4dcb1b60169c2c2fb06288303148830dacb94ac"
+    }
+  },
+  "version": "C3_T3B_LOCKED_2025_V1"
+}

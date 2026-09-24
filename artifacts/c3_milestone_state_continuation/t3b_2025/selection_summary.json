@@ -1,0 +1,20 @@
+{
+  "M1": {
+    "candidate": 434,
+    "eligible_supervised": 391,
+    "feature_ineligible": 21,
+    "n": 391,
+    "negative": 173,
+    "null_or_non_supervised_label": 22,
+    "positive": 218
+  },
+  "M2": {
+    "candidate": 287,
+    "eligible_supervised": 281,
+    "feature_ineligible": 1,
+    "n": 281,
+    "negative": 133,
+    "null_or_non_supervised_label": 5,
+    "positive": 148
+  }
+}

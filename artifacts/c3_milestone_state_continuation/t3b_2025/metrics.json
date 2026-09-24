@@ -1,0 +1,462 @@
+{
+  "M1": {
+    "B0": {
+      "base_rate": 0.5575447570332481,
+      "brier": 0.24956239170790362,
+      "brier_skill_vs_b0": -6.439293542825908e-15,
+      "calibration_intercept": 0.23120343718724745,
+      "calibration_slope": 1.9750671265859193e-06,
+      "log_loss": 0.6922719462075847,
+      "n": 391,
+      "negative": 173,
+      "positive": 218,
+      "pr_auc": 0.5575447570332481,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.05360774915923239,
+          "mean_probability": 0.5039370078740157,
+          "n": 391,
+          "observed_continuation": 0.5575447570332481
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        }
+      ],
+      "roc_auc": 0.5,
+      "threshold_0_5": {
+        "accuracy": 0.5575447570332481,
+        "fn": 0,
+        "fp": 173,
+        "tn": 0,
+        "tp": 218
+      }
+    },
+    "L0": {
+      "base_rate": 0.5575447570332481,
+      "brier": 0.25296082259351804,
+      "brier_skill_vs_b0": -0.013617560171460763,
+      "calibration_intercept": 0.2340328689895605,
+      "calibration_slope": -0.19263687749104924,
+      "log_loss": 0.6993126065589167,
+      "n": 391,
+      "negative": 173,
+      "positive": 218,
+      "pr_auc": 0.5581653422518676,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.08761228790063214,
+          "mean_probability": 0.42906059850549516,
+          "n": 71,
+          "observed_continuation": 0.5915492957746479
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": -0.003937007874015741,
+          "mean_probability": 0.47833735918252845,
+          "n": 92,
+          "observed_continuation": 0.5
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": 0.05944327381612513,
+          "mean_probability": 0.5060714151974771,
+          "n": 71,
+          "observed_continuation": 0.5633802816901409
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": 0.0763099057062312,
+          "mean_probability": 0.5324133739229,
+          "n": 81,
+          "observed_continuation": 0.5802469135802469
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": 0.06185246581019477,
+          "mean_probability": 0.570816141710603,
+          "n": 76,
+          "observed_continuation": 0.5657894736842105
+        }
+      ],
+      "roc_auc": 0.4962878506655353,
+      "threshold_0_5": {
+        "accuracy": 0.5012787723785166,
+        "fn": 101,
+        "fp": 94,
+        "tn": 79,
+        "tp": 117
+      }
+    },
+    "L1": {
+      "base_rate": 0.5575447570332481,
+      "brier": 0.25753687185013524,
+      "brier_skill_vs_b0": -0.031953853654227204,
+      "calibration_intercept": 0.22765523155408135,
+      "calibration_slope": 0.17361749959017111,
+      "log_loss": 0.716185338223956,
+      "n": 391,
+      "negative": 173,
+      "positive": 218,
+      "pr_auc": 0.6181193823743035,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.06749156355455566,
+          "mean_probability": 0.3083013390978556,
+          "n": 70,
+          "observed_continuation": 0.5714285714285714
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": -0.08602656011282173,
+          "mean_probability": 0.4550659470238506,
+          "n": 67,
+          "observed_continuation": 0.417910447761194
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": 0.044450088900177764,
+          "mean_probability": 0.5143689137851145,
+          "n": 93,
+          "observed_continuation": 0.5483870967741935
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": 0.07560844667143884,
+          "mean_probability": 0.5691468059348811,
+          "n": 88,
+          "observed_continuation": 0.5795454545454546
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": 0.1535972387013267,
+          "mean_probability": 0.6684853423822266,
+          "n": 73,
+          "observed_continuation": 0.6575342465753424
+        }
+      ],
+      "roc_auc": 0.543856392851461,
+      "threshold_0_5": {
+        "accuracy": 0.5421994884910486,
+        "fn": 85,
+        "fp": 94,
+        "tn": 79,
+        "tp": 133
+      }
+    },
+    "L2": {
+      "base_rate": 0.5575447570332481,
+      "brier": 0.2565605895351106,
+      "brier_skill_vs_b0": -0.02804187673998393,
+      "calibration_intercept": 0.22085320734615696,
+      "calibration_slope": 0.20599550743902004,
+      "log_loss": 0.7157975889988295,
+      "n": 391,
+      "negative": 173,
+      "positive": 218,
+      "pr_auc": 0.6320689578899266,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.047787130057018734,
+          "mean_probability": 0.28333980204079046,
+          "n": 58,
+          "observed_continuation": 0.5517241379310345
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": -0.009961104259557929,
+          "mean_probability": 0.4518573512019568,
+          "n": 83,
+          "observed_continuation": 0.4939759036144578
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": 0.060165556228548356,
+          "mean_probability": 0.5143896370918726,
+          "n": 78,
+          "observed_continuation": 0.5641025641025641
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": 0.035278678400494035,
+          "mean_probability": 0.5786846954970022,
+          "n": 102,
+          "observed_continuation": 0.5392156862745098
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": 0.1532058492688414,
+          "mean_probability": 0.6950187734704085,
+          "n": 70,
+          "observed_continuation": 0.6571428571428571
+        }
+      ],
+      "roc_auc": 0.546242774566474,
+      "threshold_0_5": {
+        "accuracy": 0.5370843989769821,
+        "fn": 84,
+        "fp": 97,
+        "tn": 76,
+        "tp": 134
+      }
+    }
+  },
+  "M2": {
+    "B0": {
+      "base_rate": 0.5266903914590747,
+      "brier": 0.25022377747233654,
+      "brier_skill_vs_b0": 0.0,
+      "calibration_intercept": 0.10686313810710611,
+      "calibration_slope": -4.758466321444241e-07,
+      "log_loss": 0.6935947449209364,
+      "n": 281,
+      "negative": 133,
+      "positive": 148,
+      "pr_auc": 0.5266903914590747,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.030596641459074703,
+          "mean_probability": 0.49609375,
+          "n": 281,
+          "observed_continuation": 0.5266903914590747
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": null,
+          "mean_probability": null,
+          "n": 0,
+          "observed_continuation": null
+        }
+      ],
+      "roc_auc": 0.5,
+      "threshold_0_5": {
+        "accuracy": 0.47330960854092524,
+        "fn": 148,
+        "fp": 0,
+        "tn": 133,
+        "tp": 0
+      }
+    },
+    "L0": {
+      "base_rate": 0.5266903914590747,
+      "brier": 0.2641956603100092,
+      "brier_skill_vs_b0": -0.05583755060694551,
+      "calibration_intercept": 0.10172209921182934,
+      "calibration_slope": -0.09557688545252886,
+      "log_loss": 0.7266851909737556,
+      "n": 281,
+      "negative": 133,
+      "positive": 148,
+      "pr_auc": 0.5250411533477424,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.049360795454545414,
+          "mean_probability": 0.3246665396879644,
+          "n": 55,
+          "observed_continuation": 0.5454545454545454
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": -0.01395089285714285,
+          "mean_probability": 0.43771147545856637,
+          "n": 56,
+          "observed_continuation": 0.48214285714285715
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": 0.042367788461538436,
+          "mean_probability": 0.5088490773542902,
+          "n": 78,
+          "observed_continuation": 0.5384615384615384
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": 0.09914434523809523,
+          "mean_probability": 0.5642006305235175,
+          "n": 42,
+          "observed_continuation": 0.5952380952380952
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": -0.016093750000000018,
+          "mean_probability": 0.6312465557024498,
+          "n": 50,
+          "observed_continuation": 0.48
+        }
+      ],
+      "roc_auc": 0.5006604348709612,
+      "threshold_0_5": {
+        "accuracy": 0.5124555160142349,
+        "fn": 71,
+        "fp": 66,
+        "tn": 67,
+        "tp": 77
+      }
+    },
+    "L1": {
+      "base_rate": 0.5266903914590747,
+      "brier": 0.2768503564763879,
+      "brier_skill_vs_b0": -0.10641106641831843,
+      "calibration_intercept": 0.10211912586118006,
+      "calibration_slope": -0.054591027027829954,
+      "log_loss": 0.7643529656962965,
+      "n": 281,
+      "negative": 133,
+      "positive": 148,
+      "pr_auc": 0.5318677929870196,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.00390625,
+          "mean_probability": 0.2866874351197021,
+          "n": 72,
+          "observed_continuation": 0.5
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": 0.0529258578431373,
+          "mean_probability": 0.41944170739504516,
+          "n": 51,
+          "observed_continuation": 0.5490196078431373
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": 0.02242476851851849,
+          "mean_probability": 0.49257281674437653,
+          "n": 54,
+          "observed_continuation": 0.5185185185185185
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": 0.04094328703703709,
+          "mean_probability": 0.5639199122318255,
+          "n": 54,
+          "observed_continuation": 0.5370370370370371
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": 0.043906250000000036,
+          "mean_probability": 0.708430323592966,
+          "n": 50,
+          "observed_continuation": 0.54
+        }
+      ],
+      "roc_auc": 0.5086872586872587,
+      "threshold_0_5": {
+        "accuracy": 0.505338078291815,
+        "fn": 81,
+        "fp": 58,
+        "tn": 75,
+        "tp": 67
+      }
+    },
+    "L2": {
+      "base_rate": 0.5266903914590747,
+      "brier": 0.28227467023931124,
+      "brier_skill_vs_b0": -0.12808891741120831,
+      "calibration_intercept": 0.1145278266741853,
+      "calibration_slope": 0.030436659813556963,
+      "log_loss": 0.784190187118023,
+      "n": 281,
+      "negative": 133,
+      "positive": 148,
+      "pr_auc": 0.5439286009094713,
+      "reliability": [
+        {
+          "bin": 1,
+          "lift_vs_b0": 0.019695723684210575,
+          "mean_probability": 0.2577724658669834,
+          "n": 95,
+          "observed_continuation": 0.5157894736842106
+        },
+        {
+          "bin": 2,
+          "lift_vs_b0": -0.10833864795918369,
+          "mean_probability": 0.40271504813858217,
+          "n": 49,
+          "observed_continuation": 0.3877551020408163
+        },
+        {
+          "bin": 3,
+          "lift_vs_b0": 0.19018075980392157,
+          "mean_probability": 0.48041058889465404,
+          "n": 51,
+          "observed_continuation": 0.6862745098039216
+        },
+        {
+          "bin": 4,
+          "lift_vs_b0": -0.06427556818181818,
+          "mean_probability": 0.578644722086086,
+          "n": 44,
+          "observed_continuation": 0.4318181818181818
+        },
+        {
+          "bin": 5,
+          "lift_vs_b0": 0.12295386904761907,
+          "mean_probability": 0.7337891875800869,
+          "n": 42,
+          "observed_continuation": 0.6190476190476191
+        }
+      ],
+      "roc_auc": 0.5245376955903271,
+      "threshold_0_5": {
+        "accuracy": 0.5088967971530249,
+        "fn": 93,
+        "fp": 45,
+        "tn": 88,
+        "tp": 55
+      }
+    }
+  }
+}
