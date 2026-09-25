@@ -24,6 +24,7 @@ START_2025_MS = 1735689600000
 END_2025_MS = 1767225600000
 INPUT_NAME = "locked_2025_input.json"
 MANIFEST_NAME = "locked_2025_input_manifest.json"
+SUPERSEDED_INPUT_SHA256 = "230106486e24624da73dc60fb2346973f0bbf9039be428d0960e50999b631757"
 TARGETS = ("T1", "T2")
 
 
@@ -126,6 +127,23 @@ def _input_row(row: dict, target: str, features: dict, feature_columns: list[str
     }
 
 
+def validate_prepared_row_schema(checkpoint, row: dict) -> None:
+    """Apply the locked evaluator's pre-scoring completeness/schema contract."""
+    target = row["target"]
+    if target not in TARGETS:
+        raise ValueError("unknown locked target")
+    _validate_2025_metadata(row)
+    if row["event_class"] not in CLASS_ORDER[target]:
+        raise ValueError(f"class order/outcome mismatch for {target}")
+    required = checkpoint.schema["targets"][target]["P1"]
+    numeric = [name for name in required if not name.startswith("symbol_")]
+    features = row["features"]
+    if list(features) != numeric:
+        raise RuntimeError(f"incomplete frozen P1 feature schema for {target}")
+    if not all(math.isfinite(float(features[name])) for name in numeric):
+        raise RuntimeError(f"non-finite frozen P1 feature for {target}")
+
+
 def _atomic_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temporary = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
@@ -173,14 +191,17 @@ def prepare_locked_2025_input(repo: Path, artifact: Path | None = None) -> dict:
         with _accepted_feature_builder_for_2025() as feature_builder:
             retained, feature_values = feature_builder(repo, feature_candidates)
         retained.sort(key=lambda row: (row["snapshot_ms"], row["symbol"], row["trade_id"], row["row_id"]))
-        columns = checkpoint.models[target]["models"]["P1"]["columns"]
-        if columns != checkpoint.preprocessing[f"{target}_P1"]["columns"]:
+        schema_columns = checkpoint.schema["targets"][target]["P1"]
+        model_columns = checkpoint.models[target]["models"]["P1"]["columns"]
+        if model_columns != checkpoint.preprocessing[f"{target}_P1"]["columns"]:
             raise RuntimeError(f"frozen P1 schema mismatch for {target}")
         expected = [name for name in checkpoint.schema["targets"][target]["P1"]
                     if name.startswith("symbol_") or not checkpoint.preprocessing[f"{target}_P1"]["parameters"][name]["excluded_zero_iqr"]]
-        if columns != expected:
+        if model_columns != expected:
             raise RuntimeError(f"frozen feature schema/order mismatch for {target}")
-        rows = [_input_row(row, target, feature_values[row["row_id"]], columns) for row in retained]
+        rows = [_input_row(row, target, feature_values[row["row_id"]], schema_columns) for row in retained]
+        for row in rows:
+            validate_prepared_row_schema(checkpoint, row)
         output_rows.extend(rows)
         exclusions["feature_incomplete"] = len(candidates) - len(retained)
         summaries[target] = {
@@ -189,8 +210,9 @@ def prepare_locked_2025_input(repo: Path, artifact: Path | None = None) -> dict:
             "excluded_rows_by_reason": dict(sorted(exclusions.items())),
             "unique_trades": len({row["trade_id"] for row in rows}),
             "class_counts": dict(sorted(Counter(row["event_class"] for row in rows).items())),
-            "feature_columns": columns,
-            "input_feature_columns": [name for name in columns if not name.startswith("symbol_")],
+            "feature_columns": schema_columns,
+            "input_feature_columns": [name for name in schema_columns if not name.startswith("symbol_")],
+            "frozen_model_columns": model_columns,
             "class_order": CLASS_ORDER[target],
         }
     output_rows.sort(key=lambda row: (row["snapshot_ms"], row["symbol"], row["trade_id"], row["target"], row["row_id"]))
@@ -205,6 +227,11 @@ def prepare_locked_2025_input(repo: Path, artifact: Path | None = None) -> dict:
         "locked_evaluation_config_sha256": checkpoint.freeze["locked_2025_evaluation_sha256"],
         "input_path": str(input_path.relative_to(repo)),
         "input_sha256": input_sha256,
+        "superseded_invalid_input": {
+            "sha256": SUPERSEDED_INPUT_SHA256,
+            "reason": "INVALIDATED_BY_SCHEMA_OMISSION: missing zero_5m_count_6",
+            "authorized_for_scoring": False,
+        },
         "row_count": len(output_rows),
         "trade_count": len({row["trade_id"] for row in output_rows}),
         "targets": summaries,

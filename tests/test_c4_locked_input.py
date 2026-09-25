@@ -8,23 +8,25 @@ from types import SimpleNamespace
 
 import pytest
 
-from binance_data_foundation import c4_locked_input as subject
+from binance_data_foundation import c4_locked_input as subject, c4_modeling
 
 
 CLASSES = {
     "T1": ["continuation", "adverse_reversal", "no_event_60m"],
     "T2": ["renewed_peak", "substantial_giveback", "no_event_60m"],
 }
-CONTINUOUS = ["x", "y"]
-COLUMNS = ["symbol_ETHUSDT", "x", "y"]
+CONTINUOUS = ["x", "y", "zero_5m_count_6"]
+SCHEMA_COLUMNS = ["symbol_ETHUSDT", "x", "y", "zero_5m_count_6"]
+MODEL_COLUMNS = ["symbol_ETHUSDT", "x", "y"]
 
 
 def _checkpoint():
-    prep = {f"{target}_P1": {"columns": COLUMNS, "parameters": {
-        "x": {"excluded_zero_iqr": False}, "y": {"excluded_zero_iqr": False}}}
+    prep = {f"{target}_P1": {"columns": MODEL_COLUMNS, "parameters": {
+        "x": {"excluded_zero_iqr": False}, "y": {"excluded_zero_iqr": False},
+        "zero_5m_count_6": {"excluded_zero_iqr": True}}}
         for target in CLASSES}
-    models = {target: {"models": {"P1": {"columns": COLUMNS}}} for target in CLASSES}
-    schema = {"targets": {target: {"P1": COLUMNS} for target in CLASSES}}
+    models = {target: {"models": {"P1": {"columns": MODEL_COLUMNS}}} for target in CLASSES}
+    schema = {"targets": {target: {"P1": SCHEMA_COLUMNS} for target in CLASSES}}
     freeze = {"locked_2025_evaluation_sha256": subject.EXPECTED_CONFIG_SHA256,
               "feature_schema_sha256": "f" * 64}
     return SimpleNamespace(freeze_hash=subject.EXPECTED_FREEZE_SHA256, freeze=freeze,
@@ -111,7 +113,8 @@ def test_exact_feature_columns_and_order(monkeypatch, tmp_path):
     artifact, _, _ = _prepare(monkeypatch, tmp_path)
     rows = json.loads((artifact / subject.INPUT_NAME).read_text())
     assert list(rows[0]["features"]) == CONTINUOUS
-    artifact2, _ = _install_synthetic(monkeypatch, tmp_path / "bad", feature_order=["y"])
+    assert rows[0]["features"]["zero_5m_count_6"] == 3.0
+    artifact2, _ = _install_synthetic(monkeypatch, tmp_path / "bad", feature_order=["x", "y"])
     with pytest.raises(RuntimeError, match="feature column mismatch"):
         subject.prepare_locked_2025_input(tmp_path / "bad", artifact2)
 
@@ -175,3 +178,31 @@ def test_both_targets_and_manifest_hash_agreement(monkeypatch, tmp_path):
     assert manifest["row_count"] == len(rows)
     assert manifest["predictive_scoring_performed"] is False
     assert manifest["2026_access"] is False
+    assert manifest["superseded_invalid_input"]["sha256"] == subject.SUPERSEDED_INPUT_SHA256
+
+
+def test_producer_rows_pass_locked_completeness_contract(monkeypatch, tmp_path):
+    artifact, _, _ = _prepare(monkeypatch, tmp_path)
+    rows = json.loads((artifact / subject.INPUT_NAME).read_text())
+    assert {row["target"] for row in rows} == {"T1", "T2"}
+    for row in rows:
+        subject.validate_prepared_row_schema(_checkpoint(), row)
+
+
+def test_authoritative_2024_zero_count_parity():
+    repo = Path(__file__).parents[1]
+    artifact = repo / "artifacts/c4_sequential_exit_state"
+    raw = c4_modeling.load_accepted_2024_rows(
+        artifact / "local/t1_snapshots.csv", c4_modeling.ACCEPTED_CORE_HASHES["T1"])
+    _, _, minutes, _ = c4_modeling.load_inputs(repo)
+    accepted_row = expected = None
+    for row in raw:
+        candidate = c4_modeling.causal_feature_row(row, minutes[row["symbol"]], minutes["BTCUSDT"])
+        if candidate is not None:
+            accepted_row, expected = row, candidate
+            break
+    assert accepted_row is not None and expected is not None
+    retained, actual = c4_modeling.build_feature_table(repo, [accepted_row])
+    assert retained == [accepted_row]
+    assert actual[accepted_row["row_id"]] == expected
+    assert actual[accepted_row["row_id"]]["zero_5m_count_6"] == expected["zero_5m_count_6"]
