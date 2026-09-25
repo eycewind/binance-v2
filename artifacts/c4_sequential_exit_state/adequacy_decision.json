@@ -1,0 +1,40 @@
+{
+  "limitations": {
+    "T1_censoring": "material but acceptable",
+    "T2_censoring": "acceptable",
+    "T2_inference_population": "selected positive peak-gain risk set only",
+    "authorized_modeling_scope": "2024-only development and freeze",
+    "predictive_scoring_2025_authorized": false,
+    "snapshot_rows_are_iid": false
+  },
+  "modeling_authorization": "AUTHORIZE C4 MODELING AFTER ENVIRONMENT REPRODUCIBILITY GATE",
+  "review_basis": "performance_blind_snapshot_event_count_coverage_censoring_dependence",
+  "schema_version": "C4_DATA_ADEQUACY_DECISION_V1",
+  "target_decisions": {
+    "T1": "ADEQUATE FOR MODELING",
+    "T2": "ADEQUATE FOR MODELING"
+  },
+  "threshold_panel": {
+    "calibration_intercept_slope_minimum_unique_event_trades": 50,
+    "class_bin_unstable_below_unique_event_trades": 10,
+    "maximum_ambiguity": 0.01,
+    "maximum_entry_week_concentration": 0.15,
+    "maximum_overall_censoring": 0.2,
+    "maximum_single_trade_snapshot_concentration": 0.05,
+    "maximum_snapshot_month_concentration": 0.2,
+    "maximum_subgroup_censoring": 0.2,
+    "minimum_class_entry_weeks": 40,
+    "minimum_class_months": 9,
+    "minimum_class_symbol_unique_resolved_trades": 20,
+    "minimum_entry_weeks": 40,
+    "minimum_months": 9,
+    "minimum_nonempty_four_entry_week_bootstrap_blocks_per_split": 2,
+    "minimum_total_resolved_trades": 300,
+    "minimum_unique_resolved_trades_per_class": 150,
+    "reliability_bin_minimum_unique_resolved_trades": 30,
+    "require_each_class_in_all_symbols": true,
+    "required_symbol_count": 5,
+    "subgroup_censoring_minimum_eligible_rows": 100
+  },
+  "threshold_panel_sha256": "49aa5664c7361ad8049bedaee089adbabfe696e8e3a9122ab9d0feb4c7226d60"
+}

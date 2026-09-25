@@ -1,0 +1,29 @@
+{
+  "bootstrap_sequences_reproduced": true,
+  "core_hashes_reproduced_exactly": true,
+  "first_core_tables": {
+    "T1": {
+      "file_sha256": "c9e519e0d2881f261850b13fff87c02403d28821fbcc083421c4c4b398e1c811",
+      "row_count": 245049,
+      "semantic_sha256": "c9e519e0d2881f261850b13fff87c02403d28821fbcc083421c4c4b398e1c811"
+    },
+    "T2": {
+      "file_sha256": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417",
+      "row_count": 245049,
+      "semantic_sha256": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417"
+    }
+  },
+  "independent_offline_rebuilds": 2,
+  "second_core_tables": {
+    "T1": {
+      "file_sha256": "c9e519e0d2881f261850b13fff87c02403d28821fbcc083421c4c4b398e1c811",
+      "row_count": 245049,
+      "semantic_sha256": "c9e519e0d2881f261850b13fff87c02403d28821fbcc083421c4c4b398e1c811"
+    },
+    "T2": {
+      "file_sha256": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417",
+      "row_count": 245049,
+      "semantic_sha256": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417"
+    }
+  }
+}

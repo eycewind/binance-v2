@@ -1,0 +1,55 @@
+{
+  "boundary_end_exclusive_utc": "2026-01-01T00:00:00Z",
+  "contract_sha256": "f9350da6b17c58de3bca4c0831bcaccf4838449575fe693dc573db72eb40bc39",
+  "explicit_allowlist": [
+    {
+      "path": "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv",
+      "role": "frozen_entries",
+      "sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3"
+    },
+    {
+      "path": "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv",
+      "role": "common_horizons",
+      "sha256": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f"
+    },
+    {
+      "path": "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7"
+    },
+    {
+      "path": "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9"
+    },
+    {
+      "path": "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef"
+    },
+    {
+      "path": "data/normalized/c2_history/XRPUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+    },
+    {
+      "path": "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f"
+    }
+  ],
+  "manifest_version": "C4_ADEQUACY_INPUT_V1",
+  "predecessor_hashes": {
+    "C2_accepted_revision": "ab08b62",
+    "C2_common_horizon_hash": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+    "C2_frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "C3_execution_revision": "8cdfe4be2064e4c8aa98642eb655da07066d9832",
+    "C3_input_manifest_hash": "cb5dd90fdffaca618a1b504e686206012d73b725d21e83ee1ff1091155e9fd3f"
+  },
+  "verification": {
+    "2026_market_data_accessed": false,
+    "2026_paths_enumerated": false,
+    "all_hashes_verified": true,
+    "timestamps_rejected_before_market_values": true
+  }
+}

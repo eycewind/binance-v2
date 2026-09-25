@@ -1,0 +1,94 @@
+{
+  "adequacy_decision": {
+    "file_sha256": "f4555db6dbccd9cb6b1506e642b49b6d21dd015d6737b76bd4534612bf32ffe7",
+    "path": "adequacy_decision.json",
+    "threshold_panel_sha256": "49aa5664c7361ad8049bedaee089adbabfe696e8e3a9122ab9d0feb4c7226d60"
+  },
+  "bootstrap_configuration_hash": "0a679d60427561b662059f289249d7151aad9e53c97e1ceec669e2353233d923",
+  "confirmations": {
+    "2025_predictive_scoring_run": false,
+    "2026_market_data_accessed": false,
+    "2026_paths_enumerated": false,
+    "economic_analysis_run": false,
+    "predictive_metrics_computed": false,
+    "predictive_models_run": false
+  },
+  "contract_sha256": "f9350da6b17c58de3bca4c0831bcaccf4838449575fe693dc573db72eb40bc39",
+  "core_tables": {
+    "T1": {
+      "file_sha256": "c9e519e0d2881f261850b13fff87c02403d28821fbcc083421c4c4b398e1c811",
+      "row_count": 245049,
+      "semantic_sha256": "c9e519e0d2881f261850b13fff87c02403d28821fbcc083421c4c4b398e1c811"
+    },
+    "T2": {
+      "file_sha256": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417",
+      "row_count": 245049,
+      "semantic_sha256": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417"
+    }
+  },
+  "environment": {
+    "PYTHONPATH": null,
+    "conda_env": "binance-v2-research",
+    "environment.yml": "f92751b8df3298c65ea89938004f0583993997397e5e98c11c4fdf819b0315f6",
+    "numpy_path": "/home/ata/miniconda3/envs/binance-v2-research/lib/python3.11/site-packages/numpy/__init__.py",
+    "numpy_version": "2.4.6",
+    "provenance_sha256": "1c236e59f296a019aa667d6ac4b16a96434a9d5beabbd37646ed5b592e456e2f",
+    "python_path": "/home/ata/miniconda3/envs/binance-v2-research/bin/python",
+    "requirements-dev.txt": "eb76f8794c2d8288345b7f14c1af79b3a5376fae26280f10a0f69b43fada5e2a"
+  },
+  "equal_trade_weight_validation": {
+    "T1": {
+      "max_abs_trade_sum_error": 2.353672812205332e-14,
+      "numeric_tolerance": 1e-12,
+      "represented_trades": 1847,
+      "validated": true
+    },
+    "T2": {
+      "max_abs_trade_sum_error": 3.241851231905457e-14,
+      "numeric_tolerance": 1e-12,
+      "represented_trades": 845,
+      "validated": true
+    }
+  },
+  "manifest_version": "C4_ADEQUACY_REPRODUCIBILITY_V1",
+  "predecessor_hashes": {
+    "C2_accepted_revision": "ab08b62",
+    "C2_common_horizon_hash": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+    "C2_frozen_entry_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "C3_execution_revision": "8cdfe4be2064e4c8aa98642eb655da07066d9832",
+    "C3_input_manifest_hash": "cb5dd90fdffaca618a1b504e686206012d73b725d21e83ee1ff1091155e9fd3f"
+  },
+  "repository": {
+    "dirty_state_at_run": [
+      " M .gitignore",
+      " M environment.yml",
+      " M requirements-dev.txt",
+      "?? artifacts/c4_sequential_exit_state/",
+      "?? src/binance_data_foundation/c4_adequacy.py",
+      "?? src/binance_data_foundation/c4_adequacy_cli.py",
+      "?? tests/test_c4_adequacy.py"
+    ],
+    "revision": "0ac4d61daba2403a212be88080ff9b03c9cc02ad"
+  },
+  "snapshot_definition_version": "C4_COMPLETED_5M_LANDMARK_V1",
+  "source_test_hashes": {
+    "environment.yml": "f92751b8df3298c65ea89938004f0583993997397e5e98c11c4fdf819b0315f6",
+    "requirements-dev.txt": "eb76f8794c2d8288345b7f14c1af79b3a5376fae26280f10a0f69b43fada5e2a",
+    "src/binance_data_foundation/c4_adequacy.py": "6cebcecf71716aeff72d8373fc1d588abd742c077b1787c81f0d852dfea6f3f1",
+    "src/binance_data_foundation/c4_adequacy_cli.py": "62a83f879f714385135f5fda76b43045220cb5bc005260a1b63eae250620a83a",
+    "tests/test_c4_adequacy.py": "a2176f44426203dcc6e43615677e023efaf2ecfc91fad96ce2abf5d4e272d236"
+  },
+  "summary_semantic_hashes": {
+    "bootstrap_structure.json": "54d8198a6b94775db0f4865a1fc01aa4bbe131769928cf3fb1991bc66113b9d9",
+    "censoring_summary.json": "44dd1e07a778f7502464c23677842266484a8d4caa506a2e225e7ccf00665973",
+    "input_manifest.json": "2e241ec797cbbc76c524fdac17cb79ae9d05ac1de83cf1d1d2ea8a366fdc0ceb",
+    "overlap_summary.json": "48d7068910815a83f175787b9d2fdc15b354b9417098a4accfee997b4c8f16c1",
+    "snapshot_schema.json": "314cab8a3b893090446c3b7d6f0c3f88144944602e378523aebd8d612969333a",
+    "t1_adequacy_summary.json": "b614037c7070a8b93970b885c7672c6f8be60a3a72f8e9e8f1aa80f33ab73175",
+    "t2_adequacy_summary.json": "35fa9eb69197f4c9f523ae1145e66ea2f70119dbdae063bd05d9bda46b0e6bda"
+  },
+  "target_definition_versions": {
+    "T1": "C4_T1_CONT_PLUS1_VS_REV_MINUS075_H60_V1",
+    "T2": "C4_T2_GIVEBACK50_VS_NEWPEAK050_H60_V1"
+  }
+}
