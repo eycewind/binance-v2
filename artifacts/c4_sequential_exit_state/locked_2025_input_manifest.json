@@ -1,0 +1,224 @@
+{
+  "version": "C4_LOCKED_2025_INPUT_MANIFEST_V1",
+  "freeze_sha256": "011c35e91297468e2015442ec2c95079cfdb8cf28bf11a113e2ad6e1ee093fb2",
+  "locked_evaluation_config_sha256": "750ecd9b3c02b401dd1298e29d39174bf38a26f6f0ac3950b7180a3f261a2064",
+  "input_path": "artifacts/c4_sequential_exit_state/locked_2025_input.json",
+  "input_sha256": "230106486e24624da73dc60fb2346973f0bbf9039be428d0960e50999b631757",
+  "row_count": 180268,
+  "trade_count": 860,
+  "targets": {
+    "T1": {
+      "resolved_candidate_rows": 119579,
+      "complete_case_rows": 114150,
+      "excluded_rows_by_reason": {
+        "ambiguous": 4,
+        "censored": 8743,
+        "feature_incomplete": 5429
+      },
+      "unique_trades": 860,
+      "class_counts": {
+        "adverse_reversal": 20353,
+        "continuation": 13370,
+        "no_event_60m": 80427
+      },
+      "feature_columns": [
+        "symbol_ETHUSDT",
+        "symbol_SOLUSDT",
+        "symbol_XRPUSDT",
+        "symbol_BNBUSDT",
+        "elapsed_log1p_5m",
+        "current_unrealized_return",
+        "realized_volatility_12",
+        "calendar_month_sin",
+        "calendar_month_cos",
+        "btc_return_60m",
+        "drawdown_from_running_peak",
+        "peak_gain_retained_fraction",
+        "running_mae",
+        "path_efficiency",
+        "recent_return_5m",
+        "recent_return_15m",
+        "recent_return_30m",
+        "momentum_acceleration",
+        "positive_5m_count_6",
+        "negative_5m_count_6",
+        "volatility_expansion_ratio",
+        "range_ratio_5m",
+        "quote_volume_ratio_5m",
+        "trade_count_ratio_5m",
+        "h1_close_distance_sma24",
+        "h1_sma24_slope"
+      ],
+      "input_feature_columns": [
+        "elapsed_log1p_5m",
+        "current_unrealized_return",
+        "realized_volatility_12",
+        "calendar_month_sin",
+        "calendar_month_cos",
+        "btc_return_60m",
+        "drawdown_from_running_peak",
+        "peak_gain_retained_fraction",
+        "running_mae",
+        "path_efficiency",
+        "recent_return_5m",
+        "recent_return_15m",
+        "recent_return_30m",
+        "momentum_acceleration",
+        "positive_5m_count_6",
+        "negative_5m_count_6",
+        "volatility_expansion_ratio",
+        "range_ratio_5m",
+        "quote_volume_ratio_5m",
+        "trade_count_ratio_5m",
+        "h1_close_distance_sma24",
+        "h1_sma24_slope"
+      ],
+      "class_order": [
+        "continuation",
+        "adverse_reversal",
+        "no_event_60m"
+      ]
+    },
+    "T2": {
+      "resolved_candidate_rows": 66303,
+      "complete_case_rows": 66118,
+      "excluded_rows_by_reason": {
+        "censored": 779,
+        "feature_incomplete": 185,
+        "target_ineligible": 61244
+      },
+      "unique_trades": 423,
+      "class_counts": {
+        "no_event_60m": 44952,
+        "renewed_peak": 6624,
+        "substantial_giveback": 14542
+      },
+      "feature_columns": [
+        "symbol_ETHUSDT",
+        "symbol_SOLUSDT",
+        "symbol_XRPUSDT",
+        "symbol_BNBUSDT",
+        "elapsed_log1p_5m",
+        "current_unrealized_return",
+        "realized_volatility_12",
+        "calendar_month_sin",
+        "calendar_month_cos",
+        "btc_return_60m",
+        "drawdown_from_running_peak",
+        "peak_gain_retained_fraction",
+        "t2_upper_distance",
+        "t2_lower_distance",
+        "running_mae",
+        "path_efficiency",
+        "recent_return_5m",
+        "recent_return_15m",
+        "recent_return_30m",
+        "momentum_acceleration",
+        "positive_5m_count_6",
+        "negative_5m_count_6",
+        "volatility_expansion_ratio",
+        "range_ratio_5m",
+        "quote_volume_ratio_5m",
+        "trade_count_ratio_5m",
+        "h1_close_distance_sma24",
+        "h1_sma24_slope"
+      ],
+      "input_feature_columns": [
+        "elapsed_log1p_5m",
+        "current_unrealized_return",
+        "realized_volatility_12",
+        "calendar_month_sin",
+        "calendar_month_cos",
+        "btc_return_60m",
+        "drawdown_from_running_peak",
+        "peak_gain_retained_fraction",
+        "t2_upper_distance",
+        "t2_lower_distance",
+        "running_mae",
+        "path_efficiency",
+        "recent_return_5m",
+        "recent_return_15m",
+        "recent_return_30m",
+        "momentum_acceleration",
+        "positive_5m_count_6",
+        "negative_5m_count_6",
+        "volatility_expansion_ratio",
+        "range_ratio_5m",
+        "quote_volume_ratio_5m",
+        "trade_count_ratio_5m",
+        "h1_close_distance_sma24",
+        "h1_sma24_slope"
+      ],
+      "class_order": [
+        "renewed_peak",
+        "substantial_giveback",
+        "no_event_60m"
+      ]
+    }
+  },
+  "feature_schema_sha256": "ad435c193de8a312816455783b6d55e798095428857e993c0255d408a8bd8325",
+  "source_input_provenance": [
+    {
+      "path": "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv",
+      "role": "frozen_entries",
+      "sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3"
+    },
+    {
+      "path": "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv",
+      "role": "common_horizons",
+      "sha256": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f"
+    },
+    {
+      "path": "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7"
+    },
+    {
+      "path": "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9"
+    },
+    {
+      "path": "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef"
+    },
+    {
+      "path": "data/normalized/c2_history/XRPUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+    },
+    {
+      "path": "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+      "role": "normalized_1m",
+      "sha256": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f"
+    },
+    {
+      "path": "src/binance_data_foundation/c4_locked_input.py",
+      "role": "locked_input_preparation",
+      "sha256": "8fcde431ac21722d8a50c4df1c3067b044bf6398a8ca4e058f4e93ac6913d620"
+    },
+    {
+      "path": "src/binance_data_foundation/c4_locked_input_cli.py",
+      "role": "locked_input_cli",
+      "sha256": "59f3f9bbd0c2c174f5e52319802535bc43df5ba901cbb946f496fea216db00cb"
+    }
+  ],
+  "environment_provenance": {
+    "conda_env": "binance-v2-research",
+    "python_version": "3.11.16",
+    "numpy_version": "2.4.6",
+    "environment_yml_sha256": "f92751b8df3298c65ea89938004f0583993997397e5e98c11c4fdf819b0315f6",
+    "requirements_dev_sha256": "eb76f8794c2d8288345b7f14c1af79b3a5376fae26280f10a0f69b43fada5e2a"
+  },
+  "authorized_period": {
+    "start_inclusive_utc": "2025-01-01T00:00:00Z",
+    "end_exclusive_utc": "2026-01-01T00:00:00Z"
+  },
+  "2026_access": false,
+  "predictive_scoring_performed": false,
+  "predictive_rows_scored": 0,
+  "model_fit_performed": false,
+  "preprocessing_fit_performed": false,
+  "stage_B_or_economic_analysis": false
+}
