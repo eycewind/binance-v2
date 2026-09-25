@@ -1,0 +1,36 @@
+{
+  "2025_predictive_scoring": "NOT PERFORMED",
+  "2026_access": false,
+  "exact_reproduction": true,
+  "first_hashes": {
+    "bootstrap_comparisons_2024.json": "37fd844c09074bfb86263c9ba0244b04eb12c76bfd51fed65d86538c150f978c",
+    "c4_2024_freeze.json": "b08249c57abd1d593743197ccb837bae65eb1b55769bb2580e3ccae60262db99",
+    "c4_2024_interpretation.json": "a90dadb89454a8730c1e49cc11bddcb85ba12e340155f321b17d40f38603484d",
+    "calibration_2024.json": "95341bd9997334e8f1964f88d3f4c4b927a0b1296546d618a74a66b27c5593d8",
+    "development_attempts_2024.json": "01ba296e6195f3673d5d0ff759aee8e4f6287fe759b7fe1f904391840798e7f2",
+    "development_metrics_2024.csv": "b4cdf54258cbcd1d0e90baf67370ce86ff09951b1b258a4e634dbf20af7f393e",
+    "development_predictions_2024.csv": "1c6b80e0cbb17c7a31c686c9688d3200a1d4e78a1d0fe90c8ef5cf4a42129381",
+    "feature_schema.json": "ad435c193de8a312816455783b6d55e798095428857e993c0255d408a8bd8325",
+    "final_models_2024.json": "df0cd4aa679851002e0b5c412d0b4636d02593b6bde81b88050d817d0c6a9dbc",
+    "final_preprocessing_2024.json": "36397c9654057e0c1e06c78537ebb9d6911d79be4eb402a1dc3cec8cc0c3bf22",
+    "fold_counts_2024.json": "8e55bbbd8ad92254d52ea502af010b85d2c0b5848f48b69eb5e1f1ded3c3ef7c",
+    "modeling_population_2024.json": "6d8d198e2ce09d9c924586780c715e2db4f8556d62cdbd0093f5f7954ac8c859",
+    "stability_2024.json": "33863a0f0fe0df2a9d6727fd60c7f56ed4cb486261d183bf3ebc7c9dc5b8c91b"
+  },
+  "independent_offline_rebuilds": 2,
+  "second_hashes": {
+    "bootstrap_comparisons_2024.json": "37fd844c09074bfb86263c9ba0244b04eb12c76bfd51fed65d86538c150f978c",
+    "c4_2024_freeze.json": "b08249c57abd1d593743197ccb837bae65eb1b55769bb2580e3ccae60262db99",
+    "c4_2024_interpretation.json": "a90dadb89454a8730c1e49cc11bddcb85ba12e340155f321b17d40f38603484d",
+    "calibration_2024.json": "95341bd9997334e8f1964f88d3f4c4b927a0b1296546d618a74a66b27c5593d8",
+    "development_attempts_2024.json": "01ba296e6195f3673d5d0ff759aee8e4f6287fe759b7fe1f904391840798e7f2",
+    "development_metrics_2024.csv": "b4cdf54258cbcd1d0e90baf67370ce86ff09951b1b258a4e634dbf20af7f393e",
+    "development_predictions_2024.csv": "1c6b80e0cbb17c7a31c686c9688d3200a1d4e78a1d0fe90c8ef5cf4a42129381",
+    "feature_schema.json": "ad435c193de8a312816455783b6d55e798095428857e993c0255d408a8bd8325",
+    "final_models_2024.json": "df0cd4aa679851002e0b5c412d0b4636d02593b6bde81b88050d817d0c6a9dbc",
+    "final_preprocessing_2024.json": "36397c9654057e0c1e06c78537ebb9d6911d79be4eb402a1dc3cec8cc0c3bf22",
+    "fold_counts_2024.json": "8e55bbbd8ad92254d52ea502af010b85d2c0b5848f48b69eb5e1f1ded3c3ef7c",
+    "modeling_population_2024.json": "6d8d198e2ce09d9c924586780c715e2db4f8556d62cdbd0093f5f7954ac8c859",
+    "stability_2024.json": "33863a0f0fe0df2a9d6727fd60c7f56ed4cb486261d183bf3ebc7c9dc5b8c91b"
+  }
+}

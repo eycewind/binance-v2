@@ -1,0 +1,839 @@
+{
+  "T1_fold_A": {
+    "adverse_reversal": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.13963343237766648,
+          "observed": 0.19351535352268345,
+          "snapshots": 17051,
+          "supported": true,
+          "unique_event_trades": 146,
+          "unique_resolved_trades": 170,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.21127839612369897,
+          "observed": 0.3132528372293824,
+          "snapshots": 4237,
+          "supported": true,
+          "unique_event_trades": 115,
+          "unique_resolved_trades": 156,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.26691666811088893,
+          "observed": 0.4441376458294837,
+          "snapshots": 2976,
+          "supported": true,
+          "unique_event_trades": 93,
+          "unique_resolved_trades": 140,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.3581771284347808,
+          "observed": 0.5560393597031292,
+          "snapshots": 1996,
+          "supported": true,
+          "unique_event_trades": 80,
+          "unique_resolved_trades": 116,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.5830044506891179,
+          "observed": 0.660320707443929,
+          "snapshots": 1330,
+          "supported": true,
+          "unique_event_trades": 50,
+          "unique_resolved_trades": 76,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": 0.7974220887382205,
+        "slope": 1.214170836042671
+      },
+      "expected_incidence": 0.21789250018695383,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.3068160927631255,
+      "training_cut_points": [
+        0.19064827960202146,
+        0.23828388707826073,
+        0.30170527408466863,
+        0.41917021623505263
+      ],
+      "unique_event_trades": 174
+    },
+    "continuation": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.03179884732719995,
+          "observed": 0.030886334977767178,
+          "snapshots": 4662,
+          "supported": true,
+          "unique_event_trades": 43,
+          "unique_resolved_trades": 135,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.04333531792896428,
+          "observed": 0.052887215099280425,
+          "snapshots": 3924,
+          "supported": true,
+          "unique_event_trades": 63,
+          "unique_resolved_trades": 141,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.05309833785696642,
+          "observed": 0.06885708063509494,
+          "snapshots": 5156,
+          "supported": true,
+          "unique_event_trades": 76,
+          "unique_resolved_trades": 142,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.07019922851039714,
+          "observed": 0.09761717639559708,
+          "snapshots": 6117,
+          "supported": true,
+          "unique_event_trades": 70,
+          "unique_resolved_trades": 134,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.18877285476322558,
+          "observed": 0.11159231005648362,
+          "snapshots": 7731,
+          "supported": true,
+          "unique_event_trades": 52,
+          "unique_resolved_trades": 120,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": -1.5343395423357515,
+        "slope": 0.4124393463237456
+      },
+      "expected_incidence": 0.06961905713548394,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.06513039626846863,
+      "training_cut_points": [
+        0.03928047237420533,
+        0.047449696537962556,
+        0.05976090038833989,
+        0.08559832249338122
+      ],
+      "unique_event_trades": 106
+    },
+    "no_event_60m": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.2385504791110641,
+          "observed": 0.20542451520200666,
+          "snapshots": 2181,
+          "supported": true,
+          "unique_event_trades": 55,
+          "unique_resolved_trades": 86,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.571361813338059,
+          "observed": 0.38035462650097934,
+          "snapshots": 2697,
+          "supported": true,
+          "unique_event_trades": 92,
+          "unique_resolved_trades": 112,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.6732153954104372,
+          "observed": 0.5032255065158022,
+          "snapshots": 3473,
+          "supported": true,
+          "unique_event_trades": 120,
+          "unique_resolved_trades": 141,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.7375774905481725,
+          "observed": 0.6151877963722989,
+          "snapshots": 4451,
+          "supported": true,
+          "unique_event_trades": 131,
+          "unique_resolved_trades": 150,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.8200826913902535,
+          "observed": 0.7715022721254619,
+          "snapshots": 14788,
+          "supported": true,
+          "unique_event_trades": 151,
+          "unique_resolved_trades": 165,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": -0.6466776110921924,
+        "slope": 1.183924563329973
+      },
+      "expected_incidence": 0.7124884426775622,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.6280535109684058,
+      "training_cut_points": [
+        0.48240105609461553,
+        0.630300386080975,
+        0.7058470283088524,
+        0.7618221114090525
+      ],
+      "unique_event_trades": 177
+    }
+  },
+  "T1_fold_B": {
+    "adverse_reversal": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.16665288012871393,
+          "observed": 0.05626781068032246,
+          "snapshots": 5685,
+          "supported": true,
+          "unique_event_trades": 52,
+          "unique_resolved_trades": 85,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.21981683567097626,
+          "observed": 0.18755922624221827,
+          "snapshots": 5098,
+          "supported": true,
+          "unique_event_trades": 87,
+          "unique_resolved_trades": 122,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.26593630752189445,
+          "observed": 0.22863860430470206,
+          "snapshots": 4559,
+          "supported": true,
+          "unique_event_trades": 104,
+          "unique_resolved_trades": 146,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.340574848564051,
+          "observed": 0.3644988492088804,
+          "snapshots": 5199,
+          "supported": true,
+          "unique_event_trades": 123,
+          "unique_resolved_trades": 158,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.5802636085561943,
+          "observed": 0.5931215890427789,
+          "snapshots": 3653,
+          "supported": true,
+          "unique_event_trades": 92,
+          "unique_resolved_trades": 140,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": 0.08939089086707758,
+        "slope": 1.3094901909120342
+      },
+      "expected_incidence": 0.3458471265145057,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.32685473485744343,
+      "training_cut_points": [
+        0.19841299466606563,
+        0.2408448516609588,
+        0.29285102048703643,
+        0.4019800287785922
+      ],
+      "unique_event_trades": 163
+    },
+    "continuation": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.037588818894992174,
+          "observed": 0.019356792954516446,
+          "snapshots": 1529,
+          "supported": true,
+          "unique_event_trades": 25,
+          "unique_resolved_trades": 98,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.04545132948147374,
+          "observed": 0.03473928128589854,
+          "snapshots": 3609,
+          "supported": true,
+          "unique_event_trades": 40,
+          "unique_resolved_trades": 140,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.05482819948134063,
+          "observed": 0.046058120901422736,
+          "snapshots": 4263,
+          "supported": true,
+          "unique_event_trades": 63,
+          "unique_resolved_trades": 151,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.07026155290654698,
+          "observed": 0.0787384545718479,
+          "snapshots": 5473,
+          "supported": true,
+          "unique_event_trades": 75,
+          "unique_resolved_trades": 154,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.15693416714399155,
+          "observed": 0.1706141013196798,
+          "snapshots": 9320,
+          "supported": true,
+          "unique_event_trades": 61,
+          "unique_resolved_trades": 113,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": false,
+        "intercept": null,
+        "reason": "numerical_separation_or_nonconvergence",
+        "slope": null
+      },
+      "expected_incidence": 0.07737982762206605,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.07603222981264982,
+      "training_cut_points": [
+        0.04147847322886237,
+        0.04974314391396532,
+        0.06080827571316816,
+        0.08282662545769025
+      ],
+      "unique_event_trades": 101
+    },
+    "no_event_60m": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.3035457001271723,
+          "observed": 0.26806947577008955,
+          "snapshots": 4955,
+          "supported": true,
+          "unique_event_trades": 101,
+          "unique_resolved_trades": 136,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.5832306735754755,
+          "observed": 0.5477088305287265,
+          "snapshots": 5461,
+          "supported": true,
+          "unique_event_trades": 135,
+          "unique_resolved_trades": 155,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.6735593028109501,
+          "observed": 0.7257380562681996,
+          "snapshots": 4452,
+          "supported": true,
+          "unique_event_trades": 123,
+          "unique_resolved_trades": 141,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.7271302447007509,
+          "observed": 0.7799396866254318,
+          "snapshots": 4547,
+          "supported": true,
+          "unique_event_trades": 109,
+          "unique_resolved_trades": 126,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.7811265811888328,
+          "observed": 0.923713273356029,
+          "snapshots": 4779,
+          "supported": true,
+          "unique_event_trades": 74,
+          "unique_resolved_trades": 80,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": 0.30665927831220857,
+        "slope": 0.38569542747523017
+      },
+      "expected_incidence": 0.5767730458634281,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.5971130353299068,
+      "training_cut_points": [
+        0.5089247172136027,
+        0.6420839605101698,
+        0.7034102495708492,
+        0.7518132119496238
+      ],
+      "unique_event_trades": 174
+    }
+  },
+  "T2_fold_A": {
+    "no_event_60m": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.1738831131076971,
+          "observed": 0.036829918056687165,
+          "snapshots": 328,
+          "supported": true,
+          "unique_event_trades": 19,
+          "unique_resolved_trades": 54,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.2994280449704409,
+          "observed": 0.10917794205429553,
+          "snapshots": 817,
+          "supported": true,
+          "unique_event_trades": 44,
+          "unique_resolved_trades": 93,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.41146638742075675,
+          "observed": 0.19820264102667884,
+          "snapshots": 2019,
+          "supported": true,
+          "unique_event_trades": 77,
+          "unique_resolved_trades": 104,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.5439577713561932,
+          "observed": 0.4243336996489827,
+          "snapshots": 4266,
+          "supported": true,
+          "unique_event_trades": 73,
+          "unique_resolved_trades": 91,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.7572718723524414,
+          "observed": 0.8358741566244805,
+          "snapshots": 8736,
+          "supported": true,
+          "unique_event_trades": 53,
+          "unique_resolved_trades": 58,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": -0.6066398880881769,
+        "slope": 1.9582960868049046
+      },
+      "expected_incidence": 0.4958779679662543,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.39004678422423134,
+      "training_cut_points": [
+        0.23601280347288608,
+        0.3479961674614233,
+        0.4672565046555279,
+        0.6355982118466025
+      ],
+      "unique_event_trades": 86
+    },
+    "renewed_peak": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.02595878290191317,
+          "observed": 0.008491686582866675,
+          "snapshots": 1865,
+          "supported": true,
+          "unique_event_trades": 10,
+          "unique_resolved_trades": 91,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.04332523000861754,
+          "observed": 0.019544090335256774,
+          "snapshots": 2722,
+          "supported": true,
+          "unique_event_trades": 31,
+          "unique_resolved_trades": 110,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.06493977209758026,
+          "observed": 0.0520111182428538,
+          "snapshots": 3921,
+          "supported": true,
+          "unique_event_trades": 48,
+          "unique_resolved_trades": 107,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.10185937031144829,
+          "observed": 0.10113586297282331,
+          "snapshots": 4229,
+          "supported": true,
+          "unique_event_trades": 59,
+          "unique_resolved_trades": 107,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.20748670654583196,
+          "observed": 0.16940614253833366,
+          "snapshots": 3429,
+          "supported": true,
+          "unique_event_trades": 68,
+          "unique_resolved_trades": 112,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": -0.14240111270265615,
+        "slope": 1.0508842495554698
+      },
+      "expected_incidence": 0.0986394520524204,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.08014620879171158,
+      "training_cut_points": [
+        0.0341481052463268,
+        0.052021416274121116,
+        0.07943058332631896,
+        0.13313950243444223
+      ],
+      "unique_event_trades": 72
+    },
+    "substantial_giveback": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.12583121505401523,
+          "observed": 0.07415079436322153,
+          "snapshots": 8221,
+          "supported": true,
+          "unique_event_trades": 48,
+          "unique_resolved_trades": 69,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.34069040740548867,
+          "observed": 0.43774856676260354,
+          "snapshots": 4350,
+          "supported": true,
+          "unique_event_trades": 97,
+          "unique_resolved_trades": 101,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.4985954710630292,
+          "observed": 0.7330131768463883,
+          "snapshots": 2339,
+          "supported": true,
+          "unique_event_trades": 104,
+          "unique_resolved_trades": 110,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.6236925282803325,
+          "observed": 0.8635911719847429,
+          "snapshots": 926,
+          "supported": true,
+          "unique_event_trades": 89,
+          "unique_resolved_trades": 101,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.7671181518259081,
+          "observed": 0.9212870027252478,
+          "snapshots": 330,
+          "supported": true,
+          "unique_event_trades": 47,
+          "unique_resolved_trades": 56,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": 0.9514529333465159,
+        "slope": 1.8481094827319062
+      },
+      "expected_incidence": 0.4054825799813253,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.529807006984057,
+      "training_cut_points": [
+        0.24163287093057761,
+        0.4315469474236665,
+        0.5686737057522221,
+        0.6917837450213562
+      ],
+      "unique_event_trades": 112
+    }
+  },
+  "T2_fold_B": {
+    "no_event_60m": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.16611652443433575,
+          "observed": 0.03559939038807068,
+          "snapshots": 772,
+          "supported": true,
+          "unique_event_trades": 24,
+          "unique_resolved_trades": 85,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.2770027707869087,
+          "observed": 0.12915452843717862,
+          "snapshots": 1716,
+          "supported": true,
+          "unique_event_trades": 61,
+          "unique_resolved_trades": 98,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.3757270773541486,
+          "observed": 0.3217756358034616,
+          "snapshots": 2179,
+          "supported": true,
+          "unique_event_trades": 64,
+          "unique_resolved_trades": 85,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.5135265073406293,
+          "observed": 0.5931780316588809,
+          "snapshots": 3243,
+          "supported": true,
+          "unique_event_trades": 59,
+          "unique_resolved_trades": 66,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.7716323893707604,
+          "observed": 0.8468425804015671,
+          "snapshots": 6391,
+          "supported": true,
+          "unique_event_trades": 37,
+          "unique_resolved_trades": 38,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": 0.04053010438620112,
+        "slope": 1.8702207680047878
+      },
+      "expected_incidence": 0.38768589620956173,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.33472385587594033,
+      "training_cut_points": [
+        0.23019831282500117,
+        0.3255803411196194,
+        0.43587691646575016,
+        0.6197723995103948
+      ],
+      "unique_event_trades": 73
+    },
+    "renewed_peak": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.025639089161227924,
+          "observed": 0.006216500050998497,
+          "snapshots": 2102,
+          "supported": true,
+          "unique_event_trades": 20,
+          "unique_resolved_trades": 98,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.04278128826671402,
+          "observed": 0.01824360338076128,
+          "snapshots": 2110,
+          "supported": true,
+          "unique_event_trades": 31,
+          "unique_resolved_trades": 99,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.0647398796879787,
+          "observed": 0.04648601109413805,
+          "snapshots": 2868,
+          "supported": true,
+          "unique_event_trades": 42,
+          "unique_resolved_trades": 99,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.10003650209069116,
+          "observed": 0.1304466504199538,
+          "snapshots": 3426,
+          "supported": true,
+          "unique_event_trades": 58,
+          "unique_resolved_trades": 98,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.20963881913876542,
+          "observed": 0.27061751901555314,
+          "snapshots": 3795,
+          "supported": true,
+          "unique_event_trades": 66,
+          "unique_resolved_trades": 97,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": 0.7838006753490047,
+        "slope": 1.3470597179342414
+      },
+      "expected_incidence": 0.09388942089530168,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.10192267546020277,
+      "training_cut_points": [
+        0.03462793035930521,
+        0.052547763684886756,
+        0.07881350647708718,
+        0.12537731033776567
+      ],
+      "unique_event_trades": 71
+    },
+    "substantial_giveback": {
+      "bins": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.11097258621986966,
+          "observed": 0.04390463157339387,
+          "snapshots": 6627,
+          "supported": true,
+          "unique_event_trades": 30,
+          "unique_resolved_trades": 51,
+          "unstable": false
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.38110581524066167,
+          "observed": 0.32592537723928305,
+          "snapshots": 2983,
+          "supported": true,
+          "unique_event_trades": 75,
+          "unique_resolved_trades": 83,
+          "unstable": false
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.5355408516308324,
+          "observed": 0.5757373087506408,
+          "snapshots": 2115,
+          "supported": true,
+          "unique_event_trades": 92,
+          "unique_resolved_trades": 98,
+          "unstable": false
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.6579148751343316,
+          "observed": 0.7812378726152783,
+          "snapshots": 1699,
+          "supported": true,
+          "unique_event_trades": 93,
+          "unique_resolved_trades": 98,
+          "unstable": false
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.7805757987823088,
+          "observed": 0.9174484637869205,
+          "snapshots": 877,
+          "supported": true,
+          "unique_event_trades": 85,
+          "unique_resolved_trades": 90,
+          "unstable": false
+        }
+      ],
+      "calibration_intercept_slope": {
+        "estimable": true,
+        "intercept": 0.10852705003868587,
+        "slope": 1.8041151440153023
+      },
+      "expected_incidence": 0.5184246828951365,
+      "intercept_slope_supported": true,
+      "observed_incidence": 0.5633534686638569,
+      "training_cut_points": [
+        0.264084804020141,
+        0.46758723530306023,
+        0.5998341859973904,
+        0.7087418122367511
+      ],
+      "unique_event_trades": 106
+    }
+  }
+}

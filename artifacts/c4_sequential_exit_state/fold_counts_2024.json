@@ -1,0 +1,198 @@
+{
+  "T1": {
+    "fold_A": {
+      "train_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "adverse_reversal": 9460,
+          "continuation": 5895,
+          "no_event_60m": 35217
+        },
+        "class_unique_trades": {
+          "adverse_reversal": 336,
+          "continuation": 196,
+          "no_event_60m": 354
+        },
+        "entry_weeks": 26,
+        "snapshots": 50572,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 419
+      },
+      "validation_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "adverse_reversal": 4933,
+          "continuation": 2941,
+          "no_event_60m": 19716
+        },
+        "class_unique_trades": {
+          "adverse_reversal": 174,
+          "continuation": 106,
+          "no_event_60m": 177
+        },
+        "entry_weeks": 13,
+        "snapshots": 27590,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 197
+      }
+    },
+    "fold_B": {
+      "train_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "adverse_reversal": 14437,
+          "continuation": 8887,
+          "no_event_60m": 55368
+        },
+        "class_unique_trades": {
+          "adverse_reversal": 510,
+          "continuation": 302,
+          "no_event_60m": 531
+        },
+        "entry_weeks": 39,
+        "snapshots": 78692,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 616
+      },
+      "validation_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "adverse_reversal": 5140,
+          "continuation": 3154,
+          "no_event_60m": 15900
+        },
+        "class_unique_trades": {
+          "adverse_reversal": 163,
+          "continuation": 101,
+          "no_event_60m": 174
+        },
+        "entry_weeks": 14,
+        "snapshots": 24194,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 196
+      }
+    }
+  },
+  "T2": {
+    "fold_A": {
+      "train_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "no_event_60m": 19644,
+          "renewed_peak": 3119,
+          "substantial_giveback": 5992
+        },
+        "class_unique_trades": {
+          "no_event_60m": 145,
+          "renewed_peak": 129,
+          "substantial_giveback": 180
+        },
+        "entry_weeks": 26,
+        "snapshots": 28755,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 188
+      },
+      "validation_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "no_event_60m": 10766,
+          "renewed_peak": 1495,
+          "substantial_giveback": 3905
+        },
+        "class_unique_trades": {
+          "no_event_60m": 86,
+          "renewed_peak": 72,
+          "substantial_giveback": 112
+        },
+        "entry_weeks": 13,
+        "snapshots": 16166,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 114
+      }
+    },
+    "fold_B": {
+      "train_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "no_event_60m": 30916,
+          "renewed_peak": 4638,
+          "substantial_giveback": 9897
+        },
+        "class_unique_trades": {
+          "no_event_60m": 231,
+          "renewed_peak": 201,
+          "substantial_giveback": 292
+        },
+        "entry_weeks": 39,
+        "snapshots": 45451,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 302
+      },
+      "validation_report": {
+        "censor_ambiguity_exclusions": "excluded before accepted resolved-row modeling population",
+        "class_snapshots": {
+          "no_event_60m": 9032,
+          "renewed_peak": 1713,
+          "substantial_giveback": 3556
+        },
+        "class_unique_trades": {
+          "no_event_60m": 73,
+          "renewed_peak": 71,
+          "substantial_giveback": 106
+        },
+        "entry_weeks": 14,
+        "snapshots": 14301,
+        "symbols": [
+          "BNBUSDT",
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT",
+          "XRPUSDT"
+        ],
+        "trades": 107
+      }
+    }
+  }
+}

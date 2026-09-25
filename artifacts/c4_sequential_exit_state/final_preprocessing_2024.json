@@ -1,0 +1,684 @@
+{
+  "T1_G0": {
+    "columns": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT",
+      "elapsed_log1p_5m",
+      "current_unrealized_return",
+      "realized_volatility_12",
+      "calendar_month_sin",
+      "calendar_month_cos",
+      "btc_return_60m"
+    ],
+    "parameters": {
+      "btc_return_60m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.004385552446581897,
+        "median": 8.120409353096214e-05,
+        "q25": -0.0021012939877702586,
+        "q75": 0.002284258458811639
+      },
+      "calendar_month_cos": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.3660254037844388,
+        "median": 6.123233995736766e-17,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844384
+      },
+      "calendar_month_sin": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.366025403784439,
+        "median": 1.2246467991473532e-16,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844386
+      },
+      "current_unrealized_return": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.010979472071543706,
+        "median": 0.0024752475247524774,
+        "q25": -0.000830622274520687,
+        "q75": 0.010148849797023018
+      },
+      "elapsed_log1p_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.923687012270603,
+        "median": 3.4011973816621555,
+        "q25": 2.5649493574615367,
+        "q75": 4.48863636973214
+      },
+      "realized_volatility_12": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0011760444676890834,
+        "median": 0.0013840005979649682,
+        "q25": 0.0009420923402260469,
+        "q75": 0.0021181368079151303
+      }
+    }
+  },
+  "T1_G1": {
+    "columns": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT",
+      "elapsed_log1p_5m",
+      "current_unrealized_return",
+      "realized_volatility_12",
+      "calendar_month_sin",
+      "calendar_month_cos",
+      "btc_return_60m",
+      "drawdown_from_running_peak",
+      "peak_gain_retained_fraction"
+    ],
+    "parameters": {
+      "btc_return_60m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.004385552446581897,
+        "median": 8.120409353096214e-05,
+        "q25": -0.0021012939877702586,
+        "q75": 0.002284258458811639
+      },
+      "calendar_month_cos": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.3660254037844388,
+        "median": 6.123233995736766e-17,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844384
+      },
+      "calendar_month_sin": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.366025403784439,
+        "median": 1.2246467991473532e-16,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844386
+      },
+      "current_unrealized_return": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.010979472071543706,
+        "median": 0.0024752475247524774,
+        "q25": -0.000830622274520687,
+        "q75": 0.010148849797023018
+      },
+      "drawdown_from_running_peak": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.007587732123584212,
+        "median": -0.005054025792959216,
+        "q25": -0.009998831811082298,
+        "q75": -0.002411099687498086
+      },
+      "elapsed_log1p_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.923687012270603,
+        "median": 3.4011973816621555,
+        "q25": 2.5649493574615367,
+        "q75": 4.48863636973214
+      },
+      "peak_gain_retained_fraction": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.9494937763903969,
+        "median": 0.3897664603117705,
+        "q25": -0.2399047352945061,
+        "q75": 0.7095890410958908
+      },
+      "realized_volatility_12": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0011760444676890834,
+        "median": 0.0013840005979649682,
+        "q25": 0.0009420923402260469,
+        "q75": 0.0021181368079151303
+      }
+    }
+  },
+  "T1_P1": {
+    "columns": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT",
+      "elapsed_log1p_5m",
+      "current_unrealized_return",
+      "realized_volatility_12",
+      "calendar_month_sin",
+      "calendar_month_cos",
+      "btc_return_60m",
+      "drawdown_from_running_peak",
+      "peak_gain_retained_fraction",
+      "running_mae",
+      "path_efficiency",
+      "recent_return_5m",
+      "recent_return_15m",
+      "recent_return_30m",
+      "momentum_acceleration",
+      "positive_5m_count_6",
+      "negative_5m_count_6",
+      "volatility_expansion_ratio",
+      "range_ratio_5m",
+      "quote_volume_ratio_5m",
+      "trade_count_ratio_5m",
+      "h1_close_distance_sma24",
+      "h1_sma24_slope"
+    ],
+    "parameters": {
+      "btc_return_60m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.004385552446581897,
+        "median": 8.120409353096214e-05,
+        "q25": -0.0021012939877702586,
+        "q75": 0.002284258458811639
+      },
+      "calendar_month_cos": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.3660254037844388,
+        "median": 6.123233995736766e-17,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844384
+      },
+      "calendar_month_sin": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.366025403784439,
+        "median": 1.2246467991473532e-16,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844386
+      },
+      "current_unrealized_return": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.010979472071543706,
+        "median": 0.0024752475247524774,
+        "q25": -0.000830622274520687,
+        "q75": 0.010148849797023018
+      },
+      "drawdown_from_running_peak": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.007587732123584212,
+        "median": -0.005054025792959216,
+        "q25": -0.009998831811082298,
+        "q75": -0.002411099687498086
+      },
+      "elapsed_log1p_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.923687012270603,
+        "median": 3.4011973816621555,
+        "q25": 2.5649493574615367,
+        "q75": 4.48863636973214
+      },
+      "h1_close_distance_sma24": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.009010911971705893,
+        "median": 0.005402937371585148,
+        "q25": 0.002226497423003737,
+        "q75": 0.01123740939470963
+      },
+      "h1_sma24_slope": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.000999813253244386,
+        "median": 0.00027536161459074115,
+        "q25": -0.00018237033865375896,
+        "q75": 0.000817442914590627
+      },
+      "momentum_acceleration": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.004595278266082747,
+        "median": -3.826437549014905e-05,
+        "q25": -0.002331550858619247,
+        "q75": 0.0022637274074635005
+      },
+      "negative_5m_count_6": {
+        "excluded_zero_iqr": false,
+        "iqr": 2.0,
+        "median": 3.0,
+        "q25": 2.0,
+        "q75": 4.0
+      },
+      "path_efficiency": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.1999062385983947,
+        "median": 0.07106567058329823,
+        "q25": -0.03996878196400625,
+        "q75": 0.15993745663438846
+      },
+      "peak_gain_retained_fraction": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.9494937763903969,
+        "median": 0.3897664603117705,
+        "q25": -0.2399047352945061,
+        "q75": 0.7095890410958908
+      },
+      "positive_5m_count_6": {
+        "excluded_zero_iqr": false,
+        "iqr": 2.0,
+        "median": 3.0,
+        "q25": 2.0,
+        "q75": 4.0
+      },
+      "quote_volume_ratio_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.7409652910449255,
+        "median": 0.9599393523902282,
+        "q25": 0.6800304787327655,
+        "q75": 1.420995769777691
+      },
+      "range_ratio_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.613423260247428,
+        "median": 0.9957320806215887,
+        "q25": 0.733041497121823,
+        "q75": 1.346464757369251
+      },
+      "realized_volatility_12": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0011760444676890834,
+        "median": 0.0013840005979649682,
+        "q25": 0.0009420923402260469,
+        "q75": 0.0021181368079151303
+      },
+      "recent_return_15m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.003041318881352728,
+        "median": -0.00012569888580504784,
+        "q25": -0.0016597510373443924,
+        "q75": 0.0013815678440083357
+      },
+      "recent_return_30m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.00408242879015952,
+        "median": -0.0001765848490199451,
+        "q25": -0.002290446196538065,
+        "q75": 0.001791982593621455
+      },
+      "recent_return_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0017982604922327505,
+        "median": 0.0,
+        "q25": -0.0009708424719391262,
+        "q75": 0.0008274180202936243
+      },
+      "running_mae": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.004752501730360348,
+        "median": -0.003271913208196975,
+        "q25": -0.0062053403535164975,
+        "q75": -0.0014528386231561496
+      },
+      "trade_count_ratio_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.5015237839950791,
+        "median": 0.9690638810767377,
+        "q25": 0.7644242633631114,
+        "q75": 1.2659480473581906
+      },
+      "volatility_expansion_ratio": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.7513443337855842,
+        "median": 0.9892372984611875,
+        "q25": 0.6772861897372903,
+        "q75": 1.4286305235228745
+      },
+      "zero_5m_count_6": {
+        "excluded_zero_iqr": true,
+        "iqr": 0.0,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      }
+    }
+  },
+  "T2_G0": {
+    "columns": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT",
+      "elapsed_log1p_5m",
+      "current_unrealized_return",
+      "realized_volatility_12",
+      "calendar_month_sin",
+      "calendar_month_cos",
+      "btc_return_60m"
+    ],
+    "parameters": {
+      "btc_return_60m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005615996658483113,
+        "median": 0.0013379907048622908,
+        "q25": -0.0010785837628989325,
+        "q75": 0.004537412895584181
+      },
+      "calendar_month_cos": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.3660254037844388,
+        "median": -1.8369701987210297e-16,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844384
+      },
+      "calendar_month_sin": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.732050807568877,
+        "median": -2.4492935982947064e-16,
+        "q25": -0.8660254037844384,
+        "q75": 0.8660254037844386
+      },
+      "current_unrealized_return": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.01745037916433234,
+        "median": 0.01485063028837863,
+        "q25": 0.009793432203389907,
+        "q75": 0.027243811367722248
+      },
+      "elapsed_log1p_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.5281749483553346,
+        "median": 4.543294782270004,
+        "q25": 3.713572066704308,
+        "q75": 5.241747015059643
+      },
+      "realized_volatility_12": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0012950455147584636,
+        "median": 0.001694661969619711,
+        "q25": 0.0011756292448622083,
+        "q75": 0.002470674759620672
+      }
+    }
+  },
+  "T2_G1": {
+    "columns": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT",
+      "elapsed_log1p_5m",
+      "current_unrealized_return",
+      "realized_volatility_12",
+      "calendar_month_sin",
+      "calendar_month_cos",
+      "btc_return_60m",
+      "drawdown_from_running_peak",
+      "peak_gain_retained_fraction",
+      "t2_upper_distance",
+      "t2_lower_distance"
+    ],
+    "parameters": {
+      "btc_return_60m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005615996658483113,
+        "median": 0.0013379907048622908,
+        "q25": -0.0010785837628989325,
+        "q75": 0.004537412895584181
+      },
+      "calendar_month_cos": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.3660254037844388,
+        "median": -1.8369701987210297e-16,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844384
+      },
+      "calendar_month_sin": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.732050807568877,
+        "median": -2.4492935982947064e-16,
+        "q25": -0.8660254037844384,
+        "q75": 0.8660254037844386
+      },
+      "current_unrealized_return": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.01745037916433234,
+        "median": 0.01485063028837863,
+        "q25": 0.009793432203389907,
+        "q75": 0.027243811367722248
+      },
+      "drawdown_from_running_peak": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005820495133210035,
+        "median": -0.005311693102176274,
+        "q25": -0.008881372030343337,
+        "q75": -0.0030608768971333022
+      },
+      "elapsed_log1p_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.5281749483553346,
+        "median": 4.543294782270004,
+        "q25": 3.713572066704308,
+        "q75": 5.241747015059643
+      },
+      "peak_gain_retained_fraction": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.23252916172182136,
+        "median": 0.7307692307692332,
+        "q25": 0.6194887754979103,
+        "q75": 0.8520179372197316
+      },
+      "realized_volatility_12": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0012950455147584636,
+        "median": 0.001694661969619711,
+        "q25": 0.0011756292448622083,
+        "q75": 0.002470674759620672
+      },
+      "t2_lower_distance": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.006911300500196978,
+        "median": 0.004539573079397303,
+        "q25": 0.0021646070905621284,
+        "q75": 0.009075907590759106
+      },
+      "t2_upper_distance": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005920136413972276,
+        "median": 0.010366758139879651,
+        "q25": 0.008085626002964466,
+        "q75": 0.014005762416936742
+      }
+    }
+  },
+  "T2_P1": {
+    "columns": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT",
+      "elapsed_log1p_5m",
+      "current_unrealized_return",
+      "realized_volatility_12",
+      "calendar_month_sin",
+      "calendar_month_cos",
+      "btc_return_60m",
+      "drawdown_from_running_peak",
+      "peak_gain_retained_fraction",
+      "t2_upper_distance",
+      "t2_lower_distance",
+      "running_mae",
+      "path_efficiency",
+      "recent_return_5m",
+      "recent_return_15m",
+      "recent_return_30m",
+      "momentum_acceleration",
+      "positive_5m_count_6",
+      "negative_5m_count_6",
+      "volatility_expansion_ratio",
+      "range_ratio_5m",
+      "quote_volume_ratio_5m",
+      "trade_count_ratio_5m",
+      "h1_close_distance_sma24",
+      "h1_sma24_slope"
+    ],
+    "parameters": {
+      "btc_return_60m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005615996658483113,
+        "median": 0.0013379907048622908,
+        "q25": -0.0010785837628989325,
+        "q75": 0.004537412895584181
+      },
+      "calendar_month_cos": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.3660254037844388,
+        "median": -1.8369701987210297e-16,
+        "q25": -0.5000000000000004,
+        "q75": 0.8660254037844384
+      },
+      "calendar_month_sin": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.732050807568877,
+        "median": -2.4492935982947064e-16,
+        "q25": -0.8660254037844384,
+        "q75": 0.8660254037844386
+      },
+      "current_unrealized_return": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.01745037916433234,
+        "median": 0.01485063028837863,
+        "q25": 0.009793432203389907,
+        "q75": 0.027243811367722248
+      },
+      "drawdown_from_running_peak": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005820495133210035,
+        "median": -0.005311693102176274,
+        "q25": -0.008881372030343337,
+        "q75": -0.0030608768971333022
+      },
+      "elapsed_log1p_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.5281749483553346,
+        "median": 4.543294782270004,
+        "q25": 3.713572066704308,
+        "q75": 5.241747015059643
+      },
+      "h1_close_distance_sma24": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.012578316547723123,
+        "median": 0.013207877339407759,
+        "q25": 0.008505707079505376,
+        "q75": 0.0210840236272285
+      },
+      "h1_sma24_slope": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0010810341665310474,
+        "median": 0.0008145900052134447,
+        "q25": 0.00033162216297255576,
+        "q75": 0.0014126563295036032
+      },
+      "momentum_acceleration": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005527729105581636,
+        "median": 9.388615520777854e-05,
+        "q25": -0.002683255937777962,
+        "q75": 0.002844473167803674
+      },
+      "negative_5m_count_6": {
+        "excluded_zero_iqr": false,
+        "iqr": 1.0,
+        "median": 3.0,
+        "q25": 2.0,
+        "q75": 3.0
+      },
+      "path_efficiency": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.13590485225481092,
+        "median": 0.14506385346746603,
+        "q25": 0.09664656663133529,
+        "q75": 0.23255141888614622
+      },
+      "peak_gain_retained_fraction": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.23252916172182136,
+        "median": 0.7307692307692332,
+        "q25": 0.6194887754979103,
+        "q75": 0.8520179372197316
+      },
+      "positive_5m_count_6": {
+        "excluded_zero_iqr": false,
+        "iqr": 2.0,
+        "median": 3.0,
+        "q25": 2.0,
+        "q75": 4.0
+      },
+      "quote_volume_ratio_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.865610164439414,
+        "median": 0.9998567657195891,
+        "q25": 0.6979138748677863,
+        "q75": 1.5635240393072003
+      },
+      "range_ratio_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.6589619291477674,
+        "median": 1.0004054413108907,
+        "q25": 0.7399767612707703,
+        "q75": 1.3989386904185377
+      },
+      "realized_volatility_12": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0012950455147584636,
+        "median": 0.001694661969619711,
+        "q25": 0.0011756292448622083,
+        "q75": 0.002470674759620672
+      },
+      "recent_return_15m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0038084978261737623,
+        "median": 0.0005924883077217391,
+        "q25": -0.0011306735583912486,
+        "q75": 0.0026778242677825137
+      },
+      "recent_return_30m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005611752794926983,
+        "median": 0.0013568521031206426,
+        "q25": -0.0010591350397176624,
+        "q75": 0.0045526177552093205
+      },
+      "recent_return_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.0021644950797363727,
+        "median": 0.00016736401673633772,
+        "q25": -0.0008814156891991942,
+        "q75": 0.0012830793905371785
+      },
+      "running_mae": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.004644684300949109,
+        "median": -0.003052887359545897,
+        "q25": -0.0059569448540254255,
+        "q75": -0.0013122605530763165
+      },
+      "t2_lower_distance": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.006911300500196978,
+        "median": 0.004539573079397303,
+        "q25": 0.0021646070905621284,
+        "q75": 0.009075907590759106
+      },
+      "t2_upper_distance": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.005920136413972276,
+        "median": 0.010366758139879651,
+        "q25": 0.008085626002964466,
+        "q75": 0.014005762416936742
+      },
+      "trade_count_ratio_5m": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.6217882714397468,
+        "median": 0.99423226812159,
+        "q25": 0.7704269456961735,
+        "q75": 1.3922152171359203
+      },
+      "volatility_expansion_ratio": {
+        "excluded_zero_iqr": false,
+        "iqr": 0.8172424904405893,
+        "median": 1.0094509089903902,
+        "q25": 0.7002973493976712,
+        "q75": 1.5175398398382605
+      },
+      "zero_5m_count_6": {
+        "excluded_zero_iqr": true,
+        "iqr": 0.0,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      }
+    }
+  }
+}

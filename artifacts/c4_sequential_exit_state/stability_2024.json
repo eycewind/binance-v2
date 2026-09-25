@@ -1,0 +1,674 @@
+{
+  "T1_fold_A": {
+    "G1-G0": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": -0.0276155449095902,
+            "group": "2024-07",
+            "log_loss_delta": -0.03942232088712177,
+            "snapshots": 11427,
+            "trades": 60
+          },
+          {
+            "brier_delta": -0.022069181687545084,
+            "group": "2024-08",
+            "log_loss_delta": -0.02215778615180479,
+            "snapshots": 7454,
+            "trades": 72
+          },
+          {
+            "brier_delta": -0.025882225050791276,
+            "group": "2024-09",
+            "log_loss_delta": -0.04205056294326851,
+            "snapshots": 8709,
+            "trades": 65
+          }
+        ],
+        "same_direction_improvement_count": 3
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": -0.025016540123756807,
+            "group": "2024-Q3",
+            "log_loss_delta": -0.033979626636902044,
+            "snapshots": 27590,
+            "trades": 197
+          }
+        ],
+        "same_direction_improvement_count": 1
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": -0.027198548875611975,
+            "group": "BNBUSDT",
+            "log_loss_delta": -0.03326262401454378,
+            "snapshots": 5109,
+            "trades": 41
+          },
+          {
+            "brier_delta": -0.00584160628870109,
+            "group": "BTCUSDT",
+            "log_loss_delta": -0.007141109803850323,
+            "snapshots": 4742,
+            "trades": 36
+          },
+          {
+            "brier_delta": -0.03822753436036687,
+            "group": "ETHUSDT",
+            "log_loss_delta": -0.05295203174574476,
+            "snapshots": 5444,
+            "trades": 36
+          },
+          {
+            "brier_delta": -0.012471089272430874,
+            "group": "SOLUSDT",
+            "log_loss_delta": -0.01861550379417765,
+            "snapshots": 6355,
+            "trades": 38
+          },
+          {
+            "brier_delta": -0.03810277053828654,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.053466883106722506,
+            "snapshots": 5940,
+            "trades": 46
+          }
+        ],
+        "same_direction_improvement_count": 5
+      }
+    },
+    "P1-G1": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": 0.009056486296263978,
+            "group": "2024-07",
+            "log_loss_delta": 0.003901850230558137,
+            "snapshots": 11427,
+            "trades": 60
+          },
+          {
+            "brier_delta": 0.004633624148110863,
+            "group": "2024-08",
+            "log_loss_delta": 0.010057903333682512,
+            "snapshots": 7454,
+            "trades": 72
+          },
+          {
+            "brier_delta": -0.0003543653936978063,
+            "group": "2024-09",
+            "log_loss_delta": -0.002243140496910884,
+            "snapshots": 8709,
+            "trades": 65
+          }
+        ],
+        "same_direction_improvement_count": 1
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": 0.0043349054104033675,
+            "group": "2024-Q3",
+            "log_loss_delta": 0.0041242432566468085,
+            "snapshots": 27590,
+            "trades": 197
+          }
+        ],
+        "same_direction_improvement_count": 0
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": 0.007120707484764828,
+            "group": "BNBUSDT",
+            "log_loss_delta": 0.016714548133245882,
+            "snapshots": 5109,
+            "trades": 41
+          },
+          {
+            "brier_delta": -0.005543393468697789,
+            "group": "BTCUSDT",
+            "log_loss_delta": -0.01567460739515924,
+            "snapshots": 4742,
+            "trades": 36
+          },
+          {
+            "brier_delta": 0.0075548782593129705,
+            "group": "ETHUSDT",
+            "log_loss_delta": 0.00403674047021676,
+            "snapshots": 5444,
+            "trades": 36
+          },
+          {
+            "brier_delta": 0.014074176261881146,
+            "group": "SOLUSDT",
+            "log_loss_delta": 0.02182163575721746,
+            "snapshots": 6355,
+            "trades": 38
+          },
+          {
+            "brier_delta": -0.0009827128573809702,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.006153902203912917,
+            "snapshots": 5940,
+            "trades": 46
+          }
+        ],
+        "same_direction_improvement_count": 2
+      }
+    }
+  },
+  "T1_fold_B": {
+    "G1-G0": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": -0.06725805619361895,
+            "group": "2024-10",
+            "log_loss_delta": -0.08371842411558389,
+            "snapshots": 7473,
+            "trades": 58
+          },
+          {
+            "brier_delta": -0.04769756460592474,
+            "group": "2024-11",
+            "log_loss_delta": 0.3884132125451001,
+            "snapshots": 10073,
+            "trades": 69
+          },
+          {
+            "brier_delta": -0.04649075954032468,
+            "group": "2024-12",
+            "log_loss_delta": -0.06124648760566023,
+            "snapshots": 6648,
+            "trades": 70
+          }
+        ],
+        "same_direction_improvement_count": 2
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": -0.05315645203357157,
+            "group": "2024-Q4",
+            "log_loss_delta": 0.09073751192797279,
+            "snapshots": 24194,
+            "trades": 196
+          }
+        ],
+        "same_direction_improvement_count": 0
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": -0.049903280435295724,
+            "group": "BNBUSDT",
+            "log_loss_delta": -0.06569745006779788,
+            "snapshots": 6881,
+            "trades": 41
+          },
+          {
+            "brier_delta": 0.01713227062056475,
+            "group": "BTCUSDT",
+            "log_loss_delta": 0.8576603208909552,
+            "snapshots": 5536,
+            "trades": 38
+          },
+          {
+            "brier_delta": -0.022585913848942447,
+            "group": "ETHUSDT",
+            "log_loss_delta": -0.018136293069997943,
+            "snapshots": 3244,
+            "trades": 36
+          },
+          {
+            "brier_delta": -0.078542431410812,
+            "group": "SOLUSDT",
+            "log_loss_delta": -0.10300282388770196,
+            "snapshots": 3583,
+            "trades": 37
+          },
+          {
+            "brier_delta": -0.12055667098982709,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.17383939474611432,
+            "snapshots": 4950,
+            "trades": 44
+          }
+        ],
+        "same_direction_improvement_count": 4
+      }
+    },
+    "P1-G1": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": -0.009630470722493727,
+            "group": "2024-10",
+            "log_loss_delta": -0.020238688387920784,
+            "snapshots": 7473,
+            "trades": 58
+          },
+          {
+            "brier_delta": -0.00394367850170591,
+            "group": "2024-11",
+            "log_loss_delta": -0.008923193319482171,
+            "snapshots": 10073,
+            "trades": 69
+          },
+          {
+            "brier_delta": -0.01564287402157272,
+            "group": "2024-12",
+            "log_loss_delta": -0.02582192223226597,
+            "snapshots": 6648,
+            "trades": 70
+          }
+        ],
+        "same_direction_improvement_count": 3
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": -0.007494769869428368,
+            "group": "2024-Q4",
+            "log_loss_delta": -0.015206221040953212,
+            "snapshots": 24194,
+            "trades": 196
+          }
+        ],
+        "same_direction_improvement_count": 1
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": -0.002040053204220043,
+            "group": "BNBUSDT",
+            "log_loss_delta": -0.0058589064233343265,
+            "snapshots": 6881,
+            "trades": 41
+          },
+          {
+            "brier_delta": 0.0001963839882394086,
+            "group": "BTCUSDT",
+            "log_loss_delta": -0.004387289171393931,
+            "snapshots": 5536,
+            "trades": 38
+          },
+          {
+            "brier_delta": -0.005807119304708237,
+            "group": "ETHUSDT",
+            "log_loss_delta": -0.01658466447597425,
+            "snapshots": 3244,
+            "trades": 36
+          },
+          {
+            "brier_delta": -0.012017459564307336,
+            "group": "SOLUSDT",
+            "log_loss_delta": -0.020367394854418137,
+            "snapshots": 3583,
+            "trades": 37
+          },
+          {
+            "brier_delta": -0.016797568312253815,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.0277919463956502,
+            "snapshots": 4950,
+            "trades": 44
+          }
+        ],
+        "same_direction_improvement_count": 4
+      }
+    }
+  },
+  "T2_fold_A": {
+    "G1-G0": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": -0.11323915350843687,
+            "group": "2024-07",
+            "log_loss_delta": -0.17030156256599144,
+            "snapshots": 7361,
+            "trades": 37
+          },
+          {
+            "brier_delta": -0.0528583364098732,
+            "group": "2024-08",
+            "log_loss_delta": -0.07785085702022937,
+            "snapshots": 4142,
+            "trades": 44
+          },
+          {
+            "brier_delta": -0.0818340454149637,
+            "group": "2024-09",
+            "log_loss_delta": -0.12276576661625872,
+            "snapshots": 4663,
+            "trades": 33
+          }
+        ],
+        "same_direction_improvement_count": 3
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": -0.08084332439070514,
+            "group": "2024-Q3",
+            "log_loss_delta": -0.12085847212428345,
+            "snapshots": 16166,
+            "trades": 114
+          }
+        ],
+        "same_direction_improvement_count": 1
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": -0.0637695931214589,
+            "group": "BNBUSDT",
+            "log_loss_delta": -0.09516030348670193,
+            "snapshots": 3032,
+            "trades": 23
+          },
+          {
+            "brier_delta": -0.08843461506509967,
+            "group": "BTCUSDT",
+            "log_loss_delta": -0.1352764128450469,
+            "snapshots": 3089,
+            "trades": 15
+          },
+          {
+            "brier_delta": -0.08735100857004277,
+            "group": "ETHUSDT",
+            "log_loss_delta": -0.1326210389660823,
+            "snapshots": 2839,
+            "trades": 21
+          },
+          {
+            "brier_delta": -0.08762358649649014,
+            "group": "SOLUSDT",
+            "log_loss_delta": -0.12172026297313802,
+            "snapshots": 3989,
+            "trades": 30
+          },
+          {
+            "brier_delta": -0.07839361351618937,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.12493531767266387,
+            "snapshots": 3217,
+            "trades": 25
+          }
+        ],
+        "same_direction_improvement_count": 5
+      }
+    },
+    "P1-G1": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": -0.019872723873549086,
+            "group": "2024-07",
+            "log_loss_delta": -0.027039157066237926,
+            "snapshots": 7361,
+            "trades": 37
+          },
+          {
+            "brier_delta": -0.020109917585779718,
+            "group": "2024-08",
+            "log_loss_delta": -0.024461655682409614,
+            "snapshots": 4142,
+            "trades": 44
+          },
+          {
+            "brier_delta": -0.00053018418315703,
+            "group": "2024-09",
+            "log_loss_delta": 0.0014684569073488902,
+            "snapshots": 4663,
+            "trades": 33
+          }
+        ],
+        "same_direction_improvement_count": 2
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": -0.014365116097717595,
+            "group": "2024-Q3",
+            "log_loss_delta": -0.017792127925739587,
+            "snapshots": 16166,
+            "trades": 114
+          }
+        ],
+        "same_direction_improvement_count": 1
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": -6.656158199247367e-05,
+            "group": "BNBUSDT",
+            "log_loss_delta": -0.0006678356941254011,
+            "snapshots": 3032,
+            "trades": 23
+          },
+          {
+            "brier_delta": -0.0013764046072563046,
+            "group": "BTCUSDT",
+            "log_loss_delta": -0.002655203171552871,
+            "snapshots": 3089,
+            "trades": 15
+          },
+          {
+            "brier_delta": -0.030939773915040047,
+            "group": "ETHUSDT",
+            "log_loss_delta": -0.039601722529194874,
+            "snapshots": 2839,
+            "trades": 21
+          },
+          {
+            "brier_delta": -0.020150577986842798,
+            "group": "SOLUSDT",
+            "log_loss_delta": -0.02667171783800483,
+            "snapshots": 3989,
+            "trades": 30
+          },
+          {
+            "brier_delta": -0.014447746312960384,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.013653064269715931,
+            "snapshots": 3217,
+            "trades": 25
+          }
+        ],
+        "same_direction_improvement_count": 5
+      }
+    }
+  },
+  "T2_fold_B": {
+    "G1-G0": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": -0.12030654981350988,
+            "group": "2024-10",
+            "log_loss_delta": -0.1575558447099573,
+            "snapshots": 4099,
+            "trades": 28
+          },
+          {
+            "brier_delta": -0.12499843501768584,
+            "group": "2024-11",
+            "log_loss_delta": -0.2063246919377906,
+            "snapshots": 6857,
+            "trades": 43
+          },
+          {
+            "brier_delta": -0.14090926771093176,
+            "group": "2024-12",
+            "log_loss_delta": -0.21323244524184398,
+            "snapshots": 3345,
+            "trades": 37
+          }
+        ],
+        "same_direction_improvement_count": 3
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": -0.12985384156053392,
+            "group": "2024-Q4",
+            "log_loss_delta": -0.19623218576602908,
+            "snapshots": 14301,
+            "trades": 107
+          }
+        ],
+        "same_direction_improvement_count": 1
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": -0.1334183725607934,
+            "group": "BNBUSDT",
+            "log_loss_delta": -0.18525819740779897,
+            "snapshots": 4291,
+            "trades": 26
+          },
+          {
+            "brier_delta": -0.11115518054329387,
+            "group": "BTCUSDT",
+            "log_loss_delta": -0.16769835659136217,
+            "snapshots": 3384,
+            "trades": 20
+          },
+          {
+            "brier_delta": -0.12277238840589855,
+            "group": "ETHUSDT",
+            "log_loss_delta": -0.1838661841052172,
+            "snapshots": 1597,
+            "trades": 16
+          },
+          {
+            "brier_delta": -0.1340715296710551,
+            "group": "SOLUSDT",
+            "log_loss_delta": -0.19905879073279062,
+            "snapshots": 2427,
+            "trades": 22
+          },
+          {
+            "brier_delta": -0.14297599488143642,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.23934831611870544,
+            "snapshots": 2602,
+            "trades": 23
+          }
+        ],
+        "same_direction_improvement_count": 5
+      }
+    },
+    "P1-G1": {
+      "month": {
+        "group_count": 3,
+        "groups": [
+          {
+            "brier_delta": 0.004874371805149163,
+            "group": "2024-10",
+            "log_loss_delta": 0.0021108199530993276,
+            "snapshots": 4099,
+            "trades": 28
+          },
+          {
+            "brier_delta": -0.0036931847656180446,
+            "group": "2024-11",
+            "log_loss_delta": -0.009568164452461083,
+            "snapshots": 6857,
+            "trades": 43
+          },
+          {
+            "brier_delta": -0.009149822244515092,
+            "group": "2024-12",
+            "log_loss_delta": -0.0184779667846513,
+            "snapshots": 3345,
+            "trades": 37
+          }
+        ],
+        "same_direction_improvement_count": 2
+      },
+      "quarter": {
+        "group_count": 1,
+        "groups": [
+          {
+            "brier_delta": -0.0031403372000590084,
+            "group": "2024-Q4",
+            "log_loss_delta": -0.009162919189519383,
+            "snapshots": 14301,
+            "trades": 107
+          }
+        ],
+        "same_direction_improvement_count": 1
+      },
+      "symbol": {
+        "group_count": 5,
+        "groups": [
+          {
+            "brier_delta": 0.005096964616354847,
+            "group": "BNBUSDT",
+            "log_loss_delta": 0.004072694312276422,
+            "snapshots": 4291,
+            "trades": 26
+          },
+          {
+            "brier_delta": 0.004781678075097945,
+            "group": "BTCUSDT",
+            "log_loss_delta": 0.0035696652162299424,
+            "snapshots": 3384,
+            "trades": 20
+          },
+          {
+            "brier_delta": -0.0049372285758531136,
+            "group": "ETHUSDT",
+            "log_loss_delta": -0.006818981183693225,
+            "snapshots": 1597,
+            "trades": 16
+          },
+          {
+            "brier_delta": -0.008194351834794694,
+            "group": "SOLUSDT",
+            "log_loss_delta": -0.01651502936604498,
+            "snapshots": 2427,
+            "trades": 22
+          },
+          {
+            "brier_delta": -0.013256492363233296,
+            "group": "XRPUSDT",
+            "log_loss_delta": -0.029794841944794724,
+            "snapshots": 2602,
+            "trades": 23
+          }
+        ],
+        "same_direction_improvement_count": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "T1": {
+    "all_intervals_exclude_zero_in_improving_direction": false,
+    "basis": "P1-versus-G1 proper scores, frozen whole-trade block intervals, fold and subgroup stability, and calibration",
+    "decision": "MIXED",
+    "fold_point_deltas": [
+      0.00412424325664681,
+      0.0043349054104033675,
+      -0.015206221040953214,
+      -0.007494769869428368
+    ]
+  },
+  "T2": {
+    "all_intervals_exclude_zero_in_improving_direction": false,
+    "basis": "P1-versus-G1 proper scores, frozen whole-trade block intervals, fold and subgroup stability, and calibration",
+    "decision": "MIXED",
+    "fold_point_deltas": [
+      -0.017792127925739587,
+      -0.014365116097717595,
+      -0.009162919189519383,
+      -0.0031403372000590097
+    ]
+  }
+}
