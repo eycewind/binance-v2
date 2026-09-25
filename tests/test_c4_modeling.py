@@ -70,6 +70,13 @@ def test_freeze_is_complete_and_has_no_later_scoring():
     assert not (ART/'predictions_2025.csv').exists()
     assert not (ART/'development_metrics_2025.csv').exists()
 
+def test_freeze_directly_covers_acceptance_evidence_and_transitive_sources():
+    freeze=json.loads((ART/'c4_2024_freeze.json').read_text())
+    assert set(freeze['required_acceptance_artifacts'])==set(freeze['material_artifact_hashes'])
+    assert {'c4_2024_reproducibility.json','independent_rebuild.json'} <= set(freeze['material_artifact_hashes'])
+    assert set(freeze['required_source_dependencies'])==set(freeze['source_test_hashes'])
+    assert {'src/binance_data_foundation/c2_costs.py','src/binance_data_foundation/c2_entries.py','src/binance_data_foundation/c2_path_metrics.py'} <= set(freeze['source_test_hashes'])
+
 def test_production_population_and_prediction_rows_are_2024_only():
     predictions=list(csv.DictReader((ART/'development_predictions_2024.csv').open()))
     assert predictions and {r['target'] for r in predictions}=={'T1','T2'}

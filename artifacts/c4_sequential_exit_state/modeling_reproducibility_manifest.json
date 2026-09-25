@@ -34,5 +34,26 @@
     },
     "generator": "c4_adequacy.run"
   },
+  "source_dependency_hashes": {
+    "README.md": "12a8b22056b6ef582f824f3f7fc531432f62af9d84dded93925e68b15484453c",
+    "environment.yml": "f92751b8df3298c65ea89938004f0583993997397e5e98c11c4fdf819b0315f6",
+    "requirements-dev.txt": "eb76f8794c2d8288345b7f14c1af79b3a5376fae26280f10a0f69b43fada5e2a",
+    "src/binance_data_foundation/c2_common.py": "a34c8302e0d7865791c330119fce74a435b6bb540ecf3f087a58e9cdb9ed4685",
+    "src/binance_data_foundation/c2_costs.py": "d6ff5b31b77c51e75ca2dbcb5c7d9fdc9ed7d5b630595407af1cfd0107b9260f",
+    "src/binance_data_foundation/c2_entries.py": "afa045fb99ca559c8f88435f3ec274042783b2fafcb3f043ff4483fffa8daa6b",
+    "src/binance_data_foundation/c2_p0.py": "d01eaad44890e16a3dd2e30608b37f9829156cae5c68a5a62ac49a65acee72c2",
+    "src/binance_data_foundation/c2_path_metrics.py": "715d00f6c9f654fe1ddd5f738a280bbfee236ed4d7a390e1efe622bcdfd4223c",
+    "src/binance_data_foundation/c3_milestone.py": "8f1da57f3cc76c75bf7a588ebab29618f5285649350f69192f4467f02d081f7b",
+    "src/binance_data_foundation/c4_adequacy.py": "6cebcecf71716aeff72d8373fc1d588abd742c077b1787c81f0d852dfea6f3f1",
+    "src/binance_data_foundation/c4_locked_eval.py": "da998289db599c547bc0c6265805e4ef586326b1ea74ff4fd74c627268da7d57",
+    "src/binance_data_foundation/c4_locked_eval_cli.py": "c38c42d3982c88ab3e724e7b2caefc8e75a915e2d3d3fb6d3eb62c5e17ed79cd",
+    "src/binance_data_foundation/c4_modeling.py": "4d92b4c3a725daabf4ba780cb8bcb8dd8afc0be60e570ba31c4b4a476043d18c",
+    "src/binance_data_foundation/c4_modeling_cli.py": "125ee872c6aa2f5929ad11d71b85615638245ec231774cc12cb96db5032c65d9",
+    "src/binance_data_foundation/ingest.py": "6d789b9d6fe55fb0aaa038dcb690be3453826a95de31e2f35833eea6e7777422",
+    "tests/test_c4_adequacy.py": "a2176f44426203dcc6e43615677e023efaf2ecfc91fad96ce2abf5d4e272d236",
+    "tests/test_c4_locked_eval.py": "400815405b86806dfb9f134a9361c9c7869f46bf4ac4b96e61f35fe235f780c1",
+    "tests/test_c4_modeling.py": "c15e7c63b0ee0647fecbce19bdd449eb84eb1ddb430ba4f7a462f95f60e72f06"
+  },
+  "source_dependency_policy": "complete transitive C4 execution graph; fail closed on omission or mismatch",
   "version": "C4_2024_MODELING_REPRODUCIBILITY_V2"
 }

@@ -91,11 +91,282 @@
     }
   },
   "interpretation_sha256": "a90dadb89454a8730c1e49cc11bddcb85ba12e340155f321b17d40f38603484d",
+  "locked_2025_evaluation": {
+    "authorized_entry_range_ms": [
+      1735689600000,
+      1767225600000
+    ],
+    "authorized_snapshot_range_ms": [
+      1735689600000,
+      1767225600000
+    ],
+    "bootstrap": {
+      "attachment": "whole_trade",
+      "block_length_entry_weeks": 4,
+      "blocks": "overlapping_non_circular",
+      "draws": "ceil(W/4)_with_replacement",
+      "empty_block_policy": "reject_and_redraw",
+      "generator": "PCG64",
+      "hyndman_fan_type": 7,
+      "interval_levels": [
+        0.025,
+        0.975
+      ],
+      "multiplicity": "preserved_no_deduplication",
+      "quantile_method": "linear",
+      "replicates": 2000,
+      "seed": 20240923,
+      "sign_convention": "first_minus_second"
+    },
+    "calibration": {
+      "bin_source": "frozen_2024_fold_B_training_prediction_weighted_quintiles",
+      "classes": "all",
+      "cut_points": {
+        "T1": {
+          "adverse_reversal": [
+            0.19841299466606563,
+            0.2408448516609588,
+            0.29285102048703643,
+            0.4019800287785922
+          ],
+          "continuation": [
+            0.04147847322886237,
+            0.04974314391396532,
+            0.06080827571316816,
+            0.08282662545769025
+          ],
+          "no_event_60m": [
+            0.5089247172136027,
+            0.6420839605101698,
+            0.7034102495708492,
+            0.7518132119496238
+          ]
+        },
+        "T2": {
+          "no_event_60m": [
+            0.23019831282500117,
+            0.3255803411196194,
+            0.43587691646575016,
+            0.6197723995103948
+          ],
+          "renewed_peak": [
+            0.03462793035930521,
+            0.052547763684886756,
+            0.07881350647708718,
+            0.12537731033776567
+          ],
+          "substantial_giveback": [
+            0.264084804020141,
+            0.46758723530306023,
+            0.5998341859973904,
+            0.7087418122367511
+          ]
+        }
+      },
+      "diagnostic_intercept_slope": "reported as an evaluation statistic and never applied to probabilities",
+      "duplicate_cut_points": "reduce_bin_count",
+      "intercept_slope_minimum_unique_event_trades": 50,
+      "models": [
+        "P1"
+      ],
+      "post_hoc_calibrator": "PROHIBITED",
+      "reliability_minimum_unique_resolved_trades": 30,
+      "unstable_below_unique_event_trades": 10
+    },
+    "comparisons": [
+      "G1-G0",
+      "P1-G1"
+    ],
+    "input_schema": {
+      "boundary_validation": "metadata before feature or outcome consumption",
+      "feature_columns": "exact frozen P1 superset per target",
+      "predictive_container": "features",
+      "required_metadata": [
+        "row_id",
+        "trade_id",
+        "target",
+        "trade_entry_week",
+        "entry_execution_ms",
+        "snapshot_ms",
+        "symbol",
+        "target_eligible",
+        "resolved",
+        "censored",
+        "ambiguous",
+        "event_class"
+      ]
+    },
+    "interpretation": {
+      "categories": [
+        "SUPPORTS SEQUENTIAL PATH-STATE SIGNAL",
+        "COUNTS AGAINST",
+        "MIXED",
+        "INSUFFICIENT EVIDENCE"
+      ],
+      "counts_against": "both proper-score deltas above zero and both 95% interval lower bounds above zero",
+      "decisive_comparison": "P1-G1",
+      "geometry_comparison": "G1-G0 only",
+      "insufficient": "bootstrap unavailable, calibration support materially inadequate, or engineering/provenance validation fails",
+      "otherwise": "MIXED",
+      "secondary_override": "PROHIBITED",
+      "support": "both proper-score deltas below zero, both 95% interval upper bounds below zero, both 2024 folds improve, and stability is not single-group dominated"
+    },
+    "models": [
+      "B0",
+      "G0",
+      "G1",
+      "P1"
+    ],
+    "official_operation": "all_targets_all_models_one_shot",
+    "outputs": {
+      "directory": "artifacts/c4_sequential_exit_state/locked_2025",
+      "partial_output": "PROHIBITED",
+      "required_fields": {
+        "bootstrap_comparisons.json": [
+          "point_estimate",
+          "ci95",
+          "replicates",
+          "sampled_block_indices",
+          "sign_convention"
+        ],
+        "calibration.json": [
+          "training_cut_points",
+          "bins",
+          "calibration_intercept_slope",
+          "post_hoc_recalibration"
+        ],
+        "evaluation_manifest.json": [
+          "version",
+          "freeze_sha256",
+          "configuration_sha256",
+          "input_sha256",
+          "required_files",
+          "targets",
+          "models"
+        ],
+        "interpretation.json": [
+          "decision",
+          "decisive_comparison",
+          "G1-G0_role"
+        ],
+        "population_summary.json": [
+          "rows",
+          "trades",
+          "row_ids_sha256"
+        ],
+        "predictions.csv": [
+          "row_id",
+          "trade_id",
+          "target",
+          "model",
+          "class probabilities"
+        ],
+        "primary_metrics.json": [
+          "log_loss",
+          "brier"
+        ],
+        "reproducibility.json": [
+          "freeze_sha256",
+          "input_sha256",
+          "output_hashes",
+          "refit",
+          "reselection",
+          "recalibration",
+          "2026_access"
+        ],
+        "secondary_metrics.json": [
+          "classwise_one_vs_rest",
+          "macro_roc_auc",
+          "macro_average_precision",
+          "equal_trade_ranked_probability_score",
+          "snapshot_weighted",
+          "top_class_confusion_counts"
+        ],
+        "stability.json": [
+          "symbol",
+          "month",
+          "quarter"
+        ]
+      },
+      "required_files": [
+        "evaluation_manifest.json",
+        "population_summary.json",
+        "predictions.csv",
+        "primary_metrics.json",
+        "secondary_metrics.json",
+        "bootstrap_comparisons.json",
+        "calibration.json",
+        "stability.json",
+        "interpretation.json",
+        "reproducibility.json"
+      ],
+      "required_prediction_models": [
+        "T1_B0",
+        "T1_G0",
+        "T1_G1",
+        "T1_P1",
+        "T2_B0",
+        "T2_G0",
+        "T2_G1",
+        "T2_P1"
+      ]
+    },
+    "population": {
+      "ambiguous": false,
+      "censored": false,
+      "complete_case": "all frozen P1 columns finite",
+      "resolved": true,
+      "subgroups": [
+        "symbol",
+        "snapshot_month_utc",
+        "snapshot_quarter_utc"
+      ],
+      "target_eligible": true,
+      "unknown_symbols": "reject",
+      "weighting": "each represented trade has total raw weight one"
+    },
+    "primary_metrics": [
+      "equal_trade_multiclass_log_loss",
+      "equal_trade_multiclass_brier"
+    ],
+    "secondary_metrics": [
+      "weighted_one_vs_rest_roc_auc",
+      "weighted_one_vs_rest_average_precision",
+      "macro_roc_auc",
+      "macro_average_precision",
+      "ranked_probability_score",
+      "snapshot_weighted_log_loss",
+      "snapshot_weighted_brier",
+      "snapshot_weighted_ranked_probability_score",
+      "class_incidence",
+      "top_class_confusion_counts"
+    ],
+    "stability": {
+      "comparison": "P1-G1",
+      "groups": [
+        "symbol",
+        "month",
+        "quarter"
+      ],
+      "models": [
+        "G1",
+        "P1"
+      ],
+      "weighting": "equal_trade"
+    },
+    "targets": [
+      "T1",
+      "T2"
+    ],
+    "version": "C4_LOCKED_2025_EVALUATION_V1"
+  },
+  "locked_2025_evaluation_sha256": "750ecd9b3c02b401dd1298e29d39174bf38a26f6f0ac3950b7180a3f261a2064",
   "material_artifact_hashes": {
     "adequacy_decision.json": "f4555db6dbccd9cb6b1506e642b49b6d21dd015d6737b76bd4534612bf32ffe7",
     "bootstrap_comparisons_2024.json": "37fd844c09074bfb86263c9ba0244b04eb12c76bfd51fed65d86538c150f978c",
     "bootstrap_structure.json": "d0429afdd1a0994389b92628d8da2292965f3ec28d089f88b47ff44d799c323c",
     "c4_2024_interpretation.json": "a90dadb89454a8730c1e49cc11bddcb85ba12e340155f321b17d40f38603484d",
+    "c4_2024_reproducibility.json": "caa4e6b0211b7aa77c2dcd87d118de95adc0662429c55f4d050b84565276822c",
     "calibration_2024.json": "95341bd9997334e8f1964f88d3f4c4b927a0b1296546d618a74a66b27c5593d8",
     "challenge_diagnostics_2024.json": "8e394aa8a0bbb372cf695a04e7b98bf0be4e3fd793a7b18c944770f9fd1b0aa3",
     "development_attempts_2024.json": "01ba296e6195f3673d5d0ff759aee8e4f6287fe759b7fe1f904391840798e7f2",
@@ -105,9 +376,10 @@
     "final_models_2024.json": "aa97e0ccd25fff016f852c2e62be8a05bbda6e8bc919964231731dabe29e21bc",
     "final_preprocessing_2024.json": "36397c9654057e0c1e06c78537ebb9d6911d79be4eb402a1dc3cec8cc0c3bf22",
     "fold_counts_2024.json": "8e55bbbd8ad92254d52ea502af010b85d2c0b5848f48b69eb5e1f1ded3c3ef7c",
+    "independent_rebuild.json": "c2d92a56ea37621c5cd79da1e2602476266b298ada87e47245db6ffa8750a56e",
     "input_manifest.json": "b68cc56e5a55810353797ec776f143e0eb2a9a1a288ccd8132aa47a876548acf",
     "modeling_population_2024.json": "6d8d198e2ce09d9c924586780c715e2db4f8556d62cdbd0093f5f7954ac8c859",
-    "modeling_reproducibility_manifest.json": "1551a2730d28b2e62211171fe4a6c19dbd91f8cbeaa01168680819db3487e606",
+    "modeling_reproducibility_manifest.json": "10b3f11a931763bafb33db4d6ff6753625d1c25e023db49543b7ebd45b584a3f",
     "reproducibility_manifest.json": "882148d94489866e900a2e9cc41e149202b3a637d0d3abf884de0c6cbe05dd3a",
     "secondary_metrics_2024.json": "e31cb4c51fcaafd5e787df5fc6444b63a2bc6f9e9bd443ef2d2adbee2e253214",
     "snapshot_schema.json": "ac563f666462e98dc76ec03d242adbf925ecf6091bc67457f0a804571dc4716a",
@@ -132,6 +404,50 @@
     }
   },
   "preprocessing_sha256": "36397c9654057e0c1e06c78537ebb9d6911d79be4eb402a1dc3cec8cc0c3bf22",
+  "required_acceptance_artifacts": [
+    "adequacy_decision.json",
+    "bootstrap_comparisons_2024.json",
+    "bootstrap_structure.json",
+    "c4_2024_interpretation.json",
+    "c4_2024_reproducibility.json",
+    "calibration_2024.json",
+    "challenge_diagnostics_2024.json",
+    "development_attempts_2024.json",
+    "development_metrics_2024.csv",
+    "development_predictions_2024.csv",
+    "feature_schema.json",
+    "final_models_2024.json",
+    "final_preprocessing_2024.json",
+    "fold_counts_2024.json",
+    "independent_rebuild.json",
+    "input_manifest.json",
+    "modeling_population_2024.json",
+    "modeling_reproducibility_manifest.json",
+    "reproducibility_manifest.json",
+    "secondary_metrics_2024.json",
+    "snapshot_schema.json",
+    "stability_2024.json"
+  ],
+  "required_source_dependencies": [
+    "README.md",
+    "environment.yml",
+    "requirements-dev.txt",
+    "src/binance_data_foundation/c2_common.py",
+    "src/binance_data_foundation/c2_costs.py",
+    "src/binance_data_foundation/c2_entries.py",
+    "src/binance_data_foundation/c2_p0.py",
+    "src/binance_data_foundation/c2_path_metrics.py",
+    "src/binance_data_foundation/c3_milestone.py",
+    "src/binance_data_foundation/c4_adequacy.py",
+    "src/binance_data_foundation/c4_locked_eval.py",
+    "src/binance_data_foundation/c4_locked_eval_cli.py",
+    "src/binance_data_foundation/c4_modeling.py",
+    "src/binance_data_foundation/c4_modeling_cli.py",
+    "src/binance_data_foundation/ingest.py",
+    "tests/test_c4_adequacy.py",
+    "tests/test_c4_locked_eval.py",
+    "tests/test_c4_modeling.py"
+  ],
   "row_trade_ids": {
     "T1": {
       "row_ids": [
@@ -164022,30 +164338,34 @@
   },
   "source_hash_rationale": {
     "environment": "exact declared research dependencies",
-    "pipeline_modules": "transitive in-repository modules used for adequacy preparation, feature reconstruction, fitting, hashing, and locked evaluation",
+    "excluded": "modules not imported by or capable of affecting the C4 execution graph",
+    "pipeline_modules": "complete transitive in-repository modules capable of changing accepted inputs, snapshot/feature reconstruction, model reconstruction, prediction, or locked evaluation",
     "tests": "C4 adequacy, modeling, causality, and locked-evaluator regression tests"
   },
   "source_test_hashes": {
-    "README.md": "f5d0ce3a82b61e81c9b404d2c345fb39e1e0e5950d1b1c6bfa4aa93a551375d3",
+    "README.md": "12a8b22056b6ef582f824f3f7fc531432f62af9d84dded93925e68b15484453c",
     "environment.yml": "f92751b8df3298c65ea89938004f0583993997397e5e98c11c4fdf819b0315f6",
     "requirements-dev.txt": "eb76f8794c2d8288345b7f14c1af79b3a5376fae26280f10a0f69b43fada5e2a",
     "src/binance_data_foundation/c2_common.py": "a34c8302e0d7865791c330119fce74a435b6bb540ecf3f087a58e9cdb9ed4685",
+    "src/binance_data_foundation/c2_costs.py": "d6ff5b31b77c51e75ca2dbcb5c7d9fdc9ed7d5b630595407af1cfd0107b9260f",
+    "src/binance_data_foundation/c2_entries.py": "afa045fb99ca559c8f88435f3ec274042783b2fafcb3f043ff4483fffa8daa6b",
     "src/binance_data_foundation/c2_p0.py": "d01eaad44890e16a3dd2e30608b37f9829156cae5c68a5a62ac49a65acee72c2",
+    "src/binance_data_foundation/c2_path_metrics.py": "715d00f6c9f654fe1ddd5f738a280bbfee236ed4d7a390e1efe622bcdfd4223c",
     "src/binance_data_foundation/c3_milestone.py": "8f1da57f3cc76c75bf7a588ebab29618f5285649350f69192f4467f02d081f7b",
     "src/binance_data_foundation/c4_adequacy.py": "6cebcecf71716aeff72d8373fc1d588abd742c077b1787c81f0d852dfea6f3f1",
-    "src/binance_data_foundation/c4_locked_eval.py": "d6152d76776516916440b984fb70324e4d24f9adc27844091b2db52604d88bd3",
-    "src/binance_data_foundation/c4_locked_eval_cli.py": "d1c61cdfb9cc8ede9b489239838884b2dfb51e8ac7d04cc6f574d76c7c7083ac",
-    "src/binance_data_foundation/c4_modeling.py": "c1cc83f553586d49857ed0e1eeec310214b0d6ac0c981df5d2a61e23965e91c7",
+    "src/binance_data_foundation/c4_locked_eval.py": "da998289db599c547bc0c6265805e4ef586326b1ea74ff4fd74c627268da7d57",
+    "src/binance_data_foundation/c4_locked_eval_cli.py": "c38c42d3982c88ab3e724e7b2caefc8e75a915e2d3d3fb6d3eb62c5e17ed79cd",
+    "src/binance_data_foundation/c4_modeling.py": "4d92b4c3a725daabf4ba780cb8bcb8dd8afc0be60e570ba31c4b4a476043d18c",
     "src/binance_data_foundation/c4_modeling_cli.py": "125ee872c6aa2f5929ad11d71b85615638245ec231774cc12cb96db5032c65d9",
     "src/binance_data_foundation/ingest.py": "6d789b9d6fe55fb0aaa038dcb690be3453826a95de31e2f35833eea6e7777422",
     "tests/test_c4_adequacy.py": "a2176f44426203dcc6e43615677e023efaf2ecfc91fad96ce2abf5d4e272d236",
-    "tests/test_c4_locked_eval.py": "439eb520c11eeab8a2414f95d14fef7d620930ab2249cc68789d595202de1360",
-    "tests/test_c4_modeling.py": "2ba744ecc0ae44155973044e0d855c7975b01888f0edbea7d87aff15a022b189"
+    "tests/test_c4_locked_eval.py": "400815405b86806dfb9f134a9361c9c7869f46bf4ac4b96e61f35fe235f780c1",
+    "tests/test_c4_modeling.py": "c15e7c63b0ee0647fecbce19bdd449eb84eb1ddb430ba4f7a462f95f60e72f06"
   },
   "target_definitions": {
     "T1": "C4_T1_CONT_PLUS1_VS_REV_MINUS075_H60_V1",
     "T2": "C4_T2_GIVEBACK50_VS_NEWPEAK050_H60_V1"
   },
   "threshold_panel_sha256": "49aa5664c7361ad8049bedaee089adbabfe696e8e3a9122ab9d0feb4c7226d60",
-  "version": "C4_2024_FREEZE_V2"
+  "version": "C4_2024_FREEZE_V3"
 }

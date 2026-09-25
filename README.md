@@ -31,3 +31,12 @@ requires their accepted hashes to match, and only then starts 2024 modeling.
 The locked evaluator is the separate prediction-only module
 `binance_data_foundation.c4_locked_eval_cli`; it requires a matching external
 `c4_2024_freeze.sha256` lock and exposes no fitting or selection operation.
+Validate the complete seal without opening predictive input with:
+
+```bash
+python -m binance_data_foundation.c4_locked_eval_cli --repo . --readiness
+```
+
+The later authorized one-shot operation is `--evaluate-locked-2025`. It always
+evaluates both targets and all four frozen models, writes the fixed output set,
+and accepts no target, model, metric, calibration, or interpretation choices.

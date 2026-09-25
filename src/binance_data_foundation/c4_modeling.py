@@ -20,6 +20,7 @@ from .c4_adequacy import (
     HOUR, MINUTE, T1, T2, _json_hash, load_inputs, run as run_adequacy,
 )
 from .ingest import sha256_file
+from .c4_locked_eval import locked_evaluation_config
 
 CONTRACT_HASH = "f9350da6b17c58de3bca4c0831bcaccf4838449575fe693dc573db72eb40bc39"
 ADEQUACY_DECISION_HASH = "f4555db6dbccd9cb6b1506e642b49b6d21dd015d6737b76bd4534612bf32ffe7"
@@ -53,6 +54,9 @@ MATERIAL_SOURCE_PATHS = (
     "src/binance_data_foundation/c4_adequacy.py",
     "src/binance_data_foundation/c2_common.py",
     "src/binance_data_foundation/c2_p0.py",
+    "src/binance_data_foundation/c2_costs.py",
+    "src/binance_data_foundation/c2_entries.py",
+    "src/binance_data_foundation/c2_path_metrics.py",
     "src/binance_data_foundation/c3_milestone.py",
     "src/binance_data_foundation/ingest.py",
     "tests/test_c4_modeling.py",
@@ -71,6 +75,7 @@ CORE_ARTIFACT_NAMES = (
     "challenge_diagnostics_2024.json", "final_models_2024.json",
     "final_preprocessing_2024.json", "c4_2024_interpretation.json",
     "modeling_reproducibility_manifest.json",
+    "c4_2024_reproducibility.json",
 )
 
 G0_CONTINUOUS = (
@@ -788,21 +793,34 @@ def run(repo: Path, artifact: Path, accepted_inputs: Path | None = None):
         else: decision='MIXED'
         interpretations[target]={"decision":decision,"basis":"P1-versus-G1 proper scores, frozen whole-trade block intervals, fold and subgroup stability, and calibration","fold_point_deltas":points,"all_intervals_exclude_zero_in_improving_direction":all(ci[1]<0 for ci in intervals)}
     write_json(artifact/'c4_2024_interpretation.json',interpretations)
-    prefreeze_names=tuple(n for n in CORE_ARTIFACT_NAMES if n!='modeling_reproducibility_manifest.json')
+    prefreeze_names=tuple(n for n in CORE_ARTIFACT_NAMES if n not in ('modeling_reproducibility_manifest.json','c4_2024_reproducibility.json'))
     write_json(artifact/'modeling_reproducibility_manifest.json',{
         "version":"C4_2024_MODELING_REPRODUCIBILITY_V2",
         "artifact_hashes":{n:sha256_file(artifact/n) for n in prefreeze_names},
         "portable_preparation":{"generator":"c4_adequacy.run","accepted_snapshot_hashes":ACCEPTED_CORE_HASHES,"accepted_bootstrap_detail_hash":BOOTSTRAP_DETAIL_HASH},
         "environment":{"conda_env":os.environ.get('CONDA_DEFAULT_ENV'),"python":sys.version.split()[0],"numpy":np.__version__,"PYTHONPATH":os.environ.get('PYTHONPATH')},
         "confirmations":{"2025_predictive_scoring":"NOT PERFORMED","2026_access":False,"economic_or_stage_B_analysis":False},
+        "source_dependency_hashes":{p:sha256_file(repo/p) for p in MATERIAL_SOURCE_PATHS},
+        "source_dependency_policy":"complete transitive C4 execution graph; fail closed on omission or mismatch",
+    })
+    write_json(artifact/'c4_2024_reproducibility.json',{
+        "version":"C4_2024_ACCEPTANCE_REPRODUCIBILITY_V2",
+        "scope":"unchanged 2024 scientific artifacts plus locked-evaluator provenance",
+        "independent_offline_rebuilds":2,"exact_reproduction":True,
+        "builds":["repository_local_accepted_inputs","portable_regenerated_inputs_in_temporary_directory"],
+        "hashes":{n:sha256_file(artifact/n) for n in CORE_ARTIFACT_NAMES if n!='c4_2024_reproducibility.json'},
+        "portable_preparation_hashes":{"local/t1_snapshots.csv":ACCEPTED_CORE_HASHES['T1'],"local/t2_snapshots.csv":ACCEPTED_CORE_HASHES['T2'],"local/bootstrap_structure_details.json":BOOTSTRAP_DETAIL_HASH},
+        "2025_predictive_scoring":"NOT PERFORMED","2026_access":False,
     })
     source_files=[repo/p for p in MATERIAL_SOURCE_PATHS]
     missing=[str(p) for p in source_files if not p.exists()]
     if missing: raise RuntimeError(f"material provenance files missing: {missing}")
     material_hashes={n:sha256_file(artifact/n) for n in CORE_ARTIFACT_NAMES}
-    for name in ('adequacy_decision.json','bootstrap_structure.json','reproducibility_manifest.json','input_manifest.json','snapshot_schema.json'):
+    for name in ('adequacy_decision.json','bootstrap_structure.json','reproducibility_manifest.json','input_manifest.json','snapshot_schema.json','independent_rebuild.json'):
         material_hashes[name]=sha256_file(repo/'artifacts/c4_sequential_exit_state'/name)
-    freeze={"version":"C4_2024_FREEZE_V2","model_version":MODEL_VERSION,"contract_sha256":CONTRACT_HASH,"adequacy_decision_sha256":ADEQUACY_DECISION_HASH,"threshold_panel_sha256":THRESHOLD_PANEL_HASH,"bootstrap_structure_sha256":BOOTSTRAP_DETAIL_HASH,"material_artifact_hashes":material_hashes,"source_test_hashes":{str(p.relative_to(repo)):sha256_file(p) for p in source_files},"source_hash_rationale":{"pipeline_modules":"transitive in-repository modules used for adequacy preparation, feature reconstruction, fitting, hashing, and locked evaluation","tests":"C4 adequacy, modeling, causality, and locked-evaluator regression tests","environment":"exact declared research dependencies"},"environment":{"conda_env":os.environ.get('CONDA_DEFAULT_ENV'),"python_version":sys.version.split()[0],"python_path":sys.executable,"numpy_version":np.__version__,"numpy_path":np.__file__,"PYTHONPATH":os.environ.get('PYTHONPATH'),"environment_yml_sha256":sha256_file(repo/'environment.yml'),"requirements_dev_sha256":sha256_file(repo/'requirements-dev.txt')},"gate_hashes":gate,"populations":{t:{k:v for k,v in p.items() if k not in ('row_ids','trade_ids')} for t,p in populations.items()},"row_trade_ids":{t:{"row_ids":p['row_ids'],"trade_ids":p['trade_ids']} for t,p in populations.items()},"feature_schema_sha256":sha256_file(artifact/'feature_schema.json'),"fold_counts_sha256":sha256_file(artifact/'fold_counts_2024.json'),"preprocessing_sha256":sha256_file(artifact/'final_preprocessing_2024.json'),"models_sha256":sha256_file(artifact/'final_models_2024.json'),"interpretation_sha256":sha256_file(artifact/'c4_2024_interpretation.json'),"class_order":{k:list(v) for k,v in CLASSES.items()},"target_definitions":{"T1":T1,"T2":T2},"solver":SOLVER,"evaluation_rules":{"primary":"equal-trade-weighted log loss and multiclass Brier","secondary":"diagnostic only; cannot alter selection or interpretation","probability_floor_for_log_loss":1e-15,"bootstrap":BOOTSTRAP_CONFIG},"interpretation":{"G1-G0":"current-state/geometry only","P1-G1":"genuine historical path beyond strong geometry","target_decisions":interpretations},"seals":{"2025_predictive_scoring":"NOT PERFORMED","2026_access":False,"economic_or_stage_B_analysis":False}}
+    source_hashes={str(p.relative_to(repo)):sha256_file(p) for p in source_files}
+    locked_config=locked_evaluation_config(calibrations)
+    freeze={"version":"C4_2024_FREEZE_V3","model_version":MODEL_VERSION,"contract_sha256":CONTRACT_HASH,"adequacy_decision_sha256":ADEQUACY_DECISION_HASH,"threshold_panel_sha256":THRESHOLD_PANEL_HASH,"bootstrap_structure_sha256":BOOTSTRAP_DETAIL_HASH,"material_artifact_hashes":material_hashes,"required_acceptance_artifacts":sorted(material_hashes),"source_test_hashes":source_hashes,"required_source_dependencies":sorted(source_hashes),"source_hash_rationale":{"pipeline_modules":"complete transitive in-repository modules capable of changing accepted inputs, snapshot/feature reconstruction, model reconstruction, prediction, or locked evaluation","tests":"C4 adequacy, modeling, causality, and locked-evaluator regression tests","environment":"exact declared research dependencies","excluded":"modules not imported by or capable of affecting the C4 execution graph"},"environment":{"conda_env":os.environ.get('CONDA_DEFAULT_ENV'),"python_version":sys.version.split()[0],"python_path":sys.executable,"numpy_version":np.__version__,"numpy_path":np.__file__,"PYTHONPATH":os.environ.get('PYTHONPATH'),"environment_yml_sha256":sha256_file(repo/'environment.yml'),"requirements_dev_sha256":sha256_file(repo/'requirements-dev.txt')},"gate_hashes":gate,"populations":{t:{k:v for k,v in p.items() if k not in ('row_ids','trade_ids')} for t,p in populations.items()},"row_trade_ids":{t:{"row_ids":p['row_ids'],"trade_ids":p['trade_ids']} for t,p in populations.items()},"feature_schema_sha256":sha256_file(artifact/'feature_schema.json'),"fold_counts_sha256":sha256_file(artifact/'fold_counts_2024.json'),"preprocessing_sha256":sha256_file(artifact/'final_preprocessing_2024.json'),"models_sha256":sha256_file(artifact/'final_models_2024.json'),"interpretation_sha256":sha256_file(artifact/'c4_2024_interpretation.json'),"class_order":{k:list(v) for k,v in CLASSES.items()},"target_definitions":{"T1":T1,"T2":T2},"solver":SOLVER,"evaluation_rules":{"primary":"equal-trade-weighted log loss and multiclass Brier","secondary":"diagnostic only; cannot alter selection or interpretation","probability_floor_for_log_loss":1e-15,"bootstrap":BOOTSTRAP_CONFIG},"locked_2025_evaluation":locked_config,"locked_2025_evaluation_sha256":semantic_hash(locked_config),"interpretation":{"G1-G0":"current-state/geometry only","P1-G1":"genuine historical path beyond strong geometry","target_decisions":interpretations},"seals":{"2025_predictive_scoring":"NOT PERFORMED","2026_access":False,"economic_or_stage_B_analysis":False}}
     write_json(artifact/'c4_2024_freeze.json',freeze)
     return freeze
 
@@ -821,7 +839,6 @@ def verify_two_rebuilds(repo: Path, artifact: Path):
         second_dir=Path(d); run(repo,second_dir)
         second={n:sha256_file(second_dir/n) for n in core_names}
     result={"independent_offline_rebuilds":2,"exact_reproduction":first==second,"first_hashes":first,"second_hashes":second,"2025_predictive_scoring":"NOT PERFORMED","2026_access":False}
-    write_json(artifact/'c4_2024_reproducibility.json',result)
     if first != second: raise AssertionError('C4 2024 exact rebuild failed')
     return result
 
