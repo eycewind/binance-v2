@@ -1,0 +1,882 @@
+{
+  "T1_fold_A_B0": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.3068160927631255,
+        "pr_auc": 0.30681609276312555,
+        "roc_auc": 0.5
+      },
+      "continuation": {
+        "incidence": 0.06513039626846863,
+        "pr_auc": 0.06513039626846863,
+        "roc_auc": 0.5
+      },
+      "no_event_60m": {
+        "incidence": 0.6280535109684058,
+        "pr_auc": 0.6280535109684059,
+        "roc_auc": 0.5
+      }
+    },
+    "macro_pr_auc": 0.3333333333333333,
+    "macro_roc_auc": 0.5,
+    "primary_equal_trade": {
+      "brier": 0.5075649107226331,
+      "log_loss": 0.8331387345321849,
+      "ranked_probability_score": 0.14738954798694145
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.4769296897293377,
+      "log_loss": 0.8383729877582233,
+      "ranked_probability_score": 0.1554862052419655
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        0,
+        2941
+      ],
+      [
+        0,
+        0,
+        4933
+      ],
+      [
+        0,
+        0,
+        19716
+      ]
+    ]
+  },
+  "T1_fold_A_G0": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.3068160927631255,
+        "pr_auc": 0.5918217562489263,
+        "roc_auc": 0.739161303446356
+      },
+      "continuation": {
+        "incidence": 0.06513039626846863,
+        "pr_auc": 0.10484534025121907,
+        "roc_auc": 0.6118283902833958
+      },
+      "no_event_60m": {
+        "incidence": 0.6280535109684058,
+        "pr_auc": 0.8103723950286073,
+        "roc_auc": 0.7559306616351441
+      }
+    },
+    "macro_pr_auc": 0.5023464971762509,
+    "macro_roc_auc": 0.7023067851216319,
+    "primary_equal_trade": {
+      "brier": 0.483952229143354,
+      "log_loss": 0.8030798317201985,
+      "ranked_probability_score": 0.141017634747087
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.44674201878425357,
+      "log_loss": 0.7971223260274718,
+      "ranked_probability_score": 0.14737804551586825
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        43,
+        2898
+      ],
+      [
+        0,
+        31,
+        4902
+      ],
+      [
+        0,
+        0,
+        19716
+      ]
+    ]
+  },
+  "T1_fold_A_G1": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.3068160927631255,
+        "pr_auc": 0.5829362759302914,
+        "roc_auc": 0.7442459059273444
+      },
+      "continuation": {
+        "incidence": 0.06513039626846863,
+        "pr_auc": 0.09429684610164299,
+        "roc_auc": 0.6482164432740378
+      },
+      "no_event_60m": {
+        "incidence": 0.6280535109684058,
+        "pr_auc": 0.8153602203154936,
+        "roc_auc": 0.7533978151193831
+      }
+    },
+    "macro_pr_auc": 0.49753111411580936,
+    "macro_roc_auc": 0.7152867214402551,
+    "primary_equal_trade": {
+      "brier": 0.45893568901959714,
+      "log_loss": 0.7691002050832965,
+      "ranked_probability_score": 0.1342891683712601
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.41055165283850714,
+      "log_loss": 0.7407402180854844,
+      "ranked_probability_score": 0.1362112304595576
+    },
+    "top_class_confusion_counts": [
+      [
+        36,
+        219,
+        2686
+      ],
+      [
+        69,
+        292,
+        4572
+      ],
+      [
+        2,
+        151,
+        19563
+      ]
+    ]
+  },
+  "T1_fold_A_P1": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.3068160927631255,
+        "pr_auc": 0.5588599407427718,
+        "roc_auc": 0.7167503613308729
+      },
+      "continuation": {
+        "incidence": 0.06513039626846863,
+        "pr_auc": 0.10278033535652202,
+        "roc_auc": 0.6527708211678772
+      },
+      "no_event_60m": {
+        "incidence": 0.6280535109684058,
+        "pr_auc": 0.8085592331946143,
+        "roc_auc": 0.7397822858085438
+      }
+    },
+    "macro_pr_auc": 0.49006650309796934,
+    "macro_roc_auc": 0.7031011561024313,
+    "primary_equal_trade": {
+      "brier": 0.46327059443000057,
+      "log_loss": 0.7732244483399433,
+      "ranked_probability_score": 0.1347616553010338
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.4072299575398329,
+      "log_loss": 0.7312400983700514,
+      "ranked_probability_score": 0.13442172753851933
+    },
+    "top_class_confusion_counts": [
+      [
+        51,
+        466,
+        2424
+      ],
+      [
+        108,
+        556,
+        4269
+      ],
+      [
+        22,
+        431,
+        19263
+      ]
+    ]
+  },
+  "T1_fold_B_B0": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.32685473485744343,
+        "pr_auc": 0.32685473485744343,
+        "roc_auc": 0.5
+      },
+      "continuation": {
+        "incidence": 0.07603222981264982,
+        "pr_auc": 0.07603222981264982,
+        "roc_auc": 0.5
+      },
+      "no_event_60m": {
+        "incidence": 0.5971130353299068,
+        "pr_auc": 0.5971130353299068,
+        "roc_auc": 0.5
+      }
+    },
+    "macro_pr_auc": 0.3333333333333333,
+    "macro_roc_auc": 0.5,
+    "primary_equal_trade": {
+      "brier": 0.531458357450161,
+      "log_loss": 0.8702487617915883,
+      "ranked_probability_score": 0.15563531275830772
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.5216506077659477,
+      "log_loss": 0.9119972048955391,
+      "ranked_probability_score": 0.17201869413007942
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        0,
+        3154
+      ],
+      [
+        0,
+        0,
+        5140
+      ],
+      [
+        0,
+        0,
+        15900
+      ]
+    ]
+  },
+  "T1_fold_B_G0": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.32685473485744343,
+        "pr_auc": 0.60694424911407,
+        "roc_auc": 0.7403044161007399
+      },
+      "continuation": {
+        "incidence": 0.07603222981264982,
+        "pr_auc": 0.14820194080074015,
+        "roc_auc": 0.6342633435615815
+      },
+      "no_event_60m": {
+        "incidence": 0.5971130353299068,
+        "pr_auc": 0.7978775161404985,
+        "roc_auc": 0.7757820312347222
+      }
+    },
+    "macro_pr_auc": 0.5176745686851029,
+    "macro_roc_auc": 0.7167832636323479,
+    "primary_equal_trade": {
+      "brier": 0.4986926999294452,
+      "log_loss": 0.8302991861811012,
+      "ranked_probability_score": 0.14640641255806036
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.49928201261854666,
+      "log_loss": 0.8763768263379886,
+      "ranked_probability_score": 0.16415967507085227
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        45,
+        3109
+      ],
+      [
+        0,
+        89,
+        5051
+      ],
+      [
+        0,
+        1,
+        15899
+      ]
+    ]
+  },
+  "T1_fold_B_G1": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.32685473485744343,
+        "pr_auc": 0.6108896498022481,
+        "roc_auc": 0.7590416176753276
+      },
+      "continuation": {
+        "incidence": 0.07603222981264982,
+        "pr_auc": 0.15627473143046455,
+        "roc_auc": 0.6949403776577583
+      },
+      "no_event_60m": {
+        "incidence": 0.5971130353299068,
+        "pr_auc": 0.8307102598659395,
+        "roc_auc": 0.784599040968279
+      }
+    },
+    "macro_pr_auc": 0.5326248803662174,
+    "macro_roc_auc": 0.7461936787671216,
+    "primary_equal_trade": {
+      "brier": 0.44553624789587365,
+      "log_loss": 0.921036698109074,
+      "ranked_probability_score": 0.13165811665752308
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.4432218816636939,
+      "log_loss": 0.8176663946933735,
+      "ranked_probability_score": 0.1429081585172876
+    },
+    "top_class_confusion_counts": [
+      [
+        193,
+        800,
+        2161
+      ],
+      [
+        252,
+        1201,
+        3687
+      ],
+      [
+        55,
+        460,
+        15385
+      ]
+    ]
+  },
+  "T1_fold_B_P1": {
+    "class_order": [
+      "continuation",
+      "adverse_reversal",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "adverse_reversal": {
+        "incidence": 0.32685473485744343,
+        "pr_auc": 0.6164914736070896,
+        "roc_auc": 0.7592755386048202
+      },
+      "continuation": {
+        "incidence": 0.07603222981264982,
+        "pr_auc": 0.16759909565158693,
+        "roc_auc": 0.7158006597731105
+      },
+      "no_event_60m": {
+        "incidence": 0.5971130353299068,
+        "pr_auc": 0.8306506297907215,
+        "roc_auc": 0.7836451656219692
+      }
+    },
+    "macro_pr_auc": 0.5382470663497992,
+    "macro_roc_auc": 0.7529071213333,
+    "primary_equal_trade": {
+      "brier": 0.4380414780264452,
+      "log_loss": 0.9058304770681207,
+      "ranked_probability_score": 0.12920274111329974
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.43424028889986366,
+      "log_loss": 0.7984311432530435,
+      "ranked_probability_score": 0.13971879922847483
+    },
+    "top_class_confusion_counts": [
+      [
+        182,
+        947,
+        2025
+      ],
+      [
+        224,
+        1413,
+        3503
+      ],
+      [
+        47,
+        543,
+        15310
+      ]
+    ]
+  },
+  "T2_fold_A_B0": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.39004678422423134,
+        "pr_auc": 0.3900467842242314,
+        "roc_auc": 0.5
+      },
+      "renewed_peak": {
+        "incidence": 0.08014620879171158,
+        "pr_auc": 0.08014620879171157,
+        "roc_auc": 0.5
+      },
+      "substantial_giveback": {
+        "incidence": 0.529807006984057,
+        "pr_auc": 0.529807006984057,
+        "roc_auc": 0.5
+      }
+    },
+    "macro_pr_auc": 0.3333333333333333,
+    "macro_roc_auc": 0.5,
+    "primary_equal_trade": {
+      "brier": 0.5658487961427914,
+      "log_loss": 0.9123596205963419,
+      "ranked_probability_score": 0.1568140024455225
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.5980230241667279,
+      "log_loss": 0.9575588562545554,
+      "ranked_probability_score": 0.18038226800672774
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        1495,
+        0
+      ],
+      [
+        0,
+        3905,
+        0
+      ],
+      [
+        0,
+        10766,
+        0
+      ]
+    ]
+  },
+  "T2_fold_A_G0": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.39004678422423134,
+        "pr_auc": 0.7465578389127169,
+        "roc_auc": 0.8140195002770748
+      },
+      "renewed_peak": {
+        "incidence": 0.08014620879171158,
+        "pr_auc": 0.10325894728102476,
+        "roc_auc": 0.5675375989600454
+      },
+      "substantial_giveback": {
+        "incidence": 0.529807006984057,
+        "pr_auc": 0.7928762054779681,
+        "roc_auc": 0.8072894893471861
+      }
+    },
+    "macro_pr_auc": 0.5475643305572366,
+    "macro_roc_auc": 0.7296155295281022,
+    "primary_equal_trade": {
+      "brier": 0.5266360235980534,
+      "log_loss": 0.8674951751655954,
+      "ranked_probability_score": 0.14754624907325792
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.5122379505585005,
+      "log_loss": 0.8585865286149967,
+      "ranked_probability_score": 0.16017526072734473
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        448,
+        1047
+      ],
+      [
+        0,
+        2171,
+        1734
+      ],
+      [
+        0,
+        1311,
+        9455
+      ]
+    ]
+  },
+  "T2_fold_A_G1": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.39004678422423134,
+        "pr_auc": 0.792644377539179,
+        "roc_auc": 0.8460324832993702
+      },
+      "renewed_peak": {
+        "incidence": 0.08014620879171158,
+        "pr_auc": 0.20373998006106955,
+        "roc_auc": 0.7409155447915595
+      },
+      "substantial_giveback": {
+        "incidence": 0.529807006984057,
+        "pr_auc": 0.8435563377277746,
+        "roc_auc": 0.852626884017396
+      }
+    },
+    "macro_pr_auc": 0.613313565109341,
+    "macro_roc_auc": 0.8131916373694419,
+    "primary_equal_trade": {
+      "brier": 0.4457926992073483,
+      "log_loss": 0.7466367030413119,
+      "ranked_probability_score": 0.12742365875561612
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.36863850978565094,
+      "log_loss": 0.6355936125710409,
+      "ranked_probability_score": 0.12268739217766894
+    },
+    "top_class_confusion_counts": [
+      [
+        12,
+        155,
+        1328
+      ],
+      [
+        3,
+        1819,
+        2083
+      ],
+      [
+        3,
+        518,
+        10245
+      ]
+    ]
+  },
+  "T2_fold_A_P1": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.39004678422423134,
+        "pr_auc": 0.7886760498114361,
+        "roc_auc": 0.8428632065353805
+      },
+      "renewed_peak": {
+        "incidence": 0.08014620879171158,
+        "pr_auc": 0.1872667457194852,
+        "roc_auc": 0.7313040351975854
+      },
+      "substantial_giveback": {
+        "incidence": 0.529807006984057,
+        "pr_auc": 0.8412697428721964,
+        "roc_auc": 0.8511130682778326
+      }
+    },
+    "macro_pr_auc": 0.6057375128010393,
+    "macro_roc_auc": 0.8084267700035994,
+    "primary_equal_trade": {
+      "brier": 0.4314275831096307,
+      "log_loss": 0.7288445751155723,
+      "ranked_probability_score": 0.12380181323024675
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.3652344972559841,
+      "log_loss": 0.6324751028091611,
+      "ranked_probability_score": 0.12107076623967564
+    },
+    "top_class_confusion_counts": [
+      [
+        62,
+        212,
+        1221
+      ],
+      [
+        18,
+        2008,
+        1879
+      ],
+      [
+        44,
+        685,
+        10037
+      ]
+    ]
+  },
+  "T2_fold_B_B0": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.33472385587594033,
+        "pr_auc": 0.3347238558759403,
+        "roc_auc": 0.5
+      },
+      "renewed_peak": {
+        "incidence": 0.10192267546020277,
+        "pr_auc": 0.10192267546020278,
+        "roc_auc": 0.5
+      },
+      "substantial_giveback": {
+        "incidence": 0.5633534686638569,
+        "pr_auc": 0.5633534686638569,
+        "roc_auc": 0.5
+      }
+    },
+    "macro_pr_auc": 0.3333333333333333,
+    "macro_roc_auc": 0.5,
+    "primary_equal_trade": {
+      "brier": 0.5719688004118102,
+      "log_loss": 0.9368485919179698,
+      "ranked_probability_score": 0.160646993334412
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.6323998439655792,
+      "log_loss": 1.018190873728017,
+      "ranked_probability_score": 0.19247345457408443
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        1713,
+        0
+      ],
+      [
+        0,
+        3556,
+        0
+      ],
+      [
+        0,
+        9032,
+        0
+      ]
+    ]
+  },
+  "T2_fold_B_G0": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.33472385587594033,
+        "pr_auc": 0.7322384871621416,
+        "roc_auc": 0.8503672630865787
+      },
+      "renewed_peak": {
+        "incidence": 0.10192267546020277,
+        "pr_auc": 0.11832774704893827,
+        "roc_auc": 0.5435085930405409
+      },
+      "substantial_giveback": {
+        "incidence": 0.5633534686638569,
+        "pr_auc": 0.8076753462465244,
+        "roc_auc": 0.8087563039374708
+      }
+    },
+    "macro_pr_auc": 0.552747193485868,
+    "macro_roc_auc": 0.7342107200215301,
+    "primary_equal_trade": {
+      "brier": 0.5169349651795178,
+      "log_loss": 0.8735022620984159,
+      "ranked_probability_score": 0.14773529525072066
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.5417588248231563,
+      "log_loss": 0.907717647658359,
+      "ranked_probability_score": 0.17209372904309456
+    },
+    "top_class_confusion_counts": [
+      [
+        0,
+        962,
+        751
+      ],
+      [
+        0,
+        3213,
+        343
+      ],
+      [
+        0,
+        3846,
+        5186
+      ]
+    ]
+  },
+  "T2_fold_B_G1": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.33472385587594033,
+        "pr_auc": 0.7820877665683407,
+        "roc_auc": 0.8738591705189147
+      },
+      "renewed_peak": {
+        "incidence": 0.10192267546020277,
+        "pr_auc": 0.290417010033462,
+        "roc_auc": 0.8059899458908001
+      },
+      "substantial_giveback": {
+        "incidence": 0.5633534686638569,
+        "pr_auc": 0.8949114799134701,
+        "roc_auc": 0.8768185228544356
+      }
+    },
+    "macro_pr_auc": 0.6558054188384242,
+    "macro_roc_auc": 0.8522225464213834,
+    "primary_equal_trade": {
+      "brier": 0.3870811236189838,
+      "log_loss": 0.6772700763323867,
+      "ranked_probability_score": 0.11620143536099613
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.3922517981956324,
+      "log_loss": 0.6687741224040663,
+      "ranked_probability_score": 0.13437443834115817
+    },
+    "top_class_confusion_counts": [
+      [
+        9,
+        469,
+        1235
+      ],
+      [
+        2,
+        2938,
+        616
+      ],
+      [
+        5,
+        1649,
+        7378
+      ]
+    ]
+  },
+  "T2_fold_B_P1": {
+    "class_order": [
+      "renewed_peak",
+      "substantial_giveback",
+      "no_event_60m"
+    ],
+    "classwise_one_vs_rest": {
+      "no_event_60m": {
+        "incidence": 0.33472385587594033,
+        "pr_auc": 0.7790685934140746,
+        "roc_auc": 0.8690343928580325
+      },
+      "renewed_peak": {
+        "incidence": 0.10192267546020277,
+        "pr_auc": 0.31122812041491954,
+        "roc_auc": 0.8104827674007482
+      },
+      "substantial_giveback": {
+        "incidence": 0.5633534686638569,
+        "pr_auc": 0.8802665977711064,
+        "roc_auc": 0.8657057528383237
+      }
+    },
+    "macro_pr_auc": 0.6568544372000334,
+    "macro_roc_auc": 0.8484076376990348,
+    "primary_equal_trade": {
+      "brier": 0.3839407864189248,
+      "log_loss": 0.6681071571428673,
+      "ranked_probability_score": 0.11414820269636483
+    },
+    "ranked_probability_score_ordering": "frozen class order; diagnostic only",
+    "role": "SECONDARY_DIAGNOSTIC_ONLY",
+    "snapshot_weighted": {
+      "brier": 0.3887685946057051,
+      "log_loss": 0.6628165401788484,
+      "ranked_probability_score": 0.13253582944910458
+    },
+    "top_class_confusion_counts": [
+      [
+        93,
+        476,
+        1144
+      ],
+      [
+        13,
+        2871,
+        672
+      ],
+      [
+        44,
+        1522,
+        7466
+      ]
+    ]
+  }
+}

@@ -6,7 +6,7 @@ import pytest
 
 from binance_data_foundation.c4_modeling import (
     CLASSES, FOLDS, G1_EXTRA, P1_EXTRA, _pre_value_2024, b0_probabilities,
-    feature_manifest, fit_preprocessing, load_accepted_2024_rows, matrix,
+    causal_feature_row, feature_manifest, fit_preprocessing, load_accepted_2024_rows, matrix,
     proper_scores, trade_weights, weighted_quantile,
 )
 
@@ -104,3 +104,25 @@ def test_source_has_no_random_row_split_or_alternative_model_family():
     source=(REPO/'src/binance_data_foundation/c4_modeling.py').read_text()
     assert 'train_test_split' not in source and 'RandomForest' not in source and 'GradientBoost' not in source
     assert '2025_predictive_scoring":"NOT PERFORMED"' in source
+
+def test_actual_features_are_invariant_to_strictly_future_mutation():
+    minute=60_000; five=5*minute; t=1704067200000+30*60*minute; entry=t-10*five
+    def series(mult=1.0):
+        out={}
+        for m in range(t-30*60*minute,t+2*60*minute,minute):
+            base=100+0.0001*(m-(t-30*60*minute))/minute
+            out[m]={'open':base,'high':base+0.2,'low':base-0.2,'close':base+0.05,
+                    'quote_volume':1000+(m//minute)%17,'trade_count':100+(m//minute)%11}
+        return out
+    local=series(); btc=series()
+    row={'entry_execution_ms':entry,'snapshot_ms':t,'elapsed_minutes':50.,'current_return':.02,
+         'drawdown_from_running_peak':-.01,'peak_gain_retained_fraction':.66,
+         'upper_barrier':104.,'lower_barrier':101.,'snapshot_close':102.,'entry_price':100.}
+    before=causal_feature_row(row,local,btc)
+    for source in (local,btc):
+        for m in list(source):
+            if m>=t: source[m]={'open':1e9,'high':1e12,'low':1e-9,'close':1e8,'quote_volume':1e15,'trade_count':10**12}
+    after=causal_feature_row(row,local,btc)
+    assert before == after
+    assert after['t2_upper_distance']==pytest.approx((104-102)/102)
+    assert after['t2_lower_distance']==pytest.approx((102-101)/102)

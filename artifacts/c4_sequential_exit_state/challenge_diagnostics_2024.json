@@ -1,0 +1,2002 @@
+{
+  "T1_fold_A": {
+    "barrier_proximity": {
+      "available": false,
+      "reason": "T1 normalized distances are contractually constant"
+    },
+    "elapsed_time_only": {
+      "C": 1.0,
+      "columns": [
+        "elapsed_log1p_5m"
+      ],
+      "converged": true,
+      "gradient_max": 5.071099753042022e-12,
+      "iterations": 6,
+      "selection_use": "PROHIBITED"
+    },
+    "feature_family_ablation": {
+      "remove_market_history": {
+        "available": true,
+        "brier_delta": 0.005764812417800538,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3068160927631255,
+          "continuation": 0.06513039626846863,
+          "no_event_60m": 0.6280535109684058
+        },
+        "gradient_max": 8.117178110222945e-11,
+        "iterations": 7,
+        "log_loss_delta": 0.00564328926782365,
+        "removed_columns": [
+          "h1_close_distance_sma24",
+          "h1_sma24_slope",
+          "quote_volume_ratio_5m",
+          "range_ratio_5m",
+          "trade_count_ratio_5m",
+          "volatility_expansion_ratio"
+        ],
+        "snapshots": 27590,
+        "trades": 197
+      },
+      "remove_path_dynamics": {
+        "available": true,
+        "brier_delta": -0.0011348062362700586,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3068160927631255,
+          "continuation": 0.06513039626846863,
+          "no_event_60m": 0.6280535109684058
+        },
+        "gradient_max": 4.001055892849381e-10,
+        "iterations": 7,
+        "log_loss_delta": -0.0016829686888801118,
+        "removed_columns": [
+          "momentum_acceleration",
+          "negative_5m_count_6",
+          "path_efficiency",
+          "positive_5m_count_6",
+          "recent_return_15m",
+          "recent_return_30m",
+          "recent_return_5m",
+          "running_mae",
+          "zero_5m_count_6"
+        ],
+        "snapshots": 27590,
+        "trades": 197
+      }
+    },
+    "holding_age": {
+      "0-6h": {
+        "available": true,
+        "brier_delta": 0.0026035588150166416,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.2881749579075822,
+          "continuation": 0.07961211468526391,
+          "no_event_60m": 0.6322129274071542
+        },
+        "log_loss_delta": -0.00010914045307658642,
+        "snapshots": 9003,
+        "trades": 197
+      },
+      "24-72h": {
+        "available": true,
+        "brier_delta": -0.0003667132269309188,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.24187405460702333,
+          "continuation": 0.06791086280468904,
+          "no_event_60m": 0.6902150825882876
+        },
+        "log_loss_delta": -0.003979670664340256,
+        "snapshots": 5264,
+        "trades": 32
+      },
+      "6-24h": {
+        "available": true,
+        "brier_delta": -0.0007734699030241803,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.27021343775239126,
+          "continuation": 0.07905627810441812,
+          "no_event_60m": 0.6507302841431906
+        },
+        "log_loss_delta": -0.002941458257181046,
+        "snapshots": 12907,
+        "trades": 103
+      },
+      ">72h": {
+        "available": true,
+        "brier_delta": -0.02202299740120584,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.24005274359211623,
+          "continuation": 0.18809567872675123,
+          "no_event_60m": 0.5718515776811326
+        },
+        "log_loss_delta": -0.03709513049963497,
+        "snapshots": 416,
+        "trades": 2
+      }
+    },
+    "holding_age_all_models": {
+      "0-6h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.48796810706447136,
+            "trade_weighted_log_loss": 0.8228363389000054
+          },
+          "G1": {
+            "trade_weighted_brier": 0.456733940797378,
+            "trade_weighted_log_loss": 0.7819941122921255
+          },
+          "P1": {
+            "trade_weighted_brier": 0.4593374996123946,
+            "trade_weighted_log_loss": 0.7818849718390488
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5113066468559948,
+            "trade_weighted_log_loss": 0.850860665887621
+          }
+        },
+        "snapshots": 9003,
+        "trades": 197
+      },
+      "24-72h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.4495723781245473,
+            "trade_weighted_log_loss": 0.766289345269997
+          },
+          "G1": {
+            "trade_weighted_brier": 0.43005367195766714,
+            "trade_weighted_log_loss": 0.740956779616739
+          },
+          "P1": {
+            "trade_weighted_brier": 0.4296869587307362,
+            "trade_weighted_log_loss": 0.7369771089523988
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.4687177108179225,
+            "trade_weighted_log_loss": 0.7920670120724886
+          }
+        },
+        "snapshots": 5264,
+        "trades": 32
+      },
+      "6-24h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.48072179454430397,
+            "trade_weighted_log_loss": 0.8119647730620907
+          },
+          "G1": {
+            "trade_weighted_brier": 0.47093790061394847,
+            "trade_weighted_log_loss": 0.7925178855151966
+          },
+          "P1": {
+            "trade_weighted_brier": 0.4701644307109243,
+            "trade_weighted_log_loss": 0.7895764272580157
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.4992888663570366,
+            "trade_weighted_log_loss": 0.8365907848425108
+          }
+        },
+        "snapshots": 12907,
+        "trades": 103
+      },
+      ">72h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.5824766353469519,
+            "trade_weighted_log_loss": 0.9883927516753555
+          },
+          "G1": {
+            "trade_weighted_brier": 0.5622958122270395,
+            "trade_weighted_log_loss": 0.9621652742525535
+          },
+          "P1": {
+            "trade_weighted_brier": 0.5402728148258337,
+            "trade_weighted_log_loss": 0.9250701437529187
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5997139684269172,
+            "trade_weighted_log_loss": 1.0468100921747672
+          }
+        },
+        "snapshots": 416,
+        "trades": 2
+      }
+    },
+    "leave_one_symbol_out_refits": {
+      "BNBUSDT": {
+        "available": true,
+        "brier_delta": 0.007490552860511309,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.25075420023681017,
+          "continuation": 0.05490912164974324,
+          "no_event_60m": 0.6943366781134466
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 7.70597076774071e-09,
+            "iterations": 7
+          },
+          "P1": {
+            "gradient_max": 8.240693787076037e-10,
+            "iterations": 7
+          }
+        },
+        "log_loss_delta": 0.015283933304757972,
+        "snapshots": 5109,
+        "trades": 41
+      },
+      "BTCUSDT": {
+        "available": true,
+        "brier_delta": -0.005393929687933374,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.28666243935821156,
+          "continuation": 0.022931664932784968,
+          "no_event_60m": 0.6904058957090035
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 1.3226032265917231e-09,
+            "iterations": 7
+          },
+          "P1": {
+            "gradient_max": 7.604892063306501e-11,
+            "iterations": 7
+          }
+        },
+        "log_loss_delta": -0.013425473340878628,
+        "snapshots": 4742,
+        "trades": 36
+      },
+      "ETHUSDT": {
+        "available": true,
+        "brier_delta": 0.010860363637095062,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.280155758261697,
+          "continuation": 0.05546944739655919,
+          "no_event_60m": 0.6643747943417437
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 7.759372918497709e-10,
+            "iterations": 7
+          },
+          "P1": {
+            "gradient_max": 3.896244630749446e-09,
+            "iterations": 7
+          }
+        },
+        "log_loss_delta": 0.008658464139527627,
+        "snapshots": 5444,
+        "trades": 36
+      },
+      "SOLUSDT": {
+        "available": true,
+        "brier_delta": 0.007081849224055826,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.39774121750836766,
+          "continuation": 0.11603691436017,
+          "no_event_60m": 0.48622186813146234
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 7.317048595495423e-09,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 1.3388595787588997e-14,
+            "iterations": 7
+          }
+        },
+        "log_loss_delta": 0.019725265137731665,
+        "snapshots": 6355,
+        "trades": 38
+      },
+      "XRPUSDT": {
+        "available": true,
+        "brier_delta": -0.0001554583546082523,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.31830927576069173,
+          "continuation": 0.07277328886317386,
+          "no_event_60m": 0.6089174353761344
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 6.45745984288737e-09,
+            "iterations": 7
+          },
+          "P1": {
+            "gradient_max": 5.333721207756437e-10,
+            "iterations": 7
+          }
+        },
+        "log_loss_delta": -0.0044505487754430174,
+        "snapshots": 5940,
+        "trades": 46
+      }
+    },
+    "month_deletion_without_refit": {
+      "2024-07": {
+        "available": true,
+        "brier_delta": 0.0022670597669607654,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3203798043213293,
+          "continuation": 0.058093759887913134,
+          "no_event_60m": 0.6215264357907575
+        },
+        "log_loss_delta": 0.004221641662233092,
+        "snapshots": 16163,
+        "trades": 137
+      },
+      "2024-08": {
+        "available": true,
+        "brier_delta": 0.004162843417483849,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.23889574617171105,
+          "continuation": 0.05951570966418377,
+          "no_event_60m": 0.7015885441641052
+        },
+        "log_loss_delta": 0.0007064550522742456,
+        "snapshots": 20136,
+        "trades": 125
+      },
+      "2024-09": {
+        "available": true,
+        "brier_delta": 0.006644016033635006,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.35705711428170794,
+          "continuation": 0.07775050997810279,
+          "no_event_60m": 0.5651923757401893
+        },
+        "log_loss_delta": 0.007259697377716888,
+        "snapshots": 18881,
+        "trades": 132
+      }
+    },
+    "month_groups_descriptive": {
+      "2024-07": {
+        "available": true,
+        "brier_delta": 0.009056486296263978,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.2758456180385601,
+          "continuation": 0.081197382670737,
+          "no_event_60m": 0.6429569992907028
+        },
+        "log_loss_delta": 0.003901850230558137,
+        "snapshots": 11427,
+        "trades": 60
+      },
+      "2024-08": {
+        "available": true,
+        "brier_delta": 0.004633624148110863,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.4247333611509977,
+          "continuation": 0.07487811606757427,
+          "no_event_60m": 0.500388522781428
+        },
+        "log_loss_delta": 0.010057903333682512,
+        "snapshots": 7454,
+        "trades": 72
+      },
+      "2024-09": {
+        "available": true,
+        "brier_delta": -0.0003543653936978063,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.2047881721407734,
+          "continuation": 0.03950185765813463,
+          "no_event_60m": 0.7557099702010919
+        },
+        "log_loss_delta": -0.002243140496910884,
+        "snapshots": 8709,
+        "trades": 65
+      }
+    },
+    "one_snapshot_per_trade_day": {
+      "available": true,
+      "brier_delta": 0.00818809291448986,
+      "equal_trade_event_incidence": {
+        "adverse_reversal": 0.21252115059221657,
+        "continuation": 0.11285956006768189,
+        "no_event_60m": 0.6746192893401015
+      },
+      "log_loss_delta": 0.009369238654235244,
+      "snapshots": 292,
+      "trades": 197
+    },
+    "role": "CHALLENGE_DIAGNOSTIC_ONLY_NO_SELECTION",
+    "volatility_training_strata": {
+      "0": {
+        "available": true,
+        "brier_delta": -0.007071148517516896,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.1273559158021012,
+          "continuation": 0.051100755429470394,
+          "no_event_60m": 0.8215433287684284
+        },
+        "log_loss_delta": -0.019185255925975017,
+        "snapshots": 4736,
+        "trades": 116
+      },
+      "1": {
+        "available": true,
+        "brier_delta": 0.00040177959856939924,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.16046987707955956,
+          "continuation": 0.07171662381866176,
+          "no_event_60m": 0.7678134991017787
+        },
+        "log_loss_delta": -0.0013259440546814789,
+        "snapshots": 7941,
+        "trades": 149
+      },
+      "2": {
+        "available": true,
+        "brier_delta": -0.004417493321937884,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3148066087677297,
+          "continuation": 0.08408535998185837,
+          "no_event_60m": 0.601108031250412
+        },
+        "log_loss_delta": -0.004434045800152999,
+        "snapshots": 8384,
+        "trades": 158
+      },
+      "3": {
+        "available": true,
+        "brier_delta": -0.0015392923450606262,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3849278722549248,
+          "continuation": 0.10852342746931729,
+          "no_event_60m": 0.5065487002757578
+        },
+        "log_loss_delta": -0.00036227565873931354,
+        "snapshots": 6529,
+        "trades": 131
+      }
+    }
+  },
+  "T1_fold_B": {
+    "barrier_proximity": {
+      "available": false,
+      "reason": "T1 normalized distances are contractually constant"
+    },
+    "elapsed_time_only": {
+      "C": 1.0,
+      "columns": [
+        "elapsed_log1p_5m"
+      ],
+      "converged": true,
+      "gradient_max": 7.520076114258116e-12,
+      "iterations": 6,
+      "selection_use": "PROHIBITED"
+    },
+    "feature_family_ablation": {
+      "remove_market_history": {
+        "available": true,
+        "brier_delta": -0.0023407217953620415,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.32685473485744343,
+          "continuation": 0.07603222981264982,
+          "no_event_60m": 0.5971130353299068
+        },
+        "gradient_max": 8.204643553097468e-10,
+        "iterations": 7,
+        "log_loss_delta": -0.0073568974982271725,
+        "removed_columns": [
+          "h1_close_distance_sma24",
+          "h1_sma24_slope",
+          "quote_volume_ratio_5m",
+          "range_ratio_5m",
+          "trade_count_ratio_5m",
+          "volatility_expansion_ratio"
+        ],
+        "snapshots": 24194,
+        "trades": 196
+      },
+      "remove_path_dynamics": {
+        "available": true,
+        "brier_delta": -0.005885581949156771,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.32685473485744343,
+          "continuation": 0.07603222981264982,
+          "no_event_60m": 0.5971130353299068
+        },
+        "gradient_max": 1.6415269091935025e-09,
+        "iterations": 7,
+        "log_loss_delta": -0.009089787551638969,
+        "removed_columns": [
+          "momentum_acceleration",
+          "negative_5m_count_6",
+          "path_efficiency",
+          "positive_5m_count_6",
+          "recent_return_15m",
+          "recent_return_30m",
+          "recent_return_5m",
+          "running_mae",
+          "zero_5m_count_6"
+        ],
+        "snapshots": 24194,
+        "trades": 196
+      }
+    },
+    "holding_age": {
+      "0-6h": {
+        "available": true,
+        "brier_delta": -0.007565828705991693,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.29437983452456185,
+          "continuation": 0.08543800462405338,
+          "no_event_60m": 0.6201821608513849
+        },
+        "log_loss_delta": -0.019034007670423472,
+        "snapshots": 8736,
+        "trades": 196
+      },
+      "24-72h": {
+        "available": true,
+        "brier_delta": -0.015955582539047733,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.35137292111145446,
+          "continuation": 0.0957114427624078,
+          "no_event_60m": 0.5529156361261377
+        },
+        "log_loss_delta": -0.024882877816933963,
+        "snapshots": 4093,
+        "trades": 27
+      },
+      "6-24h": {
+        "available": true,
+        "brier_delta": -0.0006476477600946529,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3092095748704132,
+          "continuation": 0.09757032036322662,
+          "no_event_60m": 0.5932201047663601
+        },
+        "log_loss_delta": -0.004981659928374108,
+        "snapshots": 11365,
+        "trades": 92
+      }
+    },
+    "holding_age_all_models": {
+      "0-6h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.49016189267692845,
+            "trade_weighted_log_loss": 0.8325859298413301
+          },
+          "G1": {
+            "trade_weighted_brier": 0.441701489107363,
+            "trade_weighted_log_loss": 0.9372589463508685
+          },
+          "P1": {
+            "trade_weighted_brier": 0.4341356604013713,
+            "trade_weighted_log_loss": 0.918224938680445
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5215171323632364,
+            "trade_weighted_log_loss": 0.86823722470224
+          }
+        },
+        "snapshots": 8736,
+        "trades": 196
+      },
+      "24-72h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.5445532426620048,
+            "trade_weighted_log_loss": 0.8906911871949258
+          },
+          "G1": {
+            "trade_weighted_brier": 0.4708183083786245,
+            "trade_weighted_log_loss": 0.7966103577480891
+          },
+          "P1": {
+            "trade_weighted_brier": 0.45486272583957676,
+            "trade_weighted_log_loss": 0.7717274799311551
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5701831998393126,
+            "trade_weighted_log_loss": 0.9318135588827925
+          }
+        },
+        "snapshots": 4093,
+        "trades": 27
+      },
+      "6-24h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.5172756654279986,
+            "trade_weighted_log_loss": 0.8690659897693085
+          },
+          "G1": {
+            "trade_weighted_brier": 0.45987317919432724,
+            "trade_weighted_log_loss": 0.7813820817972332
+          },
+          "P1": {
+            "trade_weighted_brier": 0.4592255314342326,
+            "trade_weighted_log_loss": 0.776400421868859
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5441480016986062,
+            "trade_weighted_log_loss": 0.9044450235359792
+          }
+        },
+        "snapshots": 11365,
+        "trades": 92
+      }
+    },
+    "leave_one_symbol_out_refits": {
+      "BNBUSDT": {
+        "available": true,
+        "brier_delta": -0.0013433180653258077,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.2490361706950048,
+          "continuation": 0.05465727497763413,
+          "no_event_60m": 0.696306554327361
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 2.1198320876436583e-15,
+            "iterations": 8
+          },
+          "P1": {
+            "gradient_max": 1.7555401576885288e-15,
+            "iterations": 8
+          }
+        },
+        "log_loss_delta": -0.005119619719840482,
+        "snapshots": 6881,
+        "trades": 41
+      },
+      "BTCUSDT": {
+        "available": true,
+        "brier_delta": -0.0017240528337394323,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.24278713384288314,
+          "continuation": 0.04220279421804879,
+          "no_event_60m": 0.715010071939068
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 5.4366233737113134e-15,
+            "iterations": 8
+          },
+          "P1": {
+            "gradient_max": 1.6969932403743115e-14,
+            "iterations": 8
+          }
+        },
+        "log_loss_delta": -0.008020798098372823,
+        "snapshots": 5536,
+        "trades": 38
+      },
+      "ETHUSDT": {
+        "available": true,
+        "brier_delta": -0.008395723482188474,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.28375143811750203,
+          "continuation": 0.06393668961049266,
+          "no_event_60m": 0.6523118722720053
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 1.4301531322050143e-09,
+            "iterations": 7
+          },
+          "P1": {
+            "gradient_max": 8.154047792877095e-10,
+            "iterations": 7
+          }
+        },
+        "log_loss_delta": -0.018799637893352185,
+        "snapshots": 3244,
+        "trades": 36
+      },
+      "SOLUSDT": {
+        "available": true,
+        "brier_delta": -0.0146958697519797,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.43398536835269796,
+          "continuation": 0.090197701545563,
+          "no_event_60m": 0.475816930101739
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 2.5637044570592238e-14,
+            "iterations": 8
+          },
+          "P1": {
+            "gradient_max": 4.882933250446864e-13,
+            "iterations": 8
+          }
+        },
+        "log_loss_delta": -0.020726215597067416,
+        "snapshots": 3583,
+        "trades": 37
+      },
+      "XRPUSDT": {
+        "available": true,
+        "brier_delta": -0.016225456511463225,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.4171505351421423,
+          "continuation": 0.12315060922152145,
+          "no_event_60m": 0.4596988556363362
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 1.1211841715458304e-09,
+            "iterations": 7
+          },
+          "P1": {
+            "gradient_max": 4.4046512964746043e-10,
+            "iterations": 7
+          }
+        },
+        "log_loss_delta": -0.027328152695111404,
+        "snapshots": 4950,
+        "trades": 44
+      }
+    },
+    "month_deletion_without_refit": {
+      "2024-10": {
+        "available": true,
+        "brier_delta": -0.006597156467415389,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3922936786694168,
+          "continuation": 0.09626398312441228,
+          "no_event_60m": 0.511442338206171
+        },
+        "log_loss_delta": -0.013091126069039307,
+        "snapshots": 16721,
+        "trades": 138
+      },
+      "2024-11": {
+        "available": true,
+        "brier_delta": -0.012918503776677555,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.3016798671014067,
+          "continuation": 0.05260830469113793,
+          "no_event_60m": 0.6457118282074555
+        },
+        "log_loss_delta": -0.023292019396547063,
+        "snapshots": 14121,
+        "trades": 128
+      },
+      "2024-12": {
+        "available": true,
+        "brier_delta": -0.006540796208837355,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.28480368168082176,
+          "continuation": 0.07865664031455405,
+          "no_event_60m": 0.6365396780046242
+        },
+        "log_loss_delta": -0.014090899728690357,
+        "snapshots": 17546,
+        "trades": 127
+      }
+    },
+    "month_groups_descriptive": {
+      "2024-10": {
+        "available": true,
+        "brier_delta": -0.009630470722493727,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.17115517889102416,
+          "continuation": 0.027894609863973588,
+          "no_event_60m": 0.8009502112450022
+        },
+        "log_loss_delta": -0.020238688387920784,
+        "snapshots": 7473,
+        "trades": 58
+      },
+      "2024-11": {
+        "available": true,
+        "brier_delta": -0.00394367850170591,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.38033430721427486,
+          "continuation": 0.12132617315707095,
+          "no_event_60m": 0.4983395196286542
+        },
+        "log_loss_delta": -0.008923193319482171,
+        "snapshots": 10073,
+        "trades": 69
+      },
+      "2024-12": {
+        "available": true,
+        "brier_delta": -0.01564287402157272,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.40982889447572357,
+          "continuation": 0.07308536611935978,
+          "no_event_60m": 0.5170857394049166
+        },
+        "log_loss_delta": -0.02582192223226597,
+        "snapshots": 6648,
+        "trades": 70
+      }
+    },
+    "one_snapshot_per_trade_day": {
+      "available": true,
+      "brier_delta": -0.0022491710113481476,
+      "equal_trade_event_incidence": {
+        "adverse_reversal": 0.19345238095238093,
+        "continuation": 0.14498299319727892,
+        "no_event_60m": 0.66156462585034
+      },
+      "log_loss_delta": -0.030487353562280148,
+      "snapshots": 278,
+      "trades": 196
+    },
+    "role": "CHALLENGE_DIAGNOSTIC_ONLY_NO_SELECTION",
+    "volatility_training_strata": {
+      "0": {
+        "available": true,
+        "brier_delta": 0.0008976055528308827,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.12150701554092895,
+          "continuation": 0.06129463084394026,
+          "no_event_60m": 0.8171983536151308
+        },
+        "log_loss_delta": -0.0027642343659593773,
+        "snapshots": 5343,
+        "trades": 99
+      },
+      "1": {
+        "available": true,
+        "brier_delta": -0.00175949774915081,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.21253907881181772,
+          "continuation": 0.07450719539081019,
+          "no_event_60m": 0.712953725797372
+        },
+        "log_loss_delta": -0.004764534680688174,
+        "snapshots": 5680,
+        "trades": 139
+      },
+      "2": {
+        "available": true,
+        "brier_delta": -0.010754292673311041,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.32263835269701613,
+          "continuation": 0.0621926979970337,
+          "no_event_60m": 0.6151689493059502
+        },
+        "log_loss_delta": -0.0164397991263555,
+        "snapshots": 5608,
+        "trades": 148
+      },
+      "3": {
+        "available": true,
+        "brier_delta": -0.016992377368418094,
+        "equal_trade_event_incidence": {
+          "adverse_reversal": 0.431481719511802,
+          "continuation": 0.119523120247719,
+          "no_event_60m": 0.4489951602404789
+        },
+        "log_loss_delta": -0.02648559088466661,
+        "snapshots": 7563,
+        "trades": 131
+      }
+    }
+  },
+  "T2_fold_A": {
+    "barrier_proximity": {
+      "t2_lower_distance": {
+        "0": {
+          "available": true,
+          "brier_delta": -0.011303122233053867,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.13091921256570732,
+            "renewed_peak": 0.044620422804105275,
+            "substantial_giveback": 0.8244603646301875
+          },
+          "log_loss_delta": -0.011484882913179936,
+          "snapshots": 1603,
+          "trades": 107
+        },
+        "1": {
+          "available": true,
+          "brier_delta": -0.012351187311904502,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.2787175207673418,
+            "renewed_peak": 0.09586376992756221,
+            "substantial_giveback": 0.625418709305096
+          },
+          "log_loss_delta": -0.010067634578992495,
+          "snapshots": 2052,
+          "trades": 111
+        },
+        "2": {
+          "available": true,
+          "brier_delta": -0.021730922554074134,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.35989020339069233,
+            "renewed_peak": 0.12828375694182947,
+            "substantial_giveback": 0.5118260396674782
+          },
+          "log_loss_delta": -0.02448260316605581,
+          "snapshots": 2624,
+          "trades": 109
+        },
+        "3": {
+          "available": true,
+          "brier_delta": -0.019251869433916116,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.5026383894360437,
+            "renewed_peak": 0.10323330419507346,
+            "substantial_giveback": 0.3941283063688829
+          },
+          "log_loss_delta": -0.021409396836260836,
+          "snapshots": 4215,
+          "trades": 90
+        },
+        "4": {
+          "available": true,
+          "brier_delta": 0.004791665964988156,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.8085857090296423,
+            "renewed_peak": 0.12800694765418638,
+            "substantial_giveback": 0.06340734331617123
+          },
+          "log_loss_delta": 0.014673611011931018,
+          "snapshots": 5672,
+          "trades": 44
+        }
+      },
+      "t2_upper_distance": {
+        "0": {
+          "available": true,
+          "brier_delta": -0.02586342844550628,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.3744489962831854,
+            "renewed_peak": 0.24893186381577215,
+            "substantial_giveback": 0.37661913990104234
+          },
+          "log_loss_delta": -0.02978264651385585,
+          "snapshots": 2565,
+          "trades": 111
+        },
+        "1": {
+          "available": true,
+          "brier_delta": -0.008988806084823778,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.4201095172951691,
+            "renewed_peak": 0.15325085584764156,
+            "substantial_giveback": 0.4266396268571895
+          },
+          "log_loss_delta": -0.011998025619637826,
+          "snapshots": 2461,
+          "trades": 106
+        },
+        "2": {
+          "available": true,
+          "brier_delta": -0.009005680069497743,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.3977768686130932,
+            "renewed_peak": 0.07991536188673393,
+            "substantial_giveback": 0.5223077695001728
+          },
+          "log_loss_delta": -0.009069312534555708,
+          "snapshots": 2829,
+          "trades": 108
+        },
+        "3": {
+          "available": true,
+          "brier_delta": -0.0003148462664038544,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.40023234010567527,
+            "renewed_peak": 0.05911613817022944,
+            "substantial_giveback": 0.5406515217240953
+          },
+          "log_loss_delta": 0.0011837927909665955,
+          "snapshots": 3636,
+          "trades": 90
+        },
+        "4": {
+          "available": true,
+          "brier_delta": -0.002280818879957173,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.48946309898834856,
+            "renewed_peak": 0.006192479515188818,
+            "substantial_giveback": 0.5043444214964626
+          },
+          "log_loss_delta": -0.004183271383528116,
+          "snapshots": 4675,
+          "trades": 61
+        }
+      }
+    },
+    "elapsed_time_only": {
+      "C": 1.0,
+      "columns": [
+        "elapsed_log1p_5m"
+      ],
+      "converged": true,
+      "gradient_max": 2.852057507066748e-13,
+      "iterations": 6,
+      "selection_use": "PROHIBITED"
+    },
+    "feature_family_ablation": {
+      "remove_market_history": {
+        "available": true,
+        "brier_delta": -0.012079341970385677,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.39004678422423134,
+          "renewed_peak": 0.08014620879171158,
+          "substantial_giveback": 0.529807006984057
+        },
+        "gradient_max": 5.325265008959303e-10,
+        "iterations": 6,
+        "log_loss_delta": -0.014505659830113957,
+        "removed_columns": [
+          "h1_close_distance_sma24",
+          "h1_sma24_slope",
+          "quote_volume_ratio_5m",
+          "range_ratio_5m",
+          "trade_count_ratio_5m",
+          "volatility_expansion_ratio"
+        ],
+        "snapshots": 16166,
+        "trades": 114
+      },
+      "remove_path_dynamics": {
+        "available": true,
+        "brier_delta": -0.00030951511716604955,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.39004678422423134,
+          "renewed_peak": 0.08014620879171158,
+          "substantial_giveback": 0.529807006984057
+        },
+        "gradient_max": 1.0939974620649551e-10,
+        "iterations": 6,
+        "log_loss_delta": -0.0004951252525566738,
+        "removed_columns": [
+          "momentum_acceleration",
+          "negative_5m_count_6",
+          "path_efficiency",
+          "positive_5m_count_6",
+          "recent_return_15m",
+          "recent_return_30m",
+          "recent_return_5m",
+          "running_mae",
+          "zero_5m_count_6"
+        ],
+        "snapshots": 16166,
+        "trades": 114
+      }
+    },
+    "holding_age": {
+      "0-6h": {
+        "available": true,
+        "brier_delta": -0.0160874512062145,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.28086963055463615,
+          "renewed_peak": 0.11465862687010592,
+          "substantial_giveback": 0.6044717425752578
+        },
+        "log_loss_delta": -0.021307197549947286,
+        "snapshots": 2768,
+        "trades": 97
+      },
+      "24-72h": {
+        "available": true,
+        "brier_delta": -0.023473211824431364,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.7263215044360769,
+          "renewed_peak": 0.03440036920620977,
+          "substantial_giveback": 0.23927812635771323
+        },
+        "log_loss_delta": -0.030996244804036014,
+        "snapshots": 4812,
+        "trades": 32
+      },
+      "6-24h": {
+        "available": true,
+        "brier_delta": -0.016068907392960612,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.43446441191227625,
+          "renewed_peak": 0.08248444206944261,
+          "substantial_giveback": 0.48305114601828114
+        },
+        "log_loss_delta": -0.017545967390201447,
+        "snapshots": 8190,
+        "trades": 85
+      },
+      ">72h": {
+        "available": true,
+        "brier_delta": -0.0008876661676291185,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.8760723039215685,
+          "renewed_peak": 0.12392769607843138,
+          "substantial_giveback": 0.0
+        },
+        "log_loss_delta": -0.00047516833611972297,
+        "snapshots": 396,
+        "trades": 2
+      }
+    },
+    "holding_age_all_models": {
+      "0-6h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.5630645905591798,
+            "trade_weighted_log_loss": 0.934892062355506
+          },
+          "G1": {
+            "trade_weighted_brier": 0.49745877087595614,
+            "trade_weighted_log_loss": 0.8408103974011696
+          },
+          "P1": {
+            "trade_weighted_brier": 0.48137131966974167,
+            "trade_weighted_log_loss": 0.8195031998512222
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5692040843692148,
+            "trade_weighted_log_loss": 0.9434589465332973
+          }
+        },
+        "snapshots": 2768,
+        "trades": 97
+      },
+      "24-72h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.44669961351122367,
+            "trade_weighted_log_loss": 0.745377860865801
+          },
+          "G1": {
+            "trade_weighted_brier": 0.2936146213349272,
+            "trade_weighted_log_loss": 0.5048760719250722
+          },
+          "P1": {
+            "trade_weighted_brier": 0.27014140951049587,
+            "trade_weighted_log_loss": 0.47387982712103616
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5290435540682596,
+            "trade_weighted_log_loss": 0.837526881148609
+          }
+        },
+        "snapshots": 4812,
+        "trades": 32
+      },
+      "6-24h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.5465811857679499,
+            "trade_weighted_log_loss": 0.8909468626943777
+          },
+          "G1": {
+            "trade_weighted_brier": 0.4573324154066596,
+            "trade_weighted_log_loss": 0.7525580976333015
+          },
+          "P1": {
+            "trade_weighted_brier": 0.44126350801369896,
+            "trade_weighted_log_loss": 0.7350121302431001
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5664741741125467,
+            "trade_weighted_log_loss": 0.9147442190192729
+          }
+        },
+        "snapshots": 8190,
+        "trades": 85
+      },
+      ">72h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.32932625816438943,
+            "trade_weighted_log_loss": 0.6475693537264626
+          },
+          "G1": {
+            "trade_weighted_brier": 0.2103325364907278,
+            "trade_weighted_log_loss": 0.35925518781381616
+          },
+          "P1": {
+            "trade_weighted_brier": 0.20944487032309872,
+            "trade_weighted_log_loss": 0.3587800194776964
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5544357590064131,
+            "trade_weighted_log_loss": 0.9323793226395181
+          }
+        },
+        "snapshots": 396,
+        "trades": 2
+      }
+    },
+    "leave_one_symbol_out_refits": {
+      "BNBUSDT": {
+        "available": true,
+        "brier_delta": 6.0242469957432626e-05,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.43354493744232764,
+          "renewed_peak": 0.09073407941526007,
+          "substantial_giveback": 0.4757209831424125
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 1.0470674674523117e-10,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 5.485936674592478e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -0.0009311037939744825,
+        "snapshots": 3032,
+        "trades": 23
+      },
+      "BTCUSDT": {
+        "available": true,
+        "brier_delta": 0.0006487992095571687,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4977623027342567,
+          "renewed_peak": 0.051780497632052946,
+          "substantial_giveback": 0.4504571996336905
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 5.657050869412039e-11,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 4.895133567896788e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -8.186869501138061e-06,
+        "snapshots": 3089,
+        "trades": 15
+      },
+      "ETHUSDT": {
+        "available": true,
+        "brier_delta": -0.018214323607741605,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.41394721028394077,
+          "renewed_peak": 0.08828112639693632,
+          "substantial_giveback": 0.497771663319123
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 3.6650200235799346e-11,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 3.047364118113701e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -0.024437167662979,
+        "snapshots": 2839,
+        "trades": 21
+      },
+      "SOLUSDT": {
+        "available": true,
+        "brier_delta": -0.030817175469610818,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.3070965322792413,
+          "renewed_peak": 0.07076002733984091,
+          "substantial_giveback": 0.6221434403809177
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 4.895187427299152e-10,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 3.961822150769571e-09,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -0.03702857274904253,
+        "snapshots": 3989,
+        "trades": 30
+      },
+      "XRPUSDT": {
+        "available": true,
+        "brier_delta": -0.019296168249498938,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.36486311660140003,
+          "renewed_peak": 0.09185488146769817,
+          "substantial_giveback": 0.5432820019309017
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 3.2815580114364806e-11,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 1.8172369623588304e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -0.02037755799907185,
+        "snapshots": 3217,
+        "trades": 25
+      }
+    },
+    "month_deletion_without_refit": {
+      "2024-07": {
+        "available": true,
+        "brier_delta": -0.011718603270369998,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.3334139179391286,
+          "renewed_peak": 0.0688980014218952,
+          "substantial_giveback": 0.5976880806389762
+        },
+        "log_loss_delta": -0.013348750286798827,
+        "snapshots": 8805,
+        "trades": 77
+      },
+      "2024-08": {
+        "available": true,
+        "brier_delta": -0.010754098019507118,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4638791730478266,
+          "renewed_peak": 0.09041771519381897,
+          "substantial_giveback": 0.4457031117583544
+        },
+        "log_loss_delta": -0.013599853335832711,
+        "snapshots": 12024,
+        "trades": 70
+      },
+      "2024-09": {
+        "available": true,
+        "brier_delta": -0.02000156984068671,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.38007719763535786,
+          "renewed_peak": 0.08196233865996269,
+          "substantial_giveback": 0.5379604637046793
+        },
+        "log_loss_delta": -0.025639032857738595,
+        "snapshots": 11503,
+        "trades": 81
+      }
+    },
+    "month_groups_descriptive": {
+      "2024-07": {
+        "available": true,
+        "brier_delta": -0.019872723873549086,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.5079043708175535,
+          "renewed_peak": 0.10355464034511319,
+          "substantial_giveback": 0.38854098883733346
+        },
+        "log_loss_delta": -0.027039157066237926,
+        "snapshots": 7361,
+        "trades": 37
+      },
+      "2024-08": {
+        "available": true,
+        "brier_delta": -0.020109917585779718,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.27258616564123894,
+          "renewed_peak": 0.06380517587926797,
+          "substantial_giveback": 0.663608658479493
+        },
+        "log_loss_delta": -0.024461655682409614,
+        "snapshots": 4142,
+        "trades": 44
+      },
+      "2024-09": {
+        "available": true,
+        "brier_delta": -0.00053018418315703,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4145175876696481,
+          "renewed_peak": 0.07568843547873152,
+          "substantial_giveback": 0.5097939768516204
+        },
+        "log_loss_delta": 0.0014684569073488902,
+        "snapshots": 4663,
+        "trades": 33
+      }
+    },
+    "one_snapshot_per_trade_day": {
+      "available": true,
+      "brier_delta": -0.030304785555212856,
+      "equal_trade_event_incidence": {
+        "no_event_60m": 0.33187134502923976,
+        "renewed_peak": 0.18333333333333332,
+        "substantial_giveback": 0.48479532163742683
+      },
+      "log_loss_delta": -0.03940099274112086,
+      "snapshots": 184,
+      "trades": 114
+    },
+    "role": "CHALLENGE_DIAGNOSTIC_ONLY_NO_SELECTION",
+    "volatility_training_strata": {
+      "0": {
+        "available": true,
+        "brier_delta": -0.007621367077202778,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.5365323508821154,
+          "renewed_peak": 0.05414102773301125,
+          "substantial_giveback": 0.40932662138487336
+        },
+        "log_loss_delta": -0.005275039180314409,
+        "snapshots": 5266,
+        "trades": 75
+      },
+      "1": {
+        "available": true,
+        "brier_delta": -0.006979263535538046,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4199386009890751,
+          "renewed_peak": 0.08841067208381719,
+          "substantial_giveback": 0.49165072692710776
+        },
+        "log_loss_delta": -0.0061218436604571795,
+        "snapshots": 4944,
+        "trades": 99
+      },
+      "2": {
+        "available": true,
+        "brier_delta": -0.021126664756762618,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4239094944165919,
+          "renewed_peak": 0.10087301045641557,
+          "substantial_giveback": 0.47521749512699246
+        },
+        "log_loss_delta": -0.029326329671638694,
+        "snapshots": 3667,
+        "trades": 102
+      },
+      "3": {
+        "available": true,
+        "brier_delta": -0.02158892367133088,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.3772805367136769,
+          "renewed_peak": 0.09909112846716356,
+          "substantial_giveback": 0.5236283348191596
+        },
+        "log_loss_delta": -0.02015377075647557,
+        "snapshots": 2289,
+        "trades": 76
+      }
+    }
+  },
+  "T2_fold_B": {
+    "barrier_proximity": {
+      "t2_lower_distance": {
+        "0": {
+          "available": true,
+          "brier_delta": 0.0032308713086718374,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.10921939509775731,
+            "renewed_peak": 0.03275352953876315,
+            "substantial_giveback": 0.8580270753634796
+          },
+          "log_loss_delta": 0.0038654134353241607,
+          "snapshots": 1314,
+          "trades": 100
+        },
+        "1": {
+          "available": true,
+          "brier_delta": 0.005040954599131537,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.19633753379362234,
+            "renewed_peak": 0.07171045066468534,
+            "substantial_giveback": 0.7319520155416923
+          },
+          "log_loss_delta": 0.008968039791195167,
+          "snapshots": 1567,
+          "trades": 103
+        },
+        "2": {
+          "available": true,
+          "brier_delta": -0.0008498984729599199,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.3151832382025637,
+            "renewed_peak": 0.1620809564964728,
+            "substantial_giveback": 0.5227358053009634
+          },
+          "log_loss_delta": -0.005514200309677905,
+          "snapshots": 2016,
+          "trades": 100
+        },
+        "3": {
+          "available": true,
+          "brier_delta": -0.01774605736707333,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.4360274899768022,
+            "renewed_peak": 0.16389820992712134,
+            "substantial_giveback": 0.4000743000960765
+          },
+          "log_loss_delta": -0.031289846965314776,
+          "snapshots": 2960,
+          "trades": 85
+        },
+        "4": {
+          "available": true,
+          "brier_delta": -0.005466981707611052,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.6487828922300602,
+            "renewed_peak": 0.15442605228739303,
+            "substantial_giveback": 0.19679105548254663
+          },
+          "log_loss_delta": -0.010023317549122696,
+          "snapshots": 6444,
+          "trades": 52
+        }
+      },
+      "t2_upper_distance": {
+        "0": {
+          "available": true,
+          "brier_delta": -0.014540363461225348,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.3384829532622782,
+            "renewed_peak": 0.30035227714986107,
+            "substantial_giveback": 0.3611647695878607
+          },
+          "log_loss_delta": -0.028860121629733046,
+          "snapshots": 2418,
+          "trades": 101
+        },
+        "1": {
+          "available": true,
+          "brier_delta": -0.008372107042774874,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.3315090804294227,
+            "renewed_peak": 0.17857389517190475,
+            "substantial_giveback": 0.4899170243986726
+          },
+          "log_loss_delta": -0.01822806889956697,
+          "snapshots": 2236,
+          "trades": 100
+        },
+        "2": {
+          "available": true,
+          "brier_delta": -0.0009552737384473263,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.31801562800828376,
+            "renewed_peak": 0.1141615172727583,
+            "substantial_giveback": 0.5678228547189579
+          },
+          "log_loss_delta": -0.0030769888660896654,
+          "snapshots": 2184,
+          "trades": 99
+        },
+        "3": {
+          "available": true,
+          "brier_delta": 0.0029491079442660094,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.39431802290284745,
+            "renewed_peak": 0.05968166099244826,
+            "substantial_giveback": 0.5460003161047043
+          },
+          "log_loss_delta": 0.0013273517022096043,
+          "snapshots": 2715,
+          "trades": 84
+        },
+        "4": {
+          "available": true,
+          "brier_delta": -0.0038286700433589954,
+          "equal_trade_event_incidence": {
+            "no_event_60m": 0.419477902073061,
+            "renewed_peak": 0.012913897175574222,
+            "substantial_giveback": 0.5676082007513648
+          },
+          "log_loss_delta": -0.007997991773856204,
+          "snapshots": 4748,
+          "trades": 57
+        }
+      }
+    },
+    "elapsed_time_only": {
+      "C": 1.0,
+      "columns": [
+        "elapsed_log1p_5m"
+      ],
+      "converged": true,
+      "gradient_max": 9.488832680584049e-13,
+      "iterations": 6,
+      "selection_use": "PROHIBITED"
+    },
+    "feature_family_ablation": {
+      "remove_market_history": {
+        "available": true,
+        "brier_delta": -0.0023732925635669196,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.33472385587594033,
+          "renewed_peak": 0.10192267546020277,
+          "substantial_giveback": 0.5633534686638569
+        },
+        "gradient_max": 5.102821924904904e-10,
+        "iterations": 6,
+        "log_loss_delta": -0.0071738538109124995,
+        "removed_columns": [
+          "h1_close_distance_sma24",
+          "h1_sma24_slope",
+          "quote_volume_ratio_5m",
+          "range_ratio_5m",
+          "trade_count_ratio_5m",
+          "volatility_expansion_ratio"
+        ],
+        "snapshots": 14301,
+        "trades": 107
+      },
+      "remove_path_dynamics": {
+        "available": true,
+        "brier_delta": -0.0018814312648267528,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.33472385587594033,
+          "renewed_peak": 0.10192267546020277,
+          "substantial_giveback": 0.5633534686638569
+        },
+        "gradient_max": 1.644782534997169e-10,
+        "iterations": 6,
+        "log_loss_delta": -0.003617257996157533,
+        "removed_columns": [
+          "momentum_acceleration",
+          "negative_5m_count_6",
+          "path_efficiency",
+          "positive_5m_count_6",
+          "recent_return_15m",
+          "recent_return_30m",
+          "recent_return_5m",
+          "running_mae",
+          "zero_5m_count_6"
+        ],
+        "snapshots": 14301,
+        "trades": 107
+      }
+    },
+    "holding_age": {
+      "0-6h": {
+        "available": true,
+        "brier_delta": -0.004272599525501611,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.22919229323958717,
+          "renewed_peak": 0.1380046632619261,
+          "substantial_giveback": 0.6328030434984866
+        },
+        "log_loss_delta": -0.008581479848121758,
+        "snapshots": 2501,
+        "trades": 90
+      },
+      "24-72h": {
+        "available": true,
+        "brier_delta": -0.010817547215999835,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.6008437744584544,
+          "renewed_peak": 0.038369480600356554,
+          "substantial_giveback": 0.3607867449411892
+        },
+        "log_loss_delta": -0.017033099410371164,
+        "snapshots": 3953,
+        "trades": 26
+      },
+      "6-24h": {
+        "available": true,
+        "brier_delta": 0.0017525303328374511,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.42356167938879674,
+          "renewed_peak": 0.09130908613749246,
+          "substantial_giveback": 0.48512923447371076
+        },
+        "log_loss_delta": -0.001526114496857385,
+        "snapshots": 7847,
+        "trades": 73
+      }
+    },
+    "holding_age_all_models": {
+      "0-6h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.5488755039988208,
+            "trade_weighted_log_loss": 0.9413642580457144
+          },
+          "G1": {
+            "trade_weighted_brier": 0.442206400606997,
+            "trade_weighted_log_loss": 0.7731296553803133
+          },
+          "P1": {
+            "trade_weighted_brier": 0.4379338010814954,
+            "trade_weighted_log_loss": 0.7645481755321916
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5733577775925796,
+            "trade_weighted_log_loss": 0.9701086923103103
+          }
+        },
+        "snapshots": 2501,
+        "trades": 90
+      },
+      "24-72h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.45456869161978897,
+            "trade_weighted_log_loss": 0.7474343227433373
+          },
+          "G1": {
+            "trade_weighted_brier": 0.29501828378070083,
+            "trade_weighted_log_loss": 0.5045653312949292
+          },
+          "P1": {
+            "trade_weighted_brier": 0.284200736564701,
+            "trade_weighted_log_loss": 0.48753223188455796
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5430005181821989,
+            "trade_weighted_log_loss": 0.8533811201401299
+          }
+        },
+        "snapshots": 3953,
+        "trades": 26
+      },
+      "6-24h": {
+        "models": {
+          "G0": {
+            "trade_weighted_brier": 0.5401815983898329,
+            "trade_weighted_log_loss": 0.8882463986220397
+          },
+          "G1": {
+            "trade_weighted_brier": 0.41123093733051497,
+            "trade_weighted_log_loss": 0.6988761986601795
+          },
+          "P1": {
+            "trade_weighted_brier": 0.4129834676633525,
+            "trade_weighted_log_loss": 0.697350084163322
+          },
+          "elapsed_time_only_C1": {
+            "trade_weighted_brier": 0.5713447140085302,
+            "trade_weighted_log_loss": 0.9270336291127452
+          }
+        },
+        "snapshots": 7847,
+        "trades": 73
+      }
+    },
+    "leave_one_symbol_out_refits": {
+      "BNBUSDT": {
+        "available": true,
+        "brier_delta": 0.005307757200371566,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.43320913589039967,
+          "renewed_peak": 0.07298296315444672,
+          "substantial_giveback": 0.49380790095515364
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 1.8664570930471136e-10,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 6.553842295253798e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": 0.004610001878380562,
+        "snapshots": 4291,
+        "trades": 26
+      },
+      "BTCUSDT": {
+        "available": true,
+        "brier_delta": 0.004622592618653647,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4103269505047679,
+          "renewed_peak": 0.08791777570357973,
+          "substantial_giveback": 0.5017552737916523
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 9.813304682748658e-11,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 4.0573065740456826e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": 0.002995933934922929,
+        "snapshots": 3384,
+        "trades": 20
+      },
+      "ETHUSDT": {
+        "available": true,
+        "brier_delta": -0.004127800908309747,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.36167594462283215,
+          "renewed_peak": 0.09102871717065919,
+          "substantial_giveback": 0.5472953382065089
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 9.31206639576132e-11,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 4.2557962015576933e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -0.005674336088615549,
+        "snapshots": 1597,
+        "trades": 16
+      },
+      "SOLUSDT": {
+        "available": true,
+        "brier_delta": -0.01108852521794881,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.23726251599892872,
+          "renewed_peak": 0.1067090348457389,
+          "substantial_giveback": 0.6560284491553324
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 3.934850709153004e-10,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 1.704874854367882e-09,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -0.018726401046490784,
+        "snapshots": 2427,
+        "trades": 22
+      },
+      "XRPUSDT": {
+        "available": true,
+        "brier_delta": -0.01253645623156081,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.2321254595451357,
+          "renewed_peak": 0.14981545551381237,
+          "substantial_giveback": 0.6180590849410519
+        },
+        "fit_status": {
+          "G1": {
+            "gradient_max": 5.724593029026047e-11,
+            "iterations": 6
+          },
+          "P1": {
+            "gradient_max": 2.503352645304369e-10,
+            "iterations": 6
+          }
+        },
+        "log_loss_delta": -0.0283670569418625,
+        "snapshots": 2602,
+        "trades": 23
+      }
+    },
+    "month_deletion_without_refit": {
+      "2024-10": {
+        "available": true,
+        "brier_delta": -0.005980993556335324,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.2933444038976978,
+          "renewed_peak": 0.12014510375805248,
+          "substantial_giveback": 0.5865104923442497
+        },
+        "log_loss_delta": -0.013158674835004497,
+        "snapshots": 10202,
+        "trades": 79
+      },
+      "2024-11": {
+        "available": true,
+        "brier_delta": -0.003108630961582797,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.35496118444307034,
+          "renewed_peak": 0.08409973024701829,
+          "substantial_giveback": 0.5609390853099114
+        },
+        "log_loss_delta": -0.009608950959158723,
+        "snapshots": 7444,
+        "trades": 65
+      },
+      "2024-12": {
+        "available": true,
+        "brier_delta": -0.0003144300616535105,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.3714579260834304,
+          "renewed_peak": 0.09666475857330303,
+          "substantial_giveback": 0.5318773153432665
+        },
+        "log_loss_delta": -0.00496236778547951,
+        "snapshots": 10956,
+        "trades": 71
+      }
+    },
+    "month_groups_descriptive": {
+      "2024-10": {
+        "available": true,
+        "brier_delta": 0.004874371805149163,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4514730239574103,
+          "renewed_peak": 0.05050939561984105,
+          "substantial_giveback": 0.4980175804227486
+        },
+        "log_loss_delta": 0.0021108199530993276,
+        "snapshots": 4099,
+        "trades": 28
+      },
+      "2024-11": {
+        "available": true,
+        "brier_delta": -0.0036931847656180446,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.31935507165386207,
+          "renewed_peak": 0.1267194135197434,
+          "substantial_giveback": 0.5539255148263946
+        },
+        "log_loss_delta": -0.009568164452461083,
+        "snapshots": 6857,
+        "trades": 43
+      },
+      "2024-12": {
+        "available": true,
+        "brier_delta": -0.009149822244515092,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.2819251977835697,
+          "renewed_peak": 0.10951944293785512,
+          "substantial_giveback": 0.6085553592785751
+        },
+        "log_loss_delta": -0.0184779667846513,
+        "snapshots": 3345,
+        "trades": 37
+      }
+    },
+    "one_snapshot_per_trade_day": {
+      "available": true,
+      "brier_delta": -0.001468868665839018,
+      "equal_trade_event_incidence": {
+        "no_event_60m": 0.26869158878504673,
+        "renewed_peak": 0.264018691588785,
+        "substantial_giveback": 0.46728971962616817
+      },
+      "log_loss_delta": -0.027786378115986037,
+      "snapshots": 159,
+      "trades": 107
+    },
+    "role": "CHALLENGE_DIAGNOSTIC_ONLY_NO_SELECTION",
+    "volatility_training_strata": {
+      "0": {
+        "available": true,
+        "brier_delta": 0.008640116266203434,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.4587681348926391,
+          "renewed_peak": 0.10064046873805618,
+          "substantial_giveback": 0.44059139636930467
+        },
+        "log_loss_delta": 0.00928948558684715,
+        "snapshots": 4304,
+        "trades": 68
+      },
+      "1": {
+        "available": true,
+        "brier_delta": -0.005624458052910028,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.3791090977217803,
+          "renewed_peak": 0.09235814209190693,
+          "substantial_giveback": 0.5285327601863128
+        },
+        "log_loss_delta": -0.00777876603322949,
+        "snapshots": 3124,
+        "trades": 82
+      },
+      "2": {
+        "available": true,
+        "brier_delta": -0.008192157692480845,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.35705856232004135,
+          "renewed_peak": 0.12616742786754265,
+          "substantial_giveback": 0.5167740098124161
+        },
+        "log_loss_delta": -0.014874993877373649,
+        "snapshots": 3053,
+        "trades": 87
+      },
+      "3": {
+        "available": true,
+        "brier_delta": -0.007933069854425323,
+        "equal_trade_event_incidence": {
+          "no_event_60m": 0.32615690369028616,
+          "renewed_peak": 0.16376816876549766,
+          "substantial_giveback": 0.5100749275442162
+        },
+        "log_loss_delta": -0.017387843202308205,
+        "snapshots": 3820,
+        "trades": 70
+      }
+    }
+  }
+}

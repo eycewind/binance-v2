@@ -17,7 +17,7 @@ import numpy as np
 from .c2_common import STUDY_END_MS, SYMBOLS, write_json
 from .c4_adequacy import (
     ACCEPTED_CORE_HASHES, ADEQUACY_THRESHOLDS, BOOTSTRAP_CONFIG, FIVE_MINUTES,
-    HOUR, MINUTE, T1, T2, _json_hash, load_inputs,
+    HOUR, MINUTE, T1, T2, _json_hash, load_inputs, run as run_adequacy,
 )
 from .ingest import sha256_file
 
@@ -38,12 +38,40 @@ SOLVER = {
     "name": "numpy_reference_class_damped_newton",
     "penalty": "l2_continuous_and_symbol_coefficients_intercept_unpenalized",
     "class_handling": "multinomial_reference_last_class",
-    "max_iter": 60,
+    "max_iter": 100,
     "gradient_tolerance": 1e-8,
     "step_halving_max": 25,
     "hessian_ridge": 1e-10,
     "random_state": None,
 }
+
+MATERIAL_SOURCE_PATHS = (
+    "src/binance_data_foundation/c4_modeling.py",
+    "src/binance_data_foundation/c4_modeling_cli.py",
+    "src/binance_data_foundation/c4_locked_eval.py",
+    "src/binance_data_foundation/c4_locked_eval_cli.py",
+    "src/binance_data_foundation/c4_adequacy.py",
+    "src/binance_data_foundation/c2_common.py",
+    "src/binance_data_foundation/c2_p0.py",
+    "src/binance_data_foundation/c3_milestone.py",
+    "src/binance_data_foundation/ingest.py",
+    "tests/test_c4_modeling.py",
+    "tests/test_c4_locked_eval.py",
+    "tests/test_c4_adequacy.py",
+    "environment.yml",
+    "requirements-dev.txt",
+    "README.md",
+)
+
+CORE_ARTIFACT_NAMES = (
+    "feature_schema.json", "modeling_population_2024.json", "fold_counts_2024.json",
+    "development_attempts_2024.json", "development_metrics_2024.csv",
+    "development_predictions_2024.csv", "bootstrap_comparisons_2024.json",
+    "calibration_2024.json", "stability_2024.json", "secondary_metrics_2024.json",
+    "challenge_diagnostics_2024.json", "final_models_2024.json",
+    "final_preprocessing_2024.json", "c4_2024_interpretation.json",
+    "modeling_reproducibility_manifest.json",
+)
 
 G0_CONTINUOUS = (
     "elapsed_log1p_5m", "current_unrealized_return", "realized_volatility_12",
@@ -324,14 +352,28 @@ def fit_multinomial(x, y, weights, classes, C) -> MultinomialFit:
         h.flat[::len(h)+1] += SOLVER["hessian_ridge"]
         # Hessian is class-major; transpose coefficient vector accordingly.
         step = np.linalg.solve(h, grad.T.reshape(-1)).reshape(k-1, p).T
-        old = objective(coef); scale = 1.0
+        old = objective(coef); scale = 1.0; fallback = None
         for _ in range(SOLVER["step_halving_max"]):
             candidate = coef - scale * step
             if objective(candidate) < old:
                 coef = candidate; break
+            # Near machine precision the objective can round to the same float
+            # even though the Newton step improves first-order optimality. Retain
+            # the best non-increasing candidate and accept it only when its
+            # analytic gradient is smaller. This is the same damped-Newton
+            # problem, not a tolerance or solver-family change.
+            prob_candidate = _softmax_ref(x, candidate)
+            candidate_grad = x.T @ (w[:, None] * (prob_candidate[:, :k-1] - yy)) / n
+            candidate_grad += candidate * penalty[:, None] / C
+            candidate_gmax = float(np.max(np.abs(candidate_grad)))
+            if objective(candidate) <= old and candidate_gmax < grad_max:
+                if fallback is None or candidate_gmax < fallback[0]:
+                    fallback = (candidate_gmax, candidate)
             scale *= .5
         else:
-            break
+            if fallback is None:
+                break
+            coef = fallback[1]
     return MultinomialFit(coef, converged, iteration, grad_max, objective(coef))
 
 
@@ -439,16 +481,100 @@ def _stability(rows, pa, pb, target):
     return result
 
 
-def verify_gate(repo: Path):
+def _weighted_binary_auc(y, score, weight):
+    """Deterministic weighted one-vs-rest ROC AUC with average tie ranks."""
+    order = np.argsort(np.asarray(score), kind="mergesort")
+    y = np.asarray(y, bool)[order]; score = np.asarray(score)[order]; weight = np.asarray(weight)[order]
+    pos, neg = weight[y].sum(), weight[~y].sum()
+    if pos == 0 or neg == 0: return None
+    concordant = 0.0; neg_before = 0.0; i = 0
+    while i < len(y):
+        j = i + 1
+        while j < len(y) and score[j] == score[i]: j += 1
+        wp, wn = weight[i:j][y[i:j]].sum(), weight[i:j][~y[i:j]].sum()
+        concordant += wp * (neg_before + .5 * wn); neg_before += wn; i = j
+    return float(concordant / (pos * neg))
+
+
+def _weighted_average_precision(y, score, weight):
+    """Weighted non-interpolated average precision, deterministic under ties."""
+    y=np.asarray(y,bool); score=np.asarray(score); weight=np.asarray(weight)
+    total_pos=weight[y].sum()
+    if total_pos == 0: return None
+    thresholds=sorted(set(float(x) for x in score),reverse=True); tp=fp=ap=0.0; recall=0.0
+    for threshold in thresholds:
+        ix=score==threshold; tp += weight[ix & y].sum(); fp += weight[ix & ~y].sum()
+        new_recall=tp/total_pos; ap += (new_recall-recall)*(tp/(tp+fp)); recall=new_recall
+    return float(ap)
+
+
+def secondary_metrics(rows, probs, target):
+    classes=CLASSES[target]; y=np.asarray([classes.index(r['event_class']) for r in rows]); one=np.eye(len(classes))[y]
+    trade=trade_weights(rows); tw=trade/trade.sum(); snapshot=np.full(len(rows),1/len(rows))
+    def scores(w):
+        ll=float(np.sum(w*-np.log(np.clip(probs[np.arange(len(rows)),y],1e-15,1))))
+        brier=float(np.sum(w*np.sum((probs-one)**2,axis=1)))
+        rps=float(np.sum(w*np.sum((np.cumsum(probs,axis=1)[:,:-1]-np.cumsum(one,axis=1)[:,:-1])**2,axis=1)/(len(classes)-1)))
+        return {"log_loss":ll,"brier":brier,"ranked_probability_score":rps}
+    classwise={}
+    for ci,cls in enumerate(classes):
+        binary=y==ci
+        classwise[cls]={"incidence":float(np.sum(tw*binary)),"roc_auc":_weighted_binary_auc(binary,probs[:,ci],trade),"pr_auc":_weighted_average_precision(binary,probs[:,ci],trade)}
+    confusion=[[0 for _ in classes] for _ in classes]
+    for actual,predicted in zip(y,np.argmax(probs,axis=1)): confusion[int(actual)][int(predicted)]+=1
+    return {"role":"SECONDARY_DIAGNOSTIC_ONLY","primary_equal_trade":scores(tw),"snapshot_weighted":scores(snapshot),
+        "classwise_one_vs_rest":classwise,"macro_roc_auc":float(np.mean([x['roc_auc'] for x in classwise.values()])),
+        "macro_pr_auc":float(np.mean([x['pr_auc'] for x in classwise.values()])),"top_class_confusion_counts":confusion,
+        "class_order":list(classes),"ranked_probability_score_ordering":"frozen class order; diagnostic only"}
+
+
+def _paired_subset(rows, first, second, target, indices):
+    if not indices: return {"available":False,"reason":"empty_subset"}
+    rs=[rows[i] for i in indices]; w=trade_weights(rs); wn=w/w.sum(); ii=np.asarray(indices)
+    la,ba=_loss_vectors(rows,first,target); lb,bb=_loss_vectors(rows,second,target)
+    incidence={c:float(np.sum(wn*np.asarray([r['event_class']==c for r in rs]))) for c in CLASSES[target]}
+    return {"available":True,"trades":len({r['trade_id'] for r in rs}),"snapshots":len(rs),"equal_trade_event_incidence":incidence,
+        "log_loss_delta":float(np.sum(wn*(la[ii]-lb[ii]))),"brier_delta":float(np.sum(wn*(ba[ii]-bb[ii])))}
+
+
+def _group_model_scores(rows, predictions, target, group_fn):
+    groups=defaultdict(list)
+    for i,row in enumerate(rows): groups[str(group_fn(row,i))].append(i)
+    output={}
+    for group,indices in sorted(groups.items()):
+        rs=[rows[i] for i in indices]; w=trade_weights(rs); ii=np.asarray(indices)
+        output[group]={"trades":len({r['trade_id'] for r in rs}),"snapshots":len(rs),
+            "models":{name:proper_scores(rs,prob[ii],target,w) for name,prob in predictions.items()}}
+    return output
+
+
+def _group_challenge(rows, first, second, target, group_fn):
+    groups=defaultdict(list)
+    for i,row in enumerate(rows): groups[str(group_fn(row,i))].append(i)
+    return {g:_paired_subset(rows,first,second,target,ix) for g,ix in sorted(groups.items())}
+
+
+def prepare_portable_inputs(repo: Path, destination: Path) -> dict:
+    """Regenerate ignored accepted inputs solely from the hash-locked upstream set."""
+    run_adequacy(repo,destination)
+    expected={"local/t1_snapshots.csv":ACCEPTED_CORE_HASHES['T1'],"local/t2_snapshots.csv":ACCEPTED_CORE_HASHES['T2'],
+        "local/bootstrap_structure_details.json":BOOTSTRAP_DETAIL_HASH}
+    actual={name:sha256_file(destination/name) for name in expected}
+    if actual != expected: raise RuntimeError(f"portable preparation hash mismatch: {actual}")
+    return actual
+
+
+def verify_gate(repo: Path, accepted: Path | None = None):
     if os.environ.get("PYTHONPATH") is not None: raise RuntimeError("PYTHONPATH must be unset")
     if os.environ.get("CONDA_DEFAULT_ENV") != "binance-v2-research": raise RuntimeError("wrong conda environment")
     if sys.version_info[:3] != (3,11,16) or np.__version__ != "2.4.6": raise RuntimeError("environment version mismatch")
+    accepted = accepted or repo/"artifacts/c4_sequential_exit_state"
     checks = {
         repo/"contracts/C4_sequential_exit_state_CONTRACT.md": CONTRACT_HASH,
         repo/"artifacts/c4_sequential_exit_state/adequacy_decision.json": ADEQUACY_DECISION_HASH,
-        repo/"artifacts/c4_sequential_exit_state/local/bootstrap_structure_details.json": BOOTSTRAP_DETAIL_HASH,
-        repo/"artifacts/c4_sequential_exit_state/local/t1_snapshots.csv": ACCEPTED_CORE_HASHES["T1"],
-        repo/"artifacts/c4_sequential_exit_state/local/t2_snapshots.csv": ACCEPTED_CORE_HASHES["T2"],
+        accepted/"local/bootstrap_structure_details.json": BOOTSTRAP_DETAIL_HASH,
+        accepted/"local/t1_snapshots.csv": ACCEPTED_CORE_HASHES["T1"],
+        accepted/"local/t2_snapshots.csv": ACCEPTED_CORE_HASHES["T2"],
     }
     for path, expected in checks.items():
         if sha256_file(path) != expected: raise RuntimeError(f"gate hash mismatch: {path}")
@@ -460,7 +586,13 @@ def verify_gate(repo: Path):
         if sha256_file(repo/item["path"]) != item["sha256"]: raise RuntimeError(f"input mismatch: {item['path']}")
     c3=repo/"artifacts/c3_milestone_state_continuation/input_manifest.json"
     if sha256_file(c3) != manifest["predecessor_hashes"]["C3_input_manifest_hash"]: raise RuntimeError("C3 predecessor mismatch")
-    return {str(p.relative_to(repo)):h for p,h in checks.items()} | {item['path']:item['sha256'] for item in manifest['explicit_allowlist']}
+    def label(path):
+        try:
+            relative=path.relative_to(accepted)
+            return str(Path("artifacts/c4_sequential_exit_state")/relative)
+        except ValueError:
+            return str(path.relative_to(repo))
+    return {label(p):h for p,h in checks.items()} | {item['path']:item['sha256'] for item in manifest['explicit_allowlist']}
 
 
 def build_feature_table(repo, rows):
@@ -526,10 +658,10 @@ def build_feature_table(repo, rows):
     return retained,features
 
 
-def run(repo: Path, artifact: Path):
-    gate=verify_gate(repo); artifact.mkdir(parents=True,exist_ok=True)
-    accepted=repo/'artifacts/c4_sequential_exit_state'
-    all_results={}; all_predictions=[]; all_metrics=[]; all_attempts=[]; final_models={}; final_pre={}; populations={}; bootout={}; stability={}; calibrations={}
+def run(repo: Path, artifact: Path, accepted_inputs: Path | None = None):
+    accepted=accepted_inputs or repo/'artifacts/c4_sequential_exit_state'
+    gate=verify_gate(repo,accepted); artifact.mkdir(parents=True,exist_ok=True)
+    all_results={}; all_predictions=[]; all_metrics=[]; all_attempts=[]; final_models={}; final_pre={}; populations={}; bootout={}; stability={}; calibrations={}; secondary={}; challenges={}
     details=json.loads((accepted/'local/bootstrap_structure_details.json').read_text())['targets']
     for target in ('T1','T2'):
         raw=load_accepted_2024_rows(accepted/'local'/f'{target.lower()}_snapshots.csv',ACCEPTED_CORE_HASHES[target])
@@ -573,6 +705,7 @@ def run(repo: Path, artifact: Path):
             for model,(pv,fit,prep,cols) in chosen.items():
                 metric=proper_scores(valid,pv,target,vw); metric.update({'target':target,'fold':fold,'model':model,'C':None if model=='B0' else selected[model]}); all_metrics.append(metric)
                 for r,p in zip(valid,pv): all_predictions.append({'target':target,'fold':fold,'model':model,'row_id':r['row_id'],'trade_id':r['trade_id'],'event_class':r['event_class'],**{f'p_{c}':float(x) for c,x in zip(CLASSES[target],p)}})
+                secondary[f'{target}_{fold}_{model}']=secondary_metrics(valid,pv,target)
             calibrations[f'{target}_{fold}']=_calibration(valid,chosen['P1'][0],target,vw,chosen['P1'][0] if False else predict(fc['candidate_predictions'][('P1',selected['P1'])][1],matrix(train,features,fc['candidate_predictions'][('P1',selected['P1'])][3],fc['candidate_predictions'][('P1',selected['P1'])][2])),train,tw)
             bootout[f'{target}_{fold}']={}
             for first,second in (('G1','G0'),('P1','G1')):
@@ -580,19 +713,70 @@ def run(repo: Path, artifact: Path):
                 detail=details[target][f'{fold}_validate']
                 bootout[f'{target}_{fold}'][f'{first}-{second}']={'log_loss':_bootstrap_delta(valid,la,lb,detail),'brier':_bootstrap_delta(valid,ba,bb,detail)}
             stability[f'{target}_{fold}']={'G1-G0':_stability(valid,chosen['G1'][0],chosen['G0'][0],target),'P1-G1':_stability(valid,chosen['P1'][0],chosen['G1'][0],target)}
+            p1,g1=chosen['P1'][0],chosen['G1'][0]
+            age=lambda r,i:'0-6h' if r['elapsed_minutes']<=360 else '6-24h' if r['elapsed_minutes']<=1440 else '24-72h' if r['elapsed_minutes']<=4320 else '>72h'
+            month_groups=_group_challenge(valid,p1,g1,target,lambda r,i:r['snapshot_month'])
+            first_daily={}
+            for i,r in enumerate(valid):
+                day=datetime.fromtimestamp(r['snapshot_ms']/1000,timezone.utc).date().isoformat(); first_daily.setdefault((r['trade_id'],day),i)
+            vol_col='realized_volatility_12'; vol_prep=fc['candidate_predictions'][('P1',selected['P1'])][2][vol_col]
+            vol_cuts=[vol_prep['q25'],vol_prep['median'],vol_prep['q75']]
+            vol_group=lambda r,i: int(np.searchsorted(vol_cuts,features[r['row_id']][vol_col],side='right'))
+            elapsed_columns=['elapsed_log1p_5m']; elapsed_prep,elapsed_kept=fit_preprocessing(train,features,elapsed_columns,tw)
+            elapsed_fit=fit_multinomial(matrix(train,features,elapsed_kept,elapsed_prep),np.asarray([CLASSES[target].index(r['event_class']) for r in train]),tw,CLASSES[target],1.0)
+            if not elapsed_fit.converged: raise RuntimeError(f"elapsed-only diagnostic failed convergence: {target} {fold}")
+            elapsed_prediction=predict(elapsed_fit,matrix(valid,features,elapsed_kept,elapsed_prep))
+            entry={"role":"CHALLENGE_DIAGNOSTIC_ONLY_NO_SELECTION","holding_age":_group_challenge(valid,p1,g1,target,age),
+                "holding_age_all_models":_group_model_scores(valid,{"elapsed_time_only_C1":elapsed_prediction,"G0":chosen['G0'][0],"G1":g1,"P1":p1},target,age),
+                "elapsed_time_only":{"C":1.0,"columns":elapsed_kept,"converged":elapsed_fit.converged,"iterations":elapsed_fit.iterations,"gradient_max":elapsed_fit.gradient_max,"selection_use":"PROHIBITED"},
+                "volatility_training_strata":_group_challenge(valid,p1,g1,target,vol_group),
+                "one_snapshot_per_trade_day":_paired_subset(valid,p1,g1,target,sorted(first_daily.values())),
+                "month_deletion_without_refit":{m:_paired_subset(valid,p1,g1,target,[i for i,r in enumerate(valid) if r['snapshot_month']!=m]) for m in sorted({r['snapshot_month'] for r in valid})},
+                "month_groups_descriptive":month_groups}
+            if target=='T1': entry['barrier_proximity']={"available":False,"reason":"T1 normalized distances are contractually constant"}
+            else:
+                entry['barrier_proximity']={}
+                for col in ('t2_upper_distance','t2_lower_distance'):
+                    vals=[features[r['row_id']][col] for r in train]; cuts=[weighted_quantile(vals,tw,[r['row_id'] for r in train],q) for q in (.2,.4,.6,.8)]
+                    entry['barrier_proximity'][col]=_group_challenge(valid,p1,g1,target,lambda r,i,c=col,cs=cuts:int(np.searchsorted(cs,features[r['row_id']][c],side='right')))
+            entry['leave_one_symbol_out_refits']={}
+            for symbol in sorted({r['symbol'] for r in valid}):
+                tr=[r for r in train if r['symbol']!=symbol]; va=[r for r in valid if r['symbol']==symbol]
+                if not tr or not va: continue
+                trw=trade_weights(tr); yy=np.asarray([CLASSES[target].index(r['event_class']) for r in tr]); preds={}; fits={}
+                for model in ('G1','P1'):
+                    prep,cols=fit_preprocessing(tr,features,manifests[model],trw); fit=fit_multinomial(matrix(tr,features,cols,prep),yy,trw,CLASSES[target],selected[model])
+                    if not fit.converged: raise RuntimeError(f"challenge refit failed convergence: {target} {fold} {symbol} {model}")
+                    preds[model]=predict(fit,matrix(va,features,cols,prep)); fits[model]={"iterations":fit.iterations,"gradient_max":fit.gradient_max}
+                entry['leave_one_symbol_out_refits'][symbol]=_paired_subset(va,preds['P1'],preds['G1'],target,list(range(len(va))))|{"fit_status":fits}
+            path_family=set(P1_EXTRA[:9]); market_family=set(P1_EXTRA[9:])
+            entry['feature_family_ablation']={}
+            for name,removed in (("remove_path_dynamics",path_family),("remove_market_history",market_family)):
+                cols0=[c for c in manifests['P1'] if c not in removed]; prep,cols=fit_preprocessing(train,features,cols0,tw)
+                fit=fit_multinomial(matrix(train,features,cols,prep),np.asarray([CLASSES[target].index(r['event_class']) for r in train]),tw,CLASSES[target],selected['P1'])
+                if not fit.converged: raise RuntimeError(f"ablation refit failed convergence: {target} {fold} {name}")
+                pv=predict(fit,matrix(valid,features,cols,prep))
+                entry['feature_family_ablation'][name]=_paired_subset(valid,pv,g1,target,list(range(len(valid))))|{"removed_columns":sorted(removed),"iterations":fit.iterations,"gradient_max":fit.gradient_max}
+            challenges[f'{target}_{fold}']=entry
         # Final fit only after selection has been frozen from both chronological folds.
         fw=trade_weights(rows); fy=np.asarray([CLASSES[target].index(r['event_class']) for r in rows]); final_models[target]={"selected_C":selected,"models":{}}
-        final_models[target]['models']['B0']={"probabilities":b0_probabilities(rows,target,fw).tolist()}
+        b0_final=b0_probabilities(rows,target,fw)
+        final_models[target]['models']['B0']={"probabilities":b0_final.tolist(),"converged":True,"iterations":0,
+            "gradient_max":0.0,"optimality_criterion":"closed_form_equal_trade_weighted_incidence",
+            "coefficient_sha256":hashlib.sha256(b0_final.astype('<f8').tobytes()).hexdigest()}
         for model in ('G0','G1','P1'):
             prep,cols=fit_preprocessing(rows,features,manifests[model],fw); fit=fit_multinomial(matrix(rows,features,cols,prep),fy,fw,CLASSES[target],selected[model])
             final_pre[f'{target}_{model}']={"columns":cols,"parameters":prep}
-            final_models[target]['models'][model]={"C":selected[model],"columns":cols,"coefficients":fit.coef.tolist(),"converged":fit.converged,"iterations":fit.iterations,"gradient_max":fit.gradient_max,"coefficient_sha256":hashlib.sha256(fit.coef.astype('<f8').tobytes()).hexdigest()}
+            if not fit.converged or fit.gradient_max > SOLVER['gradient_tolerance']:
+                raise RuntimeError(f"final model failed convergence: {target} {model} gradient={fit.gradient_max}")
+            final_models[target]['models'][model]={"C":selected[model],"columns":cols,"coefficients":fit.coef.tolist(),"converged":fit.converged,"iterations":fit.iterations,"gradient_max":fit.gradient_max,"optimality_criterion":"analytic_max_abs_gradient","coefficient_sha256":hashlib.sha256(fit.coef.astype('<f8').tobytes()).hexdigest()}
         all_results[target]={"feature_manifest":manifests,"selected_C":selected,"folds":{f:{k:v for k,v in x.items() if k in ('train_report','validation_report')} for f,x in fold_cache.items()}}
     # Compact, deterministic artifacts; bootstrap vectors are retained because they are required reproducibility evidence.
     schema={"version":"C4_2024_FEATURE_SCHEMA_V1","targets":{t:all_results[t]['feature_manifest'] for t in all_results}}
     write_json(artifact/'feature_schema.json',schema); write_json(artifact/'modeling_population_2024.json',populations); write_json(artifact/'fold_counts_2024.json',{t:all_results[t]['folds'] for t in all_results}); write_json(artifact/'development_attempts_2024.json',all_attempts)
     _write_csv(artifact/'development_metrics_2024.csv',all_metrics); _write_csv(artifact/'development_predictions_2024.csv',all_predictions)
     write_json(artifact/'bootstrap_comparisons_2024.json',bootout); write_json(artifact/'stability_2024.json',stability); write_json(artifact/'calibration_2024.json',calibrations)
+    write_json(artifact/'secondary_metrics_2024.json',secondary); write_json(artifact/'challenge_diagnostics_2024.json',challenges)
     write_json(artifact/'final_models_2024.json',final_models); write_json(artifact/'final_preprocessing_2024.json',final_pre)
     interpretations={}
     for target in ('T1','T2'):
@@ -604,8 +788,21 @@ def run(repo: Path, artifact: Path):
         else: decision='MIXED'
         interpretations[target]={"decision":decision,"basis":"P1-versus-G1 proper scores, frozen whole-trade block intervals, fold and subgroup stability, and calibration","fold_point_deltas":points,"all_intervals_exclude_zero_in_improving_direction":all(ci[1]<0 for ci in intervals)}
     write_json(artifact/'c4_2024_interpretation.json',interpretations)
-    source_files=(repo/'src/binance_data_foundation/c4_modeling.py',repo/'src/binance_data_foundation/c4_modeling_cli.py',repo/'tests/test_c4_modeling.py',repo/'environment.yml',repo/'requirements-dev.txt')
-    freeze={"version":"C4_2024_FREEZE_V1","model_version":MODEL_VERSION,"contract_sha256":CONTRACT_HASH,"adequacy_decision_sha256":ADEQUACY_DECISION_HASH,"threshold_panel_sha256":THRESHOLD_PANEL_HASH,"bootstrap_structure_sha256":BOOTSTRAP_DETAIL_HASH,"source_test_hashes":{str(p.relative_to(repo)):sha256_file(p) for p in source_files},"gate_hashes":gate,"populations":{t:{k:v for k,v in p.items() if k not in ('row_ids','trade_ids')} for t,p in populations.items()},"row_trade_ids":{t:{"row_ids":p['row_ids'],"trade_ids":p['trade_ids']} for t,p in populations.items()},"feature_schema_sha256":sha256_file(artifact/'feature_schema.json'),"fold_counts_sha256":sha256_file(artifact/'fold_counts_2024.json'),"preprocessing_sha256":sha256_file(artifact/'final_preprocessing_2024.json'),"models_sha256":sha256_file(artifact/'final_models_2024.json'),"interpretation_sha256":sha256_file(artifact/'c4_2024_interpretation.json'),"solver":SOLVER,"interpretation":{"G1-G0":"current-state/geometry only","P1-G1":"genuine historical path beyond strong geometry","target_decisions":interpretations},"seals":{"2025_predictive_scoring":"NOT PERFORMED","2026_access":False,"economic_or_stage_B_analysis":False}}
+    prefreeze_names=tuple(n for n in CORE_ARTIFACT_NAMES if n!='modeling_reproducibility_manifest.json')
+    write_json(artifact/'modeling_reproducibility_manifest.json',{
+        "version":"C4_2024_MODELING_REPRODUCIBILITY_V2",
+        "artifact_hashes":{n:sha256_file(artifact/n) for n in prefreeze_names},
+        "portable_preparation":{"generator":"c4_adequacy.run","accepted_snapshot_hashes":ACCEPTED_CORE_HASHES,"accepted_bootstrap_detail_hash":BOOTSTRAP_DETAIL_HASH},
+        "environment":{"conda_env":os.environ.get('CONDA_DEFAULT_ENV'),"python":sys.version.split()[0],"numpy":np.__version__,"PYTHONPATH":os.environ.get('PYTHONPATH')},
+        "confirmations":{"2025_predictive_scoring":"NOT PERFORMED","2026_access":False,"economic_or_stage_B_analysis":False},
+    })
+    source_files=[repo/p for p in MATERIAL_SOURCE_PATHS]
+    missing=[str(p) for p in source_files if not p.exists()]
+    if missing: raise RuntimeError(f"material provenance files missing: {missing}")
+    material_hashes={n:sha256_file(artifact/n) for n in CORE_ARTIFACT_NAMES}
+    for name in ('adequacy_decision.json','bootstrap_structure.json','reproducibility_manifest.json','input_manifest.json','snapshot_schema.json'):
+        material_hashes[name]=sha256_file(repo/'artifacts/c4_sequential_exit_state'/name)
+    freeze={"version":"C4_2024_FREEZE_V2","model_version":MODEL_VERSION,"contract_sha256":CONTRACT_HASH,"adequacy_decision_sha256":ADEQUACY_DECISION_HASH,"threshold_panel_sha256":THRESHOLD_PANEL_HASH,"bootstrap_structure_sha256":BOOTSTRAP_DETAIL_HASH,"material_artifact_hashes":material_hashes,"source_test_hashes":{str(p.relative_to(repo)):sha256_file(p) for p in source_files},"source_hash_rationale":{"pipeline_modules":"transitive in-repository modules used for adequacy preparation, feature reconstruction, fitting, hashing, and locked evaluation","tests":"C4 adequacy, modeling, causality, and locked-evaluator regression tests","environment":"exact declared research dependencies"},"environment":{"conda_env":os.environ.get('CONDA_DEFAULT_ENV'),"python_version":sys.version.split()[0],"python_path":sys.executable,"numpy_version":np.__version__,"numpy_path":np.__file__,"PYTHONPATH":os.environ.get('PYTHONPATH'),"environment_yml_sha256":sha256_file(repo/'environment.yml'),"requirements_dev_sha256":sha256_file(repo/'requirements-dev.txt')},"gate_hashes":gate,"populations":{t:{k:v for k,v in p.items() if k not in ('row_ids','trade_ids')} for t,p in populations.items()},"row_trade_ids":{t:{"row_ids":p['row_ids'],"trade_ids":p['trade_ids']} for t,p in populations.items()},"feature_schema_sha256":sha256_file(artifact/'feature_schema.json'),"fold_counts_sha256":sha256_file(artifact/'fold_counts_2024.json'),"preprocessing_sha256":sha256_file(artifact/'final_preprocessing_2024.json'),"models_sha256":sha256_file(artifact/'final_models_2024.json'),"interpretation_sha256":sha256_file(artifact/'c4_2024_interpretation.json'),"class_order":{k:list(v) for k,v in CLASSES.items()},"target_definitions":{"T1":T1,"T2":T2},"solver":SOLVER,"evaluation_rules":{"primary":"equal-trade-weighted log loss and multiclass Brier","secondary":"diagnostic only; cannot alter selection or interpretation","probability_floor_for_log_loss":1e-15,"bootstrap":BOOTSTRAP_CONFIG},"interpretation":{"G1-G0":"current-state/geometry only","P1-G1":"genuine historical path beyond strong geometry","target_decisions":interpretations},"seals":{"2025_predictive_scoring":"NOT PERFORMED","2026_access":False,"economic_or_stage_B_analysis":False}}
     write_json(artifact/'c4_2024_freeze.json',freeze)
     return freeze
 
@@ -618,7 +815,7 @@ def _write_csv(path, rows):
 
 def verify_two_rebuilds(repo: Path, artifact: Path):
     import tempfile
-    core_names=('feature_schema.json','modeling_population_2024.json','fold_counts_2024.json','development_attempts_2024.json','development_metrics_2024.csv','development_predictions_2024.csv','bootstrap_comparisons_2024.json','stability_2024.json','calibration_2024.json','final_models_2024.json','final_preprocessing_2024.json','c4_2024_interpretation.json','c4_2024_freeze.json')
+    core_names=CORE_ARTIFACT_NAMES+('c4_2024_freeze.json',)
     first={n:sha256_file(artifact/n) for n in core_names}
     with tempfile.TemporaryDirectory(prefix='c4-2024-modeling-') as d:
         second_dir=Path(d); run(repo,second_dir)
@@ -627,3 +824,13 @@ def verify_two_rebuilds(repo: Path, artifact: Path):
     write_json(artifact/'c4_2024_reproducibility.json',result)
     if first != second: raise AssertionError('C4 2024 exact rebuild failed')
     return result
+
+
+def portable_rebuild(repo: Path, artifact: Path):
+    """Clean-checkout path: regenerate ignored inputs, verify, then model."""
+    import tempfile
+    with tempfile.TemporaryDirectory(prefix='c4-portable-inputs-') as d:
+        prepared=Path(d)
+        hashes=prepare_portable_inputs(repo,prepared)
+        freeze=run(repo,artifact,prepared)
+    return {"prepared_input_hashes":hashes,"freeze":freeze}
