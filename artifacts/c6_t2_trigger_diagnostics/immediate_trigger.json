@@ -1,0 +1,110 @@
+{
+  "G1": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "first_T2_triggers": 38,
+        "percent": 43.67816091954023,
+        "probability": 0.4367816091954023,
+        "trades": 87
+      },
+      "BTCUSDT": {
+        "first_T2_triggers": 29,
+        "percent": 39.189189189189186,
+        "probability": 0.3918918918918919,
+        "trades": 74
+      },
+      "ETHUSDT": {
+        "first_T2_triggers": 51,
+        "percent": 60.0,
+        "probability": 0.6,
+        "trades": 85
+      },
+      "SOLUSDT": {
+        "first_T2_triggers": 77,
+        "percent": 72.64150943396227,
+        "probability": 0.7264150943396226,
+        "trades": 106
+      },
+      "XRPUSDT": {
+        "first_T2_triggers": 54,
+        "percent": 62.06896551724138,
+        "probability": 0.6206896551724138,
+        "trades": 87
+      }
+    },
+    "by_year": {
+      "2024": {
+        "first_T2_triggers": 61,
+        "percent": 39.354838709677416,
+        "probability": 0.3935483870967742,
+        "trades": 155
+      },
+      "2025": {
+        "first_T2_triggers": 188,
+        "percent": 66.19718309859155,
+        "probability": 0.6619718309859155,
+        "trades": 284
+      }
+    },
+    "pooled": {
+      "first_T2_triggers": 249,
+      "percent": 56.71981776765376,
+      "probability": 0.5671981776765376,
+      "trades": 439
+    }
+  },
+  "P1": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "first_T2_triggers": 36,
+        "percent": 41.37931034482759,
+        "probability": 0.41379310344827586,
+        "trades": 87
+      },
+      "BTCUSDT": {
+        "first_T2_triggers": 24,
+        "percent": 32.432432432432435,
+        "probability": 0.32432432432432434,
+        "trades": 74
+      },
+      "ETHUSDT": {
+        "first_T2_triggers": 48,
+        "percent": 56.470588235294116,
+        "probability": 0.5647058823529412,
+        "trades": 85
+      },
+      "SOLUSDT": {
+        "first_T2_triggers": 71,
+        "percent": 66.98113207547169,
+        "probability": 0.6698113207547169,
+        "trades": 106
+      },
+      "XRPUSDT": {
+        "first_T2_triggers": 48,
+        "percent": 55.172413793103445,
+        "probability": 0.5517241379310345,
+        "trades": 87
+      }
+    },
+    "by_year": {
+      "2024": {
+        "first_T2_triggers": 59,
+        "percent": 38.064516129032256,
+        "probability": 0.38064516129032255,
+        "trades": 155
+      },
+      "2025": {
+        "first_T2_triggers": 168,
+        "percent": 59.15492957746479,
+        "probability": 0.5915492957746479,
+        "trades": 284
+      }
+    },
+    "pooled": {
+      "first_T2_triggers": 227,
+      "percent": 51.70842824601367,
+      "probability": 0.5170842824601367,
+      "trades": 439
+    }
+  }
+}

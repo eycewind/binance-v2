@@ -1,0 +1,18 @@
+{
+  "command": "python -m binance_data_foundation.c6_t2_diagnostics",
+  "generated_artifact_hashes": {
+    "candidate_controls.md": "85e5fc97ab00dcf6a613f1d5163e34f1c54f6bf58bc347a8f39e899cb5bc5804",
+    "g1_p1_agreement.json": "b4daa73d251ead907f008a814e72871057b05b7bcee1e1e577dfb26ad71863df",
+    "immediate_trigger.json": "a55546bdbabd3f83bb583ff9de89cf031ccab317f20d69114908526ef876a96c",
+    "interpretation.md": "1e73691091a7f89caccc8dfe71f3eddfb5bb5e692ac621eb3c4ba53945a01620",
+    "path_before_trigger.json": "03ce14e3c01b4d334f5884e7902a1758c70a579e9fa80795eeacd0c494f271d6",
+    "provenance.json": "45ae60b193d3c21562c9426e88177f7a537c3b007d04ce85f640e343ac712724",
+    "score_at_trigger.json": "ecba7f1a2a01c3cc5d3f6d4510a465275b3ba284a49b550dbbdaa496b7ac0725",
+    "t2_path_length.json": "df262e4175647ffe47bb33d3ebcfce21020a48f76bcf9aa110ba36dcf58dd74a",
+    "trigger_timing.json": "2dc7dfcac955d55c0ce716e5aa7f6db72edc933e9c97e878b8b5cab69f16479f"
+  },
+  "ordering": "snapshot_ms then row_id within immutable trade_id",
+  "quantile_method": "linear",
+  "timing_semantics": "completed 5m snapshot decision timestamp; existing immediate 1m open at same timestamp",
+  "version": "C6_EXPLORATORY_T2_TRIGGER_DIAGNOSTIC_V1"
+}

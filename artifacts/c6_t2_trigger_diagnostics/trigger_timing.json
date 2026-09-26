@@ -1,0 +1,718 @@
+{
+  "G1": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 87,
+          "max": 870.0,
+          "mean": 226.66666666666666,
+          "median": 180.0,
+          "min": 35.0,
+          "p25": 87.5,
+          "p75": 317.5,
+          "p90": 472.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 87,
+          "max": 275.0,
+          "mean": 16.839080459770116,
+          "median": 5.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 15.0,
+          "p90": 45.0
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 87,
+        "trigger_ordinal_buckets": {
+          "11+": 8,
+          "6-10": 10,
+          "fifth": 2,
+          "first": 38,
+          "fourth": 4,
+          "second": 18,
+          "third": 7
+        },
+        "trigger_ordinal_distribution": {
+          "count": 87,
+          "max": 56.0,
+          "mean": 4.32183908045977,
+          "median": 2.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 4.0,
+          "p90": 10.0
+        },
+        "triggered_trades": 87
+      },
+      "BTCUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 74,
+          "max": 1005.0,
+          "mean": 265.7432432432432,
+          "median": 195.0,
+          "min": 35.0,
+          "p25": 95.0,
+          "p75": 358.75,
+          "p90": 589.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 74,
+          "max": 70.0,
+          "mean": 8.04054054054054,
+          "median": 5.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 10.0,
+          "p90": 20.0
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 74,
+        "trigger_ordinal_buckets": {
+          "11+": 2,
+          "6-10": 5,
+          "fifth": 3,
+          "first": 29,
+          "fourth": 5,
+          "second": 22,
+          "third": 8
+        },
+        "trigger_ordinal_distribution": {
+          "count": 74,
+          "max": 15.0,
+          "mean": 2.608108108108108,
+          "median": 2.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 3.0,
+          "p90": 5.0
+        },
+        "triggered_trades": 74
+      },
+      "ETHUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 85,
+          "max": 1175.0,
+          "mean": 225.58823529411765,
+          "median": 155.0,
+          "min": 35.0,
+          "p25": 70.0,
+          "p75": 275.0,
+          "p90": 469.0000000000001
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 85,
+          "max": 95.0,
+          "mean": 7.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 10.0,
+          "p90": 18.000000000000043
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 85,
+        "trigger_ordinal_buckets": {
+          "11+": 2,
+          "6-10": 4,
+          "fifth": 1,
+          "first": 51,
+          "fourth": 6,
+          "second": 9,
+          "third": 12
+        },
+        "trigger_ordinal_distribution": {
+          "count": 85,
+          "max": 20.0,
+          "mean": 2.2823529411764705,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 3.0,
+          "p90": 4.0
+        },
+        "triggered_trades": 85
+      },
+      "SOLUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 104,
+          "max": 1100.0,
+          "mean": 181.10576923076923,
+          "median": 105.0,
+          "min": 35.0,
+          "p25": 60.0,
+          "p75": 235.0,
+          "p90": 372.50000000000006
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 104,
+          "max": 225.0,
+          "mean": 4.759615384615385,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 5.0,
+          "p90": 5.0
+        },
+        "non_triggered_trades": 2,
+        "total_replay_authorized_trades": 106,
+        "trigger_ordinal_buckets": {
+          "11+": 1,
+          "6-10": 2,
+          "fifth": 2,
+          "first": 77,
+          "fourth": 1,
+          "second": 18,
+          "third": 3
+        },
+        "trigger_ordinal_distribution": {
+          "count": 104,
+          "max": 12.0,
+          "mean": 1.5576923076923077,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 2.0,
+          "p90": 2.0
+        },
+        "triggered_trades": 104
+      },
+      "XRPUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 87,
+          "max": 870.0,
+          "mean": 209.31034482758622,
+          "median": 145.0,
+          "min": 35.0,
+          "p25": 72.5,
+          "p75": 307.5,
+          "p90": 437.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 87,
+          "max": 115.0,
+          "mean": 5.459770114942529,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 5.0,
+          "p90": 12.000000000000028
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 87,
+        "trigger_ordinal_buckets": {
+          "11+": 2,
+          "6-10": 0,
+          "fifth": 2,
+          "first": 54,
+          "fourth": 4,
+          "second": 19,
+          "third": 6
+        },
+        "trigger_ordinal_distribution": {
+          "count": 87,
+          "max": 24.0,
+          "mean": 2.0344827586206895,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 2.0,
+          "p90": 3.0
+        },
+        "triggered_trades": 87
+      }
+    },
+    "by_year": {
+      "2024": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 153,
+          "max": 1175.0,
+          "mean": 236.1437908496732,
+          "median": 165.0,
+          "min": 35.0,
+          "p25": 75.0,
+          "p75": 310.0,
+          "p90": 498.0000000000001
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 153,
+          "max": 275.0,
+          "mean": 16.470588235294116,
+          "median": 5.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 15.0,
+          "p90": 45.0
+        },
+        "non_triggered_trades": 2,
+        "total_replay_authorized_trades": 155,
+        "trigger_ordinal_buckets": {
+          "11+": 13,
+          "6-10": 12,
+          "fifth": 6,
+          "first": 61,
+          "fourth": 10,
+          "second": 31,
+          "third": 20
+        },
+        "trigger_ordinal_distribution": {
+          "count": 153,
+          "max": 56.0,
+          "mean": 3.9215686274509802,
+          "median": 2.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 4.0,
+          "p90": 7.800000000000011
+        },
+        "triggered_trades": 153
+      },
+      "2025": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 284,
+          "max": 1100.0,
+          "mean": 209.41901408450704,
+          "median": 135.0,
+          "min": 35.0,
+          "p25": 75.0,
+          "p75": 290.0,
+          "p90": 447.00000000000017
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 284,
+          "max": 80.0,
+          "mean": 3.890845070422535,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 5.0,
+          "p90": 10.0
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 284,
+        "trigger_ordinal_buckets": {
+          "11+": 2,
+          "6-10": 9,
+          "fifth": 4,
+          "first": 188,
+          "fourth": 10,
+          "second": 55,
+          "third": 16
+        },
+        "trigger_ordinal_distribution": {
+          "count": 284,
+          "max": 17.0,
+          "mean": 1.767605633802817,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 2.0,
+          "p90": 3.0
+        },
+        "triggered_trades": 284
+      }
+    },
+    "pooled": {
+      "minutes_entry_execution_to_trigger_distribution": {
+        "count": 437,
+        "max": 1175.0,
+        "mean": 218.77574370709382,
+        "median": 150.0,
+        "min": 35.0,
+        "p25": 75.0,
+        "p75": 300.0,
+        "p90": 470.0
+      },
+      "minutes_first_T2_to_trigger_distribution": {
+        "count": 437,
+        "max": 275.0,
+        "mean": 8.295194508009153,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 5.0,
+        "p90": 20.0
+      },
+      "non_triggered_trades": 2,
+      "total_replay_authorized_trades": 439,
+      "trigger_ordinal_buckets": {
+        "11+": 15,
+        "6-10": 21,
+        "fifth": 10,
+        "first": 249,
+        "fourth": 20,
+        "second": 86,
+        "third": 36
+      },
+      "trigger_ordinal_distribution": {
+        "count": 437,
+        "max": 56.0,
+        "mean": 2.5217391304347827,
+        "median": 1.0,
+        "min": 1.0,
+        "p25": 1.0,
+        "p75": 2.0,
+        "p90": 5.0
+      },
+      "triggered_trades": 437
+    }
+  },
+  "P1": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 87,
+          "max": 870.0,
+          "mean": 226.89655172413794,
+          "median": 160.0,
+          "min": 35.0,
+          "p25": 90.0,
+          "p75": 317.5,
+          "p90": 470.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 87,
+          "max": 275.0,
+          "mean": 17.06896551724138,
+          "median": 5.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 15.0,
+          "p90": 47.00000000000003
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 87,
+        "trigger_ordinal_buckets": {
+          "11+": 9,
+          "6-10": 9,
+          "fifth": 1,
+          "first": 36,
+          "fourth": 6,
+          "second": 22,
+          "third": 4
+        },
+        "trigger_ordinal_distribution": {
+          "count": 87,
+          "max": 56.0,
+          "mean": 4.367816091954023,
+          "median": 2.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 4.0,
+          "p90": 10.400000000000006
+        },
+        "triggered_trades": 87
+      },
+      "BTCUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 74,
+          "max": 1005.0,
+          "mean": 266.35135135135135,
+          "median": 195.0,
+          "min": 35.0,
+          "p25": 96.25,
+          "p75": 353.75,
+          "p90": 589.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 74,
+          "max": 65.0,
+          "mean": 8.64864864864865,
+          "median": 5.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 10.0,
+          "p90": 20.0
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 74,
+        "trigger_ordinal_buckets": {
+          "11+": 1,
+          "6-10": 3,
+          "fifth": 4,
+          "first": 24,
+          "fourth": 7,
+          "second": 24,
+          "third": 11
+        },
+        "trigger_ordinal_distribution": {
+          "count": 74,
+          "max": 14.0,
+          "mean": 2.527027027027027,
+          "median": 2.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 3.0,
+          "p90": 4.700000000000003
+        },
+        "triggered_trades": 74
+      },
+      "ETHUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 84,
+          "max": 1175.0,
+          "mean": 225.47619047619048,
+          "median": 152.5,
+          "min": 35.0,
+          "p25": 73.75,
+          "p75": 275.0,
+          "p90": 465.50000000000006
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 84,
+          "max": 95.0,
+          "mean": 6.726190476190476,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 5.0,
+          "p90": 15.0
+        },
+        "non_triggered_trades": 1,
+        "total_replay_authorized_trades": 85,
+        "trigger_ordinal_buckets": {
+          "11+": 1,
+          "6-10": 5,
+          "fifth": 1,
+          "first": 48,
+          "fourth": 4,
+          "second": 17,
+          "third": 8
+        },
+        "trigger_ordinal_distribution": {
+          "count": 84,
+          "max": 20.0,
+          "mean": 2.25,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 2.0,
+          "p90": 4.0
+        },
+        "triggered_trades": 84
+      },
+      "SOLUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 104,
+          "max": 1100.0,
+          "mean": 180.3846153846154,
+          "median": 107.5,
+          "min": 35.0,
+          "p25": 65.0,
+          "p75": 235.0,
+          "p90": 350.50000000000006
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 104,
+          "max": 85.0,
+          "mean": 4.038461538461538,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 5.0,
+          "p90": 10.0
+        },
+        "non_triggered_trades": 2,
+        "total_replay_authorized_trades": 106,
+        "trigger_ordinal_buckets": {
+          "11+": 0,
+          "6-10": 0,
+          "fifth": 3,
+          "first": 71,
+          "fourth": 1,
+          "second": 22,
+          "third": 7
+        },
+        "trigger_ordinal_distribution": {
+          "count": 104,
+          "max": 5.0,
+          "mean": 1.4903846153846154,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 2.0,
+          "p90": 2.700000000000003
+        },
+        "triggered_trades": 104
+      },
+      "XRPUSDT": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 87,
+          "max": 870.0,
+          "mean": 208.90804597701148,
+          "median": 145.0,
+          "min": 35.0,
+          "p25": 75.0,
+          "p75": 302.5,
+          "p90": 437.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 87,
+          "max": 115.0,
+          "mean": 5.057471264367816,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 5.0,
+          "p90": 10.0
+        },
+        "non_triggered_trades": 0,
+        "total_replay_authorized_trades": 87,
+        "trigger_ordinal_buckets": {
+          "11+": 1,
+          "6-10": 3,
+          "fifth": 1,
+          "first": 48,
+          "fourth": 3,
+          "second": 26,
+          "third": 5
+        },
+        "trigger_ordinal_distribution": {
+          "count": 87,
+          "max": 24.0,
+          "mean": 2.0114942528735633,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 2.0,
+          "p90": 3.0
+        },
+        "triggered_trades": 87
+      }
+    },
+    "by_year": {
+      "2024": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 153,
+          "max": 1175.0,
+          "mean": 233.36601307189542,
+          "median": 165.0,
+          "min": 35.0,
+          "p25": 75.0,
+          "p75": 305.0,
+          "p90": 470.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 153,
+          "max": 275.0,
+          "mean": 13.69281045751634,
+          "median": 5.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 10.0,
+          "p90": 30.0
+        },
+        "non_triggered_trades": 2,
+        "total_replay_authorized_trades": 155,
+        "trigger_ordinal_buckets": {
+          "11+": 10,
+          "6-10": 9,
+          "fifth": 6,
+          "first": 59,
+          "fourth": 12,
+          "second": 41,
+          "third": 16
+        },
+        "trigger_ordinal_distribution": {
+          "count": 153,
+          "max": 56.0,
+          "mean": 3.6013071895424837,
+          "median": 2.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 3.0,
+          "p90": 6.0
+        },
+        "triggered_trades": 153
+      },
+      "2025": {
+        "minutes_entry_execution_to_trigger_distribution": {
+          "count": 283,
+          "max": 1100.0,
+          "mean": 210.67137809187278,
+          "median": 140.0,
+          "min": 35.0,
+          "p25": 80.0,
+          "p75": 285.0,
+          "p90": 440.0
+        },
+        "minutes_first_T2_to_trigger_distribution": {
+          "count": 283,
+          "max": 85.0,
+          "mean": 5.141342756183746,
+          "median": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "p75": 5.0,
+          "p90": 15.0
+        },
+        "non_triggered_trades": 1,
+        "total_replay_authorized_trades": 284,
+        "trigger_ordinal_buckets": {
+          "11+": 2,
+          "6-10": 11,
+          "fifth": 4,
+          "first": 168,
+          "fourth": 9,
+          "second": 70,
+          "third": 19
+        },
+        "trigger_ordinal_distribution": {
+          "count": 283,
+          "max": 17.0,
+          "mean": 1.8904593639575973,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 2.0,
+          "p90": 3.0
+        },
+        "triggered_trades": 283
+      }
+    },
+    "pooled": {
+      "minutes_entry_execution_to_trigger_distribution": {
+        "count": 436,
+        "max": 1175.0,
+        "mean": 218.63532110091742,
+        "median": 150.0,
+        "min": 35.0,
+        "p25": 80.0,
+        "p75": 295.0,
+        "p90": 457.5
+      },
+      "minutes_first_T2_to_trigger_distribution": {
+        "count": 436,
+        "max": 275.0,
+        "mean": 8.142201834862385,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 5.0,
+        "p90": 20.0
+      },
+      "non_triggered_trades": 3,
+      "total_replay_authorized_trades": 439,
+      "trigger_ordinal_buckets": {
+        "11+": 12,
+        "6-10": 20,
+        "fifth": 10,
+        "first": 227,
+        "fourth": 21,
+        "second": 111,
+        "third": 35
+      },
+      "trigger_ordinal_distribution": {
+        "count": 436,
+        "max": 56.0,
+        "mean": 2.4908256880733943,
+        "median": 1.0,
+        "min": 1.0,
+        "p25": 1.0,
+        "p75": 2.0,
+        "p90": 4.0
+      },
+      "triggered_trades": 436
+    }
+  }
+}

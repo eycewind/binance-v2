@@ -1,0 +1,334 @@
+{
+  "by_symbol": {
+    "BNBUSDT": {
+      "P1_minus_G1_minutes_distribution_both_trigger": {
+        "count": 87,
+        "max": 55.0,
+        "mean": 0.22988505747126436,
+        "median": 0.0,
+        "min": -55.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 2.0000000000000284
+      },
+      "absolute_minutes_distribution_both_trigger": {
+        "count": 87,
+        "max": 55.0,
+        "mean": 3.218390804597701,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "counts": {
+        "G1_triggers_earlier": 9,
+        "P1_triggers_earlier": 9,
+        "both_never_trigger": 0,
+        "both_same_decision_snapshot": 69,
+        "only_G1_triggers": 0,
+        "only_P1_triggers": 0
+      },
+      "maximum_absolute_timing_difference_minutes": 55.0,
+      "median_absolute_timing_difference_minutes": 0.0,
+      "percentages": {
+        "G1_triggers_earlier": 10.344827586206897,
+        "P1_triggers_earlier": 10.344827586206897,
+        "both_never_trigger": 0.0,
+        "both_same_decision_snapshot": 79.3103448275862,
+        "only_G1_triggers": 0.0,
+        "only_P1_triggers": 0.0
+      },
+      "trades": 87
+    },
+    "BTCUSDT": {
+      "P1_minus_G1_minutes_distribution_both_trigger": {
+        "count": 74,
+        "max": 55.0,
+        "mean": 0.6081081081081081,
+        "median": 0.0,
+        "min": -55.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "absolute_minutes_distribution_both_trigger": {
+        "count": 74,
+        "max": 55.0,
+        "mean": 3.445945945945946,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 10.0
+      },
+      "counts": {
+        "G1_triggers_earlier": 9,
+        "P1_triggers_earlier": 8,
+        "both_never_trigger": 0,
+        "both_same_decision_snapshot": 57,
+        "only_G1_triggers": 0,
+        "only_P1_triggers": 0
+      },
+      "maximum_absolute_timing_difference_minutes": 55.0,
+      "median_absolute_timing_difference_minutes": 0.0,
+      "percentages": {
+        "G1_triggers_earlier": 12.162162162162161,
+        "P1_triggers_earlier": 10.81081081081081,
+        "both_never_trigger": 0.0,
+        "both_same_decision_snapshot": 77.02702702702703,
+        "only_G1_triggers": 0.0,
+        "only_P1_triggers": 0.0
+      },
+      "trades": 74
+    },
+    "ETHUSDT": {
+      "P1_minus_G1_minutes_distribution_both_trigger": {
+        "count": 84,
+        "max": 25.0,
+        "mean": -0.35714285714285715,
+        "median": 0.0,
+        "min": -15.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 0.0
+      },
+      "absolute_minutes_distribution_both_trigger": {
+        "count": 84,
+        "max": 25.0,
+        "mean": 1.7857142857142858,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "counts": {
+        "G1_triggers_earlier": 7,
+        "P1_triggers_earlier": 11,
+        "both_never_trigger": 0,
+        "both_same_decision_snapshot": 66,
+        "only_G1_triggers": 1,
+        "only_P1_triggers": 0
+      },
+      "maximum_absolute_timing_difference_minutes": 25.0,
+      "median_absolute_timing_difference_minutes": 0.0,
+      "percentages": {
+        "G1_triggers_earlier": 8.235294117647058,
+        "P1_triggers_earlier": 12.941176470588236,
+        "both_never_trigger": 0.0,
+        "both_same_decision_snapshot": 77.6470588235294,
+        "only_G1_triggers": 1.1764705882352942,
+        "only_P1_triggers": 0.0
+      },
+      "trades": 85
+    },
+    "SOLUSDT": {
+      "P1_minus_G1_minutes_distribution_both_trigger": {
+        "count": 104,
+        "max": 85.0,
+        "mean": -0.7211538461538461,
+        "median": 0.0,
+        "min": -205.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "absolute_minutes_distribution_both_trigger": {
+        "count": 104,
+        "max": 205.0,
+        "mean": 5.240384615384615,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "counts": {
+        "G1_triggers_earlier": 13,
+        "P1_triggers_earlier": 10,
+        "both_never_trigger": 2,
+        "both_same_decision_snapshot": 81,
+        "only_G1_triggers": 0,
+        "only_P1_triggers": 0
+      },
+      "maximum_absolute_timing_difference_minutes": 205.0,
+      "median_absolute_timing_difference_minutes": 0.0,
+      "percentages": {
+        "G1_triggers_earlier": 12.264150943396226,
+        "P1_triggers_earlier": 9.433962264150944,
+        "both_never_trigger": 1.8867924528301887,
+        "both_same_decision_snapshot": 76.41509433962264,
+        "only_G1_triggers": 0.0,
+        "only_P1_triggers": 0.0
+      },
+      "trades": 106
+    },
+    "XRPUSDT": {
+      "P1_minus_G1_minutes_distribution_both_trigger": {
+        "count": 87,
+        "max": 25.0,
+        "mean": -0.40229885057471265,
+        "median": 0.0,
+        "min": -50.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "absolute_minutes_distribution_both_trigger": {
+        "count": 87,
+        "max": 50.0,
+        "mean": 2.471264367816092,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "counts": {
+        "G1_triggers_earlier": 11,
+        "P1_triggers_earlier": 8,
+        "both_never_trigger": 0,
+        "both_same_decision_snapshot": 68,
+        "only_G1_triggers": 0,
+        "only_P1_triggers": 0
+      },
+      "maximum_absolute_timing_difference_minutes": 50.0,
+      "median_absolute_timing_difference_minutes": 0.0,
+      "percentages": {
+        "G1_triggers_earlier": 12.64367816091954,
+        "P1_triggers_earlier": 9.195402298850574,
+        "both_never_trigger": 0.0,
+        "both_same_decision_snapshot": 78.16091954022988,
+        "only_G1_triggers": 0.0,
+        "only_P1_triggers": 0.0
+      },
+      "trades": 87
+    }
+  },
+  "by_year": {
+    "2024": {
+      "P1_minus_G1_minutes_distribution_both_trigger": {
+        "count": 153,
+        "max": 55.0,
+        "mean": -2.7777777777777777,
+        "median": 0.0,
+        "min": -205.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 0.0
+      },
+      "absolute_minutes_distribution_both_trigger": {
+        "count": 153,
+        "max": 205.0,
+        "mean": 4.869281045751634,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 9.000000000000057
+      },
+      "counts": {
+        "G1_triggers_earlier": 11,
+        "P1_triggers_earlier": 25,
+        "both_never_trigger": 2,
+        "both_same_decision_snapshot": 117,
+        "only_G1_triggers": 0,
+        "only_P1_triggers": 0
+      },
+      "maximum_absolute_timing_difference_minutes": 205.0,
+      "median_absolute_timing_difference_minutes": 0.0,
+      "percentages": {
+        "G1_triggers_earlier": 7.096774193548387,
+        "P1_triggers_earlier": 16.129032258064516,
+        "both_never_trigger": 1.2903225806451613,
+        "both_same_decision_snapshot": 75.48387096774194,
+        "only_G1_triggers": 0.0,
+        "only_P1_triggers": 0.0
+      },
+      "trades": 155
+    },
+    "2025": {
+      "P1_minus_G1_minutes_distribution_both_trigger": {
+        "count": 283,
+        "max": 85.0,
+        "mean": 1.2367491166077738,
+        "median": 0.0,
+        "min": -20.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "absolute_minutes_distribution_both_trigger": {
+        "count": 283,
+        "max": 85.0,
+        "mean": 2.4734982332155475,
+        "median": 0.0,
+        "min": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 5.0
+      },
+      "counts": {
+        "G1_triggers_earlier": 38,
+        "P1_triggers_earlier": 21,
+        "both_never_trigger": 0,
+        "both_same_decision_snapshot": 224,
+        "only_G1_triggers": 1,
+        "only_P1_triggers": 0
+      },
+      "maximum_absolute_timing_difference_minutes": 85.0,
+      "median_absolute_timing_difference_minutes": 0.0,
+      "percentages": {
+        "G1_triggers_earlier": 13.380281690140846,
+        "P1_triggers_earlier": 7.394366197183099,
+        "both_never_trigger": 0.0,
+        "both_same_decision_snapshot": 78.87323943661971,
+        "only_G1_triggers": 0.352112676056338,
+        "only_P1_triggers": 0.0
+      },
+      "trades": 284
+    }
+  },
+  "pooled": {
+    "P1_minus_G1_minutes_distribution_both_trigger": {
+      "count": 436,
+      "max": 85.0,
+      "mean": -0.1720183486238532,
+      "median": 0.0,
+      "min": -205.0,
+      "p25": 0.0,
+      "p75": 0.0,
+      "p90": 5.0
+    },
+    "absolute_minutes_distribution_both_trigger": {
+      "count": 436,
+      "max": 205.0,
+      "mean": 3.3142201834862384,
+      "median": 0.0,
+      "min": 0.0,
+      "p25": 0.0,
+      "p75": 0.0,
+      "p90": 5.0
+    },
+    "counts": {
+      "G1_triggers_earlier": 49,
+      "P1_triggers_earlier": 46,
+      "both_never_trigger": 2,
+      "both_same_decision_snapshot": 341,
+      "only_G1_triggers": 1,
+      "only_P1_triggers": 0
+    },
+    "maximum_absolute_timing_difference_minutes": 205.0,
+    "median_absolute_timing_difference_minutes": 0.0,
+    "percentages": {
+      "G1_triggers_earlier": 11.161731207289295,
+      "P1_triggers_earlier": 10.478359908883826,
+      "both_never_trigger": 0.45558086560364464,
+      "both_same_decision_snapshot": 77.67653758542141,
+      "only_G1_triggers": 0.22779043280182232,
+      "only_P1_triggers": 0.0
+    },
+    "trades": 439
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "boundaries": {
+    "c5_replay_run": false,
+    "economic_metrics_calculated": false,
+    "policy_or_threshold_search": false,
+    "policy_outcomes_recomputed": false,
+    "predictions_generated": false,
+    "sealed_confirmation_access": false
+  },
+  "canonical_expected_sha256": "094c81c306f1084146db55cee3c6f38178e58a0e72e55e056bb0dd1eb6c46884",
+  "canonical_hash_verified": true,
+  "inputs": {
+    "artifacts/c4_sequential_exit_state/development_predictions_2024.csv": "1c6b80e0cbb17c7a31c686c9688d3200a1d4e78a1d0fe90c8ef5cf4a42129381",
+    "artifacts/c4_sequential_exit_state/local/t2_snapshots.csv": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417",
+    "artifacts/c4_sequential_exit_state/locked_2025/predictions.csv": "ad087ebf7469d5682ed20f522967e7b9400d3452e9e60f433bfef6330a7deb2a",
+    "artifacts/c5_economic_exit_policy/t1_readiness.json": "8c63b9e39b0b5365014c05c74bc1c57907ad9072109d3dbc8c2c430c385f6b4a",
+    "artifacts/c5_economic_exit_policy/t2/replay_manifest.json": "4d3a6089dca013aea0817bf11bfe219f1e06b83f16a8fffcb3540bc6e0caea77",
+    "artifacts/c5_economic_exit_policy/t2/trade_results.csv": "094c81c306f1084146db55cee3c6f38178e58a0e72e55e056bb0dd1eb6c46884"
+  },
+  "population": {
+    "snapshots": 38745,
+    "trades": 439
+  },
+  "version": "C6_EXPLORATORY_T2_TRIGGER_DIAGNOSTIC_V1"
+}

@@ -1,0 +1,110 @@
+{
+  "by_symbol": {
+    "BNBUSDT": {
+      "eligible_snapshot_count_distribution": {
+        "count": 87,
+        "max": 405.0,
+        "mean": 106.14942528735632,
+        "median": 78.0,
+        "min": 3.0,
+        "p25": 28.5,
+        "p75": 172.5,
+        "p90": 228.00000000000006
+      },
+      "trades": 87
+    },
+    "BTCUSDT": {
+      "eligible_snapshot_count_distribution": {
+        "count": 74,
+        "max": 348.0,
+        "mean": 92.89189189189189,
+        "median": 62.0,
+        "min": 2.0,
+        "p25": 24.5,
+        "p75": 142.0,
+        "p90": 219.0
+      },
+      "trades": 74
+    },
+    "ETHUSDT": {
+      "eligible_snapshot_count_distribution": {
+        "count": 85,
+        "max": 337.0,
+        "mean": 76.6,
+        "median": 55.0,
+        "min": 1.0,
+        "p25": 23.0,
+        "p75": 105.0,
+        "p90": 165.60000000000002
+      },
+      "trades": 85
+    },
+    "SOLUSDT": {
+      "eligible_snapshot_count_distribution": {
+        "count": 106,
+        "max": 552.0,
+        "mean": 80.72641509433963,
+        "median": 40.5,
+        "min": 1.0,
+        "p25": 14.5,
+        "p75": 114.0,
+        "p90": 213.5
+      },
+      "trades": 106
+    },
+    "XRPUSDT": {
+      "eligible_snapshot_count_distribution": {
+        "count": 87,
+        "max": 398.0,
+        "mean": 86.98850574712644,
+        "median": 62.0,
+        "min": 3.0,
+        "p25": 24.0,
+        "p75": 120.5,
+        "p90": 179.40000000000006
+      },
+      "trades": 87
+    }
+  },
+  "by_year": {
+    "2024": {
+      "eligible_snapshot_count_distribution": {
+        "count": 155,
+        "max": 329.0,
+        "mean": 79.19354838709677,
+        "median": 49.0,
+        "min": 1.0,
+        "p25": 16.5,
+        "p75": 128.5,
+        "p90": 187.0
+      },
+      "trades": 155
+    },
+    "2025": {
+      "eligible_snapshot_count_distribution": {
+        "count": 284,
+        "max": 552.0,
+        "mean": 93.20422535211267,
+        "median": 62.5,
+        "min": 1.0,
+        "p25": 24.0,
+        "p75": 130.0,
+        "p90": 219.0
+      },
+      "trades": 284
+    }
+  },
+  "pooled": {
+    "eligible_snapshot_count_distribution": {
+      "count": 439,
+      "max": 552.0,
+      "mean": 88.25740318906605,
+      "median": 58.0,
+      "min": 1.0,
+      "p25": 21.0,
+      "p75": 130.0,
+      "p90": 210.39999999999998
+    },
+    "trades": 439
+  }
+}
