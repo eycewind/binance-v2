@@ -8,6 +8,8 @@ Pre-addendum contract SHA-256: `e836c3ac834b6beb49a87b1efa5dd0fb4f157725810ac68e
 
 This addendum is scientifically controlling where it narrows or resolves Sections 14–18 and 22 of the bound contract. All other contract provisions remain unchanged. The five-policy family, frozen T2 eligibility, global score and quantiles, execution timing, costs, paired design, bootstrap, development-era governance, seal, and anti-overfitting prohibitions remain binding.
 
+The later non-economic `contracts/C5_prediction_population_AMENDMENT.md`, bound to this addendum's SHA-256 `1ed14533763e8458d419233523a764b22cbc79de9704219a7042e2ce221bc062`, controls the replay population, complete-path exclusions, pooled support-count denominator, year roles, and corrected coverage gate. The threshold remains 50; only its population denominator is clarified before economic replay.
+
 ## 1. Fixed scope and primary policy
 
 The five variants remain exactly:

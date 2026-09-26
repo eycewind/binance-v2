@@ -4,6 +4,8 @@ Status: design contract only. This file does not authorize implementation, polic
 
 Reviewed pre-execution addendum: `contracts/C5_economic_exit_policy_ADDENDUM.md`. The addendum is bound to this contract's pre-addendum SHA-256 `e836c3ac834b6beb49a87b1efa5dd0fb4f157725810ac68efb57bbea509de0de` and controls where it freezes or narrows Sections 14–18 and 22. Neither document authorizes execution by itself.
 
+Frozen prediction-population amendment: `contracts/C5_prediction_population_AMENDMENT.md`. It is bound to this contract's pre-amendment SHA-256 `7379238efd22bded103697248752423f0f8a2f3dbd63edeca48b6ded70b5b060` and the addendum's pre-amendment SHA-256 `1ed14533763e8458d419233523a764b22cbc79de9704219a7042e2ce221bc062`. It controls the replay population, complete-path exclusions, support denominator, and corrected coverage gate. It does not authorize economic replay.
+
 Target repository: `/media/ata/Data/personal/binance-v2`
 
 Future artifact root: `artifacts/c5_economic_exit_policy/`

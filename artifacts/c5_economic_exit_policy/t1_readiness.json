@@ -1,0 +1,1973 @@
+{
+  "MFE_or_winner_truncation_calculated": false,
+  "T2_ready": true,
+  "activation": {
+    "completed_5m_only": true,
+    "current_return_strictly_positive": true,
+    "decision": "snapshot_t",
+    "execution": "immediate_1m_open_at_t",
+    "frozen_T2_eligible": true,
+    "gap_skipping": false,
+    "running_peak_gain_min_inclusive": 0.01,
+    "strictly_above_half_giveback_barrier": true
+  },
+  "addendum_sha256": "eee71e73d105ff2a48e1832ccc16b27b14a83ac101315639ed3ea1165dbd62ac",
+  "blockers": [],
+  "bootstrap_definition": {
+    "block_length_entry_weeks": 4,
+    "generator": "PCG64",
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "linear",
+    "replicates": 2000,
+    "seed": 20240923,
+    "unit": "whole_trade"
+  },
+  "breadth_rule": {
+    "favorable_symbols_required": 4,
+    "largest_positive_share_max_inclusive": 0.5,
+    "unchanged": true
+  },
+  "classification_rules": {
+    "overall": [
+      "SUPPORTS BROAD ECONOMIC EXIT VALUE",
+      "SUPPORTS BUT CONCENTRATED",
+      "MIXED",
+      "COUNTS AGAINST",
+      "INSUFFICIENT EVIDENCE"
+    ],
+    "strength": [
+      "STRONG SUPPORT",
+      "DIRECTIONAL SUPPORT",
+      "COUNTS AGAINST",
+      "MIXED",
+      "INSUFFICIENT SUPPORT"
+    ],
+    "suitability": [
+      "SUITABLE FOR FURTHER VALIDATION",
+      "MIXED / HOLD",
+      "NOT SUPPORTED",
+      "INSUFFICIENT SUPPORT"
+    ]
+  },
+  "comparisons": [
+    [
+      "P1_Q75_EXIT_V1",
+      "G1_Q75_EXIT_V1"
+    ],
+    [
+      "P1_Q75_EXIT_V1",
+      "P0_HELD_V1"
+    ],
+    [
+      "G1_Q75_EXIT_V1",
+      "P0_HELD_V1"
+    ],
+    [
+      "P1_Q90_EXIT_V1",
+      "G1_Q90_EXIT_V1"
+    ],
+    [
+      "P1_Q90_EXIT_V1",
+      "P0_HELD_V1"
+    ],
+    [
+      "G1_Q90_EXIT_V1",
+      "P0_HELD_V1"
+    ]
+  ],
+  "complete_path_exclusions": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "excluded_trades": 63,
+        "path_patterns": {
+          "left_truncated": 5,
+          "right_truncated": 25,
+          "wholly_unpredicted": 33
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 34,
+          "feature_incomplete": 10,
+          "left_truncated": 5,
+          "non_OOF_2024_training_population": 31,
+          "right_truncated": 25,
+          "wholly_unpredicted": 33
+        }
+      },
+      "BTCUSDT": {
+        "excluded_trades": 67,
+        "path_patterns": {
+          "left_truncated": 5,
+          "left_truncated+right_truncated": 1,
+          "right_truncated": 25,
+          "wholly_unpredicted": 36
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 34,
+          "feature_incomplete": 11,
+          "left_truncated": 6,
+          "non_OOF_2024_training_population": 34,
+          "right_truncated": 26,
+          "wholly_unpredicted": 36
+        }
+      },
+      "ETHUSDT": {
+        "excluded_trades": 84,
+        "path_patterns": {
+          "left_truncated": 18,
+          "left_truncated+right_truncated": 1,
+          "right_truncated": 21,
+          "wholly_unpredicted": 44
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 33,
+          "feature_incomplete": 27,
+          "left_truncated": 19,
+          "non_OOF_2024_training_population": 43,
+          "right_truncated": 22,
+          "wholly_unpredicted": 44
+        }
+      },
+      "SOLUSDT": {
+        "excluded_trades": 97,
+        "path_patterns": {
+          "left_truncated": 34,
+          "left_truncated+right_truncated": 1,
+          "right_truncated": 14,
+          "wholly_unpredicted": 48
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 24,
+          "feature_incomplete": 56,
+          "left_truncated": 35,
+          "non_OOF_2024_training_population": 43,
+          "right_truncated": 15,
+          "wholly_unpredicted": 48
+        }
+      },
+      "XRPUSDT": {
+        "excluded_trades": 95,
+        "path_patterns": {
+          "left_truncated": 31,
+          "left_truncated+right_truncated": 5,
+          "right_truncated": 19,
+          "wholly_unpredicted": 40
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 30,
+          "feature_incomplete": 46,
+          "left_truncated": 36,
+          "non_OOF_2024_training_population": 37,
+          "right_truncated": 24,
+          "wholly_unpredicted": 40
+        }
+      }
+    },
+    "by_year": {
+      "2024": {
+        "excluded_trades": 260,
+        "path_patterns": {
+          "left_truncated": 30,
+          "left_truncated+right_truncated": 4,
+          "right_truncated": 32,
+          "wholly_unpredicted": 194
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 79,
+          "feature_incomplete": 76,
+          "left_truncated": 34,
+          "non_OOF_2024_training_population": 188,
+          "right_truncated": 36,
+          "wholly_unpredicted": 194
+        }
+      },
+      "2025": {
+        "excluded_trades": 146,
+        "path_patterns": {
+          "left_truncated": 63,
+          "left_truncated+right_truncated": 4,
+          "right_truncated": 72,
+          "wholly_unpredicted": 7
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 76,
+          "feature_incomplete": 74,
+          "left_truncated": 67,
+          "right_truncated": 76,
+          "wholly_unpredicted": 7
+        }
+      }
+    },
+    "by_year_symbol": {
+      "2024": {
+        "BNBUSDT": {
+          "excluded_trades": 44,
+          "path_patterns": {
+            "left_truncated": 3,
+            "right_truncated": 9,
+            "wholly_unpredicted": 32
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 18,
+            "feature_incomplete": 7,
+            "left_truncated": 3,
+            "non_OOF_2024_training_population": 31,
+            "right_truncated": 9,
+            "wholly_unpredicted": 32
+          }
+        },
+        "BTCUSDT": {
+          "excluded_trades": 44,
+          "path_patterns": {
+            "left_truncated": 1,
+            "left_truncated+right_truncated": 1,
+            "right_truncated": 7,
+            "wholly_unpredicted": 35
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 16,
+            "feature_incomplete": 6,
+            "left_truncated": 2,
+            "non_OOF_2024_training_population": 34,
+            "right_truncated": 8,
+            "wholly_unpredicted": 35
+          }
+        },
+        "ETHUSDT": {
+          "excluded_trades": 51,
+          "path_patterns": {
+            "left_truncated": 3,
+            "right_truncated": 5,
+            "wholly_unpredicted": 43
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 16,
+            "feature_incomplete": 10,
+            "left_truncated": 3,
+            "non_OOF_2024_training_population": 43,
+            "right_truncated": 5,
+            "wholly_unpredicted": 43
+          }
+        },
+        "SOLUSDT": {
+          "excluded_trades": 66,
+          "path_patterns": {
+            "left_truncated": 15,
+            "left_truncated+right_truncated": 1,
+            "right_truncated": 5,
+            "wholly_unpredicted": 45
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 15,
+            "feature_incomplete": 34,
+            "left_truncated": 16,
+            "non_OOF_2024_training_population": 43,
+            "right_truncated": 6,
+            "wholly_unpredicted": 45
+          }
+        },
+        "XRPUSDT": {
+          "excluded_trades": 55,
+          "path_patterns": {
+            "left_truncated": 8,
+            "left_truncated+right_truncated": 2,
+            "right_truncated": 6,
+            "wholly_unpredicted": 39
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 14,
+            "feature_incomplete": 19,
+            "left_truncated": 10,
+            "non_OOF_2024_training_population": 37,
+            "right_truncated": 8,
+            "wholly_unpredicted": 39
+          }
+        }
+      },
+      "2025": {
+        "BNBUSDT": {
+          "excluded_trades": 19,
+          "path_patterns": {
+            "left_truncated": 2,
+            "right_truncated": 16,
+            "wholly_unpredicted": 1
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 16,
+            "feature_incomplete": 3,
+            "left_truncated": 2,
+            "right_truncated": 16,
+            "wholly_unpredicted": 1
+          }
+        },
+        "BTCUSDT": {
+          "excluded_trades": 23,
+          "path_patterns": {
+            "left_truncated": 4,
+            "right_truncated": 18,
+            "wholly_unpredicted": 1
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 18,
+            "feature_incomplete": 5,
+            "left_truncated": 4,
+            "right_truncated": 18,
+            "wholly_unpredicted": 1
+          }
+        },
+        "ETHUSDT": {
+          "excluded_trades": 33,
+          "path_patterns": {
+            "left_truncated": 15,
+            "left_truncated+right_truncated": 1,
+            "right_truncated": 16,
+            "wholly_unpredicted": 1
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 17,
+            "feature_incomplete": 17,
+            "left_truncated": 16,
+            "right_truncated": 17,
+            "wholly_unpredicted": 1
+          }
+        },
+        "SOLUSDT": {
+          "excluded_trades": 31,
+          "path_patterns": {
+            "left_truncated": 19,
+            "right_truncated": 9,
+            "wholly_unpredicted": 3
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 9,
+            "feature_incomplete": 22,
+            "left_truncated": 19,
+            "right_truncated": 9,
+            "wholly_unpredicted": 3
+          }
+        },
+        "XRPUSDT": {
+          "excluded_trades": 40,
+          "path_patterns": {
+            "left_truncated": 23,
+            "left_truncated+right_truncated": 3,
+            "right_truncated": 13,
+            "wholly_unpredicted": 1
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 16,
+            "feature_incomplete": 27,
+            "left_truncated": 26,
+            "right_truncated": 16,
+            "wholly_unpredicted": 1
+          }
+        }
+      }
+    },
+    "pooled": {
+      "excluded_trades": 406,
+      "path_patterns": {
+        "left_truncated": 93,
+        "left_truncated+right_truncated": 8,
+        "right_truncated": 104,
+        "wholly_unpredicted": 201
+      },
+      "reason_flags": {
+        "censored_or_unresolved_prevents_full_path": 155,
+        "feature_incomplete": 150,
+        "left_truncated": 101,
+        "non_OOF_2024_training_population": 188,
+        "right_truncated": 112,
+        "wholly_unpredicted": 201
+      }
+    }
+  },
+  "contract_sha256": "71f431c0f17e4c730c6aa713ce39b164a5c2a3634e333261c236bd92bf6023a3",
+  "cost_definitions": {
+    "C0": {
+      "approximate_round_trip_bp": 0,
+      "fee_rate": 0,
+      "slippage_rate": 0
+    },
+    "C_BASE": {
+      "approximate_round_trip_bp": 24,
+      "fee_rate": 0.001,
+      "slippage_rate": 0.0002
+    },
+    "C_S10": {
+      "approximate_round_trip_bp": 40,
+      "fee_rate": 0.001,
+      "slippage_rate": 0.001
+    },
+    "C_S5": {
+      "approximate_round_trip_bp": 30,
+      "fee_rate": 0.001,
+      "slippage_rate": 0.0005
+    }
+  },
+  "economic_replay_performed": false,
+  "four_population_layers": {
+    "authorized_frozen_prediction": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "snapshots": 18871,
+          "trades": 117
+        },
+        "BTCUSDT": {
+          "snapshots": 20375,
+          "trades": 105
+        },
+        "ETHUSDT": {
+          "snapshots": 17520,
+          "trades": 125
+        },
+        "SOLUSDT": {
+          "snapshots": 19407,
+          "trades": 155
+        },
+        "XRPUSDT": {
+          "snapshots": 20412,
+          "trades": 142
+        }
+      },
+      "by_year": {
+        "2024": {
+          "snapshots": 30467,
+          "trades": 221
+        },
+        "2025": {
+          "snapshots": 66118,
+          "trades": 423
+        }
+      },
+      "by_year_symbol": {
+        "2024": {
+          "BNBUSDT": {
+            "snapshots": 7323,
+            "trades": 49
+          },
+          "BTCUSDT": {
+            "snapshots": 6473,
+            "trades": 35
+          },
+          "ETHUSDT": {
+            "snapshots": 4436,
+            "trades": 37
+          },
+          "SOLUSDT": {
+            "snapshots": 6416,
+            "trades": 52
+          },
+          "XRPUSDT": {
+            "snapshots": 5819,
+            "trades": 48
+          }
+        },
+        "2025": {
+          "BNBUSDT": {
+            "snapshots": 11548,
+            "trades": 68
+          },
+          "BTCUSDT": {
+            "snapshots": 13902,
+            "trades": 70
+          },
+          "ETHUSDT": {
+            "snapshots": 13084,
+            "trades": 88
+          },
+          "SOLUSDT": {
+            "snapshots": 12991,
+            "trades": 103
+          },
+          "XRPUSDT": {
+            "snapshots": 14593,
+            "trades": 94
+          }
+        }
+      },
+      "pooled": {
+        "snapshots": 96585,
+        "trades": 644
+      }
+    },
+    "complete_case_model_eligible": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "snapshots": 24279,
+          "trades": 148
+        },
+        "BTCUSDT": {
+          "snapshots": 25404,
+          "trades": 139
+        },
+        "ETHUSDT": {
+          "snapshots": 25331,
+          "trades": 168
+        },
+        "SOLUSDT": {
+          "snapshots": 25282,
+          "trades": 198
+        },
+        "XRPUSDT": {
+          "snapshots": 25574,
+          "trades": 179
+        }
+      },
+      "by_year": {
+        "2024": {
+          "snapshots": 59752,
+          "trades": 409
+        },
+        "2025": {
+          "snapshots": 66118,
+          "trades": 423
+        }
+      },
+      "by_year_symbol": {
+        "2024": {
+          "BNBUSDT": {
+            "snapshots": 12731,
+            "trades": 80
+          },
+          "BTCUSDT": {
+            "snapshots": 11502,
+            "trades": 69
+          },
+          "ETHUSDT": {
+            "snapshots": 12247,
+            "trades": 80
+          },
+          "SOLUSDT": {
+            "snapshots": 12291,
+            "trades": 95
+          },
+          "XRPUSDT": {
+            "snapshots": 10981,
+            "trades": 85
+          }
+        },
+        "2025": {
+          "BNBUSDT": {
+            "snapshots": 11548,
+            "trades": 68
+          },
+          "BTCUSDT": {
+            "snapshots": 13902,
+            "trades": 70
+          },
+          "ETHUSDT": {
+            "snapshots": 13084,
+            "trades": 88
+          },
+          "SOLUSDT": {
+            "snapshots": 12991,
+            "trades": 103
+          },
+          "XRPUSDT": {
+            "snapshots": 14593,
+            "trades": 94
+          }
+        }
+      },
+      "pooled": {
+        "snapshots": 125870,
+        "trades": 832
+      }
+    },
+    "raw_T2_eligible": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "snapshots": 24628,
+          "trades": 150
+        },
+        "BTCUSDT": {
+          "snapshots": 25789,
+          "trades": 141
+        },
+        "ETHUSDT": {
+          "snapshots": 25742,
+          "trades": 169
+        },
+        "SOLUSDT": {
+          "snapshots": 25657,
+          "trades": 203
+        },
+        "XRPUSDT": {
+          "snapshots": 26023,
+          "trades": 182
+        }
+      },
+      "by_year": {
+        "2024": {
+          "snapshots": 60757,
+          "trades": 415
+        },
+        "2025": {
+          "snapshots": 67082,
+          "trades": 430
+        }
+      },
+      "by_year_symbol": {
+        "2024": {
+          "BNBUSDT": {
+            "snapshots": 12925,
+            "trades": 81
+          },
+          "BTCUSDT": {
+            "snapshots": 11684,
+            "trades": 70
+          },
+          "ETHUSDT": {
+            "snapshots": 12442,
+            "trades": 80
+          },
+          "SOLUSDT": {
+            "snapshots": 12523,
+            "trades": 97
+          },
+          "XRPUSDT": {
+            "snapshots": 11183,
+            "trades": 87
+          }
+        },
+        "2025": {
+          "BNBUSDT": {
+            "snapshots": 11703,
+            "trades": 69
+          },
+          "BTCUSDT": {
+            "snapshots": 14105,
+            "trades": 71
+          },
+          "ETHUSDT": {
+            "snapshots": 13300,
+            "trades": 89
+          },
+          "SOLUSDT": {
+            "snapshots": 13134,
+            "trades": 106
+          },
+          "XRPUSDT": {
+            "snapshots": 14840,
+            "trades": 95
+          }
+        }
+      },
+      "pooled": {
+        "snapshots": 127839,
+        "trades": 845
+      }
+    },
+    "replay_authorized_complete_path": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "snapshots": 9235,
+          "trades": 87
+        },
+        "BTCUSDT": {
+          "snapshots": 6874,
+          "trades": 74
+        },
+        "ETHUSDT": {
+          "snapshots": 6511,
+          "trades": 85
+        },
+        "SOLUSDT": {
+          "snapshots": 8557,
+          "trades": 106
+        },
+        "XRPUSDT": {
+          "snapshots": 7568,
+          "trades": 87
+        }
+      },
+      "by_year": {
+        "2024": {
+          "snapshots": 12275,
+          "trades": 155
+        },
+        "2025": {
+          "snapshots": 26470,
+          "trades": 284
+        }
+      },
+      "by_year_symbol": {
+        "2024": {
+          "BNBUSDT": {
+            "snapshots": 3670,
+            "trades": 37
+          },
+          "BTCUSDT": {
+            "snapshots": 2065,
+            "trades": 26
+          },
+          "ETHUSDT": {
+            "snapshots": 2201,
+            "trades": 29
+          },
+          "SOLUSDT": {
+            "snapshots": 1859,
+            "trades": 31
+          },
+          "XRPUSDT": {
+            "snapshots": 2480,
+            "trades": 32
+          }
+        },
+        "2025": {
+          "BNBUSDT": {
+            "snapshots": 5565,
+            "trades": 50
+          },
+          "BTCUSDT": {
+            "snapshots": 4809,
+            "trades": 48
+          },
+          "ETHUSDT": {
+            "snapshots": 4310,
+            "trades": 56
+          },
+          "SOLUSDT": {
+            "snapshots": 6698,
+            "trades": 75
+          },
+          "XRPUSDT": {
+            "snapshots": 5088,
+            "trades": 55
+          }
+        }
+      },
+      "pooled": {
+        "snapshots": 38745,
+        "trades": 439
+      }
+    }
+  },
+  "in_sample_2024_backfill": false,
+  "new_predictions_generated": false,
+  "policy_definitions": {
+    "Q75_role": "PRIMARY",
+    "Q90_role": "SENSITIVITY_ONLY_CANNOT_RESCUE_Q75",
+    "score": "P(substantial_giveback)-P(renewed_peak)",
+    "symbol_specific_thresholds": false,
+    "threshold_search": false,
+    "thresholds": {
+      "G1": {
+        "Q75": 0.38599566214835807,
+        "Q90": 0.5437961868373885,
+        "cutoff_sha256": "08ee4131b6093a41cc5ad3fcbc021cf523b5441128ce3d38901c3cf741ae0045",
+        "global_not_symbol_specific": true,
+        "method": "Type-7 linear",
+        "row_set_sha256": "1f566ad858347e25e899aebec3cb7f7140b6c39bfed3343f6c09c816ea5d00fd",
+        "score_vector_sha256": "69d5c3b7104f0073dbca04bec1320b94c1b10892c2becda1d59869dfba62b7ed",
+        "source_row_count": 30467
+      },
+      "P1": {
+        "Q75": 0.3962652238189601,
+        "Q90": 0.5665730461166496,
+        "cutoff_sha256": "cf99a863d234acb6972c97695d4c86a4ebd983c6a507412b119fa08919ff757e",
+        "global_not_symbol_specific": true,
+        "method": "Type-7 linear",
+        "row_set_sha256": "1f566ad858347e25e899aebec3cb7f7140b6c39bfed3343f6c09c816ea5d00fd",
+        "score_vector_sha256": "d84303f192ef989eb4a0a8b51dc04f57cd0e2fcc79bf64ec8a716f7f9f157fed",
+        "source_row_count": 30467
+      }
+    },
+    "variants": [
+      "P0_HELD_V1",
+      "G1_Q75_EXIT_V1",
+      "P1_Q75_EXIT_V1",
+      "G1_Q90_EXIT_V1",
+      "P1_Q90_EXIT_V1"
+    ]
+  },
+  "prediction_coverage_status": "PASS",
+  "prediction_population": {
+    "analyst_override": false,
+    "authorized_coverage": {
+      "duplicate_predictions": 0,
+      "eligible_snapshots": {
+        "calendar_year": {
+          "2024": {
+            "G1_matched": 30467,
+            "G1_missing": 0,
+            "P1_matched": 30467,
+            "P1_missing": 0,
+            "eligible_snapshots": 30467
+          },
+          "2025": {
+            "G1_matched": 66118,
+            "G1_missing": 0,
+            "P1_matched": 66118,
+            "P1_missing": 0,
+            "eligible_snapshots": 66118
+          }
+        },
+        "pooled": {
+          "G1_matched": 96585,
+          "G1_missing": 0,
+          "P1_matched": 96585,
+          "P1_missing": 0,
+          "eligible_snapshots": 96585
+        },
+        "symbol": {
+          "BNBUSDT": {
+            "G1_matched": 18871,
+            "G1_missing": 0,
+            "P1_matched": 18871,
+            "P1_missing": 0,
+            "eligible_snapshots": 18871
+          },
+          "BTCUSDT": {
+            "G1_matched": 20375,
+            "G1_missing": 0,
+            "P1_matched": 20375,
+            "P1_missing": 0,
+            "eligible_snapshots": 20375
+          },
+          "ETHUSDT": {
+            "G1_matched": 17520,
+            "G1_missing": 0,
+            "P1_matched": 17520,
+            "P1_missing": 0,
+            "eligible_snapshots": 17520
+          },
+          "SOLUSDT": {
+            "G1_matched": 19407,
+            "G1_missing": 0,
+            "P1_matched": 19407,
+            "P1_missing": 0,
+            "eligible_snapshots": 19407
+          },
+          "XRPUSDT": {
+            "G1_matched": 20412,
+            "G1_missing": 0,
+            "P1_matched": 20412,
+            "P1_missing": 0,
+            "eligible_snapshots": 20412
+          }
+        }
+      },
+      "extra_predictions": 0,
+      "invalid_probability_rows": 0,
+      "matched_prediction_rows": 193170,
+      "mismatches": {},
+      "missing_predictions": 0,
+      "one_to_one": true,
+      "required_prediction_rows": 193170,
+      "status": "PASS"
+    },
+    "exclusions": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "excluded_trades": 63,
+          "path_patterns": {
+            "left_truncated": 5,
+            "right_truncated": 25,
+            "wholly_unpredicted": 33
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 34,
+            "feature_incomplete": 10,
+            "left_truncated": 5,
+            "non_OOF_2024_training_population": 31,
+            "right_truncated": 25,
+            "wholly_unpredicted": 33
+          }
+        },
+        "BTCUSDT": {
+          "excluded_trades": 67,
+          "path_patterns": {
+            "left_truncated": 5,
+            "left_truncated+right_truncated": 1,
+            "right_truncated": 25,
+            "wholly_unpredicted": 36
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 34,
+            "feature_incomplete": 11,
+            "left_truncated": 6,
+            "non_OOF_2024_training_population": 34,
+            "right_truncated": 26,
+            "wholly_unpredicted": 36
+          }
+        },
+        "ETHUSDT": {
+          "excluded_trades": 84,
+          "path_patterns": {
+            "left_truncated": 18,
+            "left_truncated+right_truncated": 1,
+            "right_truncated": 21,
+            "wholly_unpredicted": 44
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 33,
+            "feature_incomplete": 27,
+            "left_truncated": 19,
+            "non_OOF_2024_training_population": 43,
+            "right_truncated": 22,
+            "wholly_unpredicted": 44
+          }
+        },
+        "SOLUSDT": {
+          "excluded_trades": 97,
+          "path_patterns": {
+            "left_truncated": 34,
+            "left_truncated+right_truncated": 1,
+            "right_truncated": 14,
+            "wholly_unpredicted": 48
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 24,
+            "feature_incomplete": 56,
+            "left_truncated": 35,
+            "non_OOF_2024_training_population": 43,
+            "right_truncated": 15,
+            "wholly_unpredicted": 48
+          }
+        },
+        "XRPUSDT": {
+          "excluded_trades": 95,
+          "path_patterns": {
+            "left_truncated": 31,
+            "left_truncated+right_truncated": 5,
+            "right_truncated": 19,
+            "wholly_unpredicted": 40
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 30,
+            "feature_incomplete": 46,
+            "left_truncated": 36,
+            "non_OOF_2024_training_population": 37,
+            "right_truncated": 24,
+            "wholly_unpredicted": 40
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "excluded_trades": 260,
+          "path_patterns": {
+            "left_truncated": 30,
+            "left_truncated+right_truncated": 4,
+            "right_truncated": 32,
+            "wholly_unpredicted": 194
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 79,
+            "feature_incomplete": 76,
+            "left_truncated": 34,
+            "non_OOF_2024_training_population": 188,
+            "right_truncated": 36,
+            "wholly_unpredicted": 194
+          }
+        },
+        "2025": {
+          "excluded_trades": 146,
+          "path_patterns": {
+            "left_truncated": 63,
+            "left_truncated+right_truncated": 4,
+            "right_truncated": 72,
+            "wholly_unpredicted": 7
+          },
+          "reason_flags": {
+            "censored_or_unresolved_prevents_full_path": 76,
+            "feature_incomplete": 74,
+            "left_truncated": 67,
+            "right_truncated": 76,
+            "wholly_unpredicted": 7
+          }
+        }
+      },
+      "by_year_symbol": {
+        "2024": {
+          "BNBUSDT": {
+            "excluded_trades": 44,
+            "path_patterns": {
+              "left_truncated": 3,
+              "right_truncated": 9,
+              "wholly_unpredicted": 32
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 18,
+              "feature_incomplete": 7,
+              "left_truncated": 3,
+              "non_OOF_2024_training_population": 31,
+              "right_truncated": 9,
+              "wholly_unpredicted": 32
+            }
+          },
+          "BTCUSDT": {
+            "excluded_trades": 44,
+            "path_patterns": {
+              "left_truncated": 1,
+              "left_truncated+right_truncated": 1,
+              "right_truncated": 7,
+              "wholly_unpredicted": 35
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 16,
+              "feature_incomplete": 6,
+              "left_truncated": 2,
+              "non_OOF_2024_training_population": 34,
+              "right_truncated": 8,
+              "wholly_unpredicted": 35
+            }
+          },
+          "ETHUSDT": {
+            "excluded_trades": 51,
+            "path_patterns": {
+              "left_truncated": 3,
+              "right_truncated": 5,
+              "wholly_unpredicted": 43
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 16,
+              "feature_incomplete": 10,
+              "left_truncated": 3,
+              "non_OOF_2024_training_population": 43,
+              "right_truncated": 5,
+              "wholly_unpredicted": 43
+            }
+          },
+          "SOLUSDT": {
+            "excluded_trades": 66,
+            "path_patterns": {
+              "left_truncated": 15,
+              "left_truncated+right_truncated": 1,
+              "right_truncated": 5,
+              "wholly_unpredicted": 45
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 15,
+              "feature_incomplete": 34,
+              "left_truncated": 16,
+              "non_OOF_2024_training_population": 43,
+              "right_truncated": 6,
+              "wholly_unpredicted": 45
+            }
+          },
+          "XRPUSDT": {
+            "excluded_trades": 55,
+            "path_patterns": {
+              "left_truncated": 8,
+              "left_truncated+right_truncated": 2,
+              "right_truncated": 6,
+              "wholly_unpredicted": 39
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 14,
+              "feature_incomplete": 19,
+              "left_truncated": 10,
+              "non_OOF_2024_training_population": 37,
+              "right_truncated": 8,
+              "wholly_unpredicted": 39
+            }
+          }
+        },
+        "2025": {
+          "BNBUSDT": {
+            "excluded_trades": 19,
+            "path_patterns": {
+              "left_truncated": 2,
+              "right_truncated": 16,
+              "wholly_unpredicted": 1
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 16,
+              "feature_incomplete": 3,
+              "left_truncated": 2,
+              "right_truncated": 16,
+              "wholly_unpredicted": 1
+            }
+          },
+          "BTCUSDT": {
+            "excluded_trades": 23,
+            "path_patterns": {
+              "left_truncated": 4,
+              "right_truncated": 18,
+              "wholly_unpredicted": 1
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 18,
+              "feature_incomplete": 5,
+              "left_truncated": 4,
+              "right_truncated": 18,
+              "wholly_unpredicted": 1
+            }
+          },
+          "ETHUSDT": {
+            "excluded_trades": 33,
+            "path_patterns": {
+              "left_truncated": 15,
+              "left_truncated+right_truncated": 1,
+              "right_truncated": 16,
+              "wholly_unpredicted": 1
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 17,
+              "feature_incomplete": 17,
+              "left_truncated": 16,
+              "right_truncated": 17,
+              "wholly_unpredicted": 1
+            }
+          },
+          "SOLUSDT": {
+            "excluded_trades": 31,
+            "path_patterns": {
+              "left_truncated": 19,
+              "right_truncated": 9,
+              "wholly_unpredicted": 3
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 9,
+              "feature_incomplete": 22,
+              "left_truncated": 19,
+              "right_truncated": 9,
+              "wholly_unpredicted": 3
+            }
+          },
+          "XRPUSDT": {
+            "excluded_trades": 40,
+            "path_patterns": {
+              "left_truncated": 23,
+              "left_truncated+right_truncated": 3,
+              "right_truncated": 13,
+              "wholly_unpredicted": 1
+            },
+            "reason_flags": {
+              "censored_or_unresolved_prevents_full_path": 16,
+              "feature_incomplete": 27,
+              "left_truncated": 26,
+              "right_truncated": 16,
+              "wholly_unpredicted": 1
+            }
+          }
+        }
+      },
+      "pooled": {
+        "excluded_trades": 406,
+        "path_patterns": {
+          "left_truncated": 93,
+          "left_truncated+right_truncated": 8,
+          "right_truncated": 104,
+          "wholly_unpredicted": 201
+        },
+        "reason_flags": {
+          "censored_or_unresolved_prevents_full_path": 155,
+          "feature_incomplete": 150,
+          "left_truncated": 101,
+          "non_OOF_2024_training_population": 188,
+          "right_truncated": 112,
+          "wholly_unpredicted": 201
+        }
+      }
+    },
+    "in_sample_2024_backfill": false,
+    "layers": {
+      "authorized_frozen_prediction": {
+        "by_symbol": {
+          "BNBUSDT": {
+            "snapshots": 18871,
+            "trades": 117
+          },
+          "BTCUSDT": {
+            "snapshots": 20375,
+            "trades": 105
+          },
+          "ETHUSDT": {
+            "snapshots": 17520,
+            "trades": 125
+          },
+          "SOLUSDT": {
+            "snapshots": 19407,
+            "trades": 155
+          },
+          "XRPUSDT": {
+            "snapshots": 20412,
+            "trades": 142
+          }
+        },
+        "by_year": {
+          "2024": {
+            "snapshots": 30467,
+            "trades": 221
+          },
+          "2025": {
+            "snapshots": 66118,
+            "trades": 423
+          }
+        },
+        "by_year_symbol": {
+          "2024": {
+            "BNBUSDT": {
+              "snapshots": 7323,
+              "trades": 49
+            },
+            "BTCUSDT": {
+              "snapshots": 6473,
+              "trades": 35
+            },
+            "ETHUSDT": {
+              "snapshots": 4436,
+              "trades": 37
+            },
+            "SOLUSDT": {
+              "snapshots": 6416,
+              "trades": 52
+            },
+            "XRPUSDT": {
+              "snapshots": 5819,
+              "trades": 48
+            }
+          },
+          "2025": {
+            "BNBUSDT": {
+              "snapshots": 11548,
+              "trades": 68
+            },
+            "BTCUSDT": {
+              "snapshots": 13902,
+              "trades": 70
+            },
+            "ETHUSDT": {
+              "snapshots": 13084,
+              "trades": 88
+            },
+            "SOLUSDT": {
+              "snapshots": 12991,
+              "trades": 103
+            },
+            "XRPUSDT": {
+              "snapshots": 14593,
+              "trades": 94
+            }
+          }
+        },
+        "pooled": {
+          "snapshots": 96585,
+          "trades": 644
+        }
+      },
+      "complete_case_model_eligible": {
+        "by_symbol": {
+          "BNBUSDT": {
+            "snapshots": 24279,
+            "trades": 148
+          },
+          "BTCUSDT": {
+            "snapshots": 25404,
+            "trades": 139
+          },
+          "ETHUSDT": {
+            "snapshots": 25331,
+            "trades": 168
+          },
+          "SOLUSDT": {
+            "snapshots": 25282,
+            "trades": 198
+          },
+          "XRPUSDT": {
+            "snapshots": 25574,
+            "trades": 179
+          }
+        },
+        "by_year": {
+          "2024": {
+            "snapshots": 59752,
+            "trades": 409
+          },
+          "2025": {
+            "snapshots": 66118,
+            "trades": 423
+          }
+        },
+        "by_year_symbol": {
+          "2024": {
+            "BNBUSDT": {
+              "snapshots": 12731,
+              "trades": 80
+            },
+            "BTCUSDT": {
+              "snapshots": 11502,
+              "trades": 69
+            },
+            "ETHUSDT": {
+              "snapshots": 12247,
+              "trades": 80
+            },
+            "SOLUSDT": {
+              "snapshots": 12291,
+              "trades": 95
+            },
+            "XRPUSDT": {
+              "snapshots": 10981,
+              "trades": 85
+            }
+          },
+          "2025": {
+            "BNBUSDT": {
+              "snapshots": 11548,
+              "trades": 68
+            },
+            "BTCUSDT": {
+              "snapshots": 13902,
+              "trades": 70
+            },
+            "ETHUSDT": {
+              "snapshots": 13084,
+              "trades": 88
+            },
+            "SOLUSDT": {
+              "snapshots": 12991,
+              "trades": 103
+            },
+            "XRPUSDT": {
+              "snapshots": 14593,
+              "trades": 94
+            }
+          }
+        },
+        "pooled": {
+          "snapshots": 125870,
+          "trades": 832
+        }
+      },
+      "raw_T2_eligible": {
+        "by_symbol": {
+          "BNBUSDT": {
+            "snapshots": 24628,
+            "trades": 150
+          },
+          "BTCUSDT": {
+            "snapshots": 25789,
+            "trades": 141
+          },
+          "ETHUSDT": {
+            "snapshots": 25742,
+            "trades": 169
+          },
+          "SOLUSDT": {
+            "snapshots": 25657,
+            "trades": 203
+          },
+          "XRPUSDT": {
+            "snapshots": 26023,
+            "trades": 182
+          }
+        },
+        "by_year": {
+          "2024": {
+            "snapshots": 60757,
+            "trades": 415
+          },
+          "2025": {
+            "snapshots": 67082,
+            "trades": 430
+          }
+        },
+        "by_year_symbol": {
+          "2024": {
+            "BNBUSDT": {
+              "snapshots": 12925,
+              "trades": 81
+            },
+            "BTCUSDT": {
+              "snapshots": 11684,
+              "trades": 70
+            },
+            "ETHUSDT": {
+              "snapshots": 12442,
+              "trades": 80
+            },
+            "SOLUSDT": {
+              "snapshots": 12523,
+              "trades": 97
+            },
+            "XRPUSDT": {
+              "snapshots": 11183,
+              "trades": 87
+            }
+          },
+          "2025": {
+            "BNBUSDT": {
+              "snapshots": 11703,
+              "trades": 69
+            },
+            "BTCUSDT": {
+              "snapshots": 14105,
+              "trades": 71
+            },
+            "ETHUSDT": {
+              "snapshots": 13300,
+              "trades": 89
+            },
+            "SOLUSDT": {
+              "snapshots": 13134,
+              "trades": 106
+            },
+            "XRPUSDT": {
+              "snapshots": 14840,
+              "trades": 95
+            }
+          }
+        },
+        "pooled": {
+          "snapshots": 127839,
+          "trades": 845
+        }
+      },
+      "replay_authorized_complete_path": {
+        "by_symbol": {
+          "BNBUSDT": {
+            "snapshots": 9235,
+            "trades": 87
+          },
+          "BTCUSDT": {
+            "snapshots": 6874,
+            "trades": 74
+          },
+          "ETHUSDT": {
+            "snapshots": 6511,
+            "trades": 85
+          },
+          "SOLUSDT": {
+            "snapshots": 8557,
+            "trades": 106
+          },
+          "XRPUSDT": {
+            "snapshots": 7568,
+            "trades": 87
+          }
+        },
+        "by_year": {
+          "2024": {
+            "snapshots": 12275,
+            "trades": 155
+          },
+          "2025": {
+            "snapshots": 26470,
+            "trades": 284
+          }
+        },
+        "by_year_symbol": {
+          "2024": {
+            "BNBUSDT": {
+              "snapshots": 3670,
+              "trades": 37
+            },
+            "BTCUSDT": {
+              "snapshots": 2065,
+              "trades": 26
+            },
+            "ETHUSDT": {
+              "snapshots": 2201,
+              "trades": 29
+            },
+            "SOLUSDT": {
+              "snapshots": 1859,
+              "trades": 31
+            },
+            "XRPUSDT": {
+              "snapshots": 2480,
+              "trades": 32
+            }
+          },
+          "2025": {
+            "BNBUSDT": {
+              "snapshots": 5565,
+              "trades": 50
+            },
+            "BTCUSDT": {
+              "snapshots": 4809,
+              "trades": 48
+            },
+            "ETHUSDT": {
+              "snapshots": 4310,
+              "trades": 56
+            },
+            "SOLUSDT": {
+              "snapshots": 6698,
+              "trades": 75
+            },
+            "XRPUSDT": {
+              "snapshots": 5088,
+              "trades": 55
+            }
+          }
+        },
+        "pooled": {
+          "snapshots": 38745,
+          "trades": 439
+        }
+      }
+    },
+    "no_action_substitution": false,
+    "status": "PASS",
+    "support": {
+      "BNBUSDT": {
+        "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+        "replay_authorized_complete_path_trades": 87
+      },
+      "BTCUSDT": {
+        "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+        "replay_authorized_complete_path_trades": 74
+      },
+      "ETHUSDT": {
+        "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+        "replay_authorized_complete_path_trades": 85
+      },
+      "SOLUSDT": {
+        "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+        "replay_authorized_complete_path_trades": 106
+      },
+      "XRPUSDT": {
+        "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+        "replay_authorized_complete_path_trades": 87
+      }
+    },
+    "whole_path_construction": "PASS",
+    "year_role": {
+      "2024": "OOF_VALIDATION_ONLY",
+      "2025": "LOCKED_FINAL_C4_MODEL",
+      "split_role": "DIAGNOSTIC_ONLY_NO_POLICY_SELECTION_OR_TUNING"
+    }
+  },
+  "prediction_population_amendment_sha256": "c50928ab4911a4bf7dd148abad11bd011c0196135a07bca11d41077de92357a2",
+  "provenance_gate_status": "PASS",
+  "real_PnL_calculated": false,
+  "real_returns_calculated": false,
+  "report_schema": {
+    "BNBUSDT": [
+      "gross_return",
+      "entry_fee_quote",
+      "exit_fee_quote",
+      "fee_cost_quote",
+      "entry_slippage_quote",
+      "exit_slippage_quote",
+      "slippage_cost_quote",
+      "total_transaction_cost_quote",
+      "net_return",
+      "gross_expectancy",
+      "net_expectancy",
+      "fixed_notional_gross_pnl",
+      "fixed_notional_net_pnl",
+      "win_rate",
+      "zero_rate",
+      "loss_rate",
+      "downside_deviation",
+      "p05",
+      "p10",
+      "worst_trade",
+      "expected_shortfall_10",
+      "mean_holding_time",
+      "median_holding_time",
+      "exit_frequency",
+      "exposure_sum",
+      "exposure_union",
+      "common_mfe",
+      "held_mfe",
+      "common_capture_fraction",
+      "held_capture_fraction",
+      "common_capture_gap",
+      "held_peak_surrender",
+      "fraction_positive_mfe_surrendered",
+      "preserved_at_least_half_peak",
+      "green_to_red",
+      "winner_truncation",
+      "opportunity_foregone",
+      "subsequent_plus_2",
+      "subsequent_plus_3",
+      "subsequent_plus_5",
+      "total_trades",
+      "t2_eligible_trades",
+      "triggered_exits",
+      "unresolved_exits",
+      "paired_comparison_trades"
+    ],
+    "BTCUSDT": [
+      "gross_return",
+      "entry_fee_quote",
+      "exit_fee_quote",
+      "fee_cost_quote",
+      "entry_slippage_quote",
+      "exit_slippage_quote",
+      "slippage_cost_quote",
+      "total_transaction_cost_quote",
+      "net_return",
+      "gross_expectancy",
+      "net_expectancy",
+      "fixed_notional_gross_pnl",
+      "fixed_notional_net_pnl",
+      "win_rate",
+      "zero_rate",
+      "loss_rate",
+      "downside_deviation",
+      "p05",
+      "p10",
+      "worst_trade",
+      "expected_shortfall_10",
+      "mean_holding_time",
+      "median_holding_time",
+      "exit_frequency",
+      "exposure_sum",
+      "exposure_union",
+      "common_mfe",
+      "held_mfe",
+      "common_capture_fraction",
+      "held_capture_fraction",
+      "common_capture_gap",
+      "held_peak_surrender",
+      "fraction_positive_mfe_surrendered",
+      "preserved_at_least_half_peak",
+      "green_to_red",
+      "winner_truncation",
+      "opportunity_foregone",
+      "subsequent_plus_2",
+      "subsequent_plus_3",
+      "subsequent_plus_5",
+      "total_trades",
+      "t2_eligible_trades",
+      "triggered_exits",
+      "unresolved_exits",
+      "paired_comparison_trades"
+    ],
+    "ETHUSDT": [
+      "gross_return",
+      "entry_fee_quote",
+      "exit_fee_quote",
+      "fee_cost_quote",
+      "entry_slippage_quote",
+      "exit_slippage_quote",
+      "slippage_cost_quote",
+      "total_transaction_cost_quote",
+      "net_return",
+      "gross_expectancy",
+      "net_expectancy",
+      "fixed_notional_gross_pnl",
+      "fixed_notional_net_pnl",
+      "win_rate",
+      "zero_rate",
+      "loss_rate",
+      "downside_deviation",
+      "p05",
+      "p10",
+      "worst_trade",
+      "expected_shortfall_10",
+      "mean_holding_time",
+      "median_holding_time",
+      "exit_frequency",
+      "exposure_sum",
+      "exposure_union",
+      "common_mfe",
+      "held_mfe",
+      "common_capture_fraction",
+      "held_capture_fraction",
+      "common_capture_gap",
+      "held_peak_surrender",
+      "fraction_positive_mfe_surrendered",
+      "preserved_at_least_half_peak",
+      "green_to_red",
+      "winner_truncation",
+      "opportunity_foregone",
+      "subsequent_plus_2",
+      "subsequent_plus_3",
+      "subsequent_plus_5",
+      "total_trades",
+      "t2_eligible_trades",
+      "triggered_exits",
+      "unresolved_exits",
+      "paired_comparison_trades"
+    ],
+    "SOLUSDT": [
+      "gross_return",
+      "entry_fee_quote",
+      "exit_fee_quote",
+      "fee_cost_quote",
+      "entry_slippage_quote",
+      "exit_slippage_quote",
+      "slippage_cost_quote",
+      "total_transaction_cost_quote",
+      "net_return",
+      "gross_expectancy",
+      "net_expectancy",
+      "fixed_notional_gross_pnl",
+      "fixed_notional_net_pnl",
+      "win_rate",
+      "zero_rate",
+      "loss_rate",
+      "downside_deviation",
+      "p05",
+      "p10",
+      "worst_trade",
+      "expected_shortfall_10",
+      "mean_holding_time",
+      "median_holding_time",
+      "exit_frequency",
+      "exposure_sum",
+      "exposure_union",
+      "common_mfe",
+      "held_mfe",
+      "common_capture_fraction",
+      "held_capture_fraction",
+      "common_capture_gap",
+      "held_peak_surrender",
+      "fraction_positive_mfe_surrendered",
+      "preserved_at_least_half_peak",
+      "green_to_red",
+      "winner_truncation",
+      "opportunity_foregone",
+      "subsequent_plus_2",
+      "subsequent_plus_3",
+      "subsequent_plus_5",
+      "total_trades",
+      "t2_eligible_trades",
+      "triggered_exits",
+      "unresolved_exits",
+      "paired_comparison_trades"
+    ],
+    "XRPUSDT": [
+      "gross_return",
+      "entry_fee_quote",
+      "exit_fee_quote",
+      "fee_cost_quote",
+      "entry_slippage_quote",
+      "exit_slippage_quote",
+      "slippage_cost_quote",
+      "total_transaction_cost_quote",
+      "net_return",
+      "gross_expectancy",
+      "net_expectancy",
+      "fixed_notional_gross_pnl",
+      "fixed_notional_net_pnl",
+      "win_rate",
+      "zero_rate",
+      "loss_rate",
+      "downside_deviation",
+      "p05",
+      "p10",
+      "worst_trade",
+      "expected_shortfall_10",
+      "mean_holding_time",
+      "median_holding_time",
+      "exit_frequency",
+      "exposure_sum",
+      "exposure_union",
+      "common_mfe",
+      "held_mfe",
+      "common_capture_fraction",
+      "held_capture_fraction",
+      "common_capture_gap",
+      "held_peak_surrender",
+      "fraction_positive_mfe_surrendered",
+      "preserved_at_least_half_peak",
+      "green_to_red",
+      "winner_truncation",
+      "opportunity_foregone",
+      "subsequent_plus_2",
+      "subsequent_plus_3",
+      "subsequent_plus_5",
+      "total_trades",
+      "t2_eligible_trades",
+      "triggered_exits",
+      "unresolved_exits",
+      "paired_comparison_trades"
+    ],
+    "pooled_equal_weight_symbol": [
+      "gross_return",
+      "entry_fee_quote",
+      "exit_fee_quote",
+      "fee_cost_quote",
+      "entry_slippage_quote",
+      "exit_slippage_quote",
+      "slippage_cost_quote",
+      "total_transaction_cost_quote",
+      "net_return",
+      "gross_expectancy",
+      "net_expectancy",
+      "fixed_notional_gross_pnl",
+      "fixed_notional_net_pnl",
+      "win_rate",
+      "zero_rate",
+      "loss_rate",
+      "downside_deviation",
+      "p05",
+      "p10",
+      "worst_trade",
+      "expected_shortfall_10",
+      "mean_holding_time",
+      "median_holding_time",
+      "exit_frequency",
+      "exposure_sum",
+      "exposure_union",
+      "common_mfe",
+      "held_mfe",
+      "common_capture_fraction",
+      "held_capture_fraction",
+      "common_capture_gap",
+      "held_peak_surrender",
+      "fraction_positive_mfe_surrendered",
+      "preserved_at_least_half_peak",
+      "green_to_red",
+      "winner_truncation",
+      "opportunity_foregone",
+      "subsequent_plus_2",
+      "subsequent_plus_3",
+      "subsequent_plus_5",
+      "total_trades",
+      "t2_eligible_trades",
+      "triggered_exits",
+      "unresolved_exits",
+      "paired_comparison_trades"
+    ],
+    "pooled_trade_weighted": [
+      "gross_return",
+      "entry_fee_quote",
+      "exit_fee_quote",
+      "fee_cost_quote",
+      "entry_slippage_quote",
+      "exit_slippage_quote",
+      "slippage_cost_quote",
+      "total_transaction_cost_quote",
+      "net_return",
+      "gross_expectancy",
+      "net_expectancy",
+      "fixed_notional_gross_pnl",
+      "fixed_notional_net_pnl",
+      "win_rate",
+      "zero_rate",
+      "loss_rate",
+      "downside_deviation",
+      "p05",
+      "p10",
+      "worst_trade",
+      "expected_shortfall_10",
+      "mean_holding_time",
+      "median_holding_time",
+      "exit_frequency",
+      "exposure_sum",
+      "exposure_union",
+      "common_mfe",
+      "held_mfe",
+      "common_capture_fraction",
+      "held_capture_fraction",
+      "common_capture_gap",
+      "held_peak_surrender",
+      "fraction_positive_mfe_surrendered",
+      "preserved_at_least_half_peak",
+      "green_to_red",
+      "winner_truncation",
+      "opportunity_foregone",
+      "subsequent_plus_2",
+      "subsequent_plus_3",
+      "subsequent_plus_5",
+      "total_trades",
+      "t2_eligible_trades",
+      "triggered_exits",
+      "unresolved_exits",
+      "paired_comparison_trades"
+    ]
+  },
+  "sealed_confirmation_access": false,
+  "support_rule": {
+    "minimum_replay_authorized_complete_path_trades": 50,
+    "period": "POOLED_2024_2025",
+    "year_split": "DIAGNOSTIC_ONLY"
+  },
+  "symbol_support": {
+    "BNBUSDT": {
+      "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+      "replay_authorized_complete_path_trades": 87
+    },
+    "BTCUSDT": {
+      "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+      "replay_authorized_complete_path_trades": 74
+    },
+    "ETHUSDT": {
+      "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+      "replay_authorized_complete_path_trades": 85
+    },
+    "SOLUSDT": {
+      "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+      "replay_authorized_complete_path_trades": 106
+    },
+    "XRPUSDT": {
+      "classification": "SUFFICIENT SUPPORT FOR C5 SYMBOL-LEVEL INTERPRETATION",
+      "replay_authorized_complete_path_trades": 87
+    }
+  },
+  "test_results": {
+    "command": "pytest -q",
+    "duration_seconds": 132.49,
+    "failed": 0,
+    "passed": 238,
+    "status": "PASS",
+    "synthetic_c5_tests": 16
+  },
+  "upstream_hashes": {
+    "c2_entries": {
+      "actual_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+      "expected_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+      "matched": true,
+      "path": "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv"
+    },
+    "c4_evaluation_manifest": {
+      "actual_sha256": "0b44680fcd411d3377619d5b8345c275064d7c4b81973696282e738e56526b8e",
+      "expected_sha256": "0b44680fcd411d3377619d5b8345c275064d7c4b81973696282e738e56526b8e",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/locked_2025/evaluation_manifest.json"
+    },
+    "c4_feature_schema": {
+      "actual_sha256": "ad435c193de8a312816455783b6d55e798095428857e993c0255d408a8bd8325",
+      "expected_sha256": "ad435c193de8a312816455783b6d55e798095428857e993c0255d408a8bd8325",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/feature_schema.json"
+    },
+    "c4_freeze": {
+      "actual_sha256": "011c35e91297468e2015442ec2c95079cfdb8cf28bf11a113e2ad6e1ee093fb2",
+      "expected_sha256": "011c35e91297468e2015442ec2c95079cfdb8cf28bf11a113e2ad6e1ee093fb2",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/c4_2024_freeze.json"
+    },
+    "c4_models": {
+      "actual_sha256": "aa97e0ccd25fff016f852c2e62be8a05bbda6e8bc919964231731dabe29e21bc",
+      "expected_sha256": "aa97e0ccd25fff016f852c2e62be8a05bbda6e8bc919964231731dabe29e21bc",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/final_models_2024.json"
+    },
+    "c4_predictions_2024": {
+      "actual_sha256": "1c6b80e0cbb17c7a31c686c9688d3200a1d4e78a1d0fe90c8ef5cf4a42129381",
+      "expected_sha256": "1c6b80e0cbb17c7a31c686c9688d3200a1d4e78a1d0fe90c8ef5cf4a42129381",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/development_predictions_2024.csv"
+    },
+    "c4_predictions_2025": {
+      "actual_sha256": "ad087ebf7469d5682ed20f522967e7b9400d3452e9e60f433bfef6330a7deb2a",
+      "expected_sha256": "ad087ebf7469d5682ed20f522967e7b9400d3452e9e60f433bfef6330a7deb2a",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/locked_2025/predictions.csv"
+    },
+    "c4_preprocessing": {
+      "actual_sha256": "36397c9654057e0c1e06c78537ebb9d6911d79be4eb402a1dc3cec8cc0c3bf22",
+      "expected_sha256": "36397c9654057e0c1e06c78537ebb9d6911d79be4eb402a1dc3cec8cc0c3bf22",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/final_preprocessing_2024.json"
+    },
+    "c4_snapshot_schema": {
+      "actual_sha256": "ac563f666462e98dc76ec03d242adbf925ecf6091bc67457f0a804571dc4716a",
+      "expected_sha256": "ac563f666462e98dc76ec03d242adbf925ecf6091bc67457f0a804571dc4716a",
+      "matched": true,
+      "path": "artifacts/c4_sequential_exit_state/snapshot_schema.json"
+    },
+    "common_horizons_p0": {
+      "actual_sha256": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+      "expected_sha256": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+      "matched": true,
+      "path": "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv"
+    }
+  },
+  "version": "C5_T1_READINESS_V2_COMPLETE_PATH"
+}
