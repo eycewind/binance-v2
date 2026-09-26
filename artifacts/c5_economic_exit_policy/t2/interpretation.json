@@ -1,0 +1,224 @@
+{
+  "Q75_determined_advancement": true,
+  "Q90_cannot_rescue_Q75": true,
+  "breadth_concentration": "NOT CLASSIFIED",
+  "c_s5_pooled_safety": {
+    "adverse_interval_metrics": [],
+    "available": true,
+    "required_metrics": {
+      "expected_shortfall_10": {
+        "available": true,
+        "ci95": [
+          -0.0005927206145758993,
+          0.0001469840481592429
+        ],
+        "paired_trades": 439,
+        "point_estimate": -0.00015494146310179044,
+        "replicates": 2000
+      },
+      "green_to_red_rate": {
+        "available": true,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "paired_trades": 439,
+        "point_estimate": 0.0,
+        "replicates": 2000
+      },
+      "mean_opportunity_foregone_after_early_exit": {
+        "available": true,
+        "ci95": [
+          -0.0001262430647438524,
+          0.00014205092439972762
+        ],
+        "paired_trades": 439,
+        "point_estimate": -6.556311849360147e-06,
+        "replicates": 2000
+      },
+      "subsequent_plus_2_rate_after_early_exit": {
+        "available": true,
+        "ci95": [
+          -0.004578251843671507,
+          0.00730354172967291
+        ],
+        "paired_trades": 439,
+        "point_estimate": 0.0012386370793356916,
+        "replicates": 2000
+      },
+      "subsequent_plus_3_rate_after_early_exit": {
+        "available": true,
+        "ci95": [
+          0.0,
+          0.002259072838294607
+        ],
+        "paired_trades": 439,
+        "point_estimate": 0.0006350639262696078,
+        "replicates": 2000
+      },
+      "subsequent_plus_5_rate_after_early_exit": {
+        "available": true,
+        "ci95": [
+          0.0,
+          0.0007586890990239776
+        ],
+        "paired_trades": 439,
+        "point_estimate": 0.0002046900258224349,
+        "replicates": 2000
+      }
+    },
+    "unacceptable_safety_breach": false
+  },
+  "c_s5_survival": {
+    "p1_minus_g1": 6.147693764107544e-06,
+    "p1_minus_p0": 0.009031739890215404,
+    "survives": true
+  },
+  "concentration_status_semantics": {
+    "meaning": "breadth/concentration classification is inapplicable because the pooled support preconditions were not satisfied",
+    "overall_label": false,
+    "role": "INTERNAL_NON_ADVANCEMENT_STATUS_ONLY",
+    "scientific_classification": false,
+    "value": "NOT CLASSIFIED"
+  },
+  "canonical_trade_results_sha256": "094c81c306f1084146db55cee3c6f38178e58a0e72e55e056bb0dd1eb6c46884",
+  "development_era_evidence": true,
+  "interpretation_change": {
+    "current": "MIXED",
+    "previous": "MIXED",
+    "reason": "no C_S5 safety breach; primary C_BASE MIXED rule remains controlling"
+  },
+  "overall_frozen_c5_interpretation": "MIXED",
+  "policy_trigger_replay_rerun": false,
+  "pooled_control": {
+    "available": true,
+    "ci95": [
+      0.007579738878726341,
+      0.01051249736938011
+    ],
+    "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+    "metric": "net_return",
+    "multiplicity_preserved": true,
+    "paired_trades": 439,
+    "point_estimate": 0.009031009177405151
+  },
+  "pooled_practical": {
+    "available": true,
+    "ci95": [
+      0.007541845150591302,
+      0.010543165034559992
+    ],
+    "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+    "metric": "net_return",
+    "multiplicity_preserved": true,
+    "paired_trades": 439,
+    "point_estimate": 0.0090371605608928
+  },
+  "pooled_primary": {
+    "available": true,
+    "ci95": [
+      -0.0001028466355037442,
+      0.0001133793663419173
+    ],
+    "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+    "metric": "net_return",
+    "multiplicity_preserved": true,
+    "paired_trades": 439,
+    "point_estimate": 6.151383487648949e-06
+  },
+  "pooled_safety": {
+    "available": true,
+    "intervals": {
+      "expected_shortfall_10": {
+        "available": true,
+        "block_length_entry_weeks": 4,
+        "ci95": [
+          -0.0005930763537019373,
+          0.00014707226506201204
+        ],
+        "generator": "PCG64",
+        "metric": "expected_shortfall_10",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": -0.00015503445588677372,
+        "replicates": 2000,
+        "seed": 20240923
+      },
+      "green_to_red": {
+        "available": true,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.0
+      },
+      "opportunity_foregone": {
+        "available": true,
+        "block_length_entry_weeks": 4,
+        "ci95": [
+          -0.00012624306474385576,
+          0.00014205092439972762
+        ],
+        "generator": "PCG64",
+        "metric": "opportunity_foregone",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": -6.556311849360147e-06,
+        "replicates": 2000,
+        "seed": 20240923
+      },
+      "subsequent_plus_2": {
+        "available": true,
+        "block_length_entry_weeks": 4,
+        "ci95": [
+          -0.004578251843671507,
+          0.00730354172967291
+        ],
+        "generator": "PCG64",
+        "metric": "subsequent_plus_2",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.0012386370793356916,
+        "replicates": 2000,
+        "seed": 20240923
+      },
+      "subsequent_plus_3": {
+        "available": true,
+        "block_length_entry_weeks": 4,
+        "ci95": [
+          0.0,
+          0.002259072838294607
+        ],
+        "generator": "PCG64",
+        "metric": "subsequent_plus_3",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.0006350639262696078,
+        "replicates": 2000,
+        "seed": 20240923
+      },
+      "subsequent_plus_5": {
+        "available": true,
+        "block_length_entry_weeks": 4,
+        "ci95": [
+          0.0,
+          0.0007586890990239776
+        ],
+        "generator": "PCG64",
+        "metric": "subsequent_plus_5",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.0002046900258224349,
+        "replicates": 2000,
+        "seed": 20240923
+      }
+    },
+    "unacceptable_safety_breach": false
+  },
+  "reporting_completion_version": "C5_T2_STATISTICAL_COMPLETION_V1",
+  "t3_policy_freeze_performed": false
+}

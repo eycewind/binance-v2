@@ -1,0 +1,62 @@
+{
+  "attempt_count": 4,
+  "attempts": [
+    {
+      "chronological_order": 1,
+      "economics_displayed": true,
+      "end_timestamp_utc": null,
+      "implementation_state": "initial c5_t2 implementation; pre-T2-specific tests; safety ES used an incorrect per-trade proxy",
+      "purpose": "initial authorized historical replay",
+      "start_timestamp_utc": null,
+      "status": "PASS"
+    },
+    {
+      "chronological_order": 2,
+      "economics_displayed": true,
+      "end_timestamp_utc": null,
+      "implementation_state": "ES and early-exit safety recomputed within moving-block replicates; focused tests added",
+      "purpose": "replay after nonlinear safety-bootstrap correction",
+      "start_timestamp_utc": null,
+      "status": "PASS"
+    },
+    {
+      "chronological_order": 3,
+      "economics_displayed": false,
+      "end_timestamp_utc": null,
+      "implementation_state": "code/config/input hashes and attempt ledger added; command output redirected",
+      "purpose": "artifact regeneration after reproducibility/attempt-ledger additions",
+      "start_timestamp_utc": null,
+      "status": "PASS"
+    },
+    {
+      "chronological_order": 4,
+      "code_sha256": "e311dfecd8cd85ba58438943f35c9d270ea36da64eb71fce3349d17f2104bac3",
+      "configuration_sha256": "d309904e51cc8df09b83ff5e8f50c2cc36b48c6b5309c0825e971e4078103bbe",
+      "economics_displayed": false,
+      "end_timestamp_utc": "2026-09-26T04:43:21.741597+00:00",
+      "implementation_state": "symbol contribution trade IDs sorted before floating-point summation; command output redirected",
+      "input_manifest_sha256": "bfe816b445c2edd91539be6e4acf99f858cbc9fbdac75440d4c48398b7628cb0",
+      "output_hashes": {
+        "bootstrap_comparisons.json": "1de288013ba2bc9152c14d5563c3d4f6faced826662916a0cbfa547019c2f2ba",
+        "concentration.json": "a4c57437f5b65628fbf2a532e4b2628a73173eca74438469678a661eed058756",
+        "cost_summary.json": "4ab0006c8a6b103364a0c58e83c402ec4b62d844d9a2968cd15a77c39478c781",
+        "interpretation.json": "ecb9dea5f99937c52668387bd7c25ba94739f62f4a7bcfb5e7508fa20edc00cb",
+        "mfe_capture.json": "a4bd64d6cc3f1c404427d0401943c96d00dcab0ab67ead6653787cec80350197",
+        "policy_summary.json": "4ab0006c8a6b103364a0c58e83c402ec4b62d844d9a2968cd15a77c39478c781",
+        "population_summary.json": "73f7138718f55790ad5e44258b833de1b5855ce528ca1bb620139b4f29f5bf7f",
+        "replay_manifest.json": "4d3a6089dca013aea0817bf11bfe219f1e06b83f16a8fffcb3540bc6e0caea77",
+        "symbol_summary.json": "9e3d5736bebce854289828e8aec146ff35f744d1072e7e264e4b4301f9847a3e",
+        "trade_results.csv": "094c81c306f1084146db55cee3c6f38178e58a0e72e55e056bb0dd1eb6c46884",
+        "winner_truncation.json": "02cd8df3ecc9e2d27fc52967fac870f66f2a70a265062b4a6834fac85c97237f",
+        "year_summary.json": "0af249112e98208956b55dca881f82c7c826f454fea508290af7e241797a2858"
+      },
+      "purpose": "final replay after deterministic contribution-order fix",
+      "start_timestamp_utc": "2026-09-26T04:37:10.565600+00:00",
+      "status": "PASS"
+    }
+  ],
+  "failed_historical_replays": 0,
+  "failed_test_detail": "synthetic half-peak expectation corrected from true to false; replay logic unchanged",
+  "failed_test_runs": 1,
+  "reconstruction_basis": "Codex transcript; unavailable timestamps explicitly null; no attempt invented"
+}

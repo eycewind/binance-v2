@@ -1,0 +1,46 @@
+{
+  "adverse_interval_symbols": [],
+  "classification": "NOT CLASSIFIED",
+  "favorable_symbols_g1": [
+    "BTCUSDT",
+    "XRPUSDT",
+    "BNBUSDT"
+  ],
+  "favorable_symbols_p0": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "BNBUSDT"
+  ],
+  "largest_symbol_positive_share": 0.2705805927993152,
+  "positive_only_shares": {
+    "BNBUSDT": 0.16570684977024933,
+    "BTCUSDT": 0.18362266779049255,
+    "ETHUSDT": 0.23431352546931278,
+    "SOLUSDT": 0.2705805927993152,
+    "XRPUSDT": 0.14577636417063014
+  },
+  "signed_p1_minus_g1": {
+    "BNBUSDT": 0.7911471007985411,
+    "BTCUSDT": 8.035826264566891,
+    "ETHUSDT": -5.202641895364431,
+    "SOLUSDT": -9.797114497963742,
+    "XRPUSDT": 8.873240379040631
+  },
+  "signed_p1_minus_p0": {
+    "BNBUSDT": 657.4110198545201,
+    "BTCUSDT": 728.4886863031082,
+    "ETHUSDT": 929.5952096009556,
+    "SOLUSDT": 1073.4780349253558,
+    "XRPUSDT": 578.3405355479995
+  },
+  "signed_total_g1": 2.70045735107789,
+  "signed_total_p0": 3967.3134862319394,
+  "total_negative_contribution_magnitude": 0,
+  "unfavorable_symbols_g1": [
+    "ETHUSDT",
+    "SOLUSDT"
+  ],
+  "unfavorable_symbols_p0": []
+}

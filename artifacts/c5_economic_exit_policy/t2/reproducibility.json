@@ -1,0 +1,77 @@
+{
+  "bootstrap_parameters": {
+    "block_length_entry_weeks": 4,
+    "generator": "PCG64",
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "linear",
+    "replicates": 2000,
+    "seed": 20240923,
+    "unit": "whole_trade"
+  },
+  "configuration_sha256": "d309904e51cc8df09b83ff5e8f50c2cc36b48c6b5309c0825e971e4078103bbe",
+  "cost_assumptions": {
+    "C0": {
+      "adverse_slippage_per_leg": 0.0,
+      "fee_per_leg": 0.0
+    },
+    "C_BASE": {
+      "adverse_slippage_per_leg": 0.0002,
+      "fee_per_leg": 0.001
+    },
+    "C_S10": {
+      "adverse_slippage_per_leg": 0.001,
+      "fee_per_leg": 0.001
+    },
+    "C_S5": {
+      "adverse_slippage_per_leg": 0.0005,
+      "fee_per_leg": 0.001
+    }
+  },
+  "deterministic_core_outputs": true,
+  "economic_input_hashes": {
+    "entries": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "p0_horizons": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f"
+  },
+  "governance_hashes": {
+    "addendum": "eee71e73d105ff2a48e1832ccc16b27b14a83ac101315639ed3ea1165dbd62ac",
+    "contract": "71f431c0f17e4c730c6aa713ce39b164a5c2a3634e333261c236bd92bf6023a3",
+    "prediction_population_amendment": "c50928ab4911a4bf7dd148abad11bd011c0196135a07bca11d41077de92357a2"
+  },
+  "numpy": "2.4.6",
+  "output_hashes": {
+    "bootstrap_comparisons.json": "1de288013ba2bc9152c14d5563c3d4f6faced826662916a0cbfa547019c2f2ba",
+    "concentration.json": "a4c57437f5b65628fbf2a532e4b2628a73173eca74438469678a661eed058756",
+    "cost_summary.json": "4ab0006c8a6b103364a0c58e83c402ec4b62d844d9a2968cd15a77c39478c781",
+    "interpretation.json": "ecb9dea5f99937c52668387bd7c25ba94739f62f4a7bcfb5e7508fa20edc00cb",
+    "mfe_capture.json": "a4bd64d6cc3f1c404427d0401943c96d00dcab0ab67ead6653787cec80350197",
+    "policy_summary.json": "4ab0006c8a6b103364a0c58e83c402ec4b62d844d9a2968cd15a77c39478c781",
+    "population_summary.json": "73f7138718f55790ad5e44258b833de1b5855ce528ca1bb620139b4f29f5bf7f",
+    "replay_manifest.json": "4d3a6089dca013aea0817bf11bfe219f1e06b83f16a8fffcb3540bc6e0caea77",
+    "symbol_summary.json": "9e3d5736bebce854289828e8aec146ff35f744d1072e7e264e4b4301f9847a3e",
+    "trade_results.csv": "094c81c306f1084146db55cee3c6f38178e58a0e72e55e056bb0dd1eb6c46884",
+    "winner_truncation.json": "02cd8df3ecc9e2d27fc52967fac870f66f2a70a265062b4a6834fac85c97237f",
+    "year_summary.json": "0af249112e98208956b55dca881f82c7c826f454fea508290af7e241797a2858"
+  },
+  "policy_cutoffs": {
+    "G1_Q75_EXIT_V1": 0.38599566214835807,
+    "G1_Q90_EXIT_V1": 0.5437961868373885,
+    "P1_Q75_EXIT_V1": 0.3962652238189601,
+    "P1_Q90_EXIT_V1": 0.5665730461166496
+  },
+  "population_identity_hashes": {
+    "rows": "402581b316df4350db727c8b3ad8b9295c3fe9af111f9ee14e52e2800c87c059",
+    "trades": "8cf793fdcf9b8e2ef363e503ed6c2060d1db9f2affdd53174d8fe3f4fde0d021"
+  },
+  "prediction_artifact_hashes": {
+    "2024": "1c6b80e0cbb17c7a31c686c9688d3200a1d4e78a1d0fe90c8ef5cf4a42129381",
+    "2025": "ad087ebf7469d5682ed20f522967e7b9400d3452e9e60f433bfef6330a7deb2a"
+  },
+  "python": "3.11.16",
+  "sealed_confirmation_access": false,
+  "source_code_sha256": "e311dfecd8cd85ba58438943f35c9d270ea36da64eb71fce3349d17f2104bac3",
+  "t1_readiness_sha256": "8c63b9e39b0b5365014c05c74bc1c57907ad9072109d3dbc8c2c430c385f6b4a",
+  "timestamp_bearing_manifests_nonsemantic": true
+}

@@ -1,0 +1,1354 @@
+{
+  "comparisons": {
+    "2024": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.008434055779108562,
+          0.011975669816025722
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 155,
+        "point_estimate": 0.010166098517896951
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006172227917438912,
+          0.01095982218729964
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 155,
+        "point_estimate": 0.008518104023430825
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -1.8658072687687676e-05,
+          0.00030969591332718897
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 155,
+        "point_estimate": 0.0001683891241857442
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.008569754287717382,
+          0.012111395189866838
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 155,
+        "point_estimate": 0.010334487642082694
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00027200922554191374,
+          0.0008642513486028962
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 155,
+        "point_estimate": 0.00022124846238837613
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0066210262627859956,
+          0.01100255695493401
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 155,
+        "point_estimate": 0.008739352485819201
+      }
+    },
+    "2025": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.00628163378463274,
+          0.010293302418036896
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 284,
+        "point_estimate": 0.008411506192277584
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.005670027300914803,
+          0.009910980349341042
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 284,
+        "point_estimate": 0.007907478036386965
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00021537916975583694,
+          2.384882757818332e-05
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 284,
+        "point_estimate": -8.239386231588894e-05
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006130596038559162,
+          0.010240802987022263
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 284,
+        "point_estimate": 0.008329112329961695
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00023166216773618838,
+          0.0001406194742310954
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 284,
+        "point_estimate": -3.974004167819539e-05
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.005604558428721709,
+          0.009939016141925959
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 284,
+        "point_estimate": 0.00786773799470877
+      }
+    },
+    "BNBUSDT": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0060187453111730915,
+          0.009515344663453459
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.007547354859238179
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.004552325312077344,
+          0.008614361559300615
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.006374031054724744
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00016456984475591717,
+          0.0001496756745350092
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 9.093644836764812e-06
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.005953512807707325,
+          0.00952468675926419
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.007556448504074945
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.0011297761710992562,
+          -0.00011953241181877641
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": -0.0005801307581655518
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0039347143760170705,
+          0.008083112856758884
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.005793900296559193
+      }
+    },
+    "BTCUSDT": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006995166671434219,
+          0.011999766492370448
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 74,
+        "point_estimate": 0.009735849459980286
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.005628596417364339,
+          0.010991882965125105
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 74,
+        "point_estimate": 0.008472525717127049
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -4.666589335600288e-05,
+          0.00035292087866651965
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 74,
+        "point_estimate": 0.00010859224681847151
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.007138985824884636,
+          0.012075378132284006
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 74,
+        "point_estimate": 0.009844441706798759
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.0009125671193772188,
+          0.00019921942409035766
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 74,
+        "point_estimate": -0.0002900541557379517
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.005221834225942162,
+          0.010610250445721678
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 74,
+        "point_estimate": 0.008182471561389097
+      }
+    },
+    "ETHUSDT": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.008825548122713165,
+          0.013603242004114398
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 85,
+        "point_estimate": 0.010997621782309645
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.007042337459888165,
+          0.011900017568941669
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 85,
+        "point_estimate": 0.009369044657845063
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.0004311599891914808,
+          0.0001862405608157755
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 85,
+        "point_estimate": -6.12075517101698e-05
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.008696198345485661,
+          0.013545452636430567
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 85,
+        "point_estimate": 0.010936414230599475
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -2.2298224761634562e-05,
+          0.0026495359692114127
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 85,
+        "point_estimate": 0.0010129581871889963
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.008066397936690653,
+          0.012785161541009
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 85,
+        "point_estimate": 0.01038200284503406
+      }
+    },
+    "SOLUSDT": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006793768462576836,
+          0.013048340677441444
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 106,
+        "point_estimate": 0.010219576881352072
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006571147165248069,
+          0.012702861360485363
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 106,
+        "point_estimate": 0.009891686358606894
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00026105455118317407,
+          8.858522580431776e-05
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 106,
+        "point_estimate": -9.242560847135605e-05
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006624420181614222,
+          0.012959922948371512
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 106,
+        "point_estimate": 0.010127151272880717
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00024409516443142852,
+          0.0003720435992702718
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 106,
+        "point_estimate": 7.135730789710919e-05
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006458794174541217,
+          0.012975642585275018
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 106,
+        "point_estimate": 0.009963043666504004
+      }
+    },
+    "XRPUSDT": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0009271391410970627,
+          0.01037713383953673
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.006545601093896079
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0006145911749552696,
+          0.009967779278175765
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.006202698059862765
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00021426492350100191,
+          0.00044052991883572446
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.00010199126872460494
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0009286904958609232,
+          0.010472075526125594
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.006647592362620683
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.0003180042109328213,
+          0.00030861872527104025
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 1.4682790464873173e-05
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0004991701869783579,
+          0.009949962189383273
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 87,
+        "point_estimate": 0.006217380850327639
+      }
+    },
+    "pooled_trade_weighted": {
+      "G1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.007579738878726341,
+          0.01051249736938011
+        ],
+        "comparison": "G1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.009031009177405151
+      },
+      "G1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.0064633334137054015,
+          0.009773769767847716
+        ],
+        "comparison": "G1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.008123074911083545
+      },
+      "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.0001028466355037442,
+          0.0001133793663419173
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 6.151383487648949e-06
+      },
+      "P1_Q75_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.007541845150591302,
+          0.010543165034559992
+        ],
+        "comparison": "P1_Q75_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.0090371605608928
+      },
+      "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1": {
+        "available": true,
+        "ci95": [
+          -0.00017483321105145656,
+          0.00032348821118200583
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_G1_Q90_EXIT_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 5.2408518983122526e-05
+      },
+      "P1_Q90_EXIT_V1_minus_P0_HELD_V1": {
+        "available": true,
+        "ci95": [
+          0.006533253080209829,
+          0.009778116144180674
+        ],
+        "comparison": "P1_Q90_EXIT_V1_minus_P0_HELD_V1",
+        "metric": "net_return",
+        "multiplicity_preserved": true,
+        "paired_trades": 439,
+        "point_estimate": 0.008175483430066667
+      }
+    }
+  },
+  "parameters": {
+    "block_length_entry_weeks": 4,
+    "generator": "PCG64",
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "linear",
+    "replicates": 2000,
+    "seed": 20240923,
+    "unit": "whole_trade"
+  },
+  "safety": {
+    "2024": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0002109427223010646,
+            0.00045931167386592536
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 155,
+          "point_estimate": 0.0001325891091278424,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 155,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.00019123123776009044,
+            0.0001467019751474668
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 155,
+          "point_estimate": -4.621636594382729e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.02027027027027023
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 155,
+          "point_estimate": 0.006535947712418333,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 155,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 155,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": false
+    },
+    "2025": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0010475515263794566,
+            -2.8842167207886557e-05
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 284,
+          "point_estimate": -0.00041921192792505196,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 284,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.00015259936418736305,
+            0.00025235705135656324
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 284,
+          "point_estimate": 1.897409406108677e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.009374999999999915,
+            0.006616958503301092
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 284,
+          "point_estimate": -0.0015303837157218947,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.004280981827359907
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 284,
+          "point_estimate": 0.001057582242572075,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.00142679518476485
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 284,
+          "point_estimate": 0.00034838003284726193,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": true
+    },
+    "BNBUSDT": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.00030665601060652834,
+            2.5916682988029604e-05
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": -6.873868745428408e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -7.125216204843877e-05,
+            0.00015844903741483936
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 1.8063454070012946e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": false
+    },
+    "BTCUSDT": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.000344485118156449,
+            0.0004906432684458309
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 74,
+          "point_estimate": 4.144172924630714e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 74,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.00037269793056644054,
+            4.178367935987032e-05
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 74,
+          "point_estimate": -0.00011989047972191941,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 74,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 74,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 74,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": false
+    },
+    "ETHUSDT": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0026716039180920107,
+            0.0006191159230440442
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 85,
+          "point_estimate": -0.0004961574512743119,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 85,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0003114841329283645,
+            0.0006027728317421394
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 85,
+          "point_estimate": 5.9408107662785314e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.025272025272025322
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 85,
+          "point_estimate": 0.0071428571428571175,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.014957217968799065
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 85,
+          "point_estimate": 0.004201680672268893,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0035902406417112308
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 85,
+          "point_estimate": 0.0008403361344537785,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": false
+    },
+    "SOLUSDT": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0006630578324789391,
+            0.00037647744320545173
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 106,
+          "point_estimate": -3.749576401911908e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 106,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0002252592532299003,
+            0.00017626361442720526
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 106,
+          "point_estimate": -4.104269084343609e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.027278982485404564,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 106,
+          "point_estimate": -0.009615384615384581,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 106,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 106,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": false
+    },
+    "XRPUSDT": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0005746834063154124,
+            0.0002874891144188115
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": -0.00010414554765304784,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.00029988382479690994,
+            0.000292425384147701
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 3.8383679044007996e-05,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.02380952380952378
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.011494252873563204,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 87,
+          "point_estimate": 0.0,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": false
+    },
+    "pooled_trade_weighted": {
+      "available": true,
+      "intervals": {
+        "expected_shortfall_10": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.0005930763537019373,
+            0.00014707226506201204
+          ],
+          "generator": "PCG64",
+          "metric": "expected_shortfall_10",
+          "multiplicity_preserved": true,
+          "paired_trades": 439,
+          "point_estimate": -0.00015503445588677372,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "green_to_red": {
+          "available": true,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "P1_Q75_EXIT_V1_minus_G1_Q75_EXIT_V1",
+          "metric": "net_return",
+          "multiplicity_preserved": true,
+          "paired_trades": 439,
+          "point_estimate": 0.0
+        },
+        "opportunity_foregone": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.00012624306474385576,
+            0.00014205092439972762
+          ],
+          "generator": "PCG64",
+          "metric": "opportunity_foregone",
+          "multiplicity_preserved": true,
+          "paired_trades": 439,
+          "point_estimate": -6.556311849360147e-06,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_2": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            -0.004578251843671507,
+            0.00730354172967291
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_2",
+          "multiplicity_preserved": true,
+          "paired_trades": 439,
+          "point_estimate": 0.0012386370793356916,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_3": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.002259072838294607
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_3",
+          "multiplicity_preserved": true,
+          "paired_trades": 439,
+          "point_estimate": 0.0006350639262696078,
+          "replicates": 2000,
+          "seed": 20240923
+        },
+        "subsequent_plus_5": {
+          "available": true,
+          "block_length_entry_weeks": 4,
+          "ci95": [
+            0.0,
+            0.0007586890990239776
+          ],
+          "generator": "PCG64",
+          "metric": "subsequent_plus_5",
+          "multiplicity_preserved": true,
+          "paired_trades": 439,
+          "point_estimate": 0.0002046900258224349,
+          "replicates": 2000,
+          "seed": 20240923
+        }
+      },
+      "unacceptable_safety_breach": false
+    }
+  }
+}

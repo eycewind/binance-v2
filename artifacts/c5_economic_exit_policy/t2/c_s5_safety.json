@@ -1,0 +1,67 @@
+{
+  "adverse_interval_metrics": [],
+  "available": true,
+  "required_metrics": {
+    "expected_shortfall_10": {
+      "available": true,
+      "ci95": [
+        -0.0005927206145758993,
+        0.0001469840481592429
+      ],
+      "paired_trades": 439,
+      "point_estimate": -0.00015494146310179044,
+      "replicates": 2000
+    },
+    "green_to_red_rate": {
+      "available": true,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_trades": 439,
+      "point_estimate": 0.0,
+      "replicates": 2000
+    },
+    "mean_opportunity_foregone_after_early_exit": {
+      "available": true,
+      "ci95": [
+        -0.0001262430647438524,
+        0.00014205092439972762
+      ],
+      "paired_trades": 439,
+      "point_estimate": -6.556311849360147e-06,
+      "replicates": 2000
+    },
+    "subsequent_plus_2_rate_after_early_exit": {
+      "available": true,
+      "ci95": [
+        -0.004578251843671507,
+        0.00730354172967291
+      ],
+      "paired_trades": 439,
+      "point_estimate": 0.0012386370793356916,
+      "replicates": 2000
+    },
+    "subsequent_plus_3_rate_after_early_exit": {
+      "available": true,
+      "ci95": [
+        0.0,
+        0.002259072838294607
+      ],
+      "paired_trades": 439,
+      "point_estimate": 0.0006350639262696078,
+      "replicates": 2000
+    },
+    "subsequent_plus_5_rate_after_early_exit": {
+      "available": true,
+      "ci95": [
+        0.0,
+        0.0007586890990239776
+      ],
+      "paired_trades": 439,
+      "point_estimate": 0.0002046900258224349,
+      "replicates": 2000
+    }
+  },
+  "unacceptable_safety_breach": false
+}

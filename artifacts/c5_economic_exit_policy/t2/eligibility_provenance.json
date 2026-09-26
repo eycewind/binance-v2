@@ -1,0 +1,7 @@
+{
+  "canonical_trade_field_semantics": "t2_eligible=True records inherited upstream eligibility provenance; the completion pass does not independently recompute eligibility",
+  "inherited_not_recomputed": true,
+  "policy_outcomes_recomputed": false,
+  "population_changed": false,
+  "source": "accepted C5 T1 readiness and replay-authorized complete-path population"
+}

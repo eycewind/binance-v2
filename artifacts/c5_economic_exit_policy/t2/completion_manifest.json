@@ -1,0 +1,23 @@
+{
+  "T3_performed": false,
+  "canonical_trade_results": {
+    "immutable": true,
+    "path": "artifacts/c5_economic_exit_policy/t2/trade_results.csv",
+    "sha256": "094c81c306f1084146db55cee3c6f38178e58a0e72e55e056bb0dd1eb6c46884"
+  },
+  "concentration_status_governance": "NOT CLASSIFIED is internal/non-advancement only and is not a scientific or overall C5 label",
+  "output_hashes": {
+    "attempt_ledger.json": "1b5d01fbbe4cf1dabd6dc69616b821f23369c55207b857dca8665f27e11f80f5",
+    "bootstrap_reproducibility.json.gz": "d509e5faf6aff3fa8179a652113d50490beb9ee76b41f00a938c7cc952f48784",
+    "c_s5_safety.json": "7136a3d57942e9eb289d202bd7743dbb0b7139a6ef6e8b5981e44fbcc2973df0",
+    "calendar_month_bootstrap.json": "8e3949b1d097ad0bc8725d2feee645b3dd30339142c98c4ebaff66addf0dbcc9",
+    "eligibility_provenance.json": "5e5098bf27f7ef1bc3ce10c435b3390c95149b0846a0c0835682a2cf62cf96bf",
+    "interpretation.json": "feb7c3c0d3e73a1abc38abaa47377627d25fa0084c7ca9b0cf08d1cca8fb7f43",
+    "paired_interval_panel.json": "feabf0ff6a455b47ca8a0e652674c8d5f0115902aabdc3c1aa99d704335a2aca"
+  },
+  "policy_trigger_replay_invoked": false,
+  "predictions_generated": false,
+  "sealed_confirmation_access": false,
+  "thresholds_policies_costs_populations_changed": false,
+  "version": "C5_T2_STATISTICAL_COMPLETION_V1"
+}

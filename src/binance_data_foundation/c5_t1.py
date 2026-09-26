@@ -245,6 +245,7 @@ def moving_block_bootstrap(values: Mapping[str, float], entry_weeks: Mapping[str
 
 def symbol_strength(eligible: int, path_delta: float | None, path_ci: tuple[float,float] | None, practical_delta: float | None) -> str:
     if eligible < 50 or path_delta is None or path_ci is None: return "INSUFFICIENT SUPPORT"
+    if practical_delta is None or path_delta == 0 or practical_delta == 0 or (path_delta > 0) != (practical_delta > 0): return "MIXED"
     if path_delta > 0 and path_ci[0] > 0 and practical_delta is not None and practical_delta > 0: return "STRONG SUPPORT"
     if path_delta > 0 and path_ci[0] <= 0 <= path_ci[1]: return "DIRECTIONAL SUPPORT"
     if path_delta < 0 and path_ci[1] < 0: return "COUNTS AGAINST"

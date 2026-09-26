@@ -1,0 +1,51 @@
+{
+  "Q75_role": "PRIMARY",
+  "Q90_role": "SENSITIVITY_ONLY_CANNOT_RESCUE_Q75",
+  "T2_ready_verified": true,
+  "T3_performed": false,
+  "bootstrap": {
+    "block_length_entry_weeks": 4,
+    "generator": "PCG64",
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "linear",
+    "replicates": 2000,
+    "seed": 20240923,
+    "unit": "whole_trade"
+  },
+  "costs": {
+    "C0": {
+      "adverse_slippage_per_leg": 0.0,
+      "fee_per_leg": 0.0
+    },
+    "C_BASE": {
+      "adverse_slippage_per_leg": 0.0002,
+      "fee_per_leg": 0.001
+    },
+    "C_S10": {
+      "adverse_slippage_per_leg": 0.001,
+      "fee_per_leg": 0.001
+    },
+    "C_S5": {
+      "adverse_slippage_per_leg": 0.0005,
+      "fee_per_leg": 0.001
+    }
+  },
+  "cutoffs": {
+    "G1_Q75_EXIT_V1": 0.38599566214835807,
+    "G1_Q90_EXIT_V1": 0.5437961868373885,
+    "P1_Q75_EXIT_V1": 0.3962652238189601,
+    "P1_Q90_EXIT_V1": 0.5665730461166496
+  },
+  "policies": [
+    "P0_HELD_V1",
+    "G1_Q75_EXIT_V1",
+    "P1_Q75_EXIT_V1",
+    "G1_Q90_EXIT_V1",
+    "P1_Q90_EXIT_V1"
+  ],
+  "sealed_confirmation_access": false,
+  "stage": "C5_T2_DEVELOPMENT_ECONOMIC_REPLAY"
+}

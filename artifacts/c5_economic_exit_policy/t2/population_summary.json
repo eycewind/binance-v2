@@ -1,0 +1,112 @@
+{
+  "counts": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "snapshots": 9235,
+        "trades": 87
+      },
+      "BTCUSDT": {
+        "snapshots": 6874,
+        "trades": 74
+      },
+      "ETHUSDT": {
+        "snapshots": 6511,
+        "trades": 85
+      },
+      "SOLUSDT": {
+        "snapshots": 8557,
+        "trades": 106
+      },
+      "XRPUSDT": {
+        "snapshots": 7568,
+        "trades": 87
+      }
+    },
+    "by_year": {
+      "2024": {
+        "snapshots": 12275,
+        "trades": 155
+      },
+      "2025": {
+        "snapshots": 26470,
+        "trades": 284
+      }
+    },
+    "by_year_symbol": {
+      "2024": {
+        "BNBUSDT": {
+          "snapshots": 3670,
+          "trades": 37
+        },
+        "BTCUSDT": {
+          "snapshots": 2065,
+          "trades": 26
+        },
+        "ETHUSDT": {
+          "snapshots": 2201,
+          "trades": 29
+        },
+        "SOLUSDT": {
+          "snapshots": 1859,
+          "trades": 31
+        },
+        "XRPUSDT": {
+          "snapshots": 2480,
+          "trades": 32
+        }
+      },
+      "2025": {
+        "BNBUSDT": {
+          "snapshots": 5565,
+          "trades": 50
+        },
+        "BTCUSDT": {
+          "snapshots": 4809,
+          "trades": 48
+        },
+        "ETHUSDT": {
+          "snapshots": 4310,
+          "trades": 56
+        },
+        "SOLUSDT": {
+          "snapshots": 6698,
+          "trades": 75
+        },
+        "XRPUSDT": {
+          "snapshots": 5088,
+          "trades": 55
+        }
+      }
+    },
+    "pooled": {
+      "snapshots": 38745,
+      "trades": 439
+    }
+  },
+  "expected": {
+    "by_symbol": {
+      "BNBUSDT": 87,
+      "BTCUSDT": 74,
+      "ETHUSDT": 85,
+      "SOLUSDT": 106,
+      "XRPUSDT": 87
+    },
+    "by_year": {
+      "2024": {
+        "snapshots": 12275,
+        "trades": 155
+      },
+      "2025": {
+        "snapshots": 26470,
+        "trades": 284
+      }
+    },
+    "pooled": {
+      "snapshots": 38745,
+      "trades": 439
+    }
+  },
+  "replay_row_identity_sha256": "402581b316df4350db727c8b3ad8b9295c3fe9af111f9ee14e52e2800c87c059",
+  "replay_trade_identity_sha256": "8cf793fdcf9b8e2ef363e503ed6c2060d1db9f2affdd53174d8fe3f4fde0d021",
+  "status": "PASS"
+}
