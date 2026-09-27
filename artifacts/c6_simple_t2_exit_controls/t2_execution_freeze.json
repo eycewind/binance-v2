@@ -1,0 +1,7 @@
+{
+  "contract_sha256": "4ef0452314a4c289823896c641660836e9177afe6667bc7bf12de18cc52c09a0",
+  "readiness_path": "artifacts/c6_simple_t2_exit_controls/t1_readiness.json",
+  "readiness_sha256": "11d8e7c96bd3c280bf734aaca90a972114d4d620b9d720ee188cf4cd06b86334",
+  "runner_configuration_sha256": "e8219260f8254b1d04db512c0a5b32cfd3e7ffaba4d31bedbad8a0f492fc5583",
+  "version": "C6_T2_EXECUTION_FREEZE_V1"
+}

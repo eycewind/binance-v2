@@ -1,0 +1,268 @@
+{
+  "MFE_or_winner_truncation_calculated": false,
+  "S3_end_to_end_authentication": true,
+  "T2_ready": true,
+  "attempt_ledger": {
+    "concurrency_validation": "simultaneous duplicate START and terminal writers: exactly one succeeds",
+    "created": false,
+    "economic_attempt_recorded": false,
+    "event_semantics": "START precedes execution; terminal PASS/FAIL time is end time; prior lines are never overwritten",
+    "format": "append-only JSON Lines",
+    "future_event_fields": [
+      "attempt_id",
+      "event",
+      "time",
+      "configuration_hash",
+      "source_hash",
+      "input_hashes",
+      "random_seeds",
+      "contract_sha256",
+      "readiness_sha256",
+      "status",
+      "output_hashes"
+    ],
+    "lifecycle_validation": "inter-process flock covers read-validation-append-flush; START exactly once; exactly one PASS/FAIL; PASS requires output hashes; FAIL requires failure reason"
+  },
+  "blockers": [],
+  "bootstrap_definition": {
+    "block": "four-entry-week moving blocks",
+    "block_length_entry_weeks": 4,
+    "generator": "PCG64",
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "Type-7 / linear",
+    "replicates": 2000,
+    "seed": 20240923,
+    "sole_sensitivity": "whole-calendar-month trade-cluster bootstrap with same replicates/generator/seed/interval",
+    "unit": "whole_trade"
+  },
+  "comparison_hierarchy": [
+    [
+      "S1_EXIT_FIRST_T2_V1",
+      "P0_HELD_V1"
+    ],
+    [
+      "G1_Q75_EXIT_V1",
+      "S1_EXIT_FIRST_T2_V1"
+    ],
+    [
+      "G1_Q75_EXIT_V1",
+      "S3_G1_TIMING_PERMUTATION_V1"
+    ]
+  ],
+  "contract_sha256": "4ef0452314a4c289823896c641660836e9177afe6667bc7bf12de18cc52c09a0",
+  "control_aliases": {
+    "COIN_FLIP_CONTROL": "S4_FIRST_T2_COIN_FLIP_V1",
+    "EXIT_FIRST_T2": "S1_EXIT_FIRST_T2_V1",
+    "EXIT_SECOND_T2": "S2_EXIT_SECOND_T2_V1",
+    "RANDOM_TIMING_CONTROL": "S3_G1_TIMING_PERMUTATION_V1"
+  },
+  "control_registry": [
+    "P0_HELD_V1",
+    "G1_Q75_EXIT_V1",
+    "P1_Q75_EXIT_V1",
+    "S1_EXIT_FIRST_T2_V1",
+    "S2_EXIT_SECOND_T2_V1",
+    "S3_G1_TIMING_PERMUTATION_V1",
+    "S4_FIRST_T2_COIN_FLIP_V1"
+  ],
+  "costs": {
+    "C0": {
+      "adverse_slippage_per_leg": 0.0,
+      "fee_per_leg": 0.0
+    },
+    "C_BASE": {
+      "adverse_slippage_per_leg": 0.0002,
+      "fee_per_leg": 0.001
+    },
+    "C_S10": {
+      "adverse_slippage_per_leg": 0.001,
+      "fee_per_leg": 0.001
+    },
+    "C_S5": {
+      "adverse_slippage_per_leg": 0.0005,
+      "fee_per_leg": 0.001
+    }
+  },
+  "economic_replay_performed": false,
+  "implementation_source_sha256": "306cda35ecf90ddf64fa36db50989c18b0478124251bda0b0c70ea59826cdcdb",
+  "interpretation_labels": [
+    "INSUFFICIENT_EVIDENCE",
+    "COUNTS_AGAINST_SIMPLE_T2_EXPLANATION",
+    "SIMPLE_T2_EXIT_EXPLAINS_OBSERVED_VALUE",
+    "MIXED",
+    "MODEL_TIMING_ADDS_ECONOMIC_VALUE",
+    "MODEL_SELECTION_BEATS_RANDOM_TIMING"
+  ],
+  "interpretation_rules": {
+    "mandatory_adverse_safety_breach_prevents_favorable_advancement": true,
+    "precedence_frozen": true
+  },
+  "new_predictions_generated": false,
+  "one_shot_runner": {
+    "authoritative_readiness": {
+      "mechanism": "fixed pre-economic execution-freeze manifest",
+      "path": "artifacts/c6_simple_t2_exit_controls/t2_execution_freeze.json"
+    },
+    "executed": false,
+    "explicit_flag_required": "AUTHORIZE_C6_T2_ONE_SHOT",
+    "implemented": true,
+    "population_gate": {
+      "snapshots": 38745,
+      "trades": 439,
+      "year_and_symbol_counts_required": true
+    },
+    "production_authorities_injectable": false,
+    "provenance_before_execution": true,
+    "terminal_events": [
+      "PASS",
+      "FAIL"
+    ]
+  },
+  "one_shot_runner_implemented": true,
+  "population": {
+    "by_symbol": {
+      "BNBUSDT": 87,
+      "BTCUSDT": 74,
+      "ETHUSDT": 85,
+      "SOLUSDT": 106,
+      "XRPUSDT": 87
+    },
+    "by_year": {
+      "2024": 155,
+      "2025": 284
+    },
+    "snapshots": 38745,
+    "trades": 439
+  },
+  "production_economic_executor_implemented": true,
+  "random_permutations": 1000,
+  "randomization_strata": "entry calendar year x symbol; fixed year then symbol order",
+  "real_PnL_calculated": false,
+  "real_returns_calculated": false,
+  "replay_population_identity_hashes": {
+    "c5_t1_readiness": "8c63b9e39b0b5365014c05c74bc1c57907ad9072109d3dbc8c2c430c385f6b4a",
+    "g1_p1_outputs_2025": "ad087ebf7469d5682ed20f522967e7b9400d3452e9e60f433bfef6330a7deb2a",
+    "t2_snapshots_2024": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417"
+  },
+  "reporting_governance": {
+    "mandatory_symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "SOLUSDT",
+      "XRPUSDT",
+      "BNBUSDT"
+    ],
+    "mandatory_years": [
+      2024,
+      2025
+    ],
+    "primary": "pooled",
+    "symbol_specific_tuning": false,
+    "symbol_support": {
+      "below_minimum": "INSUFFICIENT SUPPORT; still descriptive and retained pooled",
+      "minimum_distinct_trades": 50
+    },
+    "year_specific_tuning": false
+  },
+  "runner_configuration_sha256": "e8219260f8254b1d04db512c0a5b32cfd3e7ffaba4d31bedbad8a0f492fc5583",
+  "s3_authentication": {
+    "authenticates_rng_priorities_stream_audits_matching_and_tie_break": true,
+    "deterministic_reconstruction": true,
+    "production_acceptance_boundary_enforced": true
+  },
+  "sealed_confirmation_access": false,
+  "sealed_path_validation": {
+    "normalized_component_and_stem_checks": true,
+    "pure_lexical_before_filesystem": true,
+    "status": "PASS",
+    "tokens": [
+      "2026",
+      "2026Q*",
+      "sealed",
+      "confirmation"
+    ]
+  },
+  "seeds": {
+    "coin_flip": 20240926,
+    "combined_uncertainty": 20240925,
+    "market_bootstrap": 20240923,
+    "random_timing": 20240924
+  },
+  "stopping_rules": {
+    "formal_testing": "stop after first non-STRONG_POSITIVE gate",
+    "later_results": "descriptive only; no rescue"
+  },
+  "structural_random_control_validation": {
+    "assignments": 1000,
+    "byte_sha256": "3086eb7038e778f92b0a05c5fc712c7cdf8ffd734f49b8348704d9112ec55505",
+    "fallback_assignments": 1000,
+    "feasibility_rate": 1.0,
+    "fixture_stratum_counts": {
+      "2024|BTCUSDT": 4
+    },
+    "fixture_timing_ordinal_distribution_per_assignment": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "P0_FALLBACK": 1
+    },
+    "independent_rerun_byte_identical": true,
+    "rows_per_assignment": 4,
+    "strata_preserved": true,
+    "timing_multisets_preserved": true
+  },
+  "synthetic_test_status": {
+    "failed": 0,
+    "focused_c6_passed": 58,
+    "focused_command": "PYTHONDONTWRITEBYTECODE=1 pytest -q -p no:cacheprovider tests/test_c6_t1.py",
+    "real_economic_table_parsed": false,
+    "repository_command": "PYTHONDONTWRITEBYTECODE=1 pytest -q -p no:cacheprovider -k 'not test_canonical_trade_results_immutable_and_no_replay_import'",
+    "repository_deselected_real_outcome_loader_tests": 1,
+    "repository_passed": 309,
+    "status": "PASS"
+  },
+  "test_source_sha256": "e721d3ccdf6005ff503c6b0746345774fc30e76f388cf1b2cdb6a3fc15624ede",
+  "threshold_delay_probability_search": false,
+  "upstream_provenance_hashes": {
+    "c5_replay_manifest": {
+      "path": "artifacts/c5_economic_exit_policy/t2/replay_manifest.json",
+      "sha256": "4d3a6089dca013aea0817bf11bfe219f1e06b83f16a8fffcb3540bc6e0caea77"
+    },
+    "c5_t1_readiness": {
+      "path": "artifacts/c5_economic_exit_policy/t1_readiness.json",
+      "sha256": "8c63b9e39b0b5365014c05c74bc1c57907ad9072109d3dbc8c2c430c385f6b4a"
+    },
+    "canonical_c5_trade_results": {
+      "path": "artifacts/c5_economic_exit_policy/t2/trade_results.csv",
+      "sha256": "094c81c306f1084146db55cee3c6f38178e58a0e72e55e056bb0dd1eb6c46884"
+    },
+    "diagnostic_path_lengths": {
+      "path": "artifacts/c6_t2_trigger_diagnostics/t2_path_length.json",
+      "sha256": "df262e4175647ffe47bb33d3ebcfce21020a48f76bcf9aa110ba36dcf58dd74a"
+    },
+    "diagnostic_provenance": {
+      "path": "artifacts/c6_t2_trigger_diagnostics/provenance.json",
+      "sha256": "45ae60b193d3c21562c9426e88177f7a537c3b007d04ce85f640e343ac712724"
+    },
+    "diagnostic_reproducibility": {
+      "path": "artifacts/c6_t2_trigger_diagnostics/reproducibility.json",
+      "sha256": "20a0352ac7139f6900c4198a779e3c93749b720d71e7b3b6622e96f51f6f79de"
+    },
+    "g1_p1_outputs_2024": {
+      "path": "artifacts/c4_sequential_exit_state/development_predictions_2024.csv",
+      "sha256": "1c6b80e0cbb17c7a31c686c9688d3200a1d4e78a1d0fe90c8ef5cf4a42129381"
+    },
+    "g1_p1_outputs_2025": {
+      "path": "artifacts/c4_sequential_exit_state/locked_2025/predictions.csv",
+      "sha256": "ad087ebf7469d5682ed20f522967e7b9400d3452e9e60f433bfef6330a7deb2a"
+    },
+    "t2_snapshots_2024": {
+      "path": "artifacts/c4_sequential_exit_state/local/t2_snapshots.csv",
+      "sha256": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417"
+    }
+  },
+  "version": "C6_T1_MECHANICAL_READINESS_V1"
+}
