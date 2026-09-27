@@ -1,0 +1,1 @@
+{"generator":"PCG64","method":"linear (Type-7)","multiplicity":"preserved; no deduplication","primary":"whole-trade four-entry-week moving blocks","quantiles":[0.025,0.975],"replicates":2000,"seed":20260927,"sensitivity":"whole-calendar-month clusters descriptive only"}

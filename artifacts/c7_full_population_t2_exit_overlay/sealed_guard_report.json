@@ -1,0 +1,1 @@
+{"guard":"lexical rejection before filesystem access","real_sealed_paths_enumerated_or_accessed":false,"status":"PASS","synthetic_literals_tested":["synthetic/<YEAR_BOUNDARY>/x","synthetic/SEALED/x","synthetic/confirmation/x"]}

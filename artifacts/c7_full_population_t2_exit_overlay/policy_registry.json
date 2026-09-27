@@ -1,0 +1,1 @@
+{"S1":"first causal T2 immediate next 1m open strictly before P0; otherwise exact P0 fallback","gap_skipping":false,"later_t2_substitution":false,"model_inputs":false,"policies":["P0_FULL","S1_FULL_T2_OVERLAY"],"ties":"P0 wins"}
