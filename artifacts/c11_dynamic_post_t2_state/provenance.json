@@ -1,0 +1,16 @@
+{
+  "contract_sha256": "cfb7311cf9799a990c1ee3178025ff7fbd50145665bd33e1e7481316081e6758",
+  "inputs": {
+    "artifacts/c4_sequential_exit_state/local/t2_snapshots.csv": "b0dc7444d97fc17f1c81510c68509d47ff374bb16bd7578956b9f5dcb519a417",
+    "artifacts/c7_full_population_t2_exit_overlay/population_manifest.json": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "contracts/C10_post_t2_timescale_adequacy_CONTRACT.md": "fc350a8f97be3b70312013934fa00013008632411882d9bd2902a437a039daca",
+    "contracts/C11_dynamic_post_t2_state_CONTRACT.md": "cfb7311cf9799a990c1ee3178025ff7fbd50145665bd33e1e7481316081e6758",
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb",
+    "src/binance_data_foundation/c10_post_t2.py": "044fa793f4e6338724749c71260ae501bac8e6a119341d30b40920d8701ac691"
+  },
+  "no_2026_access": true
+}

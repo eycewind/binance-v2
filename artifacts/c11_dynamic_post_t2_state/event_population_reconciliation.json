@@ -1,0 +1,45 @@
+{
+  "authoritative": {
+    "authoritative_first_eligible_identities": 845,
+    "by_year": {
+      "2024": 415,
+      "2025": 430
+    },
+    "identity_or_timestamp_mismatches": 0,
+    "mismatch_trade_ids": [],
+    "source_t2_trades": 845,
+    "status": "PASS"
+  },
+  "modeling": {
+    "binary_by_outcome": {
+      "CONTINUATION_FIRST": 335,
+      "DETERIORATION_FIRST": 508
+    },
+    "binary_target_trades": 843,
+    "rows": 37191,
+    "rows_per_trade": {
+      "max": 619,
+      "mean": 46.958333333333336,
+      "median": 19.0,
+      "min": 1,
+      "p25": 7.0,
+      "p75": 57.0
+    },
+    "source_by_year": {
+      "2024": 415,
+      "2025": 430
+    },
+    "source_trades": 845,
+    "terminal_outcomes": {
+      "CONTINUATION_FIRST": 335,
+      "DETERIORATION_FIRST": 508,
+      "P0_FIRST": 2
+    },
+    "trades_with_rows": 792,
+    "zero_row_trades": 51,
+    "zero_rows_by_outcome": {
+      "CONTINUATION_FIRST": 10,
+      "DETERIORATION_FIRST": 41
+    }
+  }
+}

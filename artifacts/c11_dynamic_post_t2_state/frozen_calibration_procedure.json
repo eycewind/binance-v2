@@ -1,0 +1,283 @@
+{
+  "M2": {
+    "coefficients": [
+      -0.4032088778561598,
+      0.019639766497204583,
+      0.023860321036756383,
+      0.016112411761199544,
+      -0.004828321003075638,
+      0.009318692595016257,
+      0.012932074196858401,
+      0.017110529758725557,
+      0.010502503736950504,
+      0.05363481256657423,
+      0.05647630918235523,
+      0.044039888495944285,
+      -0.011468243913458357,
+      0.027097843712704406,
+      0.030606801754396624,
+      0.10317789949616109,
+      0.10261324581610436,
+      0.08638437517644172,
+      0.09715105982913867,
+      0.12892301571163114,
+      0.1280126296222145,
+      0.07676967643354134,
+      0.006094800863375702,
+      0.037837827520202066,
+      0.004242472919506348,
+      -0.021175625614707573,
+      -0.008800117707747657,
+      0.012926080994888504
+    ],
+    "converged": true,
+    "features": [
+      "context_return_1",
+      "context_return_3",
+      "context_return_6",
+      "context_volatility_12",
+      "context_range_ratio",
+      "context_activity_ratio",
+      "context_close_vs_sma12",
+      "context_sma12_slope",
+      "fast_return_1",
+      "fast_return_3",
+      "fast_return_6",
+      "fast_volatility_12",
+      "fast_range_ratio",
+      "fast_activity_ratio",
+      "return_since_t2",
+      "return_from_entry",
+      "new_peak_since_t2",
+      "drawdown_from_running_peak",
+      "distance_to_continuation",
+      "distance_to_deterioration",
+      "path_efficiency",
+      "elapsed_log1p_minutes",
+      "fast_context_agreement"
+    ],
+    "gradient_max": 2.117936798162745e-10,
+    "iterations": 15,
+    "scaler": {
+      "context_activity_ratio": {
+        "mean": 2.8927703328948184,
+        "sd": 6.60994756355791
+      },
+      "context_close_vs_sma12": {
+        "mean": 0.005798601136738331,
+        "sd": 0.006122867125374653
+      },
+      "context_range_ratio": {
+        "mean": 1.7709741417434488,
+        "sd": 2.0175134079635795
+      },
+      "context_return_1": {
+        "mean": 0.0017418438664207842,
+        "sd": 0.004611010290032149
+      },
+      "context_return_3": {
+        "mean": 0.004442450766330374,
+        "sd": 0.006246535311871781
+      },
+      "context_return_6": {
+        "mean": 0.006876704773213642,
+        "sd": 0.007408331331817593
+      },
+      "context_sma12_slope": {
+        "mean": 0.0008182883714873345,
+        "sd": 0.0008137136455638631
+      },
+      "context_volatility_12": {
+        "mean": 0.0022818939128876115,
+        "sd": 0.0017305551016236315
+      },
+      "distance_to_continuation": {
+        "mean": -0.0063159461135920665,
+        "sd": 0.002599759927455605
+      },
+      "distance_to_deterioration": {
+        "mean": 0.00467403222365308,
+        "sd": 0.002936728262382321
+      },
+      "drawdown_from_running_peak": {
+        "mean": -0.0028082432462464848,
+        "sd": 0.002070380905620727
+      },
+      "elapsed_log1p_minutes": {
+        "mean": 2.34227722959591,
+        "sd": 1.2084334267338315
+      },
+      "fast_activity_ratio": {
+        "mean": 1.6517970763556666,
+        "sd": 2.958132020697457
+      },
+      "fast_context_agreement": {
+        "mean": 0.11379356136167744,
+        "sd": 0.9798135253445496
+      },
+      "fast_range_ratio": {
+        "mean": 1.2159214626554828,
+        "sd": 0.8246190052467846
+      },
+      "fast_return_1": {
+        "mean": -9.736453829371343e-07,
+        "sd": 0.001324306363365988
+      },
+      "fast_return_3": {
+        "mean": 0.00037646533936470933,
+        "sd": 0.002528912206472111
+      },
+      "fast_return_6": {
+        "mean": 0.001419529141022747,
+        "sd": 0.004433385216031146
+      },
+      "fast_volatility_12": {
+        "mean": 0.0011283398298141663,
+        "sd": 0.000867982826037891
+      },
+      "new_peak_since_t2": {
+        "mean": 0.0014647961004887365,
+        "sd": 0.0015707177806127694
+      },
+      "path_efficiency": {
+        "mean": -0.028039736822847546,
+        "sd": 0.5579702162011719
+      },
+      "return_from_entry": {
+        "mean": 0.01077441592592465,
+        "sd": 0.0040577793826844285
+      },
+      "return_since_t2": {
+        "mean": 1.2144910348800008e-05,
+        "sd": 0.0025441158773430966
+      }
+    }
+  },
+  "calibrator": {
+    "converged": true,
+    "intercept": 0.06777375611839433,
+    "iterations": 6,
+    "slope": 2.164346955831554
+  },
+  "inner_definitions": [
+    {
+      "name": "Q1_to_Q2",
+      "score_bounds_ms": [
+        1711929600000,
+        1719792000000
+      ],
+      "scored": {
+        "event_trades": 33,
+        "non_event_trades": 59,
+        "rows": 4250,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 46.19565217391305,
+          "median": 20.0,
+          "min": 1,
+          "p25": 7.75,
+          "p75": 38.0
+        },
+        "unique_trades": 92
+      },
+      "train": {
+        "event_trades": 45,
+        "non_event_trades": 46,
+        "rows": 2983,
+        "rows_per_trade": {
+          "max": 191,
+          "mean": 32.78021978021978,
+          "median": 16.0,
+          "min": 1,
+          "p25": 7.5,
+          "p75": 40.0
+        },
+        "unique_trades": 91
+      },
+      "train_bounds_ms": [
+        1704067200000,
+        1711929600000
+      ]
+    },
+    {
+      "name": "H1_to_Q3",
+      "score_bounds_ms": [
+        1719792000000,
+        1727740800000
+      ],
+      "scored": {
+        "event_trades": 37,
+        "non_event_trades": 69,
+        "rows": 4390,
+        "rows_per_trade": {
+          "max": 285,
+          "mean": 41.41509433962264,
+          "median": 21.0,
+          "min": 1,
+          "p25": 6.0,
+          "p75": 58.5
+        },
+        "unique_trades": 106
+      },
+      "train": {
+        "event_trades": 78,
+        "non_event_trades": 106,
+        "rows": 7259,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 39.45108695652174,
+          "median": 18.0,
+          "min": 1,
+          "p25": 7.75,
+          "p75": 38.25
+        },
+        "unique_trades": 184
+      },
+      "train_bounds_ms": [
+        1704067200000,
+        1719792000000
+      ]
+    },
+    {
+      "name": "Q1Q3_to_Q4",
+      "score_bounds_ms": [
+        1727740800000,
+        1735689600000
+      ],
+      "scored": {
+        "event_trades": 43,
+        "non_event_trades": 56,
+        "rows": 4851,
+        "rows_per_trade": {
+          "max": 328,
+          "mean": 49.0,
+          "median": 21.0,
+          "min": 1,
+          "p25": 9.5,
+          "p75": 54.0
+        },
+        "unique_trades": 99
+      },
+      "train": {
+        "event_trades": 115,
+        "non_event_trades": 175,
+        "rows": 11649,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 40.16896551724138,
+          "median": 19.0,
+          "min": 1,
+          "p25": 7.0,
+          "p75": 46.5
+        },
+        "unique_trades": 290
+      },
+      "train_bounds_ms": [
+        1704067200000,
+        1727740800000
+      ]
+    }
+  ],
+  "selected": "platt",
+  "selection_rule": "isotonic iff supported in every fold and beats Platt on both proper scores; recalibration retained only if neither proper score worsens"
+}

@@ -1,0 +1,1339 @@
+{
+  "fold_A": {
+    "bounds_ms": [
+      1704067200000,
+      1719792000000,
+      1727740800000
+    ],
+    "inner": [
+      {
+        "name": "Q1_to_Q2",
+        "score_bounds_ms": [
+          1711929600000,
+          1719792000000
+        ],
+        "scored": {
+          "event_trades": 33,
+          "non_event_trades": 59,
+          "rows": 4250,
+          "rows_per_trade": {
+            "max": 347,
+            "mean": 46.19565217391305,
+            "median": 20.0,
+            "min": 1,
+            "p25": 7.75,
+            "p75": 38.0
+          },
+          "unique_trades": 92
+        },
+        "train": {
+          "event_trades": 45,
+          "non_event_trades": 46,
+          "rows": 2983,
+          "rows_per_trade": {
+            "max": 191,
+            "mean": 32.78021978021978,
+            "median": 16.0,
+            "min": 1,
+            "p25": 7.5,
+            "p75": 40.0
+          },
+          "unique_trades": 91
+        },
+        "train_bounds_ms": [
+          1704067200000,
+          1711929600000
+        ]
+      }
+    ],
+    "isotonic_support": {
+      "distinct_scores": 4250,
+      "eligible": false,
+      "event_trades": 33,
+      "non_event_trades": 59,
+      "trades": 92
+    },
+    "metrics": {
+      "M0": {
+        "auc": 0.5,
+        "brier": 0.23281957770089523,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.07485643970467565,
+              "lower": 0.4,
+              "mean_probability": 0.42391304347826064,
+              "observed": 0.349056603773585,
+              "rows": 4390,
+              "trade_weight_mass": 0.9999999999999999,
+              "trades": 106,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.07485643970467563,
+          "estimable": true,
+          "intercept": -0.2945152674111076,
+          "slope": 1.0715386104665952
+        },
+        "log_loss": 0.658562888917971,
+        "prevalence": 0.34905660377358483,
+        "probability_distribution": {
+          "max": 0.4239130434782606,
+          "mean": 0.42391304347826064,
+          "median": 0.4239130434782606,
+          "min": 0.4239130434782606,
+          "n": 4390,
+          "p10": 0.4239130434782606,
+          "p90": 0.4239130434782606
+        },
+        "rows": 4390,
+        "trades": 106
+      },
+      "M1": {
+        "auc": 0.5146981191947823,
+        "brier": 0.2342813945697566,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.06561536437261412,
+              "lower": 0.3,
+              "mean_probability": 0.3802323947385238,
+              "observed": 0.3146170303659097,
+              "rows": 3088,
+              "trade_weight_mass": 0.3738845672772968,
+              "trades": 66,
+              "upper": 0.4
+            },
+            {
+              "absolute_gap": 0.06452660843610475,
+              "lower": 0.4,
+              "mean_probability": 0.4339288561798637,
+              "observed": 0.36940224774375896,
+              "rows": 1259,
+              "trade_weight_mass": 0.5895993282820704,
+              "trades": 97,
+              "upper": 0.5
+            },
+            {
+              "absolute_gap": 0.03856790808061705,
+              "lower": 0.5,
+              "mean_probability": 0.5417346920355783,
+              "observed": 0.5031667839549613,
+              "rows": 42,
+              "trade_weight_mass": 0.027082142176481798,
+              "trades": 6,
+              "upper": 0.6
+            },
+            {
+              "absolute_gap": 0.6060796738184487,
+              "lower": 0.6,
+              "mean_probability": 0.6060796738184487,
+              "observed": 0.0,
+              "rows": 1,
+              "trade_weight_mass": 0.009433962264150943,
+              "trades": 1,
+              "upper": 0.7
+            }
+          ],
+          "ece": 0.06933965144740543,
+          "estimable": true,
+          "intercept": -0.6507374433083607,
+          "slope": -0.08306268264726643
+        },
+        "log_loss": 0.6612804031497397,
+        "prevalence": 0.34905660377358483,
+        "probability_distribution": {
+          "max": 0.6060796738184487,
+          "mean": 0.39147539387591823,
+          "median": 0.38494959134521906,
+          "min": 0.33618356259705,
+          "n": 4390,
+          "p10": 0.3628448469714151,
+          "p90": 0.4267430949877024
+        },
+        "rows": 4390,
+        "trades": 106
+      },
+      "M2": {
+        "auc": 0.8093966439495172,
+        "brier": 0.17577176026470226,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.17590980847088566,
+              "lower": 0.1,
+              "mean_probability": 0.18088859152811024,
+              "observed": 0.004978783057224578,
+              "rows": 46,
+              "trade_weight_mass": 0.03609205648284092,
+              "trades": 21,
+              "upper": 0.2
+            },
+            {
+              "absolute_gap": 0.14252235103042615,
+              "lower": 0.2,
+              "mean_probability": 0.25568853058099994,
+              "observed": 0.11316617955057377,
+              "rows": 938,
+              "trade_weight_mass": 0.2614222360543722,
+              "trades": 80,
+              "upper": 0.30000000000000004
+            },
+            {
+              "absolute_gap": 0.12277700091404947,
+              "lower": 0.3,
+              "mean_probability": 0.3499869826239138,
+              "observed": 0.22720998170986434,
+              "rows": 1266,
+              "trade_weight_mass": 0.24022392296740178,
+              "trades": 84,
+              "upper": 0.4
+            },
+            {
+              "absolute_gap": 0.05187154357252827,
+              "lower": 0.4,
+              "mean_probability": 0.44616875379935605,
+              "observed": 0.3942972102268278,
+              "rows": 987,
+              "trade_weight_mass": 0.17913552435977578,
+              "trades": 81,
+              "upper": 0.5
+            },
+            {
+              "absolute_gap": 0.04668318576253416,
+              "lower": 0.5,
+              "mean_probability": 0.5463212205520507,
+              "observed": 0.4996380347895165,
+              "rows": 698,
+              "trade_weight_mass": 0.1347901994656076,
+              "trades": 68,
+              "upper": 0.6
+            },
+            {
+              "absolute_gap": 0.1466676597135863,
+              "lower": 0.6,
+              "mean_probability": 0.6467265713289767,
+              "observed": 0.793394231042563,
+              "rows": 361,
+              "trade_weight_mass": 0.08270868294357442,
+              "trades": 52,
+              "upper": 0.7
+            },
+            {
+              "absolute_gap": 0.17827242500626073,
+              "lower": 0.7,
+              "mean_probability": 0.744230484891512,
+              "observed": 0.9225029098977727,
+              "rows": 83,
+              "trade_weight_mass": 0.058265892251734196,
+              "trades": 36,
+              "upper": 0.7999999999999999
+            },
+            {
+              "absolute_gap": 0.16066659649422688,
+              "lower": 0.8,
+              "mean_probability": 0.8393334035057731,
+              "observed": 1.0,
+              "rows": 11,
+              "trade_weight_mass": 0.007361485474693022,
+              "trades": 4,
+              "upper": 0.9
+            }
+          ],
+          "ece": 0.11238653901345798,
+          "estimable": true,
+          "intercept": -0.049012463913240704,
+          "slope": 2.0059998649638624
+        },
+        "log_loss": 0.534418146950751,
+        "prevalence": 0.34905660377358483,
+        "probability_distribution": {
+          "max": 0.894874010790296,
+          "mean": 0.4138962300502738,
+          "median": 0.3950246128828032,
+          "min": 0.14452967512029177,
+          "n": 4390,
+          "p10": 0.24968780150408107,
+          "p90": 0.6051980387715687
+        },
+        "rows": 4390,
+        "trades": 106
+      },
+      "M2_platt": {
+        "auc": 0.8093966439495172,
+        "brier": 0.1661652452257713,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.060015195205624636,
+              "lower": 0.0,
+              "mean_probability": 0.05077546079007296,
+              "observed": 0.1107906559956976,
+              "rows": 1327,
+              "trade_weight_mass": 0.35265878665769146,
+              "trades": 85,
+              "upper": 0.1
+            },
+            {
+              "absolute_gap": 0.09861985322853661,
+              "lower": 0.1,
+              "mean_probability": 0.14442772990123304,
+              "observed": 0.24304758312976965,
+              "rows": 929,
+              "trade_weight_mass": 0.18738120926629936,
+              "trades": 83,
+              "upper": 0.2
+            },
+            {
+              "absolute_gap": 0.09602237898652449,
+              "lower": 0.2,
+              "mean_probability": 0.24807170860911137,
+              "observed": 0.34409408759563587,
+              "rows": 575,
+              "trade_weight_mass": 0.10853170826930256,
+              "trades": 73,
+              "upper": 0.30000000000000004
+            },
+            {
+              "absolute_gap": 0.13357681387875348,
+              "lower": 0.3,
+              "mean_probability": 0.3497972433333924,
+              "observed": 0.4833740572121459,
+              "rows": 393,
+              "trade_weight_mass": 0.06548910616965511,
+              "trades": 63,
+              "upper": 0.4
+            },
+            {
+              "absolute_gap": 0.027326386040776973,
+              "lower": 0.4,
+              "mean_probability": 0.4513308599499419,
+              "observed": 0.47865724599071885,
+              "rows": 325,
+              "trade_weight_mass": 0.06394443846491808,
+              "trades": 60,
+              "upper": 0.5
+            },
+            {
+              "absolute_gap": 0.13411947636062077,
+              "lower": 0.5,
+              "mean_probability": 0.545071133098998,
+              "observed": 0.41095165673837725,
+              "rows": 263,
+              "trade_weight_mass": 0.049473629681309715,
+              "trades": 53,
+              "upper": 0.6
+            },
+            {
+              "absolute_gap": 0.11412804099815554,
+              "lower": 0.6,
+              "mean_probability": 0.6501760190400964,
+              "observed": 0.7643040600382519,
+              "rows": 225,
+              "trade_weight_mass": 0.04859010787377753,
+              "trades": 47,
+              "upper": 0.7
+            },
+            {
+              "absolute_gap": 0.04504221717577961,
+              "lower": 0.7,
+              "mean_probability": 0.7482104832648303,
+              "observed": 0.7932527004406099,
+              "rows": 180,
+              "trade_weight_mass": 0.035504230999064995,
+              "trades": 37,
+              "upper": 0.7999999999999999
+            },
+            {
+              "absolute_gap": 0.0317180432566565,
+              "lower": 0.8,
+              "mean_probability": 0.8478412733811411,
+              "observed": 0.8795593166377976,
+              "rows": 130,
+              "trade_weight_mass": 0.053132336918231084,
+              "trades": 39,
+              "upper": 0.9
+            },
+            {
+              "absolute_gap": 0.023541804837852398,
+              "lower": 0.9,
+              "mean_probability": 0.943479092545572,
+              "observed": 0.9199372877077197,
+              "rows": 43,
+              "trade_weight_mass": 0.03529444569975014,
+              "trades": 25,
+              "upper": 1.0
+            }
+          ],
+          "ece": 0.07685727178450326,
+          "estimable": true,
+          "intercept": 0.26748645329702886,
+          "slope": 0.810405252201278
+        },
+        "log_loss": 0.5116046665527438,
+        "prevalence": 0.34905660377358483,
+        "probability_distribution": {
+          "max": 0.9926842187846542,
+          "mean": 0.27575527129318617,
+          "median": 0.19067706303568993,
+          "min": 0.008227203363624348,
+          "n": 4390,
+          "p10": 0.042530723641433725,
+          "p90": 0.6607942114137163
+        },
+        "rows": 4390,
+        "trades": 106
+      }
+    },
+    "models": {
+      "M0": {
+        "base_rate": 0.4239130434782606
+      },
+      "M1": {
+        "coefficients": [
+          -0.30303068964683894,
+          0.052171519963680836,
+          0.04388380870539219,
+          0.03737401742001097,
+          0.02319680804732247,
+          0.01488867972667222,
+          0.02527516775891093,
+          0.04231565698923282,
+          0.047485961220041076,
+          0.006195848025797043,
+          -0.01049208111910149,
+          -0.02454742772643529,
+          0.008509169070196141
+        ],
+        "converged": true,
+        "features": [
+          "context_return_1",
+          "context_return_3",
+          "context_return_6",
+          "context_volatility_12",
+          "context_range_ratio",
+          "context_activity_ratio",
+          "context_close_vs_sma12",
+          "context_sma12_slope"
+        ],
+        "gradient_max": 1.580196407752199e-10,
+        "iterations": 15,
+        "scaler": {
+          "context_activity_ratio": {
+            "mean": 3.3364068187875016,
+            "sd": 9.10528832640133
+          },
+          "context_close_vs_sma12": {
+            "mean": 0.0061265979726426,
+            "sd": 0.005902498145036876
+          },
+          "context_range_ratio": {
+            "mean": 1.8548453406736856,
+            "sd": 2.5759884427668838
+          },
+          "context_return_1": {
+            "mean": 0.0017291533619222877,
+            "sd": 0.004871168184010614
+          },
+          "context_return_3": {
+            "mean": 0.0046470946562582535,
+            "sd": 0.006302321543265608
+          },
+          "context_return_6": {
+            "mean": 0.007370554903640854,
+            "sd": 0.007389001282362539
+          },
+          "context_sma12_slope": {
+            "mean": 0.0008578900496256691,
+            "sd": 0.000708364116734477
+          },
+          "context_volatility_12": {
+            "mean": 0.002341482149055887,
+            "sd": 0.001693083158504818
+          }
+        }
+      },
+      "M2": {
+        "coefficients": [
+          -0.3193107034895339,
+          0.023825644150544993,
+          0.022926969569023615,
+          0.02217452166987374,
+          0.015087941417584008,
+          -0.0009022930455099741,
+          0.011780540873603793,
+          0.02502747783027496,
+          0.032615733239026834,
+          0.05341261269798663,
+          0.0626378713016875,
+          0.047238996882983046,
+          0.00020261209907672132,
+          0.021654960666988212,
+          0.026981559336729716,
+          0.10569509109751331,
+          0.09029751757404879,
+          0.08033086632562991,
+          0.10310384977970556,
+          0.13242199462754387,
+          0.12219096639550321,
+          0.08854936537003776,
+          -0.0008806352390082889,
+          0.04604201808225413,
+          0.0034722516731517748,
+          -0.007472509523809746,
+          -0.019153822157799993,
+          0.006390773984267899
+        ],
+        "converged": true,
+        "features": [
+          "context_return_1",
+          "context_return_3",
+          "context_return_6",
+          "context_volatility_12",
+          "context_range_ratio",
+          "context_activity_ratio",
+          "context_close_vs_sma12",
+          "context_sma12_slope",
+          "fast_return_1",
+          "fast_return_3",
+          "fast_return_6",
+          "fast_volatility_12",
+          "fast_range_ratio",
+          "fast_activity_ratio",
+          "return_since_t2",
+          "return_from_entry",
+          "new_peak_since_t2",
+          "drawdown_from_running_peak",
+          "distance_to_continuation",
+          "distance_to_deterioration",
+          "path_efficiency",
+          "elapsed_log1p_minutes",
+          "fast_context_agreement"
+        ],
+        "gradient_max": 5.796411683967051e-10,
+        "iterations": 15,
+        "scaler": {
+          "context_activity_ratio": {
+            "mean": 3.3364068187875016,
+            "sd": 9.10528832640133
+          },
+          "context_close_vs_sma12": {
+            "mean": 0.0061265979726426,
+            "sd": 0.005902498145036876
+          },
+          "context_range_ratio": {
+            "mean": 1.8548453406736856,
+            "sd": 2.5759884427668838
+          },
+          "context_return_1": {
+            "mean": 0.0017291533619222877,
+            "sd": 0.004871168184010614
+          },
+          "context_return_3": {
+            "mean": 0.0046470946562582535,
+            "sd": 0.006302321543265608
+          },
+          "context_return_6": {
+            "mean": 0.007370554903640854,
+            "sd": 0.007389001282362539
+          },
+          "context_sma12_slope": {
+            "mean": 0.0008578900496256691,
+            "sd": 0.000708364116734477
+          },
+          "context_volatility_12": {
+            "mean": 0.002341482149055887,
+            "sd": 0.001693083158504818
+          },
+          "distance_to_continuation": {
+            "mean": -0.006288711807020186,
+            "sd": 0.002579978918341991
+          },
+          "distance_to_deterioration": {
+            "mean": 0.004760473668281819,
+            "sd": 0.0030641562565759343
+          },
+          "drawdown_from_running_peak": {
+            "mean": -0.0027627677309020873,
+            "sd": 0.0021055856080785334
+          },
+          "elapsed_log1p_minutes": {
+            "mean": 2.291446238530523,
+            "sd": 1.171696231763496
+          },
+          "fast_activity_ratio": {
+            "mean": 1.6196435151236892,
+            "sd": 3.2003663934065405
+          },
+          "fast_context_agreement": {
+            "mean": 0.09670379896471495,
+            "sd": 0.9824473816715642
+          },
+          "fast_range_ratio": {
+            "mean": 1.2208792935710824,
+            "sd": 0.8486603057156803
+          },
+          "fast_return_1": {
+            "mean": -1.2428557244476298e-05,
+            "sd": 0.0012890975199568698
+          },
+          "fast_return_3": {
+            "mean": 0.00031908909513691093,
+            "sd": 0.002579352935827641
+          },
+          "fast_return_6": {
+            "mean": 0.0014079879970533488,
+            "sd": 0.004673599566644745
+          },
+          "fast_volatility_12": {
+            "mean": 0.0011653187923652642,
+            "sd": 0.0009583820803422713
+          },
+          "new_peak_since_t2": {
+            "mean": 0.001446701963209623,
+            "sd": 0.0015717597015257755
+          },
+          "path_efficiency": {
+            "mean": -0.03756663949481951,
+            "sd": 0.5654174513735728
+          },
+          "return_from_entry": {
+            "mean": 0.01092341455060684,
+            "sd": 0.00450260937302448
+          },
+          "return_since_t2": {
+            "mean": -6.571970824148973e-05,
+            "sd": 0.0024548732190865846
+          }
+        }
+      }
+    },
+    "platt": {
+      "converged": true,
+      "intercept": -0.3905440103584888,
+      "iterations": 6,
+      "slope": 2.4753046201453266
+    },
+    "train": {
+      "event_trades": 78,
+      "non_event_trades": 106,
+      "rows": 7259,
+      "rows_per_trade": {
+        "max": 347,
+        "mean": 39.45108695652174,
+        "median": 18.0,
+        "min": 1,
+        "p25": 7.75,
+        "p75": 38.25
+      },
+      "unique_trades": 184
+    },
+    "validation": {
+      "event_trades": 37,
+      "non_event_trades": 69,
+      "rows": 4390,
+      "rows_per_trade": {
+        "max": 285,
+        "mean": 41.41509433962264,
+        "median": 21.0,
+        "min": 1,
+        "p25": 6.0,
+        "p75": 58.5
+      },
+      "unique_trades": 106
+    }
+  },
+  "fold_B": {
+    "bounds_ms": [
+      1704067200000,
+      1727740800000,
+      1735689600000
+    ],
+    "inner": [
+      {
+        "name": "Q1_to_Q2",
+        "score_bounds_ms": [
+          1711929600000,
+          1719792000000
+        ],
+        "scored": {
+          "event_trades": 33,
+          "non_event_trades": 59,
+          "rows": 4250,
+          "rows_per_trade": {
+            "max": 347,
+            "mean": 46.19565217391305,
+            "median": 20.0,
+            "min": 1,
+            "p25": 7.75,
+            "p75": 38.0
+          },
+          "unique_trades": 92
+        },
+        "train": {
+          "event_trades": 45,
+          "non_event_trades": 46,
+          "rows": 2983,
+          "rows_per_trade": {
+            "max": 191,
+            "mean": 32.78021978021978,
+            "median": 16.0,
+            "min": 1,
+            "p25": 7.5,
+            "p75": 40.0
+          },
+          "unique_trades": 91
+        },
+        "train_bounds_ms": [
+          1704067200000,
+          1711929600000
+        ]
+      },
+      {
+        "name": "H1_to_Q3",
+        "score_bounds_ms": [
+          1719792000000,
+          1727740800000
+        ],
+        "scored": {
+          "event_trades": 37,
+          "non_event_trades": 69,
+          "rows": 4390,
+          "rows_per_trade": {
+            "max": 285,
+            "mean": 41.41509433962264,
+            "median": 21.0,
+            "min": 1,
+            "p25": 6.0,
+            "p75": 58.5
+          },
+          "unique_trades": 106
+        },
+        "train": {
+          "event_trades": 78,
+          "non_event_trades": 106,
+          "rows": 7259,
+          "rows_per_trade": {
+            "max": 347,
+            "mean": 39.45108695652174,
+            "median": 18.0,
+            "min": 1,
+            "p25": 7.75,
+            "p75": 38.25
+          },
+          "unique_trades": 184
+        },
+        "train_bounds_ms": [
+          1704067200000,
+          1719792000000
+        ]
+      }
+    ],
+    "isotonic_support": {
+      "distinct_scores": 8640,
+      "eligible": false,
+      "event_trades": 70,
+      "non_event_trades": 128,
+      "trades": 198
+    },
+    "metrics": {
+      "M0": {
+        "auc": 0.5,
+        "brier": 0.24711742874644177,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.037791710205503315,
+              "lower": 0.3,
+              "mean_probability": 0.39655172413793105,
+              "observed": 0.43434343434343436,
+              "rows": 4851,
+              "trade_weight_mass": 0.9999999999999998,
+              "trades": 99,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.03779171020550331,
+          "estimable": true,
+          "intercept": 0.12941879015874083,
+          "slope": 0.937398500364186
+        },
+        "log_loss": 0.6874557102599486,
+        "prevalence": 0.43434343434343425,
+        "probability_distribution": {
+          "max": 0.39655172413793105,
+          "mean": 0.39655172413793105,
+          "median": 0.39655172413793105,
+          "min": 0.39655172413793105,
+          "n": 4851,
+          "p10": 0.39655172413793105,
+          "p90": 0.39655172413793105
+        },
+        "rows": 4851,
+        "trades": 99
+      },
+      "M1": {
+        "auc": 0.6605135697649053,
+        "brier": 0.23917345871888457,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.008706838884600221,
+              "lower": 0.3,
+              "mean_probability": 0.3739076007936568,
+              "observed": 0.3652007619090566,
+              "rows": 4396,
+              "trade_weight_mass": 0.6673051008755624,
+              "trades": 78,
+              "upper": 0.4
+            },
+            {
+              "absolute_gap": 0.1424625083985584,
+              "lower": 0.4,
+              "mean_probability": 0.4273910986945962,
+              "observed": 0.5698536070931546,
+              "rows": 448,
+              "trade_weight_mass": 0.3168218832514216,
+              "trades": 59,
+              "upper": 0.5
+            },
+            {
+              "absolute_gap": 0.5024567911274077,
+              "lower": 0.5,
+              "mean_probability": 0.5024567911274077,
+              "observed": 0.0,
+              "rows": 4,
+              "trade_weight_mass": 0.005772005772005771,
+              "trades": 1,
+              "upper": 0.6
+            },
+            {
+              "absolute_gap": 0.2603982805759121,
+              "lower": 0.7,
+              "mean_probability": 0.7396017194240879,
+              "observed": 1.0,
+              "rows": 3,
+              "trade_weight_mass": 0.0101010101010101,
+              "trades": 1,
+              "upper": 0.7999999999999999
+            }
+          ],
+          "ece": 0.056475827364702,
+          "estimable": true,
+          "intercept": 1.1915357667398823,
+          "slope": 3.3659051755726734
+        },
+        "log_loss": 0.6707352528556907,
+        "prevalence": 0.43434343434343425,
+        "probability_distribution": {
+          "max": 0.7396017194240879,
+          "mean": 0.3740164427610228,
+          "median": 0.36930181751725794,
+          "min": 0.33990537771538254,
+          "n": 4851,
+          "p10": 0.35569911655871733,
+          "p90": 0.3990527827074314
+        },
+        "rows": 4851,
+        "trades": 99
+      },
+      "M2": {
+        "auc": 0.8521728089557848,
+        "brier": 0.17336686249546351,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.13195474766556337,
+              "lower": 0.1,
+              "mean_probability": 0.18281369423753518,
+              "observed": 0.05085894657197183,
+              "rows": 95,
+              "trade_weight_mass": 0.06329866102805527,
+              "trades": 32,
+              "upper": 0.2
+            },
+            {
+              "absolute_gap": 0.11782153138385329,
+              "lower": 0.2,
+              "mean_probability": 0.254788311215132,
+              "observed": 0.13696677983127872,
+              "rows": 1411,
+              "trade_weight_mass": 0.2623031583261153,
+              "trades": 73,
+              "upper": 0.30000000000000004
+            },
+            {
+              "absolute_gap": 0.054284385431524584,
+              "lower": 0.3,
+              "mean_probability": 0.34704632326261464,
+              "observed": 0.29276193783109006,
+              "rows": 1611,
+              "trade_weight_mass": 0.23729898206290512,
+              "trades": 79,
+              "upper": 0.4
+            },
+            {
+              "absolute_gap": 0.0733903869384499,
+              "lower": 0.4,
+              "mean_probability": 0.44621567565970144,
+              "observed": 0.5196060625981513,
+              "rows": 973,
+              "trade_weight_mass": 0.17308016245498553,
+              "trades": 75,
+              "upper": 0.5
+            },
+            {
+              "absolute_gap": 0.2704541990648892,
+              "lower": 0.5,
+              "mean_probability": 0.549758308526183,
+              "observed": 0.8202125075910722,
+              "rows": 458,
+              "trade_weight_mass": 0.11648765655631856,
+              "trades": 62,
+              "upper": 0.6
+            },
+            {
+              "absolute_gap": 0.2571380837139041,
+              "lower": 0.6,
+              "mean_probability": 0.6540932275586794,
+              "observed": 0.9112313112725835,
+              "rows": 248,
+              "trade_weight_mass": 0.08142377353109508,
+              "trades": 43,
+              "upper": 0.7
+            },
+            {
+              "absolute_gap": 0.2635823901951605,
+              "lower": 0.7,
+              "mean_probability": 0.735231829052017,
+              "observed": 0.9988142192471775,
+              "rows": 51,
+              "trade_weight_mass": 0.04758908752200656,
+              "trades": 28,
+              "upper": 0.7999999999999999
+            },
+            {
+              "absolute_gap": 0.13426132052204243,
+              "lower": 0.8,
+              "mean_probability": 0.8657386794779576,
+              "observed": 1.0,
+              "rows": 3,
+              "trade_weight_mass": 0.01515151515151515,
+              "trades": 3,
+              "upper": 0.9
+            },
+            {
+              "absolute_gap": 0.05174287397558763,
+              "lower": 0.9,
+              "mean_probability": 0.9482571260244124,
+              "observed": 1.0,
+              "rows": 1,
+              "trade_weight_mass": 0.0033670033670033664,
+              "trades": 1,
+              "upper": 1.0
+            }
+          ],
+          "ece": 0.13203542339181093,
+          "estimable": true,
+          "intercept": 0.7699690838063105,
+          "slope": 2.5355215420967996
+        },
+        "log_loss": 0.5285292070760239,
+        "prevalence": 0.43434343434343425,
+        "probability_distribution": {
+          "max": 0.9482571260244124,
+          "mean": 0.3758732882353114,
+          "median": 0.35255162286497566,
+          "min": 0.13293487649778143,
+          "n": 4851,
+          "p10": 0.2405154664935597,
+          "p90": 0.5559803039953135
+        },
+        "rows": 4851,
+        "trades": 99
+      },
+      "M2_platt": {
+        "auc": 0.8521728089557848,
+        "brier": 0.1697404620396935,
+        "calibration": {
+          "bins": [
+            {
+              "absolute_gap": 0.05046925875780127,
+              "lower": 0.0,
+              "mean_probability": 0.06109768558029262,
+              "observed": 0.11156694433809389,
+              "rows": 1203,
+              "trade_weight_mass": 0.2774360522905945,
+              "trades": 73,
+              "upper": 0.1
+            },
+            {
+              "absolute_gap": 0.08828567613988245,
+              "lower": 0.1,
+              "mean_probability": 0.14379029537136956,
+              "observed": 0.232075971511252,
+              "rows": 1442,
+              "trade_weight_mass": 0.21559359072704815,
+              "trades": 75,
+              "upper": 0.2
+            },
+            {
+              "absolute_gap": 0.19487537476424438,
+              "lower": 0.2,
+              "mean_probability": 0.24751774959174155,
+              "observed": 0.44239312435598593,
+              "rows": 790,
+              "trade_weight_mass": 0.12494397424605957,
+              "trades": 75,
+              "upper": 0.30000000000000004
+            },
+            {
+              "absolute_gap": 0.13791415407372581,
+              "lower": 0.3,
+              "mean_probability": 0.35215330813890944,
+              "observed": 0.49006746221263525,
+              "rows": 492,
+              "trade_weight_mass": 0.08636535888643221,
+              "trades": 67,
+              "upper": 0.4
+            },
+            {
+              "absolute_gap": 0.2516555369616871,
+              "lower": 0.4,
+              "mean_probability": 0.44596993872339663,
+              "observed": 0.6976254756850837,
+              "rows": 277,
+              "trade_weight_mass": 0.05922120947426291,
+              "trades": 56,
+              "upper": 0.5
+            },
+            {
+              "absolute_gap": 0.25058510470043904,
+              "lower": 0.5,
+              "mean_probability": 0.5496644258042048,
+              "observed": 0.8002495305046439,
+              "rows": 211,
+              "trade_weight_mass": 0.05113756452617325,
+              "trades": 47,
+              "upper": 0.6
+            },
+            {
+              "absolute_gap": 0.22755813129480928,
+              "lower": 0.6,
+              "mean_probability": 0.6443357139749997,
+              "observed": 0.871893845269809,
+              "rows": 195,
+              "trade_weight_mass": 0.05178299157487189,
+              "trades": 43,
+              "upper": 0.7
+            },
+            {
+              "absolute_gap": 0.15488275143822516,
+              "lower": 0.7,
+              "mean_probability": 0.751439122840309,
+              "observed": 0.9063218742785342,
+              "rows": 139,
+              "trade_weight_mass": 0.0417957609456597,
+              "trades": 38,
+              "upper": 0.7999999999999999
+            },
+            {
+              "absolute_gap": 0.13199129490465444,
+              "lower": 0.8,
+              "mean_probability": 0.8483280892850806,
+              "observed": 0.9803193841897351,
+              "rows": 91,
+              "trade_weight_mass": 0.06263906999885632,
+              "trades": 42,
+              "upper": 0.9
+            },
+            {
+              "absolute_gap": 0.04125344155415411,
+              "lower": 0.9,
+              "mean_probability": 0.9587465584458459,
+              "observed": 1.0,
+              "rows": 11,
+              "trade_weight_mass": 0.029084427330041362,
+              "trades": 9,
+              "upper": 1.0
+            }
+          ],
+          "ece": 0.12473771222219221,
+          "estimable": true,
+          "intercept": 1.0066125391617384,
+          "slope": 1.1748043763537808
+        },
+        "log_loss": 0.5181324794515039,
+        "prevalence": 0.43434343434343425,
+        "probability_distribution": {
+          "max": 0.9977067522667348,
+          "mean": 0.2493975797588375,
+          "median": 0.18044917948781528,
+          "min": 0.014081653800531672,
+          "n": 4851,
+          "p10": 0.0639775044092353,
+          "p90": 0.5704972959359915
+        },
+        "rows": 4851,
+        "trades": 99
+      }
+    },
+    "models": {
+      "M0": {
+        "base_rate": 0.39655172413793105
+      },
+      "M1": {
+        "coefficients": [
+          -0.4165253679249854,
+          0.04314371578250475,
+          0.03695223484956877,
+          0.029738297696434313,
+          -0.010742084251931768,
+          0.017479537214827146,
+          0.02325142611227969,
+          0.03216895928709884,
+          0.02287784183868253,
+          0.00014105639833308047,
+          -0.026647038620927075,
+          -0.01731402646798025,
+          0.027452984666110673
+        ],
+        "converged": true,
+        "features": [
+          "context_return_1",
+          "context_return_3",
+          "context_return_6",
+          "context_volatility_12",
+          "context_range_ratio",
+          "context_activity_ratio",
+          "context_close_vs_sma12",
+          "context_sma12_slope"
+        ],
+        "gradient_max": 7.33409027953158e-10,
+        "iterations": 14,
+        "scaler": {
+          "context_activity_ratio": {
+            "mean": 3.129515430484539,
+            "sd": 7.547125664373035
+          },
+          "context_close_vs_sma12": {
+            "mean": 0.005882395179577795,
+            "sd": 0.00549810006495948
+          },
+          "context_range_ratio": {
+            "mean": 1.8353749213338668,
+            "sd": 2.254068060393451
+          },
+          "context_return_1": {
+            "mean": 0.001679007561423137,
+            "sd": 0.004434042532970774
+          },
+          "context_return_3": {
+            "mean": 0.0044568704548913814,
+            "sd": 0.005735651660229439
+          },
+          "context_return_6": {
+            "mean": 0.007040543451461963,
+            "sd": 0.0068911280466425065
+          },
+          "context_sma12_slope": {
+            "mean": 0.000829520329389799,
+            "sd": 0.0007357512627186245
+          },
+          "context_volatility_12": {
+            "mean": 0.0023119191595760828,
+            "sd": 0.0017349330410715775
+          }
+        }
+      },
+      "M2": {
+        "coefficients": [
+          -0.44802259647698056,
+          0.016177344876861493,
+          0.017737754890985863,
+          0.01653864607879806,
+          -0.0076697808694444845,
+          0.0031901965771065233,
+          0.010733103771903407,
+          0.01668209434135614,
+          0.013440680749411134,
+          0.0563335927409956,
+          0.054981666293792295,
+          0.04435178921616979,
+          -0.013130726510791437,
+          0.02628662408948629,
+          0.031411821177762526,
+          0.10128880521858008,
+          0.09834355231395953,
+          0.07788438312825084,
+          0.10237019134644339,
+          0.1287900929999768,
+          0.1254073264042975,
+          0.07302584897229655,
+          0.00968943749744664,
+          0.04075671366961874,
+          -0.0006536125913094507,
+          -0.02119912085948447,
+          -0.014069389911232274,
+          0.02115167983763589
+        ],
+        "converged": true,
+        "features": [
+          "context_return_1",
+          "context_return_3",
+          "context_return_6",
+          "context_volatility_12",
+          "context_range_ratio",
+          "context_activity_ratio",
+          "context_close_vs_sma12",
+          "context_sma12_slope",
+          "fast_return_1",
+          "fast_return_3",
+          "fast_return_6",
+          "fast_volatility_12",
+          "fast_range_ratio",
+          "fast_activity_ratio",
+          "return_since_t2",
+          "return_from_entry",
+          "new_peak_since_t2",
+          "drawdown_from_running_peak",
+          "distance_to_continuation",
+          "distance_to_deterioration",
+          "path_efficiency",
+          "elapsed_log1p_minutes",
+          "fast_context_agreement"
+        ],
+        "gradient_max": 2.93740635981532e-10,
+        "iterations": 16,
+        "scaler": {
+          "context_activity_ratio": {
+            "mean": 3.129515430484539,
+            "sd": 7.547125664373035
+          },
+          "context_close_vs_sma12": {
+            "mean": 0.005882395179577795,
+            "sd": 0.00549810006495948
+          },
+          "context_range_ratio": {
+            "mean": 1.8353749213338668,
+            "sd": 2.254068060393451
+          },
+          "context_return_1": {
+            "mean": 0.001679007561423137,
+            "sd": 0.004434042532970774
+          },
+          "context_return_3": {
+            "mean": 0.0044568704548913814,
+            "sd": 0.005735651660229439
+          },
+          "context_return_6": {
+            "mean": 0.007040543451461963,
+            "sd": 0.0068911280466425065
+          },
+          "context_sma12_slope": {
+            "mean": 0.000829520329389799,
+            "sd": 0.0007357512627186245
+          },
+          "context_volatility_12": {
+            "mean": 0.0023119191595760828,
+            "sd": 0.0017349330410715775
+          },
+          "distance_to_continuation": {
+            "mean": -0.006388862439234413,
+            "sd": 0.002597042836101995
+          },
+          "distance_to_deterioration": {
+            "mean": 0.004625461551178314,
+            "sd": 0.0029242628825220975
+          },
+          "drawdown_from_running_peak": {
+            "mean": -0.002839903147134535,
+            "sd": 0.0020890583154249557
+          },
+          "elapsed_log1p_minutes": {
+            "mean": 2.300617661095397,
+            "sd": 1.1945286098749186
+          },
+          "fast_activity_ratio": {
+            "mean": 1.6669845305980417,
+            "sd": 3.2070697802213877
+          },
+          "fast_context_agreement": {
+            "mean": 0.09468002990841959,
+            "sd": 0.9813345719266379
+          },
+          "fast_range_ratio": {
+            "mean": 1.2103392757255784,
+            "sd": 0.8351750739950966
+          },
+          "fast_return_1": {
+            "mean": -1.8949378998654377e-05,
+            "sd": 0.0012718198244898564
+          },
+          "fast_return_3": {
+            "mean": 0.0003108254355172485,
+            "sd": 0.0024845293345886303
+          },
+          "fast_return_6": {
+            "mean": 0.001316150323698131,
+            "sd": 0.004281061785620049
+          },
+          "fast_volatility_12": {
+            "mean": 0.0011511029301295573,
+            "sd": 0.0008721110600420762
+          },
+          "new_peak_since_t2": {
+            "mean": 0.0014231471489289545,
+            "sd": 0.0015695109996028552
+          },
+          "path_efficiency": {
+            "mean": -0.02358847682127392,
+            "sd": 0.5687466900134145
+          },
+          "return_from_entry": {
+            "mean": 0.010751240218483137,
+            "sd": 0.004050839537497504
+          },
+          "return_since_t2": {
+            "mean": 4.692965255588331e-05,
+            "sd": 0.0025312889147331005
+          }
+        }
+      }
+    },
+    "platt": {
+      "converged": true,
+      "intercept": -0.20143222149877774,
+      "iterations": 6,
+      "slope": 2.1582499973027436
+    },
+    "train": {
+      "event_trades": 115,
+      "non_event_trades": 175,
+      "rows": 11649,
+      "rows_per_trade": {
+        "max": 347,
+        "mean": 40.16896551724138,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 46.5
+      },
+      "unique_trades": 290
+    },
+    "validation": {
+      "event_trades": 43,
+      "non_event_trades": 56,
+      "rows": 4851,
+      "rows_per_trade": {
+        "max": 328,
+        "mean": 49.0,
+        "median": 21.0,
+        "min": 1,
+        "p25": 9.5,
+        "p75": 54.0
+      },
+      "unique_trades": 99
+    }
+  }
+}

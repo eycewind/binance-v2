@@ -1,0 +1,22 @@
+{
+  "baseline_metrics.json": "62a72299a384fef3c5e03c0b08d2486b62ffa97fd49a3f15abe1501f65004ab3",
+  "calibrated_metrics_2024.json": "7df7625a7b134734edc49f9271e079ba0b8d8a5ea6e6fa6b5edd837a370a243f",
+  "calibration_candidate_decision.json": "014c1d5e9348a12ebf9566a2dfc03466151e42fa2f40462cf15fc2428c2bbc88",
+  "event_population_reconciliation.json": "21372aa001a583238de24b1001014faef5f792119307834c56320623a97360cb",
+  "feature_interpretation.json": "c24cc12665c836e1085d4d021f8ef3636758ed1bf3c57ce9ce2c9abd5eab4867",
+  "feature_schema.json": "9cbacd087acc31cfb6191780f10e8cfd0c850f48ddfb6d86df8375793c77d9ce",
+  "final_summary.json": "8c2ebc215a929dac92f8d67a641506196e4a61bac30fb85965108ebe28970ec9",
+  "fold_definitions.json": "150c478497d7503c8407d8433000d0a6e8fde84ffff01ab3fe0208e1e38e6dfe",
+  "frozen_calibration_procedure.json": "63b26af7873c263f6e10682b0ce334567fae0af8f1166e6e7515c55a1efc18dc",
+  "m1_m2_metrics_2024.json": "4b4b5481d40a1682900da6fb092b5bf99a637f6b875ab20362d45b8f3122ea34",
+  "p0_edge_cases.json": "8fd922ce8aa98526441863ccca6c2ddf40854a24daf670d1fec7d54b7f0c570b",
+  "probability_bands_2024.json": "fb59a2e82c211d25fbe8bbf41f065358f3681338cc1c833c5f53c15a6de2b80e",
+  "probability_bands_2025.json": "ab87dfb829ff2df05568a770c368c12c05990bf76f0a2430c6384029b78bf52d",
+  "provenance.json": "70169f6b2a8ecb73cf531c1857b90548b15dfbef61963b8ad7eae34cf5060264",
+  "run_manifest.json": "3cbccfa076cbb0ebe38d56a5946ccd50bab06f11e97b53becc35a095c88a60ce",
+  "stability_2025.json": "60dc7a23faf44517d1aa403b9c109dd02638456e6494832f1c0682db654cfb37",
+  "trajectory_summary_2024.json": "6d25ab3a5282ea1871b9caded9df731771f6f9169a40b09ccc680f2769f1660c",
+  "trajectory_summary_2025.json": "f21babdf6f6321b4ba5d247428966fc7f51fe367b234064d6060293933c7965b",
+  "whole_trade_uncertainty_2024.json": "8b6f6ad64e06877879b9030d132bc66d22c0935f2ac57ab5a62a53bef42c636a",
+  "whole_trade_uncertainty_2025.json": "374506f41381defe3e6be49e7882cae831ac247fa8caa7ae475ce22d4b212d68"
+}

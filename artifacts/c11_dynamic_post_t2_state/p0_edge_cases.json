@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "closest_continuation_gap": 0.0007986209423558321,
+      "closest_deterioration_gap": 0.0017312961188711284,
+      "continuation_boundary_touched": false,
+      "deterioration_boundary_touched": false,
+      "minutes_t2_to_p0": 1075.0,
+      "symbol": "BNBUSDT",
+      "terminal_close_distance_to_continuation": -0.006972163767214878,
+      "terminal_close_distance_to_deterioration": 0.0029751399324289274,
+      "trade_id": "E1-34f312f9103a9761",
+      "year": 2025
+    },
+    {
+      "closest_continuation_gap": 0.000979366310862595,
+      "closest_deterioration_gap": 0.0037956374843599594,
+      "continuation_boundary_touched": false,
+      "deterioration_boundary_touched": false,
+      "minutes_t2_to_p0": 1345.0,
+      "symbol": "BTCUSDT",
+      "terminal_close_distance_to_continuation": -0.0050976837087818305,
+      "terminal_close_distance_to_deterioration": 0.0053156653040908886,
+      "trade_id": "E1-d3ea424a21e5e01c",
+      "year": 2025
+    }
+  ],
+  "count": 2,
+  "treatment": "descriptive only; competing P0 termination is not either binary outcome"
+}

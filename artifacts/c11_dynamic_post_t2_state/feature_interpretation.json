@@ -1,0 +1,267 @@
+{
+  "coefficients": [
+    {
+      "association": "continuation",
+      "feature": "context_return_1",
+      "standardized_coefficient": 0.019639766497204583
+    },
+    {
+      "association": "continuation",
+      "feature": "context_return_3",
+      "standardized_coefficient": 0.023860321036756383
+    },
+    {
+      "association": "continuation",
+      "feature": "context_return_6",
+      "standardized_coefficient": 0.016112411761199544
+    },
+    {
+      "association": "deterioration",
+      "feature": "context_volatility_12",
+      "standardized_coefficient": -0.004828321003075638
+    },
+    {
+      "association": "continuation",
+      "feature": "context_range_ratio",
+      "standardized_coefficient": 0.009318692595016257
+    },
+    {
+      "association": "continuation",
+      "feature": "context_activity_ratio",
+      "standardized_coefficient": 0.012932074196858401
+    },
+    {
+      "association": "continuation",
+      "feature": "context_close_vs_sma12",
+      "standardized_coefficient": 0.017110529758725557
+    },
+    {
+      "association": "continuation",
+      "feature": "context_sma12_slope",
+      "standardized_coefficient": 0.010502503736950504
+    },
+    {
+      "association": "continuation",
+      "feature": "fast_return_1",
+      "standardized_coefficient": 0.05363481256657423
+    },
+    {
+      "association": "continuation",
+      "feature": "fast_return_3",
+      "standardized_coefficient": 0.05647630918235523
+    },
+    {
+      "association": "continuation",
+      "feature": "fast_return_6",
+      "standardized_coefficient": 0.044039888495944285
+    },
+    {
+      "association": "deterioration",
+      "feature": "fast_volatility_12",
+      "standardized_coefficient": -0.011468243913458357
+    },
+    {
+      "association": "continuation",
+      "feature": "fast_range_ratio",
+      "standardized_coefficient": 0.027097843712704406
+    },
+    {
+      "association": "continuation",
+      "feature": "fast_activity_ratio",
+      "standardized_coefficient": 0.030606801754396624
+    },
+    {
+      "association": "continuation",
+      "feature": "return_since_t2",
+      "standardized_coefficient": 0.10317789949616109
+    },
+    {
+      "association": "continuation",
+      "feature": "return_from_entry",
+      "standardized_coefficient": 0.10261324581610436
+    },
+    {
+      "association": "continuation",
+      "feature": "new_peak_since_t2",
+      "standardized_coefficient": 0.08638437517644172
+    },
+    {
+      "association": "continuation",
+      "feature": "drawdown_from_running_peak",
+      "standardized_coefficient": 0.09715105982913867
+    },
+    {
+      "association": "continuation",
+      "feature": "distance_to_continuation",
+      "standardized_coefficient": 0.12892301571163114
+    },
+    {
+      "association": "continuation",
+      "feature": "distance_to_deterioration",
+      "standardized_coefficient": 0.1280126296222145
+    },
+    {
+      "association": "continuation",
+      "feature": "path_efficiency",
+      "standardized_coefficient": 0.07676967643354134
+    },
+    {
+      "association": "continuation",
+      "feature": "elapsed_log1p_minutes",
+      "standardized_coefficient": 0.006094800863375702
+    },
+    {
+      "association": "continuation",
+      "feature": "fast_context_agreement",
+      "standardized_coefficient": 0.037837827520202066
+    },
+    {
+      "association": "continuation",
+      "feature": "symbol_ETHUSDT",
+      "standardized_coefficient": 0.004242472919506348
+    },
+    {
+      "association": "deterioration",
+      "feature": "symbol_SOLUSDT",
+      "standardized_coefficient": -0.021175625614707573
+    },
+    {
+      "association": "deterioration",
+      "feature": "symbol_XRPUSDT",
+      "standardized_coefficient": -0.008800117707747657
+    },
+    {
+      "association": "continuation",
+      "feature": "symbol_BNBUSDT",
+      "standardized_coefficient": 0.012926080994888504
+    }
+  ],
+  "families": {
+    "1m_5m_agreement": {
+      "absolute_coefficient_mass": 0.037837827520202066,
+      "features": [
+        "fast_context_agreement"
+      ],
+      "largest_feature": "fast_context_agreement",
+      "signed_sum": 0.037837827520202066
+    },
+    "1m_momentum": {
+      "absolute_coefficient_mass": 0.15415101024487374,
+      "features": [
+        "fast_return_1",
+        "fast_return_3",
+        "fast_return_6"
+      ],
+      "largest_feature": "fast_return_3",
+      "signed_sum": 0.15415101024487374
+    },
+    "1m_volatility_range_activity": {
+      "absolute_coefficient_mass": 0.06917288938055938,
+      "features": [
+        "fast_volatility_12",
+        "fast_range_ratio",
+        "fast_activity_ratio"
+      ],
+      "largest_feature": "fast_activity_ratio",
+      "signed_sum": 0.04623640155364267
+    },
+    "5m_returns_momentum": {
+      "absolute_coefficient_mass": 0.059612499295160506,
+      "features": [
+        "context_return_1",
+        "context_return_3",
+        "context_return_6"
+      ],
+      "largest_feature": "context_return_3",
+      "signed_sum": 0.059612499295160506
+    },
+    "5m_volatility_range_activity_trend": {
+      "absolute_coefficient_mass": 0.05469212129062636,
+      "features": [
+        "context_volatility_12",
+        "context_range_ratio",
+        "context_activity_ratio",
+        "context_close_vs_sma12",
+        "context_sma12_slope"
+      ],
+      "largest_feature": "context_close_vs_sma12",
+      "signed_sum": 0.04503547928447508
+    },
+    "continuation_boundary_distance": {
+      "absolute_coefficient_mass": 0.12892301571163114,
+      "features": [
+        "distance_to_continuation"
+      ],
+      "largest_feature": "distance_to_continuation",
+      "signed_sum": 0.12892301571163114
+    },
+    "deterioration_boundary_distance": {
+      "absolute_coefficient_mass": 0.1280126296222145,
+      "features": [
+        "distance_to_deterioration"
+      ],
+      "largest_feature": "distance_to_deterioration",
+      "signed_sum": 0.1280126296222145
+    },
+    "drawdown_from_peak": {
+      "absolute_coefficient_mass": 0.09715105982913867,
+      "features": [
+        "drawdown_from_running_peak"
+      ],
+      "largest_feature": "drawdown_from_running_peak",
+      "signed_sum": 0.09715105982913867
+    },
+    "elapsed_time": {
+      "absolute_coefficient_mass": 0.006094800863375702,
+      "features": [
+        "elapsed_log1p_minutes"
+      ],
+      "largest_feature": "elapsed_log1p_minutes",
+      "signed_sum": 0.006094800863375702
+    },
+    "path_efficiency": {
+      "absolute_coefficient_mass": 0.07676967643354134,
+      "features": [
+        "path_efficiency"
+      ],
+      "largest_feature": "path_efficiency",
+      "signed_sum": 0.07676967643354134
+    },
+    "return_from_entry": {
+      "absolute_coefficient_mass": 0.10261324581610436,
+      "features": [
+        "return_from_entry"
+      ],
+      "largest_feature": "return_from_entry",
+      "signed_sum": 0.10261324581610436
+    },
+    "return_since_t2": {
+      "absolute_coefficient_mass": 0.10317789949616109,
+      "features": [
+        "return_since_t2"
+      ],
+      "largest_feature": "return_since_t2",
+      "signed_sum": 0.10317789949616109
+    },
+    "running_peak_since_t2": {
+      "absolute_coefficient_mass": 0.08638437517644172,
+      "features": [
+        "new_peak_since_t2"
+      ],
+      "largest_feature": "new_peak_since_t2",
+      "signed_sum": 0.08638437517644172
+    },
+    "symbol": {
+      "absolute_coefficient_mass": 0.04714429723685008,
+      "features": [
+        "symbol_ETHUSDT",
+        "symbol_SOLUSDT",
+        "symbol_XRPUSDT",
+        "symbol_BNBUSDT"
+      ],
+      "largest_feature": "symbol_SOLUSDT",
+      "signed_sum": -0.012807189408060374
+    }
+  },
+  "warning": "Predictive associations only; not causal effects."
+}

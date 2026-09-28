@@ -1,0 +1,109 @@
+{
+  "M0": "training trade-weighted prevalence",
+  "M1": [
+    "context_return_1",
+    "context_return_3",
+    "context_return_6",
+    "context_volatility_12",
+    "context_range_ratio",
+    "context_activity_ratio",
+    "context_close_vs_sma12",
+    "context_sma12_slope",
+    "symbol_ETHUSDT",
+    "symbol_SOLUSDT",
+    "symbol_XRPUSDT",
+    "symbol_BNBUSDT"
+  ],
+  "M2": [
+    "context_return_1",
+    "context_return_3",
+    "context_return_6",
+    "context_volatility_12",
+    "context_range_ratio",
+    "context_activity_ratio",
+    "context_close_vs_sma12",
+    "context_sma12_slope",
+    "fast_return_1",
+    "fast_return_3",
+    "fast_return_6",
+    "fast_volatility_12",
+    "fast_range_ratio",
+    "fast_activity_ratio",
+    "return_since_t2",
+    "return_from_entry",
+    "new_peak_since_t2",
+    "drawdown_from_running_peak",
+    "distance_to_continuation",
+    "distance_to_deterioration",
+    "path_efficiency",
+    "elapsed_log1p_minutes",
+    "fast_context_agreement",
+    "symbol_ETHUSDT",
+    "symbol_SOLUSDT",
+    "symbol_XRPUSDT",
+    "symbol_BNBUSDT"
+  ],
+  "architecture": {
+    "context_minutes": 5,
+    "state_minutes": 1
+  },
+  "families": {
+    "1m_5m_agreement": [
+      "fast_context_agreement"
+    ],
+    "1m_momentum": [
+      "fast_return_1",
+      "fast_return_3",
+      "fast_return_6"
+    ],
+    "1m_volatility_range_activity": [
+      "fast_volatility_12",
+      "fast_range_ratio",
+      "fast_activity_ratio"
+    ],
+    "5m_returns_momentum": [
+      "context_return_1",
+      "context_return_3",
+      "context_return_6"
+    ],
+    "5m_volatility_range_activity_trend": [
+      "context_volatility_12",
+      "context_range_ratio",
+      "context_activity_ratio",
+      "context_close_vs_sma12",
+      "context_sma12_slope"
+    ],
+    "continuation_boundary_distance": [
+      "distance_to_continuation"
+    ],
+    "deterioration_boundary_distance": [
+      "distance_to_deterioration"
+    ],
+    "drawdown_from_peak": [
+      "drawdown_from_running_peak"
+    ],
+    "elapsed_time": [
+      "elapsed_log1p_minutes"
+    ],
+    "path_efficiency": [
+      "path_efficiency"
+    ],
+    "return_from_entry": [
+      "return_from_entry"
+    ],
+    "return_since_t2": [
+      "return_since_t2"
+    ],
+    "running_peak_since_t2": [
+      "new_peak_since_t2"
+    ],
+    "symbol": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT"
+    ]
+  },
+  "frozen_before_evaluation": true,
+  "label_not_in_features": true
+}

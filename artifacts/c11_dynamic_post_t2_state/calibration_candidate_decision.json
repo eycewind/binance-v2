@@ -1,0 +1,21 @@
+{
+  "isotonic_requires_every_fold_support": true,
+  "rule": "isotonic iff supported in every fold and beats Platt on both proper scores; recalibration retained only if neither proper score worsens",
+  "selected": "platt",
+  "support": {
+    "fold_A": {
+      "distinct_scores": 4250,
+      "eligible": false,
+      "event_trades": 33,
+      "non_event_trades": 59,
+      "trades": 92
+    },
+    "fold_B": {
+      "distinct_scores": 8640,
+      "eligible": false,
+      "event_trades": 70,
+      "non_event_trades": 128,
+      "trades": 198
+    }
+  }
+}
