@@ -1,0 +1,47 @@
+{
+  "cells": {
+    "CONTINUATION_FIRST|EXACT_ZERO": {
+      "proportion_overall": 0.0008312880387246812,
+      "proportion_within_event": 0.0020462474799377755,
+      "snapshots": 18,
+      "trade_weight_mass": 0.5054231275446062,
+      "unique_trades": 6
+    },
+    "CONTINUATION_FIRST|EXIT_BETTER": {
+      "proportion_overall": 0.24747418825095396,
+      "proportion_within_event": 0.6091672326177622,
+      "snapshots": 6873,
+      "trade_weight_mass": 150.46430645658,
+      "unique_trades": 169
+    },
+    "CONTINUATION_FIRST|HOLD_BETTER": {
+      "proportion_overall": 0.1579445237103214,
+      "proportion_within_event": 0.3887865199023483,
+      "snapshots": 5662,
+      "trade_weight_mass": 96.0302704158754,
+      "unique_trades": 111
+    },
+    "DETERIORATION_FIRST|EXACT_ZERO": {
+      "proportion_overall": 0.00033002235982112143,
+      "proportion_within_event": 0.000555827132330345,
+      "snapshots": 12,
+      "trade_weight_mass": 0.20065359477124184,
+      "unique_trades": 4
+    },
+    "DETERIORATION_FIRST|EXIT_BETTER": {
+      "proportion_overall": 0.4401055264318833,
+      "proportion_within_event": 0.7412303603063767,
+      "snapshots": 13866,
+      "trade_weight_mass": 267.584160070585,
+      "unique_trades": 275
+    },
+    "DETERIORATION_FIRST|HOLD_BETTER": {
+      "proportion_overall": 0.15331445120829557,
+      "proportion_within_event": 0.2582138125613562,
+      "snapshots": 3501,
+      "trade_weight_mass": 93.2151863346437,
+      "unique_trades": 100
+    }
+  },
+  "dependence_unit": "whole trade; proportions use per-trade-normalized snapshot weights"
+}

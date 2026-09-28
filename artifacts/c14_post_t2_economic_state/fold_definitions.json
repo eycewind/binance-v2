@@ -1,0 +1,28 @@
+{
+  "fold_A": {
+    "bounds_ms": [
+      1704067200000,
+      1719792000000,
+      1727740800000
+    ],
+    "preprocessing_training_only": true,
+    "training_before_validation": true,
+    "training_rows": 7259,
+    "training_trades": 184,
+    "validation_rows": 4390,
+    "validation_trades": 106
+  },
+  "fold_B": {
+    "bounds_ms": [
+      1704067200000,
+      1727740800000,
+      1735689600000
+    ],
+    "preprocessing_training_only": true,
+    "training_before_validation": true,
+    "training_rows": 11649,
+    "training_trades": 290,
+    "validation_rows": 4851,
+    "validation_trades": 99
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "c11_reproduction": {
+    "checks": {
+      "metrics_2024_exact": true,
+      "metrics_2025_exact": true,
+      "selected_calibration": true,
+      "trajectory_2024_exact": true,
+      "trajectory_2025_exact": true
+    },
+    "probability_rows": 29932,
+    "probability_sha256": "c93150ca08c44d027f01ecfd4543dec9d0a9f91318ff430ee081dbf30febcc3f",
+    "status": "PASS"
+  },
+  "contract_sha256": "0e2916068a679ce0b764f72327616fcd8c19aaf663bf6c3f5cb384ea41abaea7",
+  "inputs": {
+    "c11_final": "8c2ebc215a929dac92f8d67a641506196e4a61bac30fb85965108ebe28970ec9",
+    "c7_population": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "contracts/C14_post_t2_economic_state_CONTRACT.md": "0e2916068a679ce0b764f72327616fcd8c19aaf663bf6c3f5cb384ea41abaea7"
+  },
+  "no_2026_access": true
+}

@@ -1,0 +1,8 @@
+{
+  "causal_builder": "frozen c10.feature_row/snapshots",
+  "feature_schema_checked": true,
+  "future_diagnostics_order": "after primary/model evaluation",
+  "future_target_builder": "target_for_snapshot receives no features",
+  "status": "PASS",
+  "synthetic_tests_required": true
+}

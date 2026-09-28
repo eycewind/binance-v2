@@ -1,0 +1,127 @@
+{
+  "feature_associations": {
+    "M2_standardized_coefficients": [
+      {
+        "coefficient": -0.6420867667574472,
+        "feature": "intercept"
+      },
+      {
+        "coefficient": -0.010350927493482143,
+        "feature": "context_return_1"
+      },
+      {
+        "coefficient": -0.005317290203403341,
+        "feature": "context_return_3"
+      },
+      {
+        "coefficient": 0.009470476928580109,
+        "feature": "context_return_6"
+      },
+      {
+        "coefficient": 0.011901274634197889,
+        "feature": "context_volatility_12"
+      },
+      {
+        "coefficient": 0.006568944227099693,
+        "feature": "context_range_ratio"
+      },
+      {
+        "coefficient": 0.02053103740636486,
+        "feature": "context_activity_ratio"
+      },
+      {
+        "coefficient": 0.0021166791408425874,
+        "feature": "context_close_vs_sma12"
+      },
+      {
+        "coefficient": 0.004025377626192157,
+        "feature": "context_sma12_slope"
+      },
+      {
+        "coefficient": 0.0004805331104717662,
+        "feature": "fast_return_1"
+      },
+      {
+        "coefficient": 0.007347471206387063,
+        "feature": "fast_return_3"
+      },
+      {
+        "coefficient": -0.003240330845408799,
+        "feature": "fast_return_6"
+      },
+      {
+        "coefficient": -0.0012950644215948533,
+        "feature": "fast_volatility_12"
+      },
+      {
+        "coefficient": 0.006173943451460952,
+        "feature": "fast_range_ratio"
+      },
+      {
+        "coefficient": 0.00512669917682296,
+        "feature": "fast_activity_ratio"
+      },
+      {
+        "coefficient": 0.014715035697278481,
+        "feature": "return_since_t2"
+      },
+      {
+        "coefficient": -0.0007277831629883564,
+        "feature": "return_from_entry"
+      },
+      {
+        "coefficient": 0.009550270921679826,
+        "feature": "new_peak_since_t2"
+      },
+      {
+        "coefficient": 0.0024671812014662726,
+        "feature": "drawdown_from_running_peak"
+      },
+      {
+        "coefficient": 0.007684936839249587,
+        "feature": "distance_to_continuation"
+      },
+      {
+        "coefficient": 0.0030975158370890226,
+        "feature": "distance_to_deterioration"
+      },
+      {
+        "coefficient": 0.014017018283908314,
+        "feature": "path_efficiency"
+      },
+      {
+        "coefficient": -0.016158240579050787,
+        "feature": "elapsed_log1p_minutes"
+      },
+      {
+        "coefficient": 0.005070574695029957,
+        "feature": "fast_context_agreement"
+      },
+      {
+        "coefficient": 0.008860817589994366,
+        "feature": "symbol_ETHUSDT"
+      },
+      {
+        "coefficient": 0.0022479193158117428,
+        "feature": "symbol_SOLUSDT"
+      },
+      {
+        "coefficient": -0.008057295819343417,
+        "feature": "symbol_XRPUSDT"
+      },
+      {
+        "coefficient": 0.002665590892501729,
+        "feature": "symbol_BNBUSDT"
+      }
+    ],
+    "warning": "predictive associations, not causal effects"
+  },
+  "fit_2025_after_procedure_frozen": true,
+  "models": [
+    "M0",
+    "M1 fixed L2 logistic",
+    "M2 fixed L2 logistic",
+    "fixed ridge penalty=1"
+  ],
+  "search": false
+}

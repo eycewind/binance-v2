@@ -1,0 +1,8 @@
+{
+  "P0_wins_ties": true,
+  "cost": "C_BASE",
+  "deadband": false,
+  "gap_fail_closed": true,
+  "primary": "DELTA_V = HOLD_TO_P0_NET - EXIT_NOW_NET",
+  "strict_signs": true
+}

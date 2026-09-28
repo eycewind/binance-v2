@@ -1,0 +1,913 @@
+{
+  "examples": [
+    {
+      "economic_state": "EXACT_ZERO",
+      "event_label": "CONTINUATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-15a5b40f4a9dbc66",
+      "trajectory": [
+        {
+          "delta_v": 0.0,
+          "predicted_hold_better": 0.40816404381676347,
+          "state_ms": 1720792980000
+        },
+        {
+          "delta_v": 0.0,
+          "predicted_hold_better": 0.3895200706813468,
+          "state_ms": 1720794240000
+        },
+        {
+          "delta_v": 0.0,
+          "predicted_hold_better": 0.38077481451436745,
+          "state_ms": 1720796700000
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "economic_state": "EXIT_BETTER",
+      "event_label": "CONTINUATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-75f89fe585c1f4f2",
+      "trajectory": [
+        {
+          "delta_v": -0.0003708822580888414,
+          "predicted_hold_better": 0.36764097471369944,
+          "state_ms": 1728915960000
+        },
+        {
+          "delta_v": -0.0009272056452218746,
+          "predicted_hold_better": 0.36629326654534017,
+          "state_ms": 1728916020000
+        },
+        {
+          "delta_v": -0.0011126467742662953,
+          "predicted_hold_better": 0.36601202106731534,
+          "state_ms": 1728916080000
+        },
+        {
+          "delta_v": -0.0005563233871331476,
+          "predicted_hold_better": 0.36340482238539523,
+          "state_ms": 1728916140000
+        },
+        {
+          "delta_v": -0.0009272056452218746,
+          "predicted_hold_better": 0.36177207465063865,
+          "state_ms": 1728916200000
+        },
+        {
+          "delta_v": -0.00018544112904430622,
+          "predicted_hold_better": 0.35206765890513764,
+          "state_ms": 1728916860000
+        },
+        {
+          "delta_v": -0.0014835290323550222,
+          "predicted_hold_better": 0.3531875733415783,
+          "state_ms": 1728916920000
+        },
+        {
+          "delta_v": -0.0018544112904437492,
+          "predicted_hold_better": 0.35519065873905237,
+          "state_ms": 1728916980000
+        },
+        {
+          "delta_v": -0.0011126467742662953,
+          "predicted_hold_better": 0.35305456578537914,
+          "state_ms": 1728917040000
+        },
+        {
+          "delta_v": -0.0009272056452218746,
+          "predicted_hold_better": 0.354637663877094,
+          "state_ms": 1728917100000
+        },
+        {
+          "delta_v": -0.0011126467742662953,
+          "predicted_hold_better": 0.3552132823584523,
+          "state_ms": 1728917160000
+        },
+        {
+          "delta_v": -0.0011126467742662953,
+          "predicted_hold_better": 0.35774338567418973,
+          "state_ms": 1728917220000
+        },
+        {
+          "delta_v": -0.0014835290323550222,
+          "predicted_hold_better": 0.3586370531905977,
+          "state_ms": 1728917280000
+        },
+        {
+          "delta_v": -0.0003708822580888414,
+          "predicted_hold_better": 0.3536254978321794,
+          "state_ms": 1728917340000
+        },
+        {
+          "delta_v": -0.00018544112904430622,
+          "predicted_hold_better": 0.34332373541655387,
+          "state_ms": 1728919080000
+        },
+        {
+          "delta_v": -0.0024107346775770113,
+          "predicted_hold_better": 0.3418388806646598,
+          "state_ms": 1728919200000
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "economic_state": "HOLD_BETTER",
+      "event_label": "CONTINUATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-1a59a76c8dab7491",
+      "trajectory": [
+        {
+          "delta_v": 0.0001152199892233063,
+          "predicted_hold_better": 0.3852824954903161,
+          "state_ms": 1724111940000
+        },
+        {
+          "delta_v": 0.0003943873639935874,
+          "predicted_hold_better": 0.3864564429645778,
+          "state_ms": 1724112000000
+        },
+        {
+          "delta_v": 0.00036917770409013433,
+          "predicted_hold_better": 0.3884847822944479,
+          "state_ms": 1724112060000
+        },
+        {
+          "delta_v": 0.00040284698141090317,
+          "predicted_hold_better": 0.38600582726588695,
+          "state_ms": 1724112120000
+        },
+        {
+          "delta_v": 0.0009104240264477996,
+          "predicted_hold_better": 0.38240660403182714,
+          "state_ms": 1724112180000
+        },
+        {
+          "delta_v": 0.00023365463306527102,
+          "predicted_hold_better": 0.39406573125625555,
+          "state_ms": 1724112240000
+        },
+        {
+          "delta_v": 0.00023365463306527102,
+          "predicted_hold_better": 0.3900557050626541,
+          "state_ms": 1724112300000
+        },
+        {
+          "delta_v": 0.0006077389152574142,
+          "predicted_hold_better": 0.3878091537359036,
+          "state_ms": 1724112360000
+        },
+        {
+          "delta_v": 0.0010012803175095545,
+          "predicted_hold_better": 0.3807810360284646,
+          "state_ms": 1724112420000
+        },
+        {
+          "delta_v": 0.001518332134053708,
+          "predicted_hold_better": 0.3786778471444942,
+          "state_ms": 1724112480000
+        },
+        {
+          "delta_v": 0.001621031889499591,
+          "predicted_hold_better": 0.3784901306400296,
+          "state_ms": 1724112540000
+        },
+        {
+          "delta_v": 0.0014477789247935111,
+          "predicted_hold_better": 0.38495418973998813,
+          "state_ms": 1724112600000
+        },
+        {
+          "delta_v": 0.0010960280325830359,
+          "predicted_hold_better": 0.3836581109421938,
+          "state_ms": 1724112660000
+        },
+        {
+          "delta_v": 0.0003265412323070231,
+          "predicted_hold_better": 0.38771568180188554,
+          "state_ms": 1724112720000
+        },
+        {
+          "delta_v": 0.0007188982881204996,
+          "predicted_hold_better": 0.38228303966708416,
+          "state_ms": 1724112780000
+        },
+        {
+          "delta_v": 0.0008896133676012143,
+          "predicted_hold_better": 0.382614179306911,
+          "state_ms": 1724112840000
+        },
+        {
+          "delta_v": 0.0009104240264477996,
+          "predicted_hold_better": 0.3878544366014135,
+          "state_ms": 1724112900000
+        },
+        {
+          "delta_v": 0.0009249745684056735,
+          "predicted_hold_better": 0.3850013209700723,
+          "state_ms": 1724112960000
+        },
+        {
+          "delta_v": 0.0009784393504827455,
+          "predicted_hold_better": 0.38667134771395456,
+          "state_ms": 1724113020000
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "economic_state": "EXACT_ZERO",
+      "event_label": "DETERIORATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-23c9ade4a169bb35",
+      "trajectory": [
+        {
+          "delta_v": 0.0,
+          "predicted_hold_better": 0.37716650389787976,
+          "state_ms": 1720664220000
+        },
+        {
+          "delta_v": 0.0,
+          "predicted_hold_better": 0.3770258522351678,
+          "state_ms": 1720664280000
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "economic_state": "EXIT_BETTER",
+      "event_label": "DETERIORATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-0cc759ab5c8b3e7f",
+      "trajectory": [
+        {
+          "delta_v": -0.012678378429095687,
+          "predicted_hold_better": 0.40224862624501667,
+          "state_ms": 1721593860000
+        },
+        {
+          "delta_v": -0.011078621823807453,
+          "predicted_hold_better": 0.3860256226748465,
+          "state_ms": 1721593920000
+        },
+        {
+          "delta_v": -0.011434090377894335,
+          "predicted_hold_better": 0.3924959371657517,
+          "state_ms": 1721593980000
+        },
+        {
+          "delta_v": -0.012352384142618461,
+          "predicted_hold_better": 0.39878497541526603,
+          "state_ms": 1721594040000
+        },
+        {
+          "delta_v": -0.011345223239372672,
+          "predicted_hold_better": 0.3955600885418749,
+          "state_ms": 1721594100000
+        },
+        {
+          "delta_v": -0.011019525176690421,
+          "predicted_hold_better": 0.39042782985620067,
+          "state_ms": 1721594160000
+        },
+        {
+          "delta_v": -0.01060466375169176,
+          "predicted_hold_better": 0.38729150246270944,
+          "state_ms": 1721594220000
+        },
+        {
+          "delta_v": -0.011226881833241237,
+          "predicted_hold_better": 0.39187837206299503,
+          "state_ms": 1721594280000
+        },
+        {
+          "delta_v": -0.010930509926271498,
+          "predicted_hold_better": 0.3885782236803589,
+          "state_ms": 1721594340000
+        },
+        {
+          "delta_v": -0.012944979844660566,
+          "predicted_hold_better": 0.4069093376398944,
+          "state_ms": 1721594400000
+        },
+        {
+          "delta_v": -0.01258951129057391,
+          "predicted_hold_better": 0.39742876906508523,
+          "state_ms": 1721594460000
+        },
+        {
+          "delta_v": -0.013148781815670533,
+          "predicted_hold_better": 0.4004607068297681,
+          "state_ms": 1721594520000
+        },
+        {
+          "delta_v": -0.012915209353255932,
+          "predicted_hold_better": 0.3921775690880583,
+          "state_ms": 1721594580000
+        },
+        {
+          "delta_v": -0.010880596216801791,
+          "predicted_hold_better": 0.38093845974748963,
+          "state_ms": 1721594640000
+        },
+        {
+          "delta_v": -0.011523846187801268,
+          "predicted_hold_better": 0.39333635769809094,
+          "state_ms": 1721594700000
+        },
+        {
+          "delta_v": -0.011138014694719572,
+          "predicted_hold_better": 0.39004357354644104,
+          "state_ms": 1721594760000
+        },
+        {
+          "delta_v": -0.01155257989592326,
+          "predicted_hold_better": 0.3900031378405008,
+          "state_ms": 1721594820000
+        },
+        {
+          "delta_v": -0.010071609032459038,
+          "predicted_hold_better": 0.3848450370490267,
+          "state_ms": 1721594880000
+        },
+        {
+          "delta_v": -0.00950878382182168,
+          "predicted_hold_better": 0.38491966382151377,
+          "state_ms": 1721594940000
+        },
+        {
+          "delta_v": -0.009310906326713393,
+          "predicted_hold_better": 0.38205887093338475,
+          "state_ms": 1721595000000
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "economic_state": "HOLD_BETTER",
+      "event_label": "DETERIORATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-e4a23901cb5ed28d",
+      "trajectory": [
+        {
+          "delta_v": 0.05066087002413815,
+          "predicted_hold_better": 0.4117202529495618,
+          "state_ms": 1723083960000
+        },
+        {
+          "delta_v": 0.05157047656664065,
+          "predicted_hold_better": 0.3914085566290608,
+          "state_ms": 1723084020000
+        },
+        {
+          "delta_v": 0.05102980503297942,
+          "predicted_hold_better": 0.3950843383441639,
+          "state_ms": 1723084080000
+        },
+        {
+          "delta_v": 0.050256990671289595,
+          "predicted_hold_better": 0.40282825481973444,
+          "state_ms": 1723084140000
+        },
+        {
+          "delta_v": 0.04968190159277708,
+          "predicted_hold_better": 0.4072210663762816,
+          "state_ms": 1723084200000
+        },
+        {
+          "delta_v": 0.05305060659497121,
+          "predicted_hold_better": 0.3768297825713639,
+          "state_ms": 1723084260000
+        },
+        {
+          "delta_v": 0.0532773058317224,
+          "predicted_hold_better": 0.3820756281327447,
+          "state_ms": 1723084320000
+        },
+        {
+          "delta_v": 0.0529540267497249,
+          "predicted_hold_better": 0.38313545241459035,
+          "state_ms": 1723084380000
+        },
+        {
+          "delta_v": 0.05401482464996752,
+          "predicted_hold_better": 0.37766681976584127,
+          "state_ms": 1723084440000
+        },
+        {
+          "delta_v": 0.05412475007383,
+          "predicted_hold_better": 0.3794911324450235,
+          "state_ms": 1723084500000
+        },
+        {
+          "delta_v": 0.05446260393247371,
+          "predicted_hold_better": 0.37784128887737883,
+          "state_ms": 1723084560000
+        },
+        {
+          "delta_v": 0.0543310797432199,
+          "predicted_hold_better": 0.3781424340419584,
+          "state_ms": 1723084620000
+        },
+        {
+          "delta_v": 0.05472512551182524,
+          "predicted_hold_better": 0.37518140204166406,
+          "state_ms": 1723084680000
+        },
+        {
+          "delta_v": 0.05422571991204211,
+          "predicted_hold_better": 0.38347972268535047,
+          "state_ms": 1723084740000
+        },
+        {
+          "delta_v": 0.0540279946288648,
+          "predicted_hold_better": 0.3763181962341132,
+          "state_ms": 1723084800000
+        },
+        {
+          "delta_v": 0.05482258335566462,
+          "predicted_hold_better": 0.3755738911543599,
+          "state_ms": 1723084860000
+        },
+        {
+          "delta_v": 0.05515587162162421,
+          "predicted_hold_better": 0.3748433514709102,
+          "state_ms": 1723084920000
+        },
+        {
+          "delta_v": 0.0553845024552802,
+          "predicted_hold_better": 0.3748218717893107,
+          "state_ms": 1723084980000
+        },
+        {
+          "delta_v": 0.05563034206136194,
+          "predicted_hold_better": 0.3747287873907769,
+          "state_ms": 1723085040000
+        },
+        {
+          "delta_v": 0.05547001951825291,
+          "predicted_hold_better": 0.38035024505455106,
+          "state_ms": 1723085100000
+        },
+        {
+          "delta_v": 0.055525157829902694,
+          "predicted_hold_better": 0.3805710269272615,
+          "state_ms": 1723085160000
+        },
+        {
+          "delta_v": 0.05594642155489555,
+          "predicted_hold_better": 0.3779717348632653,
+          "state_ms": 1723085220000
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "economic_state": "EXACT_ZERO",
+      "event_label": "CONTINUATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-b253f50006971fe4",
+      "trajectory": [
+        {
+          "delta_v": 0.0,
+          "predicted_hold_better": 0.344487133102943,
+          "state_ms": 1745198520000
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "economic_state": "EXIT_BETTER",
+      "event_label": "CONTINUATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-73b3911ebea02a12",
+      "trajectory": [
+        {
+          "delta_v": -0.016392052006557037,
+          "predicted_hold_better": 0.34263213702886963,
+          "state_ms": 1752586260000
+        },
+        {
+          "delta_v": -0.01579627996408533,
+          "predicted_hold_better": 0.3394658394865829,
+          "state_ms": 1752586320000
+        },
+        {
+          "delta_v": -0.015663146546773078,
+          "predicted_hold_better": 0.3364479667551531,
+          "state_ms": 1752586380000
+        },
+        {
+          "delta_v": -0.017556969408038185,
+          "predicted_hold_better": 0.35350421375146807,
+          "state_ms": 1752586440000
+        },
+        {
+          "delta_v": -0.01845561997489506,
+          "predicted_hold_better": 0.3529513593447246,
+          "state_ms": 1752586500000
+        },
+        {
+          "delta_v": -0.017949712989109003,
+          "predicted_hold_better": 0.3499708056036213,
+          "state_ms": 1752586560000
+        },
+        {
+          "delta_v": -0.01699115238446154,
+          "predicted_hold_better": 0.34135439774655724,
+          "state_ms": 1752586620000
+        },
+        {
+          "delta_v": -0.017610222774963064,
+          "predicted_hold_better": 0.343065156322412,
+          "state_ms": 1752586680000
+        },
+        {
+          "delta_v": -0.016232291905782518,
+          "predicted_hold_better": 0.33832375302189677,
+          "state_ms": 1752586740000
+        },
+        {
+          "delta_v": -0.01474119763188662,
+          "predicted_hold_better": 0.3352913774284737,
+          "state_ms": 1752586800000
+        },
+        {
+          "delta_v": -0.015886145020770983,
+          "predicted_hold_better": 0.3384245067340682,
+          "state_ms": 1752586860000
+        },
+        {
+          "delta_v": -0.017866504603288945,
+          "predicted_hold_better": 0.3489051043978915,
+          "state_ms": 1752586920000
+        },
+        {
+          "delta_v": -0.02004323597634243,
+          "predicted_hold_better": 0.3587834392491374,
+          "state_ms": 1752586980000
+        },
+        {
+          "delta_v": -0.020795439784155975,
+          "predicted_hold_better": 0.35969165102647815,
+          "state_ms": 1752587040000
+        },
+        {
+          "delta_v": -0.0205225162786661,
+          "predicted_hold_better": 0.35435591366248326,
+          "state_ms": 1752587100000
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "economic_state": "HOLD_BETTER",
+      "event_label": "CONTINUATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-0fd2659cf8fbf2ed",
+      "trajectory": [
+        {
+          "delta_v": 0.032206053695846094,
+          "predicted_hold_better": 0.3466876883446913,
+          "state_ms": 1757252460000
+        },
+        {
+          "delta_v": 0.03295090736061786,
+          "predicted_hold_better": 0.3402941617773408,
+          "state_ms": 1757252520000
+        },
+        {
+          "delta_v": 0.033589353358993664,
+          "predicted_hold_better": 0.3344894855865825,
+          "state_ms": 1757252580000
+        },
+        {
+          "delta_v": 0.03408592246884132,
+          "predicted_hold_better": 0.33303680279700953,
+          "state_ms": 1757252640000
+        },
+        {
+          "delta_v": 0.034121391690973495,
+          "predicted_hold_better": 0.3358719625077292,
+          "state_ms": 1757252700000
+        },
+        {
+          "delta_v": 0.0341923301352374,
+          "predicted_hold_better": 0.3386948325264445,
+          "state_ms": 1757252760000
+        },
+        {
+          "delta_v": 0.033553884136861487,
+          "predicted_hold_better": 0.34376018050102897,
+          "state_ms": 1757252820000
+        },
+        {
+          "delta_v": 0.033589353358993664,
+          "predicted_hold_better": 0.3430709117328207,
+          "state_ms": 1757252880000
+        },
+        {
+          "delta_v": 0.0329154381384858,
+          "predicted_hold_better": 0.3464467452974933,
+          "state_ms": 1757252940000
+        },
+        {
+          "delta_v": 0.03277356124995788,
+          "predicted_hold_better": 0.3406205553942894,
+          "state_ms": 1757253000000
+        },
+        {
+          "delta_v": 0.03302184580488188,
+          "predicted_hold_better": 0.33977372662143707,
+          "state_ms": 1757253060000
+        },
+        {
+          "delta_v": 0.033589353358993664,
+          "predicted_hold_better": 0.3337860504589517,
+          "state_ms": 1757253120000
+        },
+        {
+          "delta_v": 0.033589353358993664,
+          "predicted_hold_better": 0.33273589672589454,
+          "state_ms": 1757253180000
+        },
+        {
+          "delta_v": 0.033589353358993664,
+          "predicted_hold_better": 0.33242908887811545,
+          "state_ms": 1757253240000
+        },
+        {
+          "delta_v": 0.03383763791391766,
+          "predicted_hold_better": 0.33482949201280626,
+          "state_ms": 1757253300000
+        },
+        {
+          "delta_v": 0.034014984024577415,
+          "predicted_hold_better": 0.33443784323805115,
+          "state_ms": 1757253360000
+        },
+        {
+          "delta_v": 0.0339440455803134,
+          "predicted_hold_better": 0.33461435943115125,
+          "state_ms": 1757253420000
+        },
+        {
+          "delta_v": 0.03284449969422178,
+          "predicted_hold_better": 0.3472160854838609,
+          "state_ms": 1757253480000
+        },
+        {
+          "delta_v": 0.03185136147452613,
+          "predicted_hold_better": 0.342386037775032,
+          "state_ms": 1757253540000
+        },
+        {
+          "delta_v": 0.03153213847533834,
+          "predicted_hold_better": 0.34896738662424953,
+          "state_ms": 1757253600000
+        },
+        {
+          "delta_v": 0.031354792364678245,
+          "predicted_hold_better": 0.3496589286687224,
+          "state_ms": 1757253660000
+        },
+        {
+          "delta_v": 0.0313902615868102,
+          "predicted_hold_better": 0.3471371389094408,
+          "state_ms": 1757253720000
+        },
+        {
+          "delta_v": 0.0316385461417342,
+          "predicted_hold_better": 0.3449754141401318,
+          "state_ms": 1757253780000
+        },
+        {
+          "delta_v": 0.031674015363866256,
+          "predicted_hold_better": 0.34560339576563587,
+          "state_ms": 1757253840000
+        },
+        {
+          "delta_v": 0.031035569365490345,
+          "predicted_hold_better": 0.3419821806479766,
+          "state_ms": 1757253900000
+        },
+        {
+          "delta_v": 0.030219777256454677,
+          "predicted_hold_better": 0.34915130769625197,
+          "state_ms": 1757253960000
+        },
+        {
+          "delta_v": 0.029971492701530676,
+          "predicted_hold_better": 0.3515966236469522,
+          "state_ms": 1757254020000
+        },
+        {
+          "delta_v": 0.027843339373611345,
+          "predicted_hold_better": 0.3630768177185819,
+          "state_ms": 1757254080000
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "economic_state": "EXACT_ZERO",
+      "event_label": "DETERIORATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-3b6664a9e86d9bf5",
+      "trajectory": [
+        {
+          "delta_v": 0.0,
+          "predicted_hold_better": 0.3488305236590587,
+          "state_ms": 1755875880000
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "economic_state": "EXIT_BETTER",
+      "event_label": "DETERIORATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-4664fb9661f7fc39",
+      "trajectory": [
+        {
+          "delta_v": -0.022540840782363146,
+          "predicted_hold_better": 0.3651847000618351,
+          "state_ms": 1750907160000
+        },
+        {
+          "delta_v": -0.019860679835679663,
+          "predicted_hold_better": 0.34678331993950884,
+          "state_ms": 1750907220000
+        },
+        {
+          "delta_v": -0.01903601492900782,
+          "predicted_hold_better": 0.33615400900609627,
+          "state_ms": 1750907280000
+        },
+        {
+          "delta_v": -0.018142627946780066,
+          "predicted_hold_better": 0.3329820446645024,
+          "state_ms": 1750907340000
+        },
+        {
+          "delta_v": -0.018211350022335863,
+          "predicted_hold_better": 0.3344951125727795,
+          "state_ms": 1750907400000
+        },
+        {
+          "delta_v": -0.018829848702339745,
+          "predicted_hold_better": 0.33937550335036976,
+          "state_ms": 1750907460000
+        },
+        {
+          "delta_v": -0.017386685115664248,
+          "predicted_hold_better": 0.3344550282193111,
+          "state_ms": 1750907520000
+        },
+        {
+          "delta_v": -0.01656202020899241,
+          "predicted_hold_better": 0.3311563506831196,
+          "state_ms": 1750907580000
+        },
+        {
+          "delta_v": -0.0162184098312124,
+          "predicted_hold_better": 0.3291709843942555,
+          "state_ms": 1750907640000
+        },
+        {
+          "delta_v": -0.01594352152898853,
+          "predicted_hold_better": 0.32621056811865307,
+          "state_ms": 1750907700000
+        },
+        {
+          "delta_v": -0.01766157341788801,
+          "predicted_hold_better": 0.33616855842625515,
+          "state_ms": 1750907760000
+        },
+        {
+          "delta_v": -0.017111796813440154,
+          "predicted_hold_better": 0.33452011568069645,
+          "state_ms": 1750907820000
+        },
+        {
+          "delta_v": -0.017386685115664248,
+          "predicted_hold_better": 0.33364215340936043,
+          "state_ms": 1750907880000
+        },
+        {
+          "delta_v": -0.018692404551227924,
+          "predicted_hold_better": 0.33870692309582207,
+          "state_ms": 1750907940000
+        },
+        {
+          "delta_v": -0.01656202020899241,
+          "predicted_hold_better": 0.3337823558530539,
+          "state_ms": 1750908000000
+        },
+        {
+          "delta_v": -0.016149687755656374,
+          "predicted_hold_better": 0.33012588248545943,
+          "state_ms": 1750908060000
+        },
+        {
+          "delta_v": -0.015462467000096694,
+          "predicted_hold_better": 0.3278250280337693,
+          "state_ms": 1750908120000
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "economic_state": "HOLD_BETTER",
+      "event_label": "DETERIORATION_FIRST",
+      "selection": "closest to median state count, then lexicographic trade_id",
+      "trade_id": "E1-19183d70b10bf9da",
+      "trajectory": [
+        {
+          "delta_v": 0.06671346957492506,
+          "predicted_hold_better": 0.3511611667917811,
+          "state_ms": 1757585460000
+        },
+        {
+          "delta_v": 0.06702646842681816,
+          "predicted_hold_better": 0.34164353459202634,
+          "state_ms": 1757585520000
+        },
+        {
+          "delta_v": 0.06809960734759421,
+          "predicted_hold_better": 0.3346691136757994,
+          "state_ms": 1757585580000
+        },
+        {
+          "delta_v": 0.06850203444288548,
+          "predicted_hold_better": 0.33208367759577,
+          "state_ms": 1757585640000
+        },
+        {
+          "delta_v": 0.06792075086079831,
+          "predicted_hold_better": 0.333015693100869,
+          "state_ms": 1757585700000
+        },
+        {
+          "delta_v": 0.06841260619948741,
+          "predicted_hold_better": 0.33122869544211375,
+          "state_ms": 1757585760000
+        },
+        {
+          "delta_v": 0.06868089092968149,
+          "predicted_hold_better": 0.33013357597026743,
+          "state_ms": 1757585820000
+        },
+        {
+          "delta_v": 0.06859146268628331,
+          "predicted_hold_better": 0.32907462815277766,
+          "state_ms": 1757585880000
+        },
+        {
+          "delta_v": 0.06850203444288548,
+          "predicted_hold_better": 0.3292241553294829,
+          "state_ms": 1757585940000
+        },
+        {
+          "delta_v": 0.06805489322589517,
+          "predicted_hold_better": 0.33254258401340014,
+          "state_ms": 1757586000000
+        },
+        {
+          "delta_v": 0.06809960734759421,
+          "predicted_hold_better": 0.33147430644557013,
+          "state_ms": 1757586060000
+        },
+        {
+          "delta_v": 0.06863617680798234,
+          "predicted_hold_better": 0.33173634603566576,
+          "state_ms": 1757586120000
+        },
+        {
+          "delta_v": 0.06868089092968149,
+          "predicted_hold_better": 0.3294320060532162,
+          "state_ms": 1757586180000
+        },
+        {
+          "delta_v": 0.06868089092968149,
+          "predicted_hold_better": 0.32990001980253414,
+          "state_ms": 1757586240000
+        },
+        {
+          "delta_v": 0.06841260619948741,
+          "predicted_hold_better": 0.32932698250347353,
+          "state_ms": 1757586300000
+        },
+        {
+          "delta_v": 0.06908331802497253,
+          "predicted_hold_better": 0.3302758364002429,
+          "state_ms": 1757586360000
+        }
+      ],
+      "year": 2025
+    }
+  ],
+  "manual_selection": false
+}

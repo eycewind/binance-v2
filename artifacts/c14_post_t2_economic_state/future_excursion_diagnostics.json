@@ -1,0 +1,58 @@
+{
+  "designation": "EVALUATION_ONLY; never model features or state definitions",
+  "eventual_p0_return": {
+    "fraction_exact_zero": 0.0,
+    "fraction_gt_zero": 0.47532894736842113,
+    "fraction_lt_zero": 0.524671052631579,
+    "mean": 0.009597449284650974,
+    "median": 0.000987928095229222,
+    "p10": -0.012130031032443526,
+    "p25": -0.005475314652712427,
+    "p75": 0.013058645694041957,
+    "p90": 0.03176185575235745,
+    "snapshots": 29932,
+    "unique_trades": 608
+  },
+  "future_mae": {
+    "fraction_exact_zero": 0.0035628051063286343,
+    "fraction_gt_zero": 0.0,
+    "fraction_lt_zero": 0.996437194893671,
+    "mean": -0.014893397903821642,
+    "median": -0.010587632269747571,
+    "p10": -0.02542956345020344,
+    "p25": -0.017642222581547073,
+    "p75": -0.005700353119219903,
+    "p90": -0.0022301479689394222,
+    "snapshots": 29932,
+    "unique_trades": 608
+  },
+  "future_mfe": {
+    "fraction_exact_zero": 0.012490069753256127,
+    "fraction_gt_zero": 0.9875099302467434,
+    "fraction_lt_zero": 0.0,
+    "mean": 0.028256283615280958,
+    "median": 0.010257279392305807,
+    "p10": 0.0011515292390375856,
+    "p25": 0.003558220209294083,
+    "p75": 0.02637180520733784,
+    "p90": 0.04658511722731906,
+    "snapshots": 29932,
+    "unique_trades": 608
+  },
+  "new_high_rate": 0.8791260189763463,
+  "regain_rate": 0.8797607911265535,
+  "snapshots": 29932,
+  "time_to_recovery": {
+    "fraction_exact_zero": 0.0,
+    "fraction_gt_zero": 0.9999999999999997,
+    "fraction_lt_zero": 0.0,
+    "mean": 50.518788072402636,
+    "median": 4.0,
+    "p10": 1.0,
+    "p25": 1.0,
+    "p75": 34.0,
+    "p90": 142.0,
+    "snapshots": 26333,
+    "unique_trades": 562
+  }
+}
