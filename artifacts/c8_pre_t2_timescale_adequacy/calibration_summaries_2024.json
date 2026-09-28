@@ -1,0 +1,733 @@
+{
+  "A": {
+    "M0": {
+      "bins": [
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3478158897785124,
+          "observed": 0.4053537284894838,
+          "rows": 16601,
+          "trades": 523
+        }
+      ],
+      "estimable": true,
+      "intercept": -1.1851778049023023,
+      "slope": -1.2733496893885625
+    },
+    "M1": {
+      "bins": [
+        {
+          "lower": 0.1,
+          "mean_probability": 0.1731291224047346,
+          "observed": 0.1946657660925507,
+          "rows": 36,
+          "trades": 4
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2809237773457167,
+          "observed": 0.21633969490700417,
+          "rows": 3279,
+          "trades": 223
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3415994329133233,
+          "observed": 0.40513638832212084,
+          "rows": 11749,
+          "trades": 461
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.43534484210067786,
+          "observed": 0.6041557617910551,
+          "rows": 1206,
+          "trades": 160
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5382800396832537,
+          "observed": 0.6493669164075397,
+          "rows": 238,
+          "trades": 43
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6428529369253426,
+          "observed": 0.8785345799671065,
+          "rows": 46,
+          "trades": 11
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7559465329957229,
+          "observed": 0.6609864156554066,
+          "rows": 35,
+          "trades": 7
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8514252096242688,
+          "observed": 1.0,
+          "rows": 8,
+          "trades": 2
+        },
+        {
+          "lower": 0.9,
+          "mean_probability": 0.9362195301516749,
+          "observed": 0.0,
+          "rows": 4,
+          "trades": 1
+        }
+      ],
+      "estimable": true,
+      "intercept": 0.8065988653528001,
+      "slope": 1.9192007520952332
+    },
+    "M2": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": 0.06747332607550714,
+          "observed": 0.020255018640850123,
+          "rows": 118,
+          "trades": 34
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": 0.16464127839140902,
+          "observed": 0.03390334859728636,
+          "rows": 623,
+          "trades": 151
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2567792611775222,
+          "observed": 0.13604996343401776,
+          "rows": 4386,
+          "trades": 422
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.34474828283295167,
+          "observed": 0.43798250505967296,
+          "rows": 6710,
+          "trades": 434
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.444033537977812,
+          "observed": 0.6763536944384831,
+          "rows": 3455,
+          "trades": 323
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5411115928856048,
+          "observed": 0.8541124013633752,
+          "rows": 1036,
+          "trades": 243
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6445626975009695,
+          "observed": 0.9518122514245695,
+          "rows": 204,
+          "trades": 93
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.737866520788496,
+          "observed": 0.9024267177202085,
+          "rows": 49,
+          "trades": 22
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.840886584261306,
+          "observed": 1.0,
+          "rows": 19,
+          "trades": 9
+        },
+        {
+          "lower": 0.9,
+          "mean_probability": 0.9205209431130822,
+          "observed": 0.0,
+          "rows": 1,
+          "trades": 1
+        }
+      ],
+      "estimable": true,
+      "intercept": 1.5076023510240895,
+      "slope": 3.0171036720694646
+    }
+  },
+  "B": {
+    "M0": {
+      "bins": [
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3478158897785124,
+          "observed": 0.4053537284894838,
+          "rows": 16601,
+          "trades": 523
+        }
+      ],
+      "estimable": true,
+      "intercept": -1.1851778049023023,
+      "slope": -1.2733496893885625
+    },
+    "M1": {
+      "bins": [
+        {
+          "lower": 0.2,
+          "mean_probability": 0.28433047561493174,
+          "observed": 0.27185509893324705,
+          "rows": 2076,
+          "trades": 102
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3428090930939853,
+          "observed": 0.4020804267376964,
+          "rows": 12756,
+          "trades": 426
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.4362628151540328,
+          "observed": 0.5880607428444558,
+          "rows": 1412,
+          "trades": 89
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5414543519603822,
+          "observed": 0.4498077685923241,
+          "rows": 247,
+          "trades": 18
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6478248310234902,
+          "observed": 0.40252158559467255,
+          "rows": 70,
+          "trades": 8
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7514378761466614,
+          "observed": 0.6087378640776699,
+          "rows": 30,
+          "trades": 3
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8035756009216795,
+          "observed": 1.0,
+          "rows": 10,
+          "trades": 1
+        }
+      ],
+      "estimable": true,
+      "intercept": 0.253195725877904,
+      "slope": 1.0330041948113522
+    },
+    "M2": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": 0.06761533525985093,
+          "observed": 0.011287318631121687,
+          "rows": 79,
+          "trades": 26
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": 0.1679875341186718,
+          "observed": 0.030026177461749848,
+          "rows": 508,
+          "trades": 141
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2574516811347193,
+          "observed": 0.13903824324440756,
+          "rows": 4237,
+          "trades": 433
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3449835325636238,
+          "observed": 0.42871669933882084,
+          "rows": 6699,
+          "trades": 440
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.44392499925978923,
+          "observed": 0.6915366363971207,
+          "rows": 3714,
+          "trades": 328
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5413110141824209,
+          "observed": 0.8870075540327113,
+          "rows": 1101,
+          "trades": 231
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6398311448995994,
+          "observed": 0.9414002465244554,
+          "rows": 201,
+          "trades": 83
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7286004904480318,
+          "observed": 0.9548694602178832,
+          "rows": 47,
+          "trades": 19
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8280025456031748,
+          "observed": 0.9702431670478096,
+          "rows": 14,
+          "trades": 8
+        },
+        {
+          "lower": 0.9,
+          "mean_probability": 0.9008481170188164,
+          "observed": 1.0,
+          "rows": 1,
+          "trades": 1
+        }
+      ],
+      "estimable": true,
+      "intercept": 1.640463134878381,
+      "slope": 3.208829034231398
+    }
+  },
+  "C": {
+    "M0": {
+      "bins": [
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.34940009043846776,
+          "observed": 0.4053537284894838,
+          "rows": 16601,
+          "trades": 523
+        }
+      ],
+      "estimable": true,
+      "intercept": -1.1908253260618817,
+      "slope": -1.296760924391678
+    },
+    "M1": {
+      "bins": [
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2935634186386449,
+          "observed": 0.284713916269246,
+          "rows": 222,
+          "trades": 21
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3449096328399962,
+          "observed": 0.3961378876204873,
+          "rows": 14822,
+          "trades": 477
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.4321432205918196,
+          "observed": 0.5565129118421537,
+          "rows": 1422,
+          "trades": 59
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5528156097028616,
+          "observed": 0.4709587636416905,
+          "rows": 67,
+          "trades": 5
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.646863937268261,
+          "observed": 0.06521739130434782,
+          "rows": 68,
+          "trades": 3
+        }
+      ],
+      "estimable": true,
+      "intercept": 0.43809990420415296,
+      "slope": 1.3555067797812712
+    },
+    "M2": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": 0.0683207545000753,
+          "observed": 0.005240432584852193,
+          "rows": 66,
+          "trades": 25
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": 0.16502298811426336,
+          "observed": 0.02535537437071482,
+          "rows": 442,
+          "trades": 130
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.26045785722951,
+          "observed": 0.11463516730026571,
+          "rows": 3542,
+          "trades": 421
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3448256565657203,
+          "observed": 0.4222838718879744,
+          "rows": 7199,
+          "trades": 451
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.44527154732149443,
+          "observed": 0.6996528941463648,
+          "rows": 4064,
+          "trades": 328
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5403225271189531,
+          "observed": 0.9001613700025023,
+          "rows": 1105,
+          "trades": 219
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6412906371967801,
+          "observed": 0.9558843351288797,
+          "rows": 162,
+          "trades": 75
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.718088396027992,
+          "observed": 0.9342807851080535,
+          "rows": 19,
+          "trades": 15
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.815569662768166,
+          "observed": 0.9999999999999999,
+          "rows": 2,
+          "trades": 2
+        }
+      ],
+      "estimable": true,
+      "intercept": 1.7852434630747338,
+      "slope": 3.527022749803911
+    }
+  },
+  "D": {
+    "M0": {
+      "bins": [
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.32678114347836257,
+          "observed": 0.391389432485323,
+          "rows": 7834,
+          "trades": 511
+        }
+      ],
+      "estimable": true,
+      "intercept": -1.2698789432940356,
+      "slope": -1.1435534401110876
+    },
+    "M1": {
+      "bins": [
+        {
+          "lower": 0.1,
+          "mean_probability": 0.1910899363784486,
+          "observed": 1.0,
+          "rows": 4,
+          "trades": 1
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2802187894712438,
+          "observed": 0.29638594371720905,
+          "rows": 1924,
+          "trades": 194
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3367859761366765,
+          "observed": 0.4086652047184421,
+          "rows": 5401,
+          "trades": 383
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.4376009877627783,
+          "observed": 0.6450758194791795,
+          "rows": 397,
+          "trades": 57
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5436948479510424,
+          "observed": 0.3408792276720637,
+          "rows": 72,
+          "trades": 11
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6538213137908858,
+          "observed": 0.32628115905352395,
+          "rows": 32,
+          "trades": 7
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7601266576530126,
+          "observed": 1.0,
+          "rows": 4,
+          "trades": 1
+        }
+      ],
+      "estimable": true,
+      "intercept": 0.3013371935510396,
+      "slope": 1.0526102197484013
+    },
+    "M2": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": 0.07032403330014703,
+          "observed": 0.012403516734730563,
+          "rows": 51,
+          "trades": 28
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": 0.17018294451560745,
+          "observed": 0.03168111771104943,
+          "rows": 366,
+          "trades": 159
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2513472207789038,
+          "observed": 0.15214499927961517,
+          "rows": 2175,
+          "trades": 405
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.34484796676991514,
+          "observed": 0.4665194099186449,
+          "rows": 2996,
+          "trades": 357
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.44788337219780017,
+          "observed": 0.7324105894778721,
+          "rows": 1651,
+          "trades": 255
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5438741320671469,
+          "observed": 0.8995415210396416,
+          "rows": 475,
+          "trades": 160
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6423302813902848,
+          "observed": 0.9646954944731906,
+          "rows": 97,
+          "trades": 56
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7226032933658885,
+          "observed": 0.9741690491066347,
+          "rows": 19,
+          "trades": 11
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8630140169635572,
+          "observed": 1.0,
+          "rows": 4,
+          "trades": 3
+        }
+      ],
+      "estimable": true,
+      "intercept": 1.8655206184524988,
+      "slope": 3.2970351483463647
+    }
+  },
+  "E": {
+    "M0": {
+      "bins": [
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2928709055876686,
+          "observed": 0.3900414937759336,
+          "rows": 2356,
+          "trades": 241
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3236842105263158,
+          "observed": 0.3618677042801556,
+          "rows": 2560,
+          "trades": 257
+        }
+      ],
+      "estimable": true,
+      "intercept": -1.1794974402420084,
+      "slope": -0.830828303592893
+    },
+    "M1": {
+      "bins": [
+        {
+          "lower": 0.1,
+          "mean_probability": 0.17522576867430562,
+          "observed": 1.0,
+          "rows": 3,
+          "trades": 1
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.27593520277364003,
+          "observed": 0.3065244949541021,
+          "rows": 1941,
+          "trades": 269
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3299464027123826,
+          "observed": 0.41639988839842035,
+          "rows": 2733,
+          "trades": 322
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.4378122869996716,
+          "observed": 0.5873791359663775,
+          "rows": 193,
+          "trades": 36
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.555521955400706,
+          "observed": 0.2679013568386649,
+          "rows": 38,
+          "trades": 9
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.620401752134719,
+          "observed": 0.32075471698113206,
+          "rows": 6,
+          "trades": 3
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.702751862169968,
+          "observed": 1.0,
+          "rows": 2,
+          "trades": 1
+        }
+      ],
+      "estimable": true,
+      "intercept": 0.43304093599264903,
+      "slope": 1.196312333209369
+    },
+    "M2": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": 0.061610418370545886,
+          "observed": 0.004924356413974229,
+          "rows": 27,
+          "trades": 19
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": 0.16847038727713426,
+          "observed": 0.028357804919168634,
+          "rows": 279,
+          "trades": 157
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.24868674484539846,
+          "observed": 0.15956564032920814,
+          "rows": 1465,
+          "trades": 373
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3464587456807343,
+          "observed": 0.5250588380170048,
+          "rows": 1819,
+          "trades": 293
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.44223846061081534,
+          "observed": 0.7513862005050298,
+          "rows": 981,
+          "trades": 218
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5424566617335188,
+          "observed": 0.91132610407252,
+          "rows": 278,
+          "trades": 124
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6400638755233198,
+          "observed": 0.949351577131861,
+          "rows": 58,
+          "trades": 35
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7176349718752599,
+          "observed": 1.0000000000000002,
+          "rows": 6,
+          "trades": 5
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8756822747405938,
+          "observed": 1.0,
+          "rows": 3,
+          "trades": 3
+        }
+      ],
+      "estimable": true,
+      "intercept": 2.067840121355022,
+      "slope": 3.3667768969454324
+    }
+  }
+}

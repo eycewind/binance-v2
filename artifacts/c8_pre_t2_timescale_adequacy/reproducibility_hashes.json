@@ -1,0 +1,17 @@
+{
+  "architecture_comparison_2024.json": "24ee68dd6184583935ef9bcf4b02240215925c215437f80abc9d38c85a36a600",
+  "architecture_model_metrics_2024.json": "1533bc2a001f3d6c635c8768bc8fa4641918946bbe2f3aa3ff4f9f40a7e390f9",
+  "baseline_B_2025.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+  "calibration_summaries_2024.json": "b38f643f56db545498d3ec52dde3e492fc5d334d43a4f73162279dd95c84a5d2",
+  "candidate_config.json": "078fa27657285a7fcf3cb9c59ccd72c1a0a94978f442fec4619f3349a8df80bb",
+  "dataset_summary.json": "fb73db67191beab22dcefcbd140afac2253853d09f2ffb894072e714f7b6a325",
+  "example_trajectories.json": "f757f5abc2d166f11f9afc9f68268b056a7e437e9911727de9d6bead70d6124a",
+  "feature_schema.json": "cb9c64f5653928ebb80c7f634d23dc8cf622b21ea66c537a21447c1b2589247e",
+  "final_summary.json": "8ce79813b23904299ad48f33bd8634c5e2eea2a192859678831ad43dbaa1151d",
+  "fold_definitions_2024.json": "9df869aaadcbfa3a413329bfd9fae8383ee1129368a696911892085b7727e279",
+  "paired_uncertainty_2024.json": "1853dc17f4445c9cd61d07657298d172d661e55da1693dbbaafdaec0ea8aa97e",
+  "run_manifest.json": "87cfba25379e020cfc54ab2122837800429e3827bbe0cc2a8c62bb9c2c8b7e95",
+  "selected_architecture.json": "a0702ab303caf94df2aedd05356bf518532768e1c59291133af185146b93c717",
+  "source_provenance_manifest.json": "a0bc9b808c9c65af2df23f67a07e9042acd420acc1b4371f2494e1006439a502",
+  "stability_2025.json": "c498ec3fa63483f9bfecf669d166deffa06eed8323989f02f4c59becc2c387e5"
+}

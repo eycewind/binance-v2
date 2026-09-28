@@ -1,0 +1,67 @@
+{
+  "clear_preferred": false,
+  "eligibility": {
+    "A": {
+      "checks": {
+        "both_folds": true,
+        "calibration": false,
+        "competitive": false,
+        "completeness": true,
+        "elapsed_breadth": true,
+        "symbol_breadth": true,
+        "useful": true
+      },
+      "eligible": false
+    },
+    "B": {
+      "checks": {
+        "both_folds": true,
+        "calibration": false,
+        "competitive": false,
+        "completeness": true,
+        "elapsed_breadth": true,
+        "symbol_breadth": true,
+        "useful": true
+      },
+      "eligible": false
+    },
+    "C": {
+      "checks": {
+        "both_folds": true,
+        "calibration": false,
+        "competitive": false,
+        "completeness": true,
+        "elapsed_breadth": true,
+        "symbol_breadth": true,
+        "useful": true
+      },
+      "eligible": false
+    },
+    "D": {
+      "checks": {
+        "both_folds": true,
+        "calibration": false,
+        "competitive": false,
+        "completeness": true,
+        "elapsed_breadth": true,
+        "symbol_breadth": true,
+        "useful": true
+      },
+      "eligible": false
+    },
+    "E": {
+      "checks": {
+        "both_folds": true,
+        "calibration": false,
+        "competitive": true,
+        "completeness": false,
+        "elapsed_breadth": true,
+        "symbol_breadth": true,
+        "useful": true
+      },
+      "eligible": false
+    }
+  },
+  "reason": "no_candidate_satisfies_all_prospective_criteria;baseline_B_reported_adequate_without_clear_winner",
+  "selected": "B"
+}

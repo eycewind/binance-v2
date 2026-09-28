@@ -1,0 +1,362 @@
+{
+  "A": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "event_trades": 183,
+        "non_event_trades": 367,
+        "rows": 18947,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 34.449090909090906,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 550
+      },
+      "validation": {
+        "event_trades": 109,
+        "non_event_trades": 147,
+        "rows": 7970,
+        "rows_per_trade": {
+          "max": 233,
+          "mean": 31.1328125,
+          "median": 18.5,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 39.25
+        },
+        "unique_trades": 256
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "event_trades": 292,
+        "non_event_trades": 514,
+        "rows": 26917,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 33.39578163771712,
+          "median": 21.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 45.75
+        },
+        "unique_trades": 806
+      },
+      "validation": {
+        "event_trades": 103,
+        "non_event_trades": 164,
+        "rows": 8631,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 32.325842696629216,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 40.0
+        },
+        "unique_trades": 267
+      }
+    }
+  },
+  "B": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "event_trades": 183,
+        "non_event_trades": 367,
+        "rows": 18947,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 34.449090909090906,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 550
+      },
+      "validation": {
+        "event_trades": 109,
+        "non_event_trades": 147,
+        "rows": 7970,
+        "rows_per_trade": {
+          "max": 233,
+          "mean": 31.1328125,
+          "median": 18.5,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 39.25
+        },
+        "unique_trades": 256
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "event_trades": 292,
+        "non_event_trades": 514,
+        "rows": 26917,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 33.39578163771712,
+          "median": 21.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 45.75
+        },
+        "unique_trades": 806
+      },
+      "validation": {
+        "event_trades": 103,
+        "non_event_trades": 164,
+        "rows": 8631,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 32.325842696629216,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 40.0
+        },
+        "unique_trades": 267
+      }
+    }
+  },
+  "C": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "event_trades": 183,
+        "non_event_trades": 364,
+        "rows": 18869,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 34.495429616087755,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 547
+      },
+      "validation": {
+        "event_trades": 109,
+        "non_event_trades": 147,
+        "rows": 7970,
+        "rows_per_trade": {
+          "max": 233,
+          "mean": 31.1328125,
+          "median": 18.5,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 39.25
+        },
+        "unique_trades": 256
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "event_trades": 292,
+        "non_event_trades": 511,
+        "rows": 26839,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 33.423412204234126,
+          "median": 21.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 803
+      },
+      "validation": {
+        "event_trades": 103,
+        "non_event_trades": 164,
+        "rows": 8631,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 32.325842696629216,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 40.0
+        },
+        "unique_trades": 267
+      }
+    }
+  },
+  "D": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "event_trades": 165,
+        "non_event_trades": 367,
+        "rows": 8969,
+        "rows_per_trade": {
+          "max": 126,
+          "mean": 16.85902255639098,
+          "median": 10.0,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 22.0
+        },
+        "unique_trades": 532
+      },
+      "validation": {
+        "event_trades": 103,
+        "non_event_trades": 147,
+        "rows": 3759,
+        "rows_per_trade": {
+          "max": 116,
+          "mean": 15.036,
+          "median": 9.5,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 19.75
+        },
+        "unique_trades": 250
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "event_trades": 268,
+        "non_event_trades": 514,
+        "rows": 12728,
+        "rows_per_trade": {
+          "max": 126,
+          "mean": 16.276214833759592,
+          "median": 10.0,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 22.0
+        },
+        "unique_trades": 782
+      },
+      "validation": {
+        "event_trades": 97,
+        "non_event_trades": 164,
+        "rows": 4075,
+        "rows_per_trade": {
+          "max": 160,
+          "mean": 15.613026819923371,
+          "median": 10.0,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 20.0
+        },
+        "unique_trades": 261
+      }
+    }
+  },
+  "E": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "event_trades": 152,
+        "non_event_trades": 367,
+        "rows": 5661,
+        "rows_per_trade": {
+          "max": 83,
+          "mean": 10.907514450867051,
+          "median": 6.0,
+          "min": 1,
+          "p25": 2.0,
+          "p75": 14.0
+        },
+        "unique_trades": 519
+      },
+      "validation": {
+        "event_trades": 94,
+        "non_event_trades": 147,
+        "rows": 2356,
+        "rows_per_trade": {
+          "max": 77,
+          "mean": 9.775933609958507,
+          "median": 6.0,
+          "min": 1,
+          "p25": 2.0,
+          "p75": 14.0
+        },
+        "unique_trades": 241
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "event_trades": 246,
+        "non_event_trades": 514,
+        "rows": 8017,
+        "rows_per_trade": {
+          "max": 83,
+          "mean": 10.548684210526316,
+          "median": 6.0,
+          "min": 1,
+          "p25": 2.0,
+          "p75": 14.0
+        },
+        "unique_trades": 760
+      },
+      "validation": {
+        "event_trades": 93,
+        "non_event_trades": 164,
+        "rows": 2560,
+        "rows_per_trade": {
+          "max": 106,
+          "mean": 9.961089494163424,
+          "median": 6.0,
+          "min": 1,
+          "p25": 2.0,
+          "p75": 13.0
+        },
+        "unique_trades": 257
+      }
+    }
+  }
+}

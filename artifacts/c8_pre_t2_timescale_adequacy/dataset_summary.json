@@ -1,0 +1,235 @@
+{
+  "architectures": {
+    "A": {
+      "2024": {
+        "event_trades": 395,
+        "non_event_trades": 678,
+        "rows": 35548,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 33.12954333643989,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 44.0
+        },
+        "unique_trades": 1073
+      },
+      "2025": {
+        "event_trades": 411,
+        "non_event_trades": 676,
+        "rows": 39616,
+        "rows_per_trade": {
+          "max": 274,
+          "mean": 36.44526218951242,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 1087
+      },
+      "all": {
+        "event_trades": 806,
+        "non_event_trades": 1354,
+        "rows": 75164,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 34.79814814814815,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 2160
+      }
+    },
+    "B": {
+      "2024": {
+        "event_trades": 395,
+        "non_event_trades": 678,
+        "rows": 35548,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 33.12954333643989,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 44.0
+        },
+        "unique_trades": 1073
+      },
+      "2025": {
+        "event_trades": 411,
+        "non_event_trades": 676,
+        "rows": 39616,
+        "rows_per_trade": {
+          "max": 274,
+          "mean": 36.44526218951242,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 1087
+      },
+      "all": {
+        "event_trades": 806,
+        "non_event_trades": 1354,
+        "rows": 75164,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 34.79814814814815,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 2160
+      }
+    },
+    "C": {
+      "2024": {
+        "event_trades": 395,
+        "non_event_trades": 675,
+        "rows": 35470,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 33.149532710280376,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 44.0
+        },
+        "unique_trades": 1070
+      },
+      "2025": {
+        "event_trades": 411,
+        "non_event_trades": 676,
+        "rows": 39616,
+        "rows_per_trade": {
+          "max": 274,
+          "mean": 36.44526218951242,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 1087
+      },
+      "all": {
+        "event_trades": 806,
+        "non_event_trades": 1351,
+        "rows": 75086,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 34.81038479369494,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 2157
+      }
+    },
+    "D": {
+      "2024": {
+        "event_trades": 365,
+        "non_event_trades": 678,
+        "rows": 16803,
+        "rows_per_trade": {
+          "max": 160,
+          "mean": 16.11025886864813,
+          "median": 10.0,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 22.0
+        },
+        "unique_trades": 1043
+      },
+      "2025": {
+        "event_trades": 385,
+        "non_event_trades": 676,
+        "rows": 18836,
+        "rows_per_trade": {
+          "max": 136,
+          "mean": 17.75306314797361,
+          "median": 10.0,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 22.0
+        },
+        "unique_trades": 1061
+      },
+      "all": {
+        "event_trades": 750,
+        "non_event_trades": 1354,
+        "rows": 35639,
+        "rows_per_trade": {
+          "max": 160,
+          "mean": 16.938688212927758,
+          "median": 10.0,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 22.0
+        },
+        "unique_trades": 2104
+      }
+    },
+    "E": {
+      "2024": {
+        "event_trades": 339,
+        "non_event_trades": 678,
+        "rows": 10577,
+        "rows_per_trade": {
+          "max": 106,
+          "mean": 10.400196656833826,
+          "median": 6.0,
+          "min": 1,
+          "p25": 2.0,
+          "p75": 14.0
+        },
+        "unique_trades": 1017
+      },
+      "2025": {
+        "event_trades": 356,
+        "non_event_trades": 675,
+        "rows": 11920,
+        "rows_per_trade": {
+          "max": 90,
+          "mean": 11.561590688651794,
+          "median": 6.0,
+          "min": 1,
+          "p25": 2.0,
+          "p75": 14.5
+        },
+        "unique_trades": 1031
+      },
+      "all": {
+        "event_trades": 695,
+        "non_event_trades": 1353,
+        "rows": 22497,
+        "rows_per_trade": {
+          "max": 106,
+          "mean": 10.98486328125,
+          "median": 6.0,
+          "min": 1,
+          "p25": 2.0,
+          "p75": 14.0
+        },
+        "unique_trades": 2048
+      }
+    }
+  },
+  "population_reconciliation": {
+    "by_year": {
+      "2024": 1093,
+      "2025": 1106
+    },
+    "included": 2199,
+    "outcomes": {
+      "P0_FIRST": 1354,
+      "T2_FIRST": 845
+    }
+  }
+}

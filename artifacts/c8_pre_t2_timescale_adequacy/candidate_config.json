@@ -1,0 +1,17 @@
+{
+  "architectures": {
+    "A": {"slow_minutes": 30, "state_minutes": 5},
+    "B": {"slow_minutes": 60, "state_minutes": 5, "role": "current_baseline"},
+    "C": {"slow_minutes": 120, "state_minutes": 5},
+    "D": {"slow_minutes": 60, "state_minutes": 10},
+    "E": {"slow_minutes": 60, "state_minutes": 15}
+  },
+  "bootstrap": {"seed": 20260928, "replicates": 2000, "block_entry_weeks": 4},
+  "folds_2024": {
+    "fold_A": {"train_entry_start": "2024-01-01", "validation_entry_start": "2024-07-01", "validation_entry_end": "2024-10-01"},
+    "fold_B": {"train_entry_start": "2024-01-01", "validation_entry_start": "2024-10-01", "validation_entry_end": "2025-01-01"}
+  },
+  "logistic": {"C": 1.0, "max_iter": 1000, "solver": "lbfgs", "tol": 1e-9},
+  "prohibited_year_token": "2026",
+  "version": "C8_CONFIG_V1"
+}

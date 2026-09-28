@@ -1,0 +1,207 @@
+{
+  "A": {
+    "incremental_category": "CLEARLY_USEFUL",
+    "uncertainty": {
+      "M1_minus_M0": {
+        "brier": {
+          "ci95": [
+            0.009492410458102004,
+            0.01721624089193431
+          ],
+          "point": 0.013874707699868052,
+          "replicate_sha256": "ff033b40d39b6eb398eee70a7ef7b5760c97032ddd480112149f8c41f2ee7010"
+        },
+        "log_loss": {
+          "ci95": [
+            0.020650099909003482,
+            0.03667159627923285
+          ],
+          "point": 0.02966113279566501,
+          "replicate_sha256": "b228288b6740ca0477be3b8f7cca48b492621e37b5913116508c233e580d0bd2"
+        }
+      },
+      "M2_minus_M1": {
+        "brier": {
+          "ci95": [
+            0.036362599062497815,
+            0.04307881248033961
+          ],
+          "point": 0.03934235292232868,
+          "replicate_sha256": "3c20a92355d7b32eccbf2a03e6b1c6d375d058711269cb963c5e9bb02701b981"
+        },
+        "log_loss": {
+          "ci95": [
+            0.08195341208070538,
+            0.09687348070724303
+          ],
+          "point": 0.08854824862733902,
+          "replicate_sha256": "1ddb18890df8b2ee61bc9f4449ab0c12fd0731086c3428a8f4b3076c4851764a"
+        }
+      }
+    }
+  },
+  "B": {
+    "incremental_category": "CLEARLY_USEFUL",
+    "uncertainty": {
+      "M1_minus_M0": {
+        "brier": {
+          "ci95": [
+            0.00047879895786412055,
+            0.007409444757234152
+          ],
+          "point": 0.005311221149867724,
+          "replicate_sha256": "68399efc99c6dbab66afb002522d2d425c1a9564ba954d02ba39bb85731730a8"
+        },
+        "log_loss": {
+          "ci95": [
+            0.0010180257907606207,
+            0.015674202444245763
+          ],
+          "point": 0.011289134284333764,
+          "replicate_sha256": "3979aeadff0bea8e20f5dbf55ffa2917d26ff2ce4db4f468a766643e342f4cfc"
+        }
+      },
+      "M2_minus_M1": {
+        "brier": {
+          "ci95": [
+            0.04088376531942226,
+            0.05166670257778653
+          ],
+          "point": 0.045608257134326036,
+          "replicate_sha256": "a6b661bcdfd4ab947555de415bc3e652c5ecfa578b2c4d50e54f7b49158641f2"
+        },
+        "log_loss": {
+          "ci95": [
+            0.09130927852723116,
+            0.11438796723505164
+          ],
+          "point": 0.10137283974966069,
+          "replicate_sha256": "b58251746de0f5c5b94b9f0e39471fd1c17365ae98041f23e6b6d5b2fc39acc1"
+        }
+      }
+    }
+  },
+  "C": {
+    "incremental_category": "CLEARLY_USEFUL",
+    "uncertainty": {
+      "M1_minus_M0": {
+        "brier": {
+          "ci95": [
+            0.0004635881954564786,
+            0.006004760290452517
+          ],
+          "point": 0.0043242637147376806,
+          "replicate_sha256": "722d3d44d5b80ab7cf0ddb3f1a53ad558175750b5abf5bced878ee46999bdda5"
+        },
+        "log_loss": {
+          "ci95": [
+            0.0012135525208139904,
+            0.012982662894300778
+          ],
+          "point": 0.009425748739618526,
+          "replicate_sha256": "4982b35c9231a2b81657f5b2510bd1d6618f9915aa35757ef49c29ffdfaf8346"
+        }
+      },
+      "M2_minus_M1": {
+        "brier": {
+          "ci95": [
+            0.040685516025137314,
+            0.05189294414297803
+          ],
+          "point": 0.04568786596727399,
+          "replicate_sha256": "ce76892e6753da3c6f6b8f0e34558d594006a2caa139daaa47baf8f4f412043c"
+        },
+        "log_loss": {
+          "ci95": [
+            0.09041477763508594,
+            0.11416857427072907
+          ],
+          "point": 0.10106280696730129,
+          "replicate_sha256": "23425aa52ec624ecfafab617db60265d5804805e5e5149da5f6a4e0463c0ccf7"
+        }
+      }
+    }
+  },
+  "D": {
+    "incremental_category": "CLEARLY_USEFUL",
+    "uncertainty": {
+      "M1_minus_M0": {
+        "brier": {
+          "ci95": [
+            -9.029429796923415e-05,
+            0.007499154930023037
+          ],
+          "point": 0.00504071811025446,
+          "replicate_sha256": "4bb47b5825778a79d8109081b2c03a60cc4f3e55811eb3202aad1b20e1c777d6"
+        },
+        "log_loss": {
+          "ci95": [
+            0.00021915468390741531,
+            0.016123226282062336
+          ],
+          "point": 0.011001653692989926,
+          "replicate_sha256": "3db768d24e0eca879b9fee92a157e727392839bf0519699b0e9a168db2a6cb96"
+        }
+      },
+      "M2_minus_M1": {
+        "brier": {
+          "ci95": [
+            0.044987840895025825,
+            0.05810757111689352
+          ],
+          "point": 0.051048697147520916,
+          "replicate_sha256": "3f2de6e2afd6eeef107ae13b707c2158cc5b5fa554e3120cff9e2c70338693b9"
+        },
+        "log_loss": {
+          "ci95": [
+            0.1026250698013198,
+            0.13119344799213198
+          ],
+          "point": 0.11557526724174712,
+          "replicate_sha256": "5c4e7c0595ca90903858a6fa430458b1aef311235d800473fd03cdb4bec3ba22"
+        }
+      }
+    }
+  },
+  "E": {
+    "incremental_category": "CLEARLY_USEFUL",
+    "uncertainty": {
+      "M1_minus_M0": {
+        "brier": {
+          "ci95": [
+            -0.0008928301279715538,
+            0.0080094992774158
+          ],
+          "point": 0.004807526530308731,
+          "replicate_sha256": "0adb065f0f803a911267a1edf71ae43fba8ff6dade10d2f7a53bc97c2e8ba16c"
+        },
+        "log_loss": {
+          "ci95": [
+            -0.0011790287327834595,
+            0.017781116706566943
+          ],
+          "point": 0.010999535392628724,
+          "replicate_sha256": "2daa4d703ee3156a1943dfeddacc06e09a5bedccadc173484571ec58316e84c0"
+        }
+      },
+      "M2_minus_M1": {
+        "brier": {
+          "ci95": [
+            0.04472304230627879,
+            0.05787469575332728
+          ],
+          "point": 0.05036295750138927,
+          "replicate_sha256": "e3d635144532b5d6cd39679045a97ceb8d05a6a72b33facd2a8cde5379606947"
+        },
+        "log_loss": {
+          "ci95": [
+            0.10418163338983304,
+            0.13280209146862101
+          ],
+          "point": 0.1163996161179355,
+          "replicate_sha256": "ba207ce5b5ce6ad5d5158abca189e15aae0921397bd54740d56b29bedcc0f6ff"
+        }
+      }
+    }
+  }
+}

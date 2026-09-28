@@ -1,0 +1,31 @@
+{
+  "architectures": {
+    "A": [
+      30,
+      5
+    ],
+    "B": [
+      60,
+      5
+    ],
+    "C": [
+      120,
+      5
+    ],
+    "D": [
+      60,
+      10
+    ],
+    "E": [
+      60,
+      15
+    ]
+  },
+  "contract_sha256": "cee5a359d7e8f3c9ee95e8e1b227cbd59ddcb08b1e9e5b93bf69b919ab5e6ae7",
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "replicates": 2000,
+  "seed": 20260928,
+  "version": "C8_RUN_V1"
+}

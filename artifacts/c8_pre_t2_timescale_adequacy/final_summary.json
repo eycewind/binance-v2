@@ -1,0 +1,397 @@
+{
+  "architectures": {
+    "A": [
+      30,
+      5
+    ],
+    "B": [
+      60,
+      5
+    ],
+    "C": [
+      120,
+      5
+    ],
+    "D": [
+      60,
+      10
+    ],
+    "E": [
+      60,
+      15
+    ]
+  },
+  "confirmations": {
+    "accessed_2026": false,
+    "c7_modified": false,
+    "trading_economics": false
+  },
+  "contract_sha256": "cee5a359d7e8f3c9ee95e8e1b227cbd59ddcb08b1e9e5b93bf69b919ab5e6ae7",
+  "incremental_2024": {
+    "A": {
+      "category": "CLEARLY_USEFUL",
+      "uncertainty": {
+        "brier": {
+          "ci95": [
+            0.036362599062497815,
+            0.04307881248033961
+          ],
+          "point": 0.03934235292232868,
+          "replicate_sha256": "3c20a92355d7b32eccbf2a03e6b1c6d375d058711269cb963c5e9bb02701b981"
+        },
+        "log_loss": {
+          "ci95": [
+            0.08195341208070538,
+            0.09687348070724303
+          ],
+          "point": 0.08854824862733902,
+          "replicate_sha256": "1ddb18890df8b2ee61bc9f4449ab0c12fd0731086c3428a8f4b3076c4851764a"
+        }
+      }
+    },
+    "B": {
+      "category": "CLEARLY_USEFUL",
+      "uncertainty": {
+        "brier": {
+          "ci95": [
+            0.04088376531942226,
+            0.05166670257778653
+          ],
+          "point": 0.045608257134326036,
+          "replicate_sha256": "a6b661bcdfd4ab947555de415bc3e652c5ecfa578b2c4d50e54f7b49158641f2"
+        },
+        "log_loss": {
+          "ci95": [
+            0.09130927852723116,
+            0.11438796723505164
+          ],
+          "point": 0.10137283974966069,
+          "replicate_sha256": "b58251746de0f5c5b94b9f0e39471fd1c17365ae98041f23e6b6d5b2fc39acc1"
+        }
+      }
+    },
+    "C": {
+      "category": "CLEARLY_USEFUL",
+      "uncertainty": {
+        "brier": {
+          "ci95": [
+            0.040685516025137314,
+            0.05189294414297803
+          ],
+          "point": 0.04568786596727399,
+          "replicate_sha256": "ce76892e6753da3c6f6b8f0e34558d594006a2caa139daaa47baf8f4f412043c"
+        },
+        "log_loss": {
+          "ci95": [
+            0.09041477763508594,
+            0.11416857427072907
+          ],
+          "point": 0.10106280696730129,
+          "replicate_sha256": "23425aa52ec624ecfafab617db60265d5804805e5e5149da5f6a4e0463c0ccf7"
+        }
+      }
+    },
+    "D": {
+      "category": "CLEARLY_USEFUL",
+      "uncertainty": {
+        "brier": {
+          "ci95": [
+            0.044987840895025825,
+            0.05810757111689352
+          ],
+          "point": 0.051048697147520916,
+          "replicate_sha256": "3f2de6e2afd6eeef107ae13b707c2158cc5b5fa554e3120cff9e2c70338693b9"
+        },
+        "log_loss": {
+          "ci95": [
+            0.1026250698013198,
+            0.13119344799213198
+          ],
+          "point": 0.11557526724174712,
+          "replicate_sha256": "5c4e7c0595ca90903858a6fa430458b1aef311235d800473fd03cdb4bec3ba22"
+        }
+      }
+    },
+    "E": {
+      "category": "CLEARLY_USEFUL",
+      "uncertainty": {
+        "brier": {
+          "ci95": [
+            0.04472304230627879,
+            0.05787469575332728
+          ],
+          "point": 0.05036295750138927,
+          "replicate_sha256": "e3d635144532b5d6cd39679045a97ceb8d05a6a72b33facd2a8cde5379606947"
+        },
+        "log_loss": {
+          "ci95": [
+            0.10418163338983304,
+            0.13280209146862101
+          ],
+          "point": 0.1163996161179355,
+          "replicate_sha256": "ba207ce5b5ce6ad5d5158abca189e15aae0921397bd54740d56b29bedcc0f6ff"
+        }
+      }
+    }
+  },
+  "metrics_2024": {
+    "A": {
+      "M0": {
+        "auc": 0.4792589334465813,
+        "brier": 0.24516202246706364,
+        "log_loss": 0.6840783919373636,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      },
+      "M1": {
+        "auc": 0.663372993611758,
+        "brier": 0.23128731476719558,
+        "log_loss": 0.6544172591416987,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      },
+      "M2": {
+        "auc": 0.8367378913027909,
+        "brier": 0.19194496184486687,
+        "log_loss": 0.5658690105143596,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      }
+    },
+    "B": {
+      "M0": {
+        "auc": 0.4792589334465813,
+        "brier": 0.24516202246706364,
+        "log_loss": 0.6840783919373636,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      },
+      "M1": {
+        "auc": 0.5879856198404466,
+        "brier": 0.23985080131719588,
+        "log_loss": 0.6727892576530299,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      },
+      "M2": {
+        "auc": 0.8353526527915587,
+        "brier": 0.19424254418286988,
+        "log_loss": 0.5714164179033692,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      }
+    },
+    "C": {
+      "M0": {
+        "auc": 0.4792589334465813,
+        "brier": 0.24496589646874883,
+        "log_loss": 0.6836400352092853,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      },
+      "M1": {
+        "auc": 0.5918830641462005,
+        "brier": 0.24064163275401113,
+        "log_loss": 0.6742142864696667,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      },
+      "M2": {
+        "auc": 0.8410223764740862,
+        "brier": 0.19495376678673718,
+        "log_loss": 0.5731514795023656,
+        "prevalence": 0.40535372848948376,
+        "rows": 16601,
+        "trades": 523
+      }
+    },
+    "D": {
+      "M0": {
+        "auc": 0.47883440514469455,
+        "brier": 0.24329954799199777,
+        "log_loss": 0.6807319598781909,
+        "prevalence": 0.391389432485323,
+        "rows": 7834,
+        "trades": 511
+      },
+      "M1": {
+        "auc": 0.5849136213867151,
+        "brier": 0.2382588298817433,
+        "log_loss": 0.6697303061852009,
+        "prevalence": 0.391389432485323,
+        "rows": 7834,
+        "trades": 511
+      },
+      "M2": {
+        "auc": 0.8545377788344687,
+        "brier": 0.18721013273422238,
+        "log_loss": 0.5541550389434537,
+        "prevalence": 0.391389432485323,
+        "rows": 7834,
+        "trades": 511
+      }
+    },
+    "E": {
+      "M0": {
+        "auc": 0.48499750674897263,
+        "brier": 0.2396238060914067,
+        "log_loss": 0.6735306509961995,
+        "prevalence": 0.3755020080321284,
+        "rows": 4916,
+        "trades": 498
+      },
+      "M1": {
+        "auc": 0.592979509915805,
+        "brier": 0.23481627956109796,
+        "log_loss": 0.6625311156035707,
+        "prevalence": 0.3755020080321284,
+        "rows": 4916,
+        "trades": 498
+      },
+      "M2": {
+        "auc": 0.8620547248252498,
+        "brier": 0.18445332205970869,
+        "log_loss": 0.5461314994856352,
+        "prevalence": 0.3755020080321284,
+        "rows": 4916,
+        "trades": 498
+      }
+    }
+  },
+  "population": {
+    "by_year": {
+      "2024": 1093,
+      "2025": 1106
+    },
+    "included": 2199,
+    "outcomes": {
+      "P0_FIRST": 1354,
+      "T2_FIRST": 845
+    }
+  },
+  "post_t2_note": "Post-T2 resolution adequacy should be studied separately because its dynamics may differ; it was not accessed here.",
+  "scientific_interpretation": "Timescale adequacy only; probabilities describe progression toward the frozen T2-first endpoint and are not trading actions.",
+  "selection": {
+    "clear_preferred": false,
+    "eligibility": {
+      "A": {
+        "checks": {
+          "both_folds": true,
+          "calibration": false,
+          "competitive": false,
+          "completeness": true,
+          "elapsed_breadth": true,
+          "symbol_breadth": true,
+          "useful": true
+        },
+        "eligible": false
+      },
+      "B": {
+        "checks": {
+          "both_folds": true,
+          "calibration": false,
+          "competitive": false,
+          "completeness": true,
+          "elapsed_breadth": true,
+          "symbol_breadth": true,
+          "useful": true
+        },
+        "eligible": false
+      },
+      "C": {
+        "checks": {
+          "both_folds": true,
+          "calibration": false,
+          "competitive": false,
+          "completeness": true,
+          "elapsed_breadth": true,
+          "symbol_breadth": true,
+          "useful": true
+        },
+        "eligible": false
+      },
+      "D": {
+        "checks": {
+          "both_folds": true,
+          "calibration": false,
+          "competitive": false,
+          "completeness": true,
+          "elapsed_breadth": true,
+          "symbol_breadth": true,
+          "useful": true
+        },
+        "eligible": false
+      },
+      "E": {
+        "checks": {
+          "both_folds": true,
+          "calibration": false,
+          "competitive": true,
+          "completeness": false,
+          "elapsed_breadth": true,
+          "symbol_breadth": true,
+          "useful": true
+        },
+        "eligible": false
+      }
+    },
+    "reason": "no_candidate_satisfies_all_prospective_criteria;baseline_B_reported_adequate_without_clear_winner",
+    "selected": "B"
+  },
+  "stability_2025": {
+    "M2_vs_M1": {
+      "brier": {
+        "ci95": [
+          0.03715311975941171,
+          0.04422831251220908
+        ],
+        "point": 0.04040338734541592,
+        "replicate_sha256": "cc96bcf4d8f1a253deaeb65898329e9dd36ff95a16b3d8a0c2037b8838cc8584"
+      },
+      "log_loss": {
+        "ci95": [
+          0.08172166631332903,
+          0.09707046260281098
+        ],
+        "point": 0.08866350322704461,
+        "replicate_sha256": "b92cc760ed34d416a2ac0be7d2321cce35c325607d768acfa753bf5569398b65"
+      }
+    },
+    "architecture": "B",
+    "direction": "replicates_directionally",
+    "models": {
+      "M0": {
+        "auc": 0.5,
+        "brier": 0.23524114174320349,
+        "log_loss": 0.6633419707612703,
+        "prevalence": 0.37810487580496777,
+        "rows": 39616,
+        "trades": 1087
+      },
+      "M1": {
+        "auc": 0.6903322215159182,
+        "brier": 0.22396226738071467,
+        "log_loss": 0.6394629197110754,
+        "prevalence": 0.37810487580496777,
+        "rows": 39616,
+        "trades": 1087
+      },
+      "M2": {
+        "auc": 0.8511334661799788,
+        "brier": 0.1835588800352988,
+        "log_loss": 0.5507994164840309,
+        "prevalence": 0.37810487580496777,
+        "rows": 39616,
+        "trades": 1087
+      }
+    }
+  }
+}

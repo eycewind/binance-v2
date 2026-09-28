@@ -1,0 +1,219 @@
+{
+  "M2_vs_M1": {
+    "brier": {
+      "ci95": [
+        0.03715311975941171,
+        0.04422831251220908
+      ],
+      "point": 0.04040338734541592,
+      "replicate_sha256": "cc96bcf4d8f1a253deaeb65898329e9dd36ff95a16b3d8a0c2037b8838cc8584"
+    },
+    "log_loss": {
+      "ci95": [
+        0.08172166631332903,
+        0.09707046260281098
+      ],
+      "point": 0.08866350322704461,
+      "replicate_sha256": "b92cc760ed34d416a2ac0be7d2321cce35c325607d768acfa753bf5569398b65"
+    }
+  },
+  "architecture": "B",
+  "calibration": {
+    "M0": {
+      "bins": [
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3681267474370923,
+          "observed": 0.37810487580496777,
+          "rows": 39616,
+          "trades": 1087
+        }
+      ],
+      "estimable": true,
+      "intercept": 0.035107056191539115,
+      "slope": 0.9860167622922563
+    },
+    "M1": {
+      "bins": [
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2811444950598196,
+          "observed": 0.0,
+          "rows": 120,
+          "trades": 9
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.35438509304118404,
+          "observed": 0.3321287575799039,
+          "rows": 35896,
+          "trades": 977
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.42672406236369087,
+          "observed": 0.6306880500163087,
+          "rows": 3351,
+          "trades": 228
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5420220303992525,
+          "observed": 0.8914756723962332,
+          "rows": 230,
+          "trades": 30
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.629836799385784,
+          "observed": 0.9999999999999998,
+          "rows": 19,
+          "trades": 2
+        }
+      ],
+      "estimable": true,
+      "intercept": 1.9171362199416118,
+      "slope": 4.419768246150998
+    },
+    "M2": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": 0.06684277741164243,
+          "observed": 0.013042110364868822,
+          "rows": 94,
+          "trades": 38
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": 0.1687447776775382,
+          "observed": 0.031097296653482525,
+          "rows": 612,
+          "trades": 208
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.26609379203325956,
+          "observed": 0.0779397760045109,
+          "rows": 7084,
+          "trades": 831
+        },
+        {
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3451796327093642,
+          "observed": 0.30079875031547665,
+          "rows": 18060,
+          "trades": 944
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.4436109706046535,
+          "observed": 0.65495823397497,
+          "rows": 10555,
+          "trades": 711
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5411122146457373,
+          "observed": 0.8557799056211008,
+          "rows": 2672,
+          "trades": 498
+        },
+        {
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6415799410806571,
+          "observed": 0.9470892671341364,
+          "rows": 432,
+          "trades": 215
+        },
+        {
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7478555441346791,
+          "observed": 0.9665221490099309,
+          "rows": 91,
+          "trades": 42
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8315807758712455,
+          "observed": 0.98301207693023,
+          "rows": 16,
+          "trades": 13
+        }
+      ],
+      "estimable": true,
+      "intercept": 1.4092676675333475,
+      "slope": 3.6476008751843683
+    }
+  },
+  "direction": "replicates_directionally",
+  "evaluation": {
+    "event_trades": 411,
+    "non_event_trades": 676,
+    "rows": 39616,
+    "rows_per_trade": {
+      "max": 274,
+      "mean": 36.44526218951242,
+      "median": 22.0,
+      "min": 1,
+      "p25": 10.0,
+      "p75": 46.0
+    },
+    "unique_trades": 1087
+  },
+  "fits": {
+    "M0": {
+      "base_rate": 0.3681267474370923
+    },
+    "M1": {
+      "converged": true,
+      "gradient_max": 7.133051770774612e-10,
+      "iterations": 14
+    },
+    "M2": {
+      "converged": true,
+      "gradient_max": 3.3970290989893126e-10,
+      "iterations": 14
+    }
+  },
+  "models": {
+    "M0": {
+      "auc": 0.5,
+      "brier": 0.23524114174320349,
+      "log_loss": 0.6633419707612703,
+      "prevalence": 0.37810487580496777,
+      "rows": 39616,
+      "trades": 1087
+    },
+    "M1": {
+      "auc": 0.6903322215159182,
+      "brier": 0.22396226738071467,
+      "log_loss": 0.6394629197110754,
+      "prevalence": 0.37810487580496777,
+      "rows": 39616,
+      "trades": 1087
+    },
+    "M2": {
+      "auc": 0.8511334661799788,
+      "brier": 0.1835588800352988,
+      "log_loss": 0.5507994164840309,
+      "prevalence": 0.37810487580496777,
+      "rows": 39616,
+      "trades": 1087
+    }
+  },
+  "train": {
+    "event_trades": 395,
+    "non_event_trades": 678,
+    "rows": 35548,
+    "rows_per_trade": {
+      "max": 322,
+      "mean": 33.12954333643989,
+      "median": 22.0,
+      "min": 1,
+      "p25": 10.0,
+      "p75": 44.0
+    },
+    "unique_trades": 1073
+  }
+}

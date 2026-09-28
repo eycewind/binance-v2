@@ -1,0 +1,1126 @@
+{
+  "architecture": "B",
+  "descriptive_only": true,
+  "examples": [
+    {
+      "label": 1,
+      "role": "outcome_median_T2",
+      "symbol": "SOLUSDT",
+      "trade_id": "E1-51911a8a3b8ab929",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.3311832576424367
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.34924882066440216
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.3458934566815731
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.37734020666735313
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.3077428239498093
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.269896424886791
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.3044138581804097
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.3938799516565985
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.3760510620413976
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.3663933410433091
+        },
+        {
+          "elapsed_minutes": 60,
+          "probability": 0.27779933285490555
+        },
+        {
+          "elapsed_minutes": 65,
+          "probability": 0.18253747404541512
+        },
+        {
+          "elapsed_minutes": 70,
+          "probability": 0.24375580176483042
+        },
+        {
+          "elapsed_minutes": 75,
+          "probability": 0.1667946091553855
+        },
+        {
+          "elapsed_minutes": 80,
+          "probability": 0.3362552660377873
+        },
+        {
+          "elapsed_minutes": 85,
+          "probability": 0.3654094410275768
+        },
+        {
+          "elapsed_minutes": 90,
+          "probability": 0.3828288708011886
+        },
+        {
+          "elapsed_minutes": 95,
+          "probability": 0.48295900443785017
+        },
+        {
+          "elapsed_minutes": 100,
+          "probability": 0.6552355524264839
+        },
+        {
+          "elapsed_minutes": 105,
+          "probability": 0.5805887758564424
+        },
+        {
+          "elapsed_minutes": 110,
+          "probability": 0.5103844709356212
+        },
+        {
+          "elapsed_minutes": 115,
+          "probability": 0.42700028303433885
+        }
+      ]
+    },
+    {
+      "label": 0,
+      "role": "outcome_median_P0",
+      "symbol": "SOLUSDT",
+      "trade_id": "E1-02bebaed1e3bb217",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.2809400487819542
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.3078774667844518
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.2984573040739436
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.27447218256166755
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.3614543916119331
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.35846120421426464
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.39172510777487696
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.5306154549434083
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.3656825616028406
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.3565384948074723
+        },
+        {
+          "elapsed_minutes": 60,
+          "probability": 0.2677269862538065
+        },
+        {
+          "elapsed_minutes": 65,
+          "probability": 0.2902336148644314
+        },
+        {
+          "elapsed_minutes": 70,
+          "probability": 0.33081428586278994
+        },
+        {
+          "elapsed_minutes": 75,
+          "probability": 0.2926540992186539
+        },
+        {
+          "elapsed_minutes": 80,
+          "probability": 0.36264339712710947
+        },
+        {
+          "elapsed_minutes": 85,
+          "probability": 0.3543803182908978
+        },
+        {
+          "elapsed_minutes": 90,
+          "probability": 0.32737776663666346
+        },
+        {
+          "elapsed_minutes": 95,
+          "probability": 0.29043521639885
+        },
+        {
+          "elapsed_minutes": 100,
+          "probability": 0.28284317866242664
+        },
+        {
+          "elapsed_minutes": 105,
+          "probability": 0.30860645177152857
+        },
+        {
+          "elapsed_minutes": 110,
+          "probability": 0.2760726637826225
+        },
+        {
+          "elapsed_minutes": 115,
+          "probability": 0.2389058572512435
+        }
+      ]
+    },
+    {
+      "label": 0,
+      "role": "high_confidence_correct",
+      "symbol": "BNBUSDT",
+      "trade_id": "E1-df0e51b47613b411",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.30485650538049425
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.08997724800355981
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.044476097267706155
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.056128109568592294
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.019702092001783543
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.0597861807609853
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.015338236587227407
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.04263588276218247
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.024482513334622504
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.023642879606149046
+        }
+      ]
+    },
+    {
+      "label": 1,
+      "role": "high_confidence_incorrect",
+      "symbol": "SOLUSDT",
+      "trade_id": "E1-68d0aea3aedfe277",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.37924960264017576
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.36984129648076136
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.3761928168764502
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.30901810741861524
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.301388944995018
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.28764265750288315
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.30544975051419093
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.3004492703903148
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.3623024419237147
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.29809130730950595
+        },
+        {
+          "elapsed_minutes": 60,
+          "probability": 0.2811460723856925
+        },
+        {
+          "elapsed_minutes": 65,
+          "probability": 0.28610378749023374
+        },
+        {
+          "elapsed_minutes": 70,
+          "probability": 0.28950421299350937
+        },
+        {
+          "elapsed_minutes": 75,
+          "probability": 0.31228489242067625
+        },
+        {
+          "elapsed_minutes": 80,
+          "probability": 0.265255984575146
+        },
+        {
+          "elapsed_minutes": 85,
+          "probability": 0.3031114030334577
+        },
+        {
+          "elapsed_minutes": 90,
+          "probability": 0.2809883194932023
+        },
+        {
+          "elapsed_minutes": 95,
+          "probability": 0.31501822033283533
+        },
+        {
+          "elapsed_minutes": 100,
+          "probability": 0.3415984479244468
+        },
+        {
+          "elapsed_minutes": 105,
+          "probability": 0.3043650753644801
+        },
+        {
+          "elapsed_minutes": 110,
+          "probability": 0.3273781359159362
+        },
+        {
+          "elapsed_minutes": 115,
+          "probability": 0.28705530007599783
+        },
+        {
+          "elapsed_minutes": 120,
+          "probability": 0.3118424232457888
+        },
+        {
+          "elapsed_minutes": 125,
+          "probability": 0.26857828954640595
+        },
+        {
+          "elapsed_minutes": 130,
+          "probability": 0.2429522279587026
+        },
+        {
+          "elapsed_minutes": 135,
+          "probability": 0.2450219443044665
+        },
+        {
+          "elapsed_minutes": 140,
+          "probability": 0.2550723935853466
+        },
+        {
+          "elapsed_minutes": 145,
+          "probability": 0.28940647010751813
+        },
+        {
+          "elapsed_minutes": 150,
+          "probability": 0.2825242881330414
+        },
+        {
+          "elapsed_minutes": 155,
+          "probability": 0.26812153488593676
+        },
+        {
+          "elapsed_minutes": 160,
+          "probability": 0.25591041644379803
+        },
+        {
+          "elapsed_minutes": 165,
+          "probability": 0.27381727635910513
+        },
+        {
+          "elapsed_minutes": 170,
+          "probability": 0.2823155779396201
+        },
+        {
+          "elapsed_minutes": 175,
+          "probability": 0.2938141604209
+        },
+        {
+          "elapsed_minutes": 180,
+          "probability": 0.2709230530636782
+        },
+        {
+          "elapsed_minutes": 185,
+          "probability": 0.3012545981209401
+        },
+        {
+          "elapsed_minutes": 190,
+          "probability": 0.3059824153841191
+        },
+        {
+          "elapsed_minutes": 195,
+          "probability": 0.28669079856757584
+        },
+        {
+          "elapsed_minutes": 200,
+          "probability": 0.2878222328567831
+        },
+        {
+          "elapsed_minutes": 205,
+          "probability": 0.3278775700738887
+        },
+        {
+          "elapsed_minutes": 210,
+          "probability": 0.30590870625445044
+        },
+        {
+          "elapsed_minutes": 215,
+          "probability": 0.28893606633567454
+        },
+        {
+          "elapsed_minutes": 220,
+          "probability": 0.28472407909489406
+        },
+        {
+          "elapsed_minutes": 225,
+          "probability": 0.27371756042779777
+        },
+        {
+          "elapsed_minutes": 230,
+          "probability": 0.2944911943651581
+        },
+        {
+          "elapsed_minutes": 235,
+          "probability": 0.2738187367279912
+        },
+        {
+          "elapsed_minutes": 240,
+          "probability": 0.2915257303801331
+        },
+        {
+          "elapsed_minutes": 245,
+          "probability": 0.31104854614827904
+        },
+        {
+          "elapsed_minutes": 250,
+          "probability": 0.3248980710064775
+        },
+        {
+          "elapsed_minutes": 255,
+          "probability": 0.3079679867118211
+        },
+        {
+          "elapsed_minutes": 260,
+          "probability": 0.31298374212295305
+        },
+        {
+          "elapsed_minutes": 265,
+          "probability": 0.2770669379264056
+        },
+        {
+          "elapsed_minutes": 270,
+          "probability": 0.2706060474742123
+        },
+        {
+          "elapsed_minutes": 275,
+          "probability": 0.27019922682824155
+        },
+        {
+          "elapsed_minutes": 280,
+          "probability": 0.2657404362185999
+        },
+        {
+          "elapsed_minutes": 285,
+          "probability": 0.25990334136416515
+        },
+        {
+          "elapsed_minutes": 290,
+          "probability": 0.2429880361242592
+        },
+        {
+          "elapsed_minutes": 295,
+          "probability": 0.24691672169746356
+        },
+        {
+          "elapsed_minutes": 300,
+          "probability": 0.2440801829512793
+        },
+        {
+          "elapsed_minutes": 305,
+          "probability": 0.26739809291459377
+        },
+        {
+          "elapsed_minutes": 310,
+          "probability": 0.2604380637221386
+        },
+        {
+          "elapsed_minutes": 315,
+          "probability": 0.28659607383386176
+        },
+        {
+          "elapsed_minutes": 320,
+          "probability": 0.2722226885863111
+        },
+        {
+          "elapsed_minutes": 325,
+          "probability": 0.27452055932560826
+        },
+        {
+          "elapsed_minutes": 330,
+          "probability": 0.2817396322438143
+        },
+        {
+          "elapsed_minutes": 335,
+          "probability": 0.2742844766324634
+        },
+        {
+          "elapsed_minutes": 340,
+          "probability": 0.28367684358858986
+        },
+        {
+          "elapsed_minutes": 345,
+          "probability": 0.2695616129645617
+        },
+        {
+          "elapsed_minutes": 350,
+          "probability": 0.2639075695144914
+        },
+        {
+          "elapsed_minutes": 355,
+          "probability": 0.26271921774459134
+        },
+        {
+          "elapsed_minutes": 360,
+          "probability": 0.2718827695133557
+        },
+        {
+          "elapsed_minutes": 365,
+          "probability": 0.26454745931301027
+        },
+        {
+          "elapsed_minutes": 370,
+          "probability": 0.2773089918238145
+        },
+        {
+          "elapsed_minutes": 375,
+          "probability": 0.26354405239141815
+        },
+        {
+          "elapsed_minutes": 380,
+          "probability": 0.2896861281845498
+        },
+        {
+          "elapsed_minutes": 385,
+          "probability": 0.28604245826666286
+        },
+        {
+          "elapsed_minutes": 390,
+          "probability": 0.2686829337865826
+        },
+        {
+          "elapsed_minutes": 395,
+          "probability": 0.2409892815124483
+        },
+        {
+          "elapsed_minutes": 400,
+          "probability": 0.24181878015983907
+        },
+        {
+          "elapsed_minutes": 405,
+          "probability": 0.2588255899982502
+        },
+        {
+          "elapsed_minutes": 410,
+          "probability": 0.2550111119556947
+        },
+        {
+          "elapsed_minutes": 415,
+          "probability": 0.25803763040289845
+        },
+        {
+          "elapsed_minutes": 420,
+          "probability": 0.2498616642218789
+        },
+        {
+          "elapsed_minutes": 425,
+          "probability": 0.2690726072328121
+        },
+        {
+          "elapsed_minutes": 430,
+          "probability": 0.25874117631181626
+        },
+        {
+          "elapsed_minutes": 435,
+          "probability": 0.2601122271848417
+        },
+        {
+          "elapsed_minutes": 440,
+          "probability": 0.2594890040352305
+        },
+        {
+          "elapsed_minutes": 445,
+          "probability": 0.26335190823657606
+        },
+        {
+          "elapsed_minutes": 450,
+          "probability": 0.2601631739793064
+        },
+        {
+          "elapsed_minutes": 455,
+          "probability": 0.25670471966092195
+        },
+        {
+          "elapsed_minutes": 460,
+          "probability": 0.26927921743963384
+        },
+        {
+          "elapsed_minutes": 465,
+          "probability": 0.2691916603344935
+        },
+        {
+          "elapsed_minutes": 470,
+          "probability": 0.26215963393067604
+        },
+        {
+          "elapsed_minutes": 475,
+          "probability": 0.2715084378042871
+        },
+        {
+          "elapsed_minutes": 480,
+          "probability": 0.28674778687036656
+        },
+        {
+          "elapsed_minutes": 485,
+          "probability": 0.28934560323847064
+        },
+        {
+          "elapsed_minutes": 490,
+          "probability": 0.30273480558887406
+        },
+        {
+          "elapsed_minutes": 495,
+          "probability": 0.2645361924113415
+        },
+        {
+          "elapsed_minutes": 500,
+          "probability": 0.2549960676221436
+        },
+        {
+          "elapsed_minutes": 505,
+          "probability": 0.2447694043751931
+        },
+        {
+          "elapsed_minutes": 510,
+          "probability": 0.25163612366993343
+        },
+        {
+          "elapsed_minutes": 515,
+          "probability": 0.2525032091179089
+        },
+        {
+          "elapsed_minutes": 520,
+          "probability": 0.2761577516874609
+        },
+        {
+          "elapsed_minutes": 525,
+          "probability": 0.27618267678553865
+        },
+        {
+          "elapsed_minutes": 530,
+          "probability": 0.24711358434070185
+        },
+        {
+          "elapsed_minutes": 535,
+          "probability": 0.2458673159094387
+        },
+        {
+          "elapsed_minutes": 540,
+          "probability": 0.26265192743681026
+        },
+        {
+          "elapsed_minutes": 545,
+          "probability": 0.27767310965501535
+        },
+        {
+          "elapsed_minutes": 550,
+          "probability": 0.2759299711671782
+        },
+        {
+          "elapsed_minutes": 555,
+          "probability": 0.29841359276126206
+        },
+        {
+          "elapsed_minutes": 560,
+          "probability": 0.27868822845636865
+        },
+        {
+          "elapsed_minutes": 565,
+          "probability": 0.2664684112044959
+        },
+        {
+          "elapsed_minutes": 570,
+          "probability": 0.26009166143701834
+        },
+        {
+          "elapsed_minutes": 575,
+          "probability": 0.2563225651556524
+        },
+        {
+          "elapsed_minutes": 580,
+          "probability": 0.26795786565971236
+        },
+        {
+          "elapsed_minutes": 585,
+          "probability": 0.2731434533881694
+        },
+        {
+          "elapsed_minutes": 590,
+          "probability": 0.2620016007434532
+        },
+        {
+          "elapsed_minutes": 595,
+          "probability": 0.2630486390125922
+        },
+        {
+          "elapsed_minutes": 600,
+          "probability": 0.264030100563639
+        },
+        {
+          "elapsed_minutes": 605,
+          "probability": 0.26839844404910085
+        },
+        {
+          "elapsed_minutes": 610,
+          "probability": 0.2505062235000169
+        },
+        {
+          "elapsed_minutes": 615,
+          "probability": 0.25435728848581785
+        },
+        {
+          "elapsed_minutes": 620,
+          "probability": 0.27666043724829176
+        },
+        {
+          "elapsed_minutes": 625,
+          "probability": 0.27139605809260653
+        },
+        {
+          "elapsed_minutes": 630,
+          "probability": 0.2818727258504772
+        },
+        {
+          "elapsed_minutes": 635,
+          "probability": 0.31517422307203014
+        },
+        {
+          "elapsed_minutes": 640,
+          "probability": 0.29992668994471244
+        },
+        {
+          "elapsed_minutes": 645,
+          "probability": 0.31280537079275306
+        },
+        {
+          "elapsed_minutes": 650,
+          "probability": 0.30967477592799786
+        },
+        {
+          "elapsed_minutes": 655,
+          "probability": 0.3168567585151123
+        },
+        {
+          "elapsed_minutes": 660,
+          "probability": 0.3481760770141969
+        },
+        {
+          "elapsed_minutes": 665,
+          "probability": 0.31477265222166034
+        },
+        {
+          "elapsed_minutes": 670,
+          "probability": 0.3261451422986679
+        },
+        {
+          "elapsed_minutes": 675,
+          "probability": 0.3372206052518504
+        },
+        {
+          "elapsed_minutes": 680,
+          "probability": 0.28489765826649227
+        },
+        {
+          "elapsed_minutes": 685,
+          "probability": 0.3265048648980788
+        },
+        {
+          "elapsed_minutes": 690,
+          "probability": 0.3493778220672295
+        },
+        {
+          "elapsed_minutes": 695,
+          "probability": 0.38167236669760013
+        },
+        {
+          "elapsed_minutes": 700,
+          "probability": 0.35410642915862256
+        },
+        {
+          "elapsed_minutes": 705,
+          "probability": 0.3494907330849876
+        },
+        {
+          "elapsed_minutes": 710,
+          "probability": 0.30799207575499415
+        },
+        {
+          "elapsed_minutes": 715,
+          "probability": 0.2953772891330784
+        },
+        {
+          "elapsed_minutes": 720,
+          "probability": 0.26929703766425717
+        },
+        {
+          "elapsed_minutes": 725,
+          "probability": 0.26874723379702126
+        },
+        {
+          "elapsed_minutes": 730,
+          "probability": 0.26816187932120905
+        },
+        {
+          "elapsed_minutes": 735,
+          "probability": 0.27054428333513186
+        },
+        {
+          "elapsed_minutes": 740,
+          "probability": 0.31655451384906447
+        },
+        {
+          "elapsed_minutes": 745,
+          "probability": 0.27117388670361153
+        },
+        {
+          "elapsed_minutes": 750,
+          "probability": 0.26933615757087465
+        },
+        {
+          "elapsed_minutes": 755,
+          "probability": 0.26304264410252365
+        },
+        {
+          "elapsed_minutes": 760,
+          "probability": 0.2741039875601135
+        },
+        {
+          "elapsed_minutes": 765,
+          "probability": 0.26552215979688903
+        },
+        {
+          "elapsed_minutes": 770,
+          "probability": 0.26707618209566863
+        },
+        {
+          "elapsed_minutes": 775,
+          "probability": 0.22985550030431273
+        },
+        {
+          "elapsed_minutes": 780,
+          "probability": 0.25644932267987147
+        },
+        {
+          "elapsed_minutes": 785,
+          "probability": 0.25278907133523126
+        },
+        {
+          "elapsed_minutes": 790,
+          "probability": 0.24212284698328554
+        },
+        {
+          "elapsed_minutes": 795,
+          "probability": 0.25988511023804944
+        },
+        {
+          "elapsed_minutes": 800,
+          "probability": 0.24663104418902898
+        },
+        {
+          "elapsed_minutes": 805,
+          "probability": 0.26161069859217106
+        },
+        {
+          "elapsed_minutes": 810,
+          "probability": 0.25964950372915446
+        },
+        {
+          "elapsed_minutes": 815,
+          "probability": 0.24614909425309833
+        },
+        {
+          "elapsed_minutes": 820,
+          "probability": 0.2540136570622139
+        },
+        {
+          "elapsed_minutes": 825,
+          "probability": 0.2741632591425825
+        },
+        {
+          "elapsed_minutes": 830,
+          "probability": 0.3197010489323998
+        },
+        {
+          "elapsed_minutes": 835,
+          "probability": 0.3257395766807966
+        },
+        {
+          "elapsed_minutes": 840,
+          "probability": 0.3575496755501138
+        },
+        {
+          "elapsed_minutes": 845,
+          "probability": 0.3381934905507273
+        },
+        {
+          "elapsed_minutes": 850,
+          "probability": 0.2906502836461083
+        },
+        {
+          "elapsed_minutes": 855,
+          "probability": 0.2763567335398254
+        },
+        {
+          "elapsed_minutes": 860,
+          "probability": 0.25880536837257795
+        },
+        {
+          "elapsed_minutes": 865,
+          "probability": 0.29073348956674455
+        },
+        {
+          "elapsed_minutes": 870,
+          "probability": 0.27410403836119707
+        },
+        {
+          "elapsed_minutes": 875,
+          "probability": 0.328132719742359
+        },
+        {
+          "elapsed_minutes": 880,
+          "probability": 0.3642701414697169
+        },
+        {
+          "elapsed_minutes": 885,
+          "probability": 0.3355959514894361
+        },
+        {
+          "elapsed_minutes": 890,
+          "probability": 0.32152965802626876
+        },
+        {
+          "elapsed_minutes": 895,
+          "probability": 0.2996567709809048
+        },
+        {
+          "elapsed_minutes": 900,
+          "probability": 0.29147545816426085
+        },
+        {
+          "elapsed_minutes": 905,
+          "probability": 0.27931078493099726
+        },
+        {
+          "elapsed_minutes": 910,
+          "probability": 0.28423880792584494
+        },
+        {
+          "elapsed_minutes": 915,
+          "probability": 0.28489990134773424
+        },
+        {
+          "elapsed_minutes": 920,
+          "probability": 0.27307815241829475
+        },
+        {
+          "elapsed_minutes": 925,
+          "probability": 0.2808469665423003
+        },
+        {
+          "elapsed_minutes": 930,
+          "probability": 0.295444200541901
+        },
+        {
+          "elapsed_minutes": 935,
+          "probability": 0.3154535437704477
+        },
+        {
+          "elapsed_minutes": 940,
+          "probability": 0.29181404301920927
+        },
+        {
+          "elapsed_minutes": 945,
+          "probability": 0.2954686850395454
+        },
+        {
+          "elapsed_minutes": 950,
+          "probability": 0.30151688056507087
+        },
+        {
+          "elapsed_minutes": 955,
+          "probability": 0.29032093550247656
+        },
+        {
+          "elapsed_minutes": 960,
+          "probability": 0.30113656340093176
+        },
+        {
+          "elapsed_minutes": 965,
+          "probability": 0.3453632524594534
+        },
+        {
+          "elapsed_minutes": 970,
+          "probability": 0.39476074970422403
+        },
+        {
+          "elapsed_minutes": 975,
+          "probability": 0.38420952498212935
+        },
+        {
+          "elapsed_minutes": 980,
+          "probability": 0.3654140077405742
+        },
+        {
+          "elapsed_minutes": 985,
+          "probability": 0.3523416589238506
+        },
+        {
+          "elapsed_minutes": 990,
+          "probability": 0.3238137296405128
+        },
+        {
+          "elapsed_minutes": 995,
+          "probability": 0.3161052187290005
+        },
+        {
+          "elapsed_minutes": 1000,
+          "probability": 0.31072176589066136
+        },
+        {
+          "elapsed_minutes": 1005,
+          "probability": 0.29839053970446655
+        },
+        {
+          "elapsed_minutes": 1010,
+          "probability": 0.30251642660337724
+        },
+        {
+          "elapsed_minutes": 1015,
+          "probability": 0.3006168860494029
+        },
+        {
+          "elapsed_minutes": 1020,
+          "probability": 0.3521076938676564
+        },
+        {
+          "elapsed_minutes": 1025,
+          "probability": 0.38379255743579194
+        },
+        {
+          "elapsed_minutes": 1030,
+          "probability": 0.3772928310416606
+        },
+        {
+          "elapsed_minutes": 1035,
+          "probability": 0.4567230389757948
+        },
+        {
+          "elapsed_minutes": 1040,
+          "probability": 0.46746235822102933
+        },
+        {
+          "elapsed_minutes": 1045,
+          "probability": 0.4362026102876379
+        },
+        {
+          "elapsed_minutes": 1050,
+          "probability": 0.39627714940956543
+        },
+        {
+          "elapsed_minutes": 1055,
+          "probability": 0.43850963723354447
+        },
+        {
+          "elapsed_minutes": 1060,
+          "probability": 0.4582244388498147
+        },
+        {
+          "elapsed_minutes": 1065,
+          "probability": 0.44138630462767064
+        },
+        {
+          "elapsed_minutes": 1070,
+          "probability": 0.4933304552656987
+        },
+        {
+          "elapsed_minutes": 1075,
+          "probability": 0.4926136795471145
+        },
+        {
+          "elapsed_minutes": 1080,
+          "probability": 0.5874283209097846
+        },
+        {
+          "elapsed_minutes": 1085,
+          "probability": 0.5814425840778467
+        },
+        {
+          "elapsed_minutes": 1090,
+          "probability": 0.5378159936161129
+        },
+        {
+          "elapsed_minutes": 1095,
+          "probability": 0.6200621704831163
+        }
+      ]
+    }
+  ]
+}
