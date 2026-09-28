@@ -1,0 +1,9 @@
+{
+  "contract_sha256": "127c47d767b3ecdeac89108a21125b9996f6155ae61c463036af2b62f3193c0a",
+  "inputs": {
+    "c7_population": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "c9_final_summary": "38a8859b65f5e9bfbb1ebda900c777c7e559516c824510c65bc5fc16e44dbd58",
+    "contracts/C18_pre_t2_economic_value_CONTRACT.md": "127c47d767b3ecdeac89108a21125b9996f6155ae61c463036af2b62f3193c0a"
+  },
+  "no_2026_access": true
+}

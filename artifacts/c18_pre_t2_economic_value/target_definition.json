@@ -1,0 +1,8 @@
+{
+  "P0_wins_ties": true,
+  "evaluation_only": true,
+  "execution": "immediate next available 1-minute open after completed state",
+  "gap_fail_closed": true,
+  "primary": "DELTA_V_PRE = HOLD_TO_P0_NET - EXIT_NOW_NET",
+  "primary_cost": "C_BASE"
+}

@@ -1,0 +1,18 @@
+{
+  "causal_builder": "frozen C8 feature_row/snapshots",
+  "evaluation_target_builder": "target_for_snapshot receives no feature object",
+  "feature_schema_checked": true,
+  "probability_builder": "frozen C9 only",
+  "prohibited_predictors": [
+    "delta_v",
+    "exit_now",
+    "hold_to_p0",
+    "future_mfe",
+    "future_mae",
+    "future_t2",
+    "future_p0",
+    "recovery",
+    "future_path"
+  ],
+  "status": "PASS"
+}

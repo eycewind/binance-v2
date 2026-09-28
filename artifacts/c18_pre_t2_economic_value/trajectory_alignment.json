@@ -1,0 +1,13 @@
+{
+  "deterministic_aggregation": "equal mean of within-trade proportions/correlations",
+  "falling_p_coincides_deteriorating_delta_v": 0.11910606118024476,
+  "rising_p_coincides_improving_delta_v": 0.1328238844143821,
+  "trades": 1610,
+  "within_trade_correlation": {
+    "eligible_trades": 1572,
+    "mean": -0.8684671105750046,
+    "median": -0.9016102051757591,
+    "p10": -0.9598916898088516,
+    "p90": -0.7518592788510247
+  }
+}

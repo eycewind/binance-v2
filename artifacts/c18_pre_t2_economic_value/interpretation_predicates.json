@@ -1,0 +1,19 @@
+{
+  "classification": "NO_USEFUL_ECONOMIC_ALIGNMENT",
+  "not_driven_by_one_symbol": true,
+  "symbols_with_positive_association": 5,
+  "year_predicates": {
+    "2024": {
+      "high_minus_low_mean": -0.004439051067670365,
+      "hold_fraction_directional": false,
+      "mean_directional": false,
+      "positive_association": false
+    },
+    "2025": {
+      "high_minus_low_mean": -0.001658274242006967,
+      "hold_fraction_directional": false,
+      "mean_directional": false,
+      "positive_association": false
+    }
+  }
+}

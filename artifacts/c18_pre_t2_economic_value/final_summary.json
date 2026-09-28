@@ -1,0 +1,403 @@
+{
+  "c9_reproduction_status": "PASS",
+  "confirmations": {
+    "accessed_2026": false,
+    "c19_started": false,
+    "c7_c17_scientific_behavior_modified": false,
+    "exit_policy_or_pnl_optimization": false,
+    "new_model_or_recalibration": false,
+    "threshold_horizon_or_symbol_search": false
+  },
+  "contract_sha256": "127c47d767b3ecdeac89108a21125b9996f6155ae61c463036af2b62f3193c0a",
+  "economic_state_persistence": {
+    "fraction_monostate": 0.484472049689441,
+    "horizons_minutes": {
+      "15": {
+        "eligible_trades": 1549,
+        "same_state_persistence": 0.8736734193536315
+      },
+      "30": {
+        "eligible_trades": 1494,
+        "same_state_persistence": 0.8309088291412569
+      },
+      "5": {
+        "eligible_trades": 1588,
+        "same_state_persistence": 0.9220275130661436
+      }
+    },
+    "transitions_per_trade": {
+      "max": 29,
+      "mean": 1.5763975155279504,
+      "median": 1.0,
+      "min": 0,
+      "p10": 0.0,
+      "p90": 4.0
+    }
+  },
+  "implication": "Do not use C9 probability directly as an economic exit signal; revisit the pre-T2 economic target/state formulation.",
+  "interpretation": "NO_USEFUL_ECONOMIC_ALIGNMENT",
+  "leakage_firewall_status": "PASS",
+  "limitations": [
+    "descriptive realized future-derived target, not a trading policy",
+    "2024 honest probabilities cover only frozen chronological validation cohorts",
+    "snapshot quantiles are row quantiles while means, proportions, and associations are whole-trade weighted",
+    "within-trade observations are dependent"
+  ],
+  "monotonicity": {
+    "spearman": -0.2101041890382287,
+    "trade_weighted_correlation": 0.056465285907578204
+  },
+  "outcome_classes": {
+    "P0_FIRST": {
+      "fraction_exact_zero": 0.00458780661881924,
+      "fraction_exit_better": 0.8504236370989959,
+      "fraction_hold_better": 0.1449885562821845,
+      "mean_delta_v_pre": -0.004695048263926598,
+      "median_delta_v_pre": -0.004478946363789191,
+      "p10": -0.014707638305394084,
+      "p25": -0.008579000330715075,
+      "p75": -0.0017678382573874385,
+      "p90": -4.661187116294024e-05,
+      "snapshots": 33117,
+      "unique_trades": 987
+    },
+    "T2_FIRST": {
+      "fraction_exact_zero": 0.0010110181734496308,
+      "fraction_exit_better": 0.5315783642630082,
+      "fraction_hold_better": 0.46741061756354213,
+      "mean_delta_v_pre": 0.008923251236253694,
+      "median_delta_v_pre": 0.001984889004442152,
+      "p10": -0.010651220891732078,
+      "p25": -0.005037007932115188,
+      "p75": 0.017245910555100122,
+      "p90": 0.04454444401255694,
+      "snapshots": 23100,
+      "unique_trades": 623
+    }
+  },
+  "population": {
+    "causal_snapshot_trades": 2160,
+    "causal_snapshots": 75164,
+    "eligible_target_snapshots": 56217,
+    "eligible_target_trades": 1610,
+    "honestly_scored_snapshots": 56217,
+    "honestly_scored_trades": 1610,
+    "no_eligible_causal_snapshot_trades": 39,
+    "source_outcomes": {
+      "P0_FIRST": 1354,
+      "T2_FIRST": 845
+    },
+    "source_trades": 2199,
+    "target_ineligible": {},
+    "unscored_causal_snapshots": 18947
+  },
+  "probability_bands": {
+    "0.20 to <0.40": {
+      "fraction_exact_zero": 0.003510872639391015,
+      "fraction_exit_better": 0.7576429342011416,
+      "fraction_hold_better": 0.23884619315946745,
+      "mean_delta_v_pre": 0.0009523008847552554,
+      "median_delta_v_pre": -0.002608186998634039,
+      "p10": -0.009954811048330351,
+      "p25": -0.005670409060078213,
+      "p75": -0.0001658088715225857,
+      "p90": 0.009211441699384615,
+      "snapshots": 15700,
+      "unique_trades": 1354
+    },
+    "0.40 to <0.60": {
+      "fraction_exact_zero": 0.0009325389188411455,
+      "fraction_exit_better": 0.7680709926305519,
+      "fraction_hold_better": 0.2309964684506067,
+      "mean_delta_v_pre": 0.0006128963868291539,
+      "median_delta_v_pre": -0.0037497392142308854,
+      "p10": -0.012747777746177063,
+      "p25": -0.007623029254380157,
+      "p75": 0.0010400952059925145,
+      "p90": 0.022442141032218955,
+      "snapshots": 13296,
+      "unique_trades": 1142
+    },
+    "0.60 to <0.80": {
+      "fraction_exact_zero": 0.00018053375196232344,
+      "fraction_exit_better": 0.7444264254276135,
+      "fraction_hold_better": 0.25539304082042436,
+      "mean_delta_v_pre": 0.0007513026964258693,
+      "median_delta_v_pre": -0.0047844632119654305,
+      "p10": -0.015032049614397738,
+      "p25": -0.00928446750411078,
+      "p75": 0.00360131233773447,
+      "p90": 0.030697362627243138,
+      "snapshots": 10950,
+      "unique_trades": 980
+    },
+    "<0.20": {
+      "fraction_exact_zero": 0.006755082636570117,
+      "fraction_exit_better": 0.5949807308718301,
+      "fraction_hold_better": 0.3982641864915997,
+      "mean_delta_v_pre": 0.0022528774949239654,
+      "median_delta_v_pre": -0.0012254087763347455,
+      "p10": -0.00890348228996305,
+      "p25": -0.004038475133752001,
+      "p75": 0.0007495987246468583,
+      "p90": 0.004892698653581761,
+      "snapshots": 10016,
+      "unique_trades": 1166
+    },
+    ">=0.80": {
+      "fraction_exact_zero": 0.0006164965986394558,
+      "fraction_exit_better": 0.7345543433302678,
+      "fraction_hold_better": 0.2648291600710911,
+      "mean_delta_v_pre": -0.00031201659813431435,
+      "median_delta_v_pre": -0.006435257072922354,
+      "p10": -0.02052636794210971,
+      "p25": -0.013257762726770012,
+      "p75": 0.0054214762420238,
+      "p90": 0.03154393464682544,
+      "snapshots": 6255,
+      "unique_trades": 840
+    }
+  },
+  "right_tail": {
+    "cumulative_contribution": {
+      "top_10_percent": 0.9441118508235333,
+      "top_1_percent": 0.37965494853637094,
+      "top_20_percent": 0.9910765616573881,
+      "top_5_percent": 0.8000078385413797
+    },
+    "gini": 0.9375800288615239,
+    "maximum_positive_delta_v_per_trade": {
+      "max": 0.3565157619894646,
+      "mean": 0.00721787152367344,
+      "median": 0.0007805068957967487,
+      "min": 0.0
+    },
+    "minimum_delta_v_per_trade": {
+      "max": 0.34603852393188766,
+      "mean": -0.003932311324320514,
+      "median": -0.006716784905158306,
+      "min": -0.11703718165763985
+    },
+    "trade_measure": "sum of positive snapshot DELTA_V_PRE within trade",
+    "trades": 1610
+  },
+  "symbols": {
+    "BNBUSDT": {
+      "association": {
+        "spearman": -0.17636137933954418,
+        "trade_weighted_correlation": 0.022026915507713185
+      },
+      "overall": {
+        "fraction_exact_zero": 0.006548336581505723,
+        "fraction_exit_better": 0.692606778978809,
+        "fraction_hold_better": 0.3008448844396855,
+        "mean_delta_v_pre": -0.0004173345761767359,
+        "median_delta_v_pre": -0.0025131735254859105,
+        "p10": -0.011725723548122596,
+        "p25": -0.006411708445320642,
+        "p75": 0.0019170988769789971,
+        "p90": 0.020971288633459973,
+        "snapshots": 12948,
+        "unique_trades": 328
+      }
+    },
+    "BTCUSDT": {
+      "association": {
+        "spearman": -0.17894835586108052,
+        "trade_weighted_correlation": 0.12587392864524088
+      },
+      "overall": {
+        "fraction_exact_zero": 0.0006999485331960886,
+        "fraction_exit_better": 0.7392506391492595,
+        "fraction_hold_better": 0.26004941231754436,
+        "mean_delta_v_pre": 0.0005194470261706194,
+        "median_delta_v_pre": -0.0025219695778190498,
+        "p10": -0.00907194414833874,
+        "p25": -0.005598927694798476,
+        "p75": 0.00026061180992513743,
+        "p90": 0.015264952699534748,
+        "snapshots": 14122,
+        "unique_trades": 335
+      }
+    },
+    "ETHUSDT": {
+      "association": {
+        "spearman": -0.22062520241517147,
+        "trade_weighted_correlation": 0.02798931596913746
+      },
+      "overall": {
+        "fraction_exact_zero": 0.0007532603138322268,
+        "fraction_exit_better": 0.7387183994862986,
+        "fraction_hold_better": 0.26052834019986926,
+        "mean_delta_v_pre": 0.0003608866295082841,
+        "median_delta_v_pre": -0.0036174077539549215,
+        "p10": -0.016172788533677623,
+        "p25": -0.009426856878292455,
+        "p75": 0.00046779375054248253,
+        "p90": 0.015459026902155277,
+        "snapshots": 10514,
+        "unique_trades": 320
+      }
+    },
+    "SOLUSDT": {
+      "association": {
+        "spearman": -0.31012449502500705,
+        "trade_weighted_correlation": 0.010447905190253414
+      },
+      "overall": {
+        "fraction_exact_zero": 0.0035073077654000496,
+        "fraction_exit_better": 0.7537767808939482,
+        "fraction_hold_better": 0.24271591134065215,
+        "mean_delta_v_pre": -0.0006310397979100884,
+        "median_delta_v_pre": -0.005072716516203286,
+        "p10": -0.015631401091330648,
+        "p25": -0.009956645459863807,
+        "p75": -0.00035983750434115825,
+        "p90": 0.01165730292757282,
+        "snapshots": 8249,
+        "unique_trades": 311
+      }
+    },
+    "XRPUSDT": {
+      "association": {
+        "spearman": -0.15234909089472823,
+        "trade_weighted_correlation": 0.11184473711037086
+      },
+      "overall": {
+        "fraction_exact_zero": 0.00456922874054878,
+        "fraction_exit_better": 0.7117183431610093,
+        "fraction_hold_better": 0.28371242809844177,
+        "mean_delta_v_pre": 0.003065865590559173,
+        "median_delta_v_pre": -0.0029743858615094037,
+        "p10": -0.013846493510477958,
+        "p25": -0.007665650999235028,
+        "p75": 0.002865075477887188,
+        "p90": 0.02943129946872794,
+        "snapshots": 10384,
+        "unique_trades": 316
+      }
+    }
+  },
+  "target": {
+    "C_BASE": {
+      "fraction_exact_zero": 0.0032037450030023033,
+      "fraction_exit_better": 0.7270443793494187,
+      "fraction_hold_better": 0.26975187564757935,
+      "mean_delta_v_pre": 0.0005746415426649068,
+      "median_delta_v_pre": -0.003078290708107829,
+      "p10": -0.013318353785573844,
+      "p25": -0.007366407060246955,
+      "p75": 0.0008200624217967059,
+      "p90": 0.01802276493184614,
+      "snapshots": 56217,
+      "unique_trades": 1610
+    },
+    "cost_sensitivity": {
+      "C0": {
+        "fraction_exact_zero": 0.0032037450030023033,
+        "fraction_exit_better": 0.7270443793494187,
+        "fraction_hold_better": 0.26975187564757935,
+        "mean_delta_v_pre": 0.0005754468921546481,
+        "median_delta_v_pre": -0.0030826048755790226,
+        "p10": -0.013337019211981419,
+        "p25": -0.007376730943444955,
+        "p75": 0.0008212117241076838,
+        "p90": 0.01804802350343194,
+        "snapshots": 56217,
+        "unique_trades": 1610
+      },
+      "C_BASE": {
+        "fraction_exact_zero": 0.0032037450030023033,
+        "fraction_exit_better": 0.7270443793494187,
+        "fraction_hold_better": 0.26975187564757935,
+        "mean_delta_v_pre": 0.0005746415426649068,
+        "median_delta_v_pre": -0.003078290708107829,
+        "p10": -0.013318353785573844,
+        "p25": -0.007366407060246955,
+        "p75": 0.0008200624217967059,
+        "p90": 0.01802276493184614,
+        "snapshots": 56217,
+        "unique_trades": 1610
+      },
+      "C_S10": {
+        "fraction_exact_zero": 0.0032037450030023033,
+        "fraction_exit_better": 0.7270443793494187,
+        "fraction_hold_better": 0.26975187564757935,
+        "mean_delta_v_pre": 0.000573722850966265,
+        "median_delta_v_pre": -0.003073369379053702,
+        "p10": -0.013297061449127567,
+        "p25": -0.007354630228061183,
+        "p75": 0.000818751370500536,
+        "p90": 0.017993951552895765,
+        "snapshots": 56217,
+        "unique_trades": 1610
+      },
+      "C_S5": {
+        "fraction_exact_zero": 0.0032037450030023033,
+        "fraction_exit_better": 0.7270443793494187,
+        "fraction_hold_better": 0.26975187564757935,
+        "mean_delta_v_pre": 0.0005742968611093056,
+        "median_delta_v_pre": -0.003076444287424351,
+        "p10": -0.01331036516908855,
+        "p25": -0.007361988541124788,
+        "p75": 0.0008195705318614723,
+        "p90": 0.018011954514930976,
+        "snapshots": 56217,
+        "unique_trades": 1610
+      }
+    }
+  },
+  "trajectory_alignment": {
+    "deterministic_aggregation": "equal mean of within-trade proportions/correlations",
+    "falling_p_coincides_deteriorating_delta_v": 0.11910606118024476,
+    "rising_p_coincides_improving_delta_v": 0.1328238844143821,
+    "trades": 1610,
+    "within_trade_correlation": {
+      "eligible_trades": 1572,
+      "mean": -0.8684671105750046,
+      "median": -0.9016102051757591,
+      "p10": -0.9598916898088516,
+      "p90": -0.7518592788510247
+    }
+  },
+  "years": {
+    "2024": {
+      "association": {
+        "spearman": -0.22358855366438302,
+        "trade_weighted_correlation": 0.030035572023050926
+      },
+      "overall": {
+        "fraction_exact_zero": 0.005823117190604889,
+        "fraction_exit_better": 0.7263733976665778,
+        "fraction_hold_better": 0.2678034851428173,
+        "mean_delta_v_pre": -0.0001375435605918729,
+        "median_delta_v_pre": -0.002849345101495146,
+        "p10": -0.013661201093114528,
+        "p25": -0.007294378962045357,
+        "p75": 0.0019313665521182213,
+        "p90": 0.023447819011583305,
+        "snapshots": 16601,
+        "unique_trades": 523
+      }
+    },
+    "2025": {
+      "association": {
+        "spearman": -0.20402567096479168,
+        "trade_weighted_correlation": 0.06572141697009708
+      },
+      "overall": {
+        "fraction_exact_zero": 0.001943458292683857,
+        "fraction_exit_better": 0.7273672159824688,
+        "fraction_hold_better": 0.2706893257248476,
+        "mean_delta_v_pre": 0.0009173028204968259,
+        "median_delta_v_pre": -0.0031692491812360685,
+        "p10": -0.013179361125332377,
+        "p25": -0.007388268242399675,
+        "p75": 0.0005346479678787262,
+        "p90": 0.015481300834067669,
+        "snapshots": 39616,
+        "unique_trades": 1087
+      }
+    }
+  }
+}

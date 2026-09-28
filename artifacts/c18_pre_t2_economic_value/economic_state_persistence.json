@@ -1,0 +1,25 @@
+{
+  "fraction_monostate": 0.484472049689441,
+  "horizons_minutes": {
+    "15": {
+      "eligible_trades": 1549,
+      "same_state_persistence": 0.8736734193536315
+    },
+    "30": {
+      "eligible_trades": 1494,
+      "same_state_persistence": 0.8309088291412569
+    },
+    "5": {
+      "eligible_trades": 1588,
+      "same_state_persistence": 0.9220275130661436
+    }
+  },
+  "transitions_per_trade": {
+    "max": 29,
+    "mean": 1.5763975155279504,
+    "median": 1.0,
+    "min": 0,
+    "p10": 0.0,
+    "p90": 4.0
+  }
+}

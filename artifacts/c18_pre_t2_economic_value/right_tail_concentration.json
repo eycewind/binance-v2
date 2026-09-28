@@ -1,0 +1,23 @@
+{
+  "cumulative_contribution": {
+    "top_10_percent": 0.9441118508235333,
+    "top_1_percent": 0.37965494853637094,
+    "top_20_percent": 0.9910765616573881,
+    "top_5_percent": 0.8000078385413797
+  },
+  "gini": 0.9375800288615239,
+  "maximum_positive_delta_v_per_trade": {
+    "max": 0.3565157619894646,
+    "mean": 0.00721787152367344,
+    "median": 0.0007805068957967487,
+    "min": 0.0
+  },
+  "minimum_delta_v_per_trade": {
+    "max": 0.34603852393188766,
+    "mean": -0.003932311324320514,
+    "median": -0.006716784905158306,
+    "min": -0.11703718165763985
+  },
+  "trade_measure": "sum of positive snapshot DELTA_V_PRE within trade",
+  "trades": 1610
+}
