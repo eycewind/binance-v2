@@ -1,0 +1,14 @@
+{
+  "classification": "PERSISTENT_ECONOMIC_STATE",
+  "highly_unstable": {
+    "either_state_below_60pct_in_both_years": false,
+    "median_ge_4": false,
+    "most_transitions_repeated_oscillations": false
+  },
+  "median_trade_transitions": 0.0,
+  "persistent": {
+    "both_states_5m_ge_70pct": true,
+    "directionally_consistent_both_years": true,
+    "median_le_1": true
+  }
+}

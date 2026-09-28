@@ -1,0 +1,57 @@
+{
+  "BNBUSDT": {
+    "exit_persistence_5m": 0.9367606204986257,
+    "fraction_hold": 0.36490665444966214,
+    "hold_persistence_5m": 0.9133682100501896,
+    "mean_delta_v": -0.00017472835077523126,
+    "median_delta_v": -0.004243585245215059,
+    "snapshots": 8731,
+    "trades": 143,
+    "transition_rate": 0.007685142058686539,
+    "transitions": 66
+  },
+  "BTCUSDT": {
+    "exit_persistence_5m": 0.9540694708510852,
+    "fraction_hold": 0.3234946871310508,
+    "hold_persistence_5m": 0.8887235244149385,
+    "mean_delta_v": 0.0006998397602463818,
+    "median_delta_v": -0.007111814573827814,
+    "snapshots": 9317,
+    "trades": 137,
+    "transition_rate": 0.005010893246187364,
+    "transitions": 46
+  },
+  "ETHUSDT": {
+    "exit_persistence_5m": 0.9738483436853002,
+    "fraction_hold": 0.19533324018443482,
+    "hold_persistence_5m": 0.9024731264116491,
+    "mean_delta_v": -0.004579688095449339,
+    "median_delta_v": -0.009861855204637778,
+    "snapshots": 7157,
+    "trades": 162,
+    "transition_rate": 0.005718370264474625,
+    "transitions": 40
+  },
+  "SOLUSDT": {
+    "exit_persistence_5m": 0.9635718599033817,
+    "fraction_hold": 0.30369557263080865,
+    "hold_persistence_5m": 0.9249979086935608,
+    "mean_delta_v": 0.001315211359925925,
+    "median_delta_v": -0.009742949795241658,
+    "snapshots": 5466,
+    "trades": 182,
+    "transition_rate": 0.004731264193792582,
+    "transitions": 25
+  },
+  "XRPUSDT": {
+    "exit_persistence_5m": 0.9655501354636382,
+    "fraction_hold": 0.3469325153374233,
+    "hold_persistence_5m": 0.9142249211693655,
+    "mean_delta_v": 0.007804042683115369,
+    "median_delta_v": -0.006467619586584022,
+    "snapshots": 6520,
+    "trades": 168,
+    "transition_rate": 0.005037783375314861,
+    "transitions": 32
+  }
+}

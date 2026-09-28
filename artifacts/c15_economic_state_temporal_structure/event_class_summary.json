@@ -1,0 +1,24 @@
+{
+  "CONTINUATION_FIRST": {
+    "exit_persistence_5m": 0.9603344135387957,
+    "fraction_hold": 0.47207243192863324,
+    "hold_persistence_5m": 0.8830412658039051,
+    "mean_delta_v": 0.005958833911504694,
+    "median_delta_v": -0.0013294414909335037,
+    "snapshots": 15021,
+    "trades": 325,
+    "transition_rate": 0.008982035928143712,
+    "transitions": 132
+  },
+  "DETERIORATION_FIRST": {
+    "exit_persistence_5m": 0.9586511152228843,
+    "fraction_hold": 0.1997744700045106,
+    "hold_persistence_5m": 0.9433643866892086,
+    "mean_delta_v": -0.0026711012395569966,
+    "median_delta_v": -0.00913813089305978,
+    "snapshots": 22170,
+    "trades": 467,
+    "transition_rate": 0.0035478966041561076,
+    "transitions": 77
+  }
+}

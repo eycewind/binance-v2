@@ -1,0 +1,895 @@
+{
+  "c16_direction": "A: future checkpoint may investigate richer causal information",
+  "confirmations": {
+    "accessed_2026": false,
+    "c16_started": false,
+    "c7_c14_scientific_behavior_modified": false,
+    "horizon_searched": false,
+    "model_trained": false,
+    "pnl_or_threshold_optimized": false,
+    "policy_defined": false
+  },
+  "contract_sha256": "b0e71b449e0c9c4958a1e49e3aad4477cff0f1791a05281045235683930f67b0",
+  "elapsed_time": {
+    "remaining_to_p0": {
+      "0-5m": {
+        "exit_persistence_5m": null,
+        "fraction_hold": null,
+        "hold_persistence_5m": null,
+        "mean_delta_v": null,
+        "median_delta_v": null,
+        "snapshots": 0,
+        "trades": 0,
+        "transition_rate": null,
+        "transitions": 0
+      },
+      ">15-30m": {
+        "exit_persistence_5m": 1.0,
+        "fraction_hold": 0.0,
+        "hold_persistence_5m": null,
+        "mean_delta_v": -0.01377521871060238,
+        "median_delta_v": -0.011229792244367503,
+        "snapshots": 18,
+        "trades": 4,
+        "transition_rate": 0.0,
+        "transitions": 0
+      },
+      ">30-60m": {
+        "exit_persistence_5m": 1.0,
+        "fraction_hold": 0.0,
+        "hold_persistence_5m": null,
+        "mean_delta_v": -0.01459214191166771,
+        "median_delta_v": -0.014166461623525152,
+        "snapshots": 293,
+        "trades": 23,
+        "transition_rate": 0.0,
+        "transitions": 0
+      },
+      ">5-15m": {
+        "exit_persistence_5m": null,
+        "fraction_hold": null,
+        "hold_persistence_5m": null,
+        "mean_delta_v": null,
+        "median_delta_v": null,
+        "snapshots": 0,
+        "trades": 0,
+        "transition_rate": null,
+        "transitions": 0
+      },
+      ">60m": {
+        "exit_persistence_5m": 0.9587809874840862,
+        "fraction_hold": 0.3123644251626898,
+        "hold_persistence_5m": 0.9087858613281767,
+        "mean_delta_v": 0.000943947430060815,
+        "median_delta_v": -0.006722444616804865,
+        "snapshots": 36880,
+        "trades": 787,
+        "transition_rate": 0.00579059651455961,
+        "transitions": 209
+      }
+    },
+    "since_t2": {
+      "0-5m": {
+        "exit_persistence_5m": null,
+        "fraction_hold": 0.3355426677713339,
+        "hold_persistence_5m": null,
+        "mean_delta_v": 0.0024094824496626558,
+        "median_delta_v": -0.007680492093568546,
+        "snapshots": 3621,
+        "trades": 792,
+        "transition_rate": 0.011311417462000707,
+        "transitions": 32
+      },
+      ">15-30m": {
+        "exit_persistence_5m": 0.973968253968254,
+        "fraction_hold": 0.3461954561846376,
+        "hold_persistence_5m": 0.9414390756302521,
+        "mean_delta_v": 0.0025050848878049588,
+        "median_delta_v": -0.0067768900744210325,
+        "snapshots": 5546,
+        "trades": 449,
+        "transition_rate": 0.006670590543456935,
+        "transitions": 34
+      },
+      ">30-60m": {
+        "exit_persistence_5m": 0.971105214530991,
+        "fraction_hold": 0.3353260113999722,
+        "hold_persistence_5m": 0.9195995957960652,
+        "mean_delta_v": 0.0018599354993424758,
+        "median_delta_v": -0.006576612765891924,
+        "snapshots": 7193,
+        "trades": 311,
+        "transition_rate": 0.006829410055216507,
+        "transitions": 47
+      },
+      ">5-15m": {
+        "exit_persistence_5m": 0.9778409090909093,
+        "fraction_hold": 0.34320397277910614,
+        "hold_persistence_5m": 0.931692573402418,
+        "mean_delta_v": 0.0025332543630882387,
+        "median_delta_v": -0.007080248127857431,
+        "snapshots": 5437,
+        "trades": 639,
+        "transition_rate": 0.010421008753647354,
+        "transitions": 50
+      },
+      ">60m": {
+        "exit_persistence_5m": 0.9845310507208377,
+        "fraction_hold": 0.26679225672339874,
+        "hold_persistence_5m": 0.9346002018649566,
+        "mean_delta_v": -0.001265455830397724,
+        "median_delta_v": -0.006715885276126415,
+        "snapshots": 15394,
+        "trades": 185,
+        "transition_rate": 0.002235518443027155,
+        "transitions": 34
+      }
+    }
+  },
+  "event_class_structure": {
+    "CONTINUATION_FIRST": {
+      "exit_persistence_5m": 0.9603344135387957,
+      "fraction_hold": 0.47207243192863324,
+      "hold_persistence_5m": 0.8830412658039051,
+      "mean_delta_v": 0.005958833911504694,
+      "median_delta_v": -0.0013294414909335037,
+      "snapshots": 15021,
+      "trades": 325,
+      "transition_rate": 0.008982035928143712,
+      "transitions": 132
+    },
+    "DETERIORATION_FIRST": {
+      "exit_persistence_5m": 0.9586511152228843,
+      "fraction_hold": 0.1997744700045106,
+      "hold_persistence_5m": 0.9433643866892086,
+      "mean_delta_v": -0.0026711012395569966,
+      "median_delta_v": -0.00913813089305978,
+      "snapshots": 22170,
+      "trades": 467,
+      "transition_rate": 0.0035478966041561076,
+      "transitions": 77
+    }
+  },
+  "interpretation": "PERSISTENT_ECONOMIC_STATE",
+  "limitations": [
+    "descriptive realized future-derived target; not a live feature or policy",
+    "physical causal panel excludes 51 binary source trades with no eligible snapshots",
+    "snapshot DELTA_V observations are dependent within trades; persistence uses whole-trade weighting",
+    "EXACT_ZERO is retained but excluded from binary sign transitions and conditional persistence"
+  ],
+  "near_zero_transitions": {
+    "bands": {
+      "0.10% to <0.25%": {
+        "count": 32,
+        "fraction": 0.15311004784688995
+      },
+      "0.25% to <0.50%": {
+        "count": 3,
+        "fraction": 0.014354066985645933
+      },
+      "0.50% to <1.00%": {
+        "count": 0,
+        "fraction": 0.0
+      },
+      "<0.10%": {
+        "count": 174,
+        "fraction": 0.8325358851674641
+      },
+      ">=1.00%": {
+        "count": 0,
+        "fraction": 0.0
+      }
+    },
+    "transition_value": "DELTA_V at transition snapshot",
+    "transitions": 209
+  },
+  "persistence": {
+    "horizons_minutes": {
+      "1": {
+        "EXIT_BETTER": {
+          "eligible_trades": 525,
+          "transition_probability": 0.022508276855135456,
+          "whole_trade_weighted_same_state_probability": 0.9774917231448645
+        },
+        "HOLD_BETTER": {
+          "eligible_trades": 281,
+          "transition_probability": 0.05982704356408319,
+          "whole_trade_weighted_same_state_probability": 0.9401729564359168
+        }
+      },
+      "10": {
+        "EXIT_BETTER": {
+          "eligible_trades": 369,
+          "transition_probability": 0.04996765064690134,
+          "whole_trade_weighted_same_state_probability": 0.9500323493530987
+        },
+        "HOLD_BETTER": {
+          "eligible_trades": 199,
+          "transition_probability": 0.1059397074114804,
+          "whole_trade_weighted_same_state_probability": 0.8940602925885196
+        }
+      },
+      "15": {
+        "EXIT_BETTER": {
+          "eligible_trades": 308,
+          "transition_probability": 0.051203456619312915,
+          "whole_trade_weighted_same_state_probability": 0.9487965433806871
+        },
+        "HOLD_BETTER": {
+          "eligible_trades": 174,
+          "transition_probability": 0.11373321818595727,
+          "whole_trade_weighted_same_state_probability": 0.8862667818140427
+        }
+      },
+      "2": {
+        "EXIT_BETTER": {
+          "eligible_trades": 498,
+          "transition_probability": 0.029306224831210148,
+          "whole_trade_weighted_same_state_probability": 0.9706937751687899
+        },
+        "HOLD_BETTER": {
+          "eligible_trades": 271,
+          "transition_probability": 0.06411533811226078,
+          "whole_trade_weighted_same_state_probability": 0.9358846618877392
+        }
+      },
+      "30": {
+        "EXIT_BETTER": {
+          "eligible_trades": 217,
+          "transition_probability": 0.057382844992156845,
+          "whole_trade_weighted_same_state_probability": 0.9426171550078432
+        },
+        "HOLD_BETTER": {
+          "eligible_trades": 117,
+          "transition_probability": 0.12339807331547681,
+          "whole_trade_weighted_same_state_probability": 0.8766019266845232
+        }
+      },
+      "5": {
+        "EXIT_BETTER": {
+          "eligible_trades": 448,
+          "transition_probability": 0.04075897889408431,
+          "whole_trade_weighted_same_state_probability": 0.9592410211059157
+        },
+        "HOLD_BETTER": {
+          "eligible_trades": 239,
+          "transition_probability": 0.09121413867182326,
+          "whole_trade_weighted_same_state_probability": 0.9087858613281767
+        }
+      },
+      "60": {
+        "EXIT_BETTER": {
+          "eligible_trades": 135,
+          "transition_probability": 0.04996479827800271,
+          "whole_trade_weighted_same_state_probability": 0.9500352017219973
+        },
+        "HOLD_BETTER": {
+          "eligible_trades": 65,
+          "transition_probability": 0.16170866759587454,
+          "whole_trade_weighted_same_state_probability": 0.8382913324041255
+        }
+      }
+    },
+    "weighting": "mean of within-trade conditional probabilities; each eligible trade has equal weight"
+  },
+  "population": {
+    "binary_source_trades": 843,
+    "causal_physical_snapshots": 37191,
+    "eligible_target_snapshots": 37191,
+    "eligible_target_trades": 792,
+    "exact_zero_snapshots": 43,
+    "frozen_scored_snapshots": 29932,
+    "frozen_scored_trades": 608,
+    "ineligible_snapshots": {},
+    "outcomes": {
+      "CONTINUATION_FIRST": 325,
+      "DETERIORATION_FIRST": 467
+    },
+    "source_first_t2_trades": 845
+  },
+  "right_tail": {
+    "gini": 0.9119629007690913,
+    "lorenz_style": [
+      {
+        "bottom_trade_percent": 0,
+        "cumulative_positive_delta_v_fraction": 0.0
+      },
+      {
+        "bottom_trade_percent": 1,
+        "cumulative_positive_delta_v_fraction": 0.0
+      },
+      {
+        "bottom_trade_percent": 5,
+        "cumulative_positive_delta_v_fraction": 0.0
+      },
+      {
+        "bottom_trade_percent": 10,
+        "cumulative_positive_delta_v_fraction": 0.0
+      },
+      {
+        "bottom_trade_percent": 20,
+        "cumulative_positive_delta_v_fraction": 0.0
+      },
+      {
+        "bottom_trade_percent": 25,
+        "cumulative_positive_delta_v_fraction": 0.0
+      },
+      {
+        "bottom_trade_percent": 50,
+        "cumulative_positive_delta_v_fraction": 0.0
+      },
+      {
+        "bottom_trade_percent": 75,
+        "cumulative_positive_delta_v_fraction": 0.008813274322400831
+      },
+      {
+        "bottom_trade_percent": 80,
+        "cumulative_positive_delta_v_fraction": 0.025081649882924748
+      },
+      {
+        "bottom_trade_percent": 90,
+        "cumulative_positive_delta_v_fraction": 0.138416974727556
+      },
+      {
+        "bottom_trade_percent": 95,
+        "cumulative_positive_delta_v_fraction": 0.30990094779486155
+      },
+      {
+        "bottom_trade_percent": 99,
+        "cumulative_positive_delta_v_fraction": 0.6624171178047044
+      },
+      {
+        "bottom_trade_percent": 100,
+        "cumulative_positive_delta_v_fraction": 1.0
+      }
+    ],
+    "maximum_positive_delta_v_per_trade": {
+      "count": 792,
+      "max": 0.34680368477073,
+      "mean": 0.012203790958512446,
+      "median": 0.0,
+      "min": 0.0,
+      "p10": 0.0,
+      "p25": 0.0,
+      "p75": 0.010018039302420107,
+      "p90": 0.03873160573806456
+    },
+    "minimum_delta_v_per_trade": {
+      "count": 792,
+      "max": 0.3401358546036752,
+      "mean": -0.0009754461945520688,
+      "median": -0.010643872410306187,
+      "min": -0.05091596906082975,
+      "p10": -0.02622524645802656,
+      "p25": -0.01833834751753761,
+      "p75": 0.003951456935067683,
+      "p90": 0.03306637786663848
+    },
+    "top_contribution": {
+      "top_10_percent": 0.8641784988375116,
+      "top_1_percent": 0.3547705024475858,
+      "top_20_percent": 0.9755018309289976,
+      "top_5_percent": 0.6965270532760235
+    },
+    "total_positive_delta_v": 335.5462646449908,
+    "trade_measure": "sum of positive snapshot DELTA_V within trade",
+    "trades": 792
+  },
+  "symbol_stability": {
+    "BNBUSDT": {
+      "exit_persistence_5m": 0.9367606204986257,
+      "fraction_hold": 0.36490665444966214,
+      "hold_persistence_5m": 0.9133682100501896,
+      "mean_delta_v": -0.00017472835077523126,
+      "median_delta_v": -0.004243585245215059,
+      "snapshots": 8731,
+      "trades": 143,
+      "transition_rate": 0.007685142058686539,
+      "transitions": 66
+    },
+    "BTCUSDT": {
+      "exit_persistence_5m": 0.9540694708510852,
+      "fraction_hold": 0.3234946871310508,
+      "hold_persistence_5m": 0.8887235244149385,
+      "mean_delta_v": 0.0006998397602463818,
+      "median_delta_v": -0.007111814573827814,
+      "snapshots": 9317,
+      "trades": 137,
+      "transition_rate": 0.005010893246187364,
+      "transitions": 46
+    },
+    "ETHUSDT": {
+      "exit_persistence_5m": 0.9738483436853002,
+      "fraction_hold": 0.19533324018443482,
+      "hold_persistence_5m": 0.9024731264116491,
+      "mean_delta_v": -0.004579688095449339,
+      "median_delta_v": -0.009861855204637778,
+      "snapshots": 7157,
+      "trades": 162,
+      "transition_rate": 0.005718370264474625,
+      "transitions": 40
+    },
+    "SOLUSDT": {
+      "exit_persistence_5m": 0.9635718599033817,
+      "fraction_hold": 0.30369557263080865,
+      "hold_persistence_5m": 0.9249979086935608,
+      "mean_delta_v": 0.001315211359925925,
+      "median_delta_v": -0.009742949795241658,
+      "snapshots": 5466,
+      "trades": 182,
+      "transition_rate": 0.004731264193792582,
+      "transitions": 25
+    },
+    "XRPUSDT": {
+      "exit_persistence_5m": 0.9655501354636382,
+      "fraction_hold": 0.3469325153374233,
+      "hold_persistence_5m": 0.9142249211693655,
+      "mean_delta_v": 0.007804042683115369,
+      "median_delta_v": -0.006467619586584022,
+      "snapshots": 6520,
+      "trades": 168,
+      "transition_rate": 0.005037783375314861,
+      "transitions": 32
+    }
+  },
+  "transition_distribution": {
+    "HIGH_OSCILLATION": {
+      "delta_v": {
+        "count": 1980,
+        "max": 0.0067919171125156485,
+        "mean": -0.00045728591276795734,
+        "median": -0.00034146024274377823,
+        "min": -0.006879807276585665,
+        "p10": -0.003153056295947863,
+        "p25": -0.0019067722842286226,
+        "p75": 0.0010710078773743708,
+        "p90": 0.002089122342895735
+      },
+      "event_class": {
+        "CONTINUATION_FIRST": 15,
+        "DETERIORATION_FIRST": 10
+      },
+      "percentage": 0.03156565656565657,
+      "snapshots": 1980,
+      "symbol": {
+        "BNBUSDT": 9,
+        "BTCUSDT": 3,
+        "ETHUSDT": 7,
+        "SOLUSDT": 2,
+        "XRPUSDT": 4
+      },
+      "trades": 25,
+      "year": {
+        "2024": 14,
+        "2025": 11
+      }
+    },
+    "LOW_OSCILLATION": {
+      "delta_v": {
+        "count": 1234,
+        "max": 0.009982864493984153,
+        "mean": 0.001847592431227874,
+        "median": 0.0018586524735620747,
+        "min": -0.007776884378900946,
+        "p10": -0.0031854589957799697,
+        "p25": -0.00029672752693855366,
+        "p75": 0.004128610118315066,
+        "p90": 0.006973037681819792
+      },
+      "event_class": {
+        "CONTINUATION_FIRST": 14,
+        "DETERIORATION_FIRST": 6
+      },
+      "percentage": 0.025252525252525252,
+      "snapshots": 1234,
+      "symbol": {
+        "BNBUSDT": 3,
+        "BTCUSDT": 8,
+        "ETHUSDT": 2,
+        "SOLUSDT": 4,
+        "XRPUSDT": 3
+      },
+      "trades": 20,
+      "year": {
+        "2024": 14,
+        "2025": 6
+      }
+    },
+    "MONOSTATE": {
+      "delta_v": {
+        "count": 33226,
+        "max": 0.34680368477073,
+        "mean": 0.0008349257782741714,
+        "median": -0.0080210374765079,
+        "min": -0.05091596906082975,
+        "p10": -0.020542412211950987,
+        "p25": -0.014164395027135214,
+        "p75": 0.006976636739692879,
+        "p90": 0.027344870235263215
+      },
+      "event_class": {
+        "CONTINUATION_FIRST": 282,
+        "DETERIORATION_FIRST": 444
+      },
+      "percentage": 0.9166666666666666,
+      "snapshots": 33226,
+      "symbol": {
+        "BNBUSDT": 124,
+        "BTCUSDT": 122,
+        "ETHUSDT": 153,
+        "SOLUSDT": 171,
+        "XRPUSDT": 156
+      },
+      "trades": 726,
+      "year": {
+        "2024": 355,
+        "2025": 371
+      }
+    },
+    "SINGLE_TRANSITION": {
+      "delta_v": {
+        "count": 751,
+        "max": 0.00887449612585192,
+        "mean": 0.0015626935312132283,
+        "median": 0.00175048690096503,
+        "min": -0.0076550712056164235,
+        "p10": -0.0025891211235904168,
+        "p25": 0.00010771237788031844,
+        "p75": 0.003448752207323707,
+        "p90": 0.005125534066086175
+      },
+      "event_class": {
+        "CONTINUATION_FIRST": 14,
+        "DETERIORATION_FIRST": 7
+      },
+      "percentage": 0.026515151515151516,
+      "snapshots": 751,
+      "symbol": {
+        "BNBUSDT": 7,
+        "BTCUSDT": 4,
+        "SOLUSDT": 5,
+        "XRPUSDT": 5
+      },
+      "trades": 21,
+      "year": {
+        "2024": 6,
+        "2025": 15
+      }
+    }
+  },
+  "transition_magnitude": {
+    "EXIT_BETTER -> HOLD_BETTER": {
+      "offset_minutes": {
+        "-1": {
+          "count": 97,
+          "max": -2.9380539886001214e-06,
+          "mean": -0.0005316507683744966,
+          "median": -0.0002713377594647003,
+          "min": -0.0029680991806924333,
+          "p10": -0.0013707712374268343,
+          "p25": -0.0007546574569460059,
+          "p75": -0.0001423521710483995,
+          "p90": -3.709196972424741e-05
+        },
+        "-2": {
+          "count": 91,
+          "max": 0.003371148449517136,
+          "mean": -0.00049990769338595,
+          "median": -0.0005053901917626714,
+          "min": -0.003917404655693872,
+          "p10": -0.002089122342895394,
+          "p25": -0.0012190228203994586,
+          "p75": 0.0001981505240477759,
+          "p90": 0.0008125970216486854
+        },
+        "-5": {
+          "count": 80,
+          "max": 0.0037666653605139128,
+          "mean": -0.0005957786292697931,
+          "median": -0.00042893606823963615,
+          "min": -0.006686604498511998,
+          "p10": -0.0024755057558258843,
+          "p25": -0.0016740479080744424,
+          "p75": 0.00032605090096166187,
+          "p90": 0.0013524449475328102
+        },
+        "0": {
+          "count": 97,
+          "max": 0.002382236182851329,
+          "mean": 0.0005659644929449107,
+          "median": 0.0003695630708144791,
+          "min": 8.925638897949208e-06,
+          "p10": 9.858036450839399e-05,
+          "p25": 0.00017073012137177636,
+          "p75": 0.000698833438617953,
+          "p90": 0.0014151768045077007
+        },
+        "1": {
+          "count": 93,
+          "max": 0.0037960578946220954,
+          "mean": 0.0003933397992003157,
+          "median": 0.0001741846293218715,
+          "min": -0.0025298103696269423,
+          "p10": -0.0006311265954553614,
+          "p25": -0.00027669480583699703,
+          "p75": 0.0010665135978496212,
+          "p90": 0.0015231042924201573
+        },
+        "2": {
+          "count": 90,
+          "max": 0.0043417412169737876,
+          "mean": 0.00036227735536240057,
+          "median": 0.0003555393515537733,
+          "min": -0.003879042566761085,
+          "p10": -0.0014402234363276641,
+          "p25": -0.0003555451663196437,
+          "p75": 0.00143430964609584,
+          "p90": 0.0021923642160554227
+        },
+        "5": {
+          "count": 80,
+          "max": 0.0038233920219086035,
+          "mean": -8.889793975122993e-05,
+          "median": 8.14679609810018e-05,
+          "min": -0.005329920732412688,
+          "p10": -0.002638310382837631,
+          "p25": -0.0010887942169712796,
+          "p75": 0.0010805065613061517,
+          "p90": 0.002122620669926531
+        }
+      },
+      "transitions": 97
+    },
+    "HOLD_BETTER -> EXIT_BETTER": {
+      "offset_minutes": {
+        "-1": {
+          "count": 112,
+          "max": 0.003371148449517136,
+          "mean": 0.0006193646413641576,
+          "median": 0.0003414018834474739,
+          "min": 8.925638897949208e-06,
+          "p10": 8.373528818455173e-05,
+          "p25": 0.00017958897712784983,
+          "p75": 0.0008455805829879351,
+          "p90": 0.001350106298604646
+        },
+        "-2": {
+          "count": 106,
+          "max": 0.003477991560264286,
+          "mean": 0.0005741169351485459,
+          "median": 0.0005455661391613382,
+          "min": -0.0021514173957707496,
+          "p10": -0.0007155162527402578,
+          "p25": -4.662106927071346e-05,
+          "p75": 0.0012386727950699596,
+          "p90": 0.0018157941890042362
+        },
+        "-5": {
+          "count": 97,
+          "max": 0.004317049885443226,
+          "mean": 0.0006619639724979774,
+          "median": 0.0007137442071502844,
+          "min": -0.003957465574256275,
+          "p10": -0.0010892218909075609,
+          "p25": -0.00013351612526707815,
+          "p75": 0.0016607753288969893,
+          "p90": 0.002521326150114967
+        },
+        "0": {
+          "count": 112,
+          "max": -2.9380539886001214e-06,
+          "mean": -0.0005937174499863672,
+          "median": -0.0003586854906941425,
+          "min": -0.004395373402956807,
+          "p10": -0.0012631213256314366,
+          "p25": -0.0007546574569460059,
+          "p75": -0.00018544112904430622,
+          "p90": -6.786928192634534e-05
+        },
+        "1": {
+          "count": 103,
+          "max": 0.002382236182851329,
+          "mean": -0.0007709562945895078,
+          "median": -0.00040431215341027275,
+          "min": -0.005246090835787187,
+          "p10": -0.0026102815036762195,
+          "p25": -0.0012713865298279638,
+          "p75": 0.00011639224281043397,
+          "p90": 0.0005055522555128845
+        },
+        "2": {
+          "count": 99,
+          "max": 0.0018744784447055742,
+          "mean": -0.0008126543061181119,
+          "median": -0.000583168085300712,
+          "min": -0.006809322388622604,
+          "p10": -0.0026508841463952874,
+          "p25": -0.0015054490438611194,
+          "p75": 0.00010481924599054079,
+          "p90": 0.0008772414424359802
+        },
+        "5": {
+          "count": 85,
+          "max": 0.0032044264681937882,
+          "mean": -0.000787611373128699,
+          "median": -0.0007596808519618895,
+          "min": -0.0061919893049624765,
+          "p10": -0.0026983790500518124,
+          "p25": -0.0017379054645042507,
+          "p75": 0.00018530973697966201,
+          "p90": 0.0012389679459594172
+        }
+      },
+      "transitions": 112
+    }
+  },
+  "transition_summary": {
+    "distributions": {
+      "eligible_snapshots": {
+        "count": 792,
+        "max": 619.0,
+        "mean": 46.958333333333336,
+        "median": 19.0,
+        "min": 1.0,
+        "p10": 3.0,
+        "p25": 7.0,
+        "p75": 57.0,
+        "p90": 127.89999999999998
+      },
+      "exit_snapshots": {
+        "count": 792,
+        "max": 527.0,
+        "mean": 32.35858585858586,
+        "median": 8.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 31.25,
+        "p90": 102.0
+      },
+      "exit_to_hold": {
+        "count": 792,
+        "max": 7.0,
+        "mean": 0.13762626262626262,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 0.0
+      },
+      "fraction_exit": {
+        "count": 792,
+        "max": 1.0,
+        "mean": 0.6680200287344173,
+        "median": 1.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p90": 1.0
+      },
+      "fraction_hold": {
+        "count": 792,
+        "max": 1.0,
+        "mean": 0.33085917987776875,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p90": 1.0
+      },
+      "hold_snapshots": {
+        "count": 792,
+        "max": 619.0,
+        "mean": 14.545454545454545,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 8.0,
+        "p90": 42.0
+      },
+      "hold_to_exit": {
+        "count": 792,
+        "max": 7.0,
+        "mean": 0.1527777777777778,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 0.0
+      },
+      "longest_exit_run": {
+        "count": 792,
+        "max": 527.0,
+        "mean": 31.81691919191919,
+        "median": 8.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 31.0,
+        "p90": 102.0
+      },
+      "longest_hold_run": {
+        "count": 792,
+        "max": 619.0,
+        "mean": 13.950757575757576,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 8.0,
+        "p90": 41.0
+      },
+      "total_transitions": {
+        "count": 792,
+        "max": 14.0,
+        "mean": 0.2904040404040404,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 0.0
+      }
+    },
+    "exit_dwell_trade_medians": {
+      "count": 565,
+      "max": 527.0,
+      "mean": 43.38849557522124,
+      "median": 15.0,
+      "min": 1.0,
+      "p10": 2.0,
+      "p25": 5.0,
+      "p75": 49.0,
+      "p90": 123.60000000000002
+    },
+    "final_states": {
+      "EXIT_BETTER": 544,
+      "HOLD_BETTER": 248
+    },
+    "hold_dwell_trade_medians": {
+      "count": 293,
+      "max": 619.0,
+      "mean": 35.55972696245734,
+      "median": 16.0,
+      "min": 1.0,
+      "p10": 2.0,
+      "p25": 5.0,
+      "p75": 40.0,
+      "p90": 94.40000000000003
+    },
+    "initial_states": {
+      "EXIT_BETTER": 532,
+      "HOLD_BETTER": 260
+    },
+    "trades": 792
+  },
+  "year_stability": {
+    "2024": {
+      "exit_persistence_5m": 0.9560883589832602,
+      "fraction_hold": 0.30303030303030304,
+      "hold_persistence_5m": 0.8983659599422894,
+      "mean_delta_v": 0.0007610245744494921,
+      "median_delta_v": -0.006715885276126415,
+      "snapshots": 16500,
+      "trades": 389,
+      "transition_rate": 0.007013841474768792,
+      "transitions": 113
+    },
+    "2025": {
+      "exit_persistence_5m": 0.9623656595652589,
+      "fraction_hold": 0.31511285099801845,
+      "hold_persistence_5m": 0.9189474180516043,
+      "mean_delta_v": 0.0008570114651450772,
+      "median_delta_v": -0.006855270618076361,
+      "snapshots": 20691,
+      "trades": 403,
+      "transition_rate": 0.00473186119873817,
+      "transitions": 96
+    }
+  }
+}

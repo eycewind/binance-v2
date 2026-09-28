@@ -1,0 +1,88 @@
+{
+  "gini": 0.9119629007690913,
+  "lorenz_style": [
+    {
+      "bottom_trade_percent": 0,
+      "cumulative_positive_delta_v_fraction": 0.0
+    },
+    {
+      "bottom_trade_percent": 1,
+      "cumulative_positive_delta_v_fraction": 0.0
+    },
+    {
+      "bottom_trade_percent": 5,
+      "cumulative_positive_delta_v_fraction": 0.0
+    },
+    {
+      "bottom_trade_percent": 10,
+      "cumulative_positive_delta_v_fraction": 0.0
+    },
+    {
+      "bottom_trade_percent": 20,
+      "cumulative_positive_delta_v_fraction": 0.0
+    },
+    {
+      "bottom_trade_percent": 25,
+      "cumulative_positive_delta_v_fraction": 0.0
+    },
+    {
+      "bottom_trade_percent": 50,
+      "cumulative_positive_delta_v_fraction": 0.0
+    },
+    {
+      "bottom_trade_percent": 75,
+      "cumulative_positive_delta_v_fraction": 0.008813274322400831
+    },
+    {
+      "bottom_trade_percent": 80,
+      "cumulative_positive_delta_v_fraction": 0.025081649882924748
+    },
+    {
+      "bottom_trade_percent": 90,
+      "cumulative_positive_delta_v_fraction": 0.138416974727556
+    },
+    {
+      "bottom_trade_percent": 95,
+      "cumulative_positive_delta_v_fraction": 0.30990094779486155
+    },
+    {
+      "bottom_trade_percent": 99,
+      "cumulative_positive_delta_v_fraction": 0.6624171178047044
+    },
+    {
+      "bottom_trade_percent": 100,
+      "cumulative_positive_delta_v_fraction": 1.0
+    }
+  ],
+  "maximum_positive_delta_v_per_trade": {
+    "count": 792,
+    "max": 0.34680368477073,
+    "mean": 0.012203790958512446,
+    "median": 0.0,
+    "min": 0.0,
+    "p10": 0.0,
+    "p25": 0.0,
+    "p75": 0.010018039302420107,
+    "p90": 0.03873160573806456
+  },
+  "minimum_delta_v_per_trade": {
+    "count": 792,
+    "max": 0.3401358546036752,
+    "mean": -0.0009754461945520688,
+    "median": -0.010643872410306187,
+    "min": -0.05091596906082975,
+    "p10": -0.02622524645802656,
+    "p25": -0.01833834751753761,
+    "p75": 0.003951456935067683,
+    "p90": 0.03306637786663848
+  },
+  "top_contribution": {
+    "top_10_percent": 0.8641784988375116,
+    "top_1_percent": 0.3547705024475858,
+    "top_20_percent": 0.9755018309289976,
+    "top_5_percent": 0.6965270532760235
+  },
+  "total_positive_delta_v": 335.5462646449908,
+  "trade_measure": "sum of positive snapshot DELTA_V within trade",
+  "trades": 792
+}

@@ -1,0 +1,26 @@
+{
+  "bands": {
+    "0.10% to <0.25%": {
+      "count": 32,
+      "fraction": 0.15311004784688995
+    },
+    "0.25% to <0.50%": {
+      "count": 3,
+      "fraction": 0.014354066985645933
+    },
+    "0.50% to <1.00%": {
+      "count": 0,
+      "fraction": 0.0
+    },
+    "<0.10%": {
+      "count": 174,
+      "fraction": 0.8325358851674641
+    },
+    ">=1.00%": {
+      "count": 0,
+      "fraction": 0.0
+    }
+  },
+  "transition_value": "DELTA_V at transition snapshot",
+  "transitions": 209
+}

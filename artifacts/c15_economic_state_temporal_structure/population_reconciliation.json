@@ -1,0 +1,15 @@
+{
+  "binary_source_trades": 843,
+  "causal_physical_snapshots": 37191,
+  "eligible_target_snapshots": 37191,
+  "eligible_target_trades": 792,
+  "exact_zero_snapshots": 43,
+  "frozen_scored_snapshots": 29932,
+  "frozen_scored_trades": 608,
+  "ineligible_snapshots": {},
+  "outcomes": {
+    "CONTINUATION_FIRST": 325,
+    "DETERIORATION_FIRST": 467
+  },
+  "source_first_t2_trades": 845
+}

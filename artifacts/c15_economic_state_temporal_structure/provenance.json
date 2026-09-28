@@ -1,0 +1,12 @@
+{
+  "c14_contract_sha256": "0e2916068a679ce0b764f72327616fcd8c19aaf663bf6c3f5cb384ea41abaea7",
+  "c14_target_builder": "binance_data_foundation.c14_post_t2_economic_state.target_for_snapshot",
+  "contract_sha256": "b0e71b449e0c9c4958a1e49e3aad4477cff0f1791a05281045235683930f67b0",
+  "cost_model": "C_BASE",
+  "inputs": {
+    "c7_population": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "contracts/C14_post_t2_economic_state_CONTRACT.md": "0e2916068a679ce0b764f72327616fcd8c19aaf663bf6c3f5cb384ea41abaea7",
+    "contracts/C15_economic_state_temporal_structure_CONTRACT.md": "b0e71b449e0c9c4958a1e49e3aad4477cff0f1791a05281045235683930f67b0"
+  },
+  "no_2026_access": true
+}

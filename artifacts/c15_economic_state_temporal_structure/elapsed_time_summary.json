@@ -1,0 +1,116 @@
+{
+  "remaining_to_p0": {
+    "0-5m": {
+      "exit_persistence_5m": null,
+      "fraction_hold": null,
+      "hold_persistence_5m": null,
+      "mean_delta_v": null,
+      "median_delta_v": null,
+      "snapshots": 0,
+      "trades": 0,
+      "transition_rate": null,
+      "transitions": 0
+    },
+    ">15-30m": {
+      "exit_persistence_5m": 1.0,
+      "fraction_hold": 0.0,
+      "hold_persistence_5m": null,
+      "mean_delta_v": -0.01377521871060238,
+      "median_delta_v": -0.011229792244367503,
+      "snapshots": 18,
+      "trades": 4,
+      "transition_rate": 0.0,
+      "transitions": 0
+    },
+    ">30-60m": {
+      "exit_persistence_5m": 1.0,
+      "fraction_hold": 0.0,
+      "hold_persistence_5m": null,
+      "mean_delta_v": -0.01459214191166771,
+      "median_delta_v": -0.014166461623525152,
+      "snapshots": 293,
+      "trades": 23,
+      "transition_rate": 0.0,
+      "transitions": 0
+    },
+    ">5-15m": {
+      "exit_persistence_5m": null,
+      "fraction_hold": null,
+      "hold_persistence_5m": null,
+      "mean_delta_v": null,
+      "median_delta_v": null,
+      "snapshots": 0,
+      "trades": 0,
+      "transition_rate": null,
+      "transitions": 0
+    },
+    ">60m": {
+      "exit_persistence_5m": 0.9587809874840862,
+      "fraction_hold": 0.3123644251626898,
+      "hold_persistence_5m": 0.9087858613281767,
+      "mean_delta_v": 0.000943947430060815,
+      "median_delta_v": -0.006722444616804865,
+      "snapshots": 36880,
+      "trades": 787,
+      "transition_rate": 0.00579059651455961,
+      "transitions": 209
+    }
+  },
+  "since_t2": {
+    "0-5m": {
+      "exit_persistence_5m": null,
+      "fraction_hold": 0.3355426677713339,
+      "hold_persistence_5m": null,
+      "mean_delta_v": 0.0024094824496626558,
+      "median_delta_v": -0.007680492093568546,
+      "snapshots": 3621,
+      "trades": 792,
+      "transition_rate": 0.011311417462000707,
+      "transitions": 32
+    },
+    ">15-30m": {
+      "exit_persistence_5m": 0.973968253968254,
+      "fraction_hold": 0.3461954561846376,
+      "hold_persistence_5m": 0.9414390756302521,
+      "mean_delta_v": 0.0025050848878049588,
+      "median_delta_v": -0.0067768900744210325,
+      "snapshots": 5546,
+      "trades": 449,
+      "transition_rate": 0.006670590543456935,
+      "transitions": 34
+    },
+    ">30-60m": {
+      "exit_persistence_5m": 0.971105214530991,
+      "fraction_hold": 0.3353260113999722,
+      "hold_persistence_5m": 0.9195995957960652,
+      "mean_delta_v": 0.0018599354993424758,
+      "median_delta_v": -0.006576612765891924,
+      "snapshots": 7193,
+      "trades": 311,
+      "transition_rate": 0.006829410055216507,
+      "transitions": 47
+    },
+    ">5-15m": {
+      "exit_persistence_5m": 0.9778409090909093,
+      "fraction_hold": 0.34320397277910614,
+      "hold_persistence_5m": 0.931692573402418,
+      "mean_delta_v": 0.0025332543630882387,
+      "median_delta_v": -0.007080248127857431,
+      "snapshots": 5437,
+      "trades": 639,
+      "transition_rate": 0.010421008753647354,
+      "transitions": 50
+    },
+    ">60m": {
+      "exit_persistence_5m": 0.9845310507208377,
+      "fraction_hold": 0.26679225672339874,
+      "hold_persistence_5m": 0.9346002018649566,
+      "mean_delta_v": -0.001265455830397724,
+      "median_delta_v": -0.006715885276126415,
+      "snapshots": 15394,
+      "trades": 185,
+      "transition_rate": 0.002235518443027155,
+      "transitions": 34
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "horizons_minutes": {
+    "1": {
+      "EXIT_BETTER": {
+        "eligible_trades": 525,
+        "transition_probability": 0.022508276855135456,
+        "whole_trade_weighted_same_state_probability": 0.9774917231448645
+      },
+      "HOLD_BETTER": {
+        "eligible_trades": 281,
+        "transition_probability": 0.05982704356408319,
+        "whole_trade_weighted_same_state_probability": 0.9401729564359168
+      }
+    },
+    "10": {
+      "EXIT_BETTER": {
+        "eligible_trades": 369,
+        "transition_probability": 0.04996765064690134,
+        "whole_trade_weighted_same_state_probability": 0.9500323493530987
+      },
+      "HOLD_BETTER": {
+        "eligible_trades": 199,
+        "transition_probability": 0.1059397074114804,
+        "whole_trade_weighted_same_state_probability": 0.8940602925885196
+      }
+    },
+    "15": {
+      "EXIT_BETTER": {
+        "eligible_trades": 308,
+        "transition_probability": 0.051203456619312915,
+        "whole_trade_weighted_same_state_probability": 0.9487965433806871
+      },
+      "HOLD_BETTER": {
+        "eligible_trades": 174,
+        "transition_probability": 0.11373321818595727,
+        "whole_trade_weighted_same_state_probability": 0.8862667818140427
+      }
+    },
+    "2": {
+      "EXIT_BETTER": {
+        "eligible_trades": 498,
+        "transition_probability": 0.029306224831210148,
+        "whole_trade_weighted_same_state_probability": 0.9706937751687899
+      },
+      "HOLD_BETTER": {
+        "eligible_trades": 271,
+        "transition_probability": 0.06411533811226078,
+        "whole_trade_weighted_same_state_probability": 0.9358846618877392
+      }
+    },
+    "30": {
+      "EXIT_BETTER": {
+        "eligible_trades": 217,
+        "transition_probability": 0.057382844992156845,
+        "whole_trade_weighted_same_state_probability": 0.9426171550078432
+      },
+      "HOLD_BETTER": {
+        "eligible_trades": 117,
+        "transition_probability": 0.12339807331547681,
+        "whole_trade_weighted_same_state_probability": 0.8766019266845232
+      }
+    },
+    "5": {
+      "EXIT_BETTER": {
+        "eligible_trades": 448,
+        "transition_probability": 0.04075897889408431,
+        "whole_trade_weighted_same_state_probability": 0.9592410211059157
+      },
+      "HOLD_BETTER": {
+        "eligible_trades": 239,
+        "transition_probability": 0.09121413867182326,
+        "whole_trade_weighted_same_state_probability": 0.9087858613281767
+      }
+    },
+    "60": {
+      "EXIT_BETTER": {
+        "eligible_trades": 135,
+        "transition_probability": 0.04996479827800271,
+        "whole_trade_weighted_same_state_probability": 0.9500352017219973
+      },
+      "HOLD_BETTER": {
+        "eligible_trades": 65,
+        "transition_probability": 0.16170866759587454,
+        "whole_trade_weighted_same_state_probability": 0.8382913324041255
+      }
+    }
+  },
+  "weighting": "mean of within-trade conditional probabilities; each eligible trade has equal weight"
+}

@@ -1,0 +1,24 @@
+{
+  "2024": {
+    "exit_persistence_5m": 0.9560883589832602,
+    "fraction_hold": 0.30303030303030304,
+    "hold_persistence_5m": 0.8983659599422894,
+    "mean_delta_v": 0.0007610245744494921,
+    "median_delta_v": -0.006715885276126415,
+    "snapshots": 16500,
+    "trades": 389,
+    "transition_rate": 0.007013841474768792,
+    "transitions": 113
+  },
+  "2025": {
+    "exit_persistence_5m": 0.9623656595652589,
+    "fraction_hold": 0.31511285099801845,
+    "hold_persistence_5m": 0.9189474180516043,
+    "mean_delta_v": 0.0008570114651450772,
+    "median_delta_v": -0.006855270618076361,
+    "snapshots": 20691,
+    "trades": 403,
+    "transition_rate": 0.00473186119873817,
+    "transitions": 96
+  }
+}
