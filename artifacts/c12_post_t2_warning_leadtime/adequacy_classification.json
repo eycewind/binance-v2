@@ -1,0 +1,10 @@
+{
+  "basis": [
+    "Frozen C11 probabilities reproduced exactly.",
+    "Deterioration warning coverage and lead time are substantial and persist under P2.",
+    "Deterioration-like states are also frequent on eventual continuation paths, with common recovery, so a simple action interpretation is questionable."
+  ],
+  "classification": "LATE_OR_NOISY_WARNING",
+  "rubric_frozen_before_results": true,
+  "scope": "signal timing adequacy only; not profitability or policy"
+}

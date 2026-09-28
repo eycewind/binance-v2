@@ -1,0 +1,20 @@
+{
+  "adequacy_classification.json": "7350c7192332d96bbd5081343ca2eca514bba5b93f09b31f0ea13a7120dcb914",
+  "c11_probability_reproduction.json": "e5ab420cd3bb018a5594a804ee55315ecfd4b36aaa99b08c8683c5c4ae4e6671",
+  "continuation_signal_summary.json": "e942c121e65d54582035894e9011ffb30ac67085793f88e5550ec9fbbe86cec7",
+  "deterioration_warning_summary.json": "afbb99fb4b2b72e66f6a25197fe613af11fae03337851e1f1c4caa81f7d9fba5",
+  "deterministic_example_trajectories.json": "2595da9a06198b124dfa653dbb3f7474c6e786d8cdaae5129be2301f81f046b0",
+  "elapsed_time_analysis.json": "914eeaa2ed74ce44788a92c5661491a07668cb75a9bd2f70fb4bca03ef9d4ce6",
+  "final_summary.json": "10838de3dcf7ccb7cfeab4e7c0d232574b190588a090279d60fbf96e72a639ef",
+  "lead_time_distributions.json": "4217faf06bc3181a8c625133f1b30dcf41d5d901cdd406ffb8a604978c211063",
+  "p0_edge_cases.json": "c3da9e1aa83d2b8a49a843dc0004d8f7c215e98a124919c308d9b64c339a00b5",
+  "persistence_comparison.json": "b254dc459e6e956923b98111928b7b74e62ab45175a6d7d12f9fd83918acd18f",
+  "persistence_definition.json": "e82a28fd99867d2cd96fdacb34108041187c9f7fa5a6730bd9742110b5483098",
+  "population_reconciliation.json": "e345dbfcb4b1d01be765e180c06568c793778d5a8342a26d9465f15673b626f6",
+  "probability_band_definition.json": "7fac8e48fc60fcea0f8001c2a93c43e6c8836d9655e1c1a07199fe2d4a8f78ec",
+  "provenance.json": "231066664cb393e1947b14f737b570a07faf437763ec53eb9a76f2f070bbd322",
+  "reversal_analysis.json": "eedb96a382a92b9778b7e0f1565f442a4f150303f0c4e2c4c93ca56bb78cfec7",
+  "run_manifest.json": "1f1780027107bce970fb44ad3e51c6a58dfa16b4e84b748b2f87b606274869c4",
+  "time_to_event_strata.json": "768e24fc7526e005ec35a64728fd59bf728905ca06b4ddbdb878851fd09d2d45",
+  "year_symbol_stability.json": "cee799f8ece38e06fa8de0a529204a07a73d34117b32cf85975a94d50f250d1e"
+}

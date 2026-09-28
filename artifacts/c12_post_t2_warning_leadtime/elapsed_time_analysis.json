@@ -1,0 +1,132 @@
+{
+  "0-5m": {
+    "active_trade_outcomes": {
+      "CONTINUATION_FIRST": 247,
+      "DETERIORATION_FIRST": 361
+    },
+    "active_trades": 608,
+    "probability_distribution": {
+      "max": 0.9977067522667348,
+      "mean": 0.3271678584677668,
+      "median": 0.25506945342338133,
+      "min": 0.008227203363624348,
+      "n": 2773,
+      "p10": 0.07611703768881667,
+      "p25": 0.12975986495149858,
+      "p75": 0.48131073937799257,
+      "p90": 0.6993431276351582
+    },
+    "rows": 2773,
+    "trade_state_rates": {
+      "continuation_false_lt_0.40": 0.7004048582995951,
+      "continuation_ge_0.60": 0.5384615384615384,
+      "continuation_warned_recovery_rate_among_warned": 0.21965317919075145,
+      "deterioration_false_ge_0.60": 0.1994459833795014,
+      "deterioration_lt_0.40": 0.9529085872576177
+    }
+  },
+  ">15-30m": {
+    "active_trade_outcomes": {
+      "CONTINUATION_FIRST": 142,
+      "DETERIORATION_FIRST": 205
+    },
+    "active_trades": 347,
+    "probability_distribution": {
+      "max": 0.9926842187846542,
+      "mean": 0.2894142983657288,
+      "median": 0.2251771838990976,
+      "min": 0.012025963379286178,
+      "n": 4358,
+      "p10": 0.07081778511897302,
+      "p25": 0.11911756537562444,
+      "p75": 0.4146066709134814,
+      "p90": 0.6279581377925154
+    },
+    "rows": 4358,
+    "trade_state_rates": {
+      "continuation_false_lt_0.40": 0.7887323943661971,
+      "continuation_ge_0.60": 0.5774647887323944,
+      "continuation_warned_recovery_rate_among_warned": 0.42857142857142855,
+      "deterioration_false_ge_0.60": 0.17560975609756097,
+      "deterioration_lt_0.40": 0.9951219512195122
+    }
+  },
+  ">30-60m": {
+    "active_trade_outcomes": {
+      "CONTINUATION_FIRST": 105,
+      "DETERIORATION_FIRST": 144
+    },
+    "active_trades": 249,
+    "probability_distribution": {
+      "max": 0.9522021755970519,
+      "mean": 0.29435314419352343,
+      "median": 0.22637423517800231,
+      "min": 0.017693990450415087,
+      "n": 5894,
+      "p10": 0.07273312182236624,
+      "p25": 0.1196089051748025,
+      "p75": 0.4298284552075837,
+      "p90": 0.6364610108621109
+    },
+    "rows": 5894,
+    "trade_state_rates": {
+      "continuation_false_lt_0.40": 0.7428571428571429,
+      "continuation_ge_0.60": 0.7142857142857143,
+      "continuation_warned_recovery_rate_among_warned": 0.5769230769230769,
+      "deterioration_false_ge_0.60": 0.18055555555555555,
+      "deterioration_lt_0.40": 0.9791666666666666
+    }
+  },
+  ">5-15m": {
+    "active_trade_outcomes": {
+      "CONTINUATION_FIRST": 199,
+      "DETERIORATION_FIRST": 289
+    },
+    "active_trades": 488,
+    "probability_distribution": {
+      "max": 0.97901958179763,
+      "mean": 0.294752272193612,
+      "median": 0.2303275447090634,
+      "min": 0.0082720306082187,
+      "n": 4171,
+      "p10": 0.06644485270869749,
+      "p25": 0.1158517277911583,
+      "p75": 0.42029928450623805,
+      "p90": 0.647099906833885
+    },
+    "rows": 4171,
+    "trade_state_rates": {
+      "continuation_false_lt_0.40": 0.7386934673366834,
+      "continuation_ge_0.60": 0.5728643216080402,
+      "continuation_warned_recovery_rate_among_warned": 0.3673469387755102,
+      "deterioration_false_ge_0.60": 0.16262975778546712,
+      "deterioration_lt_0.40": 0.9826989619377162
+    }
+  },
+  ">60m": {
+    "active_trade_outcomes": {
+      "CONTINUATION_FIRST": 66,
+      "DETERIORATION_FIRST": 89
+    },
+    "active_trades": 155,
+    "probability_distribution": {
+      "max": 0.9999999999999993,
+      "mean": 0.3193391846049711,
+      "median": 0.2658047907063253,
+      "min": 0.009218257619034706,
+      "n": 12736,
+      "p10": 0.07952271687098333,
+      "p25": 0.13754883589068084,
+      "p75": 0.46269133289765507,
+      "p90": 0.6585103567341942
+    },
+    "rows": 12736,
+    "trade_state_rates": {
+      "continuation_false_lt_0.40": 0.803030303030303,
+      "continuation_ge_0.60": 0.9696969696969697,
+      "continuation_warned_recovery_rate_among_warned": 0.9622641509433962,
+      "deterioration_false_ge_0.60": 0.29213483146067415,
+      "deterioration_lt_0.40": 1.0
+    }
+  }
+}

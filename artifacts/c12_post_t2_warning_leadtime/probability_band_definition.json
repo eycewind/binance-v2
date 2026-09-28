@@ -1,0 +1,41 @@
+{
+  "bands": [
+    {
+      "lower": 0.0,
+      "lower_inclusive": true,
+      "name": "VERY_DETERIORATION_LIKE",
+      "upper": 0.2,
+      "upper_inclusive": false
+    },
+    {
+      "lower": 0.2,
+      "lower_inclusive": true,
+      "name": "DETERIORATION_LEANING",
+      "upper": 0.4,
+      "upper_inclusive": false
+    },
+    {
+      "lower": 0.4,
+      "lower_inclusive": true,
+      "name": "UNCERTAIN",
+      "upper": 0.6,
+      "upper_inclusive": false
+    },
+    {
+      "lower": 0.6,
+      "lower_inclusive": true,
+      "name": "CONTINUATION_LEANING",
+      "upper": 0.8,
+      "upper_inclusive": false
+    },
+    {
+      "lower": 0.8,
+      "lower_inclusive": true,
+      "name": "VERY_CONTINUATION_LIKE",
+      "upper": 1.0,
+      "upper_inclusive": true
+    }
+  ],
+  "descriptive_only": true,
+  "frozen_before_evaluation": true
+}

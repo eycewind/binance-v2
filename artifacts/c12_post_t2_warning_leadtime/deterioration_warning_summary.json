@@ -1,0 +1,450 @@
+{
+  "lt_0.20": {
+    "P1": {
+      "among_detected": {
+        "condition_entry_cycles": {
+          "max": 23.0,
+          "mean": 3.547752808988764,
+          "median": 2.0,
+          "min": 1.0,
+          "n": 356,
+          "p10": 1.0,
+          "p25": 1.0,
+          "p75": 4.0,
+          "p90": 8.0
+        },
+        "maximum_contiguous_condition_minutes": {
+          "max": 164.0,
+          "mean": 15.469101123595506,
+          "median": 9.0,
+          "min": 1.0,
+          "n": 356,
+          "p10": 2.0,
+          "p25": 4.0,
+          "p75": 18.0,
+          "p90": 33.5
+        },
+        "recovered_ge_0.60": 0.17415730337078653,
+        "recovered_ge_0.80": 0.06179775280898876,
+        "reversed_below_0.20": null,
+        "reversed_below_0.40": null,
+        "warning_recovery_cycles": {
+          "max": 3.0,
+          "mean": 0.23314606741573032,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 356,
+          "p10": 0.0,
+          "p25": 0.0,
+          "p75": 0.0,
+          "p90": 1.0
+        }
+      },
+      "completed_updates_remaining": {
+        "max": 503.0,
+        "mean": 42.7247191011236,
+        "median": 15.0,
+        "min": 0.0,
+        "n": 356,
+        "p10": 1.0,
+        "p25": 5.0,
+        "p75": 48.25,
+        "p90": 116.5
+      },
+      "coverage": 0.9861495844875346,
+      "detected_trades": 356,
+      "eligible_outcome_trades": 361,
+      "lead_time_coverage_all_outcome_trades": {
+        "at_least_10m": 0.6648199445983379,
+        "at_least_15m": 0.5373961218836565,
+        "at_least_1m": 0.9861495844875346,
+        "at_least_2m": 0.9196675900277008,
+        "at_least_5m": 0.8005540166204986
+      },
+      "lead_time_minutes": {
+        "max": 504.0,
+        "mean": 43.7247191011236,
+        "median": 16.0,
+        "min": 1.0,
+        "n": 356,
+        "p10": 2.0,
+        "p25": 6.0,
+        "p75": 49.25,
+        "p90": 117.5
+      },
+      "no_detection_trades": 5
+    },
+    "P2": {
+      "among_detected": {
+        "condition_entry_cycles": {
+          "max": 23.0,
+          "mean": 3.7522935779816513,
+          "median": 2.0,
+          "min": 1.0,
+          "n": 327,
+          "p10": 1.0,
+          "p25": 1.0,
+          "p75": 5.0,
+          "p90": 8.0
+        },
+        "maximum_contiguous_condition_minutes": {
+          "max": 164.0,
+          "mean": 16.75229357798165,
+          "median": 10.0,
+          "min": 2.0,
+          "n": 327,
+          "p10": 3.0,
+          "p25": 5.0,
+          "p75": 20.0,
+          "p90": 35.0
+        },
+        "recovered_ge_0.60": 0.14984709480122324,
+        "recovered_ge_0.80": 0.0581039755351682,
+        "reversed_below_0.20": null,
+        "reversed_below_0.40": null,
+        "warning_recovery_cycles": {
+          "max": 3.0,
+          "mean": 0.23853211009174313,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 327,
+          "p10": 0.0,
+          "p25": 0.0,
+          "p75": 0.0,
+          "p90": 1.0
+        }
+      },
+      "completed_updates_remaining": {
+        "max": 404.0,
+        "mean": 42.7217125382263,
+        "median": 15.0,
+        "min": 0.0,
+        "n": 327,
+        "p10": 1.0,
+        "p25": 5.0,
+        "p75": 50.5,
+        "p90": 115.0
+      },
+      "coverage": 0.9058171745152355,
+      "detected_trades": 327,
+      "eligible_outcome_trades": 361,
+      "lead_time_coverage_all_outcome_trades": {
+        "at_least_10m": 0.590027700831025,
+        "at_least_15m": 0.46814404432132967,
+        "at_least_1m": 0.9058171745152355,
+        "at_least_2m": 0.8421052631578947,
+        "at_least_5m": 0.7229916897506925
+      },
+      "lead_time_minutes": {
+        "max": 405.0,
+        "mean": 43.7217125382263,
+        "median": 16.0,
+        "min": 1.0,
+        "n": 327,
+        "p10": 2.0,
+        "p25": 6.0,
+        "p75": 51.5,
+        "p90": 116.0
+      },
+      "no_detection_trades": 34
+    },
+    "P3": {
+      "among_detected": {
+        "condition_entry_cycles": {
+          "max": 23.0,
+          "mean": 3.9531772575250836,
+          "median": 2.0,
+          "min": 1.0,
+          "n": 299,
+          "p10": 1.0,
+          "p25": 1.0,
+          "p75": 5.0,
+          "p90": 9.0
+        },
+        "maximum_contiguous_condition_minutes": {
+          "max": 164.0,
+          "mean": 18.13377926421405,
+          "median": 12.0,
+          "min": 3.0,
+          "n": 299,
+          "p10": 4.0,
+          "p25": 6.0,
+          "p75": 21.5,
+          "p90": 38.19999999999999
+        },
+        "recovered_ge_0.60": 0.14046822742474915,
+        "recovered_ge_0.80": 0.05351170568561873,
+        "reversed_below_0.20": null,
+        "reversed_below_0.40": null,
+        "warning_recovery_cycles": {
+          "max": 3.0,
+          "mean": 0.2508361204013378,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 299,
+          "p10": 0.0,
+          "p25": 0.0,
+          "p75": 0.0,
+          "p90": 1.0
+        }
+      },
+      "completed_updates_remaining": {
+        "max": 403.0,
+        "mean": 43.070234113712374,
+        "median": 15.0,
+        "min": 0.0,
+        "n": 299,
+        "p10": 1.0,
+        "p25": 6.0,
+        "p75": 52.5,
+        "p90": 113.19999999999999
+      },
+      "coverage": 0.8282548476454293,
+      "detected_trades": 299,
+      "eligible_outcome_trades": 361,
+      "lead_time_coverage_all_outcome_trades": {
+        "at_least_10m": 0.556786703601108,
+        "at_least_15m": 0.44321329639889195,
+        "at_least_1m": 0.8282548476454293,
+        "at_least_2m": 0.7673130193905817,
+        "at_least_5m": 0.6620498614958449
+      },
+      "lead_time_minutes": {
+        "max": 404.0,
+        "mean": 44.070234113712374,
+        "median": 16.0,
+        "min": 1.0,
+        "n": 299,
+        "p10": 2.0,
+        "p25": 7.0,
+        "p75": 53.5,
+        "p90": 114.19999999999999
+      },
+      "no_detection_trades": 62
+    }
+  },
+  "lt_0.40": {
+    "P1": {
+      "among_detected": {
+        "condition_entry_cycles": {
+          "max": 31.0,
+          "mean": 2.7555555555555555,
+          "median": 1.0,
+          "min": 1.0,
+          "n": 360,
+          "p10": 1.0,
+          "p25": 1.0,
+          "p75": 3.0,
+          "p90": 6.0
+        },
+        "maximum_contiguous_condition_minutes": {
+          "max": 247.0,
+          "mean": 27.772222222222222,
+          "median": 15.0,
+          "min": 1.0,
+          "n": 360,
+          "p10": 2.0,
+          "p25": 6.0,
+          "p75": 34.0,
+          "p90": 68.0
+        },
+        "recovered_ge_0.60": 0.2388888888888889,
+        "recovered_ge_0.80": 0.09722222222222222,
+        "reversed_below_0.20": null,
+        "reversed_below_0.40": null,
+        "warning_recovery_cycles": {
+          "max": 6.0,
+          "mean": 0.42777777777777776,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 360,
+          "p10": 0.0,
+          "p25": 0.0,
+          "p75": 0.0,
+          "p90": 2.0
+        }
+      },
+      "completed_updates_remaining": {
+        "max": 526.0,
+        "mean": 46.46111111111111,
+        "median": 17.0,
+        "min": 0.0,
+        "n": 360,
+        "p10": 1.0,
+        "p25": 5.0,
+        "p75": 59.0,
+        "p90": 126.10000000000002
+      },
+      "coverage": 0.997229916897507,
+      "detected_trades": 360,
+      "eligible_outcome_trades": 361,
+      "lead_time_coverage_all_outcome_trades": {
+        "at_least_10m": 0.6869806094182825,
+        "at_least_15m": 0.5734072022160664,
+        "at_least_1m": 0.997229916897507,
+        "at_least_2m": 0.9390581717451524,
+        "at_least_5m": 0.8227146814404432
+      },
+      "lead_time_minutes": {
+        "max": 527.0,
+        "mean": 47.46111111111111,
+        "median": 18.0,
+        "min": 1.0,
+        "n": 360,
+        "p10": 2.0,
+        "p25": 6.0,
+        "p75": 60.0,
+        "p90": 127.10000000000002
+      },
+      "no_detection_trades": 1
+    },
+    "P2": {
+      "among_detected": {
+        "condition_entry_cycles": {
+          "max": 31.0,
+          "mean": 2.864306784660767,
+          "median": 1.0,
+          "min": 1.0,
+          "n": 339,
+          "p10": 1.0,
+          "p25": 1.0,
+          "p75": 3.0,
+          "p90": 7.0
+        },
+        "maximum_contiguous_condition_minutes": {
+          "max": 247.0,
+          "mean": 29.430678466076696,
+          "median": 16.0,
+          "min": 2.0,
+          "n": 339,
+          "p10": 3.0,
+          "p25": 7.0,
+          "p75": 36.0,
+          "p90": 70.0
+        },
+        "recovered_ge_0.60": 0.2153392330383481,
+        "recovered_ge_0.80": 0.08849557522123894,
+        "reversed_below_0.20": null,
+        "reversed_below_0.40": null,
+        "warning_recovery_cycles": {
+          "max": 6.0,
+          "mean": 0.45427728613569324,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 339,
+          "p10": 0.0,
+          "p25": 0.0,
+          "p75": 1.0,
+          "p90": 2.0
+        }
+      },
+      "completed_updates_remaining": {
+        "max": 511.0,
+        "mean": 47.58997050147492,
+        "median": 17.0,
+        "min": 0.0,
+        "n": 339,
+        "p10": 1.0,
+        "p25": 6.0,
+        "p75": 59.0,
+        "p90": 126.19999999999999
+      },
+      "coverage": 0.9390581717451524,
+      "detected_trades": 339,
+      "eligible_outcome_trades": 361,
+      "lead_time_coverage_all_outcome_trades": {
+        "at_least_10m": 0.6481994459833795,
+        "at_least_15m": 0.5429362880886427,
+        "at_least_1m": 0.9390581717451524,
+        "at_least_2m": 0.8808864265927978,
+        "at_least_5m": 0.7728531855955678
+      },
+      "lead_time_minutes": {
+        "max": 512.0,
+        "mean": 48.58997050147492,
+        "median": 18.0,
+        "min": 1.0,
+        "n": 339,
+        "p10": 2.0,
+        "p25": 7.0,
+        "p75": 60.0,
+        "p90": 127.19999999999999
+      },
+      "no_detection_trades": 22
+    },
+    "P3": {
+      "among_detected": {
+        "condition_entry_cycles": {
+          "max": 31.0,
+          "mean": 2.9810725552050474,
+          "median": 2.0,
+          "min": 1.0,
+          "n": 317,
+          "p10": 1.0,
+          "p25": 1.0,
+          "p75": 3.0,
+          "p90": 7.0
+        },
+        "maximum_contiguous_condition_minutes": {
+          "max": 247.0,
+          "mean": 31.334384858044164,
+          "median": 17.0,
+          "min": 3.0,
+          "n": 317,
+          "p10": 4.600000000000001,
+          "p25": 9.0,
+          "p75": 37.0,
+          "p90": 71.0
+        },
+        "recovered_ge_0.60": 0.2113564668769716,
+        "recovered_ge_0.80": 0.08201892744479496,
+        "reversed_below_0.20": null,
+        "reversed_below_0.40": null,
+        "warning_recovery_cycles": {
+          "max": 6.0,
+          "mean": 0.47634069400630913,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 317,
+          "p10": 0.0,
+          "p25": 0.0,
+          "p75": 1.0,
+          "p90": 2.0
+        }
+      },
+      "completed_updates_remaining": {
+        "max": 510.0,
+        "mean": 49.26813880126183,
+        "median": 18.0,
+        "min": 0.0,
+        "n": 317,
+        "p10": 2.0,
+        "p25": 7.0,
+        "p75": 61.0,
+        "p90": 129.20000000000027
+      },
+      "coverage": 0.8781163434903048,
+      "detected_trades": 317,
+      "eligible_outcome_trades": 361,
+      "lead_time_coverage_all_outcome_trades": {
+        "at_least_10m": 0.6204986149584487,
+        "at_least_15m": 0.5124653739612188,
+        "at_least_1m": 0.8781163434903048,
+        "at_least_2m": 0.8337950138504155,
+        "at_least_5m": 0.7229916897506925
+      },
+      "lead_time_minutes": {
+        "max": 511.0,
+        "mean": 50.26813880126183,
+        "median": 19.0,
+        "min": 1.0,
+        "n": 317,
+        "p10": 3.0,
+        "p25": 8.0,
+        "p75": 62.0,
+        "p90": 130.20000000000027
+      },
+      "no_detection_trades": 44
+    }
+  }
+}

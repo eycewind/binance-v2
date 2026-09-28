@@ -1,0 +1,4060 @@
+{
+  "continuation_false_or_reversing_warning": {
+    "outcome": "CONTINUATION_FIRST",
+    "states": [
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 1.0,
+        "minutes_to_terminal": 100.0,
+        "p_cont": 0.24069023180020205
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 2.0,
+        "minutes_to_terminal": 99.0,
+        "p_cont": 0.35333694415438727
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 3.0,
+        "minutes_to_terminal": 98.0,
+        "p_cont": 0.163447113127843
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 4.0,
+        "minutes_to_terminal": 97.0,
+        "p_cont": 0.17451130318923372
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 5.0,
+        "minutes_to_terminal": 96.0,
+        "p_cont": 0.24641741495232583
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 6.0,
+        "minutes_to_terminal": 95.0,
+        "p_cont": 0.14454027216211157
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 7.0,
+        "minutes_to_terminal": 94.0,
+        "p_cont": 0.10225009204509909
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 8.0,
+        "minutes_to_terminal": 93.0,
+        "p_cont": 0.2401947580923523
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 9.0,
+        "minutes_to_terminal": 92.0,
+        "p_cont": 0.26844686296683
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 10.0,
+        "minutes_to_terminal": 91.0,
+        "p_cont": 0.31145647338236493
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 11.0,
+        "minutes_to_terminal": 90.0,
+        "p_cont": 0.16833138635140626
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 12.0,
+        "minutes_to_terminal": 89.0,
+        "p_cont": 0.10299195587086055
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 13.0,
+        "minutes_to_terminal": 88.0,
+        "p_cont": 0.2652119619242614
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 14.0,
+        "minutes_to_terminal": 87.0,
+        "p_cont": 0.08303268556804676
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 15.0,
+        "minutes_to_terminal": 86.0,
+        "p_cont": 0.1291372410316009
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 16.0,
+        "minutes_to_terminal": 85.0,
+        "p_cont": 0.10695219530393586
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 17.0,
+        "minutes_to_terminal": 84.0,
+        "p_cont": 0.0708376960564269
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 18.0,
+        "minutes_to_terminal": 83.0,
+        "p_cont": 0.1045234894557161
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 19.0,
+        "minutes_to_terminal": 82.0,
+        "p_cont": 0.07032710800443652
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 20.0,
+        "minutes_to_terminal": 81.0,
+        "p_cont": 0.07193046398026776
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 21.0,
+        "minutes_to_terminal": 80.0,
+        "p_cont": 0.0886979577858506
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 22.0,
+        "minutes_to_terminal": 79.0,
+        "p_cont": 0.06315982448709452
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 23.0,
+        "minutes_to_terminal": 78.0,
+        "p_cont": 0.05058056789847854
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 24.0,
+        "minutes_to_terminal": 77.0,
+        "p_cont": 0.04500310490359481
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 25.0,
+        "minutes_to_terminal": 76.0,
+        "p_cont": 0.10781620376794386
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 26.0,
+        "minutes_to_terminal": 75.0,
+        "p_cont": 0.16695098180760665
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 27.0,
+        "minutes_to_terminal": 74.0,
+        "p_cont": 0.11518271786299503
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 28.0,
+        "minutes_to_terminal": 73.0,
+        "p_cont": 0.12449031604181963
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 29.0,
+        "minutes_to_terminal": 72.0,
+        "p_cont": 0.15699115969016098
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 30.0,
+        "minutes_to_terminal": 71.0,
+        "p_cont": 0.23001366746087365
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 31.0,
+        "minutes_to_terminal": 70.0,
+        "p_cont": 0.26425085259264874
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 32.0,
+        "minutes_to_terminal": 69.0,
+        "p_cont": 0.21870665207741824
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 33.0,
+        "minutes_to_terminal": 68.0,
+        "p_cont": 0.1625194985742522
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 34.0,
+        "minutes_to_terminal": 67.0,
+        "p_cont": 0.13611471375725978
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 35.0,
+        "minutes_to_terminal": 66.0,
+        "p_cont": 0.16588697517450732
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 36.0,
+        "minutes_to_terminal": 65.0,
+        "p_cont": 0.08816999215328798
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 37.0,
+        "minutes_to_terminal": 64.0,
+        "p_cont": 0.116419017081245
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 38.0,
+        "minutes_to_terminal": 63.0,
+        "p_cont": 0.1728019566532049
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 39.0,
+        "minutes_to_terminal": 62.0,
+        "p_cont": 0.30224303226331134
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 40.0,
+        "minutes_to_terminal": 61.0,
+        "p_cont": 0.126482400371583
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 41.0,
+        "minutes_to_terminal": 60.0,
+        "p_cont": 0.1358519887309136
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 42.0,
+        "minutes_to_terminal": 59.0,
+        "p_cont": 0.07360336953593845
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 43.0,
+        "minutes_to_terminal": 58.0,
+        "p_cont": 0.10032110728101552
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 44.0,
+        "minutes_to_terminal": 57.0,
+        "p_cont": 0.07061500251132465
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 45.0,
+        "minutes_to_terminal": 56.0,
+        "p_cont": 0.12660417616812586
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 46.0,
+        "minutes_to_terminal": 55.0,
+        "p_cont": 0.197661355486567
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 47.0,
+        "minutes_to_terminal": 54.0,
+        "p_cont": 0.11999653031315359
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 48.0,
+        "minutes_to_terminal": 53.0,
+        "p_cont": 0.16036328712853637
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 49.0,
+        "minutes_to_terminal": 52.0,
+        "p_cont": 0.2424268155992478
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 50.0,
+        "minutes_to_terminal": 51.0,
+        "p_cont": 0.2869298926259534
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 51.0,
+        "minutes_to_terminal": 50.0,
+        "p_cont": 0.2385609077117867
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 52.0,
+        "minutes_to_terminal": 49.0,
+        "p_cont": 0.16110479755464713
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 53.0,
+        "minutes_to_terminal": 48.0,
+        "p_cont": 0.566426191971706
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 54.0,
+        "minutes_to_terminal": 47.0,
+        "p_cont": 0.34402542284011345
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 55.0,
+        "minutes_to_terminal": 46.0,
+        "p_cont": 0.3698253585501776
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 56.0,
+        "minutes_to_terminal": 45.0,
+        "p_cont": 0.26741494629800266
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 57.0,
+        "minutes_to_terminal": 44.0,
+        "p_cont": 0.2641761191453336
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 58.0,
+        "minutes_to_terminal": 43.0,
+        "p_cont": 0.48603207320120984
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 59.0,
+        "minutes_to_terminal": 42.0,
+        "p_cont": 0.5747229040414144
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 60.0,
+        "minutes_to_terminal": 41.0,
+        "p_cont": 0.5968932167518034
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 61.0,
+        "minutes_to_terminal": 40.0,
+        "p_cont": 0.35681988434822604
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 62.0,
+        "minutes_to_terminal": 39.0,
+        "p_cont": 0.41175658688822253
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 63.0,
+        "minutes_to_terminal": 38.0,
+        "p_cont": 0.5232682081371671
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 64.0,
+        "minutes_to_terminal": 37.0,
+        "p_cont": 0.3349773395257086
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 65.0,
+        "minutes_to_terminal": 36.0,
+        "p_cont": 0.5046873854911927
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 66.0,
+        "minutes_to_terminal": 35.0,
+        "p_cont": 0.2355725765107528
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 67.0,
+        "minutes_to_terminal": 34.0,
+        "p_cont": 0.698880175162516
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 68.0,
+        "minutes_to_terminal": 33.0,
+        "p_cont": 0.6645327396164298
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 69.0,
+        "minutes_to_terminal": 32.0,
+        "p_cont": 0.5504094257157203
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 70.0,
+        "minutes_to_terminal": 31.0,
+        "p_cont": 0.6195605851101257
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 71.0,
+        "minutes_to_terminal": 30.0,
+        "p_cont": 0.33676478197197923
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 72.0,
+        "minutes_to_terminal": 29.0,
+        "p_cont": 0.3683684705849289
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 73.0,
+        "minutes_to_terminal": 28.0,
+        "p_cont": 0.29197620572404853
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 74.0,
+        "minutes_to_terminal": 27.0,
+        "p_cont": 0.26817214530846273
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 75.0,
+        "minutes_to_terminal": 26.0,
+        "p_cont": 0.4861469223612704
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 76.0,
+        "minutes_to_terminal": 25.0,
+        "p_cont": 0.42638477081816833
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 77.0,
+        "minutes_to_terminal": 24.0,
+        "p_cont": 0.27965909431473435
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 78.0,
+        "minutes_to_terminal": 23.0,
+        "p_cont": 0.30671697573716145
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 79.0,
+        "minutes_to_terminal": 22.0,
+        "p_cont": 0.2456889774471129
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 80.0,
+        "minutes_to_terminal": 21.0,
+        "p_cont": 0.3181202345745981
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 81.0,
+        "minutes_to_terminal": 20.0,
+        "p_cont": 0.3012226337244772
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 82.0,
+        "minutes_to_terminal": 19.0,
+        "p_cont": 0.3319194915414835
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 83.0,
+        "minutes_to_terminal": 18.0,
+        "p_cont": 0.5084844407571468
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 84.0,
+        "minutes_to_terminal": 17.0,
+        "p_cont": 0.7811642442470599
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 85.0,
+        "minutes_to_terminal": 16.0,
+        "p_cont": 0.6804767584424841
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 86.0,
+        "minutes_to_terminal": 15.0,
+        "p_cont": 0.5393518713999145
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 87.0,
+        "minutes_to_terminal": 14.0,
+        "p_cont": 0.693156415361569
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 88.0,
+        "minutes_to_terminal": 13.0,
+        "p_cont": 0.6961546000888513
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 89.0,
+        "minutes_to_terminal": 12.0,
+        "p_cont": 0.72050230518922
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 90.0,
+        "minutes_to_terminal": 11.0,
+        "p_cont": 0.7734895091307596
+      },
+      {
+        "band": "VERY_CONTINUATION_LIKE",
+        "elapsed_minutes": 91.0,
+        "minutes_to_terminal": 10.0,
+        "p_cont": 0.8160020716216366
+      },
+      {
+        "band": "VERY_CONTINUATION_LIKE",
+        "elapsed_minutes": 92.0,
+        "minutes_to_terminal": 9.0,
+        "p_cont": 0.8720613855128558
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 93.0,
+        "minutes_to_terminal": 8.0,
+        "p_cont": 0.7855071769919969
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 94.0,
+        "minutes_to_terminal": 7.0,
+        "p_cont": 0.7490916662819143
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 95.0,
+        "minutes_to_terminal": 6.0,
+        "p_cont": 0.7416277705499736
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 96.0,
+        "minutes_to_terminal": 5.0,
+        "p_cont": 0.6534750675178758
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 97.0,
+        "minutes_to_terminal": 4.0,
+        "p_cont": 0.7092546359231703
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 98.0,
+        "minutes_to_terminal": 3.0,
+        "p_cont": 0.6275993564113195
+      },
+      {
+        "band": "VERY_CONTINUATION_LIKE",
+        "elapsed_minutes": 99.0,
+        "minutes_to_terminal": 2.0,
+        "p_cont": 0.859127113192422
+      },
+      {
+        "band": "VERY_CONTINUATION_LIKE",
+        "elapsed_minutes": 100.0,
+        "minutes_to_terminal": 1.0,
+        "p_cont": 0.8754021183486694
+      }
+    ],
+    "symbol": "XRPUSDT",
+    "terminal_ms": 1755018360000,
+    "trade_id": "E1-0369d3585e48605f",
+    "year": 2025
+  },
+  "deterioration_no_warning": {
+    "outcome": "DETERIORATION_FIRST",
+    "states": [
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 1.0,
+        "minutes_to_terminal": 1.0,
+        "p_cont": 0.5362337127169515
+      }
+    ],
+    "symbol": "SOLUSDT",
+    "terminal_ms": 1724270820000,
+    "trade_id": "E1-65f2e470052ef6ad",
+    "year": 2024
+  },
+  "earliest_qualifying_p2_deterioration_warning": {
+    "outcome": "DETERIORATION_FIRST",
+    "states": [
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 1.0,
+        "minutes_to_terminal": 527.0,
+        "p_cont": 0.2970856276409512
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 2.0,
+        "minutes_to_terminal": 526.0,
+        "p_cont": 0.5321627032029078
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 3.0,
+        "minutes_to_terminal": 525.0,
+        "p_cont": 0.6214500624729733
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 4.0,
+        "minutes_to_terminal": 524.0,
+        "p_cont": 0.4814830214699454
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 5.0,
+        "minutes_to_terminal": 523.0,
+        "p_cont": 0.3706817017131948
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 6.0,
+        "minutes_to_terminal": 522.0,
+        "p_cont": 0.48027832665595516
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 7.0,
+        "minutes_to_terminal": 521.0,
+        "p_cont": 0.4772637776327018
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 8.0,
+        "minutes_to_terminal": 520.0,
+        "p_cont": 0.4440310337136089
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 9.0,
+        "minutes_to_terminal": 519.0,
+        "p_cont": 0.3893521744353981
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 10.0,
+        "minutes_to_terminal": 518.0,
+        "p_cont": 0.40685740441555
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 11.0,
+        "minutes_to_terminal": 517.0,
+        "p_cont": 0.47981657971195213
+      },
+      {
+        "band": "VERY_CONTINUATION_LIKE",
+        "elapsed_minutes": 12.0,
+        "minutes_to_terminal": 516.0,
+        "p_cont": 0.8063220508799164
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 13.0,
+        "minutes_to_terminal": 515.0,
+        "p_cont": 0.5529974728242627
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 14.0,
+        "minutes_to_terminal": 514.0,
+        "p_cont": 0.5032629872259761
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 15.0,
+        "minutes_to_terminal": 513.0,
+        "p_cont": 0.3194441062799239
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 16.0,
+        "minutes_to_terminal": 512.0,
+        "p_cont": 0.3742639856658991
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 17.0,
+        "minutes_to_terminal": 511.0,
+        "p_cont": 0.2912372148092739
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 18.0,
+        "minutes_to_terminal": 510.0,
+        "p_cont": 0.27777195651200953
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 19.0,
+        "minutes_to_terminal": 509.0,
+        "p_cont": 0.31367897315789384
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 20.0,
+        "minutes_to_terminal": 508.0,
+        "p_cont": 0.39536261136553047
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 21.0,
+        "minutes_to_terminal": 507.0,
+        "p_cont": 0.2857652906776161
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 22.0,
+        "minutes_to_terminal": 506.0,
+        "p_cont": 0.2326787480936224
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 23.0,
+        "minutes_to_terminal": 505.0,
+        "p_cont": 0.24219016211032066
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 24.0,
+        "minutes_to_terminal": 504.0,
+        "p_cont": 0.1876360479393867
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 25.0,
+        "minutes_to_terminal": 503.0,
+        "p_cont": 0.2123570561987995
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 26.0,
+        "minutes_to_terminal": 502.0,
+        "p_cont": 0.2239972765123799
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 27.0,
+        "minutes_to_terminal": 501.0,
+        "p_cont": 0.2026853562989381
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 28.0,
+        "minutes_to_terminal": 500.0,
+        "p_cont": 0.2492948873097697
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 29.0,
+        "minutes_to_terminal": 499.0,
+        "p_cont": 0.21667308473606975
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 30.0,
+        "minutes_to_terminal": 498.0,
+        "p_cont": 0.2909266334869396
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 31.0,
+        "minutes_to_terminal": 497.0,
+        "p_cont": 0.3669125965346543
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 32.0,
+        "minutes_to_terminal": 496.0,
+        "p_cont": 0.3346860409640657
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 33.0,
+        "minutes_to_terminal": 495.0,
+        "p_cont": 0.34330613725402254
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 34.0,
+        "minutes_to_terminal": 494.0,
+        "p_cont": 0.3636566430174435
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 35.0,
+        "minutes_to_terminal": 493.0,
+        "p_cont": 0.30160329141945863
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 36.0,
+        "minutes_to_terminal": 492.0,
+        "p_cont": 0.3680186161045034
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 37.0,
+        "minutes_to_terminal": 491.0,
+        "p_cont": 0.43238186039732485
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 38.0,
+        "minutes_to_terminal": 490.0,
+        "p_cont": 0.43834025136844357
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 39.0,
+        "minutes_to_terminal": 489.0,
+        "p_cont": 0.3733811337426258
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 40.0,
+        "minutes_to_terminal": 488.0,
+        "p_cont": 0.32016786272445813
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 41.0,
+        "minutes_to_terminal": 487.0,
+        "p_cont": 0.33345991205022957
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 42.0,
+        "minutes_to_terminal": 486.0,
+        "p_cont": 0.42667244208120947
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 43.0,
+        "minutes_to_terminal": 485.0,
+        "p_cont": 0.3794432746516152
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 44.0,
+        "minutes_to_terminal": 484.0,
+        "p_cont": 0.3820673705669329
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 45.0,
+        "minutes_to_terminal": 483.0,
+        "p_cont": 0.47497625771321256
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 46.0,
+        "minutes_to_terminal": 482.0,
+        "p_cont": 0.5007757178190784
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 47.0,
+        "minutes_to_terminal": 481.0,
+        "p_cont": 0.5879678762164745
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 48.0,
+        "minutes_to_terminal": 480.0,
+        "p_cont": 0.4909527380520385
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 49.0,
+        "minutes_to_terminal": 479.0,
+        "p_cont": 0.423479611250832
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 50.0,
+        "minutes_to_terminal": 478.0,
+        "p_cont": 0.4497269715150199
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 51.0,
+        "minutes_to_terminal": 477.0,
+        "p_cont": 0.4029761822861128
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 52.0,
+        "minutes_to_terminal": 476.0,
+        "p_cont": 0.34784406529077333
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 53.0,
+        "minutes_to_terminal": 475.0,
+        "p_cont": 0.30865626336112056
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 54.0,
+        "minutes_to_terminal": 474.0,
+        "p_cont": 0.37183504747677465
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 55.0,
+        "minutes_to_terminal": 473.0,
+        "p_cont": 0.3503037133477806
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 56.0,
+        "minutes_to_terminal": 472.0,
+        "p_cont": 0.30541227908737933
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 57.0,
+        "minutes_to_terminal": 471.0,
+        "p_cont": 0.2887563152323423
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 58.0,
+        "minutes_to_terminal": 470.0,
+        "p_cont": 0.27546420036832536
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 59.0,
+        "minutes_to_terminal": 469.0,
+        "p_cont": 0.2783515065638645
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 60.0,
+        "minutes_to_terminal": 468.0,
+        "p_cont": 0.3079266865861609
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 61.0,
+        "minutes_to_terminal": 467.0,
+        "p_cont": 0.29988355823716406
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 62.0,
+        "minutes_to_terminal": 466.0,
+        "p_cont": 0.24767197798198615
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 63.0,
+        "minutes_to_terminal": 465.0,
+        "p_cont": 0.27539052457445184
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 64.0,
+        "minutes_to_terminal": 464.0,
+        "p_cont": 0.3196619894288729
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 65.0,
+        "minutes_to_terminal": 463.0,
+        "p_cont": 0.26539568295326366
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 66.0,
+        "minutes_to_terminal": 462.0,
+        "p_cont": 0.3289419281909676
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 67.0,
+        "minutes_to_terminal": 461.0,
+        "p_cont": 0.30492639525472093
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 68.0,
+        "minutes_to_terminal": 460.0,
+        "p_cont": 0.2880620249063413
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 69.0,
+        "minutes_to_terminal": 459.0,
+        "p_cont": 0.3690646759158702
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 70.0,
+        "minutes_to_terminal": 458.0,
+        "p_cont": 0.4296022128402372
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 71.0,
+        "minutes_to_terminal": 457.0,
+        "p_cont": 0.388354894239014
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 72.0,
+        "minutes_to_terminal": 456.0,
+        "p_cont": 0.5316980049424943
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 73.0,
+        "minutes_to_terminal": 455.0,
+        "p_cont": 0.4318203632218234
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 74.0,
+        "minutes_to_terminal": 454.0,
+        "p_cont": 0.48937293135357085
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 75.0,
+        "minutes_to_terminal": 453.0,
+        "p_cont": 0.38102499979850685
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 76.0,
+        "minutes_to_terminal": 452.0,
+        "p_cont": 0.4844778815260298
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 77.0,
+        "minutes_to_terminal": 451.0,
+        "p_cont": 0.38079012801484663
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 78.0,
+        "minutes_to_terminal": 450.0,
+        "p_cont": 0.3403640270296591
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 79.0,
+        "minutes_to_terminal": 449.0,
+        "p_cont": 0.3456182864043628
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 80.0,
+        "minutes_to_terminal": 448.0,
+        "p_cont": 0.3039196372946967
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 81.0,
+        "minutes_to_terminal": 447.0,
+        "p_cont": 0.26621304205020746
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 82.0,
+        "minutes_to_terminal": 446.0,
+        "p_cont": 0.24015439822893472
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 83.0,
+        "minutes_to_terminal": 445.0,
+        "p_cont": 0.39728914933218995
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 84.0,
+        "minutes_to_terminal": 444.0,
+        "p_cont": 0.3422344825774522
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 85.0,
+        "minutes_to_terminal": 443.0,
+        "p_cont": 0.34358661014994146
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 86.0,
+        "minutes_to_terminal": 442.0,
+        "p_cont": 0.3837006025170628
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 87.0,
+        "minutes_to_terminal": 441.0,
+        "p_cont": 0.3169680253586639
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 88.0,
+        "minutes_to_terminal": 440.0,
+        "p_cont": 0.3095040121771637
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 89.0,
+        "minutes_to_terminal": 439.0,
+        "p_cont": 0.29575579225154847
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 90.0,
+        "minutes_to_terminal": 438.0,
+        "p_cont": 0.2695873268006139
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 91.0,
+        "minutes_to_terminal": 437.0,
+        "p_cont": 0.26010947330890355
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 92.0,
+        "minutes_to_terminal": 436.0,
+        "p_cont": 0.24349659005998722
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 93.0,
+        "minutes_to_terminal": 435.0,
+        "p_cont": 0.22868014202392162
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 94.0,
+        "minutes_to_terminal": 434.0,
+        "p_cont": 0.22748633921178282
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 95.0,
+        "minutes_to_terminal": 433.0,
+        "p_cont": 0.2569386080439083
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 96.0,
+        "minutes_to_terminal": 432.0,
+        "p_cont": 0.2827425523397273
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 97.0,
+        "minutes_to_terminal": 431.0,
+        "p_cont": 0.304126112682918
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 98.0,
+        "minutes_to_terminal": 430.0,
+        "p_cont": 0.2842303833325728
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 99.0,
+        "minutes_to_terminal": 429.0,
+        "p_cont": 0.27691792104263974
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 100.0,
+        "minutes_to_terminal": 428.0,
+        "p_cont": 0.2695977597368786
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 101.0,
+        "minutes_to_terminal": 427.0,
+        "p_cont": 0.31723011519359173
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 102.0,
+        "minutes_to_terminal": 426.0,
+        "p_cont": 0.28386988124472495
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 103.0,
+        "minutes_to_terminal": 425.0,
+        "p_cont": 0.2578637272766446
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 104.0,
+        "minutes_to_terminal": 424.0,
+        "p_cont": 0.2597921560307211
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 105.0,
+        "minutes_to_terminal": 423.0,
+        "p_cont": 0.22719279663708894
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 106.0,
+        "minutes_to_terminal": 422.0,
+        "p_cont": 0.23649866289545263
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 107.0,
+        "minutes_to_terminal": 421.0,
+        "p_cont": 0.2089345357062959
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 108.0,
+        "minutes_to_terminal": 420.0,
+        "p_cont": 0.24791541708522732
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 109.0,
+        "minutes_to_terminal": 419.0,
+        "p_cont": 0.26976668323882547
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 110.0,
+        "minutes_to_terminal": 418.0,
+        "p_cont": 0.24844701409121056
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 111.0,
+        "minutes_to_terminal": 417.0,
+        "p_cont": 0.3226454880934932
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 112.0,
+        "minutes_to_terminal": 416.0,
+        "p_cont": 0.2618059122434721
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 113.0,
+        "minutes_to_terminal": 415.0,
+        "p_cont": 0.25550428981876955
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 114.0,
+        "minutes_to_terminal": 414.0,
+        "p_cont": 0.3198630210028884
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 115.0,
+        "minutes_to_terminal": 413.0,
+        "p_cont": 0.3923828318080984
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 116.0,
+        "minutes_to_terminal": 412.0,
+        "p_cont": 0.35479559371762487
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 117.0,
+        "minutes_to_terminal": 411.0,
+        "p_cont": 0.2728083274303136
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 118.0,
+        "minutes_to_terminal": 410.0,
+        "p_cont": 0.23927164292961983
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 119.0,
+        "minutes_to_terminal": 409.0,
+        "p_cont": 0.24401972977207767
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 120.0,
+        "minutes_to_terminal": 408.0,
+        "p_cont": 0.22489834995787725
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 121.0,
+        "minutes_to_terminal": 407.0,
+        "p_cont": 0.20537512224031126
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 122.0,
+        "minutes_to_terminal": 406.0,
+        "p_cont": 0.18661209641032572
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 123.0,
+        "minutes_to_terminal": 405.0,
+        "p_cont": 0.1985756567695745
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 124.0,
+        "minutes_to_terminal": 404.0,
+        "p_cont": 0.19190855048976077
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 125.0,
+        "minutes_to_terminal": 403.0,
+        "p_cont": 0.1739323369196232
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 126.0,
+        "minutes_to_terminal": 402.0,
+        "p_cont": 0.17212656410554164
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 127.0,
+        "minutes_to_terminal": 401.0,
+        "p_cont": 0.17597177481666043
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 128.0,
+        "minutes_to_terminal": 400.0,
+        "p_cont": 0.20415840221852868
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 129.0,
+        "minutes_to_terminal": 399.0,
+        "p_cont": 0.18963330202876996
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 130.0,
+        "minutes_to_terminal": 398.0,
+        "p_cont": 0.2306786070658989
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 131.0,
+        "minutes_to_terminal": 397.0,
+        "p_cont": 0.21597602108656888
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 132.0,
+        "minutes_to_terminal": 396.0,
+        "p_cont": 0.21383652628328112
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 133.0,
+        "minutes_to_terminal": 395.0,
+        "p_cont": 0.23639325946502354
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 134.0,
+        "minutes_to_terminal": 394.0,
+        "p_cont": 0.23106510174935985
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 135.0,
+        "minutes_to_terminal": 393.0,
+        "p_cont": 0.33641560949214533
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 136.0,
+        "minutes_to_terminal": 392.0,
+        "p_cont": 0.22679116481333275
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 137.0,
+        "minutes_to_terminal": 391.0,
+        "p_cont": 0.17532064978051015
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 138.0,
+        "minutes_to_terminal": 390.0,
+        "p_cont": 0.15945808850790164
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 139.0,
+        "minutes_to_terminal": 389.0,
+        "p_cont": 0.17467348442476802
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 140.0,
+        "minutes_to_terminal": 388.0,
+        "p_cont": 0.23434053526859158
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 141.0,
+        "minutes_to_terminal": 387.0,
+        "p_cont": 0.29505352436585774
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 142.0,
+        "minutes_to_terminal": 386.0,
+        "p_cont": 0.2716962228180777
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 143.0,
+        "minutes_to_terminal": 385.0,
+        "p_cont": 0.2587101311073666
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 144.0,
+        "minutes_to_terminal": 384.0,
+        "p_cont": 0.20461747692570242
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 145.0,
+        "minutes_to_terminal": 383.0,
+        "p_cont": 0.21109555080671813
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 146.0,
+        "minutes_to_terminal": 382.0,
+        "p_cont": 0.24420082466331322
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 147.0,
+        "minutes_to_terminal": 381.0,
+        "p_cont": 0.22266649837670202
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 148.0,
+        "minutes_to_terminal": 380.0,
+        "p_cont": 0.2064782863565171
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 149.0,
+        "minutes_to_terminal": 379.0,
+        "p_cont": 0.23202904891424045
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 150.0,
+        "minutes_to_terminal": 378.0,
+        "p_cont": 0.20725490477436181
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 151.0,
+        "minutes_to_terminal": 377.0,
+        "p_cont": 0.1954418649136273
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 152.0,
+        "minutes_to_terminal": 376.0,
+        "p_cont": 0.24135954618495015
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 153.0,
+        "minutes_to_terminal": 375.0,
+        "p_cont": 0.19501851989867783
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 154.0,
+        "minutes_to_terminal": 374.0,
+        "p_cont": 0.21436118276089935
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 155.0,
+        "minutes_to_terminal": 373.0,
+        "p_cont": 0.22653527485486324
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 156.0,
+        "minutes_to_terminal": 372.0,
+        "p_cont": 0.2715549671883943
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 157.0,
+        "minutes_to_terminal": 371.0,
+        "p_cont": 0.19096998637151757
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 158.0,
+        "minutes_to_terminal": 370.0,
+        "p_cont": 0.21004336687739372
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 159.0,
+        "minutes_to_terminal": 369.0,
+        "p_cont": 0.19348852065323163
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 160.0,
+        "minutes_to_terminal": 368.0,
+        "p_cont": 0.20947064860189096
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 161.0,
+        "minutes_to_terminal": 367.0,
+        "p_cont": 0.22007818355460118
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 162.0,
+        "minutes_to_terminal": 366.0,
+        "p_cont": 0.2127167519312257
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 163.0,
+        "minutes_to_terminal": 365.0,
+        "p_cont": 0.29313844140936446
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 164.0,
+        "minutes_to_terminal": 364.0,
+        "p_cont": 0.37106268075804266
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 165.0,
+        "minutes_to_terminal": 363.0,
+        "p_cont": 0.28994174823765506
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 166.0,
+        "minutes_to_terminal": 362.0,
+        "p_cont": 0.32357011936081537
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 167.0,
+        "minutes_to_terminal": 361.0,
+        "p_cont": 0.31250116720351173
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 168.0,
+        "minutes_to_terminal": 360.0,
+        "p_cont": 0.2991855372957367
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 169.0,
+        "minutes_to_terminal": 359.0,
+        "p_cont": 0.26776410917064103
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 170.0,
+        "minutes_to_terminal": 358.0,
+        "p_cont": 0.23555077830231955
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 171.0,
+        "minutes_to_terminal": 357.0,
+        "p_cont": 0.32299539950967016
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 172.0,
+        "minutes_to_terminal": 356.0,
+        "p_cont": 0.23662753224729324
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 173.0,
+        "minutes_to_terminal": 355.0,
+        "p_cont": 0.22591215081328556
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 174.0,
+        "minutes_to_terminal": 354.0,
+        "p_cont": 0.25413336035680184
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 175.0,
+        "minutes_to_terminal": 353.0,
+        "p_cont": 0.22633006505021652
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 176.0,
+        "minutes_to_terminal": 352.0,
+        "p_cont": 0.23508123408317985
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 177.0,
+        "minutes_to_terminal": 351.0,
+        "p_cont": 0.22399499355563182
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 178.0,
+        "minutes_to_terminal": 350.0,
+        "p_cont": 0.2306153627298523
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 179.0,
+        "minutes_to_terminal": 349.0,
+        "p_cont": 0.2884151551755629
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 180.0,
+        "minutes_to_terminal": 348.0,
+        "p_cont": 0.2352714036297484
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 181.0,
+        "minutes_to_terminal": 347.0,
+        "p_cont": 0.3014236704406157
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 182.0,
+        "minutes_to_terminal": 346.0,
+        "p_cont": 0.4352175764702642
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 183.0,
+        "minutes_to_terminal": 345.0,
+        "p_cont": 0.3605022972144916
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 184.0,
+        "minutes_to_terminal": 344.0,
+        "p_cont": 0.4056470768934077
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 185.0,
+        "minutes_to_terminal": 343.0,
+        "p_cont": 0.35832259920418474
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 186.0,
+        "minutes_to_terminal": 342.0,
+        "p_cont": 0.40284478904385174
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 187.0,
+        "minutes_to_terminal": 341.0,
+        "p_cont": 0.3212739400582861
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 188.0,
+        "minutes_to_terminal": 340.0,
+        "p_cont": 0.42076414237916265
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 189.0,
+        "minutes_to_terminal": 339.0,
+        "p_cont": 0.42859310843616855
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 190.0,
+        "minutes_to_terminal": 338.0,
+        "p_cont": 0.42195652053085925
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 191.0,
+        "minutes_to_terminal": 337.0,
+        "p_cont": 0.4632183854625036
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 192.0,
+        "minutes_to_terminal": 336.0,
+        "p_cont": 0.3489748537917369
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 193.0,
+        "minutes_to_terminal": 335.0,
+        "p_cont": 0.46963794555745736
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 194.0,
+        "minutes_to_terminal": 334.0,
+        "p_cont": 0.48196802130745126
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 195.0,
+        "minutes_to_terminal": 333.0,
+        "p_cont": 0.4328583757084788
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 196.0,
+        "minutes_to_terminal": 332.0,
+        "p_cont": 0.5043153947685594
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 197.0,
+        "minutes_to_terminal": 331.0,
+        "p_cont": 0.46750342506446224
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 198.0,
+        "minutes_to_terminal": 330.0,
+        "p_cont": 0.5289485465535654
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 199.0,
+        "minutes_to_terminal": 329.0,
+        "p_cont": 0.5651760882706695
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 200.0,
+        "minutes_to_terminal": 328.0,
+        "p_cont": 0.5001342020795484
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 201.0,
+        "minutes_to_terminal": 327.0,
+        "p_cont": 0.44627593766684737
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 202.0,
+        "minutes_to_terminal": 326.0,
+        "p_cont": 0.4843732336137104
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 203.0,
+        "minutes_to_terminal": 325.0,
+        "p_cont": 0.5169089991430654
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 204.0,
+        "minutes_to_terminal": 324.0,
+        "p_cont": 0.5154474721527931
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 205.0,
+        "minutes_to_terminal": 323.0,
+        "p_cont": 0.4424700875682732
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 206.0,
+        "minutes_to_terminal": 322.0,
+        "p_cont": 0.4234578645825266
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 207.0,
+        "minutes_to_terminal": 321.0,
+        "p_cont": 0.546110890890936
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 208.0,
+        "minutes_to_terminal": 320.0,
+        "p_cont": 0.5383175013774929
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 209.0,
+        "minutes_to_terminal": 319.0,
+        "p_cont": 0.5632425180260938
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 210.0,
+        "minutes_to_terminal": 318.0,
+        "p_cont": 0.5427800627290851
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 211.0,
+        "minutes_to_terminal": 317.0,
+        "p_cont": 0.5938505140025219
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 212.0,
+        "minutes_to_terminal": 316.0,
+        "p_cont": 0.5327199740887116
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 213.0,
+        "minutes_to_terminal": 315.0,
+        "p_cont": 0.5761397485252637
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 214.0,
+        "minutes_to_terminal": 314.0,
+        "p_cont": 0.5120596398553895
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 215.0,
+        "minutes_to_terminal": 313.0,
+        "p_cont": 0.5704920607906772
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 216.0,
+        "minutes_to_terminal": 312.0,
+        "p_cont": 0.7093240474996678
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 217.0,
+        "minutes_to_terminal": 311.0,
+        "p_cont": 0.5970615301222054
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 218.0,
+        "minutes_to_terminal": 310.0,
+        "p_cont": 0.5121778652317203
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 219.0,
+        "minutes_to_terminal": 309.0,
+        "p_cont": 0.45324898163505206
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 220.0,
+        "minutes_to_terminal": 308.0,
+        "p_cont": 0.46155938879819797
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 221.0,
+        "minutes_to_terminal": 307.0,
+        "p_cont": 0.4394513178038111
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 222.0,
+        "minutes_to_terminal": 306.0,
+        "p_cont": 0.42886378772372663
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 223.0,
+        "minutes_to_terminal": 305.0,
+        "p_cont": 0.43319134923216773
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 224.0,
+        "minutes_to_terminal": 304.0,
+        "p_cont": 0.4227695507396116
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 225.0,
+        "minutes_to_terminal": 303.0,
+        "p_cont": 0.40954276722340344
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 226.0,
+        "minutes_to_terminal": 302.0,
+        "p_cont": 0.4296565708005274
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 227.0,
+        "minutes_to_terminal": 301.0,
+        "p_cont": 0.3911830383004136
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 228.0,
+        "minutes_to_terminal": 300.0,
+        "p_cont": 0.39344248971342627
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 229.0,
+        "minutes_to_terminal": 299.0,
+        "p_cont": 0.3985708018565701
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 230.0,
+        "minutes_to_terminal": 298.0,
+        "p_cont": 0.3814399265835121
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 231.0,
+        "minutes_to_terminal": 297.0,
+        "p_cont": 0.4286369088529355
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 232.0,
+        "minutes_to_terminal": 296.0,
+        "p_cont": 0.4649119389433452
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 233.0,
+        "minutes_to_terminal": 295.0,
+        "p_cont": 0.4036940037310627
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 234.0,
+        "minutes_to_terminal": 294.0,
+        "p_cont": 0.5262703064419679
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 235.0,
+        "minutes_to_terminal": 293.0,
+        "p_cont": 0.43313313863048214
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 236.0,
+        "minutes_to_terminal": 292.0,
+        "p_cont": 0.3935245978351024
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 237.0,
+        "minutes_to_terminal": 291.0,
+        "p_cont": 0.39912164193480637
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 238.0,
+        "minutes_to_terminal": 290.0,
+        "p_cont": 0.4054861206882502
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 239.0,
+        "minutes_to_terminal": 289.0,
+        "p_cont": 0.37738169634595686
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 240.0,
+        "minutes_to_terminal": 288.0,
+        "p_cont": 0.38270615225546506
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 241.0,
+        "minutes_to_terminal": 287.0,
+        "p_cont": 0.37390569604343754
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 242.0,
+        "minutes_to_terminal": 286.0,
+        "p_cont": 0.3729708269526097
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 243.0,
+        "minutes_to_terminal": 285.0,
+        "p_cont": 0.3379453103330784
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 244.0,
+        "minutes_to_terminal": 284.0,
+        "p_cont": 0.3524590564306161
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 245.0,
+        "minutes_to_terminal": 283.0,
+        "p_cont": 0.2902059639722978
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 246.0,
+        "minutes_to_terminal": 282.0,
+        "p_cont": 0.2921660214439615
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 247.0,
+        "minutes_to_terminal": 281.0,
+        "p_cont": 0.27387372572146107
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 248.0,
+        "minutes_to_terminal": 280.0,
+        "p_cont": 0.28091918692863094
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 249.0,
+        "minutes_to_terminal": 279.0,
+        "p_cont": 0.2638149856057634
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 250.0,
+        "minutes_to_terminal": 278.0,
+        "p_cont": 0.2239409536888986
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 251.0,
+        "minutes_to_terminal": 277.0,
+        "p_cont": 0.2410720330371165
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 252.0,
+        "minutes_to_terminal": 276.0,
+        "p_cont": 0.2655800316408571
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 253.0,
+        "minutes_to_terminal": 275.0,
+        "p_cont": 0.25864983452968554
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 254.0,
+        "minutes_to_terminal": 274.0,
+        "p_cont": 0.24373983117604983
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 255.0,
+        "minutes_to_terminal": 273.0,
+        "p_cont": 0.27870895594655926
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 256.0,
+        "minutes_to_terminal": 272.0,
+        "p_cont": 0.25391189570445505
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 257.0,
+        "minutes_to_terminal": 271.0,
+        "p_cont": 0.22314117889348103
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 258.0,
+        "minutes_to_terminal": 270.0,
+        "p_cont": 0.22577897015956508
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 259.0,
+        "minutes_to_terminal": 269.0,
+        "p_cont": 0.283894914305114
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 260.0,
+        "minutes_to_terminal": 268.0,
+        "p_cont": 0.20554625123260975
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 261.0,
+        "minutes_to_terminal": 267.0,
+        "p_cont": 0.20826893497034343
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 262.0,
+        "minutes_to_terminal": 266.0,
+        "p_cont": 0.23763663942216035
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 263.0,
+        "minutes_to_terminal": 265.0,
+        "p_cont": 0.23545418235843033
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 264.0,
+        "minutes_to_terminal": 264.0,
+        "p_cont": 0.272478217294684
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 265.0,
+        "minutes_to_terminal": 263.0,
+        "p_cont": 0.31031967320368065
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 266.0,
+        "minutes_to_terminal": 262.0,
+        "p_cont": 0.272682176700286
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 267.0,
+        "minutes_to_terminal": 261.0,
+        "p_cont": 0.33060239738995845
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 268.0,
+        "minutes_to_terminal": 260.0,
+        "p_cont": 0.2575542455244618
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 269.0,
+        "minutes_to_terminal": 259.0,
+        "p_cont": 0.343225738577713
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 270.0,
+        "minutes_to_terminal": 258.0,
+        "p_cont": 0.24801990356356704
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 271.0,
+        "minutes_to_terminal": 257.0,
+        "p_cont": 0.23835586635047082
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 272.0,
+        "minutes_to_terminal": 256.0,
+        "p_cont": 0.22233029776420501
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 273.0,
+        "minutes_to_terminal": 255.0,
+        "p_cont": 0.25541888574072424
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 274.0,
+        "minutes_to_terminal": 254.0,
+        "p_cont": 0.2740677589293264
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 275.0,
+        "minutes_to_terminal": 253.0,
+        "p_cont": 0.28416398847933655
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 276.0,
+        "minutes_to_terminal": 252.0,
+        "p_cont": 0.3261196688059967
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 277.0,
+        "minutes_to_terminal": 251.0,
+        "p_cont": 0.3122129466776926
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 278.0,
+        "minutes_to_terminal": 250.0,
+        "p_cont": 0.30756343933947183
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 279.0,
+        "minutes_to_terminal": 249.0,
+        "p_cont": 0.24024565595488512
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 280.0,
+        "minutes_to_terminal": 248.0,
+        "p_cont": 0.3354231226519599
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 281.0,
+        "minutes_to_terminal": 247.0,
+        "p_cont": 0.35973850361654186
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 282.0,
+        "minutes_to_terminal": 246.0,
+        "p_cont": 0.4778122391771606
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 283.0,
+        "minutes_to_terminal": 245.0,
+        "p_cont": 0.3765880723194232
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 284.0,
+        "minutes_to_terminal": 244.0,
+        "p_cont": 0.29921727445321306
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 285.0,
+        "minutes_to_terminal": 243.0,
+        "p_cont": 0.21309477272056743
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 286.0,
+        "minutes_to_terminal": 242.0,
+        "p_cont": 0.1804733569995124
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 287.0,
+        "minutes_to_terminal": 241.0,
+        "p_cont": 0.14705158048156025
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 288.0,
+        "minutes_to_terminal": 240.0,
+        "p_cont": 0.16892583679826087
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 289.0,
+        "minutes_to_terminal": 239.0,
+        "p_cont": 0.15606645432320548
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 290.0,
+        "minutes_to_terminal": 238.0,
+        "p_cont": 0.13615823145463724
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 291.0,
+        "minutes_to_terminal": 237.0,
+        "p_cont": 0.1938109474195225
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 292.0,
+        "minutes_to_terminal": 236.0,
+        "p_cont": 0.2575992854744414
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 293.0,
+        "minutes_to_terminal": 235.0,
+        "p_cont": 0.212808401089095
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 294.0,
+        "minutes_to_terminal": 234.0,
+        "p_cont": 0.19773759966277243
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 295.0,
+        "minutes_to_terminal": 233.0,
+        "p_cont": 0.27972671110205033
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 296.0,
+        "minutes_to_terminal": 232.0,
+        "p_cont": 0.29749394991155986
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 297.0,
+        "minutes_to_terminal": 231.0,
+        "p_cont": 0.2884624082317394
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 298.0,
+        "minutes_to_terminal": 230.0,
+        "p_cont": 0.31281155032375974
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 299.0,
+        "minutes_to_terminal": 229.0,
+        "p_cont": 0.35576580629974863
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 300.0,
+        "minutes_to_terminal": 228.0,
+        "p_cont": 0.26710660544224735
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 301.0,
+        "minutes_to_terminal": 227.0,
+        "p_cont": 0.22254452113819848
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 302.0,
+        "minutes_to_terminal": 226.0,
+        "p_cont": 0.27067425522195737
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 303.0,
+        "minutes_to_terminal": 225.0,
+        "p_cont": 0.22868235135281956
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 304.0,
+        "minutes_to_terminal": 224.0,
+        "p_cont": 0.21975016214568036
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 305.0,
+        "minutes_to_terminal": 223.0,
+        "p_cont": 0.17855352515298878
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 306.0,
+        "minutes_to_terminal": 222.0,
+        "p_cont": 0.15150088790764768
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 307.0,
+        "minutes_to_terminal": 221.0,
+        "p_cont": 0.18477345406841897
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 308.0,
+        "minutes_to_terminal": 220.0,
+        "p_cont": 0.16486674680377572
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 309.0,
+        "minutes_to_terminal": 219.0,
+        "p_cont": 0.14497880988529016
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 310.0,
+        "minutes_to_terminal": 218.0,
+        "p_cont": 0.1435031329405537
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 311.0,
+        "minutes_to_terminal": 217.0,
+        "p_cont": 0.17899620079702866
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 312.0,
+        "minutes_to_terminal": 216.0,
+        "p_cont": 0.16877419620016204
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 313.0,
+        "minutes_to_terminal": 215.0,
+        "p_cont": 0.14832126034393678
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 314.0,
+        "minutes_to_terminal": 214.0,
+        "p_cont": 0.1605278851797624
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 315.0,
+        "minutes_to_terminal": 213.0,
+        "p_cont": 0.19794339885519785
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 316.0,
+        "minutes_to_terminal": 212.0,
+        "p_cont": 0.30241213507177517
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 317.0,
+        "minutes_to_terminal": 211.0,
+        "p_cont": 0.3054583534670938
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 318.0,
+        "minutes_to_terminal": 210.0,
+        "p_cont": 0.24893711981667274
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 319.0,
+        "minutes_to_terminal": 209.0,
+        "p_cont": 0.26939571148574454
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 320.0,
+        "minutes_to_terminal": 208.0,
+        "p_cont": 0.22086787810341024
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 321.0,
+        "minutes_to_terminal": 207.0,
+        "p_cont": 0.2092435420231437
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 322.0,
+        "minutes_to_terminal": 206.0,
+        "p_cont": 0.36240121713776363
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 323.0,
+        "minutes_to_terminal": 205.0,
+        "p_cont": 0.4316498093356244
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 324.0,
+        "minutes_to_terminal": 204.0,
+        "p_cont": 0.35753343826028633
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 325.0,
+        "minutes_to_terminal": 203.0,
+        "p_cont": 0.3657089990904836
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 326.0,
+        "minutes_to_terminal": 202.0,
+        "p_cont": 0.30573851492457543
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 327.0,
+        "minutes_to_terminal": 201.0,
+        "p_cont": 0.28434544710859105
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 328.0,
+        "minutes_to_terminal": 200.0,
+        "p_cont": 0.2228354348893636
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 329.0,
+        "minutes_to_terminal": 199.0,
+        "p_cont": 0.17873220547115612
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 330.0,
+        "minutes_to_terminal": 198.0,
+        "p_cont": 0.17925640405287427
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 331.0,
+        "minutes_to_terminal": 197.0,
+        "p_cont": 0.21180397133144543
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 332.0,
+        "minutes_to_terminal": 196.0,
+        "p_cont": 0.27989118733327023
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 333.0,
+        "minutes_to_terminal": 195.0,
+        "p_cont": 0.2791178884920449
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 334.0,
+        "minutes_to_terminal": 194.0,
+        "p_cont": 0.29365481613160505
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 335.0,
+        "minutes_to_terminal": 193.0,
+        "p_cont": 0.41961888472506403
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 336.0,
+        "minutes_to_terminal": 192.0,
+        "p_cont": 0.41698721463896093
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 337.0,
+        "minutes_to_terminal": 191.0,
+        "p_cont": 0.6336002516191142
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 338.0,
+        "minutes_to_terminal": 190.0,
+        "p_cont": 0.5859729254351932
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 339.0,
+        "minutes_to_terminal": 189.0,
+        "p_cont": 0.6337474738811447
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 340.0,
+        "minutes_to_terminal": 188.0,
+        "p_cont": 0.5935369770144752
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 341.0,
+        "minutes_to_terminal": 187.0,
+        "p_cont": 0.6690849238303599
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 342.0,
+        "minutes_to_terminal": 186.0,
+        "p_cont": 0.6299814520474633
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 343.0,
+        "minutes_to_terminal": 185.0,
+        "p_cont": 0.6122140222515091
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 344.0,
+        "minutes_to_terminal": 184.0,
+        "p_cont": 0.5074232491768488
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 345.0,
+        "minutes_to_terminal": 183.0,
+        "p_cont": 0.6846229505284062
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 346.0,
+        "minutes_to_terminal": 182.0,
+        "p_cont": 0.6240995482647558
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 347.0,
+        "minutes_to_terminal": 181.0,
+        "p_cont": 0.6145773213077977
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 348.0,
+        "minutes_to_terminal": 180.0,
+        "p_cont": 0.65735147919591
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 349.0,
+        "minutes_to_terminal": 179.0,
+        "p_cont": 0.7202051728011236
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 350.0,
+        "minutes_to_terminal": 178.0,
+        "p_cont": 0.5632636960241039
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 351.0,
+        "minutes_to_terminal": 177.0,
+        "p_cont": 0.5032524898191182
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 352.0,
+        "minutes_to_terminal": 176.0,
+        "p_cont": 0.41285787211760144
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 353.0,
+        "minutes_to_terminal": 175.0,
+        "p_cont": 0.4040873495713965
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 354.0,
+        "minutes_to_terminal": 174.0,
+        "p_cont": 0.38471862899742315
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 355.0,
+        "minutes_to_terminal": 173.0,
+        "p_cont": 0.3824208759853146
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 356.0,
+        "minutes_to_terminal": 172.0,
+        "p_cont": 0.310597065124237
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 357.0,
+        "minutes_to_terminal": 171.0,
+        "p_cont": 0.3676350626464343
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 358.0,
+        "minutes_to_terminal": 170.0,
+        "p_cont": 0.43230386891888967
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 359.0,
+        "minutes_to_terminal": 169.0,
+        "p_cont": 0.39286008102730213
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 360.0,
+        "minutes_to_terminal": 168.0,
+        "p_cont": 0.4842723764657295
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 361.0,
+        "minutes_to_terminal": 167.0,
+        "p_cont": 0.44029273109759387
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 362.0,
+        "minutes_to_terminal": 166.0,
+        "p_cont": 0.5996918684747725
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 363.0,
+        "minutes_to_terminal": 165.0,
+        "p_cont": 0.5766590784648732
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 364.0,
+        "minutes_to_terminal": 164.0,
+        "p_cont": 0.594986524697848
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 365.0,
+        "minutes_to_terminal": 163.0,
+        "p_cont": 0.5418959443435418
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 366.0,
+        "minutes_to_terminal": 162.0,
+        "p_cont": 0.5734029208198286
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 367.0,
+        "minutes_to_terminal": 161.0,
+        "p_cont": 0.654396455800199
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 368.0,
+        "minutes_to_terminal": 160.0,
+        "p_cont": 0.7316527244538666
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 369.0,
+        "minutes_to_terminal": 159.0,
+        "p_cont": 0.6921101006255665
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 370.0,
+        "minutes_to_terminal": 158.0,
+        "p_cont": 0.6163908815276284
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 371.0,
+        "minutes_to_terminal": 157.0,
+        "p_cont": 0.6603436206186812
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 372.0,
+        "minutes_to_terminal": 156.0,
+        "p_cont": 0.6469584440855135
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 373.0,
+        "minutes_to_terminal": 155.0,
+        "p_cont": 0.5965109057170996
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 374.0,
+        "minutes_to_terminal": 154.0,
+        "p_cont": 0.7415280369365804
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 375.0,
+        "minutes_to_terminal": 153.0,
+        "p_cont": 0.6875889981651425
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 376.0,
+        "minutes_to_terminal": 152.0,
+        "p_cont": 0.5979470078927653
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 377.0,
+        "minutes_to_terminal": 151.0,
+        "p_cont": 0.5662779515148965
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 378.0,
+        "minutes_to_terminal": 150.0,
+        "p_cont": 0.6012642749289175
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 379.0,
+        "minutes_to_terminal": 149.0,
+        "p_cont": 0.5706450142241942
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 380.0,
+        "minutes_to_terminal": 148.0,
+        "p_cont": 0.5326704205501235
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 381.0,
+        "minutes_to_terminal": 147.0,
+        "p_cont": 0.4272590541201356
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 382.0,
+        "minutes_to_terminal": 146.0,
+        "p_cont": 0.4193824111840403
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 383.0,
+        "minutes_to_terminal": 145.0,
+        "p_cont": 0.374098098676735
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 384.0,
+        "minutes_to_terminal": 144.0,
+        "p_cont": 0.3380347185013338
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 385.0,
+        "minutes_to_terminal": 143.0,
+        "p_cont": 0.3439159709460506
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 386.0,
+        "minutes_to_terminal": 142.0,
+        "p_cont": 0.30010934221292357
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 387.0,
+        "minutes_to_terminal": 141.0,
+        "p_cont": 0.3613571442171646
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 388.0,
+        "minutes_to_terminal": 140.0,
+        "p_cont": 0.3255919216029055
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 389.0,
+        "minutes_to_terminal": 139.0,
+        "p_cont": 0.27651195264712997
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 390.0,
+        "minutes_to_terminal": 138.0,
+        "p_cont": 0.3209832894503333
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 391.0,
+        "minutes_to_terminal": 137.0,
+        "p_cont": 0.35753216853374953
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 392.0,
+        "minutes_to_terminal": 136.0,
+        "p_cont": 0.43594763538439485
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 393.0,
+        "minutes_to_terminal": 135.0,
+        "p_cont": 0.3763920425046558
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 394.0,
+        "minutes_to_terminal": 134.0,
+        "p_cont": 0.4118696588407277
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 395.0,
+        "minutes_to_terminal": 133.0,
+        "p_cont": 0.4899421468943047
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 396.0,
+        "minutes_to_terminal": 132.0,
+        "p_cont": 0.4036957873633135
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 397.0,
+        "minutes_to_terminal": 131.0,
+        "p_cont": 0.36803910979891574
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 398.0,
+        "minutes_to_terminal": 130.0,
+        "p_cont": 0.3587202196174744
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 399.0,
+        "minutes_to_terminal": 129.0,
+        "p_cont": 0.3857468071792457
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 400.0,
+        "minutes_to_terminal": 128.0,
+        "p_cont": 0.47353999506588085
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 401.0,
+        "minutes_to_terminal": 127.0,
+        "p_cont": 0.39390197637889696
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 402.0,
+        "minutes_to_terminal": 126.0,
+        "p_cont": 0.3464637308364432
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 403.0,
+        "minutes_to_terminal": 125.0,
+        "p_cont": 0.3157361177984546
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 404.0,
+        "minutes_to_terminal": 124.0,
+        "p_cont": 0.321758219062664
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 405.0,
+        "minutes_to_terminal": 123.0,
+        "p_cont": 0.3360123565903829
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 406.0,
+        "minutes_to_terminal": 122.0,
+        "p_cont": 0.40638754385530296
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 407.0,
+        "minutes_to_terminal": 121.0,
+        "p_cont": 0.41080985453042673
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 408.0,
+        "minutes_to_terminal": 120.0,
+        "p_cont": 0.30415427829098196
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 409.0,
+        "minutes_to_terminal": 119.0,
+        "p_cont": 0.29106393743666137
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 410.0,
+        "minutes_to_terminal": 118.0,
+        "p_cont": 0.34187701762707234
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 411.0,
+        "minutes_to_terminal": 117.0,
+        "p_cont": 0.32258264955493765
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 412.0,
+        "minutes_to_terminal": 116.0,
+        "p_cont": 0.3511082831116759
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 413.0,
+        "minutes_to_terminal": 115.0,
+        "p_cont": 0.38401229745824517
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 414.0,
+        "minutes_to_terminal": 114.0,
+        "p_cont": 0.4604459163174811
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 415.0,
+        "minutes_to_terminal": 113.0,
+        "p_cont": 0.5336465512357732
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 416.0,
+        "minutes_to_terminal": 112.0,
+        "p_cont": 0.5585232356431055
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 417.0,
+        "minutes_to_terminal": 111.0,
+        "p_cont": 0.3908336015847688
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 418.0,
+        "minutes_to_terminal": 110.0,
+        "p_cont": 0.3421911886871991
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 419.0,
+        "minutes_to_terminal": 109.0,
+        "p_cont": 0.3392216468419941
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 420.0,
+        "minutes_to_terminal": 108.0,
+        "p_cont": 0.3758831476183914
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 421.0,
+        "minutes_to_terminal": 107.0,
+        "p_cont": 0.41535095231068186
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 422.0,
+        "minutes_to_terminal": 106.0,
+        "p_cont": 0.453757704035965
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 423.0,
+        "minutes_to_terminal": 105.0,
+        "p_cont": 0.3380587392144091
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 424.0,
+        "minutes_to_terminal": 104.0,
+        "p_cont": 0.46812901898313536
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 425.0,
+        "minutes_to_terminal": 103.0,
+        "p_cont": 0.48622033471668324
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 426.0,
+        "minutes_to_terminal": 102.0,
+        "p_cont": 0.4203770459694122
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 427.0,
+        "minutes_to_terminal": 101.0,
+        "p_cont": 0.3940983962442011
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 428.0,
+        "minutes_to_terminal": 100.0,
+        "p_cont": 0.3649241656570158
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 429.0,
+        "minutes_to_terminal": 99.0,
+        "p_cont": 0.37046821533356716
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 430.0,
+        "minutes_to_terminal": 98.0,
+        "p_cont": 0.5168251361003695
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 431.0,
+        "minutes_to_terminal": 97.0,
+        "p_cont": 0.4214653629485636
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 432.0,
+        "minutes_to_terminal": 96.0,
+        "p_cont": 0.3916626004561366
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 433.0,
+        "minutes_to_terminal": 95.0,
+        "p_cont": 0.364932173020788
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 434.0,
+        "minutes_to_terminal": 94.0,
+        "p_cont": 0.3716166729755169
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 435.0,
+        "minutes_to_terminal": 93.0,
+        "p_cont": 0.3187449231803713
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 436.0,
+        "minutes_to_terminal": 92.0,
+        "p_cont": 0.36455266013935844
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 437.0,
+        "minutes_to_terminal": 91.0,
+        "p_cont": 0.3432705887796979
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 438.0,
+        "minutes_to_terminal": 90.0,
+        "p_cont": 0.30427008571554476
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 439.0,
+        "minutes_to_terminal": 89.0,
+        "p_cont": 0.33256371456329636
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 440.0,
+        "minutes_to_terminal": 88.0,
+        "p_cont": 0.34070639143557213
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 441.0,
+        "minutes_to_terminal": 87.0,
+        "p_cont": 0.328547029291327
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 442.0,
+        "minutes_to_terminal": 86.0,
+        "p_cont": 0.380703324917742
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 443.0,
+        "minutes_to_terminal": 85.0,
+        "p_cont": 0.323118073837216
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 444.0,
+        "minutes_to_terminal": 84.0,
+        "p_cont": 0.3299074367795707
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 445.0,
+        "minutes_to_terminal": 83.0,
+        "p_cont": 0.2943164612497705
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 446.0,
+        "minutes_to_terminal": 82.0,
+        "p_cont": 0.3168658662876422
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 447.0,
+        "minutes_to_terminal": 81.0,
+        "p_cont": 0.25678560395372885
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 448.0,
+        "minutes_to_terminal": 80.0,
+        "p_cont": 0.2533128791042877
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 449.0,
+        "minutes_to_terminal": 79.0,
+        "p_cont": 0.24841193133327272
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 450.0,
+        "minutes_to_terminal": 78.0,
+        "p_cont": 0.2759082614519822
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 451.0,
+        "minutes_to_terminal": 77.0,
+        "p_cont": 0.2461871224505224
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 452.0,
+        "minutes_to_terminal": 76.0,
+        "p_cont": 0.24147939390843176
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 453.0,
+        "minutes_to_terminal": 75.0,
+        "p_cont": 0.2383449937286123
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 454.0,
+        "minutes_to_terminal": 74.0,
+        "p_cont": 0.2575832284251525
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 455.0,
+        "minutes_to_terminal": 73.0,
+        "p_cont": 0.2804364836737708
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 456.0,
+        "minutes_to_terminal": 72.0,
+        "p_cont": 0.2604350012343322
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 457.0,
+        "minutes_to_terminal": 71.0,
+        "p_cont": 0.5497834102396563
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 458.0,
+        "minutes_to_terminal": 70.0,
+        "p_cont": 0.3249020373205777
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 459.0,
+        "minutes_to_terminal": 69.0,
+        "p_cont": 0.3053631500587578
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 460.0,
+        "minutes_to_terminal": 68.0,
+        "p_cont": 0.2796403331856837
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 461.0,
+        "minutes_to_terminal": 67.0,
+        "p_cont": 0.31376101218261804
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 462.0,
+        "minutes_to_terminal": 66.0,
+        "p_cont": 0.25816835850766484
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 463.0,
+        "minutes_to_terminal": 65.0,
+        "p_cont": 0.2550068814051202
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 464.0,
+        "minutes_to_terminal": 64.0,
+        "p_cont": 0.2162045868516754
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 465.0,
+        "minutes_to_terminal": 63.0,
+        "p_cont": 0.23276573436324663
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 466.0,
+        "minutes_to_terminal": 62.0,
+        "p_cont": 0.2455995196722982
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 467.0,
+        "minutes_to_terminal": 61.0,
+        "p_cont": 0.21745193252947875
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 468.0,
+        "minutes_to_terminal": 60.0,
+        "p_cont": 0.2139095017465189
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 469.0,
+        "minutes_to_terminal": 59.0,
+        "p_cont": 0.22221046267516714
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 470.0,
+        "minutes_to_terminal": 58.0,
+        "p_cont": 0.3225786718814144
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 471.0,
+        "minutes_to_terminal": 57.0,
+        "p_cont": 0.29386196445193424
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 472.0,
+        "minutes_to_terminal": 56.0,
+        "p_cont": 0.29865200747390025
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 473.0,
+        "minutes_to_terminal": 55.0,
+        "p_cont": 0.3192169738547193
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 474.0,
+        "minutes_to_terminal": 54.0,
+        "p_cont": 0.31785047562209773
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 475.0,
+        "minutes_to_terminal": 53.0,
+        "p_cont": 0.3016630053082867
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 476.0,
+        "minutes_to_terminal": 52.0,
+        "p_cont": 0.24723074113326254
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 477.0,
+        "minutes_to_terminal": 51.0,
+        "p_cont": 0.26478821266826136
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 478.0,
+        "minutes_to_terminal": 50.0,
+        "p_cont": 0.2275351816459965
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 479.0,
+        "minutes_to_terminal": 49.0,
+        "p_cont": 0.2856321712664497
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 480.0,
+        "minutes_to_terminal": 48.0,
+        "p_cont": 0.23441159347480894
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 481.0,
+        "minutes_to_terminal": 47.0,
+        "p_cont": 0.19369116790912036
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 482.0,
+        "minutes_to_terminal": 46.0,
+        "p_cont": 0.18856413060669058
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 483.0,
+        "minutes_to_terminal": 45.0,
+        "p_cont": 0.20072813990916918
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 484.0,
+        "minutes_to_terminal": 44.0,
+        "p_cont": 0.19915082030673967
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 485.0,
+        "minutes_to_terminal": 43.0,
+        "p_cont": 0.21117643209966203
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 486.0,
+        "minutes_to_terminal": 42.0,
+        "p_cont": 0.21265364521379226
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 487.0,
+        "minutes_to_terminal": 41.0,
+        "p_cont": 0.18232207096169442
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 488.0,
+        "minutes_to_terminal": 40.0,
+        "p_cont": 0.16365801755736017
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 489.0,
+        "minutes_to_terminal": 39.0,
+        "p_cont": 0.2079054067216439
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 490.0,
+        "minutes_to_terminal": 38.0,
+        "p_cont": 0.17290156641873494
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 491.0,
+        "minutes_to_terminal": 37.0,
+        "p_cont": 0.20891179493649426
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 492.0,
+        "minutes_to_terminal": 36.0,
+        "p_cont": 0.21046804093899313
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 493.0,
+        "minutes_to_terminal": 35.0,
+        "p_cont": 0.19848567550225654
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 494.0,
+        "minutes_to_terminal": 34.0,
+        "p_cont": 0.1824898822860024
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 495.0,
+        "minutes_to_terminal": 33.0,
+        "p_cont": 0.16031886067123605
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 496.0,
+        "minutes_to_terminal": 32.0,
+        "p_cont": 0.3927583892977354
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 497.0,
+        "minutes_to_terminal": 31.0,
+        "p_cont": 0.2233034220079408
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 498.0,
+        "minutes_to_terminal": 30.0,
+        "p_cont": 0.15662828890755212
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 499.0,
+        "minutes_to_terminal": 29.0,
+        "p_cont": 0.11683312680944627
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 500.0,
+        "minutes_to_terminal": 28.0,
+        "p_cont": 0.12063407449090767
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 501.0,
+        "minutes_to_terminal": 27.0,
+        "p_cont": 0.13029148318802947
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 502.0,
+        "minutes_to_terminal": 26.0,
+        "p_cont": 0.12195594080411698
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 503.0,
+        "minutes_to_terminal": 25.0,
+        "p_cont": 0.10321655181882834
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 504.0,
+        "minutes_to_terminal": 24.0,
+        "p_cont": 0.10317658091300351
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 505.0,
+        "minutes_to_terminal": 23.0,
+        "p_cont": 0.08683506464456424
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 506.0,
+        "minutes_to_terminal": 22.0,
+        "p_cont": 0.11625153713004698
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 507.0,
+        "minutes_to_terminal": 21.0,
+        "p_cont": 0.09032319099612522
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 508.0,
+        "minutes_to_terminal": 20.0,
+        "p_cont": 0.09581674570150821
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 509.0,
+        "minutes_to_terminal": 19.0,
+        "p_cont": 0.10167956818520528
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 510.0,
+        "minutes_to_terminal": 18.0,
+        "p_cont": 0.10056291512866518
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 511.0,
+        "minutes_to_terminal": 17.0,
+        "p_cont": 0.10581584480040376
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 512.0,
+        "minutes_to_terminal": 16.0,
+        "p_cont": 0.10931727585583924
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 513.0,
+        "minutes_to_terminal": 15.0,
+        "p_cont": 0.11253626257745275
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 514.0,
+        "minutes_to_terminal": 14.0,
+        "p_cont": 0.11335502306155382
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 515.0,
+        "minutes_to_terminal": 13.0,
+        "p_cont": 0.09116470168558931
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 516.0,
+        "minutes_to_terminal": 12.0,
+        "p_cont": 0.11421339060207145
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 517.0,
+        "minutes_to_terminal": 11.0,
+        "p_cont": 0.10496629819341338
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 518.0,
+        "minutes_to_terminal": 10.0,
+        "p_cont": 0.09916850157737432
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 519.0,
+        "minutes_to_terminal": 9.0,
+        "p_cont": 0.10792428427343405
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 520.0,
+        "minutes_to_terminal": 8.0,
+        "p_cont": 0.08616096461863078
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 521.0,
+        "minutes_to_terminal": 7.0,
+        "p_cont": 0.09771219642658274
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 522.0,
+        "minutes_to_terminal": 6.0,
+        "p_cont": 0.08647020265317344
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 523.0,
+        "minutes_to_terminal": 5.0,
+        "p_cont": 0.07920500771956454
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 524.0,
+        "minutes_to_terminal": 4.0,
+        "p_cont": 0.0673082340748358
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 525.0,
+        "minutes_to_terminal": 3.0,
+        "p_cont": 0.0788416616992801
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 526.0,
+        "minutes_to_terminal": 2.0,
+        "p_cont": 0.09650292328507909
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 527.0,
+        "minutes_to_terminal": 1.0,
+        "p_cont": 0.06917114363487784
+      }
+    ],
+    "symbol": "BTCUSDT",
+    "terminal_ms": 1756813980000,
+    "trade_id": "E1-3c63ca8d63adee55",
+    "year": 2025
+  },
+  "median_duration_continuation": {
+    "outcome": "CONTINUATION_FIRST",
+    "states": [
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 1.0,
+        "minutes_to_terminal": 21.0,
+        "p_cont": 0.12438729538743862
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 2.0,
+        "minutes_to_terminal": 20.0,
+        "p_cont": 0.09841109528877788
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 3.0,
+        "minutes_to_terminal": 19.0,
+        "p_cont": 0.06604187102024171
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 4.0,
+        "minutes_to_terminal": 18.0,
+        "p_cont": 0.04489292357091005
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 5.0,
+        "minutes_to_terminal": 17.0,
+        "p_cont": 0.04493383934451764
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 6.0,
+        "minutes_to_terminal": 16.0,
+        "p_cont": 0.048987333849293144
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 7.0,
+        "minutes_to_terminal": 15.0,
+        "p_cont": 0.047210818616393965
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 8.0,
+        "minutes_to_terminal": 14.0,
+        "p_cont": 0.14279306431920896
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 9.0,
+        "minutes_to_terminal": 13.0,
+        "p_cont": 0.15066671367905948
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 10.0,
+        "minutes_to_terminal": 12.0,
+        "p_cont": 0.18281797855377568
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 11.0,
+        "minutes_to_terminal": 11.0,
+        "p_cont": 0.4128252995099139
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 12.0,
+        "minutes_to_terminal": 10.0,
+        "p_cont": 0.31134080961476807
+      },
+      {
+        "band": "DETERIORATION_LEANING",
+        "elapsed_minutes": 13.0,
+        "minutes_to_terminal": 9.0,
+        "p_cont": 0.3885099862421251
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 14.0,
+        "minutes_to_terminal": 8.0,
+        "p_cont": 0.5799818542969615
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 15.0,
+        "minutes_to_terminal": 7.0,
+        "p_cont": 0.7134498633571342
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 16.0,
+        "minutes_to_terminal": 6.0,
+        "p_cont": 0.45972135417778115
+      },
+      {
+        "band": "UNCERTAIN",
+        "elapsed_minutes": 17.0,
+        "minutes_to_terminal": 5.0,
+        "p_cont": 0.41920281331549086
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 18.0,
+        "minutes_to_terminal": 4.0,
+        "p_cont": 0.7121891053231978
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 19.0,
+        "minutes_to_terminal": 3.0,
+        "p_cont": 0.7020239669902499
+      },
+      {
+        "band": "VERY_CONTINUATION_LIKE",
+        "elapsed_minutes": 20.0,
+        "minutes_to_terminal": 2.0,
+        "p_cont": 0.8005707947520359
+      },
+      {
+        "band": "CONTINUATION_LEANING",
+        "elapsed_minutes": 21.0,
+        "minutes_to_terminal": 1.0,
+        "p_cont": 0.7984244480407526
+      }
+    ],
+    "symbol": "SOLUSDT",
+    "terminal_ms": 1731002220000,
+    "trade_id": "E1-e50d009614280116",
+    "year": 2024
+  },
+  "median_duration_deterioration": {
+    "outcome": "DETERIORATION_FIRST",
+    "states": [
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 1.0,
+        "minutes_to_terminal": 19.0,
+        "p_cont": 0.19194374327269265
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 2.0,
+        "minutes_to_terminal": 18.0,
+        "p_cont": 0.1301949481861376
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 3.0,
+        "minutes_to_terminal": 17.0,
+        "p_cont": 0.07868654193360902
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 4.0,
+        "minutes_to_terminal": 16.0,
+        "p_cont": 0.09910448619645083
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 5.0,
+        "minutes_to_terminal": 15.0,
+        "p_cont": 0.08544177893319466
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 6.0,
+        "minutes_to_terminal": 14.0,
+        "p_cont": 0.1318511484002594
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 7.0,
+        "minutes_to_terminal": 13.0,
+        "p_cont": 0.09867564962300482
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 8.0,
+        "minutes_to_terminal": 12.0,
+        "p_cont": 0.12913065751224537
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 9.0,
+        "minutes_to_terminal": 11.0,
+        "p_cont": 0.036332526921967236
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 10.0,
+        "minutes_to_terminal": 10.0,
+        "p_cont": 0.04369794310801002
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 11.0,
+        "minutes_to_terminal": 9.0,
+        "p_cont": 0.11636050350840935
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 12.0,
+        "minutes_to_terminal": 8.0,
+        "p_cont": 0.09570813847366702
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 13.0,
+        "minutes_to_terminal": 7.0,
+        "p_cont": 0.0613334928160548
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 14.0,
+        "minutes_to_terminal": 6.0,
+        "p_cont": 0.04718429193819413
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 15.0,
+        "minutes_to_terminal": 5.0,
+        "p_cont": 0.08819383359653718
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 16.0,
+        "minutes_to_terminal": 4.0,
+        "p_cont": 0.04889578784019808
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 17.0,
+        "minutes_to_terminal": 3.0,
+        "p_cont": 0.018519223088566975
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 18.0,
+        "minutes_to_terminal": 2.0,
+        "p_cont": 0.020646090236622647
+      },
+      {
+        "band": "VERY_DETERIORATION_LIKE",
+        "elapsed_minutes": 19.0,
+        "minutes_to_terminal": 1.0,
+        "p_cont": 0.018625475008129326
+      }
+    ],
+    "symbol": "BTCUSDT",
+    "terminal_ms": 1731674100000,
+    "trade_id": "E1-236bada7b4d95203",
+    "year": 2024
+  },
+  "zero_row_rapid_transition": {
+    "reason": "no eligible completed post-T2 state",
+    "trade_id": "E1-0625282986287604",
+    "trajectory": []
+  }
+}

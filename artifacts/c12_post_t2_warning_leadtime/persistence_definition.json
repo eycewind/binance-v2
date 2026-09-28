@@ -1,0 +1,7 @@
+{
+  "P1": 1,
+  "P2": 2,
+  "P3": 3,
+  "detection_at": "last completed observation in qualifying run",
+  "frozen_before_evaluation": true
+}

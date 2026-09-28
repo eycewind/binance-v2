@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "metrics_2024_exact": true,
+    "metrics_2025_exact": true,
+    "selected_calibration": true,
+    "trajectory_2024_exact": true,
+    "trajectory_2025_exact": true
+  },
+  "probability_rows": 29932,
+  "probability_sha256": "c93150ca08c44d027f01ecfd4543dec9d0a9f91318ff430ee081dbf30febcc3f",
+  "status": "PASS"
+}
