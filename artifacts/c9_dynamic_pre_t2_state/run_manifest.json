@@ -1,0 +1,13 @@
+{
+  "architecture": {
+    "fast_minutes": 5,
+    "slow_minutes": 60
+  },
+  "contract_sha256": "99d3b9eabb52967f072f017b57d08cb22f9813898f9e8f6e1e9603a37d21b3fd",
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "replicates": 2000,
+  "seed": 20260928,
+  "version": "C9_RUN_V1"
+}

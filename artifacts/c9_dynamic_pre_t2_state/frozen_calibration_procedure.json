@@ -1,0 +1,278 @@
+{
+  "baseline_model": {
+    "coefficients": [
+      -0.5706372902448571,
+      0.024766828983170744,
+      0.03165507831023521,
+      0.03372548142118295,
+      0.03573612265519836,
+      0.02288411593627103,
+      0.03141646402698399,
+      0.04201439508187397,
+      0.05939741394368437,
+      0.05532409647372161,
+      0.08131021026419599,
+      0.10233172690890929,
+      0.04538927415807854,
+      0.009727305138056903,
+      0.014802022991101638,
+      0.0021083762577245803,
+      0.11985344885768548,
+      0.13296528599756471,
+      0.05119254698153159,
+      0.09013264339013831,
+      0.018844832772707456,
+      0.041748117456331515,
+      0.0001575681015908585,
+      0.009486756441934304,
+      0.0013129910646245003,
+      -0.0014712781137547397
+    ],
+    "converged": true,
+    "features": [
+      "slow_return_1",
+      "slow_return_3",
+      "slow_return_6",
+      "slow_volatility_12",
+      "slow_range_ratio",
+      "slow_activity_ratio",
+      "slow_close_vs_sma12",
+      "slow_sma12_slope",
+      "fast_return_1",
+      "fast_return_3",
+      "fast_return_6",
+      "fast_volatility_12",
+      "fast_range_ratio",
+      "fast_activity_ratio",
+      "path_efficiency",
+      "current_return",
+      "running_mfe",
+      "drawdown_from_running_peak",
+      "distance_to_t2_barrier",
+      "elapsed_log1p_minutes",
+      "fast_slow_agreement"
+    ],
+    "gradient_max": 3.3970290989893126e-10,
+    "iterations": 14,
+    "scaler": {
+      "current_return": {
+        "mean": -0.0007079467293135957,
+        "sd": 0.005508276337068179
+      },
+      "distance_to_t2_barrier": {
+        "mean": -0.0025925532229825275,
+        "sd": 0.005107386014876284
+      },
+      "drawdown_from_running_peak": {
+        "mean": -0.004465659418047595,
+        "sd": 0.005122747221011152
+      },
+      "elapsed_log1p_minutes": {
+        "mean": 3.9749116986830755,
+        "sd": 0.9984350770094338
+      },
+      "fast_activity_ratio": {
+        "mean": 1.3264397467017233,
+        "sd": 1.40715984389577
+      },
+      "fast_range_ratio": {
+        "mean": 1.1665786622920598,
+        "sd": 0.7966775801490705
+      },
+      "fast_return_1": {
+        "mean": 5.461155112768693e-06,
+        "sd": 0.002060843006347682
+      },
+      "fast_return_3": {
+        "mean": -0.00016733054850154503,
+        "sd": 0.003415590908401252
+      },
+      "fast_return_6": {
+        "mean": -0.00011276936620675255,
+        "sd": 0.004952431327541999
+      },
+      "fast_slow_agreement": {
+        "mean": -0.036879653798156185,
+        "sd": 0.9898207423242906
+      },
+      "fast_volatility_12": {
+        "mean": 0.00167387156979495,
+        "sd": 0.0012222547439613097
+      },
+      "path_efficiency": {
+        "mean": -0.2000098514891493,
+        "sd": 18.3270219198751
+      },
+      "running_mfe": {
+        "mean": 0.003777171782986175,
+        "sd": 0.00299461245546183
+      },
+      "slow_activity_ratio": {
+        "mean": 1.2987384414102074,
+        "sd": 1.019089206799864
+      },
+      "slow_close_vs_sma12": {
+        "mean": 0.006034404276858833,
+        "sd": 0.00810332970107781
+      },
+      "slow_range_ratio": {
+        "mean": 1.2238476140497756,
+        "sd": 0.7668972430007382
+      },
+      "slow_return_1": {
+        "mean": 0.004803679012212011,
+        "sd": 0.007357203177844876
+      },
+      "slow_return_3": {
+        "mean": 0.007689558489292232,
+        "sd": 0.010649934515534717
+      },
+      "slow_return_6": {
+        "mean": 0.007096080726192564,
+        "sd": 0.012078730865900555
+      },
+      "slow_sma12_slope": {
+        "mean": 0.00041215879039475174,
+        "sd": 0.0008833870165202762
+      },
+      "slow_volatility_12": {
+        "mean": 0.006094036876880092,
+        "sd": 0.004346122943192451
+      }
+    }
+  },
+  "calibration_model": {
+    "converged": true,
+    "intercept": 1.6359875008907192,
+    "iterations": 6,
+    "slope": 3.3208395232691004
+  },
+  "inner_definitions": [
+    {
+      "name": "Q1_to_Q2",
+      "score_bounds_ms": [
+        1711929600000,
+        1719792000000
+      ],
+      "scored": {
+        "event_trades": 90,
+        "non_event_trades": 189,
+        "rows": 10747,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 38.51971326164875,
+          "median": 21.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 279
+      },
+      "train": {
+        "event_trades": 92,
+        "non_event_trades": 177,
+        "rows": 7974,
+        "rows_per_trade": {
+          "max": 202,
+          "mean": 29.643122676579925,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 34.0
+        },
+        "unique_trades": 269
+      },
+      "train_bounds_ms": [
+        1704067200000,
+        1711929600000
+      ]
+    },
+    {
+      "name": "H1_to_Q3",
+      "score_bounds_ms": [
+        1719792000000,
+        1727740800000
+      ],
+      "scored": {
+        "event_trades": 109,
+        "non_event_trades": 147,
+        "rows": 7970,
+        "rows_per_trade": {
+          "max": 233,
+          "mean": 31.1328125,
+          "median": 18.5,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 39.25
+        },
+        "unique_trades": 256
+      },
+      "train": {
+        "event_trades": 183,
+        "non_event_trades": 367,
+        "rows": 18947,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 34.449090909090906,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 46.0
+        },
+        "unique_trades": 550
+      },
+      "train_bounds_ms": [
+        1704067200000,
+        1719792000000
+      ]
+    },
+    {
+      "name": "Q1Q3_to_Q4",
+      "score_bounds_ms": [
+        1727740800000,
+        1735689600000
+      ],
+      "scored": {
+        "event_trades": 103,
+        "non_event_trades": 164,
+        "rows": 8631,
+        "rows_per_trade": {
+          "max": 322,
+          "mean": 32.325842696629216,
+          "median": 22.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 40.0
+        },
+        "unique_trades": 267
+      },
+      "train": {
+        "event_trades": 292,
+        "non_event_trades": 514,
+        "rows": 26917,
+        "rows_per_trade": {
+          "max": 253,
+          "mean": 33.39578163771712,
+          "median": 21.0,
+          "min": 1,
+          "p25": 10.0,
+          "p75": 45.75
+        },
+        "unique_trades": 806
+      },
+      "train_bounds_ms": [
+        1704067200000,
+        1727740800000
+      ]
+    }
+  ],
+  "isotonic_support": {
+    "distinct_scores": 27348,
+    "eligible": true,
+    "event_trades": 302,
+    "non_event_trades": 500,
+    "trades": 802
+  },
+  "selected": "platt",
+  "selection_rule": "isotonic only if eligible and improves both Platt proper scores; selected must not worsen either baseline score"
+}

@@ -1,0 +1,83 @@
+{
+  "continuous": [
+    "slow_return_1",
+    "slow_return_3",
+    "slow_return_6",
+    "slow_volatility_12",
+    "slow_range_ratio",
+    "slow_activity_ratio",
+    "slow_close_vs_sma12",
+    "slow_sma12_slope",
+    "fast_return_1",
+    "fast_return_3",
+    "fast_return_6",
+    "fast_volatility_12",
+    "fast_range_ratio",
+    "fast_activity_ratio",
+    "path_efficiency",
+    "current_return",
+    "running_mfe",
+    "drawdown_from_running_peak",
+    "distance_to_t2_barrier",
+    "elapsed_log1p_minutes",
+    "fast_slow_agreement"
+  ],
+  "families": {
+    "1h_trend_context": [
+      "slow_return_1",
+      "slow_return_3",
+      "slow_return_6",
+      "slow_volatility_12",
+      "slow_range_ratio",
+      "slow_activity_ratio",
+      "slow_close_vs_sma12",
+      "slow_sma12_slope"
+    ],
+    "5m_momentum": [
+      "fast_return_1",
+      "fast_return_3",
+      "fast_return_6"
+    ],
+    "5m_volatility_range": [
+      "fast_volatility_12",
+      "fast_range_ratio"
+    ],
+    "activity": [
+      "fast_activity_ratio"
+    ],
+    "current_return": [
+      "current_return"
+    ],
+    "distance_to_t2_geometry": [
+      "distance_to_t2_barrier"
+    ],
+    "drawdown_from_running_peak": [
+      "drawdown_from_running_peak"
+    ],
+    "elapsed_time": [
+      "elapsed_log1p_minutes"
+    ],
+    "fast_slow_directional_agreement": [
+      "fast_slow_agreement"
+    ],
+    "path_efficiency": [
+      "path_efficiency"
+    ],
+    "running_peak_mfe": [
+      "running_mfe"
+    ],
+    "symbol": [
+      "symbol_ETHUSDT",
+      "symbol_SOLUSDT",
+      "symbol_XRPUSDT",
+      "symbol_BNBUSDT"
+    ]
+  },
+  "source": "frozen C8 architecture B formulas",
+  "symbol_indicators": [
+    "symbol_ETHUSDT",
+    "symbol_SOLUSDT",
+    "symbol_XRPUSDT",
+    "symbol_BNBUSDT"
+  ]
+}

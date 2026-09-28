@@ -1,0 +1,25 @@
+{
+  "available_pooled_candidates": [
+    "baseline",
+    "platt"
+  ],
+  "isotonic_outer_fold_support": {
+    "fold_A": {
+      "distinct_scores": 10747,
+      "eligible": false,
+      "event_trades": 90,
+      "non_event_trades": 189,
+      "trades": 279
+    },
+    "fold_B": {
+      "distinct_scores": 18717,
+      "eligible": true,
+      "event_trades": 199,
+      "non_event_trades": 336,
+      "trades": 535
+    }
+  },
+  "isotonic_pooled_eligible": false,
+  "rule": "isotonic only if every outer fold is supported and both proper scores beat Platt; chosen calibration must not worsen either baseline proper score",
+  "selected": "platt"
+}

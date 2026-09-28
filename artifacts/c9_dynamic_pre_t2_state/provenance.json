@@ -1,0 +1,20 @@
+{
+  "architecture": {
+    "fast_minutes": 5,
+    "slow_minutes": 60
+  },
+  "contract_sha256": "99d3b9eabb52967f072f017b57d08cb22f9813898f9e8f6e1e9603a37d21b3fd",
+  "economics_computed": false,
+  "no_2026_access": true,
+  "source_hashes": {
+    "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+    "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "contracts/C8_pre_t2_timescale_adequacy_CONTRACT.md": "cee5a359d7e8f3c9ee95e8e1b227cbd59ddcb08b1e9e5b93bf69b919ab5e6ae7",
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb",
+    "src/binance_data_foundation/c8_timescale.py": "090cb745d06ae59b4e1947b28db39a9c1453befecd31908834c3dea1895bdaec"
+  }
+}

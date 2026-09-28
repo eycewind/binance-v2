@@ -1,0 +1,59 @@
+{
+  "eligible": {
+    "event_trades": 806,
+    "non_event_trades": 1354,
+    "rows": 75164,
+    "rows_per_trade": {
+      "max": 322,
+      "mean": 34.79814814814815,
+      "median": 22.0,
+      "min": 1,
+      "p25": 10.0,
+      "p75": 46.0
+    },
+    "unique_trades": 2160
+  },
+  "eligible_2024": {
+    "event_trades": 395,
+    "non_event_trades": 678,
+    "rows": 35548,
+    "rows_per_trade": {
+      "max": 322,
+      "mean": 33.12954333643989,
+      "median": 22.0,
+      "min": 1,
+      "p25": 10.0,
+      "p75": 44.0
+    },
+    "unique_trades": 1073
+  },
+  "eligible_2025": {
+    "event_trades": 411,
+    "non_event_trades": 676,
+    "rows": 39616,
+    "rows_per_trade": {
+      "max": 274,
+      "mean": 36.44526218951242,
+      "median": 22.0,
+      "min": 1,
+      "p25": 10.0,
+      "p75": 46.0
+    },
+    "unique_trades": 1087
+  },
+  "no_eligible_snapshot": {
+    "outcomes": {
+      "T2_FIRST": 39
+    },
+    "trades": 39
+  },
+  "source_by_year": {
+    "2024": 1093,
+    "2025": 1106
+  },
+  "source_outcomes": {
+    "P0_FIRST": 1354,
+    "T2_FIRST": 845
+  },
+  "source_population": 2199
+}

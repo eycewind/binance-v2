@@ -1,0 +1,242 @@
+{
+  "families": {
+    "1h_trend_context": {
+      "absolute_coefficient_mass": 0.28159590035860066,
+      "features": [
+        "slow_return_1",
+        "slow_return_3",
+        "slow_return_6",
+        "slow_volatility_12",
+        "slow_range_ratio",
+        "slow_activity_ratio",
+        "slow_close_vs_sma12",
+        "slow_sma12_slope"
+      ],
+      "largest_feature": "slow_sma12_slope",
+      "signed_sum": 0.28159590035860066
+    },
+    "5m_momentum": {
+      "absolute_coefficient_mass": 0.2389660336468269,
+      "features": [
+        "fast_return_1",
+        "fast_return_3",
+        "fast_return_6"
+      ],
+      "largest_feature": "fast_return_6",
+      "signed_sum": 0.2389660336468269
+    },
+    "5m_volatility_range": {
+      "absolute_coefficient_mass": 0.05511657929613544,
+      "features": [
+        "fast_volatility_12",
+        "fast_range_ratio"
+      ],
+      "largest_feature": "fast_volatility_12",
+      "signed_sum": 0.05511657929613544
+    },
+    "activity": {
+      "absolute_coefficient_mass": 0.014802022991101638,
+      "features": [
+        "fast_activity_ratio"
+      ],
+      "largest_feature": "fast_activity_ratio",
+      "signed_sum": 0.014802022991101638
+    },
+    "current_return": {
+      "absolute_coefficient_mass": 0.11985344885768548,
+      "features": [
+        "current_return"
+      ],
+      "largest_feature": "current_return",
+      "signed_sum": 0.11985344885768548
+    },
+    "distance_to_t2_geometry": {
+      "absolute_coefficient_mass": 0.09013264339013831,
+      "features": [
+        "distance_to_t2_barrier"
+      ],
+      "largest_feature": "distance_to_t2_barrier",
+      "signed_sum": 0.09013264339013831
+    },
+    "drawdown_from_running_peak": {
+      "absolute_coefficient_mass": 0.05119254698153159,
+      "features": [
+        "drawdown_from_running_peak"
+      ],
+      "largest_feature": "drawdown_from_running_peak",
+      "signed_sum": 0.05119254698153159
+    },
+    "elapsed_time": {
+      "absolute_coefficient_mass": 0.018844832772707456,
+      "features": [
+        "elapsed_log1p_minutes"
+      ],
+      "largest_feature": "elapsed_log1p_minutes",
+      "signed_sum": 0.018844832772707456
+    },
+    "fast_slow_directional_agreement": {
+      "absolute_coefficient_mass": 0.041748117456331515,
+      "features": [
+        "fast_slow_agreement"
+      ],
+      "largest_feature": "fast_slow_agreement",
+      "signed_sum": 0.041748117456331515
+    },
+    "path_efficiency": {
+      "absolute_coefficient_mass": 0.0021083762577245803,
+      "features": [
+        "path_efficiency"
+      ],
+      "largest_feature": "path_efficiency",
+      "signed_sum": 0.0021083762577245803
+    },
+    "running_peak_mfe": {
+      "absolute_coefficient_mass": 0.13296528599756471,
+      "features": [
+        "running_mfe"
+      ],
+      "largest_feature": "running_mfe",
+      "signed_sum": 0.13296528599756471
+    },
+    "symbol": {
+      "absolute_coefficient_mass": 0.012428593721904403,
+      "features": [
+        "symbol_ETHUSDT",
+        "symbol_SOLUSDT",
+        "symbol_XRPUSDT",
+        "symbol_BNBUSDT"
+      ],
+      "largest_feature": "symbol_SOLUSDT",
+      "signed_sum": 0.009486037494394924
+    }
+  },
+  "features": [
+    {
+      "association": "higher_probability",
+      "feature": "slow_return_1",
+      "standardized_coefficient": 0.024766828983170744
+    },
+    {
+      "association": "higher_probability",
+      "feature": "slow_return_3",
+      "standardized_coefficient": 0.03165507831023521
+    },
+    {
+      "association": "higher_probability",
+      "feature": "slow_return_6",
+      "standardized_coefficient": 0.03372548142118295
+    },
+    {
+      "association": "higher_probability",
+      "feature": "slow_volatility_12",
+      "standardized_coefficient": 0.03573612265519836
+    },
+    {
+      "association": "higher_probability",
+      "feature": "slow_range_ratio",
+      "standardized_coefficient": 0.02288411593627103
+    },
+    {
+      "association": "higher_probability",
+      "feature": "slow_activity_ratio",
+      "standardized_coefficient": 0.03141646402698399
+    },
+    {
+      "association": "higher_probability",
+      "feature": "slow_close_vs_sma12",
+      "standardized_coefficient": 0.04201439508187397
+    },
+    {
+      "association": "higher_probability",
+      "feature": "slow_sma12_slope",
+      "standardized_coefficient": 0.05939741394368437
+    },
+    {
+      "association": "higher_probability",
+      "feature": "fast_return_1",
+      "standardized_coefficient": 0.05532409647372161
+    },
+    {
+      "association": "higher_probability",
+      "feature": "fast_return_3",
+      "standardized_coefficient": 0.08131021026419599
+    },
+    {
+      "association": "higher_probability",
+      "feature": "fast_return_6",
+      "standardized_coefficient": 0.10233172690890929
+    },
+    {
+      "association": "higher_probability",
+      "feature": "fast_volatility_12",
+      "standardized_coefficient": 0.04538927415807854
+    },
+    {
+      "association": "higher_probability",
+      "feature": "fast_range_ratio",
+      "standardized_coefficient": 0.009727305138056903
+    },
+    {
+      "association": "higher_probability",
+      "feature": "fast_activity_ratio",
+      "standardized_coefficient": 0.014802022991101638
+    },
+    {
+      "association": "higher_probability",
+      "feature": "path_efficiency",
+      "standardized_coefficient": 0.0021083762577245803
+    },
+    {
+      "association": "higher_probability",
+      "feature": "current_return",
+      "standardized_coefficient": 0.11985344885768548
+    },
+    {
+      "association": "higher_probability",
+      "feature": "running_mfe",
+      "standardized_coefficient": 0.13296528599756471
+    },
+    {
+      "association": "higher_probability",
+      "feature": "drawdown_from_running_peak",
+      "standardized_coefficient": 0.05119254698153159
+    },
+    {
+      "association": "higher_probability",
+      "feature": "distance_to_t2_barrier",
+      "standardized_coefficient": 0.09013264339013831
+    },
+    {
+      "association": "higher_probability",
+      "feature": "elapsed_log1p_minutes",
+      "standardized_coefficient": 0.018844832772707456
+    },
+    {
+      "association": "higher_probability",
+      "feature": "fast_slow_agreement",
+      "standardized_coefficient": 0.041748117456331515
+    },
+    {
+      "association": "higher_probability",
+      "feature": "symbol_ETHUSDT",
+      "standardized_coefficient": 0.0001575681015908585
+    },
+    {
+      "association": "higher_probability",
+      "feature": "symbol_SOLUSDT",
+      "standardized_coefficient": 0.009486756441934304
+    },
+    {
+      "association": "higher_probability",
+      "feature": "symbol_XRPUSDT",
+      "standardized_coefficient": 0.0013129910646245003
+    },
+    {
+      "association": "lower_probability",
+      "feature": "symbol_BNBUSDT",
+      "standardized_coefficient": -0.0014712781137547397
+    }
+  ],
+  "intercept": -0.5706372902448571,
+  "warning": "Predictive associations only; coefficients are not causal effects."
+}

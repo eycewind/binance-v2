@@ -240,7 +240,9 @@ def test_current_authoritative_readiness_record_and_history_are_concrete():
     ledger=Path('artifacts/c7_full_population_t2_exit_overlay/attempt_ledger.jsonl')
     lines=ledger.read_text().splitlines(); assert len(lines)>=3
     assert hashlib.sha256(('\n'.join(lines[:2])+'\n').encode()).hexdigest()=='e67c96e391fa3cdc3d51df533292055a588734555e8e45488bb6715d92b1b91d'
-    identity=authoritative_readiness_identity(Path('.'),ledger); current=json.loads(lines[-1])
+    records=[json.loads(line) for line in lines]
+    current=next(row for row in records if row['status']=='READINESS_ACCEPTED')
+    identity=authoritative_readiness_identity(Path('.'),ledger)
     assert all(identity[k]==current[k] for k in IDENTITY_FIELDS)
     assert all(v not in ('UNVERIFIED','T1_BUNDLE_RECORDED_IN_PROVENANCE_MANIFEST') for k,v in identity.items() if k!='source_hashes')
     assert current['economic_read'] is False and current['economic_emission'] is False
@@ -248,7 +250,8 @@ def test_current_authoritative_readiness_record_and_history_are_concrete():
 def test_stale_readiness_identity_cannot_authorize_t2(tmp_path):
     source=Path('artifacts/c7_full_population_t2_exit_overlay/attempt_ledger.jsonl')
     records=[json.loads(x) for x in source.read_text().splitlines()]
-    records[-1]['readiness_sha256']='0'*64
+    readiness=next(row for row in records if row['status']=='READINESS_ACCEPTED')
+    readiness['readiness_sha256']='0'*64
     ledger=tmp_path/'ledger.jsonl'; ledger.write_text(''.join(json.dumps(x,sort_keys=True,separators=(',',':'))+'\n' for x in records))
     with pytest.raises(RuntimeError,match='stale'): authoritative_readiness_identity(Path('.'),ledger)
 

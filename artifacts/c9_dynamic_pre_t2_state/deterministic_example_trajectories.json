@@ -1,0 +1,432 @@
+{
+  "descriptive_only": true,
+  "examples": [
+    {
+      "outcome": "T2_FIRST",
+      "role": "median_T2",
+      "symbol": "SOLUSDT",
+      "trade_id": "E1-51911a8a3b8ab929",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.33225015568687843,
+          "state_ms": 1764105000000
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.3939561224753705,
+          "state_ms": 1764105300000
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.38228746002479547,
+          "state_ms": 1764105600000
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.49318409999096874,
+          "state_ms": 1764105900000
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.25803743394714923,
+          "state_ms": 1764106200000
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.15859227472160714,
+          "state_ms": 1764106500000
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.24819845740768073,
+          "state_ms": 1764106800000
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.5509722488039261,
+          "state_ms": 1764107100000
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.48862737941176926,
+          "state_ms": 1764107400000
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.45440063360624844,
+          "state_ms": 1764107700000
+        },
+        {
+          "elapsed_minutes": 60,
+          "probability": 0.17700736996696737,
+          "state_ms": 1764108000000
+        },
+        {
+          "elapsed_minutes": 65,
+          "probability": 0.034132398334672506,
+          "state_ms": 1764108300000
+        },
+        {
+          "elapsed_minutes": 70,
+          "probability": 0.10679944046082106,
+          "state_ms": 1764108600000
+        },
+        {
+          "elapsed_minutes": 75,
+          "probability": 0.02399459899205589,
+          "state_ms": 1764108900000
+        },
+        {
+          "elapsed_minutes": 80,
+          "probability": 0.3492646258063081,
+          "state_ms": 1764109200000
+        },
+        {
+          "elapsed_minutes": 85,
+          "probability": 0.45091160111739953,
+          "state_ms": 1764109500000
+        },
+        {
+          "elapsed_minutes": 90,
+          "probability": 0.512520666420188,
+          "state_ms": 1764109800000
+        },
+        {
+          "elapsed_minutes": 95,
+          "probability": 0.8036930871600806,
+          "state_ms": 1764110100000
+        },
+        {
+          "elapsed_minutes": 100,
+          "probability": 0.9774323005275677,
+          "state_ms": 1764110400000
+        },
+        {
+          "elapsed_minutes": 105,
+          "probability": 0.9379580287827513,
+          "state_ms": 1764110700000
+        },
+        {
+          "elapsed_minutes": 110,
+          "probability": 0.8549479548640306,
+          "state_ms": 1764111000000
+        },
+        {
+          "elapsed_minutes": 115,
+          "probability": 0.6591091430716257,
+          "state_ms": 1764111300000
+        }
+      ]
+    },
+    {
+      "outcome": "P0_FIRST",
+      "role": "median_P0",
+      "symbol": "SOLUSDT",
+      "trade_id": "E1-02bebaed1e3bb217",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.1846810802885866,
+          "state_ms": 1738275000000
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.2584394173390403,
+          "state_ms": 1738275300000
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.23108689045295402,
+          "state_ms": 1738275600000
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.16909807623396356,
+          "state_ms": 1738275900000
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.4368981901022401,
+          "state_ms": 1738276200000
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.4263143632765781,
+          "state_ms": 1738276500000
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.5435387158775342,
+          "state_ms": 1738276800000
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.8852559623808064,
+          "state_ms": 1738277100000
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.45188004988451286,
+          "state_ms": 1738277400000
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.41953013261838795,
+          "state_ms": 1738277700000
+        },
+        {
+          "elapsed_minutes": 60,
+          "probability": 0.15376214084109038,
+          "state_ms": 1738278000000
+        },
+        {
+          "elapsed_minutes": 65,
+          "probability": 0.20855257382476186,
+          "state_ms": 1738278300000
+        },
+        {
+          "elapsed_minutes": 70,
+          "probability": 0.3310236693200204,
+          "state_ms": 1738278600000
+        },
+        {
+          "elapsed_minutes": 75,
+          "probability": 0.2150502795974265,
+          "state_ms": 1738278900000
+        },
+        {
+          "elapsed_minutes": 80,
+          "probability": 0.44110839042181,
+          "state_ms": 1738279200000
+        },
+        {
+          "elapsed_minutes": 85,
+          "probability": 0.41193192381143234,
+          "state_ms": 1738279500000
+        },
+        {
+          "elapsed_minutes": 90,
+          "probability": 0.31967920652384957,
+          "state_ms": 1738279800000
+        },
+        {
+          "elapsed_minutes": 95,
+          "probability": 0.2090894055656577,
+          "state_ms": 1738280100000
+        },
+        {
+          "elapsed_minutes": 100,
+          "probability": 0.18942848584160366,
+          "state_ms": 1738280400000
+        },
+        {
+          "elapsed_minutes": 105,
+          "probability": 0.2606212129070613,
+          "state_ms": 1738280700000
+        },
+        {
+          "elapsed_minutes": 110,
+          "probability": 0.17287440724612205,
+          "state_ms": 1738281000000
+        },
+        {
+          "elapsed_minutes": 115,
+          "probability": 0.09869337415831807,
+          "state_ms": 1738281300000
+        }
+      ]
+    },
+    {
+      "outcome": "T2_FIRST",
+      "role": "largest_upward",
+      "symbol": "BTCUSDT",
+      "trade_id": "E1-b7ec06ff9a71406e",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.03625015081490023,
+          "state_ms": 1737645000000
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.17773085034031771,
+          "state_ms": 1737645300000
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.0106484193467525,
+          "state_ms": 1737645600000
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.9414244401880855,
+          "state_ms": 1737645900000
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.8695199022134041,
+          "state_ms": 1737646200000
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.9766163923643949,
+          "state_ms": 1737646500000
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.9826227262834514,
+          "state_ms": 1737646800000
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.9932961557119545,
+          "state_ms": 1737647100000
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.9925078834056383,
+          "state_ms": 1737647400000
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.943003332975347,
+          "state_ms": 1737647700000
+        },
+        {
+          "elapsed_minutes": 60,
+          "probability": 0.9917362377856015,
+          "state_ms": 1737648000000
+        },
+        {
+          "elapsed_minutes": 65,
+          "probability": 0.9934643406705201,
+          "state_ms": 1737648300000
+        },
+        {
+          "elapsed_minutes": 70,
+          "probability": 0.996357092138891,
+          "state_ms": 1737648600000
+        }
+      ]
+    },
+    {
+      "outcome": "P0_FIRST",
+      "role": "largest_downward",
+      "symbol": "ETHUSDT",
+      "trade_id": "E1-c60cd80314009cff",
+      "trajectory": [
+        {
+          "elapsed_minutes": 10,
+          "probability": 0.9857527957848885,
+          "state_ms": 1744567800000
+        },
+        {
+          "elapsed_minutes": 15,
+          "probability": 0.8516905947767225,
+          "state_ms": 1744568100000
+        },
+        {
+          "elapsed_minutes": 20,
+          "probability": 0.5775890087237489,
+          "state_ms": 1744568400000
+        },
+        {
+          "elapsed_minutes": 25,
+          "probability": 0.2974833057634034,
+          "state_ms": 1744568700000
+        },
+        {
+          "elapsed_minutes": 30,
+          "probability": 0.5161909731680112,
+          "state_ms": 1744569000000
+        },
+        {
+          "elapsed_minutes": 35,
+          "probability": 0.531787036170527,
+          "state_ms": 1744569300000
+        },
+        {
+          "elapsed_minutes": 40,
+          "probability": 0.8885355303565492,
+          "state_ms": 1744569600000
+        },
+        {
+          "elapsed_minutes": 45,
+          "probability": 0.8238682440946895,
+          "state_ms": 1744569900000
+        },
+        {
+          "elapsed_minutes": 50,
+          "probability": 0.7617296537143667,
+          "state_ms": 1744570200000
+        },
+        {
+          "elapsed_minutes": 55,
+          "probability": 0.7621745831549911,
+          "state_ms": 1744570500000
+        },
+        {
+          "elapsed_minutes": 60,
+          "probability": 0.44295240454579615,
+          "state_ms": 1744570800000
+        },
+        {
+          "elapsed_minutes": 65,
+          "probability": 0.12892112409388137,
+          "state_ms": 1744571100000
+        },
+        {
+          "elapsed_minutes": 70,
+          "probability": 0.10138119573211621,
+          "state_ms": 1744571400000
+        },
+        {
+          "elapsed_minutes": 75,
+          "probability": 0.24531609878133895,
+          "state_ms": 1744571700000
+        },
+        {
+          "elapsed_minutes": 80,
+          "probability": 0.3786709636416451,
+          "state_ms": 1744572000000
+        },
+        {
+          "elapsed_minutes": 85,
+          "probability": 0.23883016710913746,
+          "state_ms": 1744572300000
+        },
+        {
+          "elapsed_minutes": 90,
+          "probability": 0.15747487233511592,
+          "state_ms": 1744572600000
+        },
+        {
+          "elapsed_minutes": 95,
+          "probability": 0.13970004035508557,
+          "state_ms": 1744572900000
+        },
+        {
+          "elapsed_minutes": 100,
+          "probability": 0.0006967578580080759,
+          "state_ms": 1744573200000
+        },
+        {
+          "elapsed_minutes": 105,
+          "probability": 0.00025531415698338184,
+          "state_ms": 1744573500000
+        },
+        {
+          "elapsed_minutes": 110,
+          "probability": 0.003429900061685297,
+          "state_ms": 1744573800000
+        },
+        {
+          "elapsed_minutes": 115,
+          "probability": 0.0030347203105428777,
+          "state_ms": 1744574100000
+        }
+      ]
+    }
+  ]
+}
