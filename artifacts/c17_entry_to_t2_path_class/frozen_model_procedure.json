@@ -1,0 +1,8 @@
+{
+  "M0": "training class prevalence",
+  "M1": "fixed C11 local state logistic",
+  "M2": "same logistic plus frozen path descriptors",
+  "fixed_L2_penalty": 1.0,
+  "search": false,
+  "training_only_preprocessing": true
+}

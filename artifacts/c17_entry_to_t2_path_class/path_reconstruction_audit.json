@@ -1,0 +1,9 @@
+{
+  "contiguous_minutes_required": true,
+  "entry_inclusive": true,
+  "first_snapshot_only": true,
+  "last_permitted_bar_open": "t0_ms-60000",
+  "status": "PASS",
+  "t2_exclusive": true,
+  "trades": 792
+}

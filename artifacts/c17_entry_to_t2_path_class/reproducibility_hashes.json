@@ -1,0 +1,23 @@
+{
+  "calibration_2024.json": "d241be45535c58eaffe7011ef7d954b0a840c466261f2b44f9408fb00315433a",
+  "calibration_2025.json": "3b6376921f4d9770374b6b8df064fae6d8e67632d297209c6e006324dff3d4b5",
+  "deterioration_subset_2024.json": "a46867d5405e743bcef207fe1c2982cd14aabce66dfe08ea8f87a65ee85c8f14",
+  "deterioration_subset_2025.json": "291ce9742d51bbb6c94396b16c277419650b2531222492aaac1182329249ebad",
+  "family_ablation_2024.json": "75a19f7e668a48278c76a28b0aa37a8a992f7338420002bff55814cdc2ed0b57",
+  "feature_associations.json": "077d8281448aba667afeaaa62f5010b9ff1add72b68928f30f467d937815f707",
+  "final_summary.json": "a027fcc3416d36a1fd5ad9da95235bd6d4b9822d2276fef2c5dd6b5f9f5a6838",
+  "fold_definitions.json": "b74804b306aeee8cb37034f42d3f483aaab0f672d39052453d0c52a5811b5bcb",
+  "frozen_model_procedure.json": "7e118918d65c50a1fd1ea55dfb8531dc05750acb99168ecccb34dfa8de47d6f5",
+  "interpretation_predicates.json": "b64f31e9a3263392f35eec72353b6c01a84a32a9bb0c506f87f12ab57e18bee9",
+  "leakage_firewall.json": "f02f45590ea85fcdee5f38760b9237bb73312dee50b0866f3ea456cb8d5661b5",
+  "mixed_trade_summary.json": "59a940398787050e0fca5756882f9116aa4fc3cb30ed9735b6194389c7e1cba5",
+  "model_metrics_2024.json": "0b2bc7133fde07b2b98b8d987caad136a76a0e64bbb21822af4eb9a1512c3fe2",
+  "model_metrics_2025.json": "91b38e6d792d9c1c9c5529e87e46c4fc8062882da09000eb077311e46f74da06",
+  "path_feature_schema.json": "bbbd34b25fb0ef1b2e526868e0c72d858aaebf12a6f7fcc64601b8a646832678",
+  "path_reconstruction_audit.json": "7fd7dd386c015f75611a49d1c7c99658c7581c631a5593fb3a034425ed78816a",
+  "population_reconciliation.json": "4452e662d7dea4ae2d0a221c1637020c8e65d77f1539f17fd701e8765c51a3d7",
+  "provenance.json": "dccd926a2081ad97fb0f05dcfb755aa666b4b936f44f95c9ea2d623ae78fc77c",
+  "run_manifest.json": "4c018892d460b15806294f51ebd5e5106f0088175ecec4e6b787333e0f696de7",
+  "symbol_metrics.json": "22f4fb3365af6b722311230d54c85c91efb6ad767b60747981dc75968cb4bbe0",
+  "trade_class_definition.json": "04ad420b494322bc17f4cc1321a15b3ec8258fce88eddcf68814ac8235135358"
+}

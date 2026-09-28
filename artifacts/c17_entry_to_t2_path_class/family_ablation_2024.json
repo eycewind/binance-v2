@@ -1,0 +1,487 @@
+{
+  "acceleration": {
+    "metrics": {
+      "auc": 0.4837274345283499,
+      "brier": 0.215455056218035,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.14452415640134975,
+            "lower": 0.2,
+            "mean_probability": 0.26952415640134975,
+            "observed": 0.125,
+            "rows": 8,
+            "trade_weight_mass": 0.041025641025641026,
+            "trades": 8,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.04644459644625737,
+            "lower": 0.3,
+            "mean_probability": 0.3547152731379868,
+            "observed": 0.3082706766917294,
+            "rows": 133,
+            "trade_weight_mass": 0.682051282051282,
+            "trades": 133,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.15454139957479351,
+            "lower": 0.4,
+            "mean_probability": 0.4323191773525714,
+            "observed": 0.2777777777777779,
+            "rows": 54,
+            "trade_weight_mass": 0.2769230769230768,
+            "trades": 54,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.08040287259283013,
+        "estimable": true,
+        "intercept": -0.8672742277537112,
+        "slope": 0.032206595581123466
+      },
+      "log_loss": 0.6226136861635534,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "final_5m_minus_preceding_5m",
+      "acceleration_5m_missing",
+      "final_15m_minus_preceding_15m",
+      "acceleration_15m_missing"
+    ],
+    "versus_full_M2": {
+      "auc": 0.004703788456648872,
+      "brier": -0.0004230200873989731,
+      "log_loss": -0.0008717399488388233
+    }
+  },
+  "efficiency": {
+    "metrics": {
+      "auc": 0.47495550470378844,
+      "brier": 0.2153946618978021,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.12521642154030196,
+            "lower": 0.2,
+            "mean_probability": 0.26807356439744484,
+            "observed": 0.14285714285714288,
+            "rows": 7,
+            "trade_weight_mass": 0.035897435897435895,
+            "trades": 7,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.04472625960752202,
+            "lower": 0.3,
+            "mean_probability": 0.35583737071863325,
+            "observed": 0.3111111111111112,
+            "rows": 135,
+            "trade_weight_mass": 0.6923076923076922,
+            "trades": 135,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.16441721824675898,
+            "lower": 0.4,
+            "mean_probability": 0.4285681616429855,
+            "observed": 0.2641509433962265,
+            "rows": 53,
+            "trade_weight_mass": 0.2717948717948717,
+            "trades": 53,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.08014703879423492,
+        "estimable": true,
+        "intercept": -0.8957796805760608,
+        "slope": -0.021981741471322758
+      },
+      "log_loss": 0.6225128910191349,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "entry_to_t2_path_efficiency"
+    ],
+    "versus_full_M2": {
+      "auc": -0.004068141367912559,
+      "brier": -0.00048341440763188803,
+      "log_loss": -0.0009725350932573429
+    }
+  },
+  "excursion": {
+    "metrics": {
+      "auc": 0.47800661072972284,
+      "brier": 0.21605084534722147,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.07699721734302756,
+            "lower": 0.2,
+            "mean_probability": 0.27699721734302757,
+            "observed": 0.2,
+            "rows": 5,
+            "trade_weight_mass": 0.02564102564102564,
+            "trades": 5,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.04756717154491785,
+            "lower": 0.3,
+            "mean_probability": 0.354710028687775,
+            "observed": 0.30714285714285716,
+            "rows": 140,
+            "trade_weight_mass": 0.7179487179487178,
+            "trades": 140,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.1655064668437341,
+            "lower": 0.4,
+            "mean_probability": 0.4308125892927137,
+            "observed": 0.2653061224489796,
+            "rows": 49,
+            "trade_weight_mass": 0.2512820512820513,
+            "trades": 49,
+            "upper": 0.5
+          },
+          {
+            "absolute_gap": 0.501583071564064,
+            "lower": 0.5,
+            "mean_probability": 0.501583071564064,
+            "observed": 0.0,
+            "rows": 1,
+            "trade_weight_mass": 0.005128205128205128,
+            "trades": 1,
+            "upper": 0.6
+          }
+        ],
+        "ece": 0.08028610282005472,
+        "estimable": true,
+        "intercept": -1.0056965241825258,
+        "slope": -0.23043000179998335
+      },
+      "log_loss": 0.6240046911652005,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "pre_t2_mfe",
+      "pre_t2_mae",
+      "pre_t2_range"
+    ],
+    "versus_full_M2": {
+      "auc": -0.0010170353419781675,
+      "brier": 0.00017276904178747943,
+      "log_loss": 0.0005192650528083043
+    }
+  },
+  "late_momentum": {
+    "metrics": {
+      "auc": 0.4786422578184592,
+      "brier": 0.21568060626932534,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.05060677778082767,
+            "lower": 0.2,
+            "mean_probability": 0.2728290000030499,
+            "observed": 0.2222222222222222,
+            "rows": 9,
+            "trade_weight_mass": 0.046153846153846156,
+            "trades": 9,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.037525126974609246,
+            "lower": 0.3,
+            "mean_probability": 0.3557069451564275,
+            "observed": 0.31818181818181823,
+            "rows": 132,
+            "trade_weight_mass": 0.6769230769230768,
+            "trades": 132,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.18658799115101748,
+            "lower": 0.4,
+            "mean_probability": 0.4273287318917583,
+            "observed": 0.2407407407407408,
+            "rows": 54,
+            "trade_weight_mass": 0.2769230769230768,
+            "trades": 54,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.07940784247605544,
+        "estimable": true,
+        "intercept": -0.9511998485304599,
+        "slope": -0.12620800645461883
+      },
+      "log_loss": 0.6231567990491158,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "final_5m_return",
+      "final_5m_return_missing",
+      "final_15m_return",
+      "final_15m_return_missing",
+      "final_30m_return",
+      "final_30m_return_missing"
+    ],
+    "versus_full_M2": {
+      "auc": -0.0003813882532417989,
+      "brier": -0.000197470036108649,
+      "log_loss": -0.0003286270632764099
+    }
+  },
+  "peak_drawdown": {
+    "metrics": {
+      "auc": 0.4644037630307653,
+      "brier": 0.21649268699070712,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.024572919599094578,
+            "lower": 0.2,
+            "mean_probability": 0.2745729195990946,
+            "observed": 0.25,
+            "rows": 8,
+            "trade_weight_mass": 0.041025641025641026,
+            "trades": 8,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.04931397160661061,
+            "lower": 0.3,
+            "mean_probability": 0.35301767531031436,
+            "observed": 0.30370370370370375,
+            "rows": 135,
+            "trade_weight_mass": 0.6923076923076922,
+            "trades": 135,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.1641281811062515,
+            "lower": 0.4,
+            "mean_probability": 0.43335895033702077,
+            "observed": 0.2692307692307693,
+            "rows": 52,
+            "trade_weight_mass": 0.2666666666666666,
+            "trades": 52,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.07891607662159109,
+        "estimable": true,
+        "intercept": -1.041932469675942,
+        "slope": -0.29498599184027813
+      },
+      "log_loss": 0.6248944889904259,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "pre_t2_new_running_highs",
+      "pre_t2_max_drawdown",
+      "last_pre_t2_peak_to_t2_minutes"
+    ],
+    "versus_full_M2": {
+      "auc": -0.0146198830409357,
+      "brier": 0.0006146106852731315,
+      "log_loss": 0.0014090628780336623
+    }
+  },
+  "time_above_entry": {
+    "metrics": {
+      "auc": 0.4820747520976354,
+      "brier": 0.21521560712838894,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.10342621615341868,
+            "lower": 0.2,
+            "mean_probability": 0.27009288282008537,
+            "observed": 0.16666666666666669,
+            "rows": 6,
+            "trade_weight_mass": 0.030769230769230767,
+            "trades": 6,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.05156030217623475,
+            "lower": 0.3,
+            "mean_probability": 0.3559081282631913,
+            "observed": 0.30434782608695654,
+            "rows": 138,
+            "trade_weight_mass": 0.7076923076923076,
+            "trades": 138,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.15412128483648174,
+            "lower": 0.4,
+            "mean_probability": 0.4286310887580504,
+            "observed": 0.27450980392156865,
+            "rows": 51,
+            "trade_weight_mass": 0.2615384615384615,
+            "trades": 51,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.07997981807128962,
+        "estimable": true,
+        "intercept": -0.892232585394519,
+        "slope": -0.01523968123179937
+      },
+      "log_loss": 0.6221406596736937,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "pre_t2_fraction_close_above_entry",
+      "pre_t2_fraction_close_within_0p5pct_peak"
+    ],
+    "versus_full_M2": {
+      "auc": 0.0030511060259343914,
+      "brier": -0.0006624691770450442,
+      "log_loss": -0.0013447664386985192
+    }
+  },
+  "timing": {
+    "metrics": {
+      "auc": 0.5026697177726926,
+      "brier": 0.21369854147719966,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.2787788819951518,
+            "lower": 0.2,
+            "mean_probability": 0.2787788819951518,
+            "observed": 0.0,
+            "rows": 8,
+            "trade_weight_mass": 0.041025641025641026,
+            "trades": 8,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.04618199679028295,
+            "lower": 0.3,
+            "mean_probability": 0.3582387343789355,
+            "observed": 0.31205673758865254,
+            "rows": 141,
+            "trade_weight_mass": 0.723076923076923,
+            "trades": 141,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.15890908753151423,
+            "lower": 0.4,
+            "mean_probability": 0.42557575419818083,
+            "observed": 0.2666666666666666,
+            "rows": 45,
+            "trade_weight_mass": 0.2307692307692308,
+            "trades": 45,
+            "upper": 0.5
+          },
+          {
+            "absolute_gap": 0.4957205348378433,
+            "lower": 0.5,
+            "mean_probability": 0.5042794651621567,
+            "observed": 1.0,
+            "rows": 1,
+            "trade_weight_mass": 0.005128205128205128,
+            "trades": 1,
+            "upper": 0.6
+          }
+        ],
+        "ece": 0.08404370295972868,
+        "estimable": true,
+        "intercept": -0.6694316973014931,
+        "slope": 0.40660324296755024
+      },
+      "log_loss": 0.6187596614123236,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "entry_to_t2_minutes",
+      "entry_to_first_0p5pct_minutes",
+      "entry_to_first_0p5pct_missing",
+      "entry_to_first_1pct_minutes",
+      "entry_to_first_1pct_missing"
+    ],
+    "versus_full_M2": {
+      "auc": 0.023646071700991644,
+      "brier": -0.002179534828234325,
+      "log_loss": -0.00472576470006858
+    }
+  },
+  "volatility": {
+    "metrics": {
+      "auc": 0.4799135519959319,
+      "brier": 0.21586173938457773,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.16234675257832543,
+            "lower": 0.2,
+            "mean_probability": 0.27345786368943653,
+            "observed": 0.1111111111111111,
+            "rows": 9,
+            "trade_weight_mass": 0.046153846153846156,
+            "trades": 9,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.03927378129556591,
+            "lower": 0.3,
+            "mean_probability": 0.35506325497977653,
+            "observed": 0.3157894736842106,
+            "rows": 133,
+            "trade_weight_mass": 0.682051282051282,
+            "trades": 133,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.1691847019812533,
+            "lower": 0.4,
+            "mean_probability": 0.4333356453774798,
+            "observed": 0.2641509433962265,
+            "rows": 53,
+            "trade_weight_mass": 0.2717948717948717,
+            "trades": 53,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.08026319431036727,
+        "estimable": true,
+        "intercept": -0.9145014471076973,
+        "slope": -0.05748439449487861
+      },
+      "log_loss": 0.6234457605556094,
+      "prevalence": 0.2923076923076923,
+      "rows": 195,
+      "trades": 195
+    },
+    "removed": [
+      "pre_t2_return_std"
+    ],
+    "versus_full_M2": {
+      "auc": 0.0008899059242308827,
+      "brier": -1.633692085625804e-05,
+      "log_loss": -3.9665556782808586e-05
+    }
+  }
+}

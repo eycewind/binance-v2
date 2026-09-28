@@ -1,0 +1,98 @@
+{
+  "models": {
+    "M1": {
+      "auc": 0.5760869565217391,
+      "brier": 0.20181734330962522,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.7206202398266824,
+            "lower": 0.2,
+            "mean_probability": 0.27937976017331756,
+            "observed": 1.0,
+            "rows": 1,
+            "trade_weight_mass": 0.008130081300813009,
+            "trades": 1,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.1382513582226442,
+            "lower": 0.3,
+            "mean_probability": 0.3690205889918749,
+            "observed": 0.2307692307692307,
+            "rows": 117,
+            "trade_weight_mass": 0.9512195121951224,
+            "trades": 117,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.19681500508098387,
+            "lower": 0.4,
+            "mean_probability": 0.4031849949190161,
+            "observed": 0.6,
+            "rows": 5,
+            "trade_weight_mass": 0.04065040650406505,
+            "trades": 5,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.14536670062830065,
+        "estimable": true,
+        "intercept": -0.4746190689818505,
+        "slope": 1.1523947666256809
+      },
+      "log_loss": 0.5949074283469369,
+      "prevalence": 0.2520325203252033,
+      "rows": 123,
+      "trades": 123
+    },
+    "M2": {
+      "auc": 0.47194950911640954,
+      "brier": 0.20719240092353258,
+      "calibration": {
+        "bins": [
+          {
+            "absolute_gap": 0.2818558051325213,
+            "lower": 0.2,
+            "mean_probability": 0.2818558051325213,
+            "observed": 0.0,
+            "rows": 5,
+            "trade_weight_mass": 0.04065040650406505,
+            "trades": 5,
+            "upper": 0.30000000000000004
+          },
+          {
+            "absolute_gap": 0.05710759506064905,
+            "lower": 0.3,
+            "mean_probability": 0.3519793899324438,
+            "observed": 0.29487179487179477,
+            "rows": 78,
+            "trade_weight_mass": 0.634146341463415,
+            "trades": 78,
+            "upper": 0.4
+          },
+          {
+            "absolute_gap": 0.23324939014182408,
+            "lower": 0.4,
+            "mean_probability": 0.43324939014182406,
+            "observed": 0.19999999999999998,
+            "rows": 40,
+            "trade_weight_mass": 0.3252032520325204,
+            "trades": 40,
+            "upper": 0.5
+          }
+        ],
+        "ece": 0.1235255857403756,
+        "estimable": true,
+        "intercept": -1.229155838451613,
+        "slope": -0.2735653095654959
+      },
+      "log_loss": 0.6056240021264515,
+      "prevalence": 0.2520325203252033,
+      "rows": 123,
+      "trades": 123
+    }
+  },
+  "prevalence": 0.25203252032520324,
+  "trades": 123
+}

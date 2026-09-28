@@ -1,0 +1,9 @@
+{
+  "conda_environment": "binance-v2-research",
+  "contract_sha256": "fc6b5534b2f4eb5eb6147a58888a5754635f7be654cceceb64f9bf5db823b2b3",
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "seed": 20260928,
+  "version": "C17_RUN_V1"
+}
