@@ -1,0 +1,87 @@
+{
+  "DELTA_LIQ_15": {
+    "classification": "NO_USEFUL_ORDERING",
+    "not_driven_by_one_symbol": true,
+    "symbols_with_positive_linear_association": 5,
+    "years": {
+      "2024": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": false,
+        "positive_associations": true
+      },
+      "2025": {
+        "broadly_increasing_bands": true,
+        "high_minus_low_positive": true,
+        "positive_associations": true
+      }
+    }
+  },
+  "DELTA_LIQ_30": {
+    "classification": "NO_USEFUL_ORDERING",
+    "not_driven_by_one_symbol": true,
+    "symbols_with_positive_linear_association": 5,
+    "years": {
+      "2024": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": false,
+        "positive_associations": true
+      },
+      "2025": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": true,
+        "positive_associations": true
+      }
+    }
+  },
+  "DELTA_LIQ_5": {
+    "classification": "WEAK_ORDERING",
+    "not_driven_by_one_symbol": true,
+    "symbols_with_positive_linear_association": 5,
+    "years": {
+      "2024": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": true,
+        "positive_associations": true
+      },
+      "2025": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": true,
+        "positive_associations": true
+      }
+    }
+  },
+  "DELTA_LIQ_60": {
+    "classification": "NO_USEFUL_ORDERING",
+    "not_driven_by_one_symbol": true,
+    "symbols_with_positive_linear_association": 5,
+    "years": {
+      "2024": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": false,
+        "positive_associations": true
+      },
+      "2025": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": false,
+        "positive_associations": true
+      }
+    }
+  },
+  "DELTA_LIQ_EVENT": {
+    "classification": "NO_USEFUL_ORDERING",
+    "not_driven_by_one_symbol": true,
+    "symbols_with_positive_linear_association": 5,
+    "years": {
+      "2024": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": false,
+        "positive_associations": true
+      },
+      "2025": {
+        "broadly_increasing_bands": false,
+        "high_minus_low_positive": false,
+        "positive_associations": true
+      }
+    }
+  }
+}

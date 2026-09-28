@@ -1,0 +1,9 @@
+{
+  "contract_sha256": "d3184d932a06ccd18dc9cc50412f801c5de92bd2ba6f1e12808c5958e994a491",
+  "inputs": {
+    "c7_population": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "c9_final_summary": "38a8859b65f5e9bfbb1ebda900c777c7e559516c824510c65bc5fc16e44dbd58",
+    "contracts/C20_forward_liquidation_value_CONTRACT.md": "d3184d932a06ccd18dc9cc50412f801c5de92bd2ba6f1e12808c5958e994a491"
+  },
+  "no_2026_access": true
+}

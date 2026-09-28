@@ -1,0 +1,82 @@
+{
+  "DELTA_LIQ_15": {
+    "best": 0.020048832226236983,
+    "negative_paired_contribution_usdt": -975.8083074677795,
+    "p10": -0.0018267067199292952,
+    "p90": 0.0026251563594098834,
+    "positive_contribution_concentration": {
+      "top_10_percent_of_trades": 0.659174135462874,
+      "top_1_percent_of_trades": 0.1545099411687095,
+      "top_20_percent_of_trades": 0.8643996312307889,
+      "top_5_percent_of_trades": 0.446578225033069
+    },
+    "positive_paired_contribution_usdt": 1387.4178561025824,
+    "trade_measure": "mean snapshot DELTA_LIQ per trade",
+    "trades": 1610,
+    "worst": -0.015191897640862402
+  },
+  "DELTA_LIQ_30": {
+    "best": 0.020048832226236983,
+    "negative_paired_contribution_usdt": -1746.0733865331174,
+    "p10": -0.003148620441685304,
+    "p90": 0.004807774890184231,
+    "positive_contribution_concentration": {
+      "top_10_percent_of_trades": 0.5762999794543563,
+      "top_1_percent_of_trades": 0.11174926397769397,
+      "top_20_percent_of_trades": 0.823115633409088,
+      "top_5_percent_of_trades": 0.36504219067225924
+    },
+    "positive_paired_contribution_usdt": 2135.0509931016263,
+    "trade_measure": "mean snapshot DELTA_LIQ per trade",
+    "trades": 1610,
+    "worst": -0.029458392416413313
+  },
+  "DELTA_LIQ_5": {
+    "best": 0.020048832226236983,
+    "negative_paired_contribution_usdt": -357.29615093326646,
+    "p10": -0.0006524455516824324,
+    "p90": 0.0009154557047228652,
+    "positive_contribution_concentration": {
+      "top_10_percent_of_trades": 0.7418038989959681,
+      "top_1_percent_of_trades": 0.2584843583034059,
+      "top_20_percent_of_trades": 0.8988239695661768,
+      "top_5_percent_of_trades": 0.569025849648983
+    },
+    "positive_paired_contribution_usdt": 615.7400483128214,
+    "trade_measure": "mean snapshot DELTA_LIQ per trade",
+    "trades": 1610,
+    "worst": -0.005319871893529084
+  },
+  "DELTA_LIQ_60": {
+    "best": 0.025707678258398637,
+    "negative_paired_contribution_usdt": -2617.557913086738,
+    "p10": -0.004604177656646484,
+    "p90": 0.006484599334248378,
+    "positive_contribution_concentration": {
+      "top_10_percent_of_trades": 0.5074591641492099,
+      "top_1_percent_of_trades": 0.09321733181593647,
+      "top_20_percent_of_trades": 0.7740206153411716,
+      "top_5_percent_of_trades": 0.3096268808574866
+    },
+    "positive_paired_contribution_usdt": 3027.797583951674,
+    "trade_measure": "mean snapshot DELTA_LIQ per trade",
+    "trades": 1610,
+    "worst": -0.055774237753205995
+  },
+  "DELTA_LIQ_EVENT": {
+    "best": 0.030342850550443237,
+    "negative_paired_contribution_usdt": -4700.354175898516,
+    "p10": -0.0082018630717056,
+    "p90": 0.009824967491496923,
+    "positive_contribution_concentration": {
+      "top_10_percent_of_trades": 0.396562709934059,
+      "top_1_percent_of_trades": 0.06530096852195594,
+      "top_20_percent_of_trades": 0.6674503067146569,
+      "top_5_percent_of_trades": 0.23048828167684654
+    },
+    "positive_paired_contribution_usdt": 5087.340147264028,
+    "trade_measure": "mean snapshot DELTA_LIQ per trade",
+    "trades": 1610,
+    "worst": -0.08485673502983698
+  }
+}

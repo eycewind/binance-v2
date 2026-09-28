@@ -1,0 +1,58 @@
+{
+  "15": {
+    "counts": {
+      "HORIZON_REACHED": 51447,
+      "P0_FIRST": 2961,
+      "T2_FIRST": 1809
+    },
+    "fractions": {
+      "HORIZON_REACHED": 0.7838009681735916,
+      "P0_FIRST": 0.11538575004462129,
+      "T2_FIRST": 0.10081328178178742
+    },
+    "snapshots": 56217,
+    "unique_trades": 1610
+  },
+  "30": {
+    "counts": {
+      "HORIZON_REACHED": 46855,
+      "P0_FIRST": 5922,
+      "T2_FIRST": 3440
+    },
+    "fractions": {
+      "HORIZON_REACHED": 0.6134404456639528,
+      "P0_FIRST": 0.23077150008924263,
+      "T2_FIRST": 0.1557880542468046
+    },
+    "snapshots": 56217,
+    "unique_trades": 1610
+  },
+  "5": {
+    "counts": {
+      "HORIZON_REACHED": 54607,
+      "P0_FIRST": 987,
+      "T2_FIRST": 623
+    },
+    "fractions": {
+      "HORIZON_REACHED": 0.9171676105092099,
+      "P0_FIRST": 0.038461916681540434,
+      "T2_FIRST": 0.04437047280925004
+    },
+    "snapshots": 56217,
+    "unique_trades": 1610
+  },
+  "60": {
+    "counts": {
+      "HORIZON_REACHED": 39069,
+      "P0_FIRST": 10882,
+      "T2_FIRST": 6266
+    },
+    "fractions": {
+      "HORIZON_REACHED": 0.3749363348491876,
+      "P0_FIRST": 0.4016935742421029,
+      "T2_FIRST": 0.22337009090870966
+    },
+    "snapshots": 56217,
+    "unique_trades": 1610
+  }
+}

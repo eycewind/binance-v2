@@ -1,0 +1,6 @@
+{
+  "bounded_targets_with_ordering_supported": [],
+  "c21_started": false,
+  "methodology_only": true,
+  "recommendation": "No bounded target establishes stable ordering; do not proceed to a C9-based sequential policy without reformulating the decision state."
+}

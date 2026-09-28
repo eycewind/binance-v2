@@ -1,0 +1,22 @@
+{
+  "c21_recommendation.json": "f7732cff9a1932cfa0d3f3d77fbcd8b2194dd84e0c2b43885df732d1ebc8137f",
+  "cost_sensitivity.json": "2b6696fa0491e444282fa4b282847cb0ce98bc04cf12f0a80ce616c11da11a80",
+  "economic_level.json": "5d2f2e81d726d6cedea6253cb6dbaf1529d5498805b6e2270cd5736d83babfd2",
+  "economic_ordering.json": "ba519c1095f45fea44653d84c1496eb268ed1448e20be6341fe66a909ab039d6",
+  "elapsed_time_summary.json": "e471bc2b336b3f281a6e6569b4bf14456925372024900761a0c8e92193e97f19",
+  "endpoint_composition.json": "7ea17a94dae4c5ae8d28a21b1aeb0ce16a651990babf8a4cf2d42f0233ef75ac",
+  "final_summary.json": "aad96cf96cc360989c184822b76411eea2c5b44a95ca66cabe44f3565b92462e",
+  "interpretation_predicates.json": "c9c08e9f5da65c571224f0da800142a288815ff82a88be5c8f9c8f5df66c73fb",
+  "leakage_firewall.json": "3778559b0cdceda638c13fb6e49ed605dcb84a074e17561606032984c5750110",
+  "outcome_class_summary.json": "d0eeac1be332493c63ce97152d208ecf0e1c23b5c050deeea40e776d2ce43e06",
+  "overall_forward_value.json": "aed262d97a5471465bf5202a33d09c3c32f576fccdd5c213db4d9262a9b5237c",
+  "population_reconciliation.json": "6742a125db2fa19f2c0a637ce909e097b082765ed6bd0a0b624226c7bf62cb03",
+  "probability_band_summary.json": "91bbf51f5f06eb46fd1e19aa8867c111ebf55d1e6e734c912c8372c3e6193297",
+  "provenance.json": "c51fc769015a3cc202ab0602d76aa197f7660a5ea83c224660bdacff5cee6196",
+  "right_tail_downside_summary.json": "0cbe7a8e0e944ce1e2245e73836f5d10cdac0f452b86ac09f46111da9169402c",
+  "run_manifest.json": "6c69a5ec3c2800ce5527d7efdb1e5adae2025cf9ed1b194ff80be157a528387d",
+  "symbol_summary.json": "82daa81e52e10d182eb4180909e52458278e1eec5d46184b17d5eff514d8da9d",
+  "target_definition.json": "b44168bac42fb21806ccd8e65f9d4d42d50dcfaf110fc358edd960c8228d73a2",
+  "trajectory_alignment.json": "0dfa9ca8fafe9224990ebc188f83211946638e8e8714f6d490259be5900c0416",
+  "year_summary.json": "23fa6af8b93b28126eb973d0045784569bb25e92011e72435669ecd9c189eb5f"
+}

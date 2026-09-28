@@ -1,0 +1,25 @@
+{
+  "causal_snapshot_trades": 2160,
+  "causal_snapshots": 75164,
+  "eligible_target_snapshots": 56217,
+  "eligible_target_trades": 1610,
+  "expected_reference": {
+    "honestly_scored_snapshots": 56217,
+    "honestly_scored_trades": 1610,
+    "source_outcomes": {
+      "P0_FIRST": 1354,
+      "T2_FIRST": 845
+    },
+    "source_trades": 2199
+  },
+  "honestly_scored_snapshots": 56217,
+  "honestly_scored_trades": 1610,
+  "reference_reconciled": true,
+  "source_outcomes": {
+    "P0_FIRST": 1354,
+    "T2_FIRST": 845
+  },
+  "source_trades": 2199,
+  "target_ineligible": {},
+  "unscored_causal_snapshots": 18947
+}

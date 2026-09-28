@@ -1,0 +1,12 @@
+{
+  "completed_information_only": true,
+  "exact_next_open": true,
+  "future_max_or_best_exit_used": false,
+  "future_targets_evaluation_only": true,
+  "gap_missing_duplicate_fail_closed": true,
+  "no_2026_access": true,
+  "no_post_terminal_lookup_by_construction": true,
+  "status": "PASS",
+  "terminal_precedence": true,
+  "unscored_probability_inference": false
+}

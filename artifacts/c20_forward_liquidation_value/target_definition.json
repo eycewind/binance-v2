@@ -1,0 +1,15 @@
+{
+  "DELTA_LIQ_EVENT(t)": "EVENT_NET(t) - EXIT_NOW_NET(t)",
+  "DELTA_LIQ_H(t)": "FORWARD_NET_H(t) - EXIT_NOW_NET(t)",
+  "EXIT_NOW_NET(t)": "net(entry_price, open[t], cost)",
+  "FORWARD_NET_H(t)": "net(entry_price, executable price at endpoint_H, cost)",
+  "endpoint_H": "min(t + H, first frozen lifecycle terminal)",
+  "horizons_minutes": [
+    5,
+    15,
+    30,
+    60
+  ],
+  "paired_cost_algebra": "q*(1-s)*(1-f)*(P_endpoint-P_now)/N; common entry debit, entry fee, and acquired quantity cancel",
+  "primary_cost": "C_BASE"
+}
