@@ -1,0 +1,13 @@
+{
+  "frequency_distinction": "Higher-resolution observation does not imply frequent or immediate exits.",
+  "guards": [
+    "no intrabar hindsight",
+    "P0 wins ties prospectively",
+    "missing, duplicate, invalid, or gapped execution evidence fails closed"
+  ],
+  "sequence": [
+    "form state from completed information",
+    "decide after state completion",
+    "execute no earlier than the next valid 1-minute open"
+  ]
+}

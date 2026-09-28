@@ -1,0 +1,12 @@
+{
+  "direction": "C20 should be a bounded forward-opportunity characterization before any policy experiment.",
+  "executed": false,
+  "prospective_targets": [
+    "DELTA_V_H at 5m",
+    "DELTA_V_H at 15m",
+    "DELTA_V_H at 30m",
+    "DELTA_V_H at 60m",
+    "DELTA_V_EVENT if its execution semantics are prospectively justified"
+  ],
+  "selection_rule": "Characterize all frozen candidates; do not select a best horizon from outcomes."
+}

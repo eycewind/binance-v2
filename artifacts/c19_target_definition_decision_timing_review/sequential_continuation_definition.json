@@ -1,0 +1,5 @@
+{
+  "commitment_guard": "Continue now does not imply commitment to P0.",
+  "decision": "EXIT NOW versus CONTINUE FOR NOW, OBSERVE NEW CAUSAL INFORMATION, AND REASSESS LATER",
+  "optionality": "Continuation retains the option to act on later causal states; its value includes outcomes induced by those future decisions."
+}

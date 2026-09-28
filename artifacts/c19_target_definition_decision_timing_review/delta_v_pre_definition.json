@@ -1,0 +1,20 @@
+{
+  "cost_model": {
+    "fee_rate_each_leg": 0.001,
+    "primary": "C_BASE",
+    "slippage_rate_each_leg": 0.0002
+  },
+  "entry": {
+    "quantity": "1000 / (entry_price * (1 + slippage_rate))",
+    "quote_notional": 1000.0,
+    "raw_price": "frozen entry_price"
+  },
+  "entry_costs": "adverse entry slippage determines common quantity; the 1000 quote debit and 0.1% entry fee are common",
+  "equation": "DELTA_V_PRE(t) = HOLD_TO_P0_NET(t) - EXIT_NOW_NET(t)",
+  "executed_notional": "entry executed quote notional is fixed at 1000; exit executed quote notional is quantity * raw_exit_price * (1-slippage_rate), not re-fixed to 1000",
+  "exit_costs": "each alternative applies adverse exit slippage then 0.1% fee to its own exit executed notional",
+  "exit_now": "raw open at state_ms: the immediate next executable 1-minute open after completion",
+  "p0": "frozen canonical p0_execution_ms and p0_raw_exit_price from the C7 population manifest",
+  "state_timestamp": "state_ms is the boundary after all state information is complete",
+  "ties_and_gaps": "state_ms >= P0 is ineligible (P0 precedence); exact next open, finite positive price, and continuous prior minute are required; otherwise fail closed"
+}

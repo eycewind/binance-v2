@@ -1,0 +1,12 @@
+{
+  "insufficient_alone": [
+    "win rate",
+    "median outcome",
+    "avoided red trades",
+    "state-classification accuracy"
+  ],
+  "must_measure": [
+    "downside avoided",
+    "right-tail upside destroyed"
+  ]
+}

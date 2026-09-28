@@ -1,0 +1,22 @@
+{
+  "implemented_in_c19": false,
+  "minimum_outputs": [
+    "per-trade paired net-return difference",
+    "total P&L difference",
+    "mean paired difference",
+    "median paired difference",
+    "fraction improved",
+    "fraction worsened",
+    "positive contribution",
+    "negative contribution",
+    "winner/right-tail truncation",
+    "downside protection",
+    "holding/exposure changes",
+    "trigger and fallback counts"
+  ],
+  "population_rule": "Use per-trade paired differences over the complete frozen population; non-triggered trades retain the exact comparator outcome.",
+  "two_sided_requirement": [
+    "avoided losses/preserved gains",
+    "abandoned winners/foregone upside"
+  ]
+}

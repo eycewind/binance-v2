@@ -1,0 +1,12 @@
+{
+  "primary_unit": "trade",
+  "prohibitions": [
+    "do not treat 1-minute snapshots as independent economic samples",
+    "do not select a policy post hoc from symbol/year decompositions"
+  ],
+  "required": [
+    "trade-level paired analysis",
+    "whole-trade bootstrap/resampling where applicable"
+  ],
+  "robustness": "fixed calendar-block bootstrap when applicable to shared market-regime/time dependence"
+}

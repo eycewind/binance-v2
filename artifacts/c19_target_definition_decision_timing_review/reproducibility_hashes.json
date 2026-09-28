@@ -1,0 +1,19 @@
+{
+  "c18_reinterpretation.json": "520dcb6f2a680d8346fd1b5223e1c03edc027037db607390b3fab0b5cdaf56a5",
+  "c20_recommendation.json": "584210d16944c1f1d269639756883c5dd7c17451984098e68354f5edcc97c5f7",
+  "candidate_target_taxonomy.json": "54344d0473526d240ebea45f0d62328710a46bb0ce7531c4d50f12eef390f157",
+  "decision_timing.json": "ad30952b9dfbf4709ed32667f8bb43acedde0e8a35d2c41ca03427b74f207170",
+  "delta_v_pre_definition.json": "1d556a29bccbbc6c74f8abe2948ded5f57bf0800a262b64e06f923bea08d7d28",
+  "dependence_uncertainty_requirements.json": "8c1dcee41970d4baa60034b2353f2308f0e5b8a2d7c0219a1bf2c677c2efa5c9",
+  "final_summary.json": "7945192f2765005e4f8c2b882303f72e6d0bad5cbf14873a60b647550bd43313",
+  "future_policy_accounting_requirements.json": "dba3fefa0aa69d8986fa2ca1565598b3958685bf22f7babe26fa98266a93c65a",
+  "incremental_cost_decomposition.json": "8ea79bab275a81e92a1bf988e26efd73b5b07724888e241f32372bffe0420bcc",
+  "mechanical_relationships.json": "2fb04a1696a66587b5b9490dd4c6daf3e33f9ec468ece0f2a70859f9ae00ed6e",
+  "probability_vs_value_distinctions.json": "43115556d7aab46ea2cd9eb130dff28b509ffe844b2f9fe4597cbd2d59c9493c",
+  "provenance.json": "b4668de0202414b62507c6a301f94875fcc1c96b183db994537cf9b642e3235e",
+  "right_tail_requirements.json": "c90e2b2a65914ece4a57210c7f49ec011a216ea89ee1ee04924f36c7ecc3da2b",
+  "run_manifest.json": "77524e1c128e928fbc1a861a82b07cbe12e62e3e5695a6763d204aec82d56720",
+  "sequential_continuation_definition.json": "59ff4a493030c3369304186268fcb86d604aac3c4bc0a07ea4cd8dba0e7ba9f0",
+  "sequential_value_policy_dependency.json": "7921ffe34532c4bf902d1ea68b55e65414802f0bbec2efd61380a21ee2a6baca",
+  "terminal_commitment_definition.json": "d4ed3570159921ad6ce55cb7fe8e1ebbf5e908e9ba617700b723f666f2b2555f"
+}

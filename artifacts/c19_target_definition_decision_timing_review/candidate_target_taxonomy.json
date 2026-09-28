@@ -1,0 +1,36 @@
+{
+  "first_event": {
+    "advantages": [
+      "bounded by frozen lifecycle",
+      "policy-free terminal comparator"
+    ],
+    "definition": "value at first frozen lifecycle event among T2/P0 minus exit now",
+    "limitations": [
+      "event timing varies",
+      "still a terminal commitment to that event",
+      "T2 is a lifecycle label, not necessarily an economically executable exit objective"
+    ],
+    "name": "DELTA_V_EVENT"
+  },
+  "fixed_horizon": {
+    "candidate_minutes": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "definition": "executable value after prospectively chosen H minus exit-now value",
+    "name": "DELTA_V_H",
+    "status": "definition only; not evaluated or selected"
+  },
+  "sequential_policy": {
+    "definition": "value under a prospectively frozen future causal policy minus exit now",
+    "name": "DELTA_V_POLICY",
+    "status": "not identifiable until policy is defined"
+  },
+  "terminal": {
+    "definition": "hold to frozen P0 minus exit now",
+    "name": "DELTA_V_P0",
+    "status": "C18 target"
+  }
+}

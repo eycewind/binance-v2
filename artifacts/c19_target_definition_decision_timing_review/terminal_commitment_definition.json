@@ -1,0 +1,14 @@
+{
+  "c18_does_not_support": [
+    "the value of continue-and-reassess",
+    "a sequential exit policy",
+    "selection of a forward horizon",
+    "the claim that p_t2 has no value for any other decision target"
+  ],
+  "c18_supports": [
+    "C9 predicts the T2/P0 lifecycle outcome well",
+    "C9 does not usefully align with this terminal-commitment value target",
+    "C9 should not be used directly as an exit signal on C18 evidence"
+  ],
+  "decision": "EXIT NOW versus COMMIT TO HOLD UNTIL FROZEN P0"
+}

@@ -1,0 +1,5 @@
+{
+  "definition": "SEQUENTIAL_VALUE(t) = value of continuing now under a specified future causal decision rule - value of exiting now",
+  "identification": "It cannot be uniquely labeled from historical data until the downstream causal policy is prospectively specified.",
+  "prohibition": "Do not construct a policy-free optimal continuation value from future-best exits; that embeds hindsight and optimization."
+}

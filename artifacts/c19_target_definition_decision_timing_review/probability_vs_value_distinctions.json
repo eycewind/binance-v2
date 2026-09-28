@@ -1,0 +1,6 @@
+{
+  "action_benefit_probability": "P(policy action is beneficial | state): sign probability under a defined comparator/policy",
+  "conclusion": "A lifecycle-event probability is not automatically an economic decision model; failure against DELTA_V_P0 does not rule out relevance at another prospectively defined decision horizon.",
+  "event_probability": "P(event | state): prognosis for a lifecycle event",
+  "expected_value": "E[incremental economic value | state]: conditional magnitude-weighted economic target"
+}

@@ -1,0 +1,23 @@
+{
+  "alternative_net_return": "R(P) = [q*P*(1-s)*(1-f) - N - N*f] / N",
+  "common_components_cancelled": [
+    "N quote entry debit",
+    "N*f entry fee",
+    "common acquired quantity q; entry slippage is already embodied in q"
+  ],
+  "decomposition": "DELTA = q*(P0-Pt)/N - q*s*(P0-Pt)/N - f*q*(1-s)*(P0-Pt)/N = q*(1-s)*(1-f)*(P0-Pt)/N",
+  "finding": "Conditional on the already-held q, C18 exactly compares the two future net liquidation receipts; no accounting discrepancy was found.",
+  "future_cash_flow_equivalence": true,
+  "incremental_exit_fee_difference": "-f*q*(1-s)*(P0-Pt)/N",
+  "incremental_exit_slippage_difference": "-q*s*(P0-Pt)/N",
+  "symbols": {
+    "N": 1000.0,
+    "P0": "canonical P0 raw price",
+    "Pe": "entry raw price",
+    "Pt": "exit-now raw price",
+    "f": "fee rate",
+    "q": "N/[Pe(1+s)]",
+    "s": "slippage rate"
+  },
+  "terminal_gross_value_difference": "q*(P0-Pt)/N"
+}

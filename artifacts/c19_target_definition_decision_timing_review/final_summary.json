@@ -1,0 +1,53 @@
+{
+  "accounting_valid": true,
+  "c18_reinterpretation": {
+    "accounting_valid": true,
+    "established": [
+      "C9 predicts the T2/P0 lifecycle outcome well",
+      "C9 does not align with DELTA_V_PRE for terminal commitment",
+      "DELTA_V_PRE mechanically declines as current executable value rises toward or through fixed P0 value",
+      "C18 does not justify using C9 directly as an exit signal",
+      "C18 does not settle sequential continuation"
+    ],
+    "frozen_classification": "NO_USEFUL_ECONOMIC_ALIGNMENT",
+    "repair_required": false
+  },
+  "c20_recommendation": {
+    "direction": "C20 should be a bounded forward-opportunity characterization before any policy experiment.",
+    "executed": false,
+    "prospective_targets": [
+      "DELTA_V_H at 5m",
+      "DELTA_V_H at 15m",
+      "DELTA_V_H at 30m",
+      "DELTA_V_H at 60m",
+      "DELTA_V_EVENT if its execution semantics are prospectively justified"
+    ],
+    "selection_rule": "Characterize all frozen candidates; do not select a best horizon from outcomes."
+  },
+  "confirmations": {
+    "accessed_2026": false,
+    "c20_started": false,
+    "c7_c18_behavior_modified": false,
+    "candidate_horizons_evaluated": false,
+    "contract_modified": false,
+    "model_trained_or_run": false,
+    "policy_economics_calculated": false
+  },
+  "contract_sha256": "2ad42555f8168c30c1c8e8dd051809cc6126b410a465fede33683c780282341d",
+  "equation": "DELTA_V_PRE(t) = HOLD_TO_P0_NET(t) - EXIT_NOW_NET(t)",
+  "finding": "C18 accounting is valid but answers terminal commitment, while the intended architecture is sequential continuation.",
+  "mechanical_result": [
+    "Within one trade P0, q, s, f, and N are fixed, so DELTA_V_PRE is affine and strictly decreasing in Pt.",
+    "d(DELTA_V_PRE)/dPt = -q*(1-s)*(1-f)/N < 0.",
+    "Any state variable that rises with current executable value can be negatively correlated with DELTA_V_PRE even without a causal economic relationship."
+  ],
+  "verification": {
+    "common_cost_cancellation": "PASS by symbolic derivation and numeric focused test",
+    "contract_sha": "PASS",
+    "equation_and_cost_semantics": "PASS by source inspection and focused algebra/test",
+    "frozen_input_hashes": "PASS",
+    "model_policy_horizon_evaluation": false,
+    "next_open_p0_tie_gap_semantics": "PASS by frozen source inspection and focused tests",
+    "no_2026_access": true
+  }
+}

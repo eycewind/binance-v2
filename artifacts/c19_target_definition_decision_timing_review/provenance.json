@@ -1,0 +1,20 @@
+{
+  "c18_provenance_crosscheck": "PASS",
+  "contract_sha256": "2ad42555f8168c30c1c8e8dd051809cc6126b410a465fede33683c780282341d",
+  "frozen_inputs": {
+    "artifacts/c18_pre_t2_economic_value/final_summary.json": "449e1623ff7aa5d39af8ac6fad4e2c946c3118242db66c991cd5956dfcbb7f05",
+    "artifacts/c18_pre_t2_economic_value/interpretation_predicates.json": "76974bb94740b9af04cf982889aa1b43882109c303d1470439ac37d768d936ab",
+    "artifacts/c18_pre_t2_economic_value/provenance.json": "d4b0e40a6521e7b3a1b9fcc9ee78f951ce9b071da6c1ddf5e5bba6938bc5d6d4",
+    "artifacts/c18_pre_t2_economic_value/reproducibility_hashes.json": "b68f9f841f571be382ca6aa51d5d971fe4f55810432996ddb6dda4ea64919a38",
+    "artifacts/c18_pre_t2_economic_value/run_manifest.json": "f2a0cf1c5e870b299743a329e36870ba8875e9c632f2391f05c2916f40f4d32f",
+    "artifacts/c18_pre_t2_economic_value/target_definition.json": "4c2b0a4c9a56a7940736f15144ccf7faa36a1e938106dd576aad6f20e5234661",
+    "artifacts/c18_pre_t2_economic_value/trajectory_alignment.json": "aa683b35ce6baad0111822bb93705447bfbbfab6f1e1483ee30347612d3e30f9",
+    "artifacts/c7_full_population_t2_exit_overlay/population_manifest.json": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "artifacts/c9_dynamic_pre_t2_state/final_summary.json": "38a8859b65f5e9bfbb1ebda900c777c7e559516c824510c65bc5fc16e44dbd58",
+    "contracts/C18_pre_t2_economic_value_CONTRACT.md": "127c47d767b3ecdeac89108a21125b9996f6155ae61c463036af2b62f3193c0a",
+    "src/binance_data_foundation/c18_pre_t2_economic_value.py": "43044b09255566d76347479cf7bb410e3d258ad2d384513d9956cdc2c5dd0343",
+    "src/binance_data_foundation/c7_t1.py": "44b4f88a04ce254f56d4bedfaa42f3175cd87854e27d7269ce9963838f0bf263",
+    "src/binance_data_foundation/c8_timescale.py": "090cb745d06ae59b4e1947b28db39a9c1453befecd31908834c3dea1895bdaec"
+  },
+  "no_2026_access": true
+}
