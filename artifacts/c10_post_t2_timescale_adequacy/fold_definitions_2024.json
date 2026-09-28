@@ -1,0 +1,322 @@
+{
+  "A": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 78,
+          "DETERIORATION_FIRST": 106
+        },
+        "rows": 7259,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 39.45108695652174,
+          "median": 18.0,
+          "min": 1,
+          "p25": 7.75,
+          "p75": 38.25
+        },
+        "unique_trades": 184
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 37,
+          "DETERIORATION_FIRST": 69
+        },
+        "rows": 4390,
+        "rows_per_trade": {
+          "max": 285,
+          "mean": 41.41509433962264,
+          "median": 21.0,
+          "min": 1,
+          "p25": 6.0,
+          "p75": 58.5
+        },
+        "unique_trades": 106
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 115,
+          "DETERIORATION_FIRST": 175
+        },
+        "rows": 11649,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 40.16896551724138,
+          "median": 19.0,
+          "min": 1,
+          "p25": 7.0,
+          "p75": 46.5
+        },
+        "unique_trades": 290
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 43,
+          "DETERIORATION_FIRST": 56
+        },
+        "rows": 4851,
+        "rows_per_trade": {
+          "max": 328,
+          "mean": 49.0,
+          "median": 21.0,
+          "min": 1,
+          "p25": 9.5,
+          "p75": 54.0
+        },
+        "unique_trades": 99
+      }
+    }
+  },
+  "B": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 78,
+          "DETERIORATION_FIRST": 106
+        },
+        "rows": 7259,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 39.45108695652174,
+          "median": 18.0,
+          "min": 1,
+          "p25": 7.75,
+          "p75": 38.25
+        },
+        "unique_trades": 184
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 37,
+          "DETERIORATION_FIRST": 69
+        },
+        "rows": 4390,
+        "rows_per_trade": {
+          "max": 285,
+          "mean": 41.41509433962264,
+          "median": 21.0,
+          "min": 1,
+          "p25": 6.0,
+          "p75": 58.5
+        },
+        "unique_trades": 106
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 115,
+          "DETERIORATION_FIRST": 175
+        },
+        "rows": 11649,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 40.16896551724138,
+          "median": 19.0,
+          "min": 1,
+          "p25": 7.0,
+          "p75": 46.5
+        },
+        "unique_trades": 290
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 43,
+          "DETERIORATION_FIRST": 56
+        },
+        "rows": 4851,
+        "rows_per_trade": {
+          "max": 328,
+          "mean": 49.0,
+          "median": 21.0,
+          "min": 1,
+          "p25": 9.5,
+          "p75": 54.0
+        },
+        "unique_trades": 99
+      }
+    }
+  },
+  "C": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 78,
+          "DETERIORATION_FIRST": 106
+        },
+        "rows": 7259,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 39.45108695652174,
+          "median": 18.0,
+          "min": 1,
+          "p25": 7.75,
+          "p75": 38.25
+        },
+        "unique_trades": 184
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 37,
+          "DETERIORATION_FIRST": 69
+        },
+        "rows": 4390,
+        "rows_per_trade": {
+          "max": 285,
+          "mean": 41.41509433962264,
+          "median": 21.0,
+          "min": 1,
+          "p25": 6.0,
+          "p75": 58.5
+        },
+        "unique_trades": 106
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 115,
+          "DETERIORATION_FIRST": 175
+        },
+        "rows": 11649,
+        "rows_per_trade": {
+          "max": 347,
+          "mean": 40.16896551724138,
+          "median": 19.0,
+          "min": 1,
+          "p25": 7.0,
+          "p75": 46.5
+        },
+        "unique_trades": 290
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 43,
+          "DETERIORATION_FIRST": 56
+        },
+        "rows": 4851,
+        "rows_per_trade": {
+          "max": 328,
+          "mean": 49.0,
+          "median": 21.0,
+          "min": 1,
+          "p25": 9.5,
+          "p75": 54.0
+        },
+        "unique_trades": 99
+      }
+    }
+  },
+  "D": {
+    "fold_A": {
+      "bounds_ms": [
+        1704067200000,
+        1719792000000,
+        1727740800000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 77,
+          "DETERIORATION_FIRST": 101
+        },
+        "rows": 3634,
+        "rows_per_trade": {
+          "max": 174,
+          "mean": 20.415730337078653,
+          "median": 9.5,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 19.75
+        },
+        "unique_trades": 178
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 36,
+          "DETERIORATION_FIRST": 66
+        },
+        "rows": 2195,
+        "rows_per_trade": {
+          "max": 143,
+          "mean": 21.519607843137255,
+          "median": 11.0,
+          "min": 1,
+          "p25": 3.25,
+          "p75": 30.75
+        },
+        "unique_trades": 102
+      }
+    },
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 113,
+          "DETERIORATION_FIRST": 167
+        },
+        "rows": 5829,
+        "rows_per_trade": {
+          "max": 174,
+          "mean": 20.817857142857143,
+          "median": 10.0,
+          "min": 1,
+          "p25": 4.0,
+          "p75": 24.0
+        },
+        "unique_trades": 280
+      },
+      "validation": {
+        "class_counts": {
+          "CONTINUATION_FIRST": 43,
+          "DETERIORATION_FIRST": 55
+        },
+        "rows": 2427,
+        "rows_per_trade": {
+          "max": 164,
+          "mean": 24.76530612244898,
+          "median": 11.0,
+          "min": 1,
+          "p25": 5.0,
+          "p75": 27.5
+        },
+        "unique_trades": 98
+      }
+    }
+  }
+}

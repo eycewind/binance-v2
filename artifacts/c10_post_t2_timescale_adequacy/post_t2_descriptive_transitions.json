@@ -1,0 +1,307 @@
+{
+  "by_symbol": {
+    "BNBUSDT": {
+      "counts": {
+        "CONTINUATION_FIRST": 69,
+        "DETERIORATION_FIRST": 80,
+        "P0_FIRST": 1
+      },
+      "path_duration_minutes": {
+        "max": 3000.0,
+        "mean": 1024.3333333333333,
+        "median": 902.5,
+        "n": 150,
+        "p10": 284.5,
+        "p90": 2039.4999999999998
+      },
+      "proportions": {
+        "AMBIGUOUS": 0.0,
+        "CONTINUATION_FIRST": 0.46,
+        "DETERIORATION_FIRST": 0.5333333333333333,
+        "P0_FIRST": 0.006666666666666667
+      },
+      "terminal_close_distance_from_t2_peak": {
+        "max": 0.007501704932939335,
+        "mean": -0.0007488936371749137,
+        "median": -0.004656260140132262,
+        "n": 150,
+        "p10": -0.006210820460143041,
+        "p90": 0.005383305204775945
+      },
+      "time_to_event_minutes": {
+        "max": 1075.0,
+        "mean": 66.36666666666666,
+        "median": 33.0,
+        "n": 150,
+        "p10": 4.0,
+        "p90": 157.59999999999997
+      },
+      "trades": 150
+    },
+    "BTCUSDT": {
+      "counts": {
+        "CONTINUATION_FIRST": 65,
+        "DETERIORATION_FIRST": 75,
+        "P0_FIRST": 1
+      },
+      "path_duration_minutes": {
+        "max": 5340.0,
+        "mean": 1130.3900709219859,
+        "median": 820.0,
+        "n": 141,
+        "p10": 200.0,
+        "p90": 2525.0
+      },
+      "proportions": {
+        "AMBIGUOUS": 0.0,
+        "CONTINUATION_FIRST": 0.46099290780141844,
+        "DETERIORATION_FIRST": 0.5319148936170213,
+        "P0_FIRST": 0.0070921985815602835
+      },
+      "terminal_close_distance_from_t2_peak": {
+        "max": 0.008873370119006907,
+        "mean": -0.0005873169027205469,
+        "median": -0.004765288464929407,
+        "n": 141,
+        "p10": -0.006384945406904485,
+        "p90": 0.005691356957649107
+      },
+      "time_to_event_minutes": {
+        "max": 1345.0,
+        "mean": 76.60992907801419,
+        "median": 30.0,
+        "n": 141,
+        "p10": 6.0,
+        "p90": 190.0
+      },
+      "trades": 141
+    },
+    "ETHUSDT": {
+      "counts": {
+        "CONTINUATION_FIRST": 65,
+        "DETERIORATION_FIRST": 104
+      },
+      "path_duration_minutes": {
+        "max": 5215.0,
+        "mean": 986.0059171597633,
+        "median": 760.0,
+        "n": 169,
+        "p10": 194.00000000000003,
+        "p90": 2078.000000000003
+      },
+      "proportions": {
+        "AMBIGUOUS": 0.0,
+        "CONTINUATION_FIRST": 0.38461538461538464,
+        "DETERIORATION_FIRST": 0.6153846153846154,
+        "P0_FIRST": 0.0
+      },
+      "terminal_close_distance_from_t2_peak": {
+        "max": 0.014038890619338495,
+        "mean": -0.0017991720445532254,
+        "median": -0.0050535600378329715,
+        "n": 169,
+        "p10": -0.007381982307511148,
+        "p90": 0.005522330728261382
+      },
+      "time_to_event_minutes": {
+        "max": 342.0,
+        "mean": 43.349112426035504,
+        "median": 17.0,
+        "n": 169,
+        "p10": 3.0,
+        "p90": 121.60000000000005
+      },
+      "trades": 169
+    },
+    "SOLUSDT": {
+      "counts": {
+        "CONTINUATION_FIRST": 66,
+        "DETERIORATION_FIRST": 137
+      },
+      "path_duration_minutes": {
+        "max": 6140.0,
+        "mean": 871.4778325123152,
+        "median": 605.0,
+        "n": 203,
+        "p10": 125.0,
+        "p90": 1988.0000000000005
+      },
+      "proportions": {
+        "AMBIGUOUS": 0.0,
+        "CONTINUATION_FIRST": 0.3251231527093596,
+        "DETERIORATION_FIRST": 0.6748768472906403,
+        "P0_FIRST": 0.0
+      },
+      "terminal_close_distance_from_t2_peak": {
+        "max": 0.01146368305209089,
+        "mean": -0.00226264194385077,
+        "median": -0.005234159779614278,
+        "n": 203,
+        "p10": -0.007099486475895955,
+        "p90": 0.005644376472605739
+      },
+      "time_to_event_minutes": {
+        "max": 241.0,
+        "mean": 27.926108374384235,
+        "median": 14.0,
+        "n": 203,
+        "p10": 1.2000000000000028,
+        "p90": 77.80000000000007
+      },
+      "trades": 203
+    },
+    "XRPUSDT": {
+      "counts": {
+        "CONTINUATION_FIRST": 70,
+        "DETERIORATION_FIRST": 112
+      },
+      "path_duration_minutes": {
+        "max": 5455.0,
+        "mean": 999.0384615384615,
+        "median": 785.0,
+        "n": 182,
+        "p10": 160.5,
+        "p90": 2012.0000000000007
+      },
+      "proportions": {
+        "AMBIGUOUS": 0.0,
+        "CONTINUATION_FIRST": 0.38461538461538464,
+        "DETERIORATION_FIRST": 0.6153846153846154,
+        "P0_FIRST": 0.0
+      },
+      "terminal_close_distance_from_t2_peak": {
+        "max": 0.01255575747563209,
+        "mean": -0.0017852192466081816,
+        "median": -0.005027235674864627,
+        "n": 182,
+        "p10": -0.007276923749594788,
+        "p90": 0.005692593930345558
+      },
+      "time_to_event_minutes": {
+        "max": 348.0,
+        "mean": 36.824175824175825,
+        "median": 14.0,
+        "n": 182,
+        "p10": 2.0,
+        "p90": 92.9
+      },
+      "trades": 182
+    }
+  },
+  "by_year": {
+    "2024": {
+      "counts": {
+        "CONTINUATION_FIRST": 161,
+        "DETERIORATION_FIRST": 254
+      },
+      "path_duration_minutes": {
+        "max": 5340.0,
+        "mean": 964.8313253012049,
+        "median": 715.0,
+        "n": 415,
+        "p10": 160.0,
+        "p90": 2018.0
+      },
+      "proportions": {
+        "AMBIGUOUS": 0.0,
+        "CONTINUATION_FIRST": 0.38795180722891565,
+        "DETERIORATION_FIRST": 0.6120481927710844,
+        "P0_FIRST": 0.0
+      },
+      "terminal_close_distance_from_t2_peak": {
+        "max": 0.014038890619338495,
+        "mean": -0.0015554573520948467,
+        "median": -0.004954856723320855,
+        "n": 415,
+        "p10": -0.00697821248103665,
+        "p90": 0.005613280209977847
+      },
+      "time_to_event_minutes": {
+        "max": 348.0,
+        "mean": 40.75903614457831,
+        "median": 19.0,
+        "n": 415,
+        "p10": 2.0,
+        "p90": 116.20000000000005
+      },
+      "trades": 415
+    },
+    "2025": {
+      "counts": {
+        "CONTINUATION_FIRST": 174,
+        "DETERIORATION_FIRST": 254,
+        "P0_FIRST": 2
+      },
+      "path_duration_minutes": {
+        "max": 6140.0,
+        "mean": 1018.6046511627907,
+        "median": 782.5,
+        "n": 430,
+        "p10": 154.50000000000003,
+        "p90": 2201.0
+      },
+      "proportions": {
+        "AMBIGUOUS": 0.0,
+        "CONTINUATION_FIRST": 0.4046511627906977,
+        "DETERIORATION_FIRST": 0.5906976744186047,
+        "P0_FIRST": 0.004651162790697674
+      },
+      "terminal_close_distance_from_t2_peak": {
+        "max": 0.01146368305209089,
+        "mean": -0.0014835284203589844,
+        "median": -0.005012053616526346,
+        "n": 430,
+        "p10": -0.007083867076289085,
+        "p90": 0.005631459618902679
+      },
+      "time_to_event_minutes": {
+        "max": 1345.0,
+        "mean": 54.74186046511628,
+        "median": 18.0,
+        "n": 430,
+        "p10": 2.9000000000000057,
+        "p90": 135.0
+      },
+      "trades": 430
+    }
+  },
+  "descriptive_only": true,
+  "overall": {
+    "counts": {
+      "CONTINUATION_FIRST": 335,
+      "DETERIORATION_FIRST": 508,
+      "P0_FIRST": 2
+    },
+    "path_duration_minutes": {
+      "max": 6140.0,
+      "mean": 992.1952662721893,
+      "median": 760.0,
+      "n": 845,
+      "p10": 155.0,
+      "p90": 2123.000000000001
+    },
+    "proportions": {
+      "AMBIGUOUS": 0.0,
+      "CONTINUATION_FIRST": 0.39644970414201186,
+      "DETERIORATION_FIRST": 0.6011834319526628,
+      "P0_FIRST": 0.002366863905325444
+    },
+    "terminal_close_distance_from_t2_peak": {
+      "max": 0.014038890619338495,
+      "mean": -0.001518854463755887,
+      "median": -0.004987882336374483,
+      "n": 845,
+      "p10": -0.007051998233874946,
+      "p90": 0.005634430289016024
+    },
+    "time_to_event_minutes": {
+      "max": 1345.0,
+      "mean": 47.874556213017755,
+      "median": 18.0,
+      "n": 845,
+      "p10": 2.0,
+      "p90": 125.60000000000002
+    },
+    "trades": 845
+  }
+}

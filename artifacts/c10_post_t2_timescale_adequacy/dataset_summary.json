@@ -1,0 +1,210 @@
+{
+  "A": {
+    "2024": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 158,
+        "DETERIORATION_FIRST": 231
+      },
+      "rows": 16500,
+      "rows_per_trade": {
+        "max": 347,
+        "mean": 42.41645244215938,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 49.0
+      },
+      "unique_trades": 389
+    },
+    "2025": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 167,
+        "DETERIORATION_FIRST": 236,
+        "P0_FIRST": 2
+      },
+      "rows": 23109,
+      "rows_per_trade": {
+        "max": 1344,
+        "mean": 57.05925925925926,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 63.0
+      },
+      "unique_trades": 405
+    },
+    "all": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 325,
+        "DETERIORATION_FIRST": 467,
+        "P0_FIRST": 2
+      },
+      "rows": 39609,
+      "rows_per_trade": {
+        "max": 1344,
+        "mean": 49.885390428211586,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 57.75
+      },
+      "unique_trades": 794
+    }
+  },
+  "B": {
+    "2024": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 158,
+        "DETERIORATION_FIRST": 231
+      },
+      "rows": 16500,
+      "rows_per_trade": {
+        "max": 347,
+        "mean": 42.41645244215938,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 49.0
+      },
+      "unique_trades": 389
+    },
+    "2025": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 167,
+        "DETERIORATION_FIRST": 236,
+        "P0_FIRST": 2
+      },
+      "rows": 23109,
+      "rows_per_trade": {
+        "max": 1344,
+        "mean": 57.05925925925926,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 63.0
+      },
+      "unique_trades": 405
+    },
+    "all": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 325,
+        "DETERIORATION_FIRST": 467,
+        "P0_FIRST": 2
+      },
+      "rows": 39609,
+      "rows_per_trade": {
+        "max": 1344,
+        "mean": 49.885390428211586,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 57.75
+      },
+      "unique_trades": 794
+    }
+  },
+  "C": {
+    "2024": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 158,
+        "DETERIORATION_FIRST": 231
+      },
+      "rows": 16500,
+      "rows_per_trade": {
+        "max": 347,
+        "mean": 42.41645244215938,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 49.0
+      },
+      "unique_trades": 389
+    },
+    "2025": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 167,
+        "DETERIORATION_FIRST": 236,
+        "P0_FIRST": 2
+      },
+      "rows": 23109,
+      "rows_per_trade": {
+        "max": 1344,
+        "mean": 57.05925925925926,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 63.0
+      },
+      "unique_trades": 405
+    },
+    "all": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 325,
+        "DETERIORATION_FIRST": 467,
+        "P0_FIRST": 2
+      },
+      "rows": 39609,
+      "rows_per_trade": {
+        "max": 1344,
+        "mean": 49.885390428211586,
+        "median": 19.0,
+        "min": 1,
+        "p25": 7.0,
+        "p75": 57.75
+      },
+      "unique_trades": 794
+    }
+  },
+  "D": {
+    "2024": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 156,
+        "DETERIORATION_FIRST": 222
+      },
+      "rows": 8256,
+      "rows_per_trade": {
+        "max": 174,
+        "mean": 21.841269841269842,
+        "median": 10.0,
+        "min": 1,
+        "p25": 4.0,
+        "p75": 25.0
+      },
+      "unique_trades": 378
+    },
+    "2025": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 166,
+        "DETERIORATION_FIRST": 232,
+        "P0_FIRST": 2
+      },
+      "rows": 11558,
+      "rows_per_trade": {
+        "max": 672,
+        "mean": 28.895,
+        "median": 10.0,
+        "min": 1,
+        "p25": 4.0,
+        "p75": 32.25
+      },
+      "unique_trades": 400
+    },
+    "all": {
+      "class_counts": {
+        "CONTINUATION_FIRST": 322,
+        "DETERIORATION_FIRST": 454,
+        "P0_FIRST": 2
+      },
+      "rows": 19814,
+      "rows_per_trade": {
+        "max": 672,
+        "mean": 25.467866323907455,
+        "median": 10.0,
+        "min": 1,
+        "p25": 4.0,
+        "p75": 30.0
+      },
+      "unique_trades": 778
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "A": {
+      "both_folds": true,
+      "breadth": true,
+      "competitive": false,
+      "complete": false,
+      "useful_increment": true
+    },
+    "B": {
+      "both_folds": true,
+      "breadth": true,
+      "competitive": true,
+      "complete": false,
+      "materially_better_than_A": true,
+      "useful_increment": true
+    },
+    "C": {
+      "both_folds": true,
+      "breadth": true,
+      "competitive": false,
+      "complete": false,
+      "materially_better_than_A": false,
+      "useful_increment": true
+    },
+    "D": {
+      "both_folds": true,
+      "breadth": true,
+      "competitive": false,
+      "complete": false,
+      "materially_better_than_A": true,
+      "useful_increment": true
+    }
+  },
+  "clear_winner": false,
+  "reason": "no_candidate_justifies_replacing_A; 5m/1m_is_adequate",
+  "selected": "A"
+}

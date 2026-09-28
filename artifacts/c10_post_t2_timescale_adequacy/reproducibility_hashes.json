@@ -1,0 +1,18 @@
+{
+  "architecture_decision.json": "4c2ccd281b0e72d5bbbf1e44d2b404210c51a14a459892eba69746c0dfba0fb4",
+  "architecture_model_metrics_2024.json": "d2bbf5e72de75cc5bb946d88ceb85f0612763bf158a9bc38ed78daf35e4391db",
+  "baseline_A_2025.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+  "candidate_config.json": "b97312582fe89a9aa4a78c2402a97a10835608ae204dfce1e70ddd9cc3653495",
+  "completeness_report.json": "292773e63528dca8b509b4ddc8387dffefc091f8bb7ea3c944b4abba058c404e",
+  "dataset_summary.json": "6dabad85dda4bcf2cf0dc4494a186ce9f1d1bc147aab188ee7241d3a9ff8cfa9",
+  "event_definition.json": "7567b14cf4c300b10bc1021bbf6b484b6e6322b14def7c4cfc32149d0fca176e",
+  "feature_schema.json": "d21ac0a525db527810db26de0518098219f1b3dd4f773ac5966b963ec3b4c2f1",
+  "final_summary.json": "1d23a1cdf54998dde8b35345d2d0b99ace514a36d01b8fc3f9d86d682fcafab7",
+  "fold_definitions_2024.json": "88cb3b06458eaa734316b3ad4817c0d339fc34928790cd495585e0bb8067073e",
+  "paired_uncertainty_2024.json": "71ecab9b567e94be0631a3ee56d60f0b92f8ef82dd6ed22497855bf20e5e2aee",
+  "population_reconciliation.json": "cdd9bb8bd39bb02985a5d64c181c11cfac1c1dbc027f05205b8d95f942aa31dd",
+  "post_t2_descriptive_transitions.json": "d702df522ca54d111ac628029aa74c16c815aa0fec52b26ee91c3fba0f99f7be",
+  "provenance.json": "c821a2152f7049f931601a6e7b931f186c7855f9f8a3ac833cff24c0df0277f3",
+  "run_manifest.json": "d3e17b44eb5dce7fc8e0c5ea6f3a6c058dc26fdcab8d12c10f91b7d02b27f8ce",
+  "stability_2025.json": "cc5c7f1ff72804609f12c42d90250fa4a3f68a560f4a6fd508c3320c2670f51c"
+}

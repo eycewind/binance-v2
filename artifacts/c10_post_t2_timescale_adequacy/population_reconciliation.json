@@ -1,0 +1,11 @@
+{
+  "authoritative_first_eligible_identities": 845,
+  "by_year": {
+    "2024": 415,
+    "2025": 430
+  },
+  "identity_or_timestamp_mismatches": 0,
+  "mismatch_trade_ids": [],
+  "source_t2_trades": 845,
+  "status": "PASS"
+}

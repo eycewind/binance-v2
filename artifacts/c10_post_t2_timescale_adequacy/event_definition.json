@@ -1,0 +1,7 @@
+{
+  "continuation": "P0_T2 * 1.005",
+  "deterioration": "(E + P0_T2) / 2",
+  "p0_precedence": true,
+  "peak": "frozen causal running peak at first T2",
+  "same_minute_both": "AMBIGUOUS"
+}
