@@ -1,0 +1,57 @@
+{
+  "all": {
+    "count": 2199,
+    "w1_p0_mean": -0.0008159537837087651,
+    "w1_p0_total_pnl": -1794.2823703755748
+  },
+  "continuation_first": {
+    "count": 335,
+    "w1_p0_mean": -0.0028774861047943284,
+    "w1_p0_total_pnl": -963.9578451061
+  },
+  "deterioration_first": {
+    "count": 508,
+    "w1_p0_mean": -0.0016344970969871548,
+    "w1_p0_total_pnl": -830.3245252694747
+  },
+  "honest_oot_scored": {
+    "count": 608,
+    "w1_p0_mean": -0.002951122319696669,
+    "w1_p0_total_pnl": -1794.2823703755748
+  },
+  "honest_scored_no_trigger": {
+    "count": 193,
+    "w1_p0_mean": 0.0,
+    "w1_p0_total_pnl": 0.0
+  },
+  "no_t2": {
+    "count": 1354,
+    "w1_p0_mean": 0.0,
+    "w1_p0_total_pnl": 0.0
+  },
+  "p0_first": {
+    "count": 2,
+    "w1_p0_mean": 0.0,
+    "w1_p0_total_pnl": 0.0
+  },
+  "t2": {
+    "count": 845,
+    "w1_p0_mean": -0.0021234110892018637,
+    "w1_p0_total_pnl": -1794.2823703755746
+  },
+  "training_only_unavailable": {
+    "count": 184,
+    "w1_p0_mean": 0.0,
+    "w1_p0_total_pnl": 0.0
+  },
+  "w1_triggered": {
+    "count": 415,
+    "w1_p0_mean": -0.004323571976808615,
+    "w1_p0_total_pnl": -1794.2823703755748
+  },
+  "zero_row": {
+    "count": 53,
+    "w1_p0_mean": 0.0,
+    "w1_p0_total_pnl": 0.0
+  }
+}

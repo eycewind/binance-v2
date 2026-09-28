@@ -1,0 +1,8 @@
+{
+  "D2_CONTROL": "frozen midpoint boundary",
+  "P0": "canonical unchanged",
+  "W1": {
+    "persistence": 3,
+    "threshold": "strictly <0.20"
+  }
+}

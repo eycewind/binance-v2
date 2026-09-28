@@ -1,0 +1,9 @@
+{
+  "common_path_mfe_mean": 0.017275814859961103,
+  "expected_shortfall_lower_10pct": -0.023701593673456426,
+  "green_to_red_count": 1471,
+  "held_peak_surrender_mean": 0.013075931510493846,
+  "preserved_half_peak_rate": 0.2405638926784902,
+  "realized_capture_mean": -0.0006510099530091314,
+  "worst_trade": -0.14743451856333764
+}

@@ -1,0 +1,6229 @@
+{
+  "rows": [
+    {
+      "lead_minutes_to_c10_event": 184.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1580191956986746,
+        0.09022880148274719,
+        0.0310291308642792
+      ],
+      "price_return_at_trigger": 0.007722007722007929,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.01571496308338416,
+      "trade_id": "E1-72da3db2400bfc55"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08717818572411012,
+        0.029521657345929226,
+        0.19861162606616173
+      ],
+      "price_return_at_trigger": 0.011545711592837016,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.059613572101790746,
+      "trade_id": "E1-d8e7617cfdd82869"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1439751454472879,
+        0.08996828216599766,
+        0.08210849447170443
+      ],
+      "price_return_at_trigger": 0.010294711344368324,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.07125555106984272,
+      "trade_id": "E1-a3d28fa191b9004c"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10267423797582385,
+        0.07212245255141131,
+        0.0262609844494591
+      ],
+      "price_return_at_trigger": 0.006961627455963182,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03046129977128964,
+      "trade_id": "E1-a67ec726e4ffa75b"
+    },
+    {
+      "lead_minutes_to_c10_event": 45.0,
+      "minutes_after_t2": 37.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.17684484189204144,
+        0.10279322029617691,
+        0.11515329707395726
+      ],
+      "price_return_at_trigger": 0.008969641214351398,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.020699172033118662,
+      "trade_id": "E1-5ef199784f532bad"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1764287368232753,
+        0.12899435577785215,
+        0.06825458555626929
+      ],
+      "price_return_at_trigger": 0.007756902931967069,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.021491602618844086,
+      "trade_id": "E1-45a176d912442872"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1339173120581636,
+        0.047279824172773474,
+        0.06708678649275795
+      ],
+      "price_return_at_trigger": 0.007744433688286589,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.0249757986447241,
+      "trade_id": "E1-9f38dec8abf0a7ad"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 18.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19699706124744615,
+        0.11607738220518676,
+        0.12855393967098003
+      ],
+      "price_return_at_trigger": 0.009136592051165016,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04454088624942898,
+      "trade_id": "E1-23c9ade4a169bb35"
+    },
+    {
+      "lead_minutes_to_c10_event": 103.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.11536044688038372,
+        0.07973509277685463,
+        0.13381690691393494
+      ],
+      "price_return_at_trigger": 0.012174243865322287,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03690317671675847,
+      "trade_id": "E1-2e95916ed3d9e837"
+    },
+    {
+      "lead_minutes_to_c10_event": 163.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.09578447536711152,
+        0.044213278269006985,
+        0.025742082814974903
+      ],
+      "price_return_at_trigger": 0.008104844552494495,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03596464394390675,
+      "trade_id": "E1-2652a0a6cfcee3b3"
+    },
+    {
+      "lead_minutes_to_c10_event": 150.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10459243419417497,
+        0.052193909158440834,
+        0.03467910765079398
+      ],
+      "price_return_at_trigger": 0.007036896158235217,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.025865348041080205,
+      "trade_id": "E1-15a5b40f4a9dbc66"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1999265232214312,
+        0.0739543035336529,
+        0.04342557684839005
+      ],
+      "price_return_at_trigger": 0.007174687521184664,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.13264824390940122,
+      "trade_id": "E1-8df230978c9258f2"
+    },
+    {
+      "lead_minutes_to_c10_event": 36.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15779433610165206,
+        0.12988966961785295,
+        0.12652234252647562
+      ],
+      "price_return_at_trigger": 0.009319816873773812,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03397389040639154,
+      "trade_id": "E1-7e5caa252f654573"
+    },
+    {
+      "lead_minutes_to_c10_event": 19.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.06075856398136377,
+        0.09209398913695907,
+        0.041898282775092784
+      ],
+      "price_return_at_trigger": 0.0075670221965984386,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.15465552032285967,
+      "trade_id": "E1-89a7a457ccc8b785"
+    },
+    {
+      "lead_minutes_to_c10_event": 20.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1104226753698405,
+        0.05845799018996731,
+        0.1053869294001944
+      ],
+      "price_return_at_trigger": 0.009067131647776838,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04394071490845697,
+      "trade_id": "E1-b8d3a7b1e2dcb08e"
+    },
+    {
+      "lead_minutes_to_c10_event": 116.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14957209355928108,
+        0.15540459668275064,
+        0.16550825317348358
+      ],
+      "price_return_at_trigger": 0.009127789046653012,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010649087221095366,
+      "trade_id": "E1-467081d493cfd4a7"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.042169240951034186,
+        0.05083486056451238,
+        0.09549553748471219
+      ],
+      "price_return_at_trigger": 0.008107446031791365,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011261954547243436,
+      "trade_id": "E1-349a39a76e94b170"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.039743488254141854,
+        0.10362929888510376,
+        0.07856181399760731
+      ],
+      "price_return_at_trigger": 0.010785642718217803,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.034360818058584375,
+      "trade_id": "E1-aed01b07aecb4e31"
+    },
+    {
+      "lead_minutes_to_c10_event": 18.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18301117403556724,
+        0.05340127711727041,
+        0.08365124614688438
+      ],
+      "price_return_at_trigger": 0.008691224515191776,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.015610921237465103,
+      "trade_id": "E1-0cc759ab5c8b3e7f"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15602054938336588,
+        0.19208531636061277,
+        0.08390698462563888
+      ],
+      "price_return_at_trigger": 0.009472259810554995,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01979025710419502,
+      "trade_id": "E1-413503c4124b6a23"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1871226314803543,
+        0.06761411426877557,
+        0.07389770617592659
+      ],
+      "price_return_at_trigger": 0.012903225806451424,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04665012406947899,
+      "trade_id": "E1-d5707cd657054c23"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09323749495901398,
+        0.18274246129886837,
+        0.13662568557123847
+      ],
+      "price_return_at_trigger": 0.008443938100164416,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009058204154581917,
+      "trade_id": "E1-a67db38be39f733f"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1523298473566342,
+        0.0478194328313463,
+        0.03655921853155915
+      ],
+      "price_return_at_trigger": 0.009598045488918627,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.09551509510790535,
+      "trade_id": "E1-d41a412170b80163"
+    },
+    {
+      "lead_minutes_to_c10_event": 283.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.0874038901568258,
+        0.08419460122003589,
+        0.07210743594274835
+      ],
+      "price_return_at_trigger": 0.008277289187791137,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02224521469218832,
+      "trade_id": "E1-f59c7dec0442f6a1"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 44.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16352732718629395,
+        0.07699688897108135,
+        0.11835164937033175
+      ],
+      "price_return_at_trigger": 0.00863207286439871,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04308666466039801,
+      "trade_id": "E1-ac6b04aaaaa5ba6e"
+    },
+    {
+      "lead_minutes_to_c10_event": 80.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15292687563764618,
+        0.06109676245745444,
+        0.15437884036630656
+      ],
+      "price_return_at_trigger": 0.009294605809128553,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01643153526970953,
+      "trade_id": "E1-b5ccbf5af47e9cf1"
+    },
+    {
+      "lead_minutes_to_c10_event": 142.0,
+      "minutes_after_t2": 21.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18901433906567874,
+        0.1865778590405764,
+        0.18979494486236234
+      ],
+      "price_return_at_trigger": 0.009462064131767978,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012090415279481403,
+      "trade_id": "E1-87082ba342f1d037"
+    },
+    {
+      "lead_minutes_to_c10_event": 23.0,
+      "minutes_after_t2": 25.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14289591150096664,
+        0.14249597234891048,
+        0.1942347008251446
+      ],
+      "price_return_at_trigger": 0.009542771843302544,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012911208630140614,
+      "trade_id": "E1-b94ff03be0568fd7"
+    },
+    {
+      "lead_minutes_to_c10_event": 101.0,
+      "minutes_after_t2": 45.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18214465852501047,
+        0.18664866376955863,
+        0.1336726887707424
+      ],
+      "price_return_at_trigger": 0.009101011468344744,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013231252577465602,
+      "trade_id": "E1-1a512b8db9829bd4"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11669597265083621,
+        0.038544537435134606,
+        0.042275984719945155
+      ],
+      "price_return_at_trigger": 0.007573089115886056,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01743571680169076,
+      "trade_id": "E1-82e1ad498d26d9d9"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10596904749921217,
+        0.11093464349724322,
+        0.13398655107824015
+      ],
+      "price_return_at_trigger": 0.00996008299922635,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.10334704930716754,
+      "trade_id": "E1-e4a23901cb5ed28d"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1177422708651459,
+        0.05909050854258459,
+        0.16390417189746087
+      ],
+      "price_return_at_trigger": 0.008113457275271685,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009838591372690608,
+      "trade_id": "E1-f4e05e7b8b4de233"
+    },
+    {
+      "lead_minutes_to_c10_event": 19.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09196166966574289,
+        0.11612567757036299,
+        0.09367777652657758
+      ],
+      "price_return_at_trigger": 0.008802482426698788,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010828953201190705,
+      "trade_id": "E1-4cbd1b1977720783"
+    },
+    {
+      "lead_minutes_to_c10_event": 87.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.0685796282224718,
+        0.05657410963018609,
+        0.03707891400734954
+      ],
+      "price_return_at_trigger": 0.012559402579769285,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.022063815342837856,
+      "trade_id": "E1-96c0cfd14932f43f"
+    },
+    {
+      "lead_minutes_to_c10_event": 25.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.0754898847409906,
+        0.18721528810875032,
+        0.11217162058129772
+      ],
+      "price_return_at_trigger": 0.01144567705581978,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02042613136115512,
+      "trade_id": "E1-0c0b41b4f0c326f7"
+    },
+    {
+      "lead_minutes_to_c10_event": 20.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16814634424159444,
+        0.08597933608821998,
+        0.14915323262678756
+      ],
+      "price_return_at_trigger": 0.011813759555246772,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013203613620569987,
+      "trade_id": "E1-6f32db674bf7b3db"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13882553418930169,
+        0.04757428891553284,
+        0.05950916882037128
+      ],
+      "price_return_at_trigger": 0.00863267685547231,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.040487244350347895,
+      "trade_id": "E1-853fc4fc06cee556"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10408409421635911,
+        0.0513648890487678,
+        0.11244958410458904
+      ],
+      "price_return_at_trigger": 0.008096912568809067,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.023620597602960425,
+      "trade_id": "E1-8ed388ff99da18a7"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.06250383517479043,
+        0.04580664809634773,
+        0.02086301700025256
+      ],
+      "price_return_at_trigger": 0.006976839898326981,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.017842097977117666,
+      "trade_id": "E1-fb219ad7fb0c158d"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13048679422160914,
+        0.06796962153570059,
+        0.044361928546179194
+      ],
+      "price_return_at_trigger": 0.007464012795450392,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009063444108761365,
+      "trade_id": "E1-eaca6435ea1e917b"
+    },
+    {
+      "lead_minutes_to_c10_event": 67.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10681802542640023,
+        0.08772812227719858,
+        0.11081979705785655
+      ],
+      "price_return_at_trigger": 0.006870884626395624,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.054322931577440725,
+      "trade_id": "E1-afdf4f430a83722c"
+    },
+    {
+      "lead_minutes_to_c10_event": 100.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.04831285750294341,
+        0.09054130143851177,
+        0.04847810961973754
+      ],
+      "price_return_at_trigger": 0.0074677072120559185,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013942915769644681,
+      "trade_id": "E1-39d613863239c6c2"
+    },
+    {
+      "lead_minutes_to_c10_event": 100.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11523211110805398,
+        0.11295461308674405,
+        0.0564887386753815
+      ],
+      "price_return_at_trigger": 0.011255057325911588,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02738119343340384,
+      "trade_id": "E1-51b77c33b3603107"
+    },
+    {
+      "lead_minutes_to_c10_event": 28.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.09301180780464077,
+        0.08310183332301405,
+        0.07502025408613
+      ],
+      "price_return_at_trigger": 0.008172938691438647,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04029693530894862,
+      "trade_id": "E1-1a59a76c8dab7491"
+    },
+    {
+      "lead_minutes_to_c10_event": 94.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10320985637803295,
+        0.17131099490627016,
+        0.11698294115364032
+      ],
+      "price_return_at_trigger": 0.008467101781619357,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014111836302698855,
+      "trade_id": "E1-2ef21f59d0589923"
+    },
+    {
+      "lead_minutes_to_c10_event": 58.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14867277686374714,
+        0.11420950059733029,
+        0.1486865122456266
+      ],
+      "price_return_at_trigger": 0.011016926285275952,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.026809909836981838,
+      "trade_id": "E1-b5732a822b973e85"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12250257257452464,
+        0.05869570452740074,
+        0.02744524749351293
+      ],
+      "price_return_at_trigger": 0.006865337285410611,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07437575720631817,
+      "trade_id": "E1-9a641aede6b3f59f"
+    },
+    {
+      "lead_minutes_to_c10_event": 73.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.15519668608432194,
+        0.15548142120502612,
+        0.06954494373714513
+      ],
+      "price_return_at_trigger": 0.009273570324575209,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.031427099433281924,
+      "trade_id": "E1-398b025195a929e4"
+    },
+    {
+      "lead_minutes_to_c10_event": 19.0,
+      "minutes_after_t2": 48.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1705731354197492,
+        0.13496297967050064,
+        0.17257332209183837
+      ],
+      "price_return_at_trigger": 0.00942103460089072,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010962658444672924,
+      "trade_id": "E1-3b71bab704609f2c"
+    },
+    {
+      "lead_minutes_to_c10_event": 112.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1136704667407284,
+        0.13010736446408683,
+        0.11810299646139695
+      ],
+      "price_return_at_trigger": 0.00905148029417302,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.018291533094474843,
+      "trade_id": "E1-ca471d0f6c0e85ef"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 23.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.03662514674316186,
+        0.06365220963665627,
+        0.0582240649186983
+      ],
+      "price_return_at_trigger": 0.00822107081174428,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.018031088082901547,
+      "trade_id": "E1-7057643d693fc4af"
+    },
+    {
+      "lead_minutes_to_c10_event": 242.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1601382676521127,
+        0.15253160780912553,
+        0.13568805309477092
+      ],
+      "price_return_at_trigger": 0.009433962264151052,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.018333926664293454,
+      "trade_id": "E1-fa9b42e8f1a176ec"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09349438041226218,
+        0.08807793965484807,
+        0.16173217691938097
+      ],
+      "price_return_at_trigger": 0.0094853984614236,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012024796474718213,
+      "trade_id": "E1-9053ef1ead2e79e9"
+    },
+    {
+      "lead_minutes_to_c10_event": 61.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.04002865385789961,
+        0.022129252049311123,
+        0.039005919437696886
+      ],
+      "price_return_at_trigger": 0.007909146217805585,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01297911174204014,
+      "trade_id": "E1-a0fc00741f69366c"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11723170933544019,
+        0.03548461987014277,
+        0.17821298392952306
+      ],
+      "price_return_at_trigger": 0.008771431443418187,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008775801862672683,
+      "trade_id": "E1-69f7d76cca028e5e"
+    },
+    {
+      "lead_minutes_to_c10_event": 23.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1399976436645223,
+        0.1443724353314754,
+        0.07850933768075896
+      ],
+      "price_return_at_trigger": 0.010178515502662133,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02544628875665511,
+      "trade_id": "E1-559af8c6cf421a8f"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11438402945149029,
+        0.030774217963032247,
+        0.023725811900007433
+      ],
+      "price_return_at_trigger": 0.008043310131477188,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008662026295436887,
+      "trade_id": "E1-106713bb42d298a4"
+    },
+    {
+      "lead_minutes_to_c10_event": 33.0,
+      "minutes_after_t2": 11.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13664859554624714,
+        0.12523589656006318,
+        0.11057052736586988
+      ],
+      "price_return_at_trigger": 0.008501794823351672,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.026072170791611615,
+      "trade_id": "E1-c5260034a9faf231"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1518536984939067,
+        0.18702084621281256,
+        0.008227203363624348
+      ],
+      "price_return_at_trigger": 0.008104691798646702,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02609859469105502,
+      "trade_id": "E1-08f812d12fcc05c5"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.05549326870631997,
+        0.017563598541824568,
+        0.038958092987442815
+      ],
+      "price_return_at_trigger": 0.007135969141755183,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.00829315332690439,
+      "trade_id": "E1-22625ade00a5440b"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14476780705969328,
+        0.017798058131752392,
+        0.03318779655751139
+      ],
+      "price_return_at_trigger": 0.010412989012765328,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.020881275761301055,
+      "trade_id": "E1-7a259bfd52de353d"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 20.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.07047904280913068,
+        0.05174568039366593,
+        0.10263598908749015
+      ],
+      "price_return_at_trigger": 0.00844517874880979,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02020554512240813,
+      "trade_id": "E1-9890ad217429157a"
+    },
+    {
+      "lead_minutes_to_c10_event": 38.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1792107935593403,
+        0.13690826111351007,
+        0.12463941975009238
+      ],
+      "price_return_at_trigger": 0.010003510003510074,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.051597051597051635,
+      "trade_id": "E1-3d614c6a965e5ab3"
+    },
+    {
+      "lead_minutes_to_c10_event": 95.0,
+      "minutes_after_t2": 16.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.11928603502378667,
+        0.11765365665896252,
+        0.040207104196115846
+      ],
+      "price_return_at_trigger": 0.006735978913457119,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.023575926197100694,
+      "trade_id": "E1-627c1b291b66dcb2"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 61.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18636382937823814,
+        0.15966555345467648,
+        0.16618411759534496
+      ],
+      "price_return_at_trigger": 0.010119262739429091,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.015359595229490486,
+      "trade_id": "E1-81e91ba33c85be3a"
+    },
+    {
+      "lead_minutes_to_c10_event": 134.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14685265221538282,
+        0.1829354459882236,
+        0.18226171428935115
+      ],
+      "price_return_at_trigger": 0.009239947807574866,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.052776156302578814,
+      "trade_id": "E1-bf1b43669df91926"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1739465756151334,
+        0.05402310377789368,
+        0.0082720306082187
+      ],
+      "price_return_at_trigger": 0.008013780707010199,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010934691431994992,
+      "trade_id": "E1-dbf8408047bdb6f5"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1431295710204366,
+        0.05319855005530009,
+        0.04160126785709847
+      ],
+      "price_return_at_trigger": 0.008104395604395576,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02383241758241761,
+      "trade_id": "E1-526e93675141b844"
+    },
+    {
+      "lead_minutes_to_c10_event": 32.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.028067545851438246,
+        0.050129169686258725,
+        0.03237203270249796
+      ],
+      "price_return_at_trigger": 0.007773080594572601,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.050047729442247446,
+      "trade_id": "E1-a93df3d4d64be1e7"
+    },
+    {
+      "lead_minutes_to_c10_event": 44.0,
+      "minutes_after_t2": 20.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1687393050611336,
+        0.09578187818790011,
+        0.09700798777762361
+      ],
+      "price_return_at_trigger": 0.009398746833755522,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07605652579656041,
+      "trade_id": "E1-acdf6fda2fe553c0"
+    },
+    {
+      "lead_minutes_to_c10_event": 33.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10716298146928785,
+        0.1328149199157464,
+        0.16649040970708961
+      ],
+      "price_return_at_trigger": 0.01008742434431742,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02387357094821807,
+      "trade_id": "E1-e3518e41435451d2"
+    },
+    {
+      "lead_minutes_to_c10_event": 45.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13743136175726897,
+        0.06353648770223849,
+        0.07376735046387191
+      ],
+      "price_return_at_trigger": 0.008443679746538146,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03408548278292778,
+      "trade_id": "E1-0ce33a13c8f69047"
+    },
+    {
+      "lead_minutes_to_c10_event": 324.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14958511536877284,
+        0.12691943476324413,
+        0.1778876952959781
+      ],
+      "price_return_at_trigger": 0.00970666177896895,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.015342787973209315,
+      "trade_id": "E1-7153988eabff5a0f"
+    },
+    {
+      "lead_minutes_to_c10_event": 126.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15744629795738757,
+        0.13546116529632976,
+        0.18298200991190944
+      ],
+      "price_return_at_trigger": 0.008840353614144592,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009707054948864702,
+      "trade_id": "E1-e57abf5ee8fbd53c"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12410189735548896,
+        0.12551326877275892,
+        0.11047456134782077
+      ],
+      "price_return_at_trigger": 0.009065155807365555,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009254013220018953,
+      "trade_id": "E1-6bebcf1a7f0018e9"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.07732926287912664,
+        0.055962721017606167,
+        0.06789230465100846
+      ],
+      "price_return_at_trigger": 0.008265142481187482,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.033315514618199815,
+      "trade_id": "E1-80dde2ce909220e6"
+    },
+    {
+      "lead_minutes_to_c10_event": 26.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11027181165724113,
+        0.10053076477004959,
+        0.13538306897532018
+      ],
+      "price_return_at_trigger": 0.008745813174544148,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.015816896166728878,
+      "trade_id": "E1-1e26c943d4beab34"
+    },
+    {
+      "lead_minutes_to_c10_event": 56.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15128229369602952,
+        0.14762546240416705,
+        0.0970583761015362
+      ],
+      "price_return_at_trigger": 0.00898255311798235,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012264639834168367,
+      "trade_id": "E1-02231170a95f67f4"
+    },
+    {
+      "lead_minutes_to_c10_event": 198.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12734948123060605,
+        0.1410288273403553,
+        0.11615631419898226
+      ],
+      "price_return_at_trigger": 0.00857481732395371,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04789566604020723,
+      "trade_id": "E1-b5465d7020a8ca89"
+    },
+    {
+      "lead_minutes_to_c10_event": 61.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09298024773104024,
+        0.08505946648963993,
+        0.08490793731302773
+      ],
+      "price_return_at_trigger": 0.0078069552874378,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02767920511000721,
+      "trade_id": "E1-ca71cacabe61866a"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17775600199266023,
+        0.1793062499227618,
+        0.11959404530953194
+      ],
+      "price_return_at_trigger": 0.009349621237971784,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010373302395414008,
+      "trade_id": "E1-1c465b636f91af97"
+    },
+    {
+      "lead_minutes_to_c10_event": 95.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.149668784096482,
+        0.08359387693257168,
+        0.10330446280014548
+      ],
+      "price_return_at_trigger": 0.010678608336203821,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02032380296245262,
+      "trade_id": "E1-1d3d40fcb389edba"
+    },
+    {
+      "lead_minutes_to_c10_event": 47.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12143097157924708,
+        0.15693988368131034,
+        0.19834727475552638
+      ],
+      "price_return_at_trigger": 0.009656453110492125,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.031754874651810594,
+      "trade_id": "E1-75f89fe585c1f4f2"
+    },
+    {
+      "lead_minutes_to_c10_event": 55.0,
+      "minutes_after_t2": 90.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12918343143561778,
+        0.16005659441281542,
+        0.16348316775741603
+      ],
+      "price_return_at_trigger": 0.00962675223779752,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.023982435399425572,
+      "trade_id": "E1-074fd1a746dfd8a9"
+    },
+    {
+      "lead_minutes_to_c10_event": 189.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19935124160727094,
+        0.13549233662485047,
+        0.06077213010587739
+      ],
+      "price_return_at_trigger": 0.007216900669203774,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02775226348248272,
+      "trade_id": "E1-4c1a57d3c66c8236"
+    },
+    {
+      "lead_minutes_to_c10_event": 34.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13566679746707003,
+        0.10070676384080975,
+        0.1668142855279416
+      ],
+      "price_return_at_trigger": 0.009182736455463747,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.029935720844811664,
+      "trade_id": "E1-6b5dde9094dc91ce"
+    },
+    {
+      "lead_minutes_to_c10_event": 154.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10623665619621742,
+        0.09107647441573295,
+        0.18742494728193587
+      ],
+      "price_return_at_trigger": 0.00906137801333573,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02239699093862213,
+      "trade_id": "E1-b8d48a7a174e5903"
+    },
+    {
+      "lead_minutes_to_c10_event": 39.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15367603492173249,
+        0.1260594084986463,
+        0.1753976577661591
+      ],
+      "price_return_at_trigger": 0.010451089080099951,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.032719276601521186,
+      "trade_id": "E1-356a3b8c13c680de"
+    },
+    {
+      "lead_minutes_to_c10_event": 162.0,
+      "minutes_after_t2": 18.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18016627854096648,
+        0.14819738175711705,
+        0.12017701986587803
+      ],
+      "price_return_at_trigger": 0.009402207334045398,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009883645661391105,
+      "trade_id": "E1-1960ad167d4c2b57"
+    },
+    {
+      "lead_minutes_to_c10_event": 220.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16134200144524402,
+        0.19110038095490559,
+        0.11961287140931177
+      ],
+      "price_return_at_trigger": 0.009412972787951501,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.047749443778880796,
+      "trade_id": "E1-2c99819ef7bdd49f"
+    },
+    {
+      "lead_minutes_to_c10_event": 117.0,
+      "minutes_after_t2": 42.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19142050174997893,
+        0.14721063456137373,
+        0.15031881404217695
+      ],
+      "price_return_at_trigger": 0.008427710311504244,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02125388276653628,
+      "trade_id": "E1-5b3db475c426c240"
+    },
+    {
+      "lead_minutes_to_c10_event": 204.0,
+      "minutes_after_t2": 19.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1657706502102874,
+        0.165911542450196,
+        0.13629641241430668
+      ],
+      "price_return_at_trigger": 0.009720976185879637,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03050675509423817,
+      "trade_id": "E1-bcad23016eb6daa2"
+    },
+    {
+      "lead_minutes_to_c10_event": 28.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13738991884399387,
+        0.128671327850963,
+        0.06628400440026136
+      ],
+      "price_return_at_trigger": 0.008944087160432046,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.018166335630544816,
+      "trade_id": "E1-f649bf8d8117933c"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.04986400060451864,
+        0.039768235196764735,
+        0.16777541025141526
+      ],
+      "price_return_at_trigger": 0.01072796934865905,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02564102564102555,
+      "trade_id": "E1-faaaab88fa17011b"
+    },
+    {
+      "lead_minutes_to_c10_event": 24.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.0785100312898128,
+        0.07225101542024294,
+        0.06238264693620573
+      ],
+      "price_return_at_trigger": 0.00840140363138664,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010520683178264045,
+      "trade_id": "E1-63869f78263fbe8b"
+    },
+    {
+      "lead_minutes_to_c10_event": 48.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1833952242225051,
+        0.16085723486058912,
+        0.12544525772766577
+      ],
+      "price_return_at_trigger": 0.008737092930897417,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02204130262112791,
+      "trade_id": "E1-91ce3872527a65c8"
+    },
+    {
+      "lead_minutes_to_c10_event": 57.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.198995184352669,
+        0.1901765306365452,
+        0.1953592238615013
+      ],
+      "price_return_at_trigger": 0.009659997365455197,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.11821787684967,
+      "trade_id": "E1-f0729fdf45bf7087"
+    },
+    {
+      "lead_minutes_to_c10_event": 34.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.18162676295234445,
+        0.14425093897997315,
+        0.11557182575182672
+      ],
+      "price_return_at_trigger": 0.009058684521465077,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02225285545490352,
+      "trade_id": "E1-a0c66cc865a62691"
+    },
+    {
+      "lead_minutes_to_c10_event": 110.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19769269665009184,
+        0.18613932971713948,
+        0.18710343582351946
+      ],
+      "price_return_at_trigger": 0.008956337852966678,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.1938673964423434,
+      "trade_id": "E1-85449aceb412c033"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1772633730893545,
+        0.17377438918663615,
+        0.10169722281592485
+      ],
+      "price_return_at_trigger": 0.008938327992436879,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014974973500149424,
+      "trade_id": "E1-0761ef600c37e7da"
+    },
+    {
+      "lead_minutes_to_c10_event": 19.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12438729538743862,
+        0.09841109528877788,
+        0.06604187102024171
+      ],
+      "price_return_at_trigger": 0.00898001557228123,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.06410589151310675,
+      "trade_id": "E1-e50d009614280116"
+    },
+    {
+      "lead_minutes_to_c10_event": 131.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1680361738681421,
+        0.12484818530560085,
+        0.08797939223911311
+      ],
+      "price_return_at_trigger": 0.00810721971715167,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.17643042442140855,
+      "trade_id": "E1-1d8e5fc5e393aece"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12624993475474278,
+        0.07971120428398597,
+        0.10487810130392002
+      ],
+      "price_return_at_trigger": 0.009827696234843808,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.027760051052967638,
+      "trade_id": "E1-56e1dd19b7af5a87"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1857065411188098,
+        0.1886166161887591,
+        0.16042746327957824
+      ],
+      "price_return_at_trigger": 0.009304794025838614,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011751110106205997,
+      "trade_id": "E1-279513b1ab3fd2e0"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16944702237854872,
+        0.04123163933591965,
+        0.05233314325121486
+      ],
+      "price_return_at_trigger": 0.007137040762561497,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07874694640034496,
+      "trade_id": "E1-e97a5ded219265e2"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.06723600784126971,
+        0.1109961457884427,
+        0.0454371692088971
+      ],
+      "price_return_at_trigger": 0.009481199121333495,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.030591807727096354,
+      "trade_id": "E1-75ac2a3cb8f042a1"
+    },
+    {
+      "lead_minutes_to_c10_event": 27.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19016464223752674,
+        0.10328921204494917,
+        0.15254795568054652
+      ],
+      "price_return_at_trigger": 0.008261963131586558,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01724028144799261,
+      "trade_id": "E1-51d5b543f6fec306"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19194374327269265,
+        0.1301949481861376,
+        0.07868654193360902
+      ],
+      "price_return_at_trigger": 0.012846093193202845,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014421164000758324,
+      "trade_id": "E1-236bada7b4d95203"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1042843472815733,
+        0.03232826042358871,
+        0.09938432071479124
+      ],
+      "price_return_at_trigger": 0.009935022130144189,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04524908183444776,
+      "trade_id": "E1-ac19ad8a9198991e"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18644995406501585,
+        0.13549865743461922,
+        0.1592776627031273
+      ],
+      "price_return_at_trigger": 0.009243846862425187,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.024095412013768858,
+      "trade_id": "E1-4350fa62d0c8f615"
+    },
+    {
+      "lead_minutes_to_c10_event": 244.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14950863922281935,
+        0.103259169407948,
+        0.051574287526398234
+      ],
+      "price_return_at_trigger": 0.010627612397775321,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01613729161012234,
+      "trade_id": "E1-4008a894d174c426"
+    },
+    {
+      "lead_minutes_to_c10_event": 28.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11850530916075411,
+        0.13660181348030656,
+        0.15957137299639146
+      ],
+      "price_return_at_trigger": 0.009330907674973243,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07474714738490595,
+      "trade_id": "E1-bb09295a85a78f20"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.06808762498906673,
+        0.0807224852249825,
+        0.014081653800531672
+      ],
+      "price_return_at_trigger": 0.00779906914336026,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014172501991697839,
+      "trade_id": "E1-ba9c31591e1b4f08"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1689339473257764,
+        0.08304244680226391,
+        0.028686963194331748
+      ],
+      "price_return_at_trigger": 0.007714388231072844,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03848223896663083,
+      "trade_id": "E1-5adb195297fd0986"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1542667655051499,
+        0.05557318069689501,
+        0.18334474026982475
+      ],
+      "price_return_at_trigger": 0.010774363964965783,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.015362157653274089,
+      "trade_id": "E1-3970f3292115d423"
+    },
+    {
+      "lead_minutes_to_c10_event": 70.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16304672392636332,
+        0.12168646087406237,
+        0.13617090873363774
+      ],
+      "price_return_at_trigger": 0.00923675410003777,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.015438033321207634,
+      "trade_id": "E1-7bd6b51f526f1dfd"
+    },
+    {
+      "lead_minutes_to_c10_event": 88.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.11262779762842852,
+        0.13770662881844076,
+        0.10353654076413239
+      ],
+      "price_return_at_trigger": 0.012374942006400103,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05478759472287975,
+      "trade_id": "E1-c1b051a5a5b4ce1b"
+    },
+    {
+      "lead_minutes_to_c10_event": 23.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12691656089319758,
+        0.08842475694826721,
+        0.10641179543384689
+      ],
+      "price_return_at_trigger": 0.008991879580114936,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.01683501683501687,
+      "trade_id": "E1-48206782c6c241e7"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16934452905708194,
+        0.07430858045905524,
+        0.09698308196631533
+      ],
+      "price_return_at_trigger": 0.007878337799877233,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07306835426689484,
+      "trade_id": "E1-46421bfd1ecb9429"
+    },
+    {
+      "lead_minutes_to_c10_event": 31.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.184663482978572,
+        0.12057084215045104,
+        0.07893330920989698
+      ],
+      "price_return_at_trigger": 0.007162247135868105,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011594558532582955,
+      "trade_id": "E1-a810f5070ce7ceac"
+    },
+    {
+      "lead_minutes_to_c10_event": 14.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09953756635921938,
+        0.07610575329977888,
+        0.07404599053398055
+      ],
+      "price_return_at_trigger": 0.008679479231246123,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014259144451332917,
+      "trade_id": "E1-5cd7e60dcf9d3269"
+    },
+    {
+      "lead_minutes_to_c10_event": 51.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19759126807014257,
+        0.09068185277366163,
+        0.10187387174331834
+      ],
+      "price_return_at_trigger": 0.008190980786212387,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.015803416461130926,
+      "trade_id": "E1-2e1a55838d1a5c78"
+    },
+    {
+      "lead_minutes_to_c10_event": 45.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14121186428702182,
+        0.10060512290936963,
+        0.05250005831913626
+      ],
+      "price_return_at_trigger": 0.007460225867611969,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010324787733904772,
+      "trade_id": "E1-7f7132d64c803e40"
+    },
+    {
+      "lead_minutes_to_c10_event": 32.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09500542292241687,
+        0.10010172705895429,
+        0.07123928175999437
+      ],
+      "price_return_at_trigger": 0.007270425883333376,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02014417362579679,
+      "trade_id": "E1-f852c0d1b674166e"
+    },
+    {
+      "lead_minutes_to_c10_event": 49.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11517716111594355,
+        0.1035087489949549,
+        0.07293213215665852
+      ],
+      "price_return_at_trigger": 0.007647409295019836,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013378452618302727,
+      "trade_id": "E1-16a0226818fc2eb3"
+    },
+    {
+      "lead_minutes_to_c10_event": 16.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10424966097742702,
+        0.10729400514482167,
+        0.10158309859667906
+      ],
+      "price_return_at_trigger": 0.007529490504475822,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008407931063331375,
+      "trade_id": "E1-d2accc19ab995074"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.04051302772816374,
+        0.03026834767263236,
+        0.0962825351123454
+      ],
+      "price_return_at_trigger": 0.0076014178810555055,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011027963765261939,
+      "trade_id": "E1-4096dca05478b84f"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10805065022755825,
+        0.07258276300613038,
+        0.0547344084869451
+      ],
+      "price_return_at_trigger": 0.00798183914065187,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009220787926273122,
+      "trade_id": "E1-e4c02b440b12c739"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1822644606116161,
+        0.06817669367606985,
+        0.04762909064316979
+      ],
+      "price_return_at_trigger": 0.007120253164556889,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03431045969353752,
+      "trade_id": "E1-b8798eb8ffc8278e"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.07832218029080071,
+        0.04244812419246299,
+        0.06444858306936736
+      ],
+      "price_return_at_trigger": 0.007115582972983647,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.01697941048121554,
+      "trade_id": "E1-5e133c0ce0f2dfc2"
+    },
+    {
+      "lead_minutes_to_c10_event": 101.0,
+      "minutes_after_t2": 16.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17191565141463822,
+        0.16753141004979702,
+        0.15678827303946186
+      ],
+      "price_return_at_trigger": 0.009153005464481057,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01316029143898012,
+      "trade_id": "E1-dbc266419ab2af26"
+    },
+    {
+      "lead_minutes_to_c10_event": 88.0,
+      "minutes_after_t2": 35.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12417293464167,
+        0.12071844514232462,
+        0.09593728776041939
+      ],
+      "price_return_at_trigger": 0.009261614297343401,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.027169127269793814,
+      "trade_id": "E1-a95d248236379ef3"
+    },
+    {
+      "lead_minutes_to_c10_event": 36.0,
+      "minutes_after_t2": 32.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1872734733085485,
+        0.0988177406526661,
+        0.07271491258278887
+      ],
+      "price_return_at_trigger": 0.00949209682767771,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012476511550790326,
+      "trade_id": "E1-4af8903926f46053"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10397004389464294,
+        0.11301635216548402,
+        0.06920742732401311
+      ],
+      "price_return_at_trigger": 0.008041527890299216,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04028265370420381,
+      "trade_id": "E1-9af96f3a5c2b2b25"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12948993136975542,
+        0.06337973731371004,
+        0.028065344960830706
+      ],
+      "price_return_at_trigger": 0.005562107733611432,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.053505283557852445,
+      "trade_id": "E1-79409659d5ee091d"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.129242599313923,
+        0.08000417818083537,
+        0.0757385447401918
+      ],
+      "price_return_at_trigger": 0.008622559652928352,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01881778741865503,
+      "trade_id": "E1-d2e17744d838d5c7"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16427404772347737,
+        0.11570902050094702,
+        0.06644485270869749
+      ],
+      "price_return_at_trigger": 0.007703575109857308,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0092225899202516,
+      "trade_id": "E1-aa9289cc5d7ccd39"
+    },
+    {
+      "lead_minutes_to_c10_event": 114.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19024907926757284,
+        0.1485115339546716,
+        0.07590640124873631
+      ],
+      "price_return_at_trigger": 0.007942672762656366,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.018208927190163093,
+      "trade_id": "E1-639a087af780f049"
+    },
+    {
+      "lead_minutes_to_c10_event": 36.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16012871110285076,
+        0.17845166001310234,
+        0.15892133604706327
+      ],
+      "price_return_at_trigger": 0.008757745309883935,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04640746411757135,
+      "trade_id": "E1-29265628b56c0f5a"
+    },
+    {
+      "lead_minutes_to_c10_event": 34.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.05204688193122282,
+        0.035038914630716025,
+        0.03312180291159701
+      ],
+      "price_return_at_trigger": 0.008921416742347477,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05619958331107444,
+      "trade_id": "E1-8b47ae1290ca1f2c"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17859181097589277,
+        0.18662447399163434,
+        0.06988633128447937
+      ],
+      "price_return_at_trigger": 0.007565680079813619,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.028558363817758448,
+      "trade_id": "E1-8f81a35b1e49af18"
+    },
+    {
+      "lead_minutes_to_c10_event": 151.0,
+      "minutes_after_t2": 19.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16988274049902172,
+        0.1271600873859601,
+        0.14531805707079934
+      ],
+      "price_return_at_trigger": 0.011015811824853783,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.020212233033726434,
+      "trade_id": "E1-8fe65a02767fc6b5"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15617979057553583,
+        0.11759205838820486,
+        0.15065334668780186
+      ],
+      "price_return_at_trigger": 0.009787556316479096,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.047356821456522535,
+      "trade_id": "E1-42eeef5f11832d59"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09849423294050974,
+        0.19002069691960163,
+        0.1369313487303168
+      ],
+      "price_return_at_trigger": 0.00875762798714308,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03964224158009988,
+      "trade_id": "E1-7e6b2b0149972801"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10836845480648931,
+        0.152787949902889,
+        0.13048255088002417
+      ],
+      "price_return_at_trigger": 0.00846381718154876,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02105374523910286,
+      "trade_id": "E1-7c1d972c201e620e"
+    },
+    {
+      "lead_minutes_to_c10_event": 108.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17290269833956012,
+        0.17550635808492934,
+        0.18492595209786178
+      ],
+      "price_return_at_trigger": 0.009081706435285497,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013289949385394184,
+      "trade_id": "E1-ee09069d30495a96"
+    },
+    {
+      "lead_minutes_to_c10_event": 138.0,
+      "minutes_after_t2": 59.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13560543322359342,
+        0.15750726435265358,
+        0.15030092668554162
+      ],
+      "price_return_at_trigger": 0.008063256121733087,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.017480600087617537,
+      "trade_id": "E1-d05bc118c47d1330"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.07862261058497962,
+        0.12750096047068027,
+        0.15462297051267174
+      ],
+      "price_return_at_trigger": 0.009044264718671258,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.00995738759892184,
+      "trade_id": "E1-3a55d3cfb438acef"
+    },
+    {
+      "lead_minutes_to_c10_event": 19.0,
+      "minutes_after_t2": 68.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1371544754726547,
+        0.16676360818596833,
+        0.15361551954555266
+      ],
+      "price_return_at_trigger": 0.007902107941511582,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008732944184299152,
+      "trade_id": "E1-3863a8f6cb9d0037"
+    },
+    {
+      "lead_minutes_to_c10_event": 6.0,
+      "minutes_after_t2": 34.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18040659198914516,
+        0.07596488006402231,
+        0.059597455320678394
+      ],
+      "price_return_at_trigger": 0.008275862068965578,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010238726790450903,
+      "trade_id": "E1-f6980036e041b4cb"
+    },
+    {
+      "lead_minutes_to_c10_event": 218.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.17495568848190934,
+        0.1294518477315791,
+        0.15132470927582897
+      ],
+      "price_return_at_trigger": 0.00887226866109403,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.030708315002199837,
+      "trade_id": "E1-d4e8d82690c81357"
+    },
+    {
+      "lead_minutes_to_c10_event": 227.0,
+      "minutes_after_t2": 18.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16264617487510746,
+        0.185868331217836,
+        0.177257810847804
+      ],
+      "price_return_at_trigger": 0.00931579014299988,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.0779170580171975,
+      "trade_id": "E1-f3c7df38d7eb0f83"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18554904965942348,
+        0.06302062876481626,
+        0.04332624243104258
+      ],
+      "price_return_at_trigger": 0.008330343975447185,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.35517557495316665,
+      "trade_id": "E1-e6d3568600cd5b3b"
+    },
+    {
+      "lead_minutes_to_c10_event": 216.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16915300476035225,
+        0.19122089943580564,
+        0.16803728178430646
+      ],
+      "price_return_at_trigger": 0.009695586627612274,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03797916181940453,
+      "trade_id": "E1-886a01d7a328fecb"
+    },
+    {
+      "lead_minutes_to_c10_event": 50.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08480738148829838,
+        0.07797274572922523,
+        0.09529508728402712
+      ],
+      "price_return_at_trigger": 0.007216141293475475,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.022219999428424453,
+      "trade_id": "E1-7236cf67b65c31cc"
+    },
+    {
+      "lead_minutes_to_c10_event": 75.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12518877699033176,
+        0.045271603292960656,
+        0.08915312808247988
+      ],
+      "price_return_at_trigger": 0.00916660856702034,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05299294013513478,
+      "trade_id": "E1-75563382a9c9ff6b"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10565712129074376,
+        0.10823668677260552,
+        0.05470260550860063
+      ],
+      "price_return_at_trigger": 0.007101982423870945,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.5114960147148988,
+      "trade_id": "E1-c468a03a8c5e486e"
+    },
+    {
+      "lead_minutes_to_c10_event": 124.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08808588602361235,
+        0.07656069491752415,
+        0.032097708857357604
+      ],
+      "price_return_at_trigger": 0.00941440510291458,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.041171780409296144,
+      "trade_id": "E1-3abd5705cacc8b70"
+    },
+    {
+      "lead_minutes_to_c10_event": 137.0,
+      "minutes_after_t2": 29.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1825179828748831,
+        0.12340210920715701,
+        0.17275822805924496
+      ],
+      "price_return_at_trigger": 0.00850038960119015,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012396401501735488,
+      "trade_id": "E1-ce105fed0c5210cc"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11430588767062604,
+        0.13924799035874363,
+        0.08050174017671745
+      ],
+      "price_return_at_trigger": 0.010379036878448655,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01863824141362369,
+      "trade_id": "E1-a4c5efa34a799808"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17596235167401228,
+        0.15391234743412666,
+        0.1809665834856007
+      ],
+      "price_return_at_trigger": 0.008416944561751016,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.025367331187837516,
+      "trade_id": "E1-076c6e1647585b86"
+    },
+    {
+      "lead_minutes_to_c10_event": 34.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16434377283674362,
+        0.1716696290567755,
+        0.1043119407773299
+      ],
+      "price_return_at_trigger": 0.00874532868470701,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.033564174415046555,
+      "trade_id": "E1-44acab05b0d0d870"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12857355149373756,
+        0.164817223140302,
+        0.07509115124809852
+      ],
+      "price_return_at_trigger": 0.008804945368279249,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011640035128538395,
+      "trade_id": "E1-b7ec06ff9a71406e"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13642247177592381,
+        0.18676720517862572,
+        0.15713028107415672
+      ],
+      "price_return_at_trigger": 0.009496834388537323,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.0709763412195934,
+      "trade_id": "E1-0ddefffd34d8a9ce"
+    },
+    {
+      "lead_minutes_to_c10_event": 292.0,
+      "minutes_after_t2": 11.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19106617830518036,
+        0.18262863674272767,
+        0.15578805439334178
+      ],
+      "price_return_at_trigger": 0.009113472220315666,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.015396700288535792,
+      "trade_id": "E1-6f281f9982b3064d"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 19.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16955495801053175,
+        0.12371208490711845,
+        0.08167169078993698
+      ],
+      "price_return_at_trigger": 0.00729239011806726,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008036511558686232,
+      "trade_id": "E1-c83567d441555407"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.05975226210174977,
+        0.05270178488172505,
+        0.08430041971798069
+      ],
+      "price_return_at_trigger": 0.007535844551299631,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.021391721524256058,
+      "trade_id": "E1-975cf90a3f9a17e6"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15018130213915823,
+        0.10278107137823378,
+        0.07084850048093068
+      ],
+      "price_return_at_trigger": 0.006989876730252753,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.11584945940362235,
+      "trade_id": "E1-df2752f0d7f660d6"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11959673423389248,
+        0.07357657183325521,
+        0.1271364912254387
+      ],
+      "price_return_at_trigger": 0.00723984653350529,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0262406412435503,
+      "trade_id": "E1-ed3397370e199195"
+    },
+    {
+      "lead_minutes_to_c10_event": 32.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.18210610759869136,
+        0.15678585865862218,
+        0.10575400034675968
+      ],
+      "price_return_at_trigger": 0.007594605211470373,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05733599580987292,
+      "trade_id": "E1-fc0dfcc0f87972b2"
+    },
+    {
+      "lead_minutes_to_c10_event": 26.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15827409021510339,
+        0.12614265463965252,
+        0.10502577702885015
+      ],
+      "price_return_at_trigger": 0.008771568587077505,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.027961948688382865,
+      "trade_id": "E1-8667a44ebd14dbc3"
+    },
+    {
+      "lead_minutes_to_c10_event": 27.0,
+      "minutes_after_t2": 16.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1988604582756533,
+        0.16138009865008507,
+        0.1269221701001476
+      ],
+      "price_return_at_trigger": 0.007944267905157565,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.15521877291615738,
+      "trade_id": "E1-486bafd06c85b6b2"
+    },
+    {
+      "lead_minutes_to_c10_event": 150.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12027707290261208,
+        0.15016405950053058,
+        0.14319521366627821
+      ],
+      "price_return_at_trigger": 0.008996966736928735,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.0556783712919644,
+      "trade_id": "E1-53c61c8d25c15f33"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1710499954374138,
+        0.0764527801914287,
+        0.14839093742226608
+      ],
+      "price_return_at_trigger": 0.008083982161517733,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.022235550387825098,
+      "trade_id": "E1-63b3c4e800d9cbf4"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08148837511417469,
+        0.07752481855489388,
+        0.04354499162052948
+      ],
+      "price_return_at_trigger": 0.00699356942570839,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009391782464529541,
+      "trade_id": "E1-a413ab5d31d7bcaf"
+    },
+    {
+      "lead_minutes_to_c10_event": 99.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.18963106545282693,
+        0.13501933084560588,
+        0.12880814505649288
+      ],
+      "price_return_at_trigger": 0.009193817157961304,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03729242084698048,
+      "trade_id": "E1-d68a71ffef7e977f"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13132417373311156,
+        0.1390044395817154,
+        0.19415335078948662
+      ],
+      "price_return_at_trigger": 0.008471601056278866,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.037809289759284326,
+      "trade_id": "E1-2c03f0192678137d"
+    },
+    {
+      "lead_minutes_to_c10_event": 38.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18784328101417158,
+        0.12661178350653357,
+        0.18732517241944607
+      ],
+      "price_return_at_trigger": 0.008828664245567275,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.052419503355408015,
+      "trade_id": "E1-92fa36a8366d2c2b"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.11162200491443802,
+        0.15176984785896216,
+        0.15786142535373465
+      ],
+      "price_return_at_trigger": 0.007632842379363458,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02878997477418821,
+      "trade_id": "E1-fd28f8e94ba53c4b"
+    },
+    {
+      "lead_minutes_to_c10_event": 22.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19467120542466546,
+        0.07616590553664088,
+        0.17157228232845131
+      ],
+      "price_return_at_trigger": 0.008876380168867826,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.031247744822111567,
+      "trade_id": "E1-9c6b858d820378ef"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 35.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15279348363110162,
+        0.08424368540267205,
+        0.10268442008316148
+      ],
+      "price_return_at_trigger": 0.0074563176570991985,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009163185554507569,
+      "trade_id": "E1-996516d83b027e0e"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16803751439218342,
+        0.07616217524496782,
+        0.06473051635869585
+      ],
+      "price_return_at_trigger": 0.01106439477760568,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.11565980674190457,
+      "trade_id": "E1-f547835738f8dc00"
+    },
+    {
+      "lead_minutes_to_c10_event": 38.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11714551816763868,
+        0.14307229536423682,
+        0.13719874468918744
+      ],
+      "price_return_at_trigger": 0.009884449394403472,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.016358067659752118,
+      "trade_id": "E1-1e2066d7055af411"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.07396119261018907,
+        0.06654946271083031,
+        0.062293985395241856
+      ],
+      "price_return_at_trigger": 0.007089886724798378,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03497677450900505,
+      "trade_id": "E1-cde1f7659b64586b"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.11866070854756745,
+        0.0767971170658681,
+        0.13116685173735643
+      ],
+      "price_return_at_trigger": 0.017814201400009333,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.086608409205289,
+      "trade_id": "E1-94f0818c8296f821"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.07056896590067865,
+        0.06358110183754906,
+        0.029054682050146836
+      ],
+      "price_return_at_trigger": 0.00618717258955126,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07296710557364672,
+      "trade_id": "E1-a9cd104009b69ec4"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15970312134991654,
+        0.06625099149836429,
+        0.06777035250936915
+      ],
+      "price_return_at_trigger": 0.008895139721479373,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03058655353684392,
+      "trade_id": "E1-41dfe7dfcb6ae264"
+    },
+    {
+      "lead_minutes_to_c10_event": 24.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11520140246682899,
+        0.10572436795365857,
+        0.09133955273464535
+      ],
+      "price_return_at_trigger": 0.007831194257124308,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01428467841345804,
+      "trade_id": "E1-dfae8cb509b95deb"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17811127459759285,
+        0.15544419833867332,
+        0.09480488238113101
+      ],
+      "price_return_at_trigger": 0.008340727595385955,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008322981366459814,
+      "trade_id": "E1-4e85ac78d54aa8e3"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.07896240135255925,
+        0.1667766032688358,
+        0.05542561616605408
+      ],
+      "price_return_at_trigger": 0.008319334453243732,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02735781137509008,
+      "trade_id": "E1-9593b24a3dc4a9cf"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10184159041133146,
+        0.15018644832534228,
+        0.11974819418946456
+      ],
+      "price_return_at_trigger": 0.010475809676129488,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01927229108356654,
+      "trade_id": "E1-32b7274e29fb6638"
+    },
+    {
+      "lead_minutes_to_c10_event": 21.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18131834794375754,
+        0.16936241397647933,
+        0.13117750470661246
+      ],
+      "price_return_at_trigger": 0.008323480977916686,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011865050880378147,
+      "trade_id": "E1-4794d0e06aa6e725"
+    },
+    {
+      "lead_minutes_to_c10_event": 77.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11383212975078148,
+        0.06808027562010414,
+        0.10758101638931739
+      ],
+      "price_return_at_trigger": 0.008107240327500431,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.09736715363621773,
+      "trade_id": "E1-522679105603e9f5"
+    },
+    {
+      "lead_minutes_to_c10_event": 25.0,
+      "minutes_after_t2": 41.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13069399939011983,
+        0.1229054041729166,
+        0.08637745513506671
+      ],
+      "price_return_at_trigger": 0.007337491792514639,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05666447800393959,
+      "trade_id": "E1-49716cbc6a92d3fb"
+    },
+    {
+      "lead_minutes_to_c10_event": 41.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12975986495149858,
+        0.16964962956358393,
+        0.1354086860750056
+      ],
+      "price_return_at_trigger": 0.010402842587439398,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014598227663855434,
+      "trade_id": "E1-cbf06d97d14f6365"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1617282926427172,
+        0.13604755279440214,
+        0.1727673045355785
+      ],
+      "price_return_at_trigger": 0.008904897168389825,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.08680699580482742,
+      "trade_id": "E1-6c96ffeb8f87b5c3"
+    },
+    {
+      "lead_minutes_to_c10_event": 32.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15165855896462554,
+        0.16799752654524827,
+        0.18328213449336528
+      ],
+      "price_return_at_trigger": 0.00962850036106877,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0921928909572336,
+      "trade_id": "E1-70db44152fd4c00a"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09900038548698697,
+        0.08460777040886365,
+        0.04152768656545486
+      ],
+      "price_return_at_trigger": 0.0064886667543513354,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.1355166820114866,
+      "trade_id": "E1-04afde730dc86ed8"
+    },
+    {
+      "lead_minutes_to_c10_event": 113.0,
+      "minutes_after_t2": 15.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1697376134631781,
+        0.1714028002108154,
+        0.16905054355719476
+      ],
+      "price_return_at_trigger": 0.008615000200084433,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05728874184050947,
+      "trade_id": "E1-9b0e882287bba2b4"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12131166955835819,
+        0.08476706323203262,
+        0.029711170893661838
+      ],
+      "price_return_at_trigger": 0.005924603335632828,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02187233697195956,
+      "trade_id": "E1-606f6917c8920f32"
+    },
+    {
+      "lead_minutes_to_c10_event": 58.0,
+      "minutes_after_t2": 17.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17044915612333733,
+        0.12875615089460804,
+        0.14799943624210207
+      ],
+      "price_return_at_trigger": 0.00850927703134996,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02015355086372339,
+      "trade_id": "E1-3f51f02cb5ae8941"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 16.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09799181441201656,
+        0.07449974900698472,
+        0.03709106343828084
+      ],
+      "price_return_at_trigger": 0.007875243664717368,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0279922027290449,
+      "trade_id": "E1-de43c847cc9ff4b2"
+    },
+    {
+      "lead_minutes_to_c10_event": 151.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.155327685895584,
+        0.1295505042793651,
+        0.1464353583789787
+      ],
+      "price_return_at_trigger": 0.008462840436990415,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03138944452992787,
+      "trade_id": "E1-299bcf783bba2c2d"
+    },
+    {
+      "lead_minutes_to_c10_event": 21.0,
+      "minutes_after_t2": 13.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11260204511996993,
+        0.12240658313190188,
+        0.08220173317719419
+      ],
+      "price_return_at_trigger": 0.00917008625743243,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04865589146637639,
+      "trade_id": "E1-d3d4134b2a4c98c5"
+    },
+    {
+      "lead_minutes_to_c10_event": 21.0,
+      "minutes_after_t2": 11.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12066508280742136,
+        0.1286798263005046,
+        0.12144507130720193
+      ],
+      "price_return_at_trigger": 0.007940004390691202,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008439465486439035,
+      "trade_id": "E1-e20c10b67183b328"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10575839249269865,
+        0.08502150325891623,
+        0.06909517512286861
+      ],
+      "price_return_at_trigger": 0.00688460097414767,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03699887598351426,
+      "trade_id": "E1-f50ea0c89d71dbc1"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 17.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16179084502050936,
+        0.14127969700657939,
+        0.08800959302310701
+      ],
+      "price_return_at_trigger": 0.0071913967143895086,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010176815992610777,
+      "trade_id": "E1-1360a324dcda1dbf"
+    },
+    {
+      "lead_minutes_to_c10_event": 6.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.04826653618654437,
+        0.049381193074883895,
+        0.16591614887796804
+      ],
+      "price_return_at_trigger": 0.011690553260947478,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0631234731972008,
+      "trade_id": "E1-e8d24deefeec5a5f"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19717992322587463,
+        0.06002192661059234,
+        0.040120671905815614
+      ],
+      "price_return_at_trigger": 0.005037771506489097,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03395871436486764,
+      "trade_id": "E1-0f6cfa0769b17284"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13176217994958989,
+        0.038777851722901074,
+        0.05650894907336281
+      ],
+      "price_return_at_trigger": 0.008655256723716365,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.06425427872860645,
+      "trade_id": "E1-0eea33c0511a38ec"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18291761701805911,
+        0.06207821661630968,
+        0.051267897462075836
+      ],
+      "price_return_at_trigger": 0.00617857728689386,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.14259937667450395,
+      "trade_id": "E1-5a153a2fbafabadd"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.07865700551411917,
+        0.09479280169944687,
+        0.05664339584597444
+      ],
+      "price_return_at_trigger": 0.007888376235419381,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.06502727508875217,
+      "trade_id": "E1-400458a4d656fd3f"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14888271985194684,
+        0.16465696992401957,
+        0.13557902632240876
+      ],
+      "price_return_at_trigger": 0.009081248188580693,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02500241522558211,
+      "trade_id": "E1-f10cab5eaaaba65c"
+    },
+    {
+      "lead_minutes_to_c10_event": 88.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.15498990805722468,
+        0.1356473968695452,
+        0.10532514824569361
+      ],
+      "price_return_at_trigger": 0.007990135635018492,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.10850801479654759,
+      "trade_id": "E1-fb12c762a759362d"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11735523754136568,
+        0.12171800009387683,
+        0.17070798155075295
+      ],
+      "price_return_at_trigger": 0.010386213263579247,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010847822741960167,
+      "trade_id": "E1-096b950d24b86f7e"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 30.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16374728505470565,
+        0.0677700900819941,
+        0.12626771898280253
+      ],
+      "price_return_at_trigger": 0.0074957660863874676,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.00805709383412534,
+      "trade_id": "E1-4fafb3123570732a"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 17.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.07761862627952065,
+        0.13568113344575083,
+        0.10424684157563442
+      ],
+      "price_return_at_trigger": 0.007568377669539217,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.020606968902210587,
+      "trade_id": "E1-ceb8eb35dce82c4b"
+    },
+    {
+      "lead_minutes_to_c10_event": 162.0,
+      "minutes_after_t2": 18.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19648341502199787,
+        0.19548149797589415,
+        0.1998105483242178
+      ],
+      "price_return_at_trigger": 0.008703028246670685,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011247773348036283,
+      "trade_id": "E1-073738aaa0a9edda"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.06928536177055891,
+        0.05750953426374206,
+        0.08302977029184799
+      ],
+      "price_return_at_trigger": 0.00643279888849313,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.006479504822741511,
+      "trade_id": "E1-8fd36ae1eab5df3f"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 60.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1849261120165951,
+        0.17020308481606053,
+        0.1256839272401298
+      ],
+      "price_return_at_trigger": 0.0078066671526717535,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.082039992129459,
+      "trade_id": "E1-b99473a6d6121f40"
+    },
+    {
+      "lead_minutes_to_c10_event": 42.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12133037420205305,
+        0.05808118977902246,
+        0.05054161855337053
+      ],
+      "price_return_at_trigger": 0.006325929120839513,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.10854719286895254,
+      "trade_id": "E1-42d56646d9ae0614"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11221082992684545,
+        0.11347309044869393,
+        0.08150874079844628
+      ],
+      "price_return_at_trigger": 0.006614377470355759,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.13318922924901178,
+      "trade_id": "E1-ab9d91dc52f19651"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 11.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12186356199694072,
+        0.06083584043740881,
+        0.04850084286096204
+      ],
+      "price_return_at_trigger": 0.007372571798795802,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008547092087546337,
+      "trade_id": "E1-64a62e9a546d7369"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19890280909860514,
+        0.1899861737340625,
+        0.1590445351680943
+      ],
+      "price_return_at_trigger": 0.007999111209865406,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03181313187423629,
+      "trade_id": "E1-fce01e107218d758"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 176.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15534015301269616,
+        0.11567719603348989,
+        0.14034312184189557
+      ],
+      "price_return_at_trigger": 0.00895652505884148,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009093493194714641,
+      "trade_id": "E1-68d952b1d558aaf5"
+    },
+    {
+      "lead_minutes_to_c10_event": 95.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13093739943002825,
+        0.12387858571942213,
+        0.10700182354537564
+      ],
+      "price_return_at_trigger": 0.008024691358024638,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01323731138545936,
+      "trade_id": "E1-cbe2ecbac306982e"
+    },
+    {
+      "lead_minutes_to_c10_event": 74.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.06316272921468309,
+        0.033291593198347555,
+        0.06532849035458889
+      ],
+      "price_return_at_trigger": 0.007212558336868735,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02371187479375858,
+      "trade_id": "E1-4e1c314f34b50b87"
+    },
+    {
+      "lead_minutes_to_c10_event": 89.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08852345863813339,
+        0.08953228625102232,
+        0.14464033461444134
+      ],
+      "price_return_at_trigger": 0.014411131356634188,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02147865937827853,
+      "trade_id": "E1-0bcde4cc3e1b8de9"
+    },
+    {
+      "lead_minutes_to_c10_event": 30.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1880311876402393,
+        0.080308074046238,
+        0.04655272624875532
+      ],
+      "price_return_at_trigger": 0.006332370068742099,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.4274541354700294,
+      "trade_id": "E1-598110a48e7e5624"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 18.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15430000318297346,
+        0.11945720540006555,
+        0.14224227794811534
+      ],
+      "price_return_at_trigger": 0.007788228284461907,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.05732646720857981,
+      "trade_id": "E1-7ffde92f8a52504b"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 13.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1222522073150351,
+        0.06440453084384155,
+        0.062004278484956335
+      ],
+      "price_return_at_trigger": 0.006397850664515925,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011712783518985637,
+      "trade_id": "E1-a0643f756dd5e32a"
+    },
+    {
+      "lead_minutes_to_c10_event": 165.0,
+      "minutes_after_t2": 51.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19141433317763284,
+        0.19993531106086793,
+        0.17299080014207754
+      ],
+      "price_return_at_trigger": 0.009430872839755189,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012068779866267088,
+      "trade_id": "E1-83b6600e189ccb79"
+    },
+    {
+      "lead_minutes_to_c10_event": 23.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19379171175703552,
+        0.15009751336514385,
+        0.14905059210877375
+      ],
+      "price_return_at_trigger": 0.01066047455007868,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.10206529087923766,
+      "trade_id": "E1-d6bf5d9f2dd6bd99"
+    },
+    {
+      "lead_minutes_to_c10_event": 108.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12843801106823127,
+        0.08817837723876744,
+        0.08227393813093674
+      ],
+      "price_return_at_trigger": 0.006700924493826976,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03214106225236768,
+      "trade_id": "E1-d38ffbc1cc9deca6"
+    },
+    {
+      "lead_minutes_to_c10_event": 22.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12398293693018565,
+        0.06281185437535668,
+        0.07673325614019202
+      ],
+      "price_return_at_trigger": 0.008825978671456403,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.029365501539839522,
+      "trade_id": "E1-b5e5fc2808ff94d7"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.0775473639227306,
+        0.07060846466757904,
+        0.05676957306265357
+      ],
+      "price_return_at_trigger": 0.006292674754524441,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.05775367855873248,
+      "trade_id": "E1-2d4295bd5c00d962"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18102486711700047,
+        0.07816116538827818,
+        0.07509226500863582
+      ],
+      "price_return_at_trigger": 0.007526146803573219,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03949438916616321,
+      "trade_id": "E1-5466330406ab1c16"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14754310888270972,
+        0.08972520239315739,
+        0.09015489773578364
+      ],
+      "price_return_at_trigger": 0.008431987455899792,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07182673461387701,
+      "trade_id": "E1-6998f8dc321f0fbc"
+    },
+    {
+      "lead_minutes_to_c10_event": 18.0,
+      "minutes_after_t2": 125.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17134569097753546,
+        0.1510642730102533,
+        0.14655854409701782
+      ],
+      "price_return_at_trigger": 0.00818457837687192,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011983513501620857,
+      "trade_id": "E1-5fb63fec7a761be7"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.18555235676227727,
+        0.12403123377613812,
+        0.18070828495858293
+      ],
+      "price_return_at_trigger": 0.008473530500596516,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.020073217884908123,
+      "trade_id": "E1-1a93692bcc0a70d7"
+    },
+    {
+      "lead_minutes_to_c10_event": 102.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14238712477513393,
+        0.0943061184459205,
+        0.08288213649341283
+      ],
+      "price_return_at_trigger": 0.007426943854372814,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03388468545878376,
+      "trade_id": "E1-54ce6e6135e9853c"
+    },
+    {
+      "lead_minutes_to_c10_event": 75.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12488582634168352,
+        0.1180098220093941,
+        0.10621344249936454
+      ],
+      "price_return_at_trigger": 0.010670343339277855,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01657499962533926,
+      "trade_id": "E1-998450464643dcf3"
+    },
+    {
+      "lead_minutes_to_c10_event": 89.0,
+      "minutes_after_t2": 28.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14895447219317726,
+        0.10330865408425734,
+        0.14743306958030808
+      ],
+      "price_return_at_trigger": 0.0100634684658929,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.023614843615987313,
+      "trade_id": "E1-2593ed9836b74ea3"
+    },
+    {
+      "lead_minutes_to_c10_event": 39.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.15755122663735516,
+        0.13737583684695048,
+        0.1788175611475385
+      ],
+      "price_return_at_trigger": 0.008947398415683594,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.022453980737447976,
+      "trade_id": "E1-c65a04891ce2835b"
+    },
+    {
+      "lead_minutes_to_c10_event": 237.0,
+      "minutes_after_t2": 24.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1962208896689392,
+        0.17509909098988338,
+        0.1694219762315431
+      ],
+      "price_return_at_trigger": 0.008561401227728194,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012771833953634681,
+      "trade_id": "E1-99145d7a7e178060"
+    },
+    {
+      "lead_minutes_to_c10_event": 104.0,
+      "minutes_after_t2": 20.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14338584895542086,
+        0.14019775050078526,
+        0.09297602378169818
+      ],
+      "price_return_at_trigger": 0.008660508083140783,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.019566333076725728,
+      "trade_id": "E1-d9cd265d38c0d780"
+    },
+    {
+      "lead_minutes_to_c10_event": 58.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13109718718641722,
+        0.09310572077850168,
+        0.06905196441226463
+      ],
+      "price_return_at_trigger": 0.007257430777053431,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.054916100402163215,
+      "trade_id": "E1-b2f98c9f000a2dd6"
+    },
+    {
+      "lead_minutes_to_c10_event": 111.0,
+      "minutes_after_t2": 23.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19947177116839238,
+        0.17887821532301218,
+        0.19289761503054587
+      ],
+      "price_return_at_trigger": 0.008641990964601831,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.018269311540265454,
+      "trade_id": "E1-d3b45f5446592fca"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 16.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14639697667807267,
+        0.17076237514421638,
+        0.08278396942014292
+      ],
+      "price_return_at_trigger": 0.007399305108737542,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05288894608158534,
+      "trade_id": "E1-5a88418bcd33822d"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 30.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18085802906597132,
+        0.11763906157290896,
+        0.10312621989699108
+      ],
+      "price_return_at_trigger": 0.006584236113769348,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014431726830762104,
+      "trade_id": "E1-5d913609cad0251c"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11677621434904172,
+        0.07909116043892998,
+        0.07333421714627417
+      ],
+      "price_return_at_trigger": 0.006964100201608314,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.026655824250483073,
+      "trade_id": "E1-d92a9984ab05bf7b"
+    },
+    {
+      "lead_minutes_to_c10_event": 33.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14103483068575132,
+        0.19833198183664466,
+        0.16344656003394267
+      ],
+      "price_return_at_trigger": 0.00871300299301625,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.032923179248420364,
+      "trade_id": "E1-31f60adff7877414"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 85.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19179505434391195,
+        0.191175073554028,
+        0.19130434869057347
+      ],
+      "price_return_at_trigger": 0.00834763215448242,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011182528869221775,
+      "trade_id": "E1-51d23c84b0a642e0"
+    },
+    {
+      "lead_minutes_to_c10_event": 28.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.046458574128734435,
+        0.07316952379866377,
+        0.13235800985148344
+      ],
+      "price_return_at_trigger": 0.008283541553503415,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009641499185225388,
+      "trade_id": "E1-40c657a1e5c8e9fe"
+    },
+    {
+      "lead_minutes_to_c10_event": 102.0,
+      "minutes_after_t2": 21.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16601755918857594,
+        0.14693332095901213,
+        0.0996360226636056
+      ],
+      "price_return_at_trigger": 0.008685906416363132,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01807228915662651,
+      "trade_id": "E1-127eecd7d3047aa5"
+    },
+    {
+      "lead_minutes_to_c10_event": 42.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19815691793350385,
+        0.15997305854623325,
+        0.15008032863876464
+      ],
+      "price_return_at_trigger": 0.008360039013515452,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.00979982351028763,
+      "trade_id": "E1-06422ec716d1f1a2"
+    },
+    {
+      "lead_minutes_to_c10_event": 87.0,
+      "minutes_after_t2": 35.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1833158811758485,
+        0.1654872418338489,
+        0.1865099913634048
+      ],
+      "price_return_at_trigger": 0.008826162693682749,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03180445256274922,
+      "trade_id": "E1-fe5bf957537330f4"
+    },
+    {
+      "lead_minutes_to_c10_event": 9.0,
+      "minutes_after_t2": 13.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09537061989352291,
+        0.0946007592058355,
+        0.0882937957178976
+      ],
+      "price_return_at_trigger": 0.008305875892366643,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012767710049423231,
+      "trade_id": "E1-b3e7938a004ef877"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.0935771538391127,
+        0.07457764076264795,
+        0.06433268188551652
+      ],
+      "price_return_at_trigger": 0.006006518702467822,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.007217134875058262,
+      "trade_id": "E1-0518c8d91fbd14f1"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17447016941399185,
+        0.03320466488859873,
+        0.05169092474431652
+      ],
+      "price_return_at_trigger": 0.009263969584192289,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03239265665301172,
+      "trade_id": "E1-9c01c2362303a355"
+    },
+    {
+      "lead_minutes_to_c10_event": 20.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1334082732639706,
+        0.0671960205052465,
+        0.060963259515971945
+      ],
+      "price_return_at_trigger": 0.007168188334716552,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.037500943182675606,
+      "trade_id": "E1-154c371039ebf8a4"
+    },
+    {
+      "lead_minutes_to_c10_event": 14.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14080183137734764,
+        0.08140799707845024,
+        0.1464985301808704
+      ],
+      "price_return_at_trigger": 0.008967741935483886,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.052645161290322484,
+      "trade_id": "E1-d6ffff89a6525a8a"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1372691440268059,
+        0.12677737707844935,
+        0.14630403233064512
+      ],
+      "price_return_at_trigger": 0.00999517474322742,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.019852485007237908,
+      "trade_id": "E1-fc49ffbbf2408923"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11830327028152827,
+        0.07640137848788173,
+        0.06310782720112608
+      ],
+      "price_return_at_trigger": 0.012593765054022432,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013419585713302595,
+      "trade_id": "E1-4664fb9661f7fc39"
+    },
+    {
+      "lead_minutes_to_c10_event": 36.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19063550928778164,
+        0.13245815864344593,
+        0.1312084976511663
+      ],
+      "price_return_at_trigger": 0.008999507839414944,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.018420867608802682,
+      "trade_id": "E1-060e2e81e5a216b5"
+    },
+    {
+      "lead_minutes_to_c10_event": 93.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10429489479454235,
+        0.1137051603676649,
+        0.12255165162608389
+      ],
+      "price_return_at_trigger": 0.008403361344538007,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013792473511143655,
+      "trade_id": "E1-dc50b81a4a5fd66a"
+    },
+    {
+      "lead_minutes_to_c10_event": 46.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.18749686717047967,
+        0.16970510608757644,
+        0.16497667510151676
+      ],
+      "price_return_at_trigger": 0.008174386920980936,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.023491740944287853,
+      "trade_id": "E1-86ec18c1fe73ecfd"
+    },
+    {
+      "lead_minutes_to_c10_event": 127.0,
+      "minutes_after_t2": 240.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.17356506828507165,
+        0.16831965603725685,
+        0.15507799186181329
+      ],
+      "price_return_at_trigger": 0.008265430001170193,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03897554916041446,
+      "trade_id": "E1-9d17aae3f2fa7c00"
+    },
+    {
+      "lead_minutes_to_c10_event": 39.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10993843140881547,
+        0.14522744859621495,
+        0.0686285206144875
+      ],
+      "price_return_at_trigger": 0.008768010493738654,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.08032219056793255,
+      "trade_id": "E1-eb285d01a2b39b34"
+    },
+    {
+      "lead_minutes_to_c10_event": 43.0,
+      "minutes_after_t2": 13.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10655382299157516,
+        0.11719123835744279,
+        0.09158650651518647
+      ],
+      "price_return_at_trigger": 0.008512746599405485,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03143860913431218,
+      "trade_id": "E1-65826bd375afc659"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10463483539775181,
+        0.11001916142163762,
+        0.11779188212504947
+      ],
+      "price_return_at_trigger": 0.008933679531752059,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03582273467411867,
+      "trade_id": "E1-afd17c311d8f0483"
+    },
+    {
+      "lead_minutes_to_c10_event": 101.0,
+      "minutes_after_t2": 28.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18613012305912324,
+        0.17383723929471387,
+        0.1458718279995241
+      ],
+      "price_return_at_trigger": 0.00889625397932936,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.29737037198552185,
+      "trade_id": "E1-bfeaeb58be4b7ed8"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14335203361325527,
+        0.09944730710009636,
+        0.09953296235711281
+      ],
+      "price_return_at_trigger": 0.00769179762615213,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.05656123599230822,
+      "trade_id": "E1-fea64d7e63cc48a3"
+    },
+    {
+      "lead_minutes_to_c10_event": 121.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.18691979044189072,
+        0.16431802606060403,
+        0.1305595111504436
+      ],
+      "price_return_at_trigger": 0.007648240458299371,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03748233018376612,
+      "trade_id": "E1-932f88fb2c695be4"
+    },
+    {
+      "lead_minutes_to_c10_event": 23.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.171901500186215,
+        0.12754003873599348,
+        0.13015064328641285
+      ],
+      "price_return_at_trigger": 0.013889765768041018,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.061935728265673395,
+      "trade_id": "E1-40dc97f3effbdd95"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18312715246091332,
+        0.1658842865000532,
+        0.17118336911169948
+      ],
+      "price_return_at_trigger": 0.011970243155925875,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04759394660771976,
+      "trade_id": "E1-5543d365df11eb36"
+    },
+    {
+      "lead_minutes_to_c10_event": 67.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.0976775599950101,
+        0.12793983990592359,
+        0.06971780989760576
+      ],
+      "price_return_at_trigger": 0.0082872649333956,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03733811569869738,
+      "trade_id": "E1-fe68eeef349445b6"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16957161403752613,
+        0.13080531910600934,
+        0.1138750982767429
+      ],
+      "price_return_at_trigger": 0.007678132678132776,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.035933660933660905,
+      "trade_id": "E1-8a9f3559981bca8a"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13244846472244312,
+        0.09765572636458943,
+        0.08562449782488994
+      ],
+      "price_return_at_trigger": 0.008229177082291539,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02237442922374422,
+      "trade_id": "E1-73b3911ebea02a12"
+    },
+    {
+      "lead_minutes_to_c10_event": 31.0,
+      "minutes_after_t2": 36.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14859693192800313,
+        0.08132181418861542,
+        0.10428916440433156
+      ],
+      "price_return_at_trigger": 0.007886665693004113,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.06302030086169119,
+      "trade_id": "E1-543cba6737bf4f3c"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 20.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19137464467709234,
+        0.16798968954586604,
+        0.16951313617533054
+      ],
+      "price_return_at_trigger": 0.008759396160775257,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.016959681928309545,
+      "trade_id": "E1-38b11484405298fc"
+    },
+    {
+      "lead_minutes_to_c10_event": 121.0,
+      "minutes_after_t2": 265.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.15011485742706157,
+        0.1365154765608403,
+        0.1770822539799356
+      ],
+      "price_return_at_trigger": 0.00795430794262808,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.021351310220136366,
+      "trade_id": "E1-b3e1537a1d2801bd"
+    },
+    {
+      "lead_minutes_to_c10_event": 73.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19884339733257966,
+        0.08987978389311674,
+        0.1584320447806816
+      ],
+      "price_return_at_trigger": 0.008722032612817676,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.26200572275657596,
+      "trade_id": "E1-a854e042d2dcac24"
+    },
+    {
+      "lead_minutes_to_c10_event": 58.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13248862683785778,
+        0.11508755623495308,
+        0.15700441047108696
+      ],
+      "price_return_at_trigger": 0.00969517592387703,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.05880725824297417,
+      "trade_id": "E1-e08feab255b09764"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19253800744687805,
+        0.055405220106392004,
+        0.0892747614682803
+      ],
+      "price_return_at_trigger": 0.007052186177715081,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.11028534230226739,
+      "trade_id": "E1-257024d60259b84b"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13164459902542378,
+        0.10501415823661231,
+        0.16744522029453976
+      ],
+      "price_return_at_trigger": 0.008443969683096686,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.042728521287959786,
+      "trade_id": "E1-c00f9a32ab30a5c0"
+    },
+    {
+      "lead_minutes_to_c10_event": 24.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19448410463651714,
+        0.1742805286168296,
+        0.14595793279788577
+      ],
+      "price_return_at_trigger": 0.009634085083911836,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011836529668602935,
+      "trade_id": "E1-a9132f96adbab35a"
+    },
+    {
+      "lead_minutes_to_c10_event": 136.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12180433978342461,
+        0.1108736058242611,
+        0.10428153305533656
+      ],
+      "price_return_at_trigger": 0.00791863985715402,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.017001785575654127,
+      "trade_id": "E1-26510c3012acb52c"
+    },
+    {
+      "lead_minutes_to_c10_event": 67.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12518640758936195,
+        0.07267457226963632,
+        0.07855416931358511
+      ],
+      "price_return_at_trigger": 0.007952613393297892,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04085997915866835,
+      "trade_id": "E1-34d39ada95516d2d"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10484605725914788,
+        0.041693548625993435,
+        0.08688937241161561
+      ],
+      "price_return_at_trigger": 0.009033250048049224,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0308475879300405,
+      "trade_id": "E1-106c1bd1cfda9390"
+    },
+    {
+      "lead_minutes_to_c10_event": 54.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19752540975460012,
+        0.1415099120378432,
+        0.13256813227538944
+      ],
+      "price_return_at_trigger": 0.008832311802608794,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.017978940751217865,
+      "trade_id": "E1-f3525d69a1f5d2c7"
+    },
+    {
+      "lead_minutes_to_c10_event": 105.0,
+      "minutes_after_t2": 45.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19213184483467738,
+        0.12349603614623013,
+        0.12757769750242665
+      ],
+      "price_return_at_trigger": 0.009141221423888846,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014631177833321685,
+      "trade_id": "E1-7f780ef9a681a68f"
+    },
+    {
+      "lead_minutes_to_c10_event": 60.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.12891639631908644,
+        0.1250701674644253,
+        0.1305026754509822
+      ],
+      "price_return_at_trigger": 0.008685720023597021,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.022705877922958084,
+      "trade_id": "E1-649a1e56570f431e"
+    },
+    {
+      "lead_minutes_to_c10_event": 153.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14244689746869457,
+        0.12771044262995554,
+        0.1025692945607825
+      ],
+      "price_return_at_trigger": 0.008720059042837347,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.013058946464503451,
+      "trade_id": "E1-8391a38179a7db7c"
+    },
+    {
+      "lead_minutes_to_c10_event": 52.0,
+      "minutes_after_t2": 27.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19705747706933938,
+        0.16216222885208384,
+        0.15313987884353294
+      ],
+      "price_return_at_trigger": 0.010440199446575704,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.029315438394802662,
+      "trade_id": "E1-14f0904c2f86059f"
+    },
+    {
+      "lead_minutes_to_c10_event": 14.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12523148104949933,
+        0.05689595248830196,
+        0.05289354016630346
+      ],
+      "price_return_at_trigger": 0.0070025407448719434,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.022370948751316844,
+      "trade_id": "E1-d30d2eece26302e3"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15246421545234407,
+        0.09456083805579836,
+        0.18157093118169645
+      ],
+      "price_return_at_trigger": 0.00841128018986459,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.08446181767415895,
+      "trade_id": "E1-59823e339181ba39"
+    },
+    {
+      "lead_minutes_to_c10_event": 54.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1643456819631726,
+        0.14727540809877265,
+        0.11697896645013389
+      ],
+      "price_return_at_trigger": 0.008646023965289018,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009318378951952422,
+      "trade_id": "E1-53f2424e83445fbc"
+    },
+    {
+      "lead_minutes_to_c10_event": 169.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.17673994451568942,
+        0.18043145037315453,
+        0.17284845648511676
+      ],
+      "price_return_at_trigger": 0.010116424389923218,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.019325133197395372,
+      "trade_id": "E1-9b819b2d48dae439"
+    },
+    {
+      "lead_minutes_to_c10_event": 4.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.04822269838927968,
+        0.10288463824483922,
+        0.07154182215169233
+      ],
+      "price_return_at_trigger": 0.006261865902807751,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.20257802351530496,
+      "trade_id": "E1-5c70aa6a8438bb16"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1538188160425853,
+        0.07095104734774316,
+        0.037588205249511064
+      ],
+      "price_return_at_trigger": 0.007799253984401622,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02363513055272981,
+      "trade_id": "E1-227b9d8678648ee2"
+    },
+    {
+      "lead_minutes_to_c10_event": 35.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.05165590467590174,
+        0.07508586018020971,
+        0.06632657161245147
+      ],
+      "price_return_at_trigger": 0.010033642212122995,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.08274803753762594,
+      "trade_id": "E1-46fd09a618fc8790"
+    },
+    {
+      "lead_minutes_to_c10_event": 578.0,
+      "minutes_after_t2": 42.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1598912128564717,
+        0.09356988731063386,
+        0.09044280256793062
+      ],
+      "price_return_at_trigger": 0.00741447284751362,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04214676332188749,
+      "trade_id": "E1-89cd567b5acfa395"
+    },
+    {
+      "lead_minutes_to_c10_event": 49.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08131941032089868,
+        0.12290009375026537,
+        0.1103854671802583
+      ],
+      "price_return_at_trigger": 0.00822143052891211,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.020443957248561295,
+      "trade_id": "E1-36bffb14bc6399e2"
+    },
+    {
+      "lead_minutes_to_c10_event": 106.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19780363431051798,
+        0.1675929553625836,
+        0.11734976878691214
+      ],
+      "price_return_at_trigger": 0.007556130138267836,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04276556391734965,
+      "trade_id": "E1-ea6f9abd86ca7226"
+    },
+    {
+      "lead_minutes_to_c10_event": 7.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19725386475119863,
+        0.15337988389011625,
+        0.10502094198397247
+      ],
+      "price_return_at_trigger": 0.00919978225367446,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.016875340228633684,
+      "trade_id": "E1-7db3ed740868510b"
+    },
+    {
+      "lead_minutes_to_c10_event": 171.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.0808028158582698,
+        0.12906615628919693,
+        0.17413389852967287
+      ],
+      "price_return_at_trigger": 0.009984186536851514,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03382840842144441,
+      "trade_id": "E1-af2a8dd78fce386f"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 11.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15609540991201803,
+        0.13362426355144413,
+        0.10789201106266662
+      ],
+      "price_return_at_trigger": 0.008211794101545378,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.12017293898005299,
+      "trade_id": "E1-554c3d6ee9be7967"
+    },
+    {
+      "lead_minutes_to_c10_event": 85.0,
+      "minutes_after_t2": 16.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.08303268556804676,
+        0.1291372410316009,
+        0.10695219530393586
+      ],
+      "price_return_at_trigger": 0.007691583210372777,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04699714312623615,
+      "trade_id": "E1-0369d3585e48605f"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 46.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19680355799418156,
+        0.11803733320598253,
+        0.12006721041146075
+      ],
+      "price_return_at_trigger": 0.0076148134134228496,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.00766211039114606,
+      "trade_id": "E1-60fb8ac3b7c513e9"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16085630743371307,
+        0.09292493197072517,
+        0.0910036057256117
+      ],
+      "price_return_at_trigger": 0.008298061929160161,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01525952327912683,
+      "trade_id": "E1-96cafb2f67610337"
+    },
+    {
+      "lead_minutes_to_c10_event": 19.0,
+      "minutes_after_t2": 11.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13320047179717628,
+        0.1542498836222787,
+        0.08580572436137318
+      ],
+      "price_return_at_trigger": 0.006301652892561904,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.029476584022038566,
+      "trade_id": "E1-89eddf5325a605d6"
+    },
+    {
+      "lead_minutes_to_c10_event": 106.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.167628632078804,
+        0.13700790677939823,
+        0.19816334047370346
+      ],
+      "price_return_at_trigger": 0.008816455519198962,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.014764008912007798,
+      "trade_id": "E1-3f69b5a7083b75ea"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17048079144959968,
+        0.07094513158011312,
+        0.1967679411259095
+      ],
+      "price_return_at_trigger": 0.007820559752404366,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03351193051349455,
+      "trade_id": "E1-3b6664a9e86d9bf5"
+    },
+    {
+      "lead_minutes_to_c10_event": 25.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1662915535974265,
+        0.1275450502957028,
+        0.11431240815674008
+      ],
+      "price_return_at_trigger": 0.008267033156392767,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012343811072865085,
+      "trade_id": "E1-e2115ddd25abcafd"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12443913010527909,
+        0.1417146348371278,
+        0.08644222224616838
+      ],
+      "price_return_at_trigger": 0.00971224201857157,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010499721101158155,
+      "trade_id": "E1-916fea27dd6ee102"
+    },
+    {
+      "lead_minutes_to_c10_event": 155.0,
+      "minutes_after_t2": 35.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1879661464716106,
+        0.16638961575042685,
+        0.18083954393681856
+      ],
+      "price_return_at_trigger": 0.008122727212775738,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.01513538300264572,
+      "trade_id": "E1-56adeaa7d2ef9235"
+    },
+    {
+      "lead_minutes_to_c10_event": 30.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.11722181990863335,
+        0.12282104149632819,
+        0.06714456336524804
+      ],
+      "price_return_at_trigger": 0.006264873002768123,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05332426788402689,
+      "trade_id": "E1-b044e7b8e67b7a33"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17744277237054348,
+        0.16077125777375081,
+        0.13978288888779308
+      ],
+      "price_return_at_trigger": 0.008558027923211142,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.00869764397905759,
+      "trade_id": "E1-6043232ca47348e5"
+    },
+    {
+      "lead_minutes_to_c10_event": 20.0,
+      "minutes_after_t2": 22.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1524496881335498,
+        0.09542827671507198,
+        0.1099014865200038
+      ],
+      "price_return_at_trigger": 0.007413976505942221,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014478735649348984,
+      "trade_id": "E1-08253284dc9c8f4a"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1772788514064618,
+        0.09767605810718817,
+        0.09303723600928587
+      ],
+      "price_return_at_trigger": 0.00844130349430694,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009913623871221189,
+      "trade_id": "E1-60fcb68e113d2e17"
+    },
+    {
+      "lead_minutes_to_c10_event": 404.0,
+      "minutes_after_t2": 124.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18661209641032572,
+        0.1985756567695745,
+        0.19190855048976077
+      ],
+      "price_return_at_trigger": 0.00794187486834863,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0134905224335653,
+      "trade_id": "E1-3c63ca8d63adee55"
+    },
+    {
+      "lead_minutes_to_c10_event": 283.0,
+      "minutes_after_t2": 49.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19586318493368604,
+        0.19458145776769215,
+        0.15746166875791112
+      ],
+      "price_return_at_trigger": 0.007712172790233618,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012278436436201412,
+      "trade_id": "E1-ee64bc7c6c9952c1"
+    },
+    {
+      "lead_minutes_to_c10_event": 112.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1698490076514889,
+        0.14385048296007574,
+        0.11858770530429823
+      ],
+      "price_return_at_trigger": 0.010039255671496328,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.013279943531887106,
+      "trade_id": "E1-10de8d59cf0ac586"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1585893657480068,
+        0.10297161920327175,
+        0.08556151741493974
+      ],
+      "price_return_at_trigger": 0.007436385423274627,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.017375061676182302,
+      "trade_id": "E1-720ed25ad600b94d"
+    },
+    {
+      "lead_minutes_to_c10_event": 24.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.15265012705772574,
+        0.12738031235133768,
+        0.10888580947814262
+      ],
+      "price_return_at_trigger": 0.009234922213539942,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.06428926617887343,
+      "trade_id": "E1-0fd2659cf8fbf2ed"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 40.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1317283969249639,
+        0.12198248788729207,
+        0.15972948837527604
+      ],
+      "price_return_at_trigger": 0.008534359429727134,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009915643036850552,
+      "trade_id": "E1-6fc36f9d2b48a237"
+    },
+    {
+      "lead_minutes_to_c10_event": 237.0,
+      "minutes_after_t2": 51.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19741557420050596,
+        0.1486661894236683,
+        0.11736322034382149
+      ],
+      "price_return_at_trigger": 0.007166320862822095,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010287973087198088,
+      "trade_id": "E1-c1ead6c72f0dc37e"
+    },
+    {
+      "lead_minutes_to_c10_event": 254.0,
+      "minutes_after_t2": 67.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.15552181610882523,
+        0.08907359026869711,
+        0.07298461644334554
+      ],
+      "price_return_at_trigger": 0.008155676517771715,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012490842830515714,
+      "trade_id": "E1-804fd062a779c8af"
+    },
+    {
+      "lead_minutes_to_c10_event": 64.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.06870072519459963,
+        0.15822869471285256,
+        0.16260577153497094
+      ],
+      "price_return_at_trigger": 0.012412746705185773,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04359234273117463,
+      "trade_id": "E1-1d2cf192dfadfb36"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.062183832971776286,
+        0.12449850009174715,
+        0.038210064880814375
+      ],
+      "price_return_at_trigger": 0.008228960490365589,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.028578489224750037,
+      "trade_id": "E1-884f97c933708041"
+    },
+    {
+      "lead_minutes_to_c10_event": 11.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11773607192187079,
+        0.1262276170573845,
+        0.10888902933329851
+      ],
+      "price_return_at_trigger": 0.01009694408104389,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.018080574284660145,
+      "trade_id": "E1-e72f9774541c5e4d"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13905449401745618,
+        0.06705765022923722,
+        0.06078737924157122
+      ],
+      "price_return_at_trigger": 0.006358303855281466,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.09318049523127203,
+      "trade_id": "E1-19183d70b10bf9da"
+    },
+    {
+      "lead_minutes_to_c10_event": 115.0,
+      "minutes_after_t2": 8.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1073975690180865,
+        0.1036975643603648,
+        0.17072021728550887
+      ],
+      "price_return_at_trigger": 0.008385399539625249,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.0476159158171654,
+      "trade_id": "E1-550b251626528210"
+    },
+    {
+      "lead_minutes_to_c10_event": 22.0,
+      "minutes_after_t2": 26.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16297619446249997,
+        0.19158015574854012,
+        0.13448360786753438
+      ],
+      "price_return_at_trigger": 0.008825924116593331,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04543234000977048,
+      "trade_id": "E1-16c395b371a83968"
+    },
+    {
+      "lead_minutes_to_c10_event": 93.0,
+      "minutes_after_t2": 58.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.189728517273165,
+        0.1533424127909532,
+        0.1342723316078527
+      ],
+      "price_return_at_trigger": 0.008248993133817883,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011499002056285734,
+      "trade_id": "E1-6fe52c2c3d0f73f3"
+    },
+    {
+      "lead_minutes_to_c10_event": 44.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12102207389218317,
+        0.07299762627458645,
+        0.12144811463069295
+      ],
+      "price_return_at_trigger": 0.0079750766252622,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010515809001451881,
+      "trade_id": "E1-229c9905e173c787"
+    },
+    {
+      "lead_minutes_to_c10_event": 64.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1591122715793913,
+        0.13598837694966168,
+        0.1982841742869734
+      ],
+      "price_return_at_trigger": 0.009240670349002,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011569481923544567,
+      "trade_id": "E1-c5f2526c253b7416"
+    },
+    {
+      "lead_minutes_to_c10_event": 69.0,
+      "minutes_after_t2": 24.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17267168737832714,
+        0.14717725527037823,
+        0.13944508762685728
+      ],
+      "price_return_at_trigger": 0.007944563049032238,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04836733979631114,
+      "trade_id": "E1-867e90ee1d083f26"
+    },
+    {
+      "lead_minutes_to_c10_event": 22.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14775959420940704,
+        0.07279360937432655,
+        0.08273714909152358
+      ],
+      "price_return_at_trigger": 0.0079086576232128,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.032619284554548766,
+      "trade_id": "E1-277beaf0d68672a1"
+    },
+    {
+      "lead_minutes_to_c10_event": 51.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10524139342899912,
+        0.1798023214491786,
+        0.11658831241083488
+      ],
+      "price_return_at_trigger": 0.007998262820744895,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.016611776627700747,
+      "trade_id": "E1-13f7ab58fd034fe8"
+    },
+    {
+      "lead_minutes_to_c10_event": 46.0,
+      "minutes_after_t2": 46.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1610096543658526,
+        0.18724567642239265,
+        0.15669705238819223
+      ],
+      "price_return_at_trigger": 0.009447517781449921,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011064013219340474,
+      "trade_id": "E1-55210e2e1bda49a3"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.056368921652983114,
+        0.09891606911719364,
+        0.06746260125784435
+      ],
+      "price_return_at_trigger": 0.005576569438007439,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.057754122624725346,
+      "trade_id": "E1-a60cb1c9d2fc0fd3"
+    },
+    {
+      "lead_minutes_to_c10_event": 26.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.07095796481718535,
+        0.09961234305182427,
+        0.09120160014772669
+      ],
+      "price_return_at_trigger": 0.009325801383828658,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.03613330213590937,
+      "trade_id": "E1-2bb5407547196700"
+    },
+    {
+      "lead_minutes_to_c10_event": 119.0,
+      "minutes_after_t2": 18.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19064657833188964,
+        0.11340751860560729,
+        0.11980233237343607
+      ],
+      "price_return_at_trigger": 0.011249567324333576,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02639321564555197,
+      "trade_id": "E1-d573bada41d819be"
+    },
+    {
+      "lead_minutes_to_c10_event": 126.0,
+      "minutes_after_t2": 22.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1298200984911892,
+        0.08836141529249993,
+        0.1721077818199481
+      ],
+      "price_return_at_trigger": 0.008918172440185002,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.022129047286280068,
+      "trade_id": "E1-08ff1eb012992afe"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12398936211482009,
+        0.17606341712569024,
+        0.12250809756593131
+      ],
+      "price_return_at_trigger": 0.008264462809917328,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02354511019283745,
+      "trade_id": "E1-41532704aec689fa"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14488167258609605,
+        0.09421637940958627,
+        0.1865219427148444
+      ],
+      "price_return_at_trigger": 0.009640490058244522,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02115551985003683,
+      "trade_id": "E1-c367b89ac9fba2a9"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 31.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10590083482618676,
+        0.10572577156282478,
+        0.05741845023212435
+      ],
+      "price_return_at_trigger": 0.0074367645483619516,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011774877201573108,
+      "trade_id": "E1-7c342ef2512f0386"
+    },
+    {
+      "lead_minutes_to_c10_event": 53.0,
+      "minutes_after_t2": 18.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1610763270410644,
+        0.11216127152884063,
+        0.1481161446616819
+      ],
+      "price_return_at_trigger": 0.008046526627152994,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0109422086803741,
+      "trade_id": "E1-828d0d61e17b4a5f"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08495623095332064,
+        0.10033385935197182,
+        0.10447546891644151
+      ],
+      "price_return_at_trigger": 0.008214313895683834,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.11020542360398755,
+      "trade_id": "E1-7c9f7601aee3b0c9"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13766630120567477,
+        0.1508429319217334,
+        0.10593366356897309
+      ],
+      "price_return_at_trigger": 0.010744791867970394,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.022687743980211117,
+      "trade_id": "E1-7d5d52b5dd3bd801"
+    },
+    {
+      "lead_minutes_to_c10_event": 8.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.06340588856371095,
+        0.05949768753191072,
+        0.03318482524976408
+      ],
+      "price_return_at_trigger": 0.01050613190588412,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01270323173411092,
+      "trade_id": "E1-fbd82dab5b420abf"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19343181656102754,
+        0.12001121073162868,
+        0.11158471816786615
+      ],
+      "price_return_at_trigger": 0.008637342016667438,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.040390382103500766,
+      "trade_id": "E1-199aafd964a8495f"
+    },
+    {
+      "lead_minutes_to_c10_event": 95.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17655997799152617,
+        0.15062246921740702,
+        0.1940560389437213
+      ],
+      "price_return_at_trigger": 0.009250793309310001,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010434034313989038,
+      "trade_id": "E1-0045a04b7f0ac1f4"
+    },
+    {
+      "lead_minutes_to_c10_event": 59.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14790830799137492,
+        0.06747504942523067,
+        0.0850792218080362
+      ],
+      "price_return_at_trigger": 0.008053972072590287,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01720621306417014,
+      "trade_id": "E1-6d3b8635b9c46bb5"
+    },
+    {
+      "lead_minutes_to_c10_event": 10.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12382260527657321,
+        0.08221788529125643,
+        0.0827198534474482
+      ],
+      "price_return_at_trigger": 0.007950283992002483,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.022072793466691998,
+      "trade_id": "E1-bbed9fdf5b6ba9a1"
+    },
+    {
+      "lead_minutes_to_c10_event": 45.0,
+      "minutes_after_t2": 45.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12208351766482699,
+        0.10086485634913757,
+        0.17615528127182842
+      ],
+      "price_return_at_trigger": 0.01069690754815622,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014195520167289866,
+      "trade_id": "E1-f14a69bf7b712521"
+    },
+    {
+      "lead_minutes_to_c10_event": 59.0,
+      "minutes_after_t2": 58.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16098454542131438,
+        0.15098266924915515,
+        0.17219161396111377
+      ],
+      "price_return_at_trigger": 0.007865053226724372,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.08403384865137209,
+      "trade_id": "E1-7e094a63feae4d02"
+    },
+    {
+      "lead_minutes_to_c10_event": 252.0,
+      "minutes_after_t2": 66.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13108344713765227,
+        0.07083584802896832,
+        0.07066704630001032
+      ],
+      "price_return_at_trigger": 0.012006563845902596,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.03656929851416568,
+      "trade_id": "E1-3bd89e257e152004"
+    },
+    {
+      "lead_minutes_to_c10_event": 26.0,
+      "minutes_after_t2": 316.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13125064349924323,
+        0.12716117539194863,
+        0.08661682300641528
+      ],
+      "price_return_at_trigger": 0.010246158670429661,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.028237692066478415,
+      "trade_id": "E1-cb7a12b244f981e9"
+    },
+    {
+      "lead_minutes_to_c10_event": 59.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14257922179925595,
+        0.07222268370737257,
+        0.06680577930405009
+      ],
+      "price_return_at_trigger": 0.010596674274535367,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.07053581132485598,
+      "trade_id": "E1-da1f57aef3f7ea79"
+    },
+    {
+      "lead_minutes_to_c10_event": 283.0,
+      "minutes_after_t2": 14.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18359498418588605,
+        0.15994496719295723,
+        0.1483234809861797
+      ],
+      "price_return_at_trigger": 0.00989393367710556,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01702091980044429,
+      "trade_id": "E1-6c8eee4b789d49dc"
+    },
+    {
+      "lead_minutes_to_c10_event": 203.0,
+      "minutes_after_t2": 38.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16640253970477467,
+        0.13200914524811735,
+        0.11924299287306867
+      ],
+      "price_return_at_trigger": 0.007715164468539815,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01782828546108517,
+      "trade_id": "E1-e1d9f09121e76797"
+    },
+    {
+      "lead_minutes_to_c10_event": 131.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.13394198218121667,
+        0.19930890397374393,
+        0.10843660752141107
+      ],
+      "price_return_at_trigger": 0.00729899736890971,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.0428674985774804,
+      "trade_id": "E1-31861092d9e7f7fc"
+    },
+    {
+      "lead_minutes_to_c10_event": 139.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18698728012793034,
+        0.1351677832177819,
+        0.09384316406771132
+      ],
+      "price_return_at_trigger": 0.007766687834745101,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.014505325968439564,
+      "trade_id": "E1-e7520fbc10c07e11"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12862695658737278,
+        0.06219529998919642,
+        0.04978548947693621
+      ],
+      "price_return_at_trigger": 0.006902917686720134,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.025243809447365484,
+      "trade_id": "E1-5b0872422921badd"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 9.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1253216666551246,
+        0.10328212849312919,
+        0.1657879851809375
+      ],
+      "price_return_at_trigger": 0.011420911528150057,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02016085790884703,
+      "trade_id": "E1-03d85dca122a0974"
+    },
+    {
+      "lead_minutes_to_c10_event": 124.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12378119752635451,
+        0.1285571474091729,
+        0.17033524718359777
+      ],
+      "price_return_at_trigger": 0.010305612015772514,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.014827621116899836,
+      "trade_id": "E1-6997c68ad9e769a0"
+    },
+    {
+      "lead_minutes_to_c10_event": 16.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10211977258533589,
+        0.10830325754497966,
+        0.10626880162534232
+      ],
+      "price_return_at_trigger": 0.009002884473514605,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02414132489838905,
+      "trade_id": "E1-6ae02ff12373af54"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 34.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10433197062041527,
+        0.13795795583061052,
+        0.19753979903443988
+      ],
+      "price_return_at_trigger": 0.011488651854686394,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04048382082127566,
+      "trade_id": "E1-36b95e2961a8517a"
+    },
+    {
+      "lead_minutes_to_c10_event": 64.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1399107147910616,
+        0.1658687728065096,
+        0.16423156696627117
+      ],
+      "price_return_at_trigger": 0.009435812729055915,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.040014453104836534,
+      "trade_id": "E1-b5533e9cffd9851f"
+    },
+    {
+      "lead_minutes_to_c10_event": 73.0,
+      "minutes_after_t2": 37.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.16258876284066046,
+        0.1971765328608384,
+        0.15505427316611797
+      ],
+      "price_return_at_trigger": 0.010838254251173796,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.07442307071146037,
+      "trade_id": "E1-952d19366d8ac725"
+    },
+    {
+      "lead_minutes_to_c10_event": 15.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09396429756224048,
+        0.1578191432404385,
+        0.1986615565446438
+      ],
+      "price_return_at_trigger": 0.008593453810185947,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.07721470997093394,
+      "trade_id": "E1-d820063487871971"
+    },
+    {
+      "lead_minutes_to_c10_event": 115.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.12387510768767011,
+        0.13386055527173993,
+        0.14053147656565784
+      ],
+      "price_return_at_trigger": 0.007854168016918406,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011388490814687957,
+      "trade_id": "E1-bb40d52b87d8d037"
+    },
+    {
+      "lead_minutes_to_c10_event": 29.0,
+      "minutes_after_t2": 13.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10568928387337936,
+        0.11311517260769897,
+        0.0891439730605237
+      ],
+      "price_return_at_trigger": 0.008462214865773587,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009879480680701436,
+      "trade_id": "E1-bf005d7e7de4d34f"
+    },
+    {
+      "lead_minutes_to_c10_event": 31.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.1431333110224743,
+        0.09371135329086842,
+        0.0688879979763826
+      ],
+      "price_return_at_trigger": 0.011789121973063255,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02998805874180488,
+      "trade_id": "E1-ef0a93230da4164f"
+    },
+    {
+      "lead_minutes_to_c10_event": 47.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14020960548244998,
+        0.12472462306354255,
+        0.08049975962015223
+      ],
+      "price_return_at_trigger": 0.007355979833044257,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012108438713943404,
+      "trade_id": "E1-6ace0c9050176238"
+    },
+    {
+      "lead_minutes_to_c10_event": 50.0,
+      "minutes_after_t2": 26.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17824906781268024,
+        0.1816774137711142,
+        0.19772010295123327
+      ],
+      "price_return_at_trigger": 0.008576292828261334,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.010597999574377459,
+      "trade_id": "E1-3ae06f8e25c66cbe"
+    },
+    {
+      "lead_minutes_to_c10_event": 63.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17429951088017007,
+        0.18217616966017577,
+        0.13430120801164017
+      ],
+      "price_return_at_trigger": 0.010096374483707926,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011822810813173268,
+      "trade_id": "E1-2cab3242caf9ab52"
+    },
+    {
+      "lead_minutes_to_c10_event": 35.0,
+      "minutes_after_t2": 45.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19694371726023033,
+        0.13147554396224434,
+        0.18886494704940263
+      ],
+      "price_return_at_trigger": 0.00996959626670435,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01194937424874487,
+      "trade_id": "E1-8f2b3f8d679ffa43"
+    },
+    {
+      "lead_minutes_to_c10_event": 166.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.10276792079847442,
+        0.14068982180454806,
+        0.11057320086935496
+      ],
+      "price_return_at_trigger": 0.007515717279481748,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.023490188607353746,
+      "trade_id": "E1-0a098d2dd6f4fbaa"
+    },
+    {
+      "lead_minutes_to_c10_event": 113.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10771714592080685,
+        0.10216280260771937,
+        0.15739303687572553
+      ],
+      "price_return_at_trigger": 0.007627601938979156,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.017964071856287456,
+      "trade_id": "E1-8547330c99f0d84f"
+    },
+    {
+      "lead_minutes_to_c10_event": 40.0,
+      "minutes_after_t2": 29.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14718413193406873,
+        0.11173341835043861,
+        0.10816844797786371
+      ],
+      "price_return_at_trigger": 0.0066936373666790505,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.05068039720485484,
+      "trade_id": "E1-ca331c19cca132b1"
+    },
+    {
+      "lead_minutes_to_c10_event": 212.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.11091757626604051,
+        0.09294921333197667,
+        0.05798259416025688
+      ],
+      "price_return_at_trigger": 0.0063636093555170525,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.017530890734920312,
+      "trade_id": "E1-a4e6a92bbe4c155a"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08900591468415191,
+        0.06953717382762625,
+        0.1108039548563828
+      ],
+      "price_return_at_trigger": 0.00742795355178405,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009825584128625886,
+      "trade_id": "E1-fcaf79e81b02cafa"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08150442587433038,
+        0.053835171370404986,
+        0.03485575499932401
+      ],
+      "price_return_at_trigger": 0.009347242305308923,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.0765337740136336,
+      "trade_id": "E1-dbfa23dda76e0eb2"
+    },
+    {
+      "lead_minutes_to_c10_event": 16.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16360745585164294,
+        0.10669893181304664,
+        0.11112152070074838
+      ],
+      "price_return_at_trigger": 0.008053031813391787,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012859217908917309,
+      "trade_id": "E1-8959ee84e672b908"
+    },
+    {
+      "lead_minutes_to_c10_event": 100.0,
+      "minutes_after_t2": 26.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.164220000356959,
+        0.039158362858095534,
+        0.06221779572127447
+      ],
+      "price_return_at_trigger": 0.010418250950570362,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.022129277566539818,
+      "trade_id": "E1-786f98104bb91d5f"
+    },
+    {
+      "lead_minutes_to_c10_event": 22.0,
+      "minutes_after_t2": 40.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.19778266155618732,
+        0.1729319626750428,
+        0.19564668541751584
+      ],
+      "price_return_at_trigger": 0.008816166600152275,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.12256769340541074,
+      "trade_id": "E1-c787cca8569b588b"
+    },
+    {
+      "lead_minutes_to_c10_event": 12.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10706519565002297,
+        0.14222748054438344,
+        0.09510300365092288
+      ],
+      "price_return_at_trigger": 0.007850375204381255,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.15679687555780863,
+      "trade_id": "E1-4d583615a00673a8"
+    },
+    {
+      "lead_minutes_to_c10_event": 37.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18643419240601442,
+        0.1655900473862292,
+        0.06735687074054598
+      ],
+      "price_return_at_trigger": 0.007903828275289015,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012215320287335407,
+      "trade_id": "E1-e5d343119ca0ef81"
+    },
+    {
+      "lead_minutes_to_c10_event": 6.0,
+      "minutes_after_t2": 44.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09572505156245505,
+        0.10294750944203217,
+        0.07083814516034635
+      ],
+      "price_return_at_trigger": 0.006676171724715463,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01638490958879313,
+      "trade_id": "E1-34b9b89fa2d75677"
+    },
+    {
+      "lead_minutes_to_c10_event": 26.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19720011072897914,
+        0.11435160628098144,
+        0.07532085197145537
+      ],
+      "price_return_at_trigger": 0.006675567423231055,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.011348464619492571,
+      "trade_id": "E1-5d3cc5fd9e061a86"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.0781218806730454,
+        0.08167850872330142,
+        0.05131894979665509
+      ],
+      "price_return_at_trigger": 0.006063155884573401,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02865975013352684,
+      "trade_id": "E1-9c8e5b6f1fc344e1"
+    },
+    {
+      "lead_minutes_to_c10_event": 19.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.17112958363669678,
+        0.13600373106987299,
+        0.10916224592485484
+      ],
+      "price_return_at_trigger": 0.007945166215598043,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.0313580015543955,
+      "trade_id": "E1-7e5f7bf39c7f8dda"
+    },
+    {
+      "lead_minutes_to_c10_event": 59.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.07282199163104194,
+        0.036161328807030345,
+        0.10841453391001186
+      ],
+      "price_return_at_trigger": 0.00856369539441415,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.016034813485880317,
+      "trade_id": "E1-f1294d01a81d7c6c"
+    },
+    {
+      "lead_minutes_to_c10_event": 55.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.08412894139634154,
+        0.04867274684758959,
+        0.10119218600821245
+      ],
+      "price_return_at_trigger": 0.008643682702756061,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.016003161118245623,
+      "trade_id": "E1-fbfc9b1c859aff2b"
+    },
+    {
+      "lead_minutes_to_c10_event": 6.0,
+      "minutes_after_t2": 4.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16930482178318895,
+        0.14840251861127451,
+        0.08764765630697349
+      ],
+      "price_return_at_trigger": 0.00909675186631742,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01023384584960696,
+      "trade_id": "E1-2ff97009d501cfd1"
+    },
+    {
+      "lead_minutes_to_c10_event": 13.0,
+      "minutes_after_t2": 7.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1097516412789543,
+        0.055020363799859244,
+        0.08800993176698922
+      ],
+      "price_return_at_trigger": 0.008080964053864381,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.022184047816659946,
+      "trade_id": "E1-95767368b1067053"
+    },
+    {
+      "lead_minutes_to_c10_event": 36.0,
+      "minutes_after_t2": 10.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14318276303741415,
+        0.18150962312383218,
+        0.07964575110776685
+      ],
+      "price_return_at_trigger": 0.008291100449402178,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012303516635604028,
+      "trade_id": "E1-13ea22f8eef326b2"
+    },
+    {
+      "lead_minutes_to_c10_event": 17.0,
+      "minutes_after_t2": 29.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.18870566562984586,
+        0.18379147898992249,
+        0.17170316423680868
+      ],
+      "price_return_at_trigger": 0.008863481407667573,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.02223737347249166,
+      "trade_id": "E1-8fed3773d2e69cd3"
+    },
+    {
+      "lead_minutes_to_c10_event": 3.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1002775205204348,
+        0.1385517916898177,
+        0.0678695663651851
+      ],
+      "price_return_at_trigger": 0.008589023336214252,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.058124459809853146,
+      "trade_id": "E1-7ec39c593607427a"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.13474493222359227,
+        0.08825939969787108,
+        0.06110454694059491
+      ],
+      "price_return_at_trigger": 0.007576089772075356,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.023785074845474208,
+      "trade_id": "E1-049f4afb28dd6264"
+    },
+    {
+      "lead_minutes_to_c10_event": 1.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.14628674993052287,
+        0.06707907155086497,
+        0.0339402383377611
+      ],
+      "price_return_at_trigger": 0.010512930905013151,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.027059950405665667,
+      "trade_id": "E1-372d1b2378d896cb"
+    },
+    {
+      "lead_minutes_to_c10_event": 216.0,
+      "minutes_after_t2": 61.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.18531303024887014,
+        0.15165116539958118,
+        0.154472865430494
+      ],
+      "price_return_at_trigger": 0.008024251069900235,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01008083689966699,
+      "trade_id": "E1-dc5ebfcb5d88a256"
+    },
+    {
+      "lead_minutes_to_c10_event": 55.0,
+      "minutes_after_t2": 12.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.17664693400409012,
+        0.1392881520519279,
+        0.15498624359653856
+      ],
+      "price_return_at_trigger": 0.008428625628649655,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009582003291941588,
+      "trade_id": "E1-63f7a3c09374519d"
+    },
+    {
+      "lead_minutes_to_c10_event": 16.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.10021108391692062,
+        0.09448312007277983,
+        0.047733645127241674
+      ],
+      "price_return_at_trigger": 0.006421232876712368,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.008080051369862895,
+      "trade_id": "E1-d6046aff7fee6d07"
+    },
+    {
+      "lead_minutes_to_c10_event": 28.0,
+      "minutes_after_t2": 17.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.19133221304393802,
+        0.10715084444326752,
+        0.15226700248777325
+      ],
+      "price_return_at_trigger": 0.009637968737345126,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.012148700089090525,
+      "trade_id": "E1-d2cee5e81172e08a"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.0716841207924731,
+        0.07013707033113487,
+        0.112262352443655
+      ],
+      "price_return_at_trigger": 0.006873130104309899,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.01140130993773747,
+      "trade_id": "E1-68d0aea3aedfe277"
+    },
+    {
+      "lead_minutes_to_c10_event": 16.0,
+      "minutes_after_t2": 3.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.09828000168288967,
+        0.08566227755103104,
+        0.18921346025164368
+      ],
+      "price_return_at_trigger": 0.008181644450814707,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.04166069466341793,
+      "trade_id": "E1-31ec60f598da5096"
+    },
+    {
+      "lead_minutes_to_c10_event": 24.0,
+      "minutes_after_t2": 5.0,
+      "outcome": "CONTINUATION_FIRST",
+      "p3": [
+        0.14504500511637836,
+        0.12648740091371105,
+        0.16229390380650097
+      ],
+      "price_return_at_trigger": 0.008290405666452116,
+      "recovered_ge_0.60": true,
+      "recovered_ge_0.80": true,
+      "subsequent_mfe_original_path": 0.04764971023824849,
+      "trade_id": "E1-2b492aa4e8e57cf3"
+    },
+    {
+      "lead_minutes_to_c10_event": 26.0,
+      "minutes_after_t2": 15.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.11473593039110827,
+        0.053528039613342175,
+        0.04326059455498568
+      ],
+      "price_return_at_trigger": 0.006361740515968828,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.027825292312018135,
+      "trade_id": "E1-018f44a4acaa4fa4"
+    },
+    {
+      "lead_minutes_to_c10_event": 2.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.16274408875738625,
+        0.1554899842982285,
+        0.09117628237882709
+      ],
+      "price_return_at_trigger": 0.007176261893242941,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.02015803902596347,
+      "trade_id": "E1-32a889764b02e679"
+    },
+    {
+      "lead_minutes_to_c10_event": 5.0,
+      "minutes_after_t2": 6.0,
+      "outcome": "DETERIORATION_FIRST",
+      "p3": [
+        0.1299297908375309,
+        0.18973045986733655,
+        0.14928284460074268
+      ],
+      "price_return_at_trigger": 0.008622998232553192,
+      "recovered_ge_0.60": false,
+      "recovered_ge_0.80": false,
+      "subsequent_mfe_original_path": 0.009265706175352273,
+      "trade_id": "E1-ec9ff57bd99987d1"
+    }
+  ]
+}

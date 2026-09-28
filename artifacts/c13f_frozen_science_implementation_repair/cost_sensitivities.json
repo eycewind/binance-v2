@@ -1,0 +1,70 @@
+{
+  "C0": {
+    "D2_CONTROL": {
+      "mean_net_return": -0.00017321952003020839,
+      "total_net_pnl_usdt": -380.90972454642827
+    },
+    "P0": {
+      "mean_net_return": 0.00016608737483031637,
+      "total_net_pnl_usdt": 365.2261372518657
+    },
+    "W1": {
+      "mean_net_return": -0.0006510099530091314,
+      "total_net_pnl_usdt": -1431.5708866670816
+    },
+    "W1-P0": {
+      "mean": -0.0008170973278394477
+    }
+  },
+  "C_BASE": {
+    "D2_CONTROL": {
+      "mean_net_return": -0.002572497191811668,
+      "total_net_pnl_usdt": -5656.921324793863
+    },
+    "P0": {
+      "mean_net_return": -0.002233665163769204,
+      "total_net_pnl_usdt": -4911.829695128485
+    },
+    "W1": {
+      "mean_net_return": -0.0030496189474779694,
+      "total_net_pnl_usdt": -6706.112065504058
+    },
+    "W1-P0": {
+      "mean": -0.0008159537837087653
+    }
+  },
+  "C_S10": {
+    "D2_CONTROL": {
+      "mean_net_return": -0.004168704549659898,
+      "total_net_pnl_usdt": -9166.98130470213
+    },
+    "P0": {
+      "mean_net_return": -0.003830414219612246,
+      "total_net_pnl_usdt": -8423.080868927338
+    },
+    "W1": {
+      "mean_net_return": -0.004645063520592364,
+      "total_net_pnl_usdt": -10214.494681782618
+    },
+    "W1-P0": {
+      "mean": -0.0008146493009801174
+    }
+  },
+  "C_S5": {
+    "D2_CONTROL": {
+      "mean_net_return": -0.0031713740903146575,
+      "total_net_pnl_usdt": -6973.851624601932
+    },
+    "P0": {
+      "mean_net_return": -0.002832745300537865,
+      "total_net_pnl_usdt": -6229.206915882768
+    },
+    "W1": {
+      "mean_net_return": -0.00364820965875511,
+      "total_net_pnl_usdt": -8022.413039602498
+    },
+    "W1-P0": {
+      "mean": -0.0008154643582172446
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "D2_CONTROL": {
+    "mean_holding_seconds": 18684256.48021828,
+    "summed_exposure_seconds": 41086680000.0,
+    "union_exposure_seconds": null,
+    "union_note": "single-position union not defined by frozen source; summed exposure reported"
+  },
+  "P0": {
+    "mean_holding_seconds": 33730968.62210096,
+    "summed_exposure_seconds": 74174400000.0,
+    "union_exposure_seconds": null,
+    "union_note": "single-position union not defined by frozen source; summed exposure reported"
+  },
+  "W1": {
+    "mean_holding_seconds": 22084993.1787176,
+    "summed_exposure_seconds": 48564900000.0,
+    "union_exposure_seconds": null,
+    "union_note": "single-position union not defined by frozen source; summed exposure reported"
+  }
+}

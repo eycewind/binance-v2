@@ -1,0 +1,6 @@
+{
+  "P0_wins_ties": true,
+  "completed_information_only": true,
+  "execution": "immediate next 1m open",
+  "gaps": "fail closed"
+}

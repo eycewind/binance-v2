@@ -1,0 +1,18 @@
+{
+  "C0": {
+    "fee_rate": 0.0,
+    "slippage_rate": 0.0
+  },
+  "C_BASE": {
+    "fee_rate": 0.001,
+    "slippage_rate": 0.0002
+  },
+  "C_S10": {
+    "fee_rate": 0.001,
+    "slippage_rate": 0.001
+  },
+  "C_S5": {
+    "fee_rate": 0.001,
+    "slippage_rate": 0.0005
+  }
+}

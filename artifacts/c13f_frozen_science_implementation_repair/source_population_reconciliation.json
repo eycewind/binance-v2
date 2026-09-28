@@ -1,0 +1,14 @@
+{
+  "by_year": {
+    "2024": 1093,
+    "2025": 1106
+  },
+  "no_t2": 1354,
+  "outcomes": {
+    "CONTINUATION_FIRST": 335,
+    "DETERIORATION_FIRST": 508,
+    "P0_FIRST": 2
+  },
+  "t2": 845,
+  "total": 2199
+}

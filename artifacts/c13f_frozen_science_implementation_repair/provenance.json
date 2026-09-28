@@ -1,0 +1,70 @@
+{
+  "c13f_contract_sha256": "6bb2edc828cb77810f2c85e8c0ba1a1f6b12277552a44865134d67e5aef3525e",
+  "c13f_runner_sha256": "a7dd19cdaead5f9885bb1b7c8012e99af9cad61299a212440b556d2033c64c02",
+  "configuration_sha256": "f03b63da19450302d866ac0f85867499989a5797353579bd3c5bf5904825bd0d",
+  "cost_configuration": {
+    "C0": {
+      "fee_rate": 0.0,
+      "slippage_rate": 0.0
+    },
+    "C_BASE": {
+      "fee_rate": 0.001,
+      "slippage_rate": 0.0002
+    },
+    "C_S10": {
+      "fee_rate": 0.001,
+      "slippage_rate": 0.001
+    },
+    "C_S5": {
+      "fee_rate": 0.001,
+      "slippage_rate": 0.0005
+    }
+  },
+  "economic_read": false,
+  "environment_sha256": "ec2f01f29f84d7fe1fdfac76923c21b02916b21bcdf29fbe9e61a0168895fcf3",
+  "history": {
+    "C13-bbfde36f-2da4-4d32-8dd5-0467a2482f6b": {
+      "economic_result_emitted": false,
+      "ledger_sha256": "95d719aa935aa3bd88247ade34f2dbb2a99c53d1a902271c788793e764695707",
+      "lifecycle": [
+        "START",
+        "ECONOMIC_READ"
+      ]
+    },
+    "C13R-d637b1d1-0092-40db-9cf8-3dab5257511a": {
+      "economic_result_emitted": false,
+      "ledger_sha256": "e41e851e4eec37142dc945270a119e86460ca3877f425ea43051588ea5254155",
+      "lifecycle": [
+        "START",
+        "ECONOMIC_READ",
+        "FAIL"
+      ]
+    }
+  },
+  "no_2026": "VERIFIED",
+  "old_implementation_sha256": "aa97453dddbad5ed3f7246a3dabf0f9e4a72de4cd94f9fef2b9dd43910d8558e",
+  "original_c13_contract_sha256": "5ee65c3306e762e606ada103bc27724e059ac609a021eece6a29dc1f0b6128a7",
+  "output_schema_sha256": "9db3da2d6ba5ed7a393f3898a17d403e019c0d0ed81eaa5ad02134d9478481f8",
+  "population_sha256": "6fd7ddebcf22aed13f4434d7c4b076275228c668ae590c2484825e4a109875e8",
+  "probability_provenance_sha256": "e5ab420cd3bb018a5594a804ee55315ecfd4b36aaa99b08c8683c5c4ae4e6671",
+  "repaired_c13_code_sha256": "77e903e8d5966518586445cab70753966ac4b1ee003ac83c8fad780ec689a03c",
+  "replicates": 2000,
+  "seed": 20261013,
+  "source_hashes": {
+    "artifacts/c12_post_t2_warning_leadtime/c11_probability_reproduction.json": "e5ab420cd3bb018a5594a804ee55315ecfd4b36aaa99b08c8683c5c4ae4e6671",
+    "artifacts/c12_post_t2_warning_leadtime/population_reconciliation.json": "e345dbfcb4b1d01be765e180c06568c793778d5a8342a26d9465f15673b626f6",
+    "artifacts/c7_full_population_t2_exit_overlay/population_manifest.json": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "contracts/C13_post_t2_warning_economics_CONTRACT.md": "5ee65c3306e762e606ada103bc27724e059ac609a021eece6a29dc1f0b6128a7",
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb",
+    "src/binance_data_foundation/c10_post_t2.py": "044fa793f4e6338724749c71260ae501bac8e6a119341d30b40920d8701ac691",
+    "src/binance_data_foundation/c11_dynamic_post_t2.py": "11e646ae891218a611184b7c8fb7724f768a4d409a7fa8a817b530fddd11463c",
+    "src/binance_data_foundation/c12_post_t2_warning.py": "8bf0ab613cf24333166cf3e5419e91f999d306bcb9ba459404d6e5164d6915ee"
+  },
+  "status": "READY",
+  "synthetic_validation_sha256": "4177c7f2ad6e5b2e200faeeba8b24a625d8efe4675d8ee13de78f33896b6138d",
+  "test_evidence_sha256": "0831732bf018399c154cbc0b1c36e376965566dee69a24a2e1875af69182cd17"
+}

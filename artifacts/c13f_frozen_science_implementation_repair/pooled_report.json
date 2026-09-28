@@ -1,0 +1,49 @@
+{
+  "C_BASE": {
+    "D2_CONTROL": {
+      "mean_net_return": -0.002572497191811668,
+      "total_net_pnl_usdt": -5656.921324793863
+    },
+    "P0": {
+      "mean_net_return": -0.002233665163769204,
+      "total_net_pnl_usdt": -4911.829695128485
+    },
+    "W1": {
+      "mean_net_return": -0.0030496189474779694,
+      "total_net_pnl_usdt": -6706.112065504058
+    },
+    "W1-P0": {
+      "mean": -0.0008159537837087653
+    }
+  },
+  "bootstrap": {
+    "block_length_weeks": 4,
+    "contrasts": {
+      "D2_CONTROL-P0": {
+        "ci95": [
+          -0.0012496827997668545,
+          0.0004933234028521189
+        ],
+        "point": -0.00033883202804246387
+      },
+      "W1-D2_CONTROL": {
+        "ci95": [
+          -0.0011031508082458424,
+          0.0001331200196819144
+        ],
+        "point": -0.0004771217556663013
+      },
+      "W1-P0": {
+        "ci95": [
+          -0.0017757765500924381,
+          4.83092367295374e-05
+        ],
+        "point": -0.0008159537837087653
+      }
+    },
+    "method": "four-entry-week moving-block bootstrap",
+    "replicates": 2000,
+    "samples_sha256": "fbc0b55cae23bbc2bcff358d703b3c49b4a79d83d2f4c4a45d771e8eaef84500",
+    "seed": 20261013
+  }
+}

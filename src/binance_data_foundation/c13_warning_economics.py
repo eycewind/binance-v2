@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import csv, gzip, hashlib, json, math, os, platform, shutil, sys, tempfile, uuid
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Mapping, Sequence
 
@@ -81,8 +81,25 @@ def d2_choice(trade:dict,p0_ms:int,market) -> dict:
         prev=ms+MINUTE;i+=1
     return {"triggered":False,"execution_ms":p0_ms,"reason":"NO_D2_TOUCH"}
 
+def moving_block_samples(entry_weeks:Mapping[str,str],seed:int=SEED,replicates:int=REPLICATES)->list[list[str]]:
+    """C13-local copy of the frozen C7 whole-trade sampler with C13's constants."""
+    if seed!=SEED or replicates!=REPLICATES: raise ValueError("frozen C13 bootstrap seed/replicates required")
+    dates={k:c7.dt(v).date() for k,v in entry_weeks.items()}; lo=min(dates.values()); hi=max(dates.values()); lo-=timedelta(days=lo.weekday()); hi-=timedelta(days=hi.weekday())
+    span=(hi-lo).days//7+1
+    if span<4: raise ValueError("fewer than four entry-week positions")
+    at=defaultdict(list)
+    for k,d in dates.items(): at[(d-lo).days//7].append(k)
+    blocks=[range(i,i+4) for i in range(span-3)]
+    if sum(any(at[j] for j in b) for b in blocks)<2: raise ValueError("fewer than two nonempty candidate blocks")
+    rng=np.random.Generator(np.random.PCG64(seed)); out=[]
+    for _ in range(replicates):
+        positions=[]
+        while len(positions)<span: positions.extend(blocks[int(rng.integers(len(blocks)))])
+        out.append([k for pos in positions[:span] for k in sorted(at[pos])])
+    return out
+
 def bootstrap(ids:Sequence[str],entry_iso:Mapping[str,str],contrasts:Mapping[str,Mapping[str,float]]) -> dict:
-    samples=c7.moving_block_samples({k:entry_iso[k] for k in ids},seed=SEED,replicates=REPLICATES)
+    samples=moving_block_samples({k:entry_iso[k] for k in ids},seed=SEED,replicates=REPLICATES)
     out={}
     for name,diffs in contrasts.items():
         reps=[float(np.mean([diffs[k] for k in sample])) for sample in samples]
@@ -144,7 +161,7 @@ def execute(population, data, markets) -> dict:
         sensitivities[cost]["W1-P0"]={"mean":float(np.mean([by[(x,"W1")]["net_return"]-by[(x,"P0")]["net_return"] for x in ids]))}
     p0raw={r["trade_id"]:r["raw_return"] for r in table if r["policy"]=="P0" and r["cost"]=="C0"}
     winners={}
-    samples=c7.moving_block_samples(entry_iso,seed=SEED,replicates=REPLICATES)
+    samples=moving_block_samples(entry_iso,seed=SEED,replicates=REPLICATES)
     for threshold in (.02,.03,.05):
         cohort={x for x in ids if p0raw[x]>=threshold}; reps=[float(np.mean([diffs["W1-P0"][x] for x in s if x in cohort])) for s in samples]
         truncated=[x for x in cohort if choices[x]["W1"]["triggered"] and choices[x]["W1"]["execution_ms"]<int(datetime.fromisoformat(pop_by[x]["p0_execution_ts"]).timestamp()*1000)]

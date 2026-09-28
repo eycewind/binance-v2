@@ -1,0 +1,23 @@
+{
+  "frozen_out_of_time_rows": 29932,
+  "frozen_out_of_time_scored_trades": 608,
+  "physical_row_trades": 792,
+  "physical_zero_row_trades": 51,
+  "physical_zero_rows_by_outcome": {
+    "CONTINUATION_FIRST": 10,
+    "DETERIORATION_FIRST": 41
+  },
+  "primary_binary_trades": 843,
+  "scored_by_outcome": {
+    "CONTINUATION_FIRST": 247,
+    "DETERIORATION_FIRST": 361
+  },
+  "source_first_t2_trades": 845,
+  "source_outcomes": {
+    "CONTINUATION_FIRST": 335,
+    "DETERIORATION_FIRST": 508,
+    "P0_FIRST": 2
+  },
+  "unscored_by_frozen_procedure": 235,
+  "unscored_including_physical_zero_rows": true
+}

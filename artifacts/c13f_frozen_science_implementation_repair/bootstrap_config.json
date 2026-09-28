@@ -1,0 +1,6 @@
+{
+  "block_weeks": 4,
+  "method": "whole-trade four-entry-week moving blocks",
+  "replicates": 2000,
+  "seed": 20261013
+}

@@ -1,0 +1,32 @@
+{
+  "HONEST_SCORED_NO_TRIGGER": {
+    "count": 193,
+    "exact_zero": true,
+    "w1_p0_mean": 0.0
+  },
+  "HONEST_SCORED_W1_TRIGGER": {
+    "count": 415,
+    "exact_zero": false,
+    "w1_p0_mean": -0.004323571976808613
+  },
+  "NO_T2": {
+    "count": 1354,
+    "exact_zero": true,
+    "w1_p0_mean": 0.0
+  },
+  "P0_FIRST_EDGE": {
+    "count": 2,
+    "exact_zero": true,
+    "w1_p0_mean": 0.0
+  },
+  "TRAINING_ONLY_UNAVAILABLE": {
+    "count": 184,
+    "exact_zero": true,
+    "w1_p0_mean": 0.0
+  },
+  "ZERO_ROW_RAPID_TRANSITION": {
+    "count": 51,
+    "exact_zero": true,
+    "w1_p0_mean": 0.0
+  }
+}

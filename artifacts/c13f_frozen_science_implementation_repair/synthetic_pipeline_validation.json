@@ -1,0 +1,52 @@
+{
+  "accessed_real_c13_economic_data": false,
+  "bootstrap": {
+    "algorithm": "unchanged whole-trade four-entry-week moving blocks",
+    "replicates": 2000,
+    "seed": 20261013
+  },
+  "c7_regression": {
+    "c7_seed_20260927_accepted": true,
+    "c7_seed_20261013_rejected": true,
+    "c7_source_modified": false
+  },
+  "c13_regression": {
+    "arbitrary_seed_17_rejected": true,
+    "seed_20261013_accepted": true
+  },
+  "exercised": [
+    "policy choice",
+    "W1 triggering",
+    "D2 control",
+    "paired trade table",
+    "all frozen costs",
+    "bootstrap and uncertainty outputs",
+    "safety calculations",
+    "breadth and classification",
+    "output document construction",
+    "SHA-256 output hashing",
+    "schema and required-field validation"
+  ],
+  "lifecycle_simulation": [
+    "START",
+    "ECONOMIC_READ",
+    "ECONOMIC_EMISSION",
+    "PASS"
+  ],
+  "output_documents_hashed": 24,
+  "reused_c7_assumption_review": {
+    "bootstrap_seed_assertion": "repaired with C13-local exact-algorithm sampler",
+    "bootstrap_replicate_assertion": "C13-local enforcement at 2000",
+    "cost_names_and_values": "shared frozen values; compatible",
+    "output_path_assumption": "none in invoked helpers",
+    "policy_name_assertion": "none in invoked helpers",
+    "population_assumption": "none in invoked helpers",
+    "schema_name_assumption": "none in invoked helpers",
+    "shared_interval_and_breadth_helpers": "no C7-only frozen constants"
+  },
+  "status": "PASS",
+  "synthetic_trigger_counts": {
+    "D2_CONTROL": 5,
+    "W1": 5
+  }
+}
