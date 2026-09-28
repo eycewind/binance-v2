@@ -1,0 +1,461 @@
+{
+  "definition": "first eligible post-T2 snapshot; standardized difference=(class mean-overall mean)/overall population SD",
+  "groups": {
+    "MIXED": {
+      "btc_corr_60m": {
+        "mean": 0.5880703774342728,
+        "median": 0.6995653585404711,
+        "n": 36,
+        "standardized_difference_vs_all": 0.12130525035638304
+      },
+      "btc_return_30m": {
+        "mean": 0.005660253693953423,
+        "median": 0.004597913766102524,
+        "n": 36,
+        "standardized_difference_vs_all": 0.08578655880750113
+      },
+      "btc_return_5m": {
+        "mean": 0.0015277874522238012,
+        "median": 0.0005704463490312506,
+        "n": 36,
+        "standardized_difference_vs_all": 0.03570882346008347
+      },
+      "btc_return_60m": {
+        "mean": 0.00834944984026895,
+        "median": 0.006352800781528445,
+        "n": 36,
+        "standardized_difference_vs_all": 0.22827429097742297
+      },
+      "btc_self_indicator": {
+        "mean": 0.19444444444444445,
+        "median": 0.0,
+        "n": 36,
+        "standardized_difference_vs_all": 0.0567502772780648
+      },
+      "dispersion_30m": {
+        "mean": 0.004176541637117286,
+        "median": 0.0032326469667096494,
+        "n": 36,
+        "standardized_difference_vs_all": 0.18304834760005564
+      },
+      "dispersion_5m": {
+        "mean": 0.0013524078453192013,
+        "median": 0.0009088969527647508,
+        "n": 36,
+        "standardized_difference_vs_all": -0.14312477242793842
+      },
+      "dispersion_60m": {
+        "mean": 0.006764945772178749,
+        "median": 0.003748257141619459,
+        "n": 36,
+        "standardized_difference_vs_all": 0.363635710142157
+      },
+      "eth_return_30m": {
+        "mean": 0.0062349941344907,
+        "median": 0.005464100953127771,
+        "n": 36,
+        "standardized_difference_vs_all": -0.08410923846049631
+      },
+      "eth_return_5m": {
+        "mean": 0.0017185278305231848,
+        "median": 0.0007307107207118468,
+        "n": 36,
+        "standardized_difference_vs_all": -0.0929964169130927
+      },
+      "eth_return_60m": {
+        "mean": 0.00937172843122705,
+        "median": 0.01062083852148632,
+        "n": 36,
+        "standardized_difference_vs_all": 0.07033343898611934
+      },
+      "market_abs_vol_30m": {
+        "mean": 0.0007705802384424545,
+        "median": 0.0005510408380066581,
+        "n": 36,
+        "standardized_difference_vs_all": 0.3027071533631648
+      },
+      "market_abs_vol_60m": {
+        "mean": 0.0007726136325980906,
+        "median": 0.0005698470807720577,
+        "n": 36,
+        "standardized_difference_vs_all": 0.38163143681146205
+      },
+      "market_breadth_30m": {
+        "mean": 0.9222222222222223,
+        "median": 1.0,
+        "n": 36,
+        "standardized_difference_vs_all": 0.10580585938693125
+      },
+      "market_breadth_5m": {
+        "mean": 0.6388888888888888,
+        "median": 0.8,
+        "n": 36,
+        "standardized_difference_vs_all": -0.2525287003198185
+      },
+      "market_breadth_60m": {
+        "mean": 0.922222222222222,
+        "median": 1.0,
+        "n": 36,
+        "standardized_difference_vs_all": 0.09550045963391124
+      },
+      "market_return_30m": {
+        "mean": 0.007010944087352535,
+        "median": 0.005847018833405548,
+        "n": 36,
+        "standardized_difference_vs_all": 0.08630950163128798
+      },
+      "market_return_5m": {
+        "mean": 0.0015172648965439779,
+        "median": 0.0006203431180540786,
+        "n": 36,
+        "standardized_difference_vs_all": -0.09215929790245708
+      },
+      "market_return_60m": {
+        "mean": 0.011160706143281412,
+        "median": 0.007693375275074255,
+        "n": 36,
+        "standardized_difference_vs_all": 0.29919049264695
+      },
+      "relative_btc_30m": {
+        "mean": 0.002044891849582151,
+        "median": 0.0016572957017364498,
+        "n": 36,
+        "standardized_difference_vs_all": -0.26115735217030506
+      },
+      "relative_btc_5m": {
+        "mean": 0.0007705421668591813,
+        "median": 0.0,
+        "n": 36,
+        "standardized_difference_vs_all": -0.1912629589454931
+      },
+      "relative_btc_60m": {
+        "mean": 0.002508799381755312,
+        "median": 0.0007755635647843651,
+        "n": 36,
+        "standardized_difference_vs_all": -0.2705965200014581
+      },
+      "relative_market_30m": {
+        "mean": 0.0006942014561830405,
+        "median": 0.0011307686992782615,
+        "n": 36,
+        "standardized_difference_vs_all": -0.3102993481890218
+      },
+      "relative_market_5m": {
+        "mean": 0.0007810647225390048,
+        "median": 0.0003698165217158933,
+        "n": 36,
+        "standardized_difference_vs_all": -0.1018061138967778
+      },
+      "relative_market_60m": {
+        "mean": -0.00030245692125715145,
+        "median": 0.0008861468131865502,
+        "n": 36,
+        "standardized_difference_vs_all": -0.41908771657658805
+      }
+    },
+    "PREDOMINANTLY_EXIT": {
+      "btc_corr_60m": {
+        "mean": 0.5581134050789011,
+        "median": 0.6597151527416746,
+        "n": 513,
+        "standardized_difference_vs_all": 0.023247698720964074
+      },
+      "btc_return_30m": {
+        "mean": 0.0052767068565091465,
+        "median": 0.004204582282583358,
+        "n": 513,
+        "standardized_difference_vs_all": 0.023335564443309018
+      },
+      "btc_return_5m": {
+        "mean": 0.0015650128889030121,
+        "median": 0.0009944274537028175,
+        "n": 513,
+        "standardized_difference_vs_all": 0.049887428682297744
+      },
+      "btc_return_60m": {
+        "mean": 0.0067129862195548185,
+        "median": 0.004938257736738949,
+        "n": 513,
+        "standardized_difference_vs_all": 0.007843689615964993
+      },
+      "btc_self_indicator": {
+        "mean": 0.1695906432748538,
+        "median": 0.0,
+        "n": 513,
+        "standardized_difference_vs_all": -0.008960570096536582
+      },
+      "dispersion_30m": {
+        "mean": 0.003621556554514357,
+        "median": 0.0028371467420832733,
+        "n": 513,
+        "standardized_difference_vs_all": 0.014984756106829403
+      },
+      "dispersion_5m": {
+        "mean": 0.0015421439522457807,
+        "median": 0.0011835198455462897,
+        "n": 513,
+        "standardized_difference_vs_all": 0.01161121126611421
+      },
+      "dispersion_60m": {
+        "mean": 0.004799593968266744,
+        "median": 0.003772003774689573,
+        "n": 513,
+        "standardized_difference_vs_all": 0.006526779232693621
+      },
+      "eth_return_30m": {
+        "mean": 0.0068711187009611475,
+        "median": 0.0060475414081506695,
+        "n": 513,
+        "standardized_difference_vs_all": 0.006824607349240101
+      },
+      "eth_return_5m": {
+        "mean": 0.0021228915953963707,
+        "median": 0.0014418701055267658,
+        "n": 513,
+        "standardized_difference_vs_all": 0.02938435894875754
+      },
+      "eth_return_60m": {
+        "mean": 0.008708757908298375,
+        "median": 0.006976997286939346,
+        "n": 513,
+        "standardized_difference_vs_all": -0.007159278996329683
+      },
+      "market_abs_vol_30m": {
+        "mean": 0.0006597721036681363,
+        "median": 0.0005860119980660109,
+        "n": 513,
+        "standardized_difference_vs_all": 0.02671101315798621
+      },
+      "market_abs_vol_60m": {
+        "mean": 0.000625110686277952,
+        "median": 0.0005319056349126194,
+        "n": 513,
+        "standardized_difference_vs_all": 0.016860260429893782
+      },
+      "market_breadth_30m": {
+        "mean": 0.8974658869395711,
+        "median": 1.0,
+        "n": 513,
+        "standardized_difference_vs_all": -0.025493972337291525
+      },
+      "market_breadth_5m": {
+        "mean": 0.735672514619883,
+        "median": 0.8,
+        "n": 513,
+        "standardized_difference_vs_all": 0.03466698853367497
+      },
+      "market_breadth_60m": {
+        "mean": 0.9037037037037038,
+        "median": 1.0,
+        "n": 513,
+        "standardized_difference_vs_all": -0.0017685270302574537
+      },
+      "market_return_30m": {
+        "mean": 0.006542383735630145,
+        "median": 0.005297969604098007,
+        "n": 513,
+        "standardized_difference_vs_all": 0.01535262826056825
+      },
+      "market_return_5m": {
+        "mean": 0.0018892180622503683,
+        "median": 0.0013627356387623467,
+        "n": 513,
+        "standardized_difference_vs_all": 0.04435058062771369
+      },
+      "market_return_60m": {
+        "mean": 0.008546371961247136,
+        "median": 0.006463134340909038,
+        "n": 513,
+        "standardized_difference_vs_all": 0.0012221565394047592
+      },
+      "relative_btc_30m": {
+        "mean": 0.0036507658604050595,
+        "median": 0.0026137830586681066,
+        "n": 513,
+        "standardized_difference_vs_all": 0.011786021563872637
+      },
+      "relative_btc_5m": {
+        "mean": 0.0013047135456807186,
+        "median": 0.0006057590126011814,
+        "n": 513,
+        "standardized_difference_vs_all": -0.018583561404551033
+      },
+      "relative_btc_60m": {
+        "mean": 0.004896184795243367,
+        "median": 0.003429672205423895,
+        "n": 513,
+        "standardized_difference_vs_all": 0.02606136180707117
+      },
+      "relative_market_30m": {
+        "mean": 0.002385088981284061,
+        "median": 0.002038016164115364,
+        "n": 513,
+        "standardized_difference_vs_all": 0.02185995051146581
+      },
+      "relative_market_5m": {
+        "mean": 0.0009805083723333624,
+        "median": 0.0005960293010232265,
+        "n": 513,
+        "standardized_difference_vs_all": -0.01953351074625704
+      },
+      "relative_market_60m": {
+        "mean": 0.003062799053551049,
+        "median": 0.002406842559203648,
+        "n": 513,
+        "standardized_difference_vs_all": 0.03468641671438252
+      }
+    },
+    "PREDOMINANTLY_HOLD": {
+      "btc_corr_60m": {
+        "mean": 0.5305272137678991,
+        "median": 0.6344870146308991,
+        "n": 243,
+        "standardized_difference_vs_all": -0.06704962327853572
+      },
+      "btc_return_30m": {
+        "mean": 0.004752778220207369,
+        "median": 0.0036059449128551524,
+        "n": 243,
+        "standardized_difference_vs_all": -0.061973089203652354
+      },
+      "btc_return_5m": {
+        "mean": 0.0011436374372111049,
+        "median": 0.000758309520228595,
+        "n": 243,
+        "standardized_difference_vs_all": -0.11060810106412239
+      },
+      "btc_return_60m": {
+        "mean": 0.006280756967227481,
+        "median": 0.004488357575955559,
+        "n": 243,
+        "standardized_difference_vs_all": -0.05037731377850766
+      },
+      "btc_self_indicator": {
+        "mean": 0.17695473251028807,
+        "median": 0.0,
+        "n": 243,
+        "standardized_difference_vs_all": 0.010509310607049027
+      },
+      "dispersion_30m": {
+        "mean": 0.0033780581236157493,
+        "median": 0.0027335607913527766,
+        "n": 243,
+        "standardized_difference_vs_all": -0.05875275883294458
+      },
+      "dispersion_5m": {
+        "mean": 0.00152384903908671,
+        "median": 0.0012134688339284047,
+        "n": 243,
+        "standardized_difference_vs_all": -0.0033088871280280065
+      },
+      "dispersion_60m": {
+        "mean": 0.004391357556417719,
+        "median": 0.0035243447801851452,
+        "n": 243,
+        "standardized_difference_vs_all": -0.06765071321600598
+      },
+      "eth_return_30m": {
+        "mean": 0.006809758089838208,
+        "median": 0.005751449064309355,
+        "n": 243,
+        "standardized_difference_vs_all": -0.0019468764838776545
+      },
+      "eth_return_5m": {
+        "mean": 0.0018663553113140404,
+        "median": 0.0011758104420129811,
+        "n": 243,
+        "standardized_difference_vs_all": -0.048256399719511234
+      },
+      "eth_return_60m": {
+        "mean": 0.00881016808290827,
+        "median": 0.0069887737384501936,
+        "n": 243,
+        "standardized_difference_vs_all": 0.004694264698011935
+      },
+      "market_abs_vol_30m": {
+        "mean": 0.0006084036109964817,
+        "median": 0.0005479988388605003,
+        "n": 243,
+        "standardized_difference_vs_all": -0.10123542086881045
+      },
+      "market_abs_vol_60m": {
+        "mean": 0.000581037409766741,
+        "median": 0.0004895069910009131,
+        "n": 243,
+        "standardized_difference_vs_all": -0.0921318737685106
+      },
+      "market_breadth_30m": {
+        "mean": 0.9094650205761317,
+        "median": 1.0,
+        "n": 243,
+        "standardized_difference_vs_all": 0.038145666136216165
+      },
+      "market_breadth_5m": {
+        "mean": 0.7119341563786008,
+        "median": 0.8,
+        "n": 243,
+        "standardized_difference_vs_all": -0.035774205375562786
+      },
+      "market_breadth_60m": {
+        "mean": 0.9020576131687243,
+        "median": 1.0,
+        "n": 243,
+        "standardized_difference_vs_all": -0.010414659178183754
+      },
+      "market_return_30m": {
+        "mean": 0.006142542531739841,
+        "median": 0.005090123256104295,
+        "n": 243,
+        "standardized_difference_vs_all": -0.045197696939908376
+      },
+      "market_return_5m": {
+        "mean": 0.0015504617629449723,
+        "median": 0.000965704882023699,
+        "n": 243,
+        "standardized_difference_vs_all": -0.07997577422851351
+      },
+      "market_return_60m": {
+        "mean": 0.00812411403455399,
+        "median": 0.006284414063240718,
+        "n": 243,
+        "standardized_difference_vs_all": -0.04690462567903201
+      },
+      "relative_btc_30m": {
+        "mean": 0.003662664475210167,
+        "median": 0.0025340377357014887,
+        "n": 243,
+        "standardized_difference_vs_all": 0.013808377020017854
+      },
+      "relative_btc_5m": {
+        "mean": 0.0015712148207840417,
+        "median": 0.0007275542727145368,
+        "n": 243,
+        "standardized_difference_vs_all": 0.06756721614227333
+      },
+      "relative_btc_60m": {
+        "mean": 0.004566302052553303,
+        "median": 0.003201165151053287,
+        "n": 243,
+        "standardized_difference_vs_all": -0.014930057148045158
+      },
+      "relative_market_30m": {
+        "mean": 0.002272900163677695,
+        "median": 0.0016361487881706438,
+        "n": 243,
+        "standardized_difference_vs_all": -0.00017851060731326155
+      },
+      "relative_market_5m": {
+        "mean": 0.0011643904950501738,
+        "median": 0.0007302047618031882,
+        "n": 243,
+        "standardized_difference_vs_all": 0.056319798819398366
+      },
+      "relative_market_60m": {
+        "mean": 0.0027229449852267957,
+        "median": 0.0016688126655454829,
+        "n": 243,
+        "standardized_difference_vs_all": -0.011139810607905453
+      }
+    }
+  }
+}

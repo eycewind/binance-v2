@@ -1,0 +1,12 @@
+{
+  "binary_source_trades": 843,
+  "by_year": {
+    "2024": 16500,
+    "2025": 20691
+  },
+  "causal_physical_snapshots": 37191,
+  "eligible_aligned_snapshots": 37191,
+  "eligible_aligned_trades": 792,
+  "excluded": {},
+  "source_first_t2_trades": 845
+}

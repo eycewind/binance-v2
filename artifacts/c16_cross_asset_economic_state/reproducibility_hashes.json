@@ -1,0 +1,23 @@
+{
+  "calibration_2024.json": "7184640ea9bd6555083a6e92f27a8ac52da7601b92f3e267afebadf7c0d9a606",
+  "calibration_2025.json": "10b364b494abc9f0c109de91342e1bcedd0589afc50257c9b2508c43d9b3c89a",
+  "cross_asset_feature_schema.json": "5bd32bd77fe1dab74edd967a5efb74edf290a14d5500af6392b29cd77ecded22",
+  "deterioration_subset_2024.json": "7023260f1e530eea13c05584585a6b81a82a389bb69d6230a3ca428f32076de9",
+  "deterioration_subset_2025.json": "3688616774ef14198f3d4f9a33456c9399f0f64b00d5b68824018ed41778600d",
+  "family_ablation_2024.json": "27d4d9c1203de26434c208ff62c87c1caa8dd24c21eedcf90eb2369b6672b73c",
+  "feature_alignment_audit.json": "ab8e0c752e4314958ca17dd57029033849848f0d531934790ce792de196dc245",
+  "feature_associations.json": "0255b0a4e4bf915aa758f52af93dc4e40fc16faff9070aee5a122cc88d48e011",
+  "final_summary.json": "8d1547e6020c99841aa1a8c593ad3b90f38e775522a713f10ef59a02eaa8c70b",
+  "fold_definitions.json": "a8eaeed1ca660db9c2192082734fcfca14be4260de4a10126bf316ada38ec29e",
+  "frozen_model_procedure.json": "8645a35fae4eac3d48d3d15b6a48512e68cc945382d57ceb0a5abf8f328522c0",
+  "interpretation_predicates.json": "147312683b7d58a3529837d531209817dbd72748a3298a1f620c2c0c4b8d899e",
+  "leakage_firewall.json": "120bd55444934f660a133064eaaa7e20d8935cbe44d3e685d87a7d75835f520a",
+  "model_metrics_2024.json": "6e447aa813dfcbc8cb825caa3afe508e7980bad34091778397d130ee3dbc186f",
+  "model_metrics_2025.json": "99a0e0588c3d89a0a7667a842c709661a245806a5566fc5a78318f515336e4a7",
+  "population_reconciliation.json": "ed4905062578b00e876065f7562ea654aef6b1d9696d58db16f869f5f4d53d5b",
+  "provenance.json": "fd5ae9bdfa0fa03bdbe7e9ffdb65a78ab62020fee7a04cd13666912534d3db29",
+  "run_manifest.json": "840239a248db7a68460e79f69a6d5f94eca826cca42bc7c5243e4d4b2b3d492d",
+  "symbol_metrics.json": "a36c39803156d2b230443442ea1221efdadad8306202fdb3b6b64c4569bd922d",
+  "t2_context_summary.json": "f52e8a9b39d68e5ac1787a6aaeb3fe431dea498e41f1f62b16a1142ad1ef5bfd",
+  "trade_class_summary.json": "ec32989544c5148e98fc9ed6ff51e871259d0ad46995700fbf81f50634861fae"
+}

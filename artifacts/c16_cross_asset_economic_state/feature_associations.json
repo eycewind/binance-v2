@@ -1,0 +1,239 @@
+{
+  "groups": {
+    "breadth": [
+      {
+        "coefficient": -0.00689670239835662,
+        "feature": "market_breadth_5m"
+      },
+      {
+        "coefficient": 0.005797939451298221,
+        "feature": "market_breadth_30m"
+      },
+      {
+        "coefficient": 0.027887502583813003,
+        "feature": "market_breadth_60m"
+      }
+    ],
+    "btc_co_movement": [
+      {
+        "coefficient": 0.006308947319022661,
+        "feature": "btc_corr_60m"
+      },
+      {
+        "coefficient": -0.012013893161309634,
+        "feature": "btc_self_indicator"
+      }
+    ],
+    "dispersion": [
+      {
+        "coefficient": 0.00042288271146548675,
+        "feature": "dispersion_5m"
+      },
+      {
+        "coefficient": -0.0022429394800244176,
+        "feature": "dispersion_30m"
+      },
+      {
+        "coefficient": -0.00492505345780485,
+        "feature": "dispersion_60m"
+      }
+    ],
+    "existing_1m_state": [
+      {
+        "coefficient": 0.0008841322104919633,
+        "feature": "fast_return_1"
+      },
+      {
+        "coefficient": 0.007547844353050394,
+        "feature": "fast_return_3"
+      },
+      {
+        "coefficient": -0.0028412464336405826,
+        "feature": "fast_return_6"
+      },
+      {
+        "coefficient": -0.002246639460609369,
+        "feature": "fast_volatility_12"
+      },
+      {
+        "coefficient": 0.007522290450544186,
+        "feature": "fast_range_ratio"
+      },
+      {
+        "coefficient": 0.005730330011996203,
+        "feature": "fast_activity_ratio"
+      },
+      {
+        "coefficient": 0.013380273567710387,
+        "feature": "return_since_t2"
+      },
+      {
+        "coefficient": -0.0008204236198534866,
+        "feature": "return_from_entry"
+      },
+      {
+        "coefficient": 0.010535313277301069,
+        "feature": "new_peak_since_t2"
+      },
+      {
+        "coefficient": -0.0002008236218364667,
+        "feature": "drawdown_from_running_peak"
+      },
+      {
+        "coefficient": 0.006155347520370027,
+        "feature": "distance_to_continuation"
+      },
+      {
+        "coefficient": 0.002330600659273375,
+        "feature": "distance_to_deterioration"
+      },
+      {
+        "coefficient": 0.013709751720609101,
+        "feature": "path_efficiency"
+      },
+      {
+        "coefficient": -0.010626472116615012,
+        "feature": "elapsed_log1p_minutes"
+      },
+      {
+        "coefficient": 0.005404163383563163,
+        "feature": "fast_context_agreement"
+      }
+    ],
+    "existing_local_context": [
+      {
+        "coefficient": -0.009608095405949015,
+        "feature": "context_return_1"
+      },
+      {
+        "coefficient": -0.0071954522917877265,
+        "feature": "context_return_3"
+      },
+      {
+        "coefficient": 0.005108268492512697,
+        "feature": "context_return_6"
+      },
+      {
+        "coefficient": 0.009840691110522624,
+        "feature": "context_volatility_12"
+      },
+      {
+        "coefficient": 0.007371500831243551,
+        "feature": "context_range_ratio"
+      },
+      {
+        "coefficient": 0.021190741679488645,
+        "feature": "context_activity_ratio"
+      },
+      {
+        "coefficient": -0.001983179208230789,
+        "feature": "context_close_vs_sma12"
+      },
+      {
+        "coefficient": -0.0017092577066322402,
+        "feature": "context_sma12_slope"
+      }
+    ],
+    "intercept": [
+      {
+        "coefficient": -0.643702392354784,
+        "feature": "intercept"
+      }
+    ],
+    "leader_returns": [
+      {
+        "coefficient": -0.011792161839013786,
+        "feature": "btc_return_5m"
+      },
+      {
+        "coefficient": 0.002619017361029309,
+        "feature": "btc_return_30m"
+      },
+      {
+        "coefficient": 0.003463545557216599,
+        "feature": "btc_return_60m"
+      },
+      {
+        "coefficient": -0.005896007124853422,
+        "feature": "eth_return_5m"
+      },
+      {
+        "coefficient": 0.02493744139442249,
+        "feature": "eth_return_30m"
+      },
+      {
+        "coefficient": 0.03151654845358079,
+        "feature": "eth_return_60m"
+      }
+    ],
+    "market_return": [
+      {
+        "coefficient": -0.00217737681197243,
+        "feature": "market_return_5m"
+      },
+      {
+        "coefficient": 0.014839255780928567,
+        "feature": "market_return_30m"
+      },
+      {
+        "coefficient": 0.019387056881484413,
+        "feature": "market_return_60m"
+      }
+    ],
+    "relative_strength": [
+      {
+        "coefficient": 0.011593545392610208,
+        "feature": "relative_btc_5m"
+      },
+      {
+        "coefficient": 0.006099887793329652,
+        "feature": "relative_market_5m"
+      },
+      {
+        "coefficient": 0.0012232979489946987,
+        "feature": "relative_btc_30m"
+      },
+      {
+        "coefficient": -0.009544742666768094,
+        "feature": "relative_market_30m"
+      },
+      {
+        "coefficient": 0.001392713828090042,
+        "feature": "relative_btc_60m"
+      },
+      {
+        "coefficient": -0.01257160215272745,
+        "feature": "relative_market_60m"
+      }
+    ],
+    "symbol": [
+      {
+        "coefficient": 0.007342321541243185,
+        "feature": "symbol_ETHUSDT"
+      },
+      {
+        "coefficient": 0.0016000172341782992,
+        "feature": "symbol_SOLUSDT"
+      },
+      {
+        "coefficient": -0.0065190118566727595,
+        "feature": "symbol_XRPUSDT"
+      },
+      {
+        "coefficient": 0.002165838474524966,
+        "feature": "symbol_BNBUSDT"
+      }
+    ],
+    "volatility": [
+      {
+        "coefficient": 0.0017041366673158792,
+        "feature": "market_abs_vol_30m"
+      },
+      {
+        "coefficient": 0.0004569202158659749,
+        "feature": "market_abs_vol_60m"
+      }
+    ]
+  },
+  "warning": "predictive associations only; no causal interpretation"
+}

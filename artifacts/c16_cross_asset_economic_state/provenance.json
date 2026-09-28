@@ -1,0 +1,10 @@
+{
+  "contract_sha256": "a0ff7b1bcba21d3e646b12335e4b7e38fcde491931f2e4f9672ac4a0d424a274",
+  "dependencies": {
+    "c11_final": "8c2ebc215a929dac92f8d67a641506196e4a61bac30fb85965108ebe28970ec9",
+    "c14_final": "ebe4b1376551bd5af7fb83bda4120f015693c708dd4facd03957f0df229f7059",
+    "c15_final": "dc5d55858d8fa599e4caca574a9f4705b89dc01f90e43239d9084a383735db42",
+    "c7_population": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c"
+  },
+  "no_2026_access": true
+}

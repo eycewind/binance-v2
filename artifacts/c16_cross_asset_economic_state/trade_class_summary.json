@@ -1,0 +1,56 @@
+{
+  "MIXED": {
+    "count": 36,
+    "event": {
+      "CONTINUATION_FIRST": 25,
+      "DETERIORATION_FIRST": 11
+    },
+    "symbol": {
+      "BNBUSDT": 10,
+      "BTCUSDT": 7,
+      "ETHUSDT": 5,
+      "SOLUSDT": 6,
+      "XRPUSDT": 8
+    },
+    "year": {
+      "2024": 20,
+      "2025": 16
+    }
+  },
+  "PREDOMINANTLY_EXIT": {
+    "count": 513,
+    "event": {
+      "CONTINUATION_FIRST": 176,
+      "DETERIORATION_FIRST": 337
+    },
+    "symbol": {
+      "BNBUSDT": 84,
+      "BTCUSDT": 87,
+      "ETHUSDT": 105,
+      "SOLUSDT": 126,
+      "XRPUSDT": 111
+    },
+    "year": {
+      "2024": 246,
+      "2025": 267
+    }
+  },
+  "PREDOMINANTLY_HOLD": {
+    "count": 243,
+    "event": {
+      "CONTINUATION_FIRST": 124,
+      "DETERIORATION_FIRST": 119
+    },
+    "symbol": {
+      "BNBUSDT": 49,
+      "BTCUSDT": 43,
+      "ETHUSDT": 52,
+      "SOLUSDT": 50,
+      "XRPUSDT": 49
+    },
+    "year": {
+      "2024": 123,
+      "2025": 120
+    }
+  }
+}

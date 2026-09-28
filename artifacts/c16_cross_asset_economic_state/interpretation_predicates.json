@@ -1,0 +1,49 @@
+{
+  "classification": "NO_USEFUL_CROSS_ASSET_SIGNAL",
+  "comparison_2024": {
+    "auc": {
+      "M2": 0.49645217737230124,
+      "M3": 0.4830673524236874,
+      "M3_minus_M2": -0.013384824948613816,
+      "improved": false
+    },
+    "brier": {
+      "M2": 0.21705732604711125,
+      "M3": 0.2208637071976649,
+      "M3_minus_M2": 0.0038063811505536504,
+      "improved": false
+    },
+    "log_loss": {
+      "M2": 0.6261871275447786,
+      "M3": 0.6340517834059184,
+      "M3_minus_M2": 0.007864655861139824,
+      "improved": false
+    }
+  },
+  "comparison_2025": {
+    "auc": {
+      "M2": 0.4726843561380594,
+      "M3": 0.49708109813817947,
+      "M3_minus_M2": 0.024396742000120042,
+      "improved": true
+    },
+    "brier": {
+      "M2": 0.21833499601756443,
+      "M3": 0.2203897422330986,
+      "M3_minus_M2": 0.00205474621553417,
+      "improved": false
+    },
+    "log_loss": {
+      "M2": 0.6292647648341558,
+      "M3": 0.6334979484277494,
+      "M3_minus_M2": 0.004233183593593592,
+      "improved": false
+    }
+  },
+  "criteria": {
+    "auc_both_years": false,
+    "not_solely_one_symbol": false,
+    "positive_M3_calibration_slope_both_years": false,
+    "proper_scores_both_years": false
+  }
+}

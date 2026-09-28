@@ -1,0 +1,8 @@
+{
+  "all_symbols_exact_timestamp_required": true,
+  "feature_rows": 37191,
+  "gap_policy": "fail closed",
+  "last_permitted_bar_open": "t-60000",
+  "state_timestamp_semantics": "all inputs are closes of bars completed by t",
+  "status": "PASS"
+}

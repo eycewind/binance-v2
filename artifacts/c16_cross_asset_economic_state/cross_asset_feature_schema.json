@@ -1,0 +1,55 @@
+{
+  "btc_self": {
+    "correlation": 0.0,
+    "indicator": 1.0
+  },
+  "dispersion_formula": "population standard deviation (ddof=0) of five horizon returns",
+  "families": {
+    "breadth": [
+      "market_breadth_5m",
+      "market_breadth_30m",
+      "market_breadth_60m"
+    ],
+    "btc_co_movement": [
+      "btc_corr_60m",
+      "btc_self_indicator"
+    ],
+    "dispersion": [
+      "dispersion_5m",
+      "dispersion_30m",
+      "dispersion_60m"
+    ],
+    "leader_returns": [
+      "btc_return_5m",
+      "btc_return_30m",
+      "btc_return_60m",
+      "eth_return_5m",
+      "eth_return_30m",
+      "eth_return_60m"
+    ],
+    "market_return": [
+      "market_return_5m",
+      "market_return_30m",
+      "market_return_60m"
+    ],
+    "relative_strength": [
+      "relative_btc_5m",
+      "relative_market_5m",
+      "relative_btc_30m",
+      "relative_market_30m",
+      "relative_btc_60m",
+      "relative_market_60m"
+    ],
+    "volatility": [
+      "market_abs_vol_30m",
+      "market_abs_vol_60m"
+    ]
+  },
+  "frozen_before_evaluation": true,
+  "horizons_minutes": [
+    5,
+    30,
+    60
+  ],
+  "volatility_formula": "mean absolute equal-weight universe 1-minute return over trailing 30/60 completed minutes"
+}
