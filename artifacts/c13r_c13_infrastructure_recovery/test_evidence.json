@@ -1,0 +1,16 @@
+{
+  "focused": {
+    "command": "pytest -q tests/test_c13_warning_economics.py tests/test_c13r_infrastructure_recovery.py",
+    "passed": 10,
+    "status": "PASS",
+    "duration_seconds": 0.18
+  },
+  "full_suite": {
+    "command": "pytest -q",
+    "passed": 466,
+    "status": "PASS",
+    "duration_seconds": 260.20,
+    "runs": 1
+  },
+  "economic_access_during_tests": false
+}

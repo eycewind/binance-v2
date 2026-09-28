@@ -1,0 +1,3 @@
+{"attempt_id": "C13R-d637b1d1-0092-40db-9cf8-3dab5257511a", "economic_read": false, "event": "START", "timestamp": "2026-09-28T08:00:15.303595+00:00"}
+{"attempt_id": "C13R-d637b1d1-0092-40db-9cf8-3dab5257511a", "economic_read": true, "event": "ECONOMIC_READ", "timestamp": "2026-09-28T08:00:15.303903+00:00"}
+{"attempt_id": "C13R-d637b1d1-0092-40db-9cf8-3dab5257511a", "economic_read": true, "event": "FAIL", "failure": "ValueError: frozen bootstrap seed/replicates required", "timestamp": "2026-09-28T08:02:20.200012+00:00"}
