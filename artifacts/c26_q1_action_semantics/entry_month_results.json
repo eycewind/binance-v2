@@ -1,0 +1,218 @@
+{
+  "2024-01": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 98,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-02": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 83,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-03": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 94,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-04": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 92,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-05": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 98,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-06": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 92,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-07": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 85,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-08": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 92,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-09": {
+    "C25_minus_P0_pnl_difference": 0.0,
+    "covered_trade_count": 0,
+    "mean_paired_return_difference": 0.0,
+    "model_exit_count": 0,
+    "negative_contribution_trade_count": 0,
+    "original_trade_count": 86,
+    "positive_contribution_trade_count": 0
+  },
+  "2024-10": {
+    "C25_minus_P0_pnl_difference": 26.551220037077655,
+    "covered_trade_count": 91,
+    "mean_paired_return_difference": 0.0002917716487590952,
+    "model_exit_count": 51,
+    "negative_contribution_trade_count": 21,
+    "original_trade_count": 91,
+    "positive_contribution_trade_count": 30
+  },
+  "2024-11": {
+    "C25_minus_P0_pnl_difference": -320.56114223065674,
+    "covered_trade_count": 86,
+    "mean_paired_return_difference": -0.003601810586861312,
+    "model_exit_count": 48,
+    "negative_contribution_trade_count": 16,
+    "original_trade_count": 89,
+    "positive_contribution_trade_count": 31
+  },
+  "2024-12": {
+    "C25_minus_P0_pnl_difference": 292.92925845837135,
+    "covered_trade_count": 90,
+    "mean_paired_return_difference": 0.0031497769726706597,
+    "model_exit_count": 58,
+    "negative_contribution_trade_count": 18,
+    "original_trade_count": 93,
+    "positive_contribution_trade_count": 40
+  },
+  "2025-01": {
+    "C25_minus_P0_pnl_difference": 87.13731711717685,
+    "covered_trade_count": 88,
+    "mean_paired_return_difference": 0.0009369603991094285,
+    "model_exit_count": 48,
+    "negative_contribution_trade_count": 19,
+    "original_trade_count": 93,
+    "positive_contribution_trade_count": 29
+  },
+  "2025-02": {
+    "C25_minus_P0_pnl_difference": 80.94722829506861,
+    "covered_trade_count": 83,
+    "mean_paired_return_difference": 0.0009412468406403325,
+    "model_exit_count": 39,
+    "negative_contribution_trade_count": 10,
+    "original_trade_count": 86,
+    "positive_contribution_trade_count": 29
+  },
+  "2025-03": {
+    "C25_minus_P0_pnl_difference": 60.85889966588013,
+    "covered_trade_count": 87,
+    "mean_paired_return_difference": 0.0006838078614143834,
+    "model_exit_count": 41,
+    "negative_contribution_trade_count": 14,
+    "original_trade_count": 89,
+    "positive_contribution_trade_count": 26
+  },
+  "2025-04": {
+    "C25_minus_P0_pnl_difference": 170.4289993222875,
+    "covered_trade_count": 91,
+    "mean_paired_return_difference": 0.0018524891230683423,
+    "model_exit_count": 46,
+    "negative_contribution_trade_count": 13,
+    "original_trade_count": 92,
+    "positive_contribution_trade_count": 33
+  },
+  "2025-05": {
+    "C25_minus_P0_pnl_difference": 32.72324831348271,
+    "covered_trade_count": 102,
+    "mean_paired_return_difference": 0.00032081615993610497,
+    "model_exit_count": 56,
+    "negative_contribution_trade_count": 21,
+    "original_trade_count": 102,
+    "positive_contribution_trade_count": 34
+  },
+  "2025-06": {
+    "C25_minus_P0_pnl_difference": 47.31278532201543,
+    "covered_trade_count": 91,
+    "mean_paired_return_difference": 0.0005199207178243453,
+    "model_exit_count": 50,
+    "negative_contribution_trade_count": 15,
+    "original_trade_count": 91,
+    "positive_contribution_trade_count": 35
+  },
+  "2025-07": {
+    "C25_minus_P0_pnl_difference": -75.84354861251632,
+    "covered_trade_count": 92,
+    "mean_paired_return_difference": -0.0008155220280915731,
+    "model_exit_count": 41,
+    "negative_contribution_trade_count": 12,
+    "original_trade_count": 93,
+    "positive_contribution_trade_count": 29
+  },
+  "2025-08": {
+    "C25_minus_P0_pnl_difference": 57.283543024531795,
+    "covered_trade_count": 89,
+    "mean_paired_return_difference": 0.0006294894837860637,
+    "model_exit_count": 43,
+    "negative_contribution_trade_count": 12,
+    "original_trade_count": 91,
+    "positive_contribution_trade_count": 31
+  },
+  "2025-09": {
+    "C25_minus_P0_pnl_difference": -22.230355642638415,
+    "covered_trade_count": 88,
+    "mean_paired_return_difference": -0.0002526176777572549,
+    "model_exit_count": 37,
+    "negative_contribution_trade_count": 14,
+    "original_trade_count": 88,
+    "positive_contribution_trade_count": 23
+  },
+  "2025-10": {
+    "C25_minus_P0_pnl_difference": 176.05679938163553,
+    "covered_trade_count": 93,
+    "mean_paired_return_difference": 0.0018930838643186618,
+    "model_exit_count": 45,
+    "negative_contribution_trade_count": 13,
+    "original_trade_count": 93,
+    "positive_contribution_trade_count": 32
+  },
+  "2025-11": {
+    "C25_minus_P0_pnl_difference": 206.95916211776205,
+    "covered_trade_count": 92,
+    "mean_paired_return_difference": 0.0022016932140187452,
+    "model_exit_count": 58,
+    "negative_contribution_trade_count": 10,
+    "original_trade_count": 94,
+    "positive_contribution_trade_count": 48
+  },
+  "2025-12": {
+    "C25_minus_P0_pnl_difference": -177.21332779291038,
+    "covered_trade_count": 91,
+    "mean_paired_return_difference": -0.0018852481680096847,
+    "model_exit_count": 37,
+    "negative_contribution_trade_count": 18,
+    "original_trade_count": 94,
+    "positive_contribution_trade_count": 19
+  }
+}

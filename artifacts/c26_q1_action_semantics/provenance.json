@@ -1,0 +1,18 @@
+{
+  "C25_artifact_hashes_sha256": "9957fd2f5dc3d691c207a60629c58f7015f205ffed7ac2307b9622492f7fd8e3",
+  "C25_ledger_sha256": "5946d2a0e9e52b40748121b45fe7fe5b4fe195b922963855ce46c7e7ce7a0aa9",
+  "contract_sha256": "26a473049eb19f4bbbb7afb5dfcc04a9b541166d0615bbb3e940792610c653e0",
+  "cost": "C_BASE",
+  "no_2026_access": true,
+  "prediction_hashes": {
+    "2024": {
+      "training": "fb9444f1e63708ebe8576fd6b3fb521ce8f3a20685229d37afcd54b4befba32f",
+      "validation": "daa199be6cf2de4715a2277905085852335b920a48cc88b5142a5b369a938d88"
+    },
+    "2025": {
+      "training": "16b2235076e3f222e347ac9d140ca1990e4725b5935cf38b655b1f0008b41739",
+      "validation": "08a474d2fa986b8331c232e97182e4e1b95544682e384a4d06a0f560d4017896"
+    }
+  },
+  "target": "DELTA_LIQ_5"
+}

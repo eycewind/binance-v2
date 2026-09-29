@@ -1,0 +1,112 @@
+{
+  "by_omitted_month": {
+    "2024-01": {
+      "mean_paired_return_difference": 0.0003062066096033164,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-02": {
+      "mean_paired_return_difference": 0.00030403595783391675,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-03": {
+      "mean_paired_return_difference": 0.0003056247443119086,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-04": {
+      "mean_paired_return_difference": 0.0003053346401407536,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-05": {
+      "mean_paired_return_difference": 0.0003062066096033164,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-06": {
+      "mean_paired_return_difference": 0.0003053346401407536,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-07": {
+      "mean_paired_return_difference": 0.0003043235982859828,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-08": {
+      "mean_paired_return_difference": 0.0003053346401407536,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-09": {
+      "mean_paired_return_difference": 0.00030446762270542715,
+      "total_pnl_difference": 643.3400867765678
+    },
+    "2024-10": {
+      "mean_paired_return_difference": 0.00029259433906047915,
+      "total_pnl_difference": 616.7888667394901
+    },
+    "2024-11": {
+      "mean_paired_return_difference": 0.0004568252270176419,
+      "total_pnl_difference": 963.9012290072242
+    },
+    "2024-12": {
+      "mean_paired_return_difference": 0.00016638690803333155,
+      "total_pnl_difference": 350.4108283181964
+    },
+    "2025-01": {
+      "mean_paired_return_difference": 0.00026410387923048,
+      "total_pnl_difference": 556.2027696593909
+    },
+    "2025-02": {
+      "mean_paired_return_difference": 0.00026615847538168433,
+      "total_pnl_difference": 562.3928584814992
+    },
+    "2025-03": {
+      "mean_paired_return_difference": 0.00027605743464961493,
+      "total_pnl_difference": 582.4811871106876
+    },
+    "2025-04": {
+      "mean_paired_return_difference": 0.00022444759727303286,
+      "total_pnl_difference": 472.9110874542803
+    },
+    "2025-05": {
+      "mean_paired_return_difference": 0.00029118590293900103,
+      "total_pnl_difference": 610.6168384630851
+    },
+    "2025-06": {
+      "mean_paired_return_difference": 0.00028274539917198875,
+      "total_pnl_difference": 596.0273014545523
+    },
+    "2025-07": {
+      "mean_paired_return_difference": 0.00034149270436328774,
+      "total_pnl_difference": 719.1836353890841
+    },
+    "2025-08": {
+      "mean_paired_return_difference": 0.00027801543821254074,
+      "total_pnl_difference": 586.056543752036
+    },
+    "2025-09": {
+      "mean_paired_return_difference": 0.00031528680360928764,
+      "total_pnl_difference": 665.5704424192062
+    },
+    "2025-10": {
+      "mean_paired_return_difference": 0.00022188190284659647,
+      "total_pnl_difference": 467.28328739493224
+    },
+    "2025-11": {
+      "mean_paired_return_difference": 0.00020730685256950386,
+      "total_pnl_difference": 436.3809246588057
+    },
+    "2025-12": {
+      "mean_paired_return_difference": 0.00038981159837029835,
+      "total_pnl_difference": 820.5534145694782
+    }
+  },
+  "maximum": {
+    "mean_paired_return_difference": 0.0004568252270176419,
+    "omitted_month": "2024-11",
+    "total_pnl_difference": 963.9012290072242
+  },
+  "minimum": {
+    "mean_paired_return_difference": 0.00016638690803333155,
+    "omitted_month": "2024-12",
+    "total_pnl_difference": 350.4108283181964
+  },
+  "negative_total_count": 0,
+  "positive_total_count": 24
+}

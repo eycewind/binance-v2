@@ -1,0 +1,30 @@
+{
+  "accounting_reconciles": true,
+  "negative_absolute": {
+    "contributing_trade_count": 226,
+    "top_10_trades_share": 0.5756032718109642,
+    "top_10pct_all_trades_share": 0.9998701671736328,
+    "top_1_trades_share": 0.12717769174778115,
+    "top_1pct_all_trades_share": 0.740135005390308,
+    "top_20_trades_share": 0.7224749995290576,
+    "top_20pct_all_trades_share": 1.0,
+    "top_5_trades_share": 0.42270483648947843,
+    "top_5pct_all_trades_share": 0.957505696661166,
+    "total_contribution": 2096.351003612538,
+    "trades_to_explain_50pct": 7
+  },
+  "population_trade_count": 2199,
+  "positive": {
+    "contributing_trade_count": 469,
+    "top_10_trades_share": 0.1401937020873513,
+    "top_10pct_all_trades_share": 0.8315275531935734,
+    "top_1_trades_share": 0.04271911605954727,
+    "top_1pct_all_trades_share": 0.22925908760522495,
+    "top_20_trades_share": 0.21621026128284013,
+    "top_20pct_all_trades_share": 0.997752784826657,
+    "top_5_trades_share": 0.0902808911353991,
+    "top_5pct_all_trades_share": 0.5977074674265306,
+    "total_contribution": 2739.691090389106,
+    "trades_to_explain_50pct": 79
+  }
+}

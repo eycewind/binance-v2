@@ -1,0 +1,22 @@
+{
+  "all_q1_absolute_value_2024.json": "397360105b3c148c8a23baba419e562d63640aff4828e9957bb84a851a5bcde7",
+  "all_q1_absolute_value_2025.json": "68e23126b26500d7dfdf4d890a2e0846116376471191cc7e9063c86f1b99c890",
+  "all_q1_bootstrap.json": "c0d3a4782ef0a7779db781a135b38d7ac91cb5303da31d347d210b6722f3e502",
+  "c25_label_quadrant_crosstab.json": "6760fecd6881d2d5390cdb9dd60b7f78c15158297b7dd62898e7f11d0787a698",
+  "entry_month_results.json": "da0e338c810226041525a065ba28ac32449778896c41b3c149616bc93492b13f",
+  "final_summary.json": "c6f5bfd065e70a98e195a1831227f5c734d584b13da7047cf9f155708de9e1f3",
+  "first_q1_reconciliation.json": "cd27ea396c6614c2e47877dab2d0db51b40c8b39ec6fafd2f3adba400976d1c3",
+  "first_q1_v5_vp0_2024.json": "46a93b18eaa9f38beb9f188a42b4803f79cd6deda5952365ff9761f332dafc9c",
+  "first_q1_v5_vp0_2025.json": "21143a0429f3fcf10532c8612462adf9ecd62cd9a282366dd671e4bc5f4df460",
+  "first_vs_all_bootstrap.json": "c0d3a4782ef0a7779db781a135b38d7ac91cb5303da31d347d210b6722f3e502",
+  "first_vs_all_q1_2024.json": "80927ef8b66aafab55aaf2bfb167a47abc0b459674ecea4fd1cc6bd27afb671c",
+  "first_vs_all_q1_2025.json": "3b24bf586b0b8ef67387f6b161dcca689109c41eca8e9c58cdd4f3d8e2a9ae44",
+  "horizon_mismatch_quadrants.json": "53f98e1f63a8dc6dccf374f762d8f4d32cecb04c839a517bbc73f5f9b64752c8",
+  "interpretation_predicates.json": "f8c7a2b623ca905cd0d25fb74eac0f84a04ae06b543d6f794d8ff3cc6e1dc80a",
+  "leave_one_month_out.json": "a0f8733edf734d99ac524fa522c6f6e3ba5e3e2c517abf178b814cd245de40da",
+  "population_reconciliation.json": "3aecad97190b8b783510216a1b1d52deb19fa5b7724eed84d76843a9e22fc728",
+  "provenance.json": "7883ad999970eccefd01a0e3ef9bbbf9bfd3c905ee0f1779a3b4cd34e9d10324",
+  "run_manifest.json": "d6865224995a538a5ce4f7abcde9f9dbc3e16c041bc8698180bc12cbf9d6813b",
+  "symbol_diagnostics.json": "33b2b636ecbc5fb18757631645389e295b7d79448b4420ebe66fffd576a81b0a",
+  "trade_concentration.json": "17fa818cfad278ee403f94f521ebdad8e7a054fa9d1e6c391a91e917887b55f8"
+}

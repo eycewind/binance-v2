@@ -1,0 +1,214 @@
+{
+  "2024": {
+    "calendar_month": {
+      "construction": "UTC entry-calendar-month blocks; whole trades and both groups retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_first_all_mean": {
+          "ci95": [
+            -0.00011938060988025083,
+            0.00028754609856611953
+          ],
+          "replicate_sha256": "9f9c468a4536b496538474ab8dbb0456e1e5f719fc2ce097f52d04f177d1d128"
+        },
+        "Delta_first_all_positive_rate": {
+          "ci95": [
+            -0.02880215803834163,
+            0.1376137085821173
+          ],
+          "replicate_sha256": "960d96cb600ae4e8c463ea2d31c60eabd2f60832f6d4e2247dce647b7c988e15"
+        },
+        "all_q1_mean": {
+          "ci95": [
+            -0.0004597734983970461,
+            -0.00018142530221888355
+          ],
+          "replicate_sha256": "b47224f0d181679637161aa5a3b7cca9e3b7b12a00f1fb5188db5bdcb5ab6613"
+        },
+        "all_q1_positive_rate": {
+          "ci95": [
+            0.42973483054441486,
+            0.5082196247512161
+          ],
+          "replicate_sha256": "25ee67d8adff0d3fb0c43c48b4d08fd878266bc83adf627f9ff13dca709c2365"
+        },
+        "first_q1_mean": {
+          "ci95": [
+            -0.000477336666223441,
+            9.213180381957163e-05
+          ],
+          "replicate_sha256": "604491e7210b7ed7ffc22163aa8ecd5b0d371c2c0bed6ecb41567b035dcdb080"
+        },
+        "first_q1_positive_rate": {
+          "ci95": [
+            0.43103448275862066,
+            0.6458333333333334
+          ],
+          "replicate_sha256": "05c63d389128c4a1379f5ba5093aa42bd2309203bada1cf67bc6f90c27fa0d0d"
+        }
+      },
+      "models_refit": false,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "calendar_month"
+    },
+    "whole_trade": {
+      "construction": "whole trades; all attached Q1 snapshots and first-Q1 state retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_first_all_mean": {
+          "ci95": [
+            -0.00021112247324188711,
+            0.0004607612257163286
+          ],
+          "replicate_sha256": "a54e2becd030e3705f368a8a38112491d3914c0951e6d2e2472250317ca290ce"
+        },
+        "Delta_first_all_positive_rate": {
+          "ci95": [
+            -0.018298685048634106,
+            0.10216195961612982
+          ],
+          "replicate_sha256": "04dd249913f2305cf6ebeb1288ae1eef8edd8cf3e67d9d14ab7ab14f89d5d33b"
+        },
+        "all_q1_mean": {
+          "ci95": [
+            -0.0006149449530528907,
+            -0.00010762112114574134
+          ],
+          "replicate_sha256": "4c190027af27b8a0789e13af7a30695738b2ed94c3b74d4f3226d4a78b2f3278"
+        },
+        "all_q1_positive_rate": {
+          "ci95": [
+            0.42933769836809543,
+            0.5037292904761382
+          ],
+          "replicate_sha256": "aa47dfc3eed494be43994d21adfdb33896edab96ff45a586a047528724f3ba77"
+        },
+        "first_q1_mean": {
+          "ci95": [
+            -0.000508856929211139,
+            7.118349521072411e-05
+          ],
+          "replicate_sha256": "ef413d1023f7efe638802234777277ee64c1199674bcb2b0cf504d59a43e146e"
+        },
+        "first_q1_positive_rate": {
+          "ci95": [
+            0.44897005531184436,
+            0.5686274509803921
+          ],
+          "replicate_sha256": "5d102e479c88b82d86463005946910d5260b2f25c0cdeafb3322e5fd083abaf2"
+        }
+      },
+      "models_refit": false,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "whole_trade"
+    }
+  },
+  "2025": {
+    "calendar_month": {
+      "construction": "UTC entry-calendar-month blocks; whole trades and both groups retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_first_all_mean": {
+          "ci95": [
+            -0.00019009800801564016,
+            0.00020988247494427357
+          ],
+          "replicate_sha256": "12742e6c6444cabe10ec728b56f56950700025379b2bcc70b9ffd4b95abc315f"
+        },
+        "Delta_first_all_positive_rate": {
+          "ci95": [
+            -0.020542659834081017,
+            0.058378016235642885
+          ],
+          "replicate_sha256": "5532fef7277983c457ded884c18678dbc49cd76667abd309b6ad1eda649367b7"
+        },
+        "all_q1_mean": {
+          "ci95": [
+            -0.00023605769502901141,
+            -3.582473460406922e-05
+          ],
+          "replicate_sha256": "1af608e6357bb38b12fafd70eb7a6b889ef4fe18ad11db24afb8e61c90dceefd"
+        },
+        "all_q1_positive_rate": {
+          "ci95": [
+            0.47352897564790725,
+            0.5015854587913924
+          ],
+          "replicate_sha256": "5701525a3f7f63b93986d473d1b770e5b67db91863f3ef7ba8c2d1435c22f2b5"
+        },
+        "first_q1_mean": {
+          "ci95": [
+            -0.0002964671668776879,
+            3.759760302033298e-05
+          ],
+          "replicate_sha256": "1c1f7ef3242d8fb72fb8a8c081f722bfdb8d63b3de86344197bd285c09289c9b"
+        },
+        "first_q1_positive_rate": {
+          "ci95": [
+            0.46827734618520117,
+            0.5413105413105413
+          ],
+          "replicate_sha256": "65a7d412bc1ea69df7aa404ec9637db9daef8de4a81418d5f1f30ede49a4f1e1"
+        }
+      },
+      "models_refit": false,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "calendar_month"
+    },
+    "whole_trade": {
+      "construction": "whole trades; all attached Q1 snapshots and first-Q1 state retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_first_all_mean": {
+          "ci95": [
+            -0.0001575618632748736,
+            0.00016897778748966414
+          ],
+          "replicate_sha256": "5a94cda7c015283ef2c68ea7c1470a4cb3e9a60e577520321248bf7bef0d3b6f"
+        },
+        "Delta_first_all_positive_rate": {
+          "ci95": [
+            -0.014973889802834367,
+            0.050579105176547325
+          ],
+          "replicate_sha256": "f38437c96808cd6f1641ca6d26a58bfdde22e3de2dddb12de81b215d1d159404"
+        },
+        "all_q1_mean": {
+          "ci95": [
+            -0.0002607665315203221,
+            -2.8527235268294243e-05
+          ],
+          "replicate_sha256": "dd04cb8d35a675ec9d08c0e094416a659258e6b1095a2a1229e1156bce9b0a34"
+        },
+        "all_q1_positive_rate": {
+          "ci95": [
+            0.4672975874849047,
+            0.5075495042542626
+          ],
+          "replicate_sha256": "e55d6c49865a8bb85a3c25a1cd36864aa784d3661fb5cc6b816b517476677b26"
+        },
+        "first_q1_mean": {
+          "ci95": [
+            -0.0002824718371915716,
+            2.6461953679991787e-06
+          ],
+          "replicate_sha256": "b80a58c014b394ac2d303f1ca10eecb96bd70d0cbce6d8fdba4d7a61e99fc269"
+        },
+        "first_q1_positive_rate": {
+          "ci95": [
+            0.4725585454224107,
+            0.5362371656737229
+          ],
+          "replicate_sha256": "51fb6f37349be5874712a4619a618cc0bcd0dd52004f3b502df5d05737ba7ae4"
+        }
+      },
+      "models_refit": false,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "whole_trade"
+    }
+  }
+}

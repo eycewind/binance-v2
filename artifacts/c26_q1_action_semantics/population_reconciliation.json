@@ -1,0 +1,16 @@
+{
+  "C25_labels_exact": true,
+  "C25_paired_pnl_total": 643.3400867765678,
+  "C25_yearly_exact": true,
+  "first_q1_trade_count": 698,
+  "honest_covered_trade_count": 1354,
+  "model_exit_count": 698,
+  "original_trade_count": 2199,
+  "paired_pnl_total": 643.3400867765678,
+  "q1_boundaries": {
+    "2024": 0.48865730936567864,
+    "2025": 0.4818371318862759
+  },
+  "q1_tie_convention": "probability <= frozen upper boundary",
+  "status": "PASS"
+}

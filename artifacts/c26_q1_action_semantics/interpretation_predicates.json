@@ -1,0 +1,19 @@
+{
+  "Path_A": {
+    "first_Q1_mean_V5_negative_both_years": true,
+    "not_isolated_trade_or_month": true,
+    "satisfied": true,
+    "selection_does_not_reverse_all_Q1_interpretation": true,
+    "uncertainty_directionally_supportive_no_clear_positive": true
+  },
+  "Path_B": {
+    "first_Q1_adverse_or_worse_both_years": true,
+    "not_isolated_trade_or_month": true,
+    "recovery_explains_surrendered_upside": true,
+    "recovery_quadrant_present_both_years": true,
+    "same_qualitative_pattern_both_years": true,
+    "satisfied": true
+  },
+  "decision": "CONTINUE_POLICY_RESEARCH",
+  "note": "Contract prose predicates applied directly and conservatively; no threshold, policy, horizon, or model was searched."
+}

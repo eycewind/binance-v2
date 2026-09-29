@@ -1,0 +1,16 @@
+{
+  "count": 541,
+  "fraction_SHORT_BAD_LIFECYCLE_BAD": 0.3900184842883549,
+  "fraction_SHORT_BAD_LIFECYCLE_RECOVERS": 0.09796672828096119,
+  "fraction_V5_lt_0": 0.4879852125693161,
+  "fraction_VP0_lt_0": 0.6802218114602587,
+  "mean_V5": -0.00013719408011796065,
+  "mean_VP0": -0.0011911658974339658,
+  "median_V5": 3.393829798483371e-05,
+  "median_VP0": -0.0017762193521797367,
+  "recovery_absolute_negative_contribution": 366.1580679101804,
+  "recovery_quadrant_surrendered_upside_absolute": 291.84008947823804,
+  "recovery_share_of_surrendered_upside": 0.2527769327470103,
+  "recovery_share_of_total_loss_contribution": 0.2566887762084017,
+  "total_surrendered_upside_absolute": 1154.5360817014257
+}

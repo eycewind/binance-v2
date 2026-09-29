@@ -1,0 +1,82 @@
+{
+  "BNBUSDT": {
+    "2024": {
+      "C25_minus_P0_paired_contribution": 63.271313756294944,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.13793103448275862,
+      "mean_V5": 0.0001658159812545662,
+      "mean_VP0": -0.00218176943987224,
+      "trigger_count": 29
+    },
+    "2025": {
+      "C25_minus_P0_paired_contribution": 68.21559265068436,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.13,
+      "mean_V5": -0.00023085931749330477,
+      "mean_VP0": -0.0006821559265068432,
+      "trigger_count": 100
+    }
+  },
+  "BTCUSDT": {
+    "2024": {
+      "C25_minus_P0_paired_contribution": 33.13445150184759,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.05714285714285714,
+      "mean_V5": 0.00014527247958491055,
+      "mean_VP0": -0.0009466986143385029,
+      "trigger_count": 35
+    },
+    "2025": {
+      "C25_minus_P0_paired_contribution": 4.294517147110225,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.09473684210526316,
+      "mean_V5": 1.3822843184220866e-06,
+      "mean_VP0": -4.520544365379169e-05,
+      "trigger_count": 95
+    }
+  },
+  "ETHUSDT": {
+    "2024": {
+      "C25_minus_P0_paired_contribution": 133.22356478623033,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.16129032258064516,
+      "mean_V5": -0.00021246541134411064,
+      "mean_VP0": -0.004297534347942914,
+      "trigger_count": 31
+    },
+    "2025": {
+      "C25_minus_P0_paired_contribution": 219.76645593817557,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.10909090909090909,
+      "mean_V5": -0.00036823580359455886,
+      "mean_VP0": -0.0019978768721652324,
+      "trigger_count": 110
+    }
+  },
+  "SOLUSDT": {
+    "2024": {
+      "C25_minus_P0_paired_contribution": -115.72352810192842,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.11428571428571428,
+      "mean_V5": -0.00034246933610689403,
+      "mean_VP0": 0.003306386517197956,
+      "trigger_count": 35
+    },
+    "2025": {
+      "C25_minus_P0_paired_contribution": 272.3875389865144,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.06779661016949153,
+      "mean_V5": 3.151418460735983e-05,
+      "mean_VP0": -0.002308368974461987,
+      "trigger_count": 118
+    }
+  },
+  "XRPUSDT": {
+    "2024": {
+      "C25_minus_P0_paired_contribution": -114.98646567765218,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.14814814814814814,
+      "mean_V5": -0.0009150769428859147,
+      "mean_VP0": 0.004258757988061191,
+      "trigger_count": 27
+    },
+    "2025": {
+      "C25_minus_P0_paired_contribution": 79.75664578929093,
+      "SHORT_BAD_LIFECYCLE_RECOVERS_fraction": 0.09322033898305085,
+      "mean_V5": -0.00012271286434748578,
+      "mean_VP0": -0.0006759037778753465,
+      "trigger_count": 118
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "cells": {
+    "AVOIDED_LOSS": {
+      "SHORT_BAD_LIFECYCLE_BAD": {
+        "count": 266,
+        "pnl_contribution": 1528.7582780391583
+      },
+      "SHORT_BAD_LIFECYCLE_RECOVERS": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_OK_LIFECYCLE_BAD": {
+        "count": 203,
+        "pnl_contribution": 1210.9328123499472
+      },
+      "SHORT_OK_LIFECYCLE_GOOD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      }
+    },
+    "DEEPENED_LOSS": {
+      "SHORT_BAD_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_BAD_LIFECYCLE_RECOVERS": {
+        "count": 58,
+        "pnl_contribution": -100.3210299230359
+      },
+      "SHORT_OK_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_OK_LIFECYCLE_GOOD": {
+        "count": 130,
+        "pnl_contribution": -259.2232121696626
+      }
+    },
+    "PRESERVED_GAIN": {
+      "SHORT_BAD_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_BAD_LIFECYCLE_RECOVERS": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_OK_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_OK_LIFECYCLE_GOOD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      }
+    },
+    "SURRENDERED_UPSIDE": {
+      "SHORT_BAD_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_BAD_LIFECYCLE_RECOVERS": {
+        "count": 12,
+        "pnl_contribution": -603.0249917941983
+      },
+      "SHORT_OK_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_OK_LIFECYCLE_GOOD": {
+        "count": 26,
+        "pnl_contribution": -1133.7817697256414
+      }
+    },
+    "TIE": {
+      "SHORT_BAD_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_BAD_LIFECYCLE_RECOVERS": {
+        "count": 2,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_OK_LIFECYCLE_BAD": {
+        "count": 0,
+        "pnl_contribution": 0.0
+      },
+      "SHORT_OK_LIFECYCLE_GOOD": {
+        "count": 1,
+        "pnl_contribution": 0.0
+      }
+    }
+  },
+  "reconciles_to_C25": true,
+  "totals": {
+    "AVOIDED_LOSS": {
+      "count": 469,
+      "pnl_contribution": 2739.6910903891057
+    },
+    "DEEPENED_LOSS": {
+      "count": 188,
+      "pnl_contribution": -359.5442420926985
+    },
+    "PRESERVED_GAIN": {
+      "count": 0,
+      "pnl_contribution": 0.0
+    },
+    "SURRENDERED_UPSIDE": {
+      "count": 38,
+      "pnl_contribution": -1736.8067615198397
+    },
+    "TIE": {
+      "count": 3,
+      "pnl_contribution": 0.0
+    }
+  }
+}
