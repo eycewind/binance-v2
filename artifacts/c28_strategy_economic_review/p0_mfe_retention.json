@@ -1,0 +1,16 @@
+{
+  "fraction_gte_0": 0.24687199230028875,
+  "fraction_gte_0.25": 0.15351299326275264,
+  "fraction_gte_0.50": 0.08084696823869104,
+  "fraction_gte_0.75": 0.014436958614051972,
+  "fraction_gte_1.00": 0.0,
+  "fraction_lt_0": 0.7531280076997112,
+  "median": -0.7698954198915036,
+  "mfe_surrender_gap_mean": 0.0176211359484956,
+  "mfe_surrender_gap_median": 0.013276899409440067,
+  "p25": -2.4301305589558044,
+  "p75": -0.005980991825108761,
+  "population_mfe_gt_zero": 2078,
+  "ratio_not_clipped": true,
+  "warning": "MFE is retrospective/descriptive and is not an executable or capturable exit."
+}

@@ -1,0 +1,13 @@
+{
+  "entry": "first valid 1m open at or after hourly available_at_ms (the next minute open after the completed interval)",
+  "exit": "first valid 1m open at or after entry decision timestamp plus H",
+  "horizons_hours": [
+    6,
+    24,
+    72,
+    168
+  ],
+  "hourly_state_timestamp": "available_at_ms of completed hourly bar",
+  "mfe_exit": false,
+  "primary": "H24"
+}

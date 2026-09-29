@@ -1,0 +1,330 @@
+{
+  "C0": {
+    "BNBUSDT": {
+      "mean_holding_duration_seconds": 32864.25339366516,
+      "mean_return": -4.777885801993891e-06,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.002899755851954183,
+      "negative_return_fraction": 0.746606334841629,
+      "positive_return_fraction": 0.248868778280543,
+      "tie_fraction": 0.004524886877828055,
+      "total_pnl_usdt": -2.111825524482697,
+      "trade_count": 442,
+      "win_loss_tie_count": {
+        "loss": 330,
+        "tie": 2,
+        "win": 110
+      }
+    },
+    "BTCUSDT": {
+      "mean_holding_duration_seconds": 33749.0022172949,
+      "mean_return": 9.573123084382054e-05,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.0029083838920867036,
+      "negative_return_fraction": 0.7671840354767184,
+      "positive_return_fraction": 0.2328159645232816,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": 43.17478511056197,
+      "trade_count": 451,
+      "win_loss_tie_count": {
+        "loss": 346,
+        "tie": 0,
+        "win": 105
+      }
+    },
+    "ETHUSDT": {
+      "mean_holding_duration_seconds": 34025.8064516129,
+      "mean_return": 7.373380069117103e-06,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.004024625526190732,
+      "negative_return_fraction": 0.7649769585253456,
+      "positive_return_fraction": 0.2350230414746544,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": 3.200046949995567,
+      "trade_count": 434,
+      "win_loss_tie_count": {
+        "loss": 332,
+        "tie": 0,
+        "win": 102
+      }
+    },
+    "SOLUSDT": {
+      "mean_holding_duration_seconds": 32575.4060324826,
+      "mean_return": -0.0005379996267423529,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.006373582254341045,
+      "negative_return_fraction": 0.8004640371229699,
+      "positive_return_fraction": 0.19953596287703015,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -231.87783912595398,
+      "trade_count": 431,
+      "win_loss_tie_count": {
+        "loss": 345,
+        "tie": 0,
+        "win": 86
+      }
+    },
+    "XRPUSDT": {
+      "mean_holding_duration_seconds": 35420.4081632653,
+      "mean_return": 0.0012536076413644996,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.003834215811575632,
+      "negative_return_fraction": 0.7551020408163265,
+      "positive_return_fraction": 0.24036281179138322,
+      "tie_fraction": 0.0045351473922902496,
+      "total_pnl_usdt": 552.8409698417448,
+      "trade_count": 441,
+      "win_loss_tie_count": {
+        "loss": 333,
+        "tie": 2,
+        "win": 106
+      }
+    }
+  },
+  "C_BASE": {
+    "BNBUSDT": {
+      "mean_holding_duration_seconds": 32864.25339366516,
+      "mean_return": -0.0024018894056299285,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.005289927753593092,
+      "negative_return_fraction": 0.7941176470588235,
+      "positive_return_fraction": 0.20588235294117646,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1062.6967524057159,
+      "trade_count": 442,
+      "win_loss_tie_count": {
+        "loss": 351,
+        "tie": 0,
+        "win": 91
+      }
+    },
+    "BTCUSDT": {
+      "mean_holding_duration_seconds": 33749.0022172949,
+      "mean_return": -0.0023016212216966196,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.005298535111252476,
+      "negative_return_fraction": 0.8425720620842572,
+      "positive_return_fraction": 0.1574279379157428,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1039.0692021561613,
+      "trade_count": 451,
+      "win_loss_tie_count": {
+        "loss": 380,
+        "tie": 0,
+        "win": 71
+      }
+    },
+    "ETHUSDT": {
+      "mean_holding_duration_seconds": 34025.8064516129,
+      "mean_return": -0.0023897672678373913,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.006412100976891788,
+      "negative_return_fraction": 0.8202764976958525,
+      "positive_return_fraction": 0.17972350230414746,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1038.19615323567,
+      "trade_count": 434,
+      "win_loss_tie_count": {
+        "loss": 356,
+        "tie": 0,
+        "win": 78
+      }
+    },
+    "SOLUSDT": {
+      "mean_holding_duration_seconds": 32575.4060324826,
+      "mean_return": -0.002933832948485368,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.008755426966906378,
+      "negative_return_fraction": 0.8190255220417634,
+      "positive_return_fraction": 0.18097447795823665,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1265.746482797992,
+      "trade_count": 431,
+      "win_loss_tie_count": {
+        "loss": 353,
+        "tie": 0,
+        "win": 78
+      }
+    },
+    "XRPUSDT": {
+      "mean_holding_duration_seconds": 35420.4081632653,
+      "mean_return": -0.0011465203833194951,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.006222147697777862,
+      "negative_return_fraction": 0.7981859410430839,
+      "positive_return_fraction": 0.2018140589569161,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -506.12110453294065,
+      "trade_count": 441,
+      "win_loss_tie_count": {
+        "loss": 352,
+        "tie": 0,
+        "win": 89
+      }
+    }
+  },
+  "C_S10": {
+    "BNBUSDT": {
+      "mean_holding_duration_seconds": 32864.25339366516,
+      "mean_return": -0.003996770796444487,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.006880191975862336,
+      "negative_return_fraction": 0.8257918552036199,
+      "positive_return_fraction": 0.17420814479638008,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1768.339264720491,
+      "trade_count": 442,
+      "win_loss_tie_count": {
+        "loss": 365,
+        "tie": 0,
+        "win": 77
+      }
+    },
+    "BTCUSDT": {
+      "mean_holding_duration_seconds": 33749.0022172949,
+      "mean_return": -0.0038966629133968256,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.0068887855727551815,
+      "negative_return_fraction": 0.8514412416851441,
+      "positive_return_fraction": 0.14855875831485588,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1759.1523689159112,
+      "trade_count": 451,
+      "win_loss_tie_count": {
+        "loss": 384,
+        "tie": 0,
+        "win": 67
+      }
+    },
+    "ETHUSDT": {
+      "mean_holding_duration_seconds": 34025.8064516129,
+      "mean_return": -0.003984668038572349,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.008000571156878812,
+      "negative_return_fraction": 0.836405529953917,
+      "positive_return_fraction": 0.16359447004608296,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1731.075274669142,
+      "trade_count": 434,
+      "win_loss_tie_count": {
+        "loss": 363,
+        "tie": 0,
+        "win": 71
+      }
+    },
+    "SOLUSDT": {
+      "mean_holding_duration_seconds": 32575.4060324826,
+      "mean_return": -0.004527863909804859,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.010340150821620495,
+      "negative_return_fraction": 0.8259860788863109,
+      "positive_return_fraction": 0.1740139211136891,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1953.4608544710193,
+      "trade_count": 431,
+      "win_loss_tie_count": {
+        "loss": 356,
+        "tie": 0,
+        "win": 75
+      }
+    },
+    "XRPUSDT": {
+      "mean_holding_duration_seconds": 35420.4081632653,
+      "mean_return": -0.0027434087593829455,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.0078109215601264124,
+      "negative_return_fraction": 0.8140589569160998,
+      "positive_return_fraction": 0.18594104308390022,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1211.0531061507659,
+      "trade_count": 441,
+      "win_loss_tie_count": {
+        "loss": 359,
+        "tie": 0,
+        "win": 82
+      }
+    }
+  },
+  "C_S5": {
+    "BNBUSDT": {
+      "mean_holding_duration_seconds": 32864.25339366516,
+      "mean_return": -0.0030002688180007205,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.005886574862473026,
+      "negative_return_fraction": 0.8076923076923077,
+      "positive_return_fraction": 0.19230769230769232,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1327.4449363738731,
+      "trade_count": 442,
+      "win_loss_tie_count": {
+        "loss": 357,
+        "tie": 0,
+        "win": 85
+      }
+    },
+    "BTCUSDT": {
+      "mean_holding_duration_seconds": 33749.0022172949,
+      "mean_return": -0.00290006077694092,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.0058951770572661984,
+      "negative_return_fraction": 0.844789356984479,
+      "positive_return_fraction": 0.15521064301552107,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1309.2353378107557,
+      "trade_count": 451,
+      "win_loss_tie_count": {
+        "loss": 381,
+        "tie": 0,
+        "win": 70
+      }
+    },
+    "ETHUSDT": {
+      "mean_holding_duration_seconds": 34025.8064516129,
+      "mean_return": -0.0029881539513102557,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.007008074983701107,
+      "negative_return_fraction": 0.8225806451612904,
+      "positive_return_fraction": 0.1774193548387097,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1298.1556736835214,
+      "trade_count": 434,
+      "win_loss_tie_count": {
+        "loss": 357,
+        "tie": 0,
+        "win": 77
+      }
+    },
+    "SOLUSDT": {
+      "mean_holding_duration_seconds": 32575.4060324826,
+      "mean_return": -0.003531893290419674,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.009349995399653428,
+      "negative_return_fraction": 0.8190255220417634,
+      "positive_return_fraction": 0.18097447795823665,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -1523.7682541790512,
+      "trade_count": 431,
+      "win_loss_tie_count": {
+        "loss": 353,
+        "tie": 0,
+        "win": 78
+      }
+    },
+    "XRPUSDT": {
+      "mean_holding_duration_seconds": 35420.4081632653,
+      "mean_return": -0.0017456527912802938,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.006818235642384849,
+      "negative_return_fraction": 0.8027210884353742,
+      "positive_return_fraction": 0.19727891156462585,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -770.6027138355641,
+      "trade_count": 441,
+      "win_loss_tie_count": {
+        "loss": 354,
+        "tie": 0,
+        "win": 87
+      }
+    }
+  }
+}

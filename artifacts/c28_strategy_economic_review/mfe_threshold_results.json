@@ -1,0 +1,102 @@
+{
+  ">=0.005": {
+    "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+    "fraction_of_entries": 0.5429740791268759,
+    "mean_mfe": 0.03025696811579487,
+    "mean_mfe_surrender_gap": 0.024474146052293803,
+    "mean_p0_c0_return": 0.005782822063501066,
+    "mean_p0_cbase_return": 0.003371836954876083,
+    "median_p0_c0_return": -0.0018225218749306578,
+    "median_p0_cbase_return": -0.004215276038883212,
+    "median_time_to_first_threshold_crossing_seconds": 2580.0,
+    "p0_c0_positive_fraction": 0.41792294807370184,
+    "p0_cbase_positive_fraction": 0.3408710217755444,
+    "symbol_counts": {
+      "BNBUSDT": 219,
+      "BTCUSDT": 205,
+      "ETHUSDT": 242,
+      "SOLUSDT": 275,
+      "XRPUSDT": 253
+    },
+    "trade_count": 1194,
+    "year_counts": {
+      "2024": 584,
+      "2025": 610
+    }
+  },
+  ">=0.010": {
+    "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+    "fraction_of_entries": 0.3874488403819918,
+    "mean_mfe": 0.03953372712989987,
+    "mean_mfe_surrender_gap": 0.02826976250562096,
+    "mean_p0_c0_return": 0.011263964624278908,
+    "mean_p0_cbase_return": 0.008839840542903153,
+    "median_p0_c0_return": 0.0014559253532509615,
+    "median_p0_cbase_return": -0.0009446876518680071,
+    "median_time_to_first_threshold_crossing_seconds": 6540.0,
+    "p0_c0_positive_fraction": 0.5528169014084507,
+    "p0_cbase_positive_fraction": 0.4753521126760563,
+    "symbol_counts": {
+      "BNBUSDT": 152,
+      "BTCUSDT": 142,
+      "ETHUSDT": 170,
+      "SOLUSDT": 204,
+      "XRPUSDT": 184
+    },
+    "trade_count": 852,
+    "year_counts": {
+      "2024": 418,
+      "2025": 434
+    }
+  },
+  ">=0.020": {
+    "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+    "fraction_of_entries": 0.25102319236016374,
+    "mean_mfe": 0.05325196363613561,
+    "mean_mfe_surrender_gap": 0.03277211135493423,
+    "mean_p0_c0_return": 0.020479852281201374,
+    "mean_p0_cbase_return": 0.01803363658380655,
+    "median_p0_c0_return": 0.01008534260117807,
+    "median_p0_cbase_return": 0.007664043821730363,
+    "median_time_to_first_threshold_crossing_seconds": 16350.0,
+    "p0_c0_positive_fraction": 0.7228260869565217,
+    "p0_cbase_positive_fraction": 0.6666666666666666,
+    "symbol_counts": {
+      "BNBUSDT": 98,
+      "BTCUSDT": 81,
+      "ETHUSDT": 115,
+      "SOLUSDT": 136,
+      "XRPUSDT": 122
+    },
+    "trade_count": 552,
+    "year_counts": {
+      "2024": 265,
+      "2025": 287
+    }
+  },
+  ">=0.030": {
+    "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+    "fraction_of_entries": 0.16098226466575716,
+    "mean_mfe": 0.06927510579133496,
+    "mean_mfe_surrender_gap": 0.036094268445710544,
+    "mean_p0_c0_return": 0.033180837345624416,
+    "mean_p0_cbase_return": 0.03070417582515184,
+    "median_p0_c0_return": 0.021148366255360887,
+    "median_p0_cbase_return": 0.018700548047760904,
+    "median_time_to_first_threshold_crossing_seconds": 25530.0,
+    "p0_c0_positive_fraction": 0.8587570621468926,
+    "p0_cbase_positive_fraction": 0.827683615819209,
+    "symbol_counts": {
+      "BNBUSDT": 57,
+      "BTCUSDT": 54,
+      "ETHUSDT": 77,
+      "SOLUSDT": 86,
+      "XRPUSDT": 80
+    },
+    "trade_count": 354,
+    "year_counts": {
+      "2024": 174,
+      "2025": 180
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "C0": {
+    "mean_holding_duration_seconds": 33730.968622100954,
+    "mean_return": 0.00016608737483031776,
+    "median_holding_duration_seconds": 14400.0,
+    "median_return": -0.0038019076954924455,
+    "negative_return_fraction": 0.7667121418826739,
+    "positive_return_fraction": 0.23146884947703503,
+    "tie_fraction": 0.0018190086402910413,
+    "total_pnl_usdt": 365.22613725186466,
+    "trade_count": 2199,
+    "win_loss_tie_count": {
+      "loss": 1686,
+      "tie": 4,
+      "win": 509
+    }
+  },
+  "C_BASE": {
+    "mean_holding_duration_seconds": 33730.968622100954,
+    "mean_return": -0.0022314337300391647,
+    "median_holding_duration_seconds": 14400.0,
+    "median_return": -0.006189917028222,
+    "negative_return_fraction": 0.8149158708503865,
+    "positive_return_fraction": 0.18508412914961347,
+    "tie_fraction": 0.0,
+    "total_pnl_usdt": -4911.829695128476,
+    "trade_count": 2199,
+    "win_loss_tie_count": {
+      "loss": 1792,
+      "tie": 0,
+      "win": 407
+    }
+  },
+  "C_S10": {
+    "mean_holding_duration_seconds": 33730.968622100954,
+    "mean_return": -0.0038265876319802656,
+    "median_holding_duration_seconds": 14400.0,
+    "median_return": -0.007778742418429567,
+    "negative_return_fraction": 0.8308321964529332,
+    "positive_return_fraction": 0.16916780354706684,
+    "tie_fraction": 0.0,
+    "total_pnl_usdt": -8423.080868927329,
+    "trade_count": 2199,
+    "win_loss_tie_count": {
+      "loss": 1827,
+      "tie": 0,
+      "win": 372
+    }
+  },
+  "C_S5": {
+    "mean_holding_duration_seconds": 33730.968622100954,
+    "mean_return": -0.002829915385152712,
+    "median_holding_duration_seconds": 14400.0,
+    "median_return": -0.006786024305432585,
+    "negative_return_fraction": 0.8194633924511141,
+    "positive_return_fraction": 0.18053660754888587,
+    "tie_fraction": 0.0,
+    "total_pnl_usdt": -6229.206915882752,
+    "trade_count": 2199,
+    "win_loss_tie_count": {
+      "loss": 1802,
+      "tie": 0,
+      "win": 397
+    }
+  }
+}

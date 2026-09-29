@@ -1,0 +1,15 @@
+{
+  "dataset": "frozen 2024-2025 only",
+  "exclusion_from_any_same_symbol_e1_hours": 24,
+  "exclusion_inclusive": true,
+  "future_horizon_data_required": true,
+  "future_matching": false,
+  "mechanism_count": 1,
+  "overlap": "an eligible reference may serve multiple actual entries",
+  "requires_e1_not_fire": true,
+  "same_symbol": true,
+  "same_utc_calendar_month": true,
+  "same_utc_hour_of_day": true,
+  "selection": "all eligible controls; equal-weight deterministic mean",
+  "valid_1m_entry_required": true
+}

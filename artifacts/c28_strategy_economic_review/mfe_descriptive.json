@@ -1,0 +1,75 @@
+{
+  "construction": "exact frozen C2 held_mfe through canonical P0 execution",
+  "never_used_as_exit": true,
+  "retrospective_only": true,
+  "threshold_frequencies": {
+    ">=0.005": {
+      "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+      "fraction_of_entries": 0.5429740791268759,
+      "median_time_to_first_threshold_crossing_seconds": 2580.0,
+      "symbol_counts": {
+        "BNBUSDT": 219,
+        "BTCUSDT": 205,
+        "ETHUSDT": 242,
+        "SOLUSDT": 275,
+        "XRPUSDT": 253
+      },
+      "trade_count": 1194,
+      "year_counts": {
+        "2024": 584,
+        "2025": 610
+      }
+    },
+    ">=0.010": {
+      "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+      "fraction_of_entries": 0.3874488403819918,
+      "median_time_to_first_threshold_crossing_seconds": 6540.0,
+      "symbol_counts": {
+        "BNBUSDT": 152,
+        "BTCUSDT": 142,
+        "ETHUSDT": 170,
+        "SOLUSDT": 204,
+        "XRPUSDT": 184
+      },
+      "trade_count": 852,
+      "year_counts": {
+        "2024": 418,
+        "2025": 434
+      }
+    },
+    ">=0.020": {
+      "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+      "fraction_of_entries": 0.25102319236016374,
+      "median_time_to_first_threshold_crossing_seconds": 16350.0,
+      "symbol_counts": {
+        "BNBUSDT": 98,
+        "BTCUSDT": 81,
+        "ETHUSDT": 115,
+        "SOLUSDT": 136,
+        "XRPUSDT": 122
+      },
+      "trade_count": 552,
+      "year_counts": {
+        "2024": 265,
+        "2025": 287
+      }
+    },
+    ">=0.030": {
+      "crossing_time_note": "retrospectively reconstructed from frozen 1m highs (or exact P0 execution open); descriptive only",
+      "fraction_of_entries": 0.16098226466575716,
+      "median_time_to_first_threshold_crossing_seconds": 25530.0,
+      "symbol_counts": {
+        "BNBUSDT": 57,
+        "BTCUSDT": 54,
+        "ETHUSDT": 77,
+        "SOLUSDT": 86,
+        "XRPUSDT": 80
+      },
+      "trade_count": 354,
+      "year_counts": {
+        "2024": 174,
+        "2025": 180
+      }
+    }
+  }
+}

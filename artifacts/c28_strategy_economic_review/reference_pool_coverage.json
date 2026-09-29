@@ -1,0 +1,318 @@
+{
+  "H168": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "coverage_fraction": 0.8959276018099548,
+        "covered": 396,
+        "entries": 442,
+        "max_pool_size": 5,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 46
+      },
+      "BTCUSDT": {
+        "coverage_fraction": 0.802660753880266,
+        "covered": 362,
+        "entries": 451,
+        "max_pool_size": 6,
+        "median_pool_size": 1,
+        "min_pool_size": 0,
+        "zero_pool": 89
+      },
+      "ETHUSDT": {
+        "coverage_fraction": 0.880184331797235,
+        "covered": 382,
+        "entries": 434,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 52
+      },
+      "SOLUSDT": {
+        "coverage_fraction": 0.8839907192575406,
+        "covered": 381,
+        "entries": 431,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 50
+      },
+      "XRPUSDT": {
+        "coverage_fraction": 0.9115646258503401,
+        "covered": 402,
+        "entries": 441,
+        "max_pool_size": 6,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 39
+      }
+    },
+    "by_year": {
+      "2024": {
+        "coverage_fraction": 0.8517840805123513,
+        "covered": 931,
+        "entries": 1093,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 162
+      },
+      "2025": {
+        "coverage_fraction": 0.8969258589511754,
+        "covered": 992,
+        "entries": 1106,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 114
+      }
+    },
+    "full_population": {
+      "coverage_fraction": 0.8744884038199181,
+      "covered": 1923,
+      "covered_comparison_population": 1903,
+      "entries": 2199,
+      "max_pool_size": 8,
+      "median_pool_size": 2,
+      "min_pool_size": 0,
+      "zero_pool": 276
+    }
+  },
+  "H24": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "coverage_fraction": 0.9027149321266968,
+        "covered": 399,
+        "entries": 442,
+        "max_pool_size": 5,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 43
+      },
+      "BTCUSDT": {
+        "coverage_fraction": 0.802660753880266,
+        "covered": 362,
+        "entries": 451,
+        "max_pool_size": 6,
+        "median_pool_size": 1,
+        "min_pool_size": 0,
+        "zero_pool": 89
+      },
+      "ETHUSDT": {
+        "coverage_fraction": 0.880184331797235,
+        "covered": 382,
+        "entries": 434,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 52
+      },
+      "SOLUSDT": {
+        "coverage_fraction": 0.8839907192575406,
+        "covered": 381,
+        "entries": 431,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 50
+      },
+      "XRPUSDT": {
+        "coverage_fraction": 0.9115646258503401,
+        "covered": 402,
+        "entries": 441,
+        "max_pool_size": 6,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 39
+      }
+    },
+    "by_year": {
+      "2024": {
+        "coverage_fraction": 0.8517840805123513,
+        "covered": 931,
+        "entries": 1093,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 162
+      },
+      "2025": {
+        "coverage_fraction": 0.8996383363471971,
+        "covered": 995,
+        "entries": 1106,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 111
+      }
+    },
+    "full_population": {
+      "coverage_fraction": 0.8758526603001364,
+      "covered": 1926,
+      "covered_comparison_population": 1923,
+      "entries": 2199,
+      "max_pool_size": 8,
+      "median_pool_size": 2,
+      "min_pool_size": 0,
+      "zero_pool": 273
+    }
+  },
+  "H6": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "coverage_fraction": 0.9027149321266968,
+        "covered": 399,
+        "entries": 442,
+        "max_pool_size": 5,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 43
+      },
+      "BTCUSDT": {
+        "coverage_fraction": 0.802660753880266,
+        "covered": 362,
+        "entries": 451,
+        "max_pool_size": 6,
+        "median_pool_size": 1,
+        "min_pool_size": 0,
+        "zero_pool": 89
+      },
+      "ETHUSDT": {
+        "coverage_fraction": 0.880184331797235,
+        "covered": 382,
+        "entries": 434,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 52
+      },
+      "SOLUSDT": {
+        "coverage_fraction": 0.8839907192575406,
+        "covered": 381,
+        "entries": 431,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 50
+      },
+      "XRPUSDT": {
+        "coverage_fraction": 0.9115646258503401,
+        "covered": 402,
+        "entries": 441,
+        "max_pool_size": 6,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 39
+      }
+    },
+    "by_year": {
+      "2024": {
+        "coverage_fraction": 0.8517840805123513,
+        "covered": 931,
+        "entries": 1093,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 162
+      },
+      "2025": {
+        "coverage_fraction": 0.8996383363471971,
+        "covered": 995,
+        "entries": 1106,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 111
+      }
+    },
+    "full_population": {
+      "coverage_fraction": 0.8758526603001364,
+      "covered": 1926,
+      "covered_comparison_population": 1925,
+      "entries": 2199,
+      "max_pool_size": 8,
+      "median_pool_size": 2,
+      "min_pool_size": 0,
+      "zero_pool": 273
+    }
+  },
+  "H72": {
+    "by_symbol": {
+      "BNBUSDT": {
+        "coverage_fraction": 0.9027149321266968,
+        "covered": 399,
+        "entries": 442,
+        "max_pool_size": 5,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 43
+      },
+      "BTCUSDT": {
+        "coverage_fraction": 0.802660753880266,
+        "covered": 362,
+        "entries": 451,
+        "max_pool_size": 6,
+        "median_pool_size": 1,
+        "min_pool_size": 0,
+        "zero_pool": 89
+      },
+      "ETHUSDT": {
+        "coverage_fraction": 0.880184331797235,
+        "covered": 382,
+        "entries": 434,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 52
+      },
+      "SOLUSDT": {
+        "coverage_fraction": 0.8839907192575406,
+        "covered": 381,
+        "entries": 431,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 50
+      },
+      "XRPUSDT": {
+        "coverage_fraction": 0.9115646258503401,
+        "covered": 402,
+        "entries": 441,
+        "max_pool_size": 6,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 39
+      }
+    },
+    "by_year": {
+      "2024": {
+        "coverage_fraction": 0.8517840805123513,
+        "covered": 931,
+        "entries": 1093,
+        "max_pool_size": 7,
+        "median_pool_size": 2,
+        "min_pool_size": 0,
+        "zero_pool": 162
+      },
+      "2025": {
+        "coverage_fraction": 0.8996383363471971,
+        "covered": 995,
+        "entries": 1106,
+        "max_pool_size": 8,
+        "median_pool_size": 2.0,
+        "min_pool_size": 0,
+        "zero_pool": 111
+      }
+    },
+    "full_population": {
+      "coverage_fraction": 0.8758526603001364,
+      "covered": 1926,
+      "covered_comparison_population": 1918,
+      "entries": 2199,
+      "max_pool_size": 8,
+      "median_pool_size": 2,
+      "min_pool_size": 0,
+      "zero_pool": 273
+    }
+  }
+}

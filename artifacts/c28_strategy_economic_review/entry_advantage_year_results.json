@@ -1,0 +1,330 @@
+{
+  "H168": {
+    "C0": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.018120368058892864,
+        "median_entry_advantage": 0.015154214180906712,
+        "negative_fraction": 0.4446831364124597,
+        "positive_fraction": 0.5553168635875403,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 16870.062662829292
+      },
+      "2025": {
+        "covered_trade_count": 972,
+        "mean_entry_advantage": 0.022389364349380835,
+        "median_entry_advantage": 0.016619575844010775,
+        "negative_fraction": 0.43415637860082307,
+        "positive_fraction": 0.565843621399177,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 21762.462147598173
+      }
+    },
+    "C_BASE": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.01807693130833953,
+        "median_entry_advantage": 0.01511788766595578,
+        "negative_fraction": 0.4446831364124597,
+        "positive_fraction": 0.5553168635875403,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 16829.623048064077
+      },
+      "2025": {
+        "covered_trade_count": 972,
+        "mean_entry_advantage": 0.02233569428974789,
+        "median_entry_advantage": 0.016579736676953435,
+        "negative_fraction": 0.43415637860082307,
+        "positive_fraction": 0.565843621399177,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 21710.294849634964
+      }
+    },
+    "C_S10": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.01804803133244691,
+        "median_entry_advantage": 0.01509371837628818,
+        "negative_fraction": 0.4446831364124597,
+        "positive_fraction": 0.5553168635875403,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 16802.71717050808
+      },
+      "2025": {
+        "covered_trade_count": 972,
+        "mean_entry_advantage": 0.022299985738583515,
+        "median_entry_advantage": 0.01655323029807217,
+        "negative_fraction": 0.43415637860082307,
+        "positive_fraction": 0.565843621399177,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 21675.586137903196
+      }
+    },
+    "C_S5": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.01806608840134233,
+        "median_entry_advantage": 0.015108819652852934,
+        "negative_fraction": 0.4446831364124597,
+        "positive_fraction": 0.5553168635875403,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 16819.528301649712
+      },
+      "2025": {
+        "covered_trade_count": 972,
+        "mean_entry_advantage": 0.02232229689105391,
+        "median_entry_advantage": 0.016569791817410792,
+        "negative_fraction": 0.43415637860082307,
+        "positive_fraction": 0.565843621399177,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 21697.27257810436
+      }
+    }
+  },
+  "H24": {
+    "C0": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.01851667939911963,
+        "median_entry_advantage": 0.019622579064933234,
+        "negative_fraction": 0.3125671321160043,
+        "positive_fraction": 0.6874328678839957,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17239.02852058036
+      },
+      "2025": {
+        "covered_trade_count": 992,
+        "mean_entry_advantage": 0.017800703940660755,
+        "median_entry_advantage": 0.01645290439146956,
+        "negative_fraction": 0.3629032258064516,
+        "positive_fraction": 0.6370967741935484,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17658.298309135473
+      }
+    },
+    "C_BASE": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.018472292641548173,
+        "median_entry_advantage": 0.019575541329866886,
+        "negative_fraction": 0.3125671321160043,
+        "positive_fraction": 0.6874328678839957,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17197.70444928135
+      },
+      "2025": {
+        "covered_trade_count": 992,
+        "mean_entry_advantage": 0.017758033464308886,
+        "median_entry_advantage": 0.016413464756380065,
+        "negative_fraction": 0.3629032258064516,
+        "positive_fraction": 0.6370967741935484,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17615.9691965944
+      }
+    },
+    "C_S10": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.018442760593054094,
+        "median_entry_advantage": 0.01954424549414848,
+        "negative_fraction": 0.3125671321160043,
+        "positive_fraction": 0.6874328678839957,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17170.210112133344
+      },
+      "2025": {
+        "covered_trade_count": 992,
+        "mean_entry_advantage": 0.01772964331720564,
+        "median_entry_advantage": 0.01638722419996706,
+        "negative_fraction": 0.3629032258064516,
+        "positive_fraction": 0.6370967741935484,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17587.80617066799
+      }
+    },
+    "C_S5": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.018461212588871047,
+        "median_entry_advantage": 0.01956379952643563,
+        "negative_fraction": 0.3125671321160043,
+        "positive_fraction": 0.6874328678839957,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17187.388920238925
+      },
+      "2025": {
+        "covered_trade_count": 992,
+        "mean_entry_advantage": 0.01774738183865284,
+        "median_entry_advantage": 0.01640361963007949,
+        "negative_fraction": 0.3629032258064516,
+        "positive_fraction": 0.6370967741935484,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 17605.402783943617
+      }
+    }
+  },
+  "H6": {
+    "C0": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.001438051850337847,
+        "median_entry_advantage": 0.0020322279334906742,
+        "negative_fraction": 0.45005370569280345,
+        "positive_fraction": 0.5499462943071965,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1338.826272664537
+      },
+      "2025": {
+        "covered_trade_count": 994,
+        "mean_entry_advantage": 0.0034530889364099426,
+        "median_entry_advantage": 0.0022652566532259614,
+        "negative_fraction": 0.44064386317907445,
+        "positive_fraction": 0.5593561368209256,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3432.3704027914846
+      }
+    },
+    "C_BASE": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.0014346046632110218,
+        "median_entry_advantage": 0.0020273564332249157,
+        "negative_fraction": 0.45005370569280345,
+        "positive_fraction": 0.5499462943071965,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1335.6169414494684
+      },
+      "2025": {
+        "covered_trade_count": 994,
+        "mean_entry_advantage": 0.0034448114575926334,
+        "median_entry_advantage": 0.002259826554462806,
+        "negative_fraction": 0.44064386317907445,
+        "positive_fraction": 0.5593561368209256,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3424.1425888470835
+      }
+    },
+    "C_S10": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.0014323111301176564,
+        "median_entry_advantage": 0.0020241152552259068,
+        "negative_fraction": 0.45005370569280345,
+        "positive_fraction": 0.5499462943071965,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1333.4816621395405
+      },
+      "2025": {
+        "covered_trade_count": 994,
+        "mean_entry_advantage": 0.003439304163993913,
+        "median_entry_advantage": 0.002256213721519462,
+        "negative_fraction": 0.44064386317907445,
+        "positive_fraction": 0.5593561368209256,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3418.6683390099543
+      }
+    },
+    "C_S5": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.0014337441584784667,
+        "median_entry_advantage": 0.0020261403840580406,
+        "negative_fraction": 0.45005370569280345,
+        "positive_fraction": 0.5499462943071965,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1334.8158115434542
+      },
+      "2025": {
+        "covered_trade_count": 994,
+        "mean_entry_advantage": 0.0034427451903916127,
+        "median_entry_advantage": 0.002258471065041369,
+        "negative_fraction": 0.44064386317907445,
+        "positive_fraction": 0.5593561368209256,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3422.088719249259
+      }
+    }
+  },
+  "H72": {
+    "C0": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.01991686031799276,
+        "median_entry_advantage": 0.019326618464594623,
+        "negative_fraction": 0.38990332975295383,
+        "positive_fraction": 0.6100966702470462,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 18542.596956051268
+      },
+      "2025": {
+        "covered_trade_count": 987,
+        "mean_entry_advantage": 0.02004902014990768,
+        "median_entry_advantage": 0.0169564408047097,
+        "negative_fraction": 0.4083080040526849,
+        "positive_fraction": 0.5916919959473151,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 19788.382887958865
+      }
+    },
+    "C_BASE": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.01986911715457431,
+        "median_entry_advantage": 0.019280290183482436,
+        "negative_fraction": 0.38990332975295383,
+        "positive_fraction": 0.6100966702470462,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 18498.14807090866
+      },
+      "2025": {
+        "covered_trade_count": 987,
+        "mean_entry_advantage": 0.020000960183120035,
+        "median_entry_advantage": 0.016915794130916303,
+        "negative_fraction": 0.4083080040526849,
+        "positive_fraction": 0.5916919959473151,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 19740.94770073946
+      }
+    },
+    "C_S10": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.019837351972919283,
+        "median_entry_advantage": 0.019249466372073407,
+        "negative_fraction": 0.38990332975295383,
+        "positive_fraction": 0.6100966702470462,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 18468.574686787873
+      },
+      "2025": {
+        "covered_trade_count": 987,
+        "mean_entry_advantage": 0.019968984221201386,
+        "median_entry_advantage": 0.01688875048981058,
+        "negative_fraction": 0.4083080040526849,
+        "positive_fraction": 0.5916919959473151,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 19709.387426325764
+      }
+    },
+    "C_S5": {
+      "2024": {
+        "covered_trade_count": 931,
+        "mean_entry_advantage": 0.019857199258458608,
+        "median_entry_advantage": 0.019268725477627764,
+        "negative_fraction": 0.38990332975295383,
+        "positive_fraction": 0.6100966702470462,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 18487.052509624955
+      },
+      "2025": {
+        "covered_trade_count": 987,
+        "mean_entry_advantage": 0.019988963204903936,
+        "median_entry_advantage": 0.01690564769735333,
+        "negative_fraction": 0.4083080040526849,
+        "positive_fraction": 0.5916919959473151,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 19729.106683240174
+      }
+    }
+  }
+}

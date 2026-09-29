@@ -1,0 +1,138 @@
+{
+  "C0": {
+    "2024": {
+      "mean_holding_duration_seconds": 32337.419945105215,
+      "mean_return": -9.548329354111295e-05,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.0036614853195163733,
+      "negative_return_fraction": 0.7694419030192132,
+      "positive_return_fraction": 0.22781335773101555,
+      "tie_fraction": 0.0027447392497712718,
+      "total_pnl_usdt": -104.36323984043736,
+      "trade_count": 1093,
+      "win_loss_tie_count": {
+        "loss": 841,
+        "tie": 3,
+        "win": 249
+      }
+    },
+    "2025": {
+      "mean_holding_duration_seconds": 35108.137432188065,
+      "mean_return": 0.00042458352359159605,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.003901202800489784,
+      "negative_return_fraction": 0.7640144665461122,
+      "positive_return_fraction": 0.23508137432188064,
+      "tie_fraction": 0.0009041591320072332,
+      "total_pnl_usdt": 469.58937709230133,
+      "trade_count": 1106,
+      "win_loss_tie_count": {
+        "loss": 845,
+        "tie": 1,
+        "win": 260
+      }
+    }
+  },
+  "C_BASE": {
+    "2024": {
+      "mean_holding_duration_seconds": 32337.419945105215,
+      "mean_return": -0.002492377381352375,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.006049831261949434,
+      "negative_return_fraction": 0.8142726440988106,
+      "positive_return_fraction": 0.18572735590118938,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -2726.8926462959676,
+      "trade_count": 1093,
+      "win_loss_tie_count": {
+        "loss": 890,
+        "tie": 0,
+        "win": 203
+      }
+    },
+    "2025": {
+      "mean_holding_duration_seconds": 35108.137432188065,
+      "mean_return": -0.0019735572283345174,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.006288974110642191,
+      "negative_return_fraction": 0.8155515370705244,
+      "positive_return_fraction": 0.1844484629294756,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -2184.9370488325176,
+      "trade_count": 1106,
+      "win_loss_tie_count": {
+        "loss": 902,
+        "tie": 0,
+        "win": 204
+      }
+    }
+  },
+  "C_S10": {
+    "2024": {
+      "mean_holding_duration_seconds": 32337.419945105215,
+      "mean_return": -0.004087114107108889,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.007638880610261435,
+      "negative_return_fraction": 0.827996340347667,
+      "positive_return_fraction": 0.17200365965233302,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -4471.68293478908,
+      "trade_count": 1093,
+      "win_loss_tie_count": {
+        "loss": 905,
+        "tie": 0,
+        "win": 188
+      }
+    },
+    "2025": {
+      "mean_holding_duration_seconds": 35108.137432188065,
+      "mean_return": -0.003569123402942666,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.007877641136178067,
+      "negative_return_fraction": 0.833634719710669,
+      "positive_return_fraction": 0.16636528028933092,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -3951.3979341382455,
+      "trade_count": 1106,
+      "win_loss_tie_count": {
+        "loss": 922,
+        "tie": 0,
+        "win": 184
+      }
+    }
+  },
+  "C_S5": {
+    "2024": {
+      "mean_holding_duration_seconds": 32337.419945105215,
+      "mean_return": -0.003090702517215258,
+      "median_holding_duration_seconds": 10800.0,
+      "median_return": -0.006646022565420238,
+      "negative_return_fraction": 0.817932296431839,
+      "positive_return_fraction": 0.18206770356816102,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -3381.5159891675926,
+      "trade_count": 1093,
+      "win_loss_tie_count": {
+        "loss": 894,
+        "tie": 0,
+        "win": 199
+      }
+    },
+    "2025": {
+      "mean_holding_duration_seconds": 35108.137432188065,
+      "mean_return": -0.0025721935629607023,
+      "median_holding_duration_seconds": 14400.0,
+      "median_return": -0.006885021971422239,
+      "negative_return_fraction": 0.8209764918625678,
+      "positive_return_fraction": 0.17902350813743217,
+      "tie_fraction": 0.0,
+      "total_pnl_usdt": -2847.690926715176,
+      "trade_count": 1106,
+      "win_loss_tie_count": {
+        "loss": 908,
+        "tie": 0,
+        "win": 198
+      }
+    }
+  }
+}

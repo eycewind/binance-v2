@@ -1,0 +1,10 @@
+{
+  "ENTRY_ADVANTAGE_SUPPORTED": true,
+  "ENTRY_OPPORTUNITY_SURVIVES_COSTS": false,
+  "canonical_P0_CBASE_mean_return": -0.0022314337300391647,
+  "frozen_strategy_direction": "RECONSIDER_STRATEGY_ECONOMICS",
+  "h24_primary": true,
+  "no_best_horizon": true,
+  "no_model_fitting": true,
+  "no_policy_simulation": true
+}

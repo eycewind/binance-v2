@@ -1,0 +1,1909 @@
+{
+  "H168": {
+    "C0": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.009890059029806856,
+          "median_return": 0.004449567419079017,
+          "negative_return_fraction": 0.4748858447488584,
+          "positive_return_fraction": 0.5251141552511416,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 4331.845855055403,
+          "trade_count": 438,
+          "win_loss_tie_count": {
+            "loss": 208,
+            "tie": 0,
+            "win": 230
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": 0.007408036759531674,
+          "median_return": 0.002838102438699025,
+          "negative_return_fraction": 0.47874720357941836,
+          "positive_return_fraction": 0.5212527964205816,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 3311.392431510655,
+          "trade_count": 447,
+          "win_loss_tie_count": {
+            "loss": 214,
+            "tie": 0,
+            "win": 233
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": 0.006690114976555443,
+          "median_return": 0.0016554024118124744,
+          "negative_return_fraction": 0.48717948717948717,
+          "positive_return_fraction": 0.5128205128205128,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2870.059324942287,
+          "trade_count": 429,
+          "win_loss_tie_count": {
+            "loss": 209,
+            "tie": 0,
+            "win": 220
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.009825714559452609,
+          "median_return": -0.0022307848306633103,
+          "negative_return_fraction": 0.5058548009367682,
+          "positive_return_fraction": 0.49414519906323184,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 4195.5801168862645,
+          "trade_count": 427,
+          "win_loss_tie_count": {
+            "loss": 216,
+            "tie": 0,
+            "win": 211
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.015673371221277484,
+          "median_return": -0.003448997675026135,
+          "negative_return_fraction": 0.5206422018348624,
+          "positive_return_fraction": 0.4793577981651376,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 6833.589852476979,
+          "trade_count": 436,
+          "win_loss_tie_count": {
+            "loss": 227,
+            "tie": 0,
+            "win": 209
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.019924124213399015,
+          "median_return": 0.010066745466449334,
+          "negative_return_fraction": 0.454711802378774,
+          "positive_return_fraction": 0.5452881976212259,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 21777.067765245145,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 497,
+            "tie": 0,
+            "win": 596
+          }
+        },
+        "2025": {
+          "mean_return": -0.00021642083429292708,
+          "median_return": -0.0040954099925633045,
+          "negative_return_fraction": 0.5322878228782287,
+          "positive_return_fraction": 0.4677121771217712,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -234.60018437355131,
+          "trade_count": 1084,
+          "win_loss_tie_count": {
+            "loss": 577,
+            "tie": 0,
+            "win": 507
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.00989548350063004,
+        "median_return": 0.0016717993840738928,
+        "negative_return_fraction": 0.49333945796968304,
+        "positive_return_fraction": 0.506660542030317,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 21542.46758087159,
+        "trade_count": 2177,
+        "win_loss_tie_count": {
+          "loss": 1074,
+          "tie": 0,
+          "win": 1103
+        }
+      }
+    },
+    "C_BASE": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.00746922836909435,
+          "median_return": 0.0020417782857909354,
+          "negative_return_fraction": 0.4885844748858447,
+          "positive_return_fraction": 0.5114155251141552,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 3274.793547688989,
+          "trade_count": 438,
+          "win_loss_tie_count": {
+            "loss": 214,
+            "tie": 0,
+            "win": 224
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": 0.004993155811422761,
+          "median_return": 0.00043417618513564313,
+          "negative_return_fraction": 0.48769574944071586,
+          "positive_return_fraction": 0.5123042505592841,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2234.172588353681,
+          "trade_count": 447,
+          "win_loss_tie_count": {
+            "loss": 218,
+            "tie": 0,
+            "win": 229
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": 0.004276954975245318,
+          "median_return": -0.0007456887643463908,
+          "negative_return_fraction": 0.5058275058275058,
+          "positive_return_fraction": 0.49417249417249415,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1836.6484980646183,
+          "trade_count": 429,
+          "win_loss_tie_count": {
+            "loss": 217,
+            "tie": 0,
+            "win": 212
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.007405038140348173,
+          "median_return": -0.0046225603381055014,
+          "negative_return_fraction": 0.5105386416861827,
+          "positive_return_fraction": 0.4894613583138173,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 3165.113237214594,
+          "trade_count": 427,
+          "win_loss_tie_count": {
+            "loss": 218,
+            "tie": 0,
+            "win": 209
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.013238677250050731,
+          "median_return": -0.005837852976473183,
+          "negative_return_fraction": 0.5275229357798165,
+          "positive_return_fraction": 0.4724770642201835,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 5777.835344303149,
+          "trade_count": 436,
+          "win_loss_tie_count": {
+            "loss": 230,
+            "tie": 0,
+            "win": 206
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.017479240664522264,
+          "median_return": 0.0076454912666205615,
+          "negative_return_fraction": 0.46660567246111617,
+          "positive_return_fraction": 0.5333943275388838,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 19123.914856369196,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 510,
+            "tie": 0,
+            "win": 583
+          }
+        },
+        "2025": {
+          "mean_return": -0.002613025019946962,
+          "median_return": -0.006482715764193939,
+          "negative_return_fraction": 0.5415129151291513,
+          "positive_return_fraction": 0.4584870848708487,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -2835.351640744133,
+          "trade_count": 1084,
+          "win_loss_tie_count": {
+            "loss": 587,
+            "tie": 0,
+            "win": 497
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.007474639836793904,
+        "median_return": -0.0007293310976438233,
+        "negative_return_fraction": 0.5039044556729444,
+        "positive_return_fraction": 0.4960955443270556,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 16288.563215625045,
+        "trade_count": 2177,
+        "win_loss_tie_count": {
+          "loss": 1097,
+          "tie": 0,
+          "win": 1080
+        }
+      }
+    },
+    "C_S10": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.005858565811617331,
+          "median_return": 0.0004397927085985519,
+          "negative_return_fraction": 0.4954337899543379,
+          "positive_return_fraction": 0.5045662100456622,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2568.617877313879,
+          "trade_count": 438,
+          "win_loss_tie_count": {
+            "loss": 217,
+            "tie": 0,
+            "win": 221
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": 0.0033864518039896947,
+          "median_return": -0.0011652392842680056,
+          "negative_return_fraction": 0.5123042505592841,
+          "positive_return_fraction": 0.48769574944071586,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1515.2577003397791,
+          "trade_count": 447,
+          "win_loss_tie_count": {
+            "loss": 229,
+            "tie": 0,
+            "win": 218
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": 0.0026713959733746973,
+          "median_return": -0.00234321795847381,
+          "negative_return_fraction": 0.5104895104895105,
+          "positive_return_fraction": 0.48951048951048953,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1147.1749014503214,
+          "trade_count": 429,
+          "win_loss_tie_count": {
+            "loss": 219,
+            "tie": 0,
+            "win": 210
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.005794478205159841,
+          "median_return": -0.006213891494905387,
+          "negative_return_fraction": 0.5105386416861827,
+          "positive_return_fraction": 0.4894613583138173,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2476.716435796857,
+          "trade_count": 427,
+          "win_loss_tie_count": {
+            "loss": 218,
+            "tie": 0,
+            "win": 209
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.011618790951512276,
+          "median_return": -0.0074272412189945215,
+          "negative_return_fraction": 0.5389908256880734,
+          "positive_return_fraction": 0.4610091743119266,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 5070.858647714217,
+          "trade_count": 436,
+          "win_loss_tie_count": {
+            "loss": 235,
+            "tie": 0,
+            "win": 201
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.01585257488674816,
+          "median_return": 0.006034546913887376,
+          "negative_return_fraction": 0.47209515096065874,
+          "positive_return_fraction": 0.5279048490393413,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 17344.19121556694,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 516,
+            "tie": 0,
+            "win": 577
+          }
+        },
+        "2025": {
+          "mean_return": -0.004207568863748712,
+          "median_return": -0.008071073050813483,
+          "negative_return_fraction": 0.5553505535055351,
+          "positive_return_fraction": 0.4446494464944649,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -4565.565652951919,
+          "trade_count": 1084,
+          "win_loss_tie_count": {
+            "loss": 602,
+            "tie": 0,
+            "win": 482
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.00586396862788798,
+        "median_return": -0.002326886443122042,
+        "negative_return_fraction": 0.5135507579237483,
+        "positive_return_fraction": 0.48644924207625173,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 12778.62556261506,
+        "trade_count": 2177,
+        "win_loss_tie_count": {
+          "loss": 1118,
+          "tie": 0,
+          "win": 1059
+        }
+      }
+    },
+    "C_S5": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.00686492806173513,
+          "median_return": 0.0014407334721592154,
+          "negative_return_fraction": 0.4885844748858447,
+          "positive_return_fraction": 0.5114155251141552,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 3009.845329531031,
+          "trade_count": 438,
+          "win_loss_tie_count": {
+            "loss": 214,
+            "tie": 0,
+            "win": 224
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": 0.004390340702187232,
+          "median_return": -0.00016590435642105275,
+          "negative_return_fraction": 0.5033557046979866,
+          "positive_return_fraction": 0.4966442953020134,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1964.4447761715724,
+          "trade_count": 447,
+          "win_loss_tie_count": {
+            "loss": 225,
+            "tie": 0,
+            "win": 222
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": 0.003674569457676959,
+          "median_return": -0.0013450615991744215,
+          "negative_return_fraction": 0.5104895104895105,
+          "positive_return_fraction": 0.48951048951048953,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1577.966687640755,
+          "trade_count": 429,
+          "win_loss_tie_count": {
+            "loss": 219,
+            "tie": 0,
+            "win": 210
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.006800776335579273,
+          "median_return": -0.005219607747384608,
+          "negative_return_fraction": 0.5105386416861827,
+          "positive_return_fraction": 0.4894613583138173,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2906.83542678764,
+          "trade_count": 427,
+          "win_loss_tie_count": {
+            "loss": 218,
+            "tie": 0,
+            "win": 209
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.012630916311206318,
+          "median_return": -0.0064341714287834955,
+          "negative_return_fraction": 0.5344036697247706,
+          "positive_return_fraction": 0.46559633027522934,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 5512.586591197637,
+          "trade_count": 436,
+          "win_loss_tie_count": {
+            "loss": 233,
+            "tie": 0,
+            "win": 203
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.016868936150447385,
+          "median_return": 0.007041085233229889,
+          "negative_return_fraction": 0.47118023787740165,
+          "positive_return_fraction": 0.5288197621225984,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 18456.184959651444,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 515,
+            "tie": 0,
+            "win": 578
+          }
+        },
+        "2025": {
+          "mean_return": -0.003211277788929514,
+          "median_return": -0.007078647414833451,
+          "negative_return_fraction": 0.5479704797047971,
+          "positive_return_fraction": 0.45202952029520294,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -3484.5061483227914,
+          "trade_count": 1084,
+          "win_loss_tie_count": {
+            "loss": 594,
+            "tie": 0,
+            "win": 490
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.006870336283527515,
+        "median_return": -0.0013287137441292036,
+        "negative_return_fraction": 0.5094166283876895,
+        "positive_return_fraction": 0.4905833716123105,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 14971.678811328653,
+        "trade_count": 2177,
+        "win_loss_tie_count": {
+          "loss": 1109,
+          "tie": 0,
+          "win": 1068
+        }
+      }
+    }
+  },
+  "H24": {
+    "C0": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.0023072108135486075,
+          "median_return": 0.0025759917568263973,
+          "negative_return_fraction": 0.4399092970521542,
+          "positive_return_fraction": 0.5555555555555556,
+          "tie_fraction": 0.0045351473922902496,
+          "total_pnl_usdt": 1017.4799687749338,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 194,
+            "tie": 2,
+            "win": 245
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.0006950087986313527,
+          "median_return": -0.00029552645119986214,
+          "negative_return_fraction": 0.5121951219512195,
+          "positive_return_fraction": 0.4878048780487805,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -313.44896818274117,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 231,
+            "tie": 0,
+            "win": 220
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.000369418579661331,
+          "median_return": 0.0005819320142874176,
+          "negative_return_fraction": 0.4942263279445728,
+          "positive_return_fraction": 0.5057736720554272,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -159.95824499335754,
+          "trade_count": 433,
+          "win_loss_tie_count": {
+            "loss": 214,
+            "tie": 0,
+            "win": 219
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.002466223762784159,
+          "median_return": 5.9966418805629474e-05,
+          "negative_return_fraction": 0.4965197215777262,
+          "positive_return_fraction": 0.5011600928074246,
+          "tie_fraction": 0.002320185614849188,
+          "total_pnl_usdt": 1062.9424417599748,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 214,
+            "tie": 1,
+            "win": 216
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 8.322595359697469e-05,
+          "median_return": -0.0026373250239116143,
+          "negative_return_fraction": 0.5386363636363637,
+          "positive_return_fraction": 0.46136363636363636,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 36.619419582669366,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 237,
+            "tie": 0,
+            "win": 203
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.0025614683451500907,
+          "median_return": 0.0018218765328286964,
+          "negative_return_fraction": 0.47118023787740165,
+          "positive_return_fraction": 0.5269899359560841,
+          "tie_fraction": 0.0018298261665141812,
+          "total_pnl_usdt": 2799.684901249052,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 515,
+            "tie": 2,
+            "win": 576
+          }
+        },
+        "2025": {
+          "mean_return": -0.0010480963592996995,
+          "median_return": -0.0008823805653795489,
+          "negative_return_fraction": 0.5213055303717135,
+          "positive_return_fraction": 0.47778785131459656,
+          "tie_fraction": 0.0009066183136899365,
+          "total_pnl_usdt": -1156.0502843075697,
+          "trade_count": 1103,
+          "win_loss_tie_count": {
+            "loss": 575,
+            "tie": 1,
+            "win": 527
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.0007484674940534977,
+        "median_return": 0.0001900710823773011,
+        "negative_return_fraction": 0.49635701275045535,
+        "positive_return_fraction": 0.5022768670309654,
+        "tie_fraction": 0.001366120218579235,
+        "total_pnl_usdt": 1643.6346169414837,
+        "trade_count": 2196,
+        "win_loss_tie_count": {
+          "loss": 1090,
+          "tie": 3,
+          "win": 1103
+        }
+      }
+    },
+    "C_BASE": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": -9.544282750386975e-05,
+          "median_return": 0.00017269381480010206,
+          "negative_return_fraction": 0.4897959183673469,
+          "positive_return_fraction": 0.5102040816326531,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -42.13237721613507,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 216,
+            "tie": 0,
+            "win": 225
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.0030904657500814606,
+          "median_return": -0.0026919410109623276,
+          "negative_return_fraction": 0.5587583148558758,
+          "positive_return_fraction": 0.44124168514412415,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1395.193853340026,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 252,
+            "tie": 0,
+            "win": 199
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.002765656010905132,
+          "median_return": -0.0018165859213203513,
+          "negative_return_fraction": 0.5334872979214781,
+          "positive_return_fraction": 0.4665127020785219,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1198.7265817746447,
+          "trade_count": 433,
+          "win_loss_tie_count": {
+            "loss": 231,
+            "tie": 0,
+            "win": 202
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 6.318894813805851e-05,
+          "median_return": -0.002337300301082433,
+          "negative_return_fraction": 0.5197215777262181,
+          "positive_return_fraction": 0.4802784222737819,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 27.261671084149498,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 224,
+            "tie": 0,
+            "win": 207
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": -0.0023140965222560894,
+          "median_return": -0.005028126004517205,
+          "negative_return_fraction": 0.5772727272727273,
+          "positive_return_fraction": 0.42272727272727273,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1019.2206722624713,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 254,
+            "tie": 0,
+            "win": 186
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.00015820521752754792,
+          "median_return": -0.0005796137022697268,
+          "negative_return_fraction": 0.5068618481244281,
+          "positive_return_fraction": 0.4931381518755718,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 173.09122106036818,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 554,
+            "tie": 0,
+            "win": 539
+          }
+        },
+        "2025": {
+          "mean_return": -0.0034427069164466484,
+          "median_return": -0.003277388363663171,
+          "negative_return_fraction": 0.5648232094288305,
+          "positive_return_fraction": 0.43517679057116954,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -3801.103034569497,
+          "trade_count": 1103,
+          "win_loss_tie_count": {
+            "loss": 623,
+            "tie": 0,
+            "win": 480
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": -0.0016504496475787994,
+        "median_return": -0.0022075075143885344,
+        "negative_return_fraction": 0.5359744990892532,
+        "positive_return_fraction": 0.4640255009107468,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -3628.011813509129,
+        "trade_count": 2196,
+        "win_loss_tie_count": {
+          "loss": 1177,
+          "tie": 0,
+          "win": 1019
+        }
+      }
+    },
+    "C_S10": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": -0.0016940115836886007,
+          "median_return": -0.0014263036171573245,
+          "negative_return_fraction": 0.5510204081632653,
+          "positive_return_fraction": 0.4489795918367347,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -747.8061675150798,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 243,
+            "tie": 0,
+            "win": 198
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.004684246299198088,
+          "median_return": -0.0042863586900849055,
+          "negative_return_fraction": 0.5986696230598669,
+          "positive_return_fraction": 0.401330376940133,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -2114.707676019276,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 270,
+            "tie": 0,
+            "win": 181
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.004359955840284074,
+          "median_return": -0.0034124030493071617,
+          "negative_return_fraction": 0.5542725173210161,
+          "positive_return_fraction": 0.4457274826789838,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1889.7487397218488,
+          "trade_count": 433,
+          "win_loss_tie_count": {
+            "loss": 240,
+            "tie": 0,
+            "win": 193
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": -0.0015356334160520147,
+          "median_return": -0.003932284951876961,
+          "negative_return_fraction": 0.5359628770301624,
+          "positive_return_fraction": 0.46403712296983757,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -662.5198603207358,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 231,
+            "tie": 0,
+            "win": 200
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": -0.003909118269427036,
+          "median_return": -0.006618808774830301,
+          "negative_return_fraction": 0.6090909090909091,
+          "positive_return_fraction": 0.39090909090909093,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1721.7320505864418,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 268,
+            "tie": 0,
+            "win": 172
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": -0.001440769051200298,
+          "median_return": -0.002177408404143627,
+          "negative_return_fraction": 0.5407136322049405,
+          "positive_return_fraction": 0.4592863677950595,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1576.3353335348852,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 591,
+            "tie": 0,
+            "win": 502
+          }
+        },
+        "2025": {
+          "mean_return": -0.00503592433009284,
+          "median_return": -0.004870870075607839,
+          "negative_return_fraction": 0.599274705349048,
+          "positive_return_fraction": 0.40072529465095197,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -5560.1791606285005,
+          "trade_count": 1103,
+          "win_loss_tie_count": {
+            "loss": 661,
+            "tie": 0,
+            "win": 442
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": -0.003246532381172281,
+        "median_return": -0.0038026996676812875,
+        "negative_return_fraction": 0.5701275045537341,
+        "positive_return_fraction": 0.42987249544626593,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -7136.514494163388,
+        "trade_count": 2196,
+        "win_loss_tie_count": {
+          "loss": 1252,
+          "tie": 0,
+          "win": 944
+        }
+      }
+    },
+    "C_S5": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": -0.0006952056929239685,
+          "median_return": -0.0004272298843713091,
+          "negative_return_fraction": 0.5215419501133787,
+          "positive_return_fraction": 0.47845804988662133,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -306.89229629004774,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 230,
+            "tie": 0,
+            "win": 211
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.0036884321405108523,
+          "median_return": -0.003290146444546176,
+          "negative_return_fraction": 0.5720620842572062,
+          "positive_return_fraction": 0.4279379157427938,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1665.146378265766,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 258,
+            "tie": 0,
+            "win": 193
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.003363817228749293,
+          "median_return": -0.0024153164104939407,
+          "negative_return_fraction": 0.5450346420323325,
+          "positive_return_fraction": 0.45496535796766746,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1457.9893929084924,
+          "trade_count": 433,
+          "win_loss_tie_count": {
+            "loss": 236,
+            "tie": 0,
+            "win": 197
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": -0.0005366690678117803,
+          "median_return": -0.0029357184552971137,
+          "negative_return_fraction": 0.5243619489559165,
+          "positive_return_fraction": 0.4756380510440835,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -231.53567259510464,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 226,
+            "tie": 0,
+            "win": 205
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": -0.0029125285945641945,
+          "median_return": -0.005624930147351957,
+          "negative_return_fraction": 0.5863636363636363,
+          "positive_return_fraction": 0.41363636363636364,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1282.7940941898537,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 258,
+            "tie": 0,
+            "win": 182
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": -0.00044170979109182137,
+          "median_return": -0.0011790861522605971,
+          "negative_return_fraction": 0.5178408051235133,
+          "positive_return_fraction": 0.48215919487648673,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -483.2715904650237,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 566,
+            "tie": 0,
+            "win": 527
+          }
+        },
+        "2025": {
+          "mean_return": -0.004040462025539501,
+          "median_return": -0.003875242634149162,
+          "negative_return_fraction": 0.5820489573889392,
+          "positive_return_fraction": 0.41795104261106075,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -4461.086243784246,
+          "trade_count": 1103,
+          "win_loss_tie_count": {
+            "loss": 642,
+            "tie": 0,
+            "win": 461
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": -0.0022492797886308883,
+        "median_return": -0.0028060035209276496,
+        "negative_return_fraction": 0.5500910746812386,
+        "positive_return_fraction": 0.44990892531876137,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -4944.357834249275,
+        "trade_count": 2196,
+        "win_loss_tie_count": {
+          "loss": 1208,
+          "tie": 0,
+          "win": 988
+        }
+      }
+    }
+  },
+  "H24_CBASE_calendar_month_actual_mean_ci95": {
+    "ci95": [
+      -0.003916573968654648,
+      0.0007556184174777052
+    ],
+    "generator": "PCG64",
+    "replicate_sha256": "1d4b72cf4a39dc8d0c281e19cef4bd90a82bef2d0d4210de5884e85dd371ef23",
+    "replicates": 2000,
+    "seed": 20260929,
+    "unit": "UTC_entry_calendar_month"
+  },
+  "H6": {
+    "C0": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.001728632606382475,
+          "median_return": 0.001627074520013025,
+          "negative_return_fraction": 0.43537414965986393,
+          "positive_return_fraction": 0.5600907029478458,
+          "tie_fraction": 0.0045351473922902496,
+          "total_pnl_usdt": 762.3269794146701,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 192,
+            "tie": 2,
+            "win": 247
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.0003703343929495877,
+          "median_return": 1.878778820855587e-05,
+          "negative_return_fraction": 0.49889135254988914,
+          "positive_return_fraction": 0.5011086474501109,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -167.02081122026516,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 225,
+            "tie": 0,
+            "win": 226
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.00014007197573886936,
+          "median_return": -0.00010985755541202025,
+          "negative_return_fraction": 0.5046082949308756,
+          "positive_return_fraction": 0.49539170506912444,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -60.79123747067058,
+          "trade_count": 434,
+          "win_loss_tie_count": {
+            "loss": 219,
+            "tie": 0,
+            "win": 215
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": -0.0005067706976685635,
+          "median_return": -0.0010119881675228727,
+          "negative_return_fraction": 0.5174013921113689,
+          "positive_return_fraction": 0.48259860788863107,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -218.4181706951507,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 223,
+            "tie": 0,
+            "win": 208
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": -0.0020971037843580107,
+          "median_return": -0.0009593999389471719,
+          "negative_return_fraction": 0.528344671201814,
+          "positive_return_fraction": 0.46938775510204084,
+          "tie_fraction": 0.0022675736961451248,
+          "total_pnl_usdt": -924.8227689018826,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 233,
+            "tie": 1,
+            "win": 207
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": -0.0002493748775035172,
+          "median_return": -0.00017223561832599898,
+          "negative_return_fraction": 0.5032021957913998,
+          "positive_return_fraction": 0.4940530649588289,
+          "tie_fraction": 0.0027447392497712718,
+          "total_pnl_usdt": -272.5667411113452,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 550,
+            "tie": 3,
+            "win": 540
+          }
+        },
+        "2025": {
+          "mean_return": -0.0003042165319112681,
+          "median_return": 0.00018679368637333484,
+          "negative_return_fraction": 0.49049773755656106,
+          "positive_return_fraction": 0.5095022624434389,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -336.1592677619534,
+          "trade_count": 1105,
+          "win_loss_tie_count": {
+            "loss": 542,
+            "tie": 0,
+            "win": 563
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": -0.0002769454089505439,
+        "median_return": 6.319726148325345e-05,
+        "negative_return_fraction": 0.4968152866242038,
+        "positive_return_fraction": 0.5018198362147407,
+        "tie_fraction": 0.001364877161055505,
+        "total_pnl_usdt": -608.7260088732986,
+        "trade_count": 2198,
+        "win_loss_tie_count": {
+          "loss": 1092,
+          "tie": 3,
+          "win": 1103
+        }
+      }
+    },
+    "C_BASE": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": -0.0006726341115579319,
+          "median_return": -0.0007739487507055142,
+          "negative_return_fraction": 0.5487528344671202,
+          "positive_return_fraction": 0.4512471655328798,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -296.9282748402444,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 242,
+            "tie": 0,
+            "win": 199
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.0027665696288762995,
+          "median_return": -0.0023783802214379706,
+          "negative_return_fraction": 0.6297117516629712,
+          "positive_return_fraction": 0.37028824833702884,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1248.9706255258352,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 284,
+            "tie": 0,
+            "win": 167
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.0025368591789957087,
+          "median_return": -0.0025067171863500447,
+          "negative_return_fraction": 0.5806451612903226,
+          "positive_return_fraction": 0.41935483870967744,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1102.0978805678228,
+          "trade_count": 434,
+          "win_loss_tie_count": {
+            "loss": 252,
+            "tie": 0,
+            "win": 182
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": -0.002902678878994892,
+          "median_return": -0.0034066852804458918,
+          "negative_return_fraction": 0.5591647331786543,
+          "positive_return_fraction": 0.4408352668213457,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1252.305651443646,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 241,
+            "tie": 0,
+            "win": 190
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": -0.004489199741707497,
+          "median_return": -0.003354223112320913,
+          "negative_return_fraction": 0.6077097505668935,
+          "positive_return_fraction": 0.3922902494331066,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1981.7168231791002,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 268,
+            "tie": 0,
+            "win": 173
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": -0.002645900068263516,
+          "median_return": -0.002568945721376141,
+          "negative_return_fraction": 0.5882891125343093,
+          "positive_return_fraction": 0.41171088746569073,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -2894.8607433866346,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 643,
+            "tie": 0,
+            "win": 450
+          }
+        },
+        "2025": {
+          "mean_return": -0.0027006102604816094,
+          "median_return": -0.0022107770540711756,
+          "negative_return_fraction": 0.5828054298642534,
+          "positive_return_fraction": 0.4171945701357466,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -2987.1585121700127,
+          "trade_count": 1105,
+          "win_loss_tie_count": {
+            "loss": 644,
+            "tie": 0,
+            "win": 461
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": -0.0026734045097562336,
+        "median_return": -0.0023340772031317262,
+        "negative_return_fraction": 0.5855323020928116,
+        "positive_return_fraction": 0.41446769790718835,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -5882.019255556645,
+        "trade_count": 2198,
+        "win_loss_tie_count": {
+          "loss": 1287,
+          "tie": 0,
+          "win": 911
+        }
+      }
+    },
+    "C_S10": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": -0.0022702800997180367,
+          "median_return": -0.0023714327649895766,
+          "negative_return_fraction": 0.6235827664399093,
+          "positive_return_fraction": 0.3764172335600907,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1002.19471749963,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 275,
+            "tie": 0,
+            "win": 166
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.004360867997634706,
+          "median_return": -0.003973299196887083,
+          "negative_return_fraction": 0.6940133037694013,
+          "positive_return_fraction": 0.30598669623059865,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1968.7182184001872,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 313,
+            "tie": 0,
+            "win": 138
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.004131524790752961,
+          "median_return": -0.004101430986754149,
+          "negative_return_fraction": 0.6382488479262672,
+          "positive_return_fraction": 0.3617511520737327,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1794.8748409459738,
+          "trade_count": 434,
+          "win_loss_tie_count": {
+            "loss": 277,
+            "tie": 0,
+            "win": 157
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": -0.004496759646990193,
+          "median_return": -0.004999960282650416,
+          "negative_return_fraction": 0.5823665893271461,
+          "positive_return_fraction": 0.4176334106728538,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1940.0415112606245,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 251,
+            "tie": 0,
+            "win": 180
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": -0.006080744104938982,
+          "median_return": -0.004947581986913418,
+          "negative_return_fraction": 0.671201814058957,
+          "positive_return_fraction": 0.3287981859410431,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -2684.2897584283664,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 296,
+            "tie": 0,
+            "win": 145
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": -0.004240391354023876,
+          "median_return": -0.004163560035693364,
+          "negative_return_fraction": 0.6450137236962489,
+          "positive_return_fraction": 0.3549862763037511,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -4639.38249769805,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 705,
+            "tie": 0,
+            "win": 388
+          }
+        },
+        "2025": {
+          "mean_return": -0.0042950140798900084,
+          "median_return": -0.003805963980280953,
+          "negative_return_fraction": 0.6398190045248868,
+          "positive_return_fraction": 0.3601809954751131,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -4750.736548836746,
+          "trade_count": 1105,
+          "win_loss_tie_count": {
+            "loss": 707,
+            "tie": 0,
+            "win": 398
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": -0.00426785182357896,
+        "median_return": -0.003929067006761617,
+        "negative_return_fraction": 0.6424021838034577,
+        "positive_return_fraction": 0.3575978161965423,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -9390.119046534788,
+        "trade_count": 2198,
+        "win_loss_tie_count": {
+          "loss": 1412,
+          "tie": 0,
+          "win": 786
+        }
+      }
+    },
+    "C_S5": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": -0.001272050766036247,
+          "median_return": -0.001373304634625243,
+          "negative_return_fraction": 0.5714285714285714,
+          "positive_return_fraction": 0.42857142857142855,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -561.5353622098052,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 252,
+            "tie": 0,
+            "win": 189
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.0033647302987140225,
+          "median_return": -0.0029767737350904415,
+          "negative_return_fraction": 0.6518847006651884,
+          "positive_return_fraction": 0.34811529933481156,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1519.0108580847443,
+          "trade_count": 451,
+          "win_loss_tie_count": {
+            "loss": 294,
+            "tie": 0,
+            "win": 157
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.003135157633781655,
+          "median_return": -0.003105033720909465,
+          "negative_return_fraction": 0.5875576036866359,
+          "positive_return_fraction": 0.41244239631336405,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1362.0190714743007,
+          "trade_count": 434,
+          "win_loss_tie_count": {
+            "loss": 255,
+            "tie": 0,
+            "win": 179
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": -0.0035007579077666975,
+          "median_return": -0.004004461996040497,
+          "negative_return_fraction": 0.5661252900232019,
+          "positive_return_fraction": 0.43387470997679817,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -1510.3354849056943,
+          "trade_count": 431,
+          "win_loss_tie_count": {
+            "loss": 244,
+            "tie": 0,
+            "win": 187
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": -0.0050863271433546535,
+          "median_return": -0.00395203129577938,
+          "negative_return_fraction": 0.6417233560090703,
+          "positive_return_fraction": 0.35827664399092973,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -2245.3133404896253,
+          "trade_count": 441,
+          "win_loss_tie_count": {
+            "loss": 283,
+            "tie": 0,
+            "win": 158
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": -0.0032441331181308343,
+          "median_return": -0.003167224930008773,
+          "negative_return_fraction": 0.6075022872827082,
+          "positive_return_fraction": 0.39249771271729184,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -3549.383335615115,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 664,
+            "tie": 0,
+            "win": 429
+          }
+        },
+        "2025": {
+          "mean_return": -0.0032988104940751984,
+          "median_return": -0.0028092710994745197,
+          "negative_return_fraction": 0.6009049773755656,
+          "positive_return_fraction": 0.3990950226244344,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -3648.8307815490452,
+          "trade_count": 1105,
+          "win_loss_tie_count": {
+            "loss": 664,
+            "tie": 0,
+            "win": 441
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": -0.0032716210619063222,
+        "median_return": -0.002932497290625666,
+        "negative_return_fraction": 0.6041856232939036,
+        "positive_return_fraction": 0.3958143767060964,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -7198.214117164178,
+        "trade_count": 2198,
+        "win_loss_tie_count": {
+          "loss": 1328,
+          "tie": 0,
+          "win": 870
+        }
+      }
+    }
+  },
+  "H72": {
+    "C0": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.006609951200776623,
+          "median_return": 0.004623357559155579,
+          "negative_return_fraction": 0.4340909090909091,
+          "positive_return_fraction": 0.5659090909090909,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2908.3785283417155,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 191,
+            "tie": 0,
+            "win": 249
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": 0.002720053732645843,
+          "median_return": 0.0022769152495357046,
+          "negative_return_fraction": 0.4777777777777778,
+          "positive_return_fraction": 0.5222222222222223,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1224.0241796906266,
+          "trade_count": 450,
+          "win_loss_tie_count": {
+            "loss": 215,
+            "tie": 0,
+            "win": 235
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": 0.0035690705196592906,
+          "median_return": 0.004030537880526538,
+          "negative_return_fraction": 0.46296296296296297,
+          "positive_return_fraction": 0.5370370370370371,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1541.8384644928096,
+          "trade_count": 432,
+          "win_loss_tie_count": {
+            "loss": 200,
+            "tie": 0,
+            "win": 232
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.005754657164175769,
+          "median_return": 0.0010544850106164177,
+          "negative_return_fraction": 0.4906976744186046,
+          "positive_return_fraction": 0.5093023255813953,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2474.5025805955793,
+          "trade_count": 430,
+          "win_loss_tie_count": {
+            "loss": 211,
+            "tie": 0,
+            "win": 219
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.007142052432125322,
+          "median_return": -0.0007068803016022685,
+          "negative_return_fraction": 0.5079726651480638,
+          "positive_return_fraction": 0.4920273348519362,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 3135.361017703017,
+          "trade_count": 439,
+          "win_loss_tie_count": {
+            "loss": 223,
+            "tie": 0,
+            "win": 216
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.010144253042824708,
+          "median_return": 0.005111808185682662,
+          "negative_return_fraction": 0.4473924977127173,
+          "positive_return_fraction": 0.5526075022872827,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 11087.668575807416,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 489,
+            "tie": 0,
+            "win": 604
+          }
+        },
+        "2025": {
+          "mean_return": 0.0001789036384484041,
+          "median_return": -0.0002933657232488826,
+          "negative_return_fraction": 0.5018214936247724,
+          "positive_return_fraction": 0.4981785063752277,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 196.43619501634623,
+          "trade_count": 1098,
+          "win_loss_tie_count": {
+            "loss": 551,
+            "tie": 0,
+            "win": 547
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.005150207563132704,
+        "median_return": 0.0023800805565725794,
+        "negative_return_fraction": 0.47466910086718395,
+        "positive_return_fraction": 0.525330899132816,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 11284.10477082376,
+        "trade_count": 2191,
+        "win_loss_tie_count": {
+          "loss": 1040,
+          "tie": 0,
+          "win": 1151
+        }
+      }
+    },
+    "C_BASE": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.0041969833618950205,
+          "median_return": 0.0022151518295304,
+          "negative_return_fraction": 0.4727272727272727,
+          "positive_return_fraction": 0.5272727272727272,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1848.519351913042,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 208,
+            "tie": 0,
+            "win": 232
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": 0.0003164104563477479,
+          "median_return": -0.00012566576932446363,
+          "negative_return_fraction": 0.5022222222222222,
+          "positive_return_fraction": 0.49777777777777776,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 142.5270900618424,
+          "trade_count": 450,
+          "win_loss_tie_count": {
+            "loss": 226,
+            "tie": 0,
+            "win": 224
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": 0.0011633920457165801,
+          "median_return": 0.0016237532125717405,
+          "negative_return_fraction": 0.4861111111111111,
+          "positive_return_fraction": 0.5138888888888888,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 503.0879491133104,
+          "trade_count": 432,
+          "win_loss_tie_count": {
+            "loss": 210,
+            "tie": 0,
+            "win": 222
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.0033437395702779938,
+          "median_return": -0.0013451656926349418,
+          "negative_return_fraction": 0.5116279069767442,
+          "positive_return_fraction": 0.4883720930232558,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1439.2458232347562,
+          "trade_count": 430,
+          "win_loss_tie_count": {
+            "loss": 220,
+            "tie": 0,
+            "win": 210
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.004727809081158099,
+          "median_return": -0.0031023087955999577,
+          "negative_return_fraction": 0.5284738041002278,
+          "positive_return_fraction": 0.4715261958997722,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 2077.583694815035,
+          "trade_count": 439,
+          "win_loss_tie_count": {
+            "loss": 232,
+            "tie": 0,
+            "win": 207
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.007722813047803996,
+          "median_return": 0.0027024315798394784,
+          "negative_return_fraction": 0.4693504117108875,
+          "positive_return_fraction": 0.5306495882891126,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 8449.475695911027,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 513,
+            "tie": 0,
+            "win": 580
+          }
+        },
+        "2025": {
+          "mean_return": -0.0022186481885810272,
+          "median_return": -0.0026897854625419423,
+          "negative_return_fraction": 0.5309653916211293,
+          "positive_return_fraction": 0.4690346083788707,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -2438.5117867730273,
+          "trade_count": 1098,
+          "win_loss_tie_count": {
+            "loss": 583,
+            "tie": 0,
+            "win": 515
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.0027407389092596077,
+        "median_return": -2.2747762214807097e-05,
+        "negative_return_fraction": 0.5002282062984938,
+        "positive_return_fraction": 0.49977179370150615,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 6010.963909137991,
+        "trade_count": 2191,
+        "win_loss_tie_count": {
+          "loss": 1096,
+          "tie": 0,
+          "win": 1095
+        }
+      }
+    },
+    "C_S10": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.002591552212349469,
+          "median_return": 0.0006128890763531106,
+          "negative_return_fraction": 0.4909090909090909,
+          "positive_return_fraction": 0.509090909090909,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1141.4232564072,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 216,
+            "tie": 0,
+            "win": 224
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.00128281673847192,
+          "median_return": -0.0017241862074469836,
+          "negative_return_fraction": 0.52,
+          "positive_return_fraction": 0.48,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -577.8447998446766,
+          "trade_count": 450,
+          "win_loss_tie_count": {
+            "loss": 234,
+            "tie": 0,
+            "win": 216
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": -0.0004371892366468757,
+          "median_return": 2.243594098547998e-05,
+          "negative_return_fraction": 0.5,
+          "positive_return_fraction": 0.5,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -189.05461598168313,
+          "trade_count": 432,
+          "win_loss_tie_count": {
+            "loss": 216,
+            "tie": 0,
+            "win": 216
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.0017396725197925877,
+          "median_return": -0.0029417364902027832,
+          "negative_return_fraction": 0.5209302325581395,
+          "positive_return_fraction": 0.4790697674418605,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 748.8072426943237,
+          "trade_count": 430,
+          "win_loss_tie_count": {
+            "loss": 224,
+            "tie": 0,
+            "win": 206
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.0031215292892059114,
+          "median_return": -0.004696070410986877,
+          "negative_return_fraction": 0.5421412300683371,
+          "positive_return_fraction": 0.45785876993166286,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1371.7217093193563,
+          "trade_count": 439,
+          "win_loss_tie_count": {
+            "loss": 238,
+            "tie": 0,
+            "win": 201
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.006111745079088957,
+          "median_return": 0.001099389802125624,
+          "negative_return_fraction": 0.4839890210430009,
+          "positive_return_fraction": 0.5160109789569991,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 6686.817508815676,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 529,
+            "tie": 0,
+            "win": 564
+          }
+        },
+        "2025": {
+          "mean_return": -0.003813822531040135,
+          "median_return": -0.004284206587785886,
+          "negative_return_fraction": 0.5455373406193078,
+          "positive_return_fraction": 0.4544626593806922,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -4191.764716221152,
+          "trade_count": 1098,
+          "win_loss_tie_count": {
+            "loss": 599,
+            "tie": 0,
+            "win": 499
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.0011376358888006207,
+        "median_return": -0.001621432737552054,
+        "negative_return_fraction": 0.5148334094020995,
+        "positive_return_fraction": 0.4851665905979005,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 2495.0527925945257,
+        "trade_count": 2191,
+        "win_loss_tie_count": {
+          "loss": 1128,
+          "tie": 0,
+          "win": 1063
+        }
+      }
+    },
+    "C_S5": {
+      "by_symbol": {
+        "BNBUSDT": {
+          "mean_return": 0.0035946458129088987,
+          "median_return": 0.0016140030229596985,
+          "negative_return_fraction": 0.47954545454545455,
+          "positive_return_fraction": 0.5204545454545455,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1583.2258018375958,
+          "trade_count": 440,
+          "win_loss_tie_count": {
+            "loss": 211,
+            "tie": 0,
+            "win": 229
+          }
+        },
+        "BTCUSDT": {
+          "mean_return": -0.00028359944695598995,
+          "median_return": -0.0007254105064161282,
+          "negative_return_fraction": 0.5088888888888888,
+          "positive_return_fraction": 0.4911111111111111,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -127.7473708813261,
+          "trade_count": 450,
+          "win_loss_tie_count": {
+            "loss": 229,
+            "tie": 0,
+            "win": 221
+          }
+        },
+        "ETHUSDT": {
+          "mean_return": 0.0005628741058193773,
+          "median_return": 0.0010229591387870653,
+          "negative_return_fraction": 0.49074074074074076,
+          "positive_return_fraction": 0.5092592592592593,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 243.40477532768455,
+          "trade_count": 432,
+          "win_loss_tie_count": {
+            "loss": 212,
+            "tie": 0,
+            "win": 220
+          }
+        },
+        "SOLUSDT": {
+          "mean_return": 0.0027419138140801695,
+          "median_return": -0.001944178949143749,
+          "negative_return_fraction": 0.5162790697674419,
+          "positive_return_fraction": 0.48372093023255813,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1180.201962994527,
+          "trade_count": 430,
+          "win_loss_tie_count": {
+            "loss": 222,
+            "tie": 0,
+            "win": 208
+          }
+        },
+        "XRPUSDT": {
+          "mean_return": 0.0041251531322285435,
+          "median_return": -0.003700268082332366,
+          "negative_return_fraction": 0.5375854214123007,
+          "positive_return_fraction": 0.4624145785876993,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 1812.7531672733821,
+          "trade_count": 439,
+          "win_loss_tie_count": {
+            "loss": 236,
+            "tie": 0,
+            "win": 203
+          }
+        }
+      },
+      "by_year": {
+        "2024": {
+          "mean_return": 0.0071183606352539005,
+          "median_return": 0.002100990493073499,
+          "negative_return_fraction": 0.4775846294602013,
+          "positive_return_fraction": 0.5224153705397987,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": 7788.14854250684,
+          "trade_count": 1093,
+          "win_loss_tie_count": {
+            "loss": 522,
+            "tie": 0,
+            "win": 571
+          }
+        },
+        "2025": {
+          "mean_return": -0.002817137512719507,
+          "median_return": -0.0032879921890670597,
+          "negative_return_fraction": 0.5355191256830601,
+          "positive_return_fraction": 0.4644808743169399,
+          "tie_fraction": 0.0,
+          "total_pnl_usdt": -3096.3102059549856,
+          "trade_count": 1098,
+          "win_loss_tie_count": {
+            "loss": 588,
+            "tie": 0,
+            "win": 510
+          }
+        }
+      },
+      "full_population": {
+        "mean_return": 0.0021392748449869897,
+        "median_return": -0.000622554231597235,
+        "negative_return_fraction": 0.5066179826563213,
+        "positive_return_fraction": 0.4933820173436787,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": 4691.838336551841,
+        "trade_count": 2191,
+        "win_loss_tie_count": {
+          "loss": 1110,
+          "tie": 0,
+          "win": 1081
+        }
+      }
+    }
+  }
+}

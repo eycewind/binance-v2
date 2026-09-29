@@ -1,0 +1,762 @@
+{
+  "H168": {
+    "C0": {
+      "BNBUSDT": {
+        "covered_trade_count": 392,
+        "mean_entry_advantage": 0.004226238601721485,
+        "median_entry_advantage": -0.0015585322214694795,
+        "negative_fraction": 0.5127551020408163,
+        "positive_fraction": 0.4872448979591837,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1656.6855318748194
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 358,
+        "mean_entry_advantage": 0.008161548360295636,
+        "median_entry_advantage": 0.0022331513619236413,
+        "negative_fraction": 0.4972067039106145,
+        "positive_fraction": 0.5027932960893855,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2921.8343129858386
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 379,
+        "mean_entry_advantage": 0.027008318618199828,
+        "median_entry_advantage": 0.023642088877500564,
+        "negative_fraction": 0.41688654353562005,
+        "positive_fraction": 0.58311345646438,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 10236.152756297732
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 377,
+        "mean_entry_advantage": 0.03759979976166514,
+        "median_entry_advantage": 0.036586432250337225,
+        "negative_fraction": 0.3687002652519894,
+        "positive_fraction": 0.6312997347480106,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 14175.124510147758
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.02428898664766065,
+        "median_entry_advantage": 0.025389475381432797,
+        "negative_fraction": 0.40302267002518893,
+        "positive_fraction": 0.5969773299748111,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 9642.72769912127
+      }
+    },
+    "C_BASE": {
+      "BNBUSDT": {
+        "covered_trade_count": 392,
+        "mean_entry_advantage": 0.004216107788079885,
+        "median_entry_advantage": -0.0015547962280771533,
+        "negative_fraction": 0.5127551020408163,
+        "positive_fraction": 0.4872448979591837,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1652.7142529273162
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 358,
+        "mean_entry_advantage": 0.008141984125225857,
+        "median_entry_advantage": 0.0022277982234917403,
+        "negative_fraction": 0.4972067039106145,
+        "positive_fraction": 0.5027932960893855,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2914.83031683086
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 379,
+        "mean_entry_advantage": 0.02694357635717781,
+        "median_entry_advantage": 0.023585415883122296,
+        "negative_fraction": 0.41688654353562005,
+        "positive_fraction": 0.58311345646438,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 10211.615439370402
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 377,
+        "mean_entry_advantage": 0.03750966841787595,
+        "median_entry_advantage": 0.0364987300730896,
+        "negative_fraction": 0.3687002652519894,
+        "positive_fraction": 0.6312997347480106,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 14141.144993539245
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.024230762959776463,
+        "median_entry_advantage": 0.02532861368672322,
+        "negative_fraction": 0.40302267002518893,
+        "positive_fraction": 0.5969773299748111,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 9619.612895031249
+      }
+    },
+    "C_S10": {
+      "BNBUSDT": {
+        "covered_trade_count": 392,
+        "mean_entry_advantage": 0.004209367406576078,
+        "median_entry_advantage": -0.0015523105421638445,
+        "negative_fraction": 0.5127551020408163,
+        "positive_fraction": 0.4872448979591837,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1650.072023377825
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 358,
+        "mean_entry_advantage": 0.00812896736143318,
+        "median_entry_advantage": 0.002224236594924692,
+        "negative_fraction": 0.4972067039106145,
+        "positive_fraction": 0.5027932960893855,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2910.170315393076
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 379,
+        "mean_entry_advantage": 0.026900501086607752,
+        "median_entry_advantage": 0.023547709375374468,
+        "negative_fraction": 0.41688654353562005,
+        "positive_fraction": 0.58311345646438,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 10195.289911824344
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 377,
+        "mean_entry_advantage": 0.03744970091041981,
+        "median_entry_advantage": 0.03644037877434122,
+        "negative_fraction": 0.3687002652519894,
+        "positive_fraction": 0.6312997347480106,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 14118.537243228262
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.02419202472188348,
+        "median_entry_advantage": 0.02528812029144223,
+        "negative_fraction": 0.40302267002518893,
+        "positive_fraction": 0.5969773299748111,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 9604.233814587744
+      }
+    },
+    "C_S5": {
+      "BNBUSDT": {
+        "covered_trade_count": 392,
+        "mean_entry_advantage": 0.004213578881826005,
+        "median_entry_advantage": -0.0015538636300263947,
+        "negative_fraction": 0.5127551020408163,
+        "positive_fraction": 0.4872448979591837,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1651.7229216757896
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 358,
+        "mean_entry_advantage": 0.008137100399380101,
+        "median_entry_advantage": 0.0022264619453076576,
+        "negative_fraction": 0.4972067039106145,
+        "positive_fraction": 0.5027932960893855,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2913.081942978076
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 379,
+        "mean_entry_advantage": 0.02692741505813709,
+        "median_entry_advantage": 0.023571268876280062,
+        "negative_fraction": 0.41688654353562005,
+        "positive_fraction": 0.58311345646438,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 10205.490307033962
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 377,
+        "mean_entry_advantage": 0.03748716936429139,
+        "median_entry_advantage": 0.03647683740065826,
+        "negative_fraction": 0.3687002652519894,
+        "positive_fraction": 0.6312997347480106,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 14132.662850337856
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.024216228860776887,
+        "median_entry_advantage": 0.02531342107477544,
+        "negative_fraction": 0.40302267002518893,
+        "positive_fraction": 0.5969773299748111,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 9613.842857728428
+      }
+    }
+  },
+  "H24": {
+    "C0": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.020178378930599632,
+        "median_entry_advantage": 0.019919043238074377,
+        "negative_fraction": 0.29396984924623115,
+        "positive_fraction": 0.7060301507537688,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8030.994814378651
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": 0.004390727226402994,
+        "median_entry_advantage": 0.005474683040943888,
+        "negative_fraction": 0.43370165745856354,
+        "positive_fraction": 0.5662983425414365,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1589.443255957884
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.018282570295000695,
+        "median_entry_advantage": 0.014231116528041586,
+        "negative_fraction": 0.3648293963254593,
+        "positive_fraction": 0.6351706036745407,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 6965.6592823952715
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.032980430093851855,
+        "median_entry_advantage": 0.034983670603322414,
+        "negative_fraction": 0.27034120734908135,
+        "positive_fraction": 0.7296587926509186,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 12565.543865757565
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 401,
+        "mean_entry_advantage": 0.01432839304545258,
+        "median_entry_advantage": 0.016207644105768512,
+        "negative_fraction": 0.33665835411471323,
+        "positive_fraction": 0.6633416458852868,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 5745.685611226489
+      }
+    },
+    "C_BASE": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.02013000887490704,
+        "median_entry_advantage": 0.019871294841928108,
+        "negative_fraction": 0.29396984924623115,
+        "positive_fraction": 0.7060301507537688,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8011.743532212999
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": 0.00438020211330037,
+        "median_entry_advantage": 0.005461559552456436,
+        "negative_fraction": 0.43370165745856354,
+        "positive_fraction": 0.5662983425414365,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1585.6331650147335
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.018238744725740903,
+        "median_entry_advantage": 0.014197002791680555,
+        "negative_fraction": 0.3648293963254593,
+        "positive_fraction": 0.6351706036745407,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 6948.961740507288
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.03290137194721421,
+        "median_entry_advantage": 0.03489981044283905,
+        "negative_fraction": 0.27034120734908135,
+        "positive_fraction": 0.7296587926509186,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 12535.422711888605
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 401,
+        "mean_entry_advantage": 0.014294046125317046,
+        "median_entry_advantage": 0.016168792389744113,
+        "negative_fraction": 0.33665835411471323,
+        "positive_fraction": 0.6633416458852868,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 5731.912496252142
+      }
+    },
+    "C_S10": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.020097826600090594,
+        "median_entry_advantage": 0.019839526178757824,
+        "negative_fraction": 0.29396984924623115,
+        "positive_fraction": 0.7060301507537688,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 7998.934986836058
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": 0.0043731993906966395,
+        "median_entry_advantage": 0.005452828040635861,
+        "negative_fraction": 0.43370165745856354,
+        "positive_fraction": 0.5662983425414365,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1583.0981794321822
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.01820958605528436,
+        "median_entry_advantage": 0.014174305740315554,
+        "negative_fraction": 0.3648293963254593,
+        "positive_fraction": 0.6351706036745407,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 6937.852287063343
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.03284877182167906,
+        "median_entry_advantage": 0.03484401537102873,
+        "negative_fraction": 0.27034120734908135,
+        "positive_fraction": 0.7296587926509186,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 12515.382064059708
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 401,
+        "mean_entry_advantage": 0.014271193928703376,
+        "median_entry_advantage": 0.016142942996265522,
+        "negative_fraction": 0.33665835411471323,
+        "positive_fraction": 0.6633416458852868,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 5722.748765410053
+      }
+    },
+    "C_S5": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.020117934490689913,
+        "median_entry_advantage": 0.01985937563959168,
+        "negative_fraction": 0.29396984924623115,
+        "positive_fraction": 0.7060301507537688,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8006.937927294586
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": 0.0043775747799696665,
+        "median_entry_advantage": 0.005458283599183373,
+        "negative_fraction": 0.43370165745856354,
+        "positive_fraction": 0.5662983425414365,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1584.6820703490193
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.01822780475980126,
+        "median_entry_advantage": 0.014188487143848572,
+        "negative_fraction": 0.3648293963254593,
+        "positive_fraction": 0.6351706036745407,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 6944.7936134842785
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.03288163704254379,
+        "median_entry_advantage": 0.03487887683456245,
+        "negative_fraction": 0.27034120734908135,
+        "positive_fraction": 0.7296587926509186,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 12527.903713209185
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 401,
+        "mean_entry_advantage": 0.014285472268941385,
+        "median_entry_advantage": 0.016159094022850734,
+        "negative_fraction": 0.33665835411471323,
+        "positive_fraction": 0.6633416458852868,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 5728.474379845493
+      }
+    }
+  },
+  "H6": {
+    "C0": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.004545258577713252,
+        "median_entry_advantage": 0.0036382083451727554,
+        "negative_fraction": 0.3793969849246231,
+        "positive_fraction": 0.6206030150753769,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1809.0129139298756
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": -0.00036317609877760263,
+        "median_entry_advantage": -0.0005067217302616501,
+        "negative_fraction": 0.5193370165745856,
+        "positive_fraction": 0.48066298342541436,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -131.46974775749192
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 382,
+        "mean_entry_advantage": 0.0016109820204521375,
+        "median_entry_advantage": 0.0015434666943219778,
+        "negative_fraction": 0.46596858638743455,
+        "positive_fraction": 0.5340314136125655,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 615.3951318127167
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.007957564072884494,
+        "median_entry_advantage": 0.006030784733822998,
+        "negative_fraction": 0.3989501312335958,
+        "positive_fraction": 0.6010498687664042,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3031.831911768993
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 402,
+        "mean_entry_advantage": -0.0013770485927812742,
+        "median_entry_advantage": 0.0012605126308858799,
+        "negative_fraction": 0.46766169154228854,
+        "positive_fraction": 0.5323383084577115,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -553.5735342980726
+      }
+    },
+    "C_BASE": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.004534363033958347,
+        "median_entry_advantage": 0.0036294871123679897,
+        "negative_fraction": 0.3793969849246231,
+        "positive_fraction": 0.6206030150753769,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1804.6764875154224
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": -0.00036230552100796566,
+        "median_entry_advantage": -0.0005055070559610104,
+        "negative_fraction": 0.5193370165745856,
+        "positive_fraction": 0.48066298342541436,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -131.15459860488355
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 382,
+        "mean_entry_advantage": 0.0016071202984417948,
+        "median_entry_advantage": 0.001539766814850932,
+        "negative_fraction": 0.46596858638743455,
+        "positive_fraction": 0.5340314136125655,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 613.9199540047646
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.00793848881323619,
+        "median_entry_advantage": 0.006016328201192365,
+        "negative_fraction": 0.3989501312335958,
+        "positive_fraction": 0.6010498687664042,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3024.5642378429898
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 402,
+        "mean_entry_advantage": -0.001373747637964562,
+        "median_entry_advantage": 0.0012574910271006688,
+        "negative_fraction": 0.46766169154228854,
+        "positive_fraction": 0.5323383084577115,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -552.2465504617529
+      }
+    },
+    "C_S10": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.0045271138510005575,
+        "median_entry_advantage": 0.0036236845738585226,
+        "negative_fraction": 0.3793969849246231,
+        "positive_fraction": 0.6206030150753769,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1801.7913126982212
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": -0.00036172629543897123,
+        "median_entry_advantage": -0.0005046988910417766,
+        "negative_fraction": 0.5193370165745856,
+        "positive_fraction": 0.48066298342541436,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -130.94491894890763
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 382,
+        "mean_entry_advantage": 0.0016045509609204538,
+        "median_entry_advantage": 0.0015373051567812873,
+        "negative_fraction": 0.46596858638743455,
+        "positive_fraction": 0.5340314136125655,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 612.9384670716133
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.007925797381741928,
+        "median_entry_advantage": 0.00600670976889269,
+        "negative_fraction": 0.3989501312335958,
+        "positive_fraction": 0.6010498687664042,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3019.728802443676
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 402,
+        "mean_entry_advantage": -0.0013715513982963054,
+        "median_entry_advantage": 0.0012554806493572529,
+        "negative_fraction": 0.46766169154228854,
+        "positive_fraction": 0.5323383084577115,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -551.3636621151142
+      }
+    },
+    "C_S5": {
+      "BNBUSDT": {
+        "covered_trade_count": 398,
+        "mean_entry_advantage": 0.004531643231806644,
+        "median_entry_advantage": 0.00362731007299471,
+        "negative_fraction": 0.3793969849246231,
+        "positive_fraction": 0.6206030150753769,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 1803.5940062590437
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 362,
+        "mean_entry_advantage": -0.0003620882028690709,
+        "median_entry_advantage": -0.0005052038426612486,
+        "negative_fraction": 0.5193370165745856,
+        "positive_fraction": 0.48066298342541436,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -131.0759294386035
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 382,
+        "mean_entry_advantage": 0.0016061563153612498,
+        "median_entry_advantage": 0.001538843231744748,
+        "negative_fraction": 0.46596858638743455,
+        "positive_fraction": 0.5340314136125655,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 613.5517124679974
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 381,
+        "mean_entry_advantage": 0.007933727147971671,
+        "median_entry_advantage": 0.006012719486525121,
+        "negative_fraction": 0.3989501312335958,
+        "positive_fraction": 0.6010498687664042,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 3022.7500433772066
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 402,
+        "mean_entry_advantage": -0.001372923636499826,
+        "median_entry_advantage": 0.0012567367586893631,
+        "negative_fraction": 0.46766169154228854,
+        "positive_fraction": 0.5323383084577115,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": -551.9153018729296
+      }
+    }
+  },
+  "H72": {
+    "C0": {
+      "BNBUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.02252047109129251,
+        "median_entry_advantage": 0.02222374163443959,
+        "negative_fraction": 0.33249370277078083,
+        "positive_fraction": 0.6675062972292192,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8940.627023243118
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 361,
+        "mean_entry_advantage": 0.005660866094527011,
+        "median_entry_advantage": 0.003712946166401023,
+        "negative_fraction": 0.48476454293628807,
+        "positive_fraction": 0.5152354570637119,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2043.5726601242498
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.02179369152176829,
+        "median_entry_advantage": 0.018361248588121305,
+        "negative_fraction": 0.4052631578947368,
+        "positive_fraction": 0.5947368421052631,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8281.602778271956
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.03011412944870001,
+        "median_entry_advantage": 0.032989108240740736,
+        "negative_fraction": 0.3684210526315789,
+        "positive_fraction": 0.631578947368421,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 11443.369190505999
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 400,
+        "mean_entry_advantage": 0.019054520479662024,
+        "median_entry_advantage": 0.015992962531383055,
+        "negative_fraction": 0.4125,
+        "positive_fraction": 0.5875,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 7621.808191864815
+      }
+    },
+    "C_BASE": {
+      "BNBUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.022466486752676606,
+        "median_entry_advantage": 0.02217046859282159,
+        "negative_fraction": 0.33249370277078083,
+        "positive_fraction": 0.6675062972292192,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8919.19524081262
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 361,
+        "mean_entry_advantage": 0.005647296302364694,
+        "median_entry_advantage": 0.003704045777847855,
+        "negative_fraction": 0.48476454293628807,
+        "positive_fraction": 0.5152354570637119,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2038.673965153656
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.021741449363154794,
+        "median_entry_advantage": 0.018317234417317554,
+        "negative_fraction": 0.4052631578947368,
+        "positive_fraction": 0.5947368421052631,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8261.750757998821
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.030041942177186406,
+        "median_entry_advantage": 0.03291002929151772,
+        "negative_fraction": 0.3684210526315789,
+        "positive_fraction": 0.631578947368421,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 11415.938027330832
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 400,
+        "mean_entry_advantage": 0.01900884445088059,
+        "median_entry_advantage": 0.015954625433492624,
+        "negative_fraction": 0.4125,
+        "positive_fraction": 0.5875,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 7603.537780352228
+      }
+    },
+    "C_S10": {
+      "BNBUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.02243056910081031,
+        "median_entry_advantage": 0.022135024191505145,
+        "negative_fraction": 0.33249370277078083,
+        "positive_fraction": 0.6675062972292192,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8904.935933021681
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 361,
+        "mean_entry_advantage": 0.005638267849237728,
+        "median_entry_advantage": 0.0036981240408086244,
+        "negative_fraction": 0.48476454293628807,
+        "positive_fraction": 0.5152354570637119,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2035.4146935748201
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.021706690844037337,
+        "median_entry_advantage": 0.018287950263715824,
+        "negative_fraction": 0.4052631578947368,
+        "positive_fraction": 0.5947368421052631,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8248.542520734187
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.029993913483052467,
+        "median_entry_advantage": 0.03285741532530163,
+        "negative_fraction": 0.3684210526315789,
+        "positive_fraction": 0.631578947368421,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 11397.687123559946
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 400,
+        "mean_entry_advantage": 0.01897845460555746,
+        "median_entry_advantage": 0.01592911843329775,
+        "negative_fraction": 0.4125,
+        "positive_fraction": 0.5875,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 7591.381842222987
+      }
+    },
+    "C_S5": {
+      "BNBUSDT": {
+        "covered_trade_count": 397,
+        "mean_entry_advantage": 0.022453010902032607,
+        "median_entry_advantage": 0.022157170299823788,
+        "negative_fraction": 0.33249370277078083,
+        "positive_fraction": 0.6675062972292192,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8913.845328106947
+      },
+      "BTCUSDT": {
+        "covered_trade_count": 361,
+        "mean_entry_advantage": 0.005643908940453131,
+        "median_entry_advantage": 0.003701824016687439,
+        "negative_fraction": 0.48476454293628807,
+        "positive_fraction": 0.5152354570637119,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 2037.4511275035832
+      },
+      "ETHUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.021728408404520394,
+        "median_entry_advantage": 0.01830624737168218,
+        "negative_fraction": 0.4052631578947368,
+        "positive_fraction": 0.5947368421052631,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 8256.795193717753
+      },
+      "SOLUSDT": {
+        "covered_trade_count": 380,
+        "mean_entry_advantage": 0.030023922416006467,
+        "median_entry_advantage": 0.032890289193998126,
+        "negative_fraction": 0.3684210526315789,
+        "positive_fraction": 0.631578947368421,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 11409.090518082437
+      },
+      "XRPUSDT": {
+        "covered_trade_count": 400,
+        "mean_entry_advantage": 0.018997442563636044,
+        "median_entry_advantage": 0.015945055528247133,
+        "negative_fraction": 0.4125,
+        "positive_fraction": 0.5875,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 7598.977025454413
+      }
+    }
+  }
+}

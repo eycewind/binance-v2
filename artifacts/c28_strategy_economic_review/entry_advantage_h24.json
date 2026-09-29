@@ -1,0 +1,164 @@
+{
+  "by_cost": {
+    "C0": {
+      "actual": {
+        "mean_return": 0.0008212116570239518,
+        "median_return": 0.00027750654329679493,
+        "negative_return_fraction": 0.49401976079043164,
+        "positive_return_fraction": 0.5044201768070723,
+        "tie_fraction": 0.0015600624024961,
+        "total_pnl_usdt": 1579.1900164570607,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 950,
+          "tie": 3,
+          "win": 970
+        }
+      },
+      "matched_reference": {
+        "mean_return": -0.017326124187862082,
+        "median_return": -0.016765839824570375,
+        "negative_return_fraction": 0.7145085803432137,
+        "positive_return_fraction": 0.28549141965678626,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -33318.136813258694,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 1374,
+          "tie": 0,
+          "win": 549
+        }
+      },
+      "paired_advantage": {
+        "covered_trade_count": 1923,
+        "mean_entry_advantage": 0.018147335844886033,
+        "median_entry_advantage": 0.018052772888676374,
+        "negative_fraction": 0.33853354134165364,
+        "positive_fraction": 0.6614664586583463,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 34897.32682971583
+      }
+    },
+    "C_BASE": {
+      "actual": {
+        "mean_return": -0.001577879861312554,
+        "median_return": -0.002120281647020934,
+        "negative_return_fraction": 0.5330213208528342,
+        "positive_return_fraction": 0.4669786791471659,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -3037.297236277348,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 1025,
+          "tie": 0,
+          "win": 898
+        }
+      },
+      "matched_reference": {
+        "mean_return": -0.019681714310545922,
+        "median_return": -0.019122773017772814,
+        "negative_return_fraction": 0.7405096203848154,
+        "positive_return_fraction": 0.2594903796151846,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -37885.78455579906,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 1424,
+          "tie": 0,
+          "win": 499
+        }
+      },
+      "paired_advantage": {
+        "covered_trade_count": 1923,
+        "mean_entry_advantage": 0.01810383444923337,
+        "median_entry_advantage": 0.018009498172058422,
+        "negative_fraction": 0.33853354134165364,
+        "positive_fraction": 0.6614664586583463,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 34813.67364587578
+      }
+    },
+    "C_S10": {
+      "actual": {
+        "mean_return": -0.0031740786137721723,
+        "median_return": -0.003715613250169549,
+        "negative_return_fraction": 0.5642225689027561,
+        "positive_return_fraction": 0.4357774310972439,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -6109.856927458172,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 1085,
+          "tie": 0,
+          "win": 838
+        }
+      },
+      "matched_reference": {
+        "mean_return": -0.02124897007648739,
+        "median_return": -0.0206909223750884,
+        "negative_return_fraction": 0.7602704108164327,
+        "positive_return_fraction": 0.23972958918356735,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -40902.631226542275,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 1462,
+          "tie": 0,
+          "win": 461
+        }
+      },
+      "paired_advantage": {
+        "covered_trade_count": 1923,
+        "mean_entry_advantage": 0.018074891462715213,
+        "median_entry_advantage": 0.017980706002959947,
+        "negative_fraction": 0.33853354134165364,
+        "positive_fraction": 0.6614664586583463,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 34758.016282801385
+      }
+    },
+    "C_S5": {
+      "actual": {
+        "mean_return": -0.0021767535311821096,
+        "median_return": -0.0027188299733896313,
+        "negative_return_fraction": 0.547061882475299,
+        "positive_return_fraction": 0.452938117524701,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -4190.0829375036665,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 1052,
+          "tie": 0,
+          "win": 871
+        }
+      },
+      "matched_reference": {
+        "mean_return": -0.02026972893637325,
+        "median_return": -0.019711122907830177,
+        "negative_return_fraction": 0.7467498699947998,
+        "positive_return_fraction": 0.2532501300052002,
+        "tie_fraction": 0.0,
+        "total_pnl_usdt": -39017.66743339043,
+        "trade_count": 1923,
+        "win_loss_tie_count": {
+          "loss": 1436,
+          "tie": 0,
+          "win": 487
+        }
+      },
+      "paired_advantage": {
+        "covered_trade_count": 1923,
+        "mean_entry_advantage": 0.01809297540519114,
+        "median_entry_advantage": 0.017998695712812852,
+        "negative_fraction": 0.33853354134165364,
+        "positive_fraction": 0.6614664586583463,
+        "tie_fraction": 0.0,
+        "total_normalized_contribution_usdt": 34792.79170418251
+      }
+    }
+  },
+  "covered_trade_count": 1923,
+  "horizon_hours": 24,
+  "primary": true,
+  "shared_reference_pools_may_overlap": true
+}

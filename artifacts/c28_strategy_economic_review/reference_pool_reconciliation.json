@@ -1,0 +1,7 @@
+{
+  "actual_trade_horizon_rows": 8796,
+  "exact": true,
+  "expected": 8796,
+  "pool_sizes_semantic_sha256": "148e33398b2e672d827ba7f0f908361335ed22f99d887d2e6001b79d9b0083f4",
+  "zero_pools_retained_outside_layer2": true
+}

@@ -1,0 +1,31 @@
+{
+  "expected_count": 2199,
+  "frozen_entry_file_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "p0": {
+    "canonical_p0_version": "P0_H1_SMA24_CROSSDOWN_V1",
+    "cost_row_counts": {
+      "C0": 2199,
+      "C_BASE": 2199,
+      "C_S10": 2199,
+      "C_S5": 2199
+    },
+    "exact": true,
+    "resolved_entries": 2199,
+    "status": "PASS"
+  },
+  "reproduced_count": 2199,
+  "semantic_entry_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "status": "PASS",
+  "symbol_counts": {
+    "BNBUSDT": 442,
+    "BTCUSDT": 451,
+    "ETHUSDT": 434,
+    "SOLUSDT": 431,
+    "XRPUSDT": 441
+  },
+  "timestamps_prices_and_refractory_exact": true,
+  "year_counts": {
+    "2024": 1093,
+    "2025": 1106
+  }
+}
