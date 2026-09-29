@@ -1,0 +1,537 @@
+{
+  "BNBUSDT": {
+    "DELTA_LIQ_15": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00023634219259962227,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.17658318747813642,
+      "reconstruction_residual": -4.0657581468206416e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 12948,
+      "total_covariance": 0.00014353005848449804,
+      "trade_mean_correlation": 0.628269681134058,
+      "trades": 328,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 324,
+        "mean": -0.3233829688117916,
+        "median": -0.2973186439564235,
+        "p10": -0.7440944879206766,
+        "p90": 0.0555994773719352
+      },
+      "within_trade_covariance_component": -9.281213411512419e-05
+    },
+    "DELTA_LIQ_30": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00036408825950112386,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.19057550383746705,
+      "reconstruction_residual": -2.710505431213761e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 12948,
+      "total_covariance": 0.00020846475937958444,
+      "trade_mean_correlation": 0.6014729146129928,
+      "trades": 328,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 324,
+        "mean": -0.44900282884447335,
+        "median": -0.45756498926785083,
+        "p10": -0.8750507729937743,
+        "p90": -0.030154380366353508
+      },
+      "within_trade_covariance_component": -0.0001556235001215394
+    },
+    "DELTA_LIQ_5": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00010619381545737027,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.1498980415196358,
+      "reconstruction_residual": -6.776263578034403e-21,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 12948,
+      "total_covariance": 7.272189047797957e-05,
+      "trade_mean_correlation": 0.5544864290241133,
+      "trades": 328,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 324,
+        "mean": -0.20683633665463422,
+        "median": -0.18887480587305852,
+        "p10": -0.5290610277881594,
+        "p90": 0.041442134920687546
+      },
+      "within_trade_covariance_component": -3.347192497939069e-05
+    },
+    "DELTA_LIQ_60": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0004729976490539476,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.18275456526386938,
+      "reconstruction_residual": -2.710505431213761e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 12948,
+      "total_covariance": 0.0002461565785648778,
+      "trade_mean_correlation": 0.5768132486988982,
+      "trades": 328,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 324,
+        "mean": -0.5796367587926107,
+        "median": -0.6325820853802695,
+        "p10": -0.9346588141766448,
+        "p90": -0.15391114314924717
+      },
+      "within_trade_covariance_component": -0.00022684107048906977
+    },
+    "DELTA_LIQ_EVENT": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0006493738917498919,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.14815691769888392,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 12948,
+      "total_covariance": 0.00028586505589066807,
+      "trade_mean_correlation": 0.4516463271232928,
+      "trades": 328,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 324,
+        "mean": -0.8685391774625763,
+        "median": -0.9053785807494306,
+        "p10": -0.9623272695954895,
+        "p90": -0.7472687586753728
+      },
+      "within_trade_covariance_component": -0.0003635088358592238
+    }
+  },
+  "BTCUSDT": {
+    "DELTA_LIQ_15": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00025765535194768565,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.24661144387420955,
+      "reconstruction_residual": -1.3552527156068805e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 14122,
+      "total_covariance": 0.00018994252644987885,
+      "trade_mean_correlation": 0.5851661396240436,
+      "trades": 335,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 333,
+        "mean": -0.3217705898300289,
+        "median": -0.2978442087630724,
+        "p10": -0.7449553853973306,
+        "p90": 0.05726298160286978
+      },
+      "within_trade_covariance_component": -6.771282549780678e-05
+    },
+    "DELTA_LIQ_30": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00037834069718475823,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.2641067476061728,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 14122,
+      "total_covariance": 0.00026683743692680877,
+      "trade_mean_correlation": 0.5983749089734131,
+      "trades": 335,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 333,
+        "mean": -0.42244261574350883,
+        "median": -0.42856782127106197,
+        "p10": -0.8467176009567811,
+        "p90": -0.0038047590979081508
+      },
+      "within_trade_covariance_component": -0.00011150326025794946
+    },
+    "DELTA_LIQ_5": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00011685218992897367,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.19659350963761046,
+      "reconstruction_residual": 1.6940658945086007e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 14122,
+      "total_covariance": 9.420620164588059e-05,
+      "trade_mean_correlation": 0.46753403616799666,
+      "trades": 335,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 333,
+        "mean": -0.18482710419885018,
+        "median": -0.17870715983202445,
+        "p10": -0.5005537257768568,
+        "p90": 0.1204384877244047
+      },
+      "within_trade_covariance_component": -2.26459882830931e-05
+    },
+    "DELTA_LIQ_60": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0005040357558238737,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.2564528962636058,
+      "reconstruction_residual": -1.0842021724855044e-19,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 14122,
+      "total_covariance": 0.00033126622510317827,
+      "trade_mean_correlation": 0.569750217198815,
+      "trades": 335,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 333,
+        "mean": -0.5568986696398102,
+        "median": -0.590951850220951,
+        "p10": -0.9296815741184995,
+        "p90": -0.05217629752520821
+      },
+      "within_trade_covariance_component": -0.00017276953072069528
+    },
+    "DELTA_LIQ_EVENT": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0006700211702384809,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.2125197118935644,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 14122,
+      "total_covariance": 0.00038036529306438376,
+      "trade_mean_correlation": 0.4821515809977093,
+      "trades": 335,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 333,
+        "mean": -0.860516172636661,
+        "median": -0.894976120095751,
+        "p10": -0.9547614156300797,
+        "p90": -0.7413965557729735
+      },
+      "within_trade_covariance_component": -0.00028965587717409713
+    }
+  },
+  "ETHUSDT": {
+    "DELTA_LIQ_15": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0003728313524235822,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.2555712454373303,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10514,
+      "total_covariance": 0.00028041333829189653,
+      "trade_mean_correlation": 0.6420839498772422,
+      "trades": 320,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 311,
+        "mean": -0.26651699669594153,
+        "median": -0.29326209962421124,
+        "p10": -0.6917628032443389,
+        "p90": 0.22774039015840147
+      },
+      "within_trade_covariance_component": -9.241801413168566e-05
+    },
+    "DELTA_LIQ_30": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0005401819941407007,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.25951631880717224,
+      "reconstruction_residual": 1.0842021724855044e-19,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10514,
+      "total_covariance": 0.0003747794158159501,
+      "trade_mean_correlation": 0.6307602435728344,
+      "trades": 320,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 311,
+        "mean": -0.40445963350750597,
+        "median": -0.4340009587860701,
+        "p10": -0.8640871532816915,
+        "p90": 0.09475825348958004
+      },
+      "within_trade_covariance_component": -0.0001654025783247507
+    },
+    "DELTA_LIQ_5": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00016423806418374673,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.20302784103410185,
+      "reconstruction_residual": 1.3552527156068805e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10514,
+      "total_covariance": 0.00013146431030557537,
+      "trade_mean_correlation": 0.6177491558856926,
+      "trades": 320,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 311,
+        "mean": -0.15639467459209272,
+        "median": -0.16556498873505968,
+        "p10": -0.4914217209691065,
+        "p90": 0.21209816626830552
+      },
+      "within_trade_covariance_component": -3.2773753878171375e-05
+    },
+    "DELTA_LIQ_60": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0006696334112278815,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.23925506965633347,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10514,
+      "total_covariance": 0.0004277123265727547,
+      "trade_mean_correlation": 0.5812411541111958,
+      "trades": 320,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 311,
+        "mean": -0.5526693247762491,
+        "median": -0.6062069711732818,
+        "p10": -0.9417631706820865,
+        "p90": -0.031112211180544077
+      },
+      "within_trade_covariance_component": -0.0002419210846551268
+    },
+    "DELTA_LIQ_EVENT": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0008027524984328329,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.14734719065208912,
+      "reconstruction_residual": -2.168404344971009e-19,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10514,
+      "total_covariance": 0.0003854936652068502,
+      "trade_mean_correlation": 0.40431608538621716,
+      "trades": 320,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 311,
+        "mean": -0.8559526283570771,
+        "median": -0.8930541752885596,
+        "p10": -0.9555337169252918,
+        "p90": -0.7158501178449723
+      },
+      "within_trade_covariance_component": -0.00041725883322598245
+    }
+  },
+  "SOLUSDT": {
+    "DELTA_LIQ_15": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00044005727491134054,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.17860327795852807,
+      "reconstruction_residual": -1.8973538018496328e-19,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 8249,
+      "total_covariance": 0.0002532103877930646,
+      "trade_mean_correlation": 0.5895833593324776,
+      "trades": 311,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 299,
+        "mean": -0.3619300301262061,
+        "median": -0.3296922717532235,
+        "p10": -0.7894784003992696,
+        "p90": 0.009530325623402941
+      },
+      "within_trade_covariance_component": -0.00018684688711827574
+    },
+    "DELTA_LIQ_30": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0006230521115649225,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.17865409364764784,
+      "reconstruction_residual": 5.421010862427522e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 8249,
+      "total_covariance": 0.0003201747451262479,
+      "trade_mean_correlation": 0.5915778531590453,
+      "trades": 311,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 299,
+        "mean": -0.5000794183093484,
+        "median": -0.5027281477829569,
+        "p10": -0.9175361390429242,
+        "p90": -0.05506630238185886
+      },
+      "within_trade_covariance_component": -0.0003028773664386746
+    },
+    "DELTA_LIQ_5": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00022358310752118942,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.16650190427270073,
+      "reconstruction_residual": 9.486769009248164e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 8249,
+      "total_covariance": 0.00015738810160837886,
+      "trade_mean_correlation": 0.4575020038488774,
+      "trades": 311,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 299,
+        "mean": -0.19601467083578247,
+        "median": -0.18368677014194437,
+        "p10": -0.5361845182075374,
+        "p90": 0.07185636504497599
+      },
+      "within_trade_covariance_component": -6.619500591281066e-05
+    },
+    "DELTA_LIQ_60": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.000778636459937403,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.18360370930657358,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 8249,
+      "total_covariance": 0.000387228821500186,
+      "trade_mean_correlation": 0.5758491747473106,
+      "trades": 311,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 299,
+        "mean": -0.6426270015201988,
+        "median": -0.7248226902169809,
+        "p10": -0.9543577363598061,
+        "p90": -0.22330454483670362
+      },
+      "within_trade_covariance_component": -0.000391407638437217
+    },
+    "DELTA_LIQ_EVENT": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0009214148376119794,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.14266833142020519,
+      "reconstruction_residual": 2.168404344971009e-19,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 8249,
+      "total_covariance": 0.0003861698849816629,
+      "trade_mean_correlation": 0.46982201321889966,
+      "trades": 311,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 299,
+        "mean": -0.8805071577441198,
+        "median": -0.9079456450570678,
+        "p10": -0.9688846463218582,
+        "p90": -0.7738158093465489
+      },
+      "within_trade_covariance_component": -0.0005352449526303167
+    }
+  },
+  "XRPUSDT": {
+    "DELTA_LIQ_15": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0004070562944039882,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.22437163245341915,
+      "reconstruction_residual": 8.131516293641283e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10384,
+      "total_covariance": 0.0002755641690385593,
+      "trade_mean_correlation": 0.6492670744851053,
+      "trades": 316,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 305,
+        "mean": -0.31699442297566455,
+        "median": -0.31295451434485766,
+        "p10": -0.792044930425839,
+        "p90": 0.11736071707386786
+      },
+      "within_trade_covariance_component": -0.00013149212536542898
+    },
+    "DELTA_LIQ_30": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0005734776793891209,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.23248105261882868,
+      "reconstruction_residual": 1.3552527156068805e-19,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10384,
+      "total_covariance": 0.0003776498927416536,
+      "trade_mean_correlation": 0.6089671358675566,
+      "trades": 316,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 305,
+        "mean": -0.44109580989429337,
+        "median": -0.4412588502322479,
+        "p10": -0.8968114931300458,
+        "p90": 0.052530164988431174
+      },
+      "within_trade_covariance_component": -0.00019582778664746744
+    },
+    "DELTA_LIQ_5": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0001930788828109537,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.21045734175938846,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10384,
+      "total_covariance": 0.00015364636450888704,
+      "trade_mean_correlation": 0.6396489989331234,
+      "trades": 316,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 305,
+        "mean": -0.16462564786192996,
+        "median": -0.17071635365251045,
+        "p10": -0.492081453510662,
+        "p90": 0.16458179549256638
+      },
+      "within_trade_covariance_component": -3.9432518302066655e-05
+    },
+    "DELTA_LIQ_60": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.000734275694706487,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.2050537662293683,
+      "reconstruction_residual": 5.421010862427522e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10384,
+      "total_covariance": 0.0004380467388783225,
+      "trade_mean_correlation": 0.5288089392090155,
+      "trades": 316,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 305,
+        "mean": -0.583491363028227,
+        "median": -0.6815126784429197,
+        "p10": -0.9521930311188638,
+        "p90": -0.0511316302498594
+      },
+      "within_trade_covariance_component": -0.0002962289558281646
+    },
+    "DELTA_LIQ_EVENT": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0008952341486905068,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.1356226629728882,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 10384,
+      "total_covariance": 0.0004037315810979965,
+      "trade_mean_correlation": 0.4076019563610426,
+      "trades": 316,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 305,
+        "mean": -0.8780288893556778,
+        "median": -0.9012240395936657,
+        "p10": -0.9617151099315403,
+        "p90": -0.7814535279849053
+      },
+      "within_trade_covariance_component": -0.0004915025675925103
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "full_trajectory": true,
+  "live_feature_schema": [],
+  "prohibition": "pbar_i and Vbar_i use full observed trajectories and must never be predictors or production features.",
+  "role": "DIAGNOSTIC_ONLY_NOT_A_LIVE_FEATURE"
+}

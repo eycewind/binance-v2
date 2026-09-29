@@ -1,0 +1,107 @@
+{
+  "DELTA_LIQ_15": {
+    "between_share_of_total": null,
+    "between_trade_covariance": 0.0003454713683952466,
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "pooled_correlation": 0.21649678437878522,
+    "reconstruction_residual": 4.0657581468206416e-20,
+    "share_note": "not forced because total is near zero or component signs oppose",
+    "snapshots": 56217,
+    "total_covariance": 0.00023220376928784,
+    "trade_mean_correlation": 0.6123265333294245,
+    "trades": 1610,
+    "within_share_of_total": null,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.317883493827081,
+      "median": -0.3062854054590201,
+      "p10": -0.755625902435559,
+      "p90": 0.08071233376285912
+    },
+    "within_trade_covariance_component": -0.00011326759910740667
+  },
+  "DELTA_LIQ_30": {
+    "between_share_of_total": null,
+    "between_trade_covariance": 0.0004992786713508059,
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "pooled_correlation": 0.2245336649716529,
+    "reconstruction_residual": 0.0,
+    "share_note": "not forced because total is near zero or component signs oppose",
+    "snapshots": 56217,
+    "total_covariance": 0.00031455608325563466,
+    "trade_mean_correlation": 0.6022467701255902,
+    "trades": 1610,
+    "within_share_of_total": null,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.4427450519728287,
+      "median": -0.4561035123599403,
+      "p10": -0.8861634955216051,
+      "p90": 0.023878902144774113
+    },
+    "within_trade_covariance_component": -0.00018472258809517126
+  },
+  "DELTA_LIQ_5": {
+    "between_share_of_total": null,
+    "between_trade_covariance": 0.00016249328036655792,
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "pooled_correlation": 0.1866724851471958,
+    "reconstruction_residual": 4.0657581468206416e-20,
+    "share_note": "not forced because total is near zero or component signs oppose",
+    "snapshots": 56217,
+    "total_covariance": 0.00012392177643399377,
+    "trade_mean_correlation": 0.5233571035443451,
+    "trades": 1610,
+    "within_share_of_total": null,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.1819467886451953,
+      "median": -0.17747416492625545,
+      "p10": -0.5075027944925111,
+      "p90": 0.11974281739486614
+    },
+    "within_trade_covariance_component": -3.8571503932564196e-05
+  },
+  "DELTA_LIQ_60": {
+    "between_share_of_total": null,
+    "between_trade_covariance": 0.0006364841721854609,
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "pooled_correlation": 0.2133126870118666,
+    "reconstruction_residual": -5.421010862427522e-20,
+    "share_note": "not forced because total is near zero or component signs oppose",
+    "snapshots": 56217,
+    "total_covariance": 0.0003724888078393969,
+    "trade_mean_correlation": 0.5600374738889755,
+    "trades": 1610,
+    "within_share_of_total": null,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.5822137824570133,
+      "median": -0.6447835650782209,
+      "p10": -0.9417707090473261,
+      "p90": -0.1036742319585285
+    },
+    "within_trade_covariance_component": -0.0002639953643460639
+  },
+  "DELTA_LIQ_EVENT": {
+    "between_share_of_total": null,
+    "between_trade_covariance": 0.000792981353258485,
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "pooled_correlation": 0.15518341915992925,
+    "reconstruction_residual": -1.6263032587282567e-19,
+    "share_note": "not forced because total is near zero or component signs oppose",
+    "snapshots": 56217,
+    "total_covariance": 0.0003758605860071034,
+    "trade_mean_correlation": 0.43636811646053386,
+    "trades": 1610,
+    "within_share_of_total": null,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.8684671105750046,
+      "median": -0.9016102051757591,
+      "p10": -0.9598916898088516,
+      "p90": -0.7518592788510247
+    },
+    "within_trade_covariance_component": -0.0004171207672513814
+  }
+}

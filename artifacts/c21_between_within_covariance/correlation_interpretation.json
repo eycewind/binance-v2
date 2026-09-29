@@ -1,0 +1,58 @@
+{
+  "DELTA_LIQ_15": {
+    "pooled_correlation": 0.21649678437878522,
+    "trade_mean_correlation": 0.6123265333294245,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.317883493827081,
+      "median": -0.3062854054590201,
+      "p10": -0.755625902435559,
+      "p90": 0.08071233376285912
+    }
+  },
+  "DELTA_LIQ_30": {
+    "pooled_correlation": 0.2245336649716529,
+    "trade_mean_correlation": 0.6022467701255902,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.4427450519728287,
+      "median": -0.4561035123599403,
+      "p10": -0.8861634955216051,
+      "p90": 0.023878902144774113
+    }
+  },
+  "DELTA_LIQ_5": {
+    "pooled_correlation": 0.1866724851471958,
+    "trade_mean_correlation": 0.5233571035443451,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.1819467886451953,
+      "median": -0.17747416492625545,
+      "p10": -0.5075027944925111,
+      "p90": 0.11974281739486614
+    }
+  },
+  "DELTA_LIQ_60": {
+    "pooled_correlation": 0.2133126870118666,
+    "trade_mean_correlation": 0.5600374738889755,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.5822137824570133,
+      "median": -0.6447835650782209,
+      "p10": -0.9417707090473261,
+      "p90": -0.1036742319585285
+    }
+  },
+  "DELTA_LIQ_EVENT": {
+    "pooled_correlation": 0.15518341915992925,
+    "trade_mean_correlation": 0.43636811646053386,
+    "within_trade_correlations": {
+      "eligible_trades": 1572,
+      "mean": -0.8684671105750046,
+      "median": -0.9016102051757591,
+      "p10": -0.9598916898088516,
+      "p90": -0.7518592788510247
+    }
+  },
+  "statement": "Average per-trade correlation is not the within-trade covariance component and cannot be averaged to reconstruct pooled correlation. Covariance decomposes additively under common centering; correlations use different variance normalizations."
+}

@@ -1,0 +1,10 @@
+{
+  "contract_sha256": "ba6158c4f3c58509cc67156833403b78db6d4e1dd53f5e33443197aa4323da98",
+  "inputs": {
+    "c20_reproducibility_hashes": "df19bed1186124b781b088f128061ff2d5c4d7e10f6dfda73c63c511455a530b",
+    "c7_population": "da179481e83d17409ef507770c0bae61e96646767ca159f0d47ac2e92546b46c",
+    "c9_final_summary": "38a8859b65f5e9bfbb1ebda900c777c7e559516c824510c65bc5fc16e44dbd58",
+    "contracts/C21_between_within_covariance_CONTRACT.md": "ba6158c4f3c58509cc67156833403b78db6d4e1dd53f5e33443197aa4323da98"
+  },
+  "no_2026_access": true
+}

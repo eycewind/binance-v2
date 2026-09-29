@@ -1,0 +1,8 @@
+{
+  "covariance_denominator": "population/equal-trade denominator",
+  "global_normalization": "divide by number of eligible trades",
+  "identical_to_C20": true,
+  "long_duration_dominance": false,
+  "snapshot_weight": "1 / n_i within the analyzed cell",
+  "trade_total_weight": 1
+}

@@ -1,0 +1,4351 @@
+{
+  "c20_reproduction": {
+    "frozen_probability_target_panel_sha256": "af97b39e8773306acdf5779718b32d067b2f84ab17583c4eeb4f92d805512a3a",
+    "maximum_absolute_differences": {
+      "economic_ordering": 0.0,
+      "overall_forward_value": 0.0,
+      "symbol_summary": 0.0,
+      "year_summary": 0.0
+    },
+    "population_match": true,
+    "snapshot_rows": 56217,
+    "status": "PASS",
+    "symbol_membership": {
+      "BNBUSDT": 328,
+      "BTCUSDT": 335,
+      "ETHUSDT": 320,
+      "SOLUSDT": 311,
+      "XRPUSDT": 316
+    },
+    "tolerance": 1e-15,
+    "trade_count": 1610,
+    "year_membership": {
+      "2024": 523,
+      "2025": 1087
+    }
+  },
+  "c22_implication": {
+    "c22_started": false,
+    "statement": "C21 supplies structural explanation only. Any C22 work requires a separate prospective contract; no horizon, model, state architecture, or policy is selected here."
+  },
+  "calendar_block_bootstrap": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00023992792457290182,
+              0.0003919893741531682
+            ],
+            "point_estimate": 0.00032337030433474855
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00013413283079833987,
+              0.0002553341691554355
+            ],
+            "point_estimate": 0.00020258159050343927
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00014964894050842082,
+              -9.259700561888041e-05
+            ],
+            "point_estimate": -0.00012078871383130927
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00035346806665492443,
+              0.0005785274723653167
+            ],
+            "point_estimate": 0.00047555834670091413
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0001632278032396491,
+              0.00036610576739320994
+            ],
+            "point_estimate": 0.0002777154119153927
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0002445729460030583,
+              -0.00015903746999841668
+            ],
+            "point_estimate": -0.0001978429347855215
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00010769944640927368,
+              0.0001688137317287597
+            ],
+            "point_estimate": 0.0001413354096627386
+          },
+          "total_covariance": {
+            "ci95": [
+              7.793616900292463e-05,
+              0.00012763370642017603
+            ],
+            "point_estimate": 0.00010440403958420812
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.3940599309370166e-05,
+              -2.7821930798114735e-05
+            ],
+            "point_estimate": -3.693137007853047e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000458118644883819,
+              0.0007344606004109518
+            ],
+            "point_estimate": 0.0006137109739610733
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002091124520588577,
+              0.00044310957150045456
+            ],
+            "point_estimate": 0.0003405423164609543
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0003229810387171335,
+              -0.00022508508588023386
+            ],
+            "point_estimate": -0.00027316865750011903
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000608155651264856,
+              0.0009098896475875557
+            ],
+            "point_estimate": 0.0007739628469239513
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00022335202775990902,
+              0.00042475330472164054
+            ],
+            "point_estimate": 0.00033270256144262794
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.000516048522893284,
+              -0.00036627221153668065
+            ],
+            "point_estimate": -0.0004412602854813234
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0002682911462661374,
+              0.000447362801851055
+            ],
+            "point_estimate": 0.00035491607821720755
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00016797056361152565,
+              0.0003320587744331959
+            ],
+            "point_estimate": 0.00024526719392176143
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0001292103237617567,
+              -9.220525408962102e-05
+            ],
+            "point_estimate": -0.00010964888429544617
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0004012218800331778,
+              0.0006232202722572544
+            ],
+            "point_estimate": 0.0005089774994389471
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00023546480238976396,
+              0.0004347772501432347
+            ],
+            "point_estimate": 0.0003305676448479646
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0002031287152815957,
+              -0.00015455075265144588
+            ],
+            "point_estimate": -0.00017840985459098246
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00011894513758010121,
+              0.00023174845539108218
+            ],
+            "point_estimate": 0.0001719922433342656
+          },
+          "total_covariance": {
+            "ci95": [
+              8.030022063147206e-05,
+              0.00019163036512549845
+            ],
+            "point_estimate": 0.0001326316041619041
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -5.470373316926228e-05,
+              -2.8876973790211566e-05
+            ],
+            "point_estimate": -3.9360639172361464e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005310324368769053,
+              0.000762124116942531
+            ],
+            "point_estimate": 0.0006444128894898924
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002898566395097861,
+              0.00048641273809637203
+            ],
+            "point_estimate": 0.0003848311703320261
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0002933231565001115,
+              -0.00022747894241650788
+            ],
+            "point_estimate": -0.0002595817191578663
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006915198999479032,
+              0.0009236662722595789
+            ],
+            "point_estimate": 0.0008050973922480922
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002938086376859827,
+              0.0005163603966563772
+            ],
+            "point_estimate": 0.00039959113100798926
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00044575206739763733,
+              -0.00036873883038873457
+            ],
+            "point_estimate": -0.000405506261240103
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    },
+    "BNBUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0001736992542390737,
+              0.000303469355266986
+            ],
+            "point_estimate": 0.00023634219259962227
+          },
+          "total_covariance": {
+            "ci95": [
+              8.768559037517439e-05,
+              0.00020361832299268224
+            ],
+            "point_estimate": 0.00014353005848449804
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00011238132196758803,
+              -7.446875753226423e-05
+            ],
+            "point_estimate": -9.281213411512419e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00027400925206201836,
+              0.0004560481866784581
+            ],
+            "point_estimate": 0.00036408825950112386
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00013437511799072518,
+              0.00028565097321243905
+            ],
+            "point_estimate": 0.00020846475937958444
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00018343069205472288,
+              -0.0001285068288635089
+            ],
+            "point_estimate": -0.0001556235001215394
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              6.958660904566344e-05,
+              0.00015032672461965678
+            ],
+            "point_estimate": 0.00010619381545737027
+          },
+          "total_covariance": {
+            "ci95": [
+              3.4076182001646566e-05,
+              0.00012058885543885099
+            ],
+            "point_estimate": 7.272189047797957e-05
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.672293521779172e-05,
+              -2.1488369300468263e-05
+            ],
+            "point_estimate": -3.347192497939069e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00036715547968198123,
+              0.0005819140344060534
+            ],
+            "point_estimate": 0.0004729976490539476
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00016036688632989677,
+              0.0003314450896661649
+            ],
+            "point_estimate": 0.0002461565785648778
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00027103066269387976,
+              -0.00018957553968223186
+            ],
+            "point_estimate": -0.00022684107048906977
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000516615870185887,
+              0.0007839863382046102
+            ],
+            "point_estimate": 0.0006493738917498919
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00017000329336922323,
+              0.00040440025806772297
+            ],
+            "point_estimate": 0.00028586505589066807
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00042312511791936204,
+              -0.0003084561387520086
+            ],
+            "point_estimate": -0.0003635088358592238
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    },
+    "BTCUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0001658518103723134,
+              0.0003578804669313805
+            ],
+            "point_estimate": 0.00025765535194768565
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00010426306568721618,
+              0.00028584481236481235
+            ],
+            "point_estimate": 0.00018994252644987885
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -8.423303829633716e-05,
+              -5.0914414094201366e-05
+            ],
+            "point_estimate": -6.771282549780678e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0002584612180083055,
+              0.0005053259162750661
+            ],
+            "point_estimate": 0.00037834069718475823
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00015014157350220895,
+              0.0003900309004813009
+            ],
+            "point_estimate": 0.00026683743692680877
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00013881558627612184,
+              -8.512631572547647e-05
+            ],
+            "point_estimate": -0.00011150326025794946
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              6.338020876973382e-05,
+              0.0001826618824454516
+            ],
+            "point_estimate": 0.00011685218992897367
+          },
+          "total_covariance": {
+            "ci95": [
+              4.300524466985156e-05,
+              0.00016000593788721303
+            ],
+            "point_estimate": 9.420620164588059e-05
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -2.834230198185915e-05,
+              -1.7045127233648507e-05
+            ],
+            "point_estimate": -2.26459882830931e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00035785234768425506,
+              0.0006543771536225507
+            ],
+            "point_estimate": 0.0005040357558238737
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00018853383468630847,
+              0.0004747757650999102
+            ],
+            "point_estimate": 0.00033126622510317827
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00020747405362458126,
+              -0.00013925285246450456
+            ],
+            "point_estimate": -0.00017276953072069528
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005081856941717247,
+              0.0008426245672014183
+            ],
+            "point_estimate": 0.0006700211702384809
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002216324219326895,
+              0.0005417029851248871
+            ],
+            "point_estimate": 0.00038036529306438376
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00032257378997789716,
+              -0.0002572792134627265
+            ],
+            "point_estimate": -0.00028965587717409713
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    },
+    "ETHUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00028644616125108517,
+              0.00045116616747376757
+            ],
+            "point_estimate": 0.0003728313524235822
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002036695636089359,
+              0.0003458513803541502
+            ],
+            "point_estimate": 0.00028041333829189653
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00012411382396436012,
+              -6.134915187896673e-05
+            ],
+            "point_estimate": -9.241801413168566e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00041988651495599306,
+              0.0006490997075663595
+            ],
+            "point_estimate": 0.0005401819941407007
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00027265082431231994,
+              0.00046635895513633796
+            ],
+            "point_estimate": 0.0003747794158159501
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00020148811063458729,
+              -0.00012901324900864027
+            ],
+            "point_estimate": -0.0001654025783247507
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00011925674957339155,
+              0.00020469444540986438
+            ],
+            "point_estimate": 0.00016423806418374673
+          },
+          "total_covariance": {
+            "ci95": [
+              8.836852270497283e-05,
+              0.00017128233510142076
+            ],
+            "point_estimate": 0.00013146431030557537
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -5.022349729522759e-05,
+              -1.7273182138720615e-05
+            ],
+            "point_estimate": -3.2773753878171375e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005276212156147998,
+              0.0007931761442958902
+            ],
+            "point_estimate": 0.0006696334112278815
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00030412017422210295,
+              0.0005415085018200984
+            ],
+            "point_estimate": 0.0004277123265727547
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0002816674136692793,
+              -0.00020192109577648774
+            ],
+            "point_estimate": -0.0002419210846551268
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005952944861066141,
+              0.0009814076968848477
+            ],
+            "point_estimate": 0.0008027524984328329
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00018735791678309494,
+              0.0005691526742223624
+            ],
+            "point_estimate": 0.0003854936652068502
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0004664703816846045,
+              -0.0003682520464032725
+            ],
+            "point_estimate": -0.00041725883322598245
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    },
+    "SOLUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0003515938697551868,
+              0.0005470190991368012
+            ],
+            "point_estimate": 0.00044005727491134054
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00015848619784442834,
+              0.0003693424578553086
+            ],
+            "point_estimate": 0.0002532103877930646
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00022241114825408324,
+              -0.00015182026354635877
+            ],
+            "point_estimate": -0.00018684688711827574
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005286425652758184,
+              0.0007283351159152959
+            ],
+            "point_estimate": 0.0006230521115649225
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002125250849525669,
+              0.0004420150535018669
+            ],
+            "point_estimate": 0.0003201747451262479
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0003568433502034132,
+              -0.00025181601835774667
+            ],
+            "point_estimate": -0.0003028773664386746
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00015187101678297736,
+              0.00031274187882790596
+            ],
+            "point_estimate": 0.00022358310752118942
+          },
+          "total_covariance": {
+            "ci95": [
+              8.138162561467225e-05,
+              0.0002516399139507548
+            ],
+            "point_estimate": 0.00015738810160837886
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -9.042964546688976e-05,
+              -4.7640998671326386e-05
+            ],
+            "point_estimate": -6.619500591281066e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006833702605204828,
+              0.0008808021922849048
+            ],
+            "point_estimate": 0.000778636459937403
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002751173293561246,
+              0.0005075822623836668
+            ],
+            "point_estimate": 0.000387228821500186
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.000441864240914454,
+              -0.0003383110419709685
+            ],
+            "point_estimate": -0.000391407638437217
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0007984871889048463,
+              0.0010614142426273187
+            ],
+            "point_estimate": 0.0009214148376119794
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002498087994407185,
+              0.0005303710642564331
+            ],
+            "point_estimate": 0.0003861698849816629
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0006015454971187177,
+              -0.0004634051580498511
+            ],
+            "point_estimate": -0.0005352449526303167
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    },
+    "XRPUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0002832518157894962,
+              0.0005462325965666273
+            ],
+            "point_estimate": 0.0004070562944039882
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0001644374762699288,
+              0.000415651880206129
+            ],
+            "point_estimate": 0.0002755641690385593
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00016657724819509428,
+              -0.00010348690538672188
+            ],
+            "point_estimate": -0.00013149212536542898
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0004188816952536211,
+              0.0007540451032810117
+            ],
+            "point_estimate": 0.0005734776793891209
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00022575063503519675,
+              0.0005585553638626657
+            ],
+            "point_estimate": 0.0003776498927416536
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00024194334736465806,
+              -0.00015753722164613967
+            ],
+            "point_estimate": -0.00019582778664746744
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00012284036891120826,
+              0.00027544101592151147
+            ],
+            "point_estimate": 0.0001930788828109537
+          },
+          "total_covariance": {
+            "ci95": [
+              8.862962221753342e-05,
+              0.00023146512136519248
+            ],
+            "point_estimate": 0.00015364636450888704
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.9173356906554155e-05,
+              -2.9332793991861167e-05
+            ],
+            "point_estimate": -3.9432518302066655e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005560495031515019,
+              0.0009450187540297134
+            ],
+            "point_estimate": 0.000734275694706487
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002717734205977492,
+              0.0006335653275712956
+            ],
+            "point_estimate": 0.0004380467388783225
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00035962079897422847,
+              -0.00024413899735993355
+            ],
+            "point_estimate": -0.0002962289558281646
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006856867636526357,
+              0.0011295674497414604
+            ],
+            "point_estimate": 0.0008952341486905068
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00022215581990290092,
+              0.0006010485753602354
+            ],
+            "point_estimate": 0.0004037315810979965
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.000573447987285484,
+              -0.00041448424198767015
+            ],
+            "point_estimate": -0.0004915025675925103
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    },
+    "pooled": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0002787558017105596,
+              0.00041551611706549494
+            ],
+            "point_estimate": 0.0003454713683952466
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00017244969949741727,
+              0.0002974529825529019
+            ],
+            "point_estimate": 0.00023220376928784
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00012871116207073918,
+              -9.811662911679064e-05
+            ],
+            "point_estimate": -0.00011326759910740667
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0004129415184770981,
+              0.0005854032806205629
+            ],
+            "point_estimate": 0.0004992786713508059
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00023702403283135231,
+              0.0003928206688172547
+            ],
+            "point_estimate": 0.00031455608325563466
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00020672212500184403,
+              -0.00016228306188058021
+            ],
+            "point_estimate": -0.00018472258809517126
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00012366800893374058,
+              0.00020575732281196497
+            ],
+            "point_estimate": 0.00016249328036655792
+          },
+          "total_covariance": {
+            "ci95": [
+              8.735147129435002e-05,
+              0.00016713261302905185
+            ],
+            "point_estimate": 0.00012392177643399377
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.854376187017325e-05,
+              -3.0658154026527356e-05
+            ],
+            "point_estimate": -3.8571503932564196e-05
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000540315751567597,
+              0.0007306431698546929
+            ],
+            "point_estimate": 0.0006364841721854609
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002928724547939788,
+              0.0004502983191774154
+            ],
+            "point_estimate": 0.0003724888078393969
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0002923347699010193,
+              -0.0002359176348234976
+            ],
+            "point_estimate": -0.0002639953643460639
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006956545614897355,
+              0.0008897923431926757
+            ],
+            "point_estimate": 0.000792981353258485
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002901189540767139,
+              0.00046367516148452246
+            ],
+            "point_estimate": 0.0003758605860071034
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00045407314373476605,
+              -0.0003798151185684157
+            ],
+            "point_estimate": -0.0004171207672513814
+          }
+        },
+        "construction": "whole_utc_calendar_month_trade_clusters_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month_cluster_of_whole_trades"
+      }
+    }
+  },
+  "causal_adjustment_definition": {
+    "causal_contemporaneous_only": true,
+    "causal_proof": false,
+    "controls": [
+      "elapsed_minutes",
+      "current_return_from_entry"
+    ],
+    "current_return_from_entry": "current C20 executable open at t / frozen entry price - 1",
+    "elapsed_minutes": "(state_ms-entry_ms)/60000",
+    "exposure": "frozen C9 p_t2",
+    "method": "within-trade fixed-effects weighted OLS / Frisch-Waugh residualization",
+    "outcome": "each frozen C20 DELTA_LIQ target",
+    "prohibited_variables": [
+      "future terminal distance",
+      "future event proximity",
+      "eventual outcome class",
+      "future MFE/MAE",
+      "future P0 return",
+      "full-trajectory trade means"
+    ]
+  },
+  "causal_adjustment_results": {
+    "DELTA_LIQ_15": {
+      "absolute_covariance_change": 0.00011318702276318841,
+      "adjusted_p_t2_coefficient": -7.730725233354887e-06,
+      "adjusted_residual_covariance": -8.057634421826705e-08,
+      "adjusted_to_unadjusted_magnitude_ratio": 0.0007113803493076608,
+      "descriptive_material_change": true,
+      "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+      "sign_change": false,
+      "unadjusted_within_trade_covariance": -0.00011326759910740668
+    },
+    "DELTA_LIQ_30": {
+      "absolute_covariance_change": 0.00018217127525506726,
+      "adjusted_p_t2_coefficient": -0.000244780260788848,
+      "adjusted_residual_covariance": -2.551312840103956e-06,
+      "adjusted_to_unadjusted_magnitude_ratio": 0.013811591026374588,
+      "descriptive_material_change": true,
+      "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+      "sign_change": false,
+      "unadjusted_within_trade_covariance": -0.0001847225880951712
+    },
+    "DELTA_LIQ_5": {
+      "absolute_covariance_change": 3.968845057719622e-05,
+      "adjusted_p_t2_coefficient": 0.0001071630599989874,
+      "adjusted_residual_covariance": 1.1169466446320133e-06,
+      "adjusted_to_unadjusted_magnitude_ratio": 0.028957819393944477,
+      "descriptive_material_change": true,
+      "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+      "sign_change": true,
+      "unadjusted_within_trade_covariance": -3.85715039325642e-05
+    },
+    "DELTA_LIQ_60": {
+      "absolute_covariance_change": 0.0002605225203853777,
+      "adjusted_p_t2_coefficient": -0.00033319459574432446,
+      "adjusted_residual_covariance": -3.472843960686195e-06,
+      "adjusted_to_unadjusted_magnitude_ratio": 0.0131549429638232,
+      "descriptive_material_change": true,
+      "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+      "sign_change": false,
+      "unadjusted_within_trade_covariance": -0.0002639953643460639
+    },
+    "DELTA_LIQ_EVENT": {
+      "absolute_covariance_change": 0.0004171207672513813,
+      "adjusted_p_t2_coefficient": -9.057318982663717e-18,
+      "adjusted_residual_covariance": -6.387279358415369e-20,
+      "adjusted_to_unadjusted_magnitude_ratio": 1.531278195642084e-16,
+      "descriptive_material_change": true,
+      "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+      "sign_change": false,
+      "unadjusted_within_trade_covariance": -0.00041712076725138134
+    }
+  },
+  "confirmations": {
+    "accessed_2026": false,
+    "c22_started": false,
+    "c7_c20_scientific_behavior_modified": false,
+    "exit_policy_defined_or_evaluated": false,
+    "future_diagnostic_promoted_to_predictor": false,
+    "horizon_selected_or_ranked": false,
+    "model_trained_or_recalibrated": false,
+    "pnl_optimized": false
+  },
+  "contract_sha256": "ba6158c4f3c58509cc67156833403b78db6d4e1dd53f5e33443197aa4323da98",
+  "correlations": {
+    "DELTA_LIQ_15": {
+      "pooled_correlation": 0.21649678437878522,
+      "trade_mean_correlation": 0.6123265333294245,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.317883493827081,
+        "median": -0.3062854054590201,
+        "p10": -0.755625902435559,
+        "p90": 0.08071233376285912
+      }
+    },
+    "DELTA_LIQ_30": {
+      "pooled_correlation": 0.2245336649716529,
+      "trade_mean_correlation": 0.6022467701255902,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.4427450519728287,
+        "median": -0.4561035123599403,
+        "p10": -0.8861634955216051,
+        "p90": 0.023878902144774113
+      }
+    },
+    "DELTA_LIQ_5": {
+      "pooled_correlation": 0.1866724851471958,
+      "trade_mean_correlation": 0.5233571035443451,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.1819467886451953,
+        "median": -0.17747416492625545,
+        "p10": -0.5075027944925111,
+        "p90": 0.11974281739486614
+      }
+    },
+    "DELTA_LIQ_60": {
+      "pooled_correlation": 0.2133126870118666,
+      "trade_mean_correlation": 0.5600374738889755,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.5822137824570133,
+        "median": -0.6447835650782209,
+        "p10": -0.9417707090473261,
+        "p90": -0.1036742319585285
+      }
+    },
+    "DELTA_LIQ_EVENT": {
+      "pooled_correlation": 0.15518341915992925,
+      "trade_mean_correlation": 0.43636811646053386,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.8684671105750046,
+        "median": -0.9016102051757591,
+        "p10": -0.9598916898088516,
+        "p90": -0.7518592788510247
+      }
+    },
+    "statement": "Average per-trade correlation is not the within-trade covariance component and cannot be averaged to reconstruct pooled correlation. Covariance decomposes additively under common centering; correlations use different variance normalizations."
+  },
+  "covariance_identity": {
+    "between": "population covariance over equally weighted trade means",
+    "identity": "Cov_total(p,V) = Cov_between(pbar_i,Vbar_i) + E_i[Cov_within_i(p_it,V_it)]",
+    "tolerance": 1e-15,
+    "within_mean": "arithmetic mean over each trade's eligible snapshots"
+  },
+  "diagnostic_trade_means": {
+    "full_trajectory": true,
+    "live_feature_schema": [],
+    "prohibition": "pbar_i and Vbar_i use full observed trajectories and must never be predictors or production features.",
+    "role": "DIAGNOSTIC_ONLY_NOT_A_LIVE_FEATURE"
+  },
+  "frozen_interpretation": {
+    "DELTA_LIQ_15": {
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "explanatory_only": true,
+      "policy_value_implied": false
+    },
+    "DELTA_LIQ_30": {
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "explanatory_only": true,
+      "policy_value_implied": false
+    },
+    "DELTA_LIQ_5": {
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "explanatory_only": true,
+      "policy_value_implied": false
+    },
+    "DELTA_LIQ_60": {
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "explanatory_only": true,
+      "policy_value_implied": false
+    },
+    "DELTA_LIQ_EVENT": {
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "explanatory_only": true,
+      "policy_value_implied": false
+    }
+  },
+  "limitations": [
+    "observed association, not an exit advantage, causal effect, policy profitability, or deployable predictive value",
+    "future liquidation targets are evaluation-only",
+    "symbol cells may have limited trade support"
+  ],
+  "pooled": {
+    "DELTA_LIQ_15": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0003454713683952466,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.21649678437878522,
+      "reconstruction_residual": 4.0657581468206416e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 56217,
+      "total_covariance": 0.00023220376928784,
+      "trade_mean_correlation": 0.6123265333294245,
+      "trades": 1610,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.317883493827081,
+        "median": -0.3062854054590201,
+        "p10": -0.755625902435559,
+        "p90": 0.08071233376285912
+      },
+      "within_trade_covariance_component": -0.00011326759910740667
+    },
+    "DELTA_LIQ_30": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0004992786713508059,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.2245336649716529,
+      "reconstruction_residual": 0.0,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 56217,
+      "total_covariance": 0.00031455608325563466,
+      "trade_mean_correlation": 0.6022467701255902,
+      "trades": 1610,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.4427450519728287,
+        "median": -0.4561035123599403,
+        "p10": -0.8861634955216051,
+        "p90": 0.023878902144774113
+      },
+      "within_trade_covariance_component": -0.00018472258809517126
+    },
+    "DELTA_LIQ_5": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.00016249328036655792,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.1866724851471958,
+      "reconstruction_residual": 4.0657581468206416e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 56217,
+      "total_covariance": 0.00012392177643399377,
+      "trade_mean_correlation": 0.5233571035443451,
+      "trades": 1610,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.1819467886451953,
+        "median": -0.17747416492625545,
+        "p10": -0.5075027944925111,
+        "p90": 0.11974281739486614
+      },
+      "within_trade_covariance_component": -3.8571503932564196e-05
+    },
+    "DELTA_LIQ_60": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.0006364841721854609,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.2133126870118666,
+      "reconstruction_residual": -5.421010862427522e-20,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 56217,
+      "total_covariance": 0.0003724888078393969,
+      "trade_mean_correlation": 0.5600374738889755,
+      "trades": 1610,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.5822137824570133,
+        "median": -0.6447835650782209,
+        "p10": -0.9417707090473261,
+        "p90": -0.1036742319585285
+      },
+      "within_trade_covariance_component": -0.0002639953643460639
+    },
+    "DELTA_LIQ_EVENT": {
+      "between_share_of_total": null,
+      "between_trade_covariance": 0.000792981353258485,
+      "classification": "BETWEEN_DOMINANT_POSITIVE",
+      "pooled_correlation": 0.15518341915992925,
+      "reconstruction_residual": -1.6263032587282567e-19,
+      "share_note": "not forced because total is near zero or component signs oppose",
+      "snapshots": 56217,
+      "total_covariance": 0.0003758605860071034,
+      "trade_mean_correlation": 0.43636811646053386,
+      "trades": 1610,
+      "within_share_of_total": null,
+      "within_trade_correlations": {
+        "eligible_trades": 1572,
+        "mean": -0.8684671105750046,
+        "median": -0.9016102051757591,
+        "p10": -0.9598916898088516,
+        "p90": -0.7518592788510247
+      },
+      "within_trade_covariance_component": -0.0004171207672513814
+    }
+  },
+  "symbols": {
+    "BNBUSDT": {
+      "DELTA_LIQ_15": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00023634219259962227,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.17658318747813642,
+        "reconstruction_residual": -4.0657581468206416e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 12948,
+        "total_covariance": 0.00014353005848449804,
+        "trade_mean_correlation": 0.628269681134058,
+        "trades": 328,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 324,
+          "mean": -0.3233829688117916,
+          "median": -0.2973186439564235,
+          "p10": -0.7440944879206766,
+          "p90": 0.0555994773719352
+        },
+        "within_trade_covariance_component": -9.281213411512419e-05
+      },
+      "DELTA_LIQ_30": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00036408825950112386,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.19057550383746705,
+        "reconstruction_residual": -2.710505431213761e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 12948,
+        "total_covariance": 0.00020846475937958444,
+        "trade_mean_correlation": 0.6014729146129928,
+        "trades": 328,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 324,
+          "mean": -0.44900282884447335,
+          "median": -0.45756498926785083,
+          "p10": -0.8750507729937743,
+          "p90": -0.030154380366353508
+        },
+        "within_trade_covariance_component": -0.0001556235001215394
+      },
+      "DELTA_LIQ_5": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00010619381545737027,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.1498980415196358,
+        "reconstruction_residual": -6.776263578034403e-21,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 12948,
+        "total_covariance": 7.272189047797957e-05,
+        "trade_mean_correlation": 0.5544864290241133,
+        "trades": 328,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 324,
+          "mean": -0.20683633665463422,
+          "median": -0.18887480587305852,
+          "p10": -0.5290610277881594,
+          "p90": 0.041442134920687546
+        },
+        "within_trade_covariance_component": -3.347192497939069e-05
+      },
+      "DELTA_LIQ_60": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0004729976490539476,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.18275456526386938,
+        "reconstruction_residual": -2.710505431213761e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 12948,
+        "total_covariance": 0.0002461565785648778,
+        "trade_mean_correlation": 0.5768132486988982,
+        "trades": 328,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 324,
+          "mean": -0.5796367587926107,
+          "median": -0.6325820853802695,
+          "p10": -0.9346588141766448,
+          "p90": -0.15391114314924717
+        },
+        "within_trade_covariance_component": -0.00022684107048906977
+      },
+      "DELTA_LIQ_EVENT": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0006493738917498919,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.14815691769888392,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 12948,
+        "total_covariance": 0.00028586505589066807,
+        "trade_mean_correlation": 0.4516463271232928,
+        "trades": 328,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 324,
+          "mean": -0.8685391774625763,
+          "median": -0.9053785807494306,
+          "p10": -0.9623272695954895,
+          "p90": -0.7472687586753728
+        },
+        "within_trade_covariance_component": -0.0003635088358592238
+      }
+    },
+    "BTCUSDT": {
+      "DELTA_LIQ_15": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00025765535194768565,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.24661144387420955,
+        "reconstruction_residual": -1.3552527156068805e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 14122,
+        "total_covariance": 0.00018994252644987885,
+        "trade_mean_correlation": 0.5851661396240436,
+        "trades": 335,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 333,
+          "mean": -0.3217705898300289,
+          "median": -0.2978442087630724,
+          "p10": -0.7449553853973306,
+          "p90": 0.05726298160286978
+        },
+        "within_trade_covariance_component": -6.771282549780678e-05
+      },
+      "DELTA_LIQ_30": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00037834069718475823,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.2641067476061728,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 14122,
+        "total_covariance": 0.00026683743692680877,
+        "trade_mean_correlation": 0.5983749089734131,
+        "trades": 335,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 333,
+          "mean": -0.42244261574350883,
+          "median": -0.42856782127106197,
+          "p10": -0.8467176009567811,
+          "p90": -0.0038047590979081508
+        },
+        "within_trade_covariance_component": -0.00011150326025794946
+      },
+      "DELTA_LIQ_5": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00011685218992897367,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.19659350963761046,
+        "reconstruction_residual": 1.6940658945086007e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 14122,
+        "total_covariance": 9.420620164588059e-05,
+        "trade_mean_correlation": 0.46753403616799666,
+        "trades": 335,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 333,
+          "mean": -0.18482710419885018,
+          "median": -0.17870715983202445,
+          "p10": -0.5005537257768568,
+          "p90": 0.1204384877244047
+        },
+        "within_trade_covariance_component": -2.26459882830931e-05
+      },
+      "DELTA_LIQ_60": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0005040357558238737,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.2564528962636058,
+        "reconstruction_residual": -1.0842021724855044e-19,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 14122,
+        "total_covariance": 0.00033126622510317827,
+        "trade_mean_correlation": 0.569750217198815,
+        "trades": 335,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 333,
+          "mean": -0.5568986696398102,
+          "median": -0.590951850220951,
+          "p10": -0.9296815741184995,
+          "p90": -0.05217629752520821
+        },
+        "within_trade_covariance_component": -0.00017276953072069528
+      },
+      "DELTA_LIQ_EVENT": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0006700211702384809,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.2125197118935644,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 14122,
+        "total_covariance": 0.00038036529306438376,
+        "trade_mean_correlation": 0.4821515809977093,
+        "trades": 335,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 333,
+          "mean": -0.860516172636661,
+          "median": -0.894976120095751,
+          "p10": -0.9547614156300797,
+          "p90": -0.7413965557729735
+        },
+        "within_trade_covariance_component": -0.00028965587717409713
+      }
+    },
+    "ETHUSDT": {
+      "DELTA_LIQ_15": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0003728313524235822,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.2555712454373303,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10514,
+        "total_covariance": 0.00028041333829189653,
+        "trade_mean_correlation": 0.6420839498772422,
+        "trades": 320,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 311,
+          "mean": -0.26651699669594153,
+          "median": -0.29326209962421124,
+          "p10": -0.6917628032443389,
+          "p90": 0.22774039015840147
+        },
+        "within_trade_covariance_component": -9.241801413168566e-05
+      },
+      "DELTA_LIQ_30": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0005401819941407007,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.25951631880717224,
+        "reconstruction_residual": 1.0842021724855044e-19,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10514,
+        "total_covariance": 0.0003747794158159501,
+        "trade_mean_correlation": 0.6307602435728344,
+        "trades": 320,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 311,
+          "mean": -0.40445963350750597,
+          "median": -0.4340009587860701,
+          "p10": -0.8640871532816915,
+          "p90": 0.09475825348958004
+        },
+        "within_trade_covariance_component": -0.0001654025783247507
+      },
+      "DELTA_LIQ_5": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00016423806418374673,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.20302784103410185,
+        "reconstruction_residual": 1.3552527156068805e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10514,
+        "total_covariance": 0.00013146431030557537,
+        "trade_mean_correlation": 0.6177491558856926,
+        "trades": 320,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 311,
+          "mean": -0.15639467459209272,
+          "median": -0.16556498873505968,
+          "p10": -0.4914217209691065,
+          "p90": 0.21209816626830552
+        },
+        "within_trade_covariance_component": -3.2773753878171375e-05
+      },
+      "DELTA_LIQ_60": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0006696334112278815,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.23925506965633347,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10514,
+        "total_covariance": 0.0004277123265727547,
+        "trade_mean_correlation": 0.5812411541111958,
+        "trades": 320,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 311,
+          "mean": -0.5526693247762491,
+          "median": -0.6062069711732818,
+          "p10": -0.9417631706820865,
+          "p90": -0.031112211180544077
+        },
+        "within_trade_covariance_component": -0.0002419210846551268
+      },
+      "DELTA_LIQ_EVENT": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0008027524984328329,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.14734719065208912,
+        "reconstruction_residual": -2.168404344971009e-19,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10514,
+        "total_covariance": 0.0003854936652068502,
+        "trade_mean_correlation": 0.40431608538621716,
+        "trades": 320,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 311,
+          "mean": -0.8559526283570771,
+          "median": -0.8930541752885596,
+          "p10": -0.9555337169252918,
+          "p90": -0.7158501178449723
+        },
+        "within_trade_covariance_component": -0.00041725883322598245
+      }
+    },
+    "SOLUSDT": {
+      "DELTA_LIQ_15": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00044005727491134054,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.17860327795852807,
+        "reconstruction_residual": -1.8973538018496328e-19,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 8249,
+        "total_covariance": 0.0002532103877930646,
+        "trade_mean_correlation": 0.5895833593324776,
+        "trades": 311,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 299,
+          "mean": -0.3619300301262061,
+          "median": -0.3296922717532235,
+          "p10": -0.7894784003992696,
+          "p90": 0.009530325623402941
+        },
+        "within_trade_covariance_component": -0.00018684688711827574
+      },
+      "DELTA_LIQ_30": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0006230521115649225,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.17865409364764784,
+        "reconstruction_residual": 5.421010862427522e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 8249,
+        "total_covariance": 0.0003201747451262479,
+        "trade_mean_correlation": 0.5915778531590453,
+        "trades": 311,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 299,
+          "mean": -0.5000794183093484,
+          "median": -0.5027281477829569,
+          "p10": -0.9175361390429242,
+          "p90": -0.05506630238185886
+        },
+        "within_trade_covariance_component": -0.0003028773664386746
+      },
+      "DELTA_LIQ_5": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00022358310752118942,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.16650190427270073,
+        "reconstruction_residual": 9.486769009248164e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 8249,
+        "total_covariance": 0.00015738810160837886,
+        "trade_mean_correlation": 0.4575020038488774,
+        "trades": 311,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 299,
+          "mean": -0.19601467083578247,
+          "median": -0.18368677014194437,
+          "p10": -0.5361845182075374,
+          "p90": 0.07185636504497599
+        },
+        "within_trade_covariance_component": -6.619500591281066e-05
+      },
+      "DELTA_LIQ_60": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.000778636459937403,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.18360370930657358,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 8249,
+        "total_covariance": 0.000387228821500186,
+        "trade_mean_correlation": 0.5758491747473106,
+        "trades": 311,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 299,
+          "mean": -0.6426270015201988,
+          "median": -0.7248226902169809,
+          "p10": -0.9543577363598061,
+          "p90": -0.22330454483670362
+        },
+        "within_trade_covariance_component": -0.000391407638437217
+      },
+      "DELTA_LIQ_EVENT": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0009214148376119794,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.14266833142020519,
+        "reconstruction_residual": 2.168404344971009e-19,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 8249,
+        "total_covariance": 0.0003861698849816629,
+        "trade_mean_correlation": 0.46982201321889966,
+        "trades": 311,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 299,
+          "mean": -0.8805071577441198,
+          "median": -0.9079456450570678,
+          "p10": -0.9688846463218582,
+          "p90": -0.7738158093465489
+        },
+        "within_trade_covariance_component": -0.0005352449526303167
+      }
+    },
+    "XRPUSDT": {
+      "DELTA_LIQ_15": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0004070562944039882,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.22437163245341915,
+        "reconstruction_residual": 8.131516293641283e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10384,
+        "total_covariance": 0.0002755641690385593,
+        "trade_mean_correlation": 0.6492670744851053,
+        "trades": 316,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 305,
+          "mean": -0.31699442297566455,
+          "median": -0.31295451434485766,
+          "p10": -0.792044930425839,
+          "p90": 0.11736071707386786
+        },
+        "within_trade_covariance_component": -0.00013149212536542898
+      },
+      "DELTA_LIQ_30": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0005734776793891209,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.23248105261882868,
+        "reconstruction_residual": 1.3552527156068805e-19,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10384,
+        "total_covariance": 0.0003776498927416536,
+        "trade_mean_correlation": 0.6089671358675566,
+        "trades": 316,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 305,
+          "mean": -0.44109580989429337,
+          "median": -0.4412588502322479,
+          "p10": -0.8968114931300458,
+          "p90": 0.052530164988431174
+        },
+        "within_trade_covariance_component": -0.00019582778664746744
+      },
+      "DELTA_LIQ_5": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0001930788828109537,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.21045734175938846,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10384,
+        "total_covariance": 0.00015364636450888704,
+        "trade_mean_correlation": 0.6396489989331234,
+        "trades": 316,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 305,
+          "mean": -0.16462564786192996,
+          "median": -0.17071635365251045,
+          "p10": -0.492081453510662,
+          "p90": 0.16458179549256638
+        },
+        "within_trade_covariance_component": -3.9432518302066655e-05
+      },
+      "DELTA_LIQ_60": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.000734275694706487,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.2050537662293683,
+        "reconstruction_residual": 5.421010862427522e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10384,
+        "total_covariance": 0.0004380467388783225,
+        "trade_mean_correlation": 0.5288089392090155,
+        "trades": 316,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 305,
+          "mean": -0.583491363028227,
+          "median": -0.6815126784429197,
+          "p10": -0.9521930311188638,
+          "p90": -0.0511316302498594
+        },
+        "within_trade_covariance_component": -0.0002962289558281646
+      },
+      "DELTA_LIQ_EVENT": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0008952341486905068,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.1356226629728882,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 10384,
+        "total_covariance": 0.0004037315810979965,
+        "trade_mean_correlation": 0.4076019563610426,
+        "trades": 316,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 305,
+          "mean": -0.8780288893556778,
+          "median": -0.9012240395936657,
+          "p10": -0.9617151099315403,
+          "p90": -0.7814535279849053
+        },
+        "within_trade_covariance_component": -0.0004915025675925103
+      }
+    }
+  },
+  "trade_bootstrap": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00026792336123826943,
+              0.0003795211120685308
+            ],
+            "point_estimate": 0.00032337030433474855
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0001451429946009178,
+              0.00026175706131937183
+            ],
+            "point_estimate": 0.00020258159050343927
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00014248490766160556,
+              -9.99734848507199e-05
+            ],
+            "point_estimate": -0.00012078871383130927
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0003995895554690955,
+              0.0005505351326565901
+            ],
+            "point_estimate": 0.00047555834670091413
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00019966384942426502,
+              0.0003590931478957128
+            ],
+            "point_estimate": 0.0002777154119153927
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0002286797353261101,
+              -0.00016722919288080084
+            ],
+            "point_estimate": -0.0001978429347855215
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00011245456954656555,
+              0.00017213408569436553
+            ],
+            "point_estimate": 0.0001413354096627386
+          },
+          "total_covariance": {
+            "ci95": [
+              7.316592685342278e-05,
+              0.00013670968458750623
+            ],
+            "point_estimate": 0.00010440403958420812
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.523609319837182e-05,
+              -2.881935960748669e-05
+            ],
+            "point_estimate": -3.693137007853047e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005184577334252415,
+              0.0007056616642198511
+            ],
+            "point_estimate": 0.0006137109739610733
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002465369535820734,
+              0.00044096204058987595
+            ],
+            "point_estimate": 0.0003405423164609543
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00030740808127311075,
+              -0.00023691227644088078
+            ],
+            "point_estimate": -0.00027316865750011903
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006518042554963771,
+              0.0008906830097959049
+            ],
+            "point_estimate": 0.0007739628469239513
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00020854166882704203,
+              0.00045024363651042154
+            ],
+            "point_estimate": 0.00033270256144262794
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00048584308993359536,
+              -0.0004002621244073827
+            ],
+            "point_estimate": -0.0004412602854813234
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00030553158121737577,
+              0.0004087210393846508
+            ],
+            "point_estimate": 0.00035491607821720755
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00019380181551511484,
+              0.0003010309935753181
+            ],
+            "point_estimate": 0.00024526719392176143
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00012370176278303437,
+              -9.646749860907255e-05
+            ],
+            "point_estimate": -0.00010964888429544617
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00044959910684145996,
+              0.0005722272749062056
+            ],
+            "point_estimate": 0.0005089774994389471
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002702495516951865,
+              0.0003942940577961622
+            ],
+            "point_estimate": 0.0003305676448479646
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00019778070927121684,
+              -0.0001600315885790528
+            ],
+            "point_estimate": -0.00017840985459098246
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00013635862878052518,
+              0.00021266586192438634
+            ],
+            "point_estimate": 0.0001719922433342656
+          },
+          "total_covariance": {
+            "ci95": [
+              9.469604742835806e-05,
+              0.00017320559771633604
+            ],
+            "point_estimate": 0.0001326316041619041
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.898944545048437e-05,
+              -3.0636524509667195e-05
+            ],
+            "point_estimate": -3.9360639172361464e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005776909414750531,
+              0.0007143762938075051
+            ],
+            "point_estimate": 0.0006444128894898924
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0003157300712564494,
+              0.0004544601100332207
+            ],
+            "point_estimate": 0.0003848311703320261
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00028154779688465266,
+              -0.0002388373448928932
+            ],
+            "point_estimate": -0.0002595817191578663
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000725584163088108,
+              0.0008829524767658065
+            ],
+            "point_estimate": 0.0008050973922480922
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0003139587725877275,
+              0.00048275519218438936
+            ],
+            "point_estimate": 0.00039959113100798926
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0004332494574035276,
+              -0.0003806622636625168
+            ],
+            "point_estimate": -0.000405506261240103
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "BNBUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00017622276252608567,
+              0.00030412767483446523
+            ],
+            "point_estimate": 0.00023634219259962227
+          },
+          "total_covariance": {
+            "ci95": [
+              8.24052834031902e-05,
+              0.00021138876975225826
+            ],
+            "point_estimate": 0.00014353005848449804
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00011383847671752634,
+              -7.460990569597563e-05
+            ],
+            "point_estimate": -9.281213411512419e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0002852074278456246,
+              0.0004551560043212404
+            ],
+            "point_estimate": 0.00036408825950112386
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00012940660206265056,
+              0.000301045919444151
+            ],
+            "point_estimate": 0.00020846475937958444
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00018339401731009625,
+              -0.0001302967432033861
+            ],
+            "point_estimate": -0.0001556235001215394
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              6.894920557606986e-05,
+              0.00015341223288177708
+            ],
+            "point_estimate": 0.00010619381545737027
+          },
+          "total_covariance": {
+            "ci95": [
+              3.317291350744133e-05,
+              0.00011972544582783285
+            ],
+            "point_estimate": 7.272189047797957e-05
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.8123053920400676e-05,
+              -2.282028736948471e-05
+            ],
+            "point_estimate": -3.347192497939069e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00038221164487293807,
+              0.0005758210988681409
+            ],
+            "point_estimate": 0.0004729976490539476
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00015379421813247222,
+              0.0003489262372404377
+            ],
+            "point_estimate": 0.0002461565785648778
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00025842255709357766,
+              -0.0001964295352821934
+            ],
+            "point_estimate": -0.00022684107048906977
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005265034917255978,
+              0.0007739372625813134
+            ],
+            "point_estimate": 0.0006493738917498919
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00015914013127012804,
+              0.0004171361794666411
+            ],
+            "point_estimate": 0.00028586505589066807
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00040263510341517316,
+              -0.0003260658837605453
+            ],
+            "point_estimate": -0.0003635088358592238
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "BTCUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00016873361286507985,
+              0.0003597169420721616
+            ],
+            "point_estimate": 0.00025765535194768565
+          },
+          "total_covariance": {
+            "ci95": [
+              0.000101315587599334,
+              0.00029154101166447953
+            ],
+            "point_estimate": 0.00018994252644987885
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -8.409727645644247e-05,
+              -5.1958402181428636e-05
+            ],
+            "point_estimate": -6.771282549780678e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0002730054091228167,
+              0.0004950098599053461
+            ],
+            "point_estimate": 0.00037834069718475823
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00016495534503001275,
+              0.0003820424647240758
+            ],
+            "point_estimate": 0.00026683743692680877
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0001333894443500568,
+              -9.126105548080313e-05
+            ],
+            "point_estimate": -0.00011150326025794946
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              6.294818797722921e-05,
+              0.00019155861724180428
+            ],
+            "point_estimate": 0.00011685218992897367
+          },
+          "total_covariance": {
+            "ci95": [
+              3.91251523121412e-05,
+              0.0001698959611781466
+            ],
+            "point_estimate": 9.420620164588059e-05
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -2.967850507620845e-05,
+              -1.5791900135478824e-05
+            ],
+            "point_estimate": -2.26459882830931e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00038282299468060747,
+              0.0006337230756684317
+            ],
+            "point_estimate": 0.0005040357558238737
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00021551360637902834,
+              0.0004576043826972707
+            ],
+            "point_estimate": 0.00033126622510317827
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00020155320736949155,
+              -0.00014481068097818006
+            ],
+            "point_estimate": -0.00017276953072069528
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005319863154885759,
+              0.0008176799562551165
+            ],
+            "point_estimate": 0.0006700211702384809
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00023945630199374092,
+              0.0005246799676892705
+            ],
+            "point_estimate": 0.00038036529306438376
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0003225325002891489,
+              -0.0002565640234621693
+            ],
+            "point_estimate": -0.00028965587717409713
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "ETHUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0002951775134693652,
+              0.00045307790532614383
+            ],
+            "point_estimate": 0.0003728313524235822
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00020119935652040857,
+              0.0003628715595489774
+            ],
+            "point_estimate": 0.00028041333829189653
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00012045529516942258,
+              -6.609117994062918e-05
+            ],
+            "point_estimate": -9.241801413168566e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00044248711530137,
+              0.0006422677018107682
+            ],
+            "point_estimate": 0.0005401819941407007
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00027367026957297045,
+              0.0004767342419094102
+            ],
+            "point_estimate": 0.0003747794158159501
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0002008266143228606,
+              -0.0001302698876155607
+            ],
+            "point_estimate": -0.0001654025783247507
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00012198001718948036,
+              0.00020815356790986815
+            ],
+            "point_estimate": 0.00016423806418374673
+          },
+          "total_covariance": {
+            "ci95": [
+              8.657286396528275e-05,
+              0.00018070680405936224
+            ],
+            "point_estimate": 0.00013146431030557537
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -5.075955510302029e-05,
+              -1.8523577973217736e-05
+            ],
+            "point_estimate": -3.2773753878171375e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005530444931255382,
+              0.0007822849217245068
+            ],
+            "point_estimate": 0.0006696334112278815
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00030939770709059353,
+              0.0005455137915349831
+            ],
+            "point_estimate": 0.0004277123265727547
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00028392941162243203,
+              -0.00020241659835993668
+            ],
+            "point_estimate": -0.0002419210846551268
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006497135624906621,
+              0.0009476789838231692
+            ],
+            "point_estimate": 0.0008027524984328329
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002223067740530199,
+              0.000539865569917493
+            ],
+            "point_estimate": 0.0003854936652068502
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00047065020246848076,
+              -0.0003688834552818259
+            ],
+            "point_estimate": -0.00041725883322598245
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "SOLUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00034253396835656703,
+              0.0005560089194771351
+            ],
+            "point_estimate": 0.00044005727491134054
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00015032847284604636,
+              0.0003711226172387593
+            ],
+            "point_estimate": 0.0002532103877930646
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00022254055199836387,
+              -0.00015580425774483432
+            ],
+            "point_estimate": -0.00018684688711827574
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005044009229198677,
+              0.0007551289110529594
+            ],
+            "point_estimate": 0.0006230521115649225
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00019175874570281652,
+              0.0004573757331706965
+            ],
+            "point_estimate": 0.0003201747451262479
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0003555354087512339,
+              -0.0002540651647070883
+            ],
+            "point_estimate": -0.0003028773664386746
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0001454440615915575,
+              0.00032731436601031867
+            ],
+            "point_estimate": 0.00022358310752118942
+          },
+          "total_covariance": {
+            "ci95": [
+              7.528982516406905e-05,
+              0.0002641319986073056
+            ],
+            "point_estimate": 0.00015738810160837886
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -9.314434938460389e-05,
+              -4.4877476742226606e-05
+            ],
+            "point_estimate": -6.619500591281066e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006434419318987442,
+              0.0009193545214908941
+            ],
+            "point_estimate": 0.000778636459937403
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002479950319539318,
+              0.0005344284225683276
+            ],
+            "point_estimate": 0.000387228821500186
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0004414269501698951,
+              -0.00034343644730896707
+            ],
+            "point_estimate": -0.000391407638437217
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000756627456008353,
+              0.001072971667253448
+            ],
+            "point_estimate": 0.0009214148376119794
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002098797264796635,
+              0.0005596814102588716
+            ],
+            "point_estimate": 0.0003861698849816629
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0005867016519029247,
+              -0.00048087826381619926
+            ],
+            "point_estimate": -0.0005352449526303167
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "XRPUSDT": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000319554447778326,
+              0.0005016519325095943
+            ],
+            "point_estimate": 0.0004070562944039882
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00017737871096594907,
+              0.0003772073706442519
+            ],
+            "point_estimate": 0.0002755641690385593
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00016176835775019445,
+              -0.00010396766150817814
+            ],
+            "point_estimate": -0.00013149212536542898
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00046550128654433915,
+              0.0006871592681488419
+            ],
+            "point_estimate": 0.0005734776793891209
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00025438756395005074,
+              0.0005068793853467438
+            ],
+            "point_estimate": 0.0003776498927416536
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00023471548649384874,
+              -0.00015492927441690925
+            ],
+            "point_estimate": -0.00019582778664746744
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00013969107347966823,
+              0.00025082625305404235
+            ],
+            "point_estimate": 0.0001930788828109537
+          },
+          "total_covariance": {
+            "ci95": [
+              9.875537435820962e-05,
+              0.0002124448514732494
+            ],
+            "point_estimate": 0.00015364636450888704
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -5.059803807310128e-05,
+              -2.737267545334384e-05
+            ],
+            "point_estimate": -3.9432518302066655e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0006018635268967957,
+              0.0008716175878630497
+            ],
+            "point_estimate": 0.000734275694706487
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002925658321454854,
+              0.0005896073978524918
+            ],
+            "point_estimate": 0.0004380467388783225
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00034796569358376664,
+              -0.00025010866186814566
+            ],
+            "point_estimate": -0.0002962289558281646
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000720505900060475,
+              0.0010826259266552899
+            ],
+            "point_estimate": 0.0008952341486905068
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0002247354992372947,
+              0.0005850394597495714
+            ],
+            "point_estimate": 0.0004037315810979965
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0005576239553546279,
+              -0.00043109732118794074
+            ],
+            "point_estimate": -0.0004915025675925103
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "pooled": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.000307459861364313,
+              0.00038678956402738845
+            ],
+            "point_estimate": 0.0003454713683952466
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00019337321983431576,
+              0.00027529541794800823
+            ],
+            "point_estimate": 0.00023220376928784
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00012496958454402742,
+              -0.00010242506750274696
+            ],
+            "point_estimate": -0.00011326759910740667
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00045305741102177416,
+              0.0005507563639026779
+            ],
+            "point_estimate": 0.0004992786713508059
+          },
+          "total_covariance": {
+            "ci95": [
+              0.00026648386986679077,
+              0.00036822543726192466
+            ],
+            "point_estimate": 0.00031455608325563466
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00020061605771094456,
+              -0.00016972185035566778
+            ],
+            "point_estimate": -0.00018472258809517126
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.00013646565542587853,
+              0.00019256090952894715
+            ],
+            "point_estimate": 0.00016249328036655792
+          },
+          "total_covariance": {
+            "ci95": [
+              9.700767809207163e-05,
+              0.00015569345244871737
+            ],
+            "point_estimate": 0.00012392177643399377
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -4.581071382452038e-05,
+              -3.218606663498244e-05
+            ],
+            "point_estimate": -3.8571503932564196e-05
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0005833497846257432,
+              0.0006967637448768075
+            ],
+            "point_estimate": 0.0006364841721854609
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0003161853340452506,
+              0.0004331408946585877
+            ],
+            "point_estimate": 0.0003724888078393969
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.00028124415560653785,
+              -0.00024628515943659734
+            ],
+            "point_estimate": -0.0002639953643460639
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "components": {
+          "between_trade_covariance": {
+            "ci95": [
+              0.0007268587725922159,
+              0.0008666907152589292
+            ],
+            "point_estimate": 0.000792981353258485
+          },
+          "total_covariance": {
+            "ci95": [
+              0.0003081237848566744,
+              0.0004504919870033369
+            ],
+            "point_estimate": 0.0003758605860071034
+          },
+          "within_trade_covariance_component": {
+            "ci95": [
+              -0.0004397824285352368,
+              -0.00039562092804159025
+            ],
+            "point_estimate": -0.0004171207672513814
+          }
+        },
+        "construction": "whole_trades_with_replacement",
+        "generator": "PCG64",
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    }
+  },
+  "weighting": {
+    "covariance_denominator": "population/equal-trade denominator",
+    "global_normalization": "divide by number of eligible trades",
+    "identical_to_C20": true,
+    "long_duration_dominance": false,
+    "snapshot_weight": "1 / n_i within the analyzed cell",
+    "trade_total_weight": 1
+  },
+  "years": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00032337030433474855,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.18328443637536068,
+        "reconstruction_residual": -1.3552527156068805e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 16601,
+        "total_covariance": 0.00020258159050343927,
+        "trade_mean_correlation": 0.5622258862777925,
+        "trades": 523,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 511,
+          "mean": -0.3336145465523657,
+          "median": -0.3440224072628175,
+          "p10": -0.7748319597433311,
+          "p90": 0.08161118947893164
+        },
+        "within_trade_covariance_component": -0.00012078871383130927
+      },
+      "DELTA_LIQ_30": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00047555834670091413,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.18655418413584043,
+        "reconstruction_residual": 5.421010862427522e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 16601,
+        "total_covariance": 0.0002777154119153927,
+        "trade_mean_correlation": 0.5384536064053606,
+        "trades": 523,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 511,
+          "mean": -0.469796207435686,
+          "median": -0.4910437579254125,
+          "p10": -0.9072611241889488,
+          "p90": 0.015668391519212645
+        },
+        "within_trade_covariance_component": -0.0001978429347855215
+      },
+      "DELTA_LIQ_5": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0001413354096627386,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.1612122496335035,
+        "reconstruction_residual": -1.3552527156068805e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 16601,
+        "total_covariance": 0.00010440403958420812,
+        "trade_mean_correlation": 0.5154866789415175,
+        "trades": 523,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 511,
+          "mean": -0.1874620556089907,
+          "median": -0.19088933573848962,
+          "p10": -0.5233080501584849,
+          "p90": 0.1450474952341093
+        },
+        "within_trade_covariance_component": -3.693137007853047e-05
+      },
+      "DELTA_LIQ_60": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0006137109739610733,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.177688684681863,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 16601,
+        "total_covariance": 0.0003405423164609543,
+        "trade_mean_correlation": 0.4921256454592089,
+        "trades": 523,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 511,
+          "mean": -0.5916199348297545,
+          "median": -0.6624191162103809,
+          "p10": -0.9487852833669252,
+          "p90": -0.07609460541137182
+        },
+        "within_trade_covariance_component": -0.00027316865750011903
+      },
+      "DELTA_LIQ_EVENT": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0007739628469239513,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.123890416469216,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 16601,
+        "total_covariance": 0.00033270256144262794,
+        "trade_mean_correlation": 0.3870518751141725,
+        "trades": 523,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 511,
+          "mean": -0.8685634729884814,
+          "median": -0.8978801467246869,
+          "p10": -0.9624246363622828,
+          "p90": -0.7524717546757347
+        },
+        "within_trade_covariance_component": -0.0004412602854813234
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.00035491607821720755,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.23351407731176219,
+        "reconstruction_residual": 5.421010862427522e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 39616,
+        "total_covariance": 0.00024526719392176143,
+        "trade_mean_correlation": 0.6408416757999519,
+        "trades": 1087,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 1061,
+          "mean": -0.31030708671810775,
+          "median": -0.2978442087630724,
+          "p10": -0.7447721871911521,
+          "p90": 0.076916303556713
+        },
+        "within_trade_covariance_component": -0.00010964888429544617
+      },
+      "DELTA_LIQ_30": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0005089774994389471,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.2447497784400507,
+        "reconstruction_residual": -2.710505431213761e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 39616,
+        "total_covariance": 0.0003305676448479646,
+        "trade_mean_correlation": 0.639920865694617,
+        "trades": 1087,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 1061,
+          "mean": -0.4297166443936392,
+          "median": -0.4340009587860701,
+          "p10": -0.8742281561824877,
+          "p90": 0.03083861399083759
+        },
+        "within_trade_covariance_component": -0.00017840985459098246
+      },
+      "DELTA_LIQ_5": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0001719922433342656,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.19905725027815172,
+        "reconstruction_residual": -3.3881317890172014e-20,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 39616,
+        "total_covariance": 0.0001326316041619041,
+        "trade_mean_correlation": 0.5329143941097446,
+        "trades": 1087,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 1061,
+          "mean": -0.179290519636242,
+          "median": -0.1743253021226331,
+          "p10": -0.4984133281051419,
+          "p90": 0.11450982550884899
+        },
+        "within_trade_covariance_component": -3.9360639172361464e-05
+      },
+      "DELTA_LIQ_60": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0006444128894898924,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.2327849508921571,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 39616,
+        "total_covariance": 0.0003848311703320261,
+        "trade_mean_correlation": 0.6013134350439107,
+        "trades": 1087,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 1061,
+          "mean": -0.5776835808901228,
+          "median": -0.6350749314835117,
+          "p10": -0.9384282930134334,
+          "p90": -0.11297220687289634
+        },
+        "within_trade_covariance_component": -0.0002595817191578663
+      },
+      "DELTA_LIQ_EVENT": {
+        "between_share_of_total": null,
+        "between_trade_covariance": 0.0008050973922480922,
+        "classification": "BETWEEN_DOMINANT_POSITIVE",
+        "pooled_correlation": 0.17532163270247095,
+        "reconstruction_residual": 0.0,
+        "share_note": "not forced because total is near zero or component signs oppose",
+        "snapshots": 39616,
+        "total_covariance": 0.00039959113100798926,
+        "trade_mean_correlation": 0.4705825292676845,
+        "trades": 1087,
+        "within_share_of_total": null,
+        "within_trade_correlations": {
+          "eligible_trades": 1061,
+          "mean": -0.8684207004022557,
+          "median": -0.9032820021138575,
+          "p10": -0.9592176325332802,
+          "p90": -0.7487319528143668
+        },
+        "within_trade_covariance_component": -0.000405506261240103
+      }
+    }
+  }
+}

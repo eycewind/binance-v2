@@ -1,0 +1,6 @@
+{
+  "between": "population covariance over equally weighted trade means",
+  "identity": "Cov_total(p,V) = Cov_between(pbar_i,Vbar_i) + E_i[Cov_within_i(p_it,V_it)]",
+  "tolerance": 1e-15,
+  "within_mean": "arithmetic mean over each trade's eligible snapshots"
+}

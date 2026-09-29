@@ -1,0 +1,25 @@
+{
+  "frozen_probability_target_panel_sha256": "af97b39e8773306acdf5779718b32d067b2f84ab17583c4eeb4f92d805512a3a",
+  "maximum_absolute_differences": {
+    "economic_ordering": 0.0,
+    "overall_forward_value": 0.0,
+    "symbol_summary": 0.0,
+    "year_summary": 0.0
+  },
+  "population_match": true,
+  "snapshot_rows": 56217,
+  "status": "PASS",
+  "symbol_membership": {
+    "BNBUSDT": 328,
+    "BTCUSDT": 335,
+    "ETHUSDT": 320,
+    "SOLUSDT": 311,
+    "XRPUSDT": 316
+  },
+  "tolerance": 1e-15,
+  "trade_count": 1610,
+  "year_membership": {
+    "2024": 523,
+    "2025": 1087
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "DELTA_LIQ_15": {
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "explanatory_only": true,
+    "policy_value_implied": false
+  },
+  "DELTA_LIQ_30": {
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "explanatory_only": true,
+    "policy_value_implied": false
+  },
+  "DELTA_LIQ_5": {
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "explanatory_only": true,
+    "policy_value_implied": false
+  },
+  "DELTA_LIQ_60": {
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "explanatory_only": true,
+    "policy_value_implied": false
+  },
+  "DELTA_LIQ_EVENT": {
+    "classification": "BETWEEN_DOMINANT_POSITIVE",
+    "explanatory_only": true,
+    "policy_value_implied": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "DELTA_LIQ_15": {
+    "absolute_covariance_change": 0.00011318702276318841,
+    "adjusted_p_t2_coefficient": -7.730725233354887e-06,
+    "adjusted_residual_covariance": -8.057634421826705e-08,
+    "adjusted_to_unadjusted_magnitude_ratio": 0.0007113803493076608,
+    "descriptive_material_change": true,
+    "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+    "sign_change": false,
+    "unadjusted_within_trade_covariance": -0.00011326759910740668
+  },
+  "DELTA_LIQ_30": {
+    "absolute_covariance_change": 0.00018217127525506726,
+    "adjusted_p_t2_coefficient": -0.000244780260788848,
+    "adjusted_residual_covariance": -2.551312840103956e-06,
+    "adjusted_to_unadjusted_magnitude_ratio": 0.013811591026374588,
+    "descriptive_material_change": true,
+    "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+    "sign_change": false,
+    "unadjusted_within_trade_covariance": -0.0001847225880951712
+  },
+  "DELTA_LIQ_5": {
+    "absolute_covariance_change": 3.968845057719622e-05,
+    "adjusted_p_t2_coefficient": 0.0001071630599989874,
+    "adjusted_residual_covariance": 1.1169466446320133e-06,
+    "adjusted_to_unadjusted_magnitude_ratio": 0.028957819393944477,
+    "descriptive_material_change": true,
+    "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+    "sign_change": true,
+    "unadjusted_within_trade_covariance": -3.85715039325642e-05
+  },
+  "DELTA_LIQ_60": {
+    "absolute_covariance_change": 0.0002605225203853777,
+    "adjusted_p_t2_coefficient": -0.00033319459574432446,
+    "adjusted_residual_covariance": -3.472843960686195e-06,
+    "adjusted_to_unadjusted_magnitude_ratio": 0.0131549429638232,
+    "descriptive_material_change": true,
+    "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+    "sign_change": false,
+    "unadjusted_within_trade_covariance": -0.0002639953643460639
+  },
+  "DELTA_LIQ_EVENT": {
+    "absolute_covariance_change": 0.0004171207672513813,
+    "adjusted_p_t2_coefficient": -9.057318982663717e-18,
+    "adjusted_residual_covariance": -6.387279358415369e-20,
+    "adjusted_to_unadjusted_magnitude_ratio": 1.531278195642084e-16,
+    "descriptive_material_change": true,
+    "materiality_rule": "sign change or >=25% change in residual-covariance magnitude; descriptive implementation rule, not a predictive gate",
+    "sign_change": false,
+    "unadjusted_within_trade_covariance": -0.00041712076725138134
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "c20_reproduction.json": "b4f3092ab973c7c654422ffd2097e4069290132fbce21b772020cce1cbb0ed73",
+  "c22_implication.json": "dff8aafc63526b9ed91725ccef4b7f281725fccf1506457492e21c43ba417f04",
+  "causal_adjustment_definition.json": "b327c6e43264fa35ae17c5cd34b40a5f95983286681e5f5d2ee0e8f411952225",
+  "causal_adjustment_results.json": "9f0a3b6dfd87ba1ef6c2b49b1d2f6bcce2627156b6bdde5ca948255de916080b",
+  "correlation_interpretation.json": "e74381ea68dc60c0e466892024ce4621b44fae4246f2ab50fd2113fddab9306c",
+  "covariance_decomposition.json": "4bc41beed804b979b926e35521629a4c123ce6257ef76c90b8e38e4b1c1a2c53",
+  "covariance_definition.json": "35c953991c03b4041581e3d831737ffa2887bd13d1d5146b053f153fbba81b68",
+  "diagnostic_only_trade_means.json": "24725fed2faae06312d39ac0f26c2b84e8bf928cdb537d978c000f04509f155f",
+  "final_summary.json": "17517899d9bb706f094557292b874b91fe77f391568f25a3e32f8ea24f610f8a",
+  "interpretation_predicates.json": "428b55a790f1da04ed1a0be29ade269068d4d8f276f659d53bd6b537df09c4cf",
+  "provenance.json": "0e6c9b03f439a15876f340f64e923c320b78353e57630901b45192bb6e559e81",
+  "run_manifest.json": "a5cdeb0b692e407a01bd3809104935996f58d25aed375165ffe627b67e9c2d32",
+  "symbol_decomposition.json": "3bdca507223d8a1cf8514eb41d60363a35afe293251bfa5c29cfb63d651ea3b3",
+  "uncertainty_calendar_block.json": "248c0ca8fc3e17a72173bede6460a59a970d94dbb0bdadbfc0be04a037c281d9",
+  "uncertainty_trade_bootstrap.json": "b8fe7ae6905ef0045b9ee6f8637f3e9e9c04accb9753d5baaf5ed0fe3b96f451",
+  "weighting_definition.json": "2c7ec3652bc4e9e819a005049371bb8743c2e405c5da5ff989207f03991a0934",
+  "year_decomposition.json": "880fe6d8b021c06f51a382c39d3194667eaac4f7bb6d529608ccb63bbc25bbc2"
+}

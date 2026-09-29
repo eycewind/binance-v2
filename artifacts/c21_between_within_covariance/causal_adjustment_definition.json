@@ -1,0 +1,21 @@
+{
+  "causal_contemporaneous_only": true,
+  "causal_proof": false,
+  "controls": [
+    "elapsed_minutes",
+    "current_return_from_entry"
+  ],
+  "current_return_from_entry": "current C20 executable open at t / frozen entry price - 1",
+  "elapsed_minutes": "(state_ms-entry_ms)/60000",
+  "exposure": "frozen C9 p_t2",
+  "method": "within-trade fixed-effects weighted OLS / Frisch-Waugh residualization",
+  "outcome": "each frozen C20 DELTA_LIQ target",
+  "prohibited_variables": [
+    "future terminal distance",
+    "future event proximity",
+    "eventual outcome class",
+    "future MFE/MAE",
+    "future P0 return",
+    "full-trajectory trade means"
+  ]
+}
