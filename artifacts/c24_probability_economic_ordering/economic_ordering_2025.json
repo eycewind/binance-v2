@@ -1,0 +1,52 @@
+{
+  "DELTA_LIQ_15": {
+    "Delta_mean_Q5_Q1": 0.002281310256791398,
+    "Delta_median_Q5_Q1": 0.0014019470663581622,
+    "Delta_positive_rate_Q5_Q1": 0.18747366742371063,
+    "mean_delta_liq_nondecreasing": true,
+    "median_delta_liq_nondecreasing": false,
+    "positive_rate_nondecreasing": false,
+    "weighted_linear_correlation": 0.20308587193402705,
+    "weighted_spearman": 0.19257590293632018
+  },
+  "DELTA_LIQ_30": {
+    "Delta_mean_Q5_Q1": 0.003111516745538677,
+    "Delta_median_Q5_Q1": 0.0025767737955809467,
+    "Delta_positive_rate_Q5_Q1": 0.2581101508202932,
+    "mean_delta_liq_nondecreasing": true,
+    "median_delta_liq_nondecreasing": false,
+    "positive_rate_nondecreasing": false,
+    "weighted_linear_correlation": 0.21134768214716357,
+    "weighted_spearman": 0.235917621457833
+  },
+  "DELTA_LIQ_5": {
+    "Delta_mean_Q5_Q1": 0.0012262239612489817,
+    "Delta_median_Q5_Q1": 0.00045250799112818516,
+    "Delta_positive_rate_Q5_Q1": 0.10249064219011017,
+    "mean_delta_liq_nondecreasing": false,
+    "median_delta_liq_nondecreasing": false,
+    "positive_rate_nondecreasing": false,
+    "weighted_linear_correlation": 0.17735567669065738,
+    "weighted_spearman": 0.11987642280764983
+  },
+  "DELTA_LIQ_60": {
+    "Delta_mean_Q5_Q1": 0.003467211362932058,
+    "Delta_median_Q5_Q1": 0.0035672384444912957,
+    "Delta_positive_rate_Q5_Q1": 0.30097281580158286,
+    "mean_delta_liq_nondecreasing": true,
+    "median_delta_liq_nondecreasing": false,
+    "positive_rate_nondecreasing": false,
+    "weighted_linear_correlation": 0.19883704560526275,
+    "weighted_spearman": 0.25387588029615754
+  },
+  "DELTA_LIQ_EVENT": {
+    "Delta_mean_Q5_Q1": 0.003633135031859982,
+    "Delta_median_Q5_Q1": 0.005237768735945565,
+    "Delta_positive_rate_Q5_Q1": 0.4001273538801572,
+    "mean_delta_liq_nondecreasing": true,
+    "median_delta_liq_nondecreasing": false,
+    "positive_rate_nondecreasing": false,
+    "weighted_linear_correlation": 0.15046174871197762,
+    "weighted_spearman": 0.21388855281443944
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "2024": {
+    "DELTA_LIQ_15": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0010970791566837096,
+            0.0028487922663254584
+          ],
+          "replicate_sha256": "28e01760e0fc88d7aa0222c9e06f2cdd3b259a47fb3e2e85e09d186bd0eaea85"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.00043017396618694247,
+            0.0015532187854009267
+          ],
+          "replicate_sha256": "d169bf7f918c51f008da04d9bd5fad946630f128936986ed1cfeb49d49dcad0e"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.059771642318920515,
+            0.19967943726446322
+          ],
+          "replicate_sha256": "86328cdf86739989a859da2010674400ff820751e6d493f4a22247ebd6133e57"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.11813494891290456,
+            0.34104895006368385
+          ],
+          "replicate_sha256": "c60c4fc1ab200f4c1880dc52d0c4503d485a547625944657eff7c14db48cf116"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.09489336594062649,
+            0.21456172116925756
+          ],
+          "replicate_sha256": "90528764414434cf34f5f7a50c1f55e361876593ad2717b1e0f3fa00c71bb9c9"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_30": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0013875878209400085,
+            0.004117968253519303
+          ],
+          "replicate_sha256": "6930e4e5161516af19cf06afbfcb25d44e7b8a9476f6b7bfc3dfe3674b75ba04"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0008879769662125313,
+            0.0025711746129824615
+          ],
+          "replicate_sha256": "99685a752c6eb3e85aef779b8c3dcacc6646836ad4842ffa2fe7f0982dbc3a8f"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.09981175891408135,
+            0.26575701079709024
+          ],
+          "replicate_sha256": "e6e662e3fc9e25e10aa830c7fb5781d385f430bb43a62aef014037564964cf3b"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.10716766379187496,
+            0.38408719928207347
+          ],
+          "replicate_sha256": "6c49ce055127ebf401c060f10e380a904e3c176ead683f7fd47c9e470c638c9a"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.1233828071350506,
+            0.25458742363341724
+          ],
+          "replicate_sha256": "2c53641d48757e55082b521799bd373fbc4948e20c29407bf97d8b199113d9af"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_5": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0006030911417062393,
+            0.0014724773700735814
+          ],
+          "replicate_sha256": "d5cd0c6acd0c2edd575f5fcde5c10a2a5779cca61ebe2d49b2bd582d9c069f00"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            7.545799494242888e-05,
+            0.0005915337468514662
+          ],
+          "replicate_sha256": "5be856b798a0c9bb3952f07514ed594960daf027baed10b19c6fafcd1571ea03"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.024515205097318256,
+            0.14410954081344363
+          ],
+          "replicate_sha256": "7fa0d15d20c3ba96934e5b413222763c69b5e01989f1942b02f276169e965ccf"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.11381859593183724,
+            0.2532959855335895
+          ],
+          "replicate_sha256": "0c582a7d5867b9572fd39be96a9e69370a4f9708e37eec3c62cd6454084c3139"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.06387813940287514,
+            0.16065471625602673
+          ],
+          "replicate_sha256": "7b90d3e64c3140232b55d80fdea9a1d8ebbd0c75e0fa591976fb3d17d1dcd8fc"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_60": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.001752029589286431,
+            0.006251433347695747
+          ],
+          "replicate_sha256": "acb1d882dafc53fe0a882272ebd573aa5c1aebc6f57ca0a865c89959233ad877"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0018273279846630086,
+            0.0038198610823469608
+          ],
+          "replicate_sha256": "fac9e0113fd3c46652fa2711e87e42e9603fe714c5ab189e548b7e5356bb0137"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.1826583824066128,
+            0.35472337413351407
+          ],
+          "replicate_sha256": "1d4e58c39632a7cfefe296878b4618e2899219d5e397d24ef00827a20b712352"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.11107111698230307,
+            0.4040571357150091
+          ],
+          "replicate_sha256": "d6ada80f49b267f72c208c13fff0b0e2ceacc369375e02ea18397a82cfdf9845"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.15098185477021508,
+            0.2800032427782604
+          ],
+          "replicate_sha256": "34f368ee497565045c134d823e76ed468650c0cb4184207123410b2f9a8faf09"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_EVENT": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0016929487312066496,
+            0.008029103379076441
+          ],
+          "replicate_sha256": "1b727652d29757fe2dd564af2f092542514a90c371e465e40944754d5e745e7b"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.003921218856374238,
+            0.005575287691187579
+          ],
+          "replicate_sha256": "83cb18d619aa532d86c4441f385c9109ae9c702dc946f5025b747e273c97c956"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.2606624106367506,
+            0.44647316983762525
+          ],
+          "replicate_sha256": "0497dc85d1ba2456ff968d7a732f004fdf59c71af6460b0dba1b488c09385e02"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.06745103273244245,
+            0.33458904121154154
+          ],
+          "replicate_sha256": "5168e11fd1ba459c05f9dfa7b22509c4adf18aa7ceb7e721c62899bd71994961"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.11777625441766623,
+            0.2601432256785909
+          ],
+          "replicate_sha256": "86d93f1babcf2cd28a37b2b7a0ba2c0e4385ced1aba7fe5abbb13d3cbc8da1d7"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    }
+  },
+  "2025": {
+    "DELTA_LIQ_15": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0017990212359558328,
+            0.002777477746810989
+          ],
+          "replicate_sha256": "b708dafa00bdfd265018939b49dfc55b05d0c21f66edce4b940adc4ec41266e2"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.00110587144210107,
+            0.0018033212276217345
+          ],
+          "replicate_sha256": "ceab8d91226f147c7b70b534f66340ded8584df17aa725484f2b17bc2e4e2d94"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.1477651962528383,
+            0.22667114005341563
+          ],
+          "replicate_sha256": "f21d75a652ac1c216302c98aca6fac46582efc728bd2b9edbae231689d63affa"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.16312235303664074,
+            0.24178041469948683
+          ],
+          "replicate_sha256": "a08fc8b73ff5f64fcd0a95664f80260ac20cba3b4fcdc4e172b7bb97d2ab2a27"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.16151927997229587,
+            0.22399116051660872
+          ],
+          "replicate_sha256": "ffd35f2f1a77f596e0234c43f70ec68d75de6a6d21664b063fb97d01fb9cf1f0"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_30": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.00247215199618377,
+            0.00371523107756651
+          ],
+          "replicate_sha256": "367182c07e93562020dfd295b2a02fbcf247645ba2b2118c8fdab733865db192"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.002082250986599254,
+            0.0030844780890203053
+          ],
+          "replicate_sha256": "3d54ecb22608625468853e0c284a77a2f9a8644edfe64e071fe5435718933f3b"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.2113988438467144,
+            0.30009532621026125
+          ],
+          "replicate_sha256": "20ac185bb3b0c687bada89ab4a9188b084186fa01b1d2699a20ff6fd4a7f41e5"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.17315257276354556,
+            0.2474893334062514
+          ],
+          "replicate_sha256": "a316d7952d432db9aea6b30320d4f3c2b06166929f08424113461807c9dcf1e2"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.2015285531395844,
+            0.2675256284780796
+          ],
+          "replicate_sha256": "4d06b5c6ab1075cfcee4bfd22bd4599312db9426f28fc0d136b951fe6783b946"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_5": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0009167380335571072,
+            0.0015911216976000602
+          ],
+          "replicate_sha256": "da07b25073ed7d6aef26612b62b6fed400a6f6fa490343b3b7a67dbfbcaee769"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.00031440481957345674,
+            0.0006024446855944258
+          ],
+          "replicate_sha256": "6c6891f8a5dff0cdda35913ea67baba35a7a8c3037a8f4024912621c0f218531"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.07313705935765771,
+            0.1319992915871412
+          ],
+          "replicate_sha256": "18c54d9654504edb966d7897872530124b59f1acd7d9700b9042f92dc26a8c32"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.13583105221954006,
+            0.21732447735401642
+          ],
+          "replicate_sha256": "01d639da32853c3c791c2a5da568c14397b31176653ea8b03aad4238f5982f50"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.09477281770958124,
+            0.14522346656878699
+          ],
+          "replicate_sha256": "59951383d91b10da176fc4cfc5a1499334f096b151fe5d278b62d531280de4fd"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_60": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.002733782729414553,
+            0.004169706763856632
+          ],
+          "replicate_sha256": "34ecc365e2e187c40cda94017d31e42b73dfc8b43d48d5803a203df7ee49c664"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.003000223171356746,
+            0.0041244644202379725
+          ],
+          "replicate_sha256": "eb9f3d9df107949ac8c5c7addcc764e0ac83712b5c0031834203ed0807f4f0c2"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.25026330193967206,
+            0.3449031837579658
+          ],
+          "replicate_sha256": "98da98bd1de8ab45a3bd7a385e793572d72fc2b4967ec08939be1800a569d749"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.16124190796107918,
+            0.23439677315303994
+          ],
+          "replicate_sha256": "48ba85ebdf49e649b2a792a4fa45936bc93a7b19fa844a322e51b769445fd0a7"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.21897942291393946,
+            0.2838413343734012
+          ],
+          "replicate_sha256": "842ce7b3b461a7169f0ecfd2dc0db253fda4f1070485481b4441607a3306e708"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    },
+    "DELTA_LIQ_EVENT": {
+      "calendar_months": null,
+      "construction": "paired whole trades with all snapshots retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0027469200054708533,
+            0.004496034865869473
+          ],
+          "replicate_sha256": "f2e31911a23177214536453f93c13a8c9ce1f301e7f0f4fa589e1652b6f03d0c"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.00476261087738742,
+            0.005756328575582569
+          ],
+          "replicate_sha256": "9144a20315862d03bf6cbc6d46c1f29ece6103cee26707e4e93e2444619db4a0"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.34876123244951435,
+            0.4483700321169804
+          ],
+          "replicate_sha256": "cadf49a5979432e93626ea35e05866d462165a9c8dc76ae68bcb008389baa9e0"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.11371417825824927,
+            0.18449139172368587
+          ],
+          "replicate_sha256": "b1ee2da8e01c2e2e8b8997fe6ff97365cdba5521e17fab880154b3650eee0ca2"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.17568256267741855,
+            0.24612551997496668
+          ],
+          "replicate_sha256": "b51fba778e425cb9c819027dc26f0f9fdcccefda41de3db301d504e10e4140c9"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "whole_trade"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "2024": {
+    "DELTA_LIQ_15": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "470c359223d22882cc776c1eed5f0d5ec40fd32d94f2c22fd44771491a23affc",
+      "validation_prediction_sha256": "b5297fbe8ce6cd9ba919a224f9b6779ca1f053093f77f886fb989cf4e7ea3cb8"
+    },
+    "DELTA_LIQ_30": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "98e8e34d80ad8efe28f0c687e2710752ea012ec7a0b6cf23a0aafc0f676b946e",
+      "validation_prediction_sha256": "a3d001c87070cae2685d055b65c56bfb8079417f2209610eeaab9ae8f12058a9"
+    },
+    "DELTA_LIQ_5": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "fb9444f1e63708ebe8576fd6b3fb521ce8f3a20685229d37afcd54b4befba32f",
+      "validation_prediction_sha256": "daa199be6cf2de4715a2277905085852335b920a48cc88b5142a5b369a938d88"
+    },
+    "DELTA_LIQ_60": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "495fcf0f6b6a18d4bbb22e4cc93b4643035cf8c6f14e85c5ee692775d90a084c",
+      "validation_prediction_sha256": "da3392c80c4f1d8af1db46efc204cad76fb0cf00d419fba061e27d548ba3dd71"
+    },
+    "DELTA_LIQ_EVENT": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "b083e0a47e5a85f1893aac1ef93a2f520c7e40e67231a90f45eaaf653f7997a1",
+      "validation_prediction_sha256": "cdccae4a22d34a2c1d31cd0479e93a5d54f99bab11ea10310c09fcf2cf788cda"
+    }
+  },
+  "2025": {
+    "DELTA_LIQ_15": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "0f032362529baa1c50f4e4e6e4e85d573c2b5c8f737ecf16013cbd5720ac444b",
+      "validation_prediction_sha256": "aa225c0c10901cb09b93f89128a4c9ba9f3d2b64cb1a8ccb122200b88922ed6f"
+    },
+    "DELTA_LIQ_30": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "bbe6fef29469fccacaaf0c1cf00b2efb6805ee0dc39a713b536f0bdac247df4a",
+      "validation_prediction_sha256": "5609e5b5c76823947158a46fef7fffe11f9c32c1a1e387671a6e42b3bf995af5"
+    },
+    "DELTA_LIQ_5": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "16b2235076e3f222e347ac9d140ca1990e4725b5935cf38b655b1f0008b41739",
+      "validation_prediction_sha256": "08a474d2fa986b8331c232e97182e4e1b95544682e384a4d06a0f560d4017896"
+    },
+    "DELTA_LIQ_60": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "52f8d98b06617d4469d96f24d6c6a58887147a4176da6b1fc949dae7bedea002",
+      "validation_prediction_sha256": "86b06109c509586e9725b33557e5038db9d0e700aa6f129b0e6f42b0fcc233a0"
+    },
+    "DELTA_LIQ_EVENT": {
+      "model": "S+C9 L2 logistic C=1.0",
+      "published_metric_reconciliation": true,
+      "recalibrated": false,
+      "refit_reason": "C23 row-level predictions were not stored; exact frozen C23 procedure reproduced",
+      "training_prediction_sha256": "ef194e3d2ae97b61c68eb0e02341b706a3792bcfe36a41e8eb33a0d854ee4788",
+      "validation_prediction_sha256": "57d6a43b7cfacd7f49f7bc737c5c659061f1b51026d09584be10be0cb34e2687"
+    }
+  }
+}

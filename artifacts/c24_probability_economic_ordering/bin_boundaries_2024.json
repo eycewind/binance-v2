@@ -1,0 +1,97 @@
+{
+  "DELTA_LIQ_15": {
+    "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+    "cut_values": [
+      0.4853673192943281,
+      0.4957600759920747,
+      0.5100246698966274,
+      0.5328314418837905
+    ],
+    "duplicate_values_never_split": true,
+    "training_only": true,
+    "training_total_weight": 256.0,
+    "training_weighted_mass": {
+      "Q1": 51.20870545938043,
+      "Q2": 51.197382422678814,
+      "Q3": 51.200861219696975,
+      "Q4": 51.21863307511725,
+      "Q5": 51.17441782312652
+    }
+  },
+  "DELTA_LIQ_30": {
+    "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+    "cut_values": [
+      0.4756835017204972,
+      0.4894885996361887,
+      0.5083797137148498,
+      0.5377457023724918
+    ],
+    "duplicate_values_never_split": true,
+    "training_only": true,
+    "training_total_weight": 256.0,
+    "training_weighted_mass": {
+      "Q1": 51.273521568383785,
+      "Q2": 51.1639713480721,
+      "Q3": 51.246301540483586,
+      "Q4": 51.14724279520246,
+      "Q5": 51.16896274785806
+    }
+  },
+  "DELTA_LIQ_5": {
+    "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+    "cut_values": [
+      0.48865730936567864,
+      0.49560713297632714,
+      0.504801442938313,
+      0.5194403961597376
+    ],
+    "duplicate_values_never_split": true,
+    "training_only": true,
+    "training_total_weight": 256.0,
+    "training_weighted_mass": {
+      "Q1": 51.25355136674965,
+      "Q2": 51.230101209414165,
+      "Q3": 51.123446269584875,
+      "Q4": 51.20785874473741,
+      "Q5": 51.1850424095139
+    }
+  },
+  "DELTA_LIQ_60": {
+    "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+    "cut_values": [
+      0.4586078385088559,
+      0.47649749039905626,
+      0.5018616747217064,
+      0.541384553987983
+    ],
+    "duplicate_values_never_split": true,
+    "training_only": true,
+    "training_total_weight": 256.0,
+    "training_weighted_mass": {
+      "Q1": 51.21717277111759,
+      "Q2": 51.20526574701516,
+      "Q3": 51.27687132502016,
+      "Q4": 51.10390313793798,
+      "Q5": 51.196787018909106
+    }
+  },
+  "DELTA_LIQ_EVENT": {
+    "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+    "cut_values": [
+      0.44741370014535004,
+      0.470470074088694,
+      0.5037571824964069,
+      0.5545188291585795
+    ],
+    "duplicate_values_never_split": true,
+    "training_only": true,
+    "training_total_weight": 256.0,
+    "training_weighted_mass": {
+      "Q1": 51.242439645931704,
+      "Q2": 51.17724501293604,
+      "Q3": 51.194024304109675,
+      "Q4": 51.191134137701866,
+      "Q5": 51.19515689932071
+    }
+  }
+}

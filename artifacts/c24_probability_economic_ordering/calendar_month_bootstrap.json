@@ -1,0 +1,571 @@
+{
+  "2024": {
+    "DELTA_LIQ_15": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0012295366536506321,
+            0.0027573223012566984
+          ],
+          "replicate_sha256": "ee420cec376376156a44a17ade2ea02216b5c960f3dc7850db4f57c6e7c6b30e"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0004598526321431106,
+            0.0016833699817025262
+          ],
+          "replicate_sha256": "34b7caa5f4477cae442241e12e05d1b82a436bb99197384192bff145625c0b2c"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.06643218520805938,
+            0.20476114677685764
+          ],
+          "replicate_sha256": "b91a10dcb3f1969caa0b7786e2305be4d7d44c9f77cf0a73ff9441a9e7ce8283"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.13301207946318766,
+            0.34482380863528866
+          ],
+          "replicate_sha256": "f0ff9e8a2ede4e453aa60c08bc1ff8fbe5f141a9db4768948b34af21c3e3d8a5"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.08306736757022003,
+            0.2080585948549909
+          ],
+          "replicate_sha256": "8ff4e38c84a90e2ff29f6e20f591b96aba8a2cd847c705b1131242b586a02c2f"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_30": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0012786277138988568,
+            0.004198491996646294
+          ],
+          "replicate_sha256": "1521ff9279a90f25267f6a16fc2ab466290fd9ce8730aeae289cbbe2bcd4d63c"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0008334537566177,
+            0.0025662644431921544
+          ],
+          "replicate_sha256": "286b4b2de655ea4339d8528b170aca3f746366f0c742306cce884f1bff6a7f12"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.10313332455056534,
+            0.26772200479565195
+          ],
+          "replicate_sha256": "61f41bea6cfd323c831aa1cefe2ef5bb36777248317b0b38be8426a3e2e05464"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.10943662592535697,
+            0.3860172546647857
+          ],
+          "replicate_sha256": "90040d0e0f8c0c7fa39d8234d3d0ac2572423f58998ef40ee3609b4765e719b0"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.12707279524836568,
+            0.24791753167518726
+          ],
+          "replicate_sha256": "7ec98fb74ce8ba0d2f9ea7cb04de782ee1f1c7edae02e956af897b33ecdc9e34"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_5": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0007819271881396896,
+            0.001272178311319263
+          ],
+          "replicate_sha256": "34dd5d5e2f7365504ff29db0491e4a4f3d109069946b1844e6d400ff1190796a"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            8.761828860474451e-05,
+            0.0005850715136309643
+          ],
+          "replicate_sha256": "cc7eaa53a9877b1ee782c033d05b32b09310b694d0a3d192aa42d13a306334a6"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.02648481609299813,
+            0.13710009635304332
+          ],
+          "replicate_sha256": "d5141aae989e7a14cd5227f63f363b8b9bc4a322ba6bbffa296105e7bbcb31ec"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.13043964195989252,
+            0.24777824603520957
+          ],
+          "replicate_sha256": "62d938ce2b4be988d49183fa3e9ac73eb5ac4f336f394e906c670a97f1f84d3a"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.08308469150220243,
+            0.14437553141058262
+          ],
+          "replicate_sha256": "cf11b0b69c50b982349b48beb9ad47cfb04fd6d1a1a5c6d3c73c78290346d468"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_60": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.001600802875095543,
+            0.005868983399709253
+          ],
+          "replicate_sha256": "926406714e5741a033a2b51c705d9cbf1a8bdee766df44ca4c644f7ebcba80d3"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0013672435117631488,
+            0.003992945401824273
+          ],
+          "replicate_sha256": "7fadff11b965e2ee4b6bcd2f3ce56facb720a66c78d3ee5eaf3bdee1e4074c21"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.21404008919570422,
+            0.3391438847052474
+          ],
+          "replicate_sha256": "3427b9119d0681b377af1fe9cd60a3834ea6a61de3891bddff0e24bb51c623b1"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.1154179247488772,
+            0.3804205352334936
+          ],
+          "replicate_sha256": "4992a696d5697b867f92656eba092a37bc655f3d2874b2e112d361022d485968"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.1458892705876877,
+            0.2634125547734243
+          ],
+          "replicate_sha256": "04951bc69a81e74f774dd93da616ecb24d92f739173d8e7310c474985bb1bd75"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_EVENT": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.001961919809624662,
+            0.00639868789731158
+          ],
+          "replicate_sha256": "659a4986aee682ea758b68a44b12dd1b45786dbcfde3fbb3cdc69967849433c2"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.003754084468671522,
+            0.005315417093170936
+          ],
+          "replicate_sha256": "0a09afeb229fd6809874434e7ed617f0f08ada3f63ce778239757201d0e4449a"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.30762397933885594,
+            0.4018885478093814
+          ],
+          "replicate_sha256": "d63b3295bab1995421430d177d8d3228c161dd43b0412037eb6042a13e90bdb0"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.09630403050745606,
+            0.28943209891348165
+          ],
+          "replicate_sha256": "d31b3f3cef27b2734aa34e8cf8d171e658332c4b3216d9fa7baae56d0e13b847"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.11764409721481033,
+            0.21653507967031688
+          ],
+          "replicate_sha256": "4abfefab6640dc51533223ba126b4bcdee31f79c7dea123f5d26652c4ad557c2"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    }
+  },
+  "2025": {
+    "DELTA_LIQ_15": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0016167941678957136,
+            0.0029334910008726907
+          ],
+          "replicate_sha256": "d9e52417d1320a9ed3dc1f964b46f50e681cadb2ae4eac7ec7239686dca2f6ea"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.000917656150832579,
+            0.001975998555973744
+          ],
+          "replicate_sha256": "1f55e72452872955141463cc5d3a9901d299fc6958625a0c078c203c521855a1"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.13353892322665792,
+            0.2326025600408406
+          ],
+          "replicate_sha256": "f5cc4b04b96adcb5a19e32aaa9a4ad79c8b23a971308af1a7d260c8d6b296c78"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.15815875362168413,
+            0.24863275958829564
+          ],
+          "replicate_sha256": "4e13064e1a471a87a631e9ecf71728c8b3f2a633f1a13baf0efdbe7784437ee7"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.14735878028183885,
+            0.23383826986406067
+          ],
+          "replicate_sha256": "1f6eda569fa0abc224d12c4191f17add341c35332f1eec48b9e14ff5554d8408"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_30": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0023323268029713027,
+            0.0038374253742723464
+          ],
+          "replicate_sha256": "21e1e2372306de5eaec475de96fdca52205e06744aacb31769272eef6d2fed07"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0017913576557435841,
+            0.0033857532440588066
+          ],
+          "replicate_sha256": "64ecef7944b47b4f75f217951dba933f46131d50e4a1a099de42620ec53e54d2"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.195786682623937,
+            0.30728341630329087
+          ],
+          "replicate_sha256": "bbb4376fe6dd3e2e1d72bc9b6c0f42f5d56e4f9303e8a8e3a5e6e4efb38c38d0"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.16881226657172063,
+            0.2527384676813757
+          ],
+          "replicate_sha256": "043061f868ecb8ece4c8f53f1a08fce3ed94a31d0f249d6a869c2bd9846287de"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.18452372911269635,
+            0.2789206646690819
+          ],
+          "replicate_sha256": "738e5c64728067d557a42d4fef1855706a60ad0faf662c8053cb4c5f1f8b1d6f"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_5": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0008125719372804025,
+            0.0016827372341229987
+          ],
+          "replicate_sha256": "002f453e2be2138fb65d38c8c2443de3331ac3202cee288d0d982f748da528ef"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0002669856685021959,
+            0.00064333381499182
+          ],
+          "replicate_sha256": "9fc9d824d4d25c70121faf11002b91a1496d87db308e1edd50f281bee4a38a35"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.07354229539011417,
+            0.12995172995900967
+          ],
+          "replicate_sha256": "c0985baf35570397b2d21e5b0c69a17330a859b0179695978030fe667ac5757d"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.12403155622698754,
+            0.22227159500117188
+          ],
+          "replicate_sha256": "aa169ade07ae09528b65e372efad1215bab7072f43c162d18df1a4bb5800f6d5"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.08826822067946463,
+            0.149710027146708
+          ],
+          "replicate_sha256": "14ab3e0cc895373ed5fd889c95e0e42583de9019473aaefacb9baaab5276e190"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_60": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.002751828974933343,
+            0.004148843179174559
+          ],
+          "replicate_sha256": "48f1c59656901fc68d806c970f143f5b285e24e10964ebe18b970849bf689d20"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.0027537798181104787,
+            0.004416282367254192
+          ],
+          "replicate_sha256": "73dbb1bf10a85803442f61f7f79423972d92033678eea4f5acd2ca01bbee4a19"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.23549355382057977,
+            0.35464767519533813
+          ],
+          "replicate_sha256": "f416959c748dc78760b53d3402608a1769ee2a56dee8b81b98dbe31f0b2d9d0f"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.16636723712750714,
+            0.2338800342256111
+          ],
+          "replicate_sha256": "4094dd0b363d6ac666aca547495494678f29859bca85af9a7b405e43b8757e25"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.20746821122355436,
+            0.2924402406156536
+          ],
+          "replicate_sha256": "07997cc64e4cd27d5af4555d6caf5c0b4ae04d6fe29ee4020be5c71b7fd965b4"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_EVENT": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_mean_Q5_Q1": {
+          "ci95": [
+            0.0027508993325094273,
+            0.004407911455788019
+          ],
+          "replicate_sha256": "53fa8eda46510deba79bd19869d9fa0591ff4be4bc5881426d7d4963857d3eb9"
+        },
+        "Delta_median_Q5_Q1": {
+          "ci95": [
+            0.004658391576532492,
+            0.00575517216720954
+          ],
+          "replicate_sha256": "6baa7a8ea7b9426dee98340ab98818a65d06249bc1e80529cdccb13886a38d5d"
+        },
+        "Delta_positive_rate_Q5_Q1": {
+          "ci95": [
+            0.3399120368988443,
+            0.4501865545464228
+          ],
+          "replicate_sha256": "7c1264724b562c3656e8a6b760a832f14fd95063810c5b56e2cea5c069145cd6"
+        },
+        "weighted_linear_correlation": {
+          "ci95": [
+            0.11394257105705517,
+            0.1893057970951168
+          ],
+          "replicate_sha256": "3c7812470219f84f209bc0599ad499d67534dd1000f46c18b715314086b88e75"
+        },
+        "weighted_spearman": {
+          "ci95": [
+            0.16577339452357093,
+            0.2579856855182793
+          ],
+          "replicate_sha256": "b02ff2a30dfa7b79ed8514fa026310d40ebbab46184132bf2a326a5d36bd9b93"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "predictions_and_outcomes_frozen": true,
+      "rejected_empty_Q1_or_Q5_draws": 0,
+      "replicates": 2000,
+      "seed": 20240924,
+      "unit": "calendar_month"
+    }
+  }
+}

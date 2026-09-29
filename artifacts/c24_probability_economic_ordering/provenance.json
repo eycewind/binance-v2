@@ -1,0 +1,33 @@
+{
+  "C20_reproduction": {
+    "frozen_probability_target_panel_sha256": "d20a975c50a561a9fa520d6b56e3e83b9c84f08b32dc3ed2d35407cbb0a7c70d",
+    "maximum_absolute_differences": {
+      "economic_ordering": 6.661338147750939e-16,
+      "overall_forward_value": 2.220446049250313e-16,
+      "symbol_summary": 8.881784197001252e-16,
+      "year_summary": 5.551115123125783e-16
+    },
+    "population_match": true,
+    "snapshot_rows": 56217,
+    "status": "PASS",
+    "symbol_membership": {
+      "BNBUSDT": 328,
+      "BTCUSDT": 335,
+      "ETHUSDT": 320,
+      "SOLUSDT": 311,
+      "XRPUSDT": 316
+    },
+    "tolerance": 1e-15,
+    "trade_count": 1610,
+    "year_membership": {
+      "2024": 523,
+      "2025": 1087
+    }
+  },
+  "C23_artifact_hashes_sha256": "76a45610b6c66d10dddaf93d94ed6062a36f1098db9bc002d0b5f7044092e0e2",
+  "C23_source_sha256": "df1e68580b16f2440e30f450946df7ecde7b4481568d1762fe40e3fcac9412f4",
+  "contract_sha256": "59ff709a0cbbc0847a5f67ea5cb87abaaabbd262e58bc750767871953d20693e",
+  "no_2026_access": true,
+  "no_recalibration": true,
+  "prediction_source": "exact reproduction of frozen target-specific C23 S+C9 logistic predictions"
+}

@@ -1,0 +1,23 @@
+{
+  "bin_boundaries_2024.json": "fd3a33f0e914860a1fb7fa5c3a0c9858e1d04f0b44c0f51750af49740b4081ea",
+  "bin_boundaries_2025.json": "f4d2f431d21b536ba52a72c7d71c720d06da455b993242ae5d94ce6a5f09e10a",
+  "bin_definition.json": "08238b6d7dad6a4b48c4a587f4a5ebc709bdfd57d4c9311ddd63ee968be25e22",
+  "bin_summaries_2024.json": "cf85d80f4c21e7ac24f4cba51e9a439c63ce2f72e3532564b53bf310d4ca4250",
+  "bin_summaries_2025.json": "4d6401923fb4d7648bb5fecc88337c47d745e8fc62d36b9d8f4f9bf8adf2f1f7",
+  "binary_label_definition.json": "f742734726d27377a369052c2c66ec8418818059993337b22f079a40b2855494",
+  "calendar_month_bootstrap.json": "a48ba1351f5b6e12f92869730ea1ae57c87c0b25e0dfa350418ee6f963e655d2",
+  "concentration_2024.json": "6b4b1557afa584da8a46063645857bd93579e92ba5418708c88457bfc478d987",
+  "concentration_2025.json": "f07c1a3d43b9a32aa9ecec3a5be76382f687ea14800d09c36b37eea95f1182cf",
+  "economic_ordering_2024.json": "d592f07f2296cb26bf37847b620e3c67ffe3e941e7f33509dbebc1f84c813786",
+  "economic_ordering_2025.json": "2e8d568c11d23d3e4c63e360b2a71a9c38c59bb332f40d6485b195bced603d7d",
+  "final_summary.json": "483c41c80203a7bac7186fee6e99281c843f1940f2cbe0e68af4b12751043bad",
+  "frozen_prediction_reconciliation.json": "59886dff0033c9cee4ec903e519b406ab0844cb893c3780e7c4ee865a03d3a52",
+  "interpretation_predicates.json": "98d04eacad39b71ab1345306cf624ada671bbffde744921ca422ef6629b135c5",
+  "population_reconciliation.json": "ca9b82c4a4e34b472e2d78393154eeefe81d951488bfbd02b220813b171b9077",
+  "provenance.json": "cdd53c49ef43f6e8e096c92d8c5c920497b4aa87e038972aaa0671004f2bd004",
+  "run_manifest.json": "268a965a1d384dbae6c1fcb5f6ec39a860025f56bb4afa82c2b688e6491643a9",
+  "symbol_stability.json": "763f5ad595b387599746a36675dbc60c4e25197e276297c008d383f4af22f22b",
+  "tail_asymmetry_2024.json": "bfa4272e2eaa1ac6bf6ec228738958f9b109330a5f0bfe4d5ea63a37c5adca43",
+  "tail_asymmetry_2025.json": "8cfc4be527f0801502cc577a95e18a7a204d3a4d7fb8189c19aa1540a585a4f1",
+  "whole_trade_bootstrap.json": "28ef41c1cb1701d085214f96ff0c81417b1d3ab0999514afb0161b1107286521"
+}

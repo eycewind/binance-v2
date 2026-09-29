@@ -1,0 +1,212 @@
+{
+  "DELTA_LIQ_15": {
+    "Q1": {
+      "negative_contribution": -0.09685776723485653,
+      "net_contribution": -0.03890447314984592,
+      "positive_contribution": 0.05795329408501061,
+      "positive_to_absolute_negative_contribution_ratio": 0.5983339874487088,
+      "weighted_mean_negative_delta_liq": -0.0034799166409478,
+      "weighted_mean_positive_delta_liq": 0.0023004401403776786
+    },
+    "Q2": {
+      "negative_contribution": -0.04616498187267201,
+      "net_contribution": -0.011003242406482115,
+      "positive_contribution": 0.0351617394661899,
+      "positive_to_absolute_negative_contribution_ratio": 0.7616539212160801,
+      "weighted_mean_negative_delta_liq": -0.0018864027808445313,
+      "weighted_mean_positive_delta_liq": 0.0019925612534227254
+    },
+    "Q3": {
+      "negative_contribution": -0.059959403418006624,
+      "net_contribution": -0.016547017444877056,
+      "positive_contribution": 0.04341238597312957,
+      "positive_to_absolute_negative_contribution_ratio": 0.7240296517041769,
+      "weighted_mean_negative_delta_liq": -0.002036502596648293,
+      "weighted_mean_positive_delta_liq": 0.002032576826561663
+    },
+    "Q4": {
+      "negative_contribution": -0.06099785730821498,
+      "net_contribution": 0.02581478691656911,
+      "positive_contribution": 0.08681264422478409,
+      "positive_to_absolute_negative_contribution_ratio": 1.423208093788115,
+      "weighted_mean_negative_delta_liq": -0.0021588268462355933,
+      "weighted_mean_positive_delta_liq": 0.0030201558704554578
+    },
+    "Q5": {
+      "negative_contribution": -0.05755028921718265,
+      "net_contribution": 0.07452043399004944,
+      "positive_contribution": 0.1320707232072321,
+      "positive_to_absolute_negative_contribution_ratio": 2.2948750562977196,
+      "weighted_mean_negative_delta_liq": -0.0023974448794828133,
+      "weighted_mean_positive_delta_liq": 0.0035480657422024796
+    }
+  },
+  "DELTA_LIQ_30": {
+    "Q1": {
+      "negative_contribution": -0.1301574759070396,
+      "net_contribution": -0.06401377915766653,
+      "positive_contribution": 0.06614369674937308,
+      "positive_to_absolute_negative_contribution_ratio": 0.5081820793498937,
+      "weighted_mean_negative_delta_liq": -0.004458345059848574,
+      "weighted_mean_positive_delta_liq": 0.002719365404633686
+    },
+    "Q2": {
+      "negative_contribution": -0.0669762070699191,
+      "net_contribution": -0.01939247947567005,
+      "positive_contribution": 0.047583727594249045,
+      "positive_to_absolute_negative_contribution_ratio": 0.7104571858566807,
+      "weighted_mean_negative_delta_liq": -0.00258520031169537,
+      "weighted_mean_positive_delta_liq": 0.0029176601138702373
+    },
+    "Q3": {
+      "negative_contribution": -0.08498238345844347,
+      "net_contribution": -0.015924649595085758,
+      "positive_contribution": 0.06905773386335771,
+      "positive_to_absolute_negative_contribution_ratio": 0.8126123444999288,
+      "weighted_mean_negative_delta_liq": -0.0028950963958020394,
+      "weighted_mean_positive_delta_liq": 0.003382018155047878
+    },
+    "Q4": {
+      "negative_contribution": -0.08744868924895371,
+      "net_contribution": 0.03794891074980064,
+      "positive_contribution": 0.12539759999875436,
+      "positive_to_absolute_negative_contribution_ratio": 1.433956312847247,
+      "weighted_mean_negative_delta_liq": -0.003317379930952903,
+      "weighted_mean_positive_delta_liq": 0.00433893466485928
+    },
+    "Q5": {
+      "negative_contribution": -0.0795021152510456,
+      "net_contribution": 0.09050367611160655,
+      "positive_contribution": 0.17000579136265215,
+      "positive_to_absolute_negative_contribution_ratio": 2.1383807314537617,
+      "weighted_mean_negative_delta_liq": -0.0034588470417287404,
+      "weighted_mean_positive_delta_liq": 0.004180420483406745
+    }
+  },
+  "DELTA_LIQ_5": {
+    "Q1": {
+      "negative_contribution": -0.057799792004328734,
+      "net_contribution": -0.017922022869550178,
+      "positive_contribution": 0.03987776913477856,
+      "positive_to_absolute_negative_contribution_ratio": 0.6899292843786019,
+      "weighted_mean_negative_delta_liq": -0.0020937956999983426,
+      "weighted_mean_positive_delta_liq": 0.0016110412551352542
+    },
+    "Q2": {
+      "negative_contribution": -0.025865936323652583,
+      "net_contribution": -0.008179270329741358,
+      "positive_contribution": 0.017686665993911225,
+      "positive_to_absolute_negative_contribution_ratio": 0.6837821671175309,
+      "weighted_mean_negative_delta_liq": -0.0010623197639113807,
+      "weighted_mean_positive_delta_liq": 0.0009594497749609903
+    },
+    "Q3": {
+      "negative_contribution": -0.030856477962113306,
+      "net_contribution": -0.005539635653829093,
+      "positive_contribution": 0.025316842308284213,
+      "positive_to_absolute_negative_contribution_ratio": 0.8204709020701956,
+      "weighted_mean_negative_delta_liq": -0.0011294026001281163,
+      "weighted_mean_positive_delta_liq": 0.0010969972771509684
+    },
+    "Q4": {
+      "negative_contribution": -0.03243227378520984,
+      "net_contribution": 0.014098033713341424,
+      "positive_contribution": 0.04653030749855126,
+      "positive_to_absolute_negative_contribution_ratio": 1.4346914991748305,
+      "weighted_mean_negative_delta_liq": -0.00119613423101704,
+      "weighted_mean_positive_delta_liq": 0.0016140728632457685
+    },
+    "Q5": {
+      "negative_contribution": -0.03700998165096601,
+      "net_contribution": 0.04178865301943165,
+      "positive_contribution": 0.07879863467039766,
+      "positive_to_absolute_negative_contribution_ratio": 2.1291184473835294,
+      "weighted_mean_negative_delta_liq": -0.0013899869168111758,
+      "weighted_mean_positive_delta_liq": 0.0023258192637523128
+    }
+  },
+  "DELTA_LIQ_60": {
+    "Q1": {
+      "negative_contribution": -0.17367680179497183,
+      "net_contribution": -0.10774555998289763,
+      "positive_contribution": 0.0659312418120742,
+      "positive_to_absolute_negative_contribution_ratio": 0.3796203127341501,
+      "weighted_mean_negative_delta_liq": -0.005636365441952625,
+      "weighted_mean_positive_delta_liq": 0.003006036754257547
+    },
+    "Q2": {
+      "negative_contribution": -0.07923577754219802,
+      "net_contribution": -0.02272222976697126,
+      "positive_contribution": 0.056513547775226755,
+      "positive_to_absolute_negative_contribution_ratio": 0.7132327028043581,
+      "weighted_mean_negative_delta_liq": -0.0028542079985233062,
+      "weighted_mean_positive_delta_liq": 0.0039330819512323895
+    },
+    "Q3": {
+      "negative_contribution": -0.10621295949911541,
+      "net_contribution": -0.004643507849917156,
+      "positive_contribution": 0.10156945164919826,
+      "positive_to_absolute_negative_contribution_ratio": 0.9562811555970642,
+      "weighted_mean_negative_delta_liq": -0.0035086886876990932,
+      "weighted_mean_positive_delta_liq": 0.005143331345551988
+    },
+    "Q4": {
+      "negative_contribution": -0.12349299072100842,
+      "net_contribution": 0.04445225759767599,
+      "positive_contribution": 0.1679452483186844,
+      "positive_to_absolute_negative_contribution_ratio": 1.3599577379909857,
+      "weighted_mean_negative_delta_liq": -0.004678177900111128,
+      "weighted_mean_positive_delta_liq": 0.005546740632650339
+    },
+    "Q5": {
+      "negative_contribution": -0.09743954401330103,
+      "net_contribution": 0.10097002417214006,
+      "positive_contribution": 0.1984095681854411,
+      "positive_to_absolute_negative_contribution_ratio": 2.0362325192978847,
+      "weighted_mean_negative_delta_liq": -0.004863918395960277,
+      "weighted_mean_positive_delta_liq": 0.004558624164037899
+    }
+  },
+  "DELTA_LIQ_EVENT": {
+    "Q1": {
+      "negative_contribution": -0.20787723529957108,
+      "net_contribution": -0.13176667884698395,
+      "positive_contribution": 0.07611055645258713,
+      "positive_to_absolute_negative_contribution_ratio": 0.36613223349302537,
+      "weighted_mean_negative_delta_liq": -0.00675788344062952,
+      "weighted_mean_positive_delta_liq": 0.0036723538374139153
+    },
+    "Q2": {
+      "negative_contribution": -0.09861020172523469,
+      "net_contribution": -0.014502158170430157,
+      "positive_contribution": 0.08410804355480453,
+      "positive_to_absolute_negative_contribution_ratio": 0.852934504577542,
+      "weighted_mean_negative_delta_liq": -0.0033900193764604355,
+      "weighted_mean_positive_delta_liq": 0.006616906572333132
+    },
+    "Q3": {
+      "negative_contribution": -0.15772019478027047,
+      "net_contribution": 0.018728620924111955,
+      "positive_contribution": 0.17644881570438242,
+      "positive_to_absolute_negative_contribution_ratio": 1.1187458647905166,
+      "weighted_mean_negative_delta_liq": -0.004665090901047475,
+      "weighted_mean_positive_delta_liq": 0.009896667206804254
+    },
+    "Q4": {
+      "negative_contribution": -0.21314841622623865,
+      "net_contribution": 0.04550724555826635,
+      "positive_contribution": 0.258655661784505,
+      "positive_to_absolute_negative_contribution_ratio": 1.2135002753666457,
+      "weighted_mean_negative_delta_liq": -0.008046370992118577,
+      "weighted_mean_positive_delta_liq": 0.009005380949331452
+    },
+    "Q5": {
+      "negative_contribution": -0.15689831717209896,
+      "net_contribution": 0.11636796148367223,
+      "positive_contribution": 0.2732662786557712,
+      "positive_to_absolute_negative_contribution_ratio": 1.741677562774815,
+      "weighted_mean_negative_delta_liq": -0.00979877766192793,
+      "weighted_mean_positive_delta_liq": 0.005525626377051069
+    }
+  }
+}

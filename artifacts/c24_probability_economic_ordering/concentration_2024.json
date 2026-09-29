@@ -1,0 +1,37 @@
+{
+  "DELTA_LIQ_15": {
+    "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+    "top_10pct_positive_rows_share": 0.3473512120885633,
+    "top_1pct_positive_rows_share": 0.05906111528972624,
+    "top_20pct_positive_rows_share": 0.5407548256047776,
+    "top_5pct_positive_rows_share": 0.2097521057747157
+  },
+  "DELTA_LIQ_30": {
+    "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+    "top_10pct_positive_rows_share": 0.32048592605459636,
+    "top_1pct_positive_rows_share": 0.04836575580821088,
+    "top_20pct_positive_rows_share": 0.5191213945808894,
+    "top_5pct_positive_rows_share": 0.1849975894402692
+  },
+  "DELTA_LIQ_5": {
+    "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+    "top_10pct_positive_rows_share": 0.3786842958547964,
+    "top_1pct_positive_rows_share": 0.07021648660451167,
+    "top_20pct_positive_rows_share": 0.5661154559609965,
+    "top_5pct_positive_rows_share": 0.23687486400991087
+  },
+  "DELTA_LIQ_60": {
+    "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+    "top_10pct_positive_rows_share": 0.28685681305421534,
+    "top_1pct_positive_rows_share": 0.04119307090171429,
+    "top_20pct_positive_rows_share": 0.48570813447608874,
+    "top_5pct_positive_rows_share": 0.16172121166930314
+  },
+  "DELTA_LIQ_EVENT": {
+    "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+    "top_10pct_positive_rows_share": 0.23217030565547728,
+    "top_1pct_positive_rows_share": 0.035033274652182006,
+    "top_20pct_positive_rows_share": 0.4044786719110466,
+    "top_5pct_positive_rows_share": 0.13178483530354015
+  }
+}

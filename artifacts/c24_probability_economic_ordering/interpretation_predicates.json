@@ -1,0 +1,57 @@
+{
+  "DELTA_LIQ_15": {
+    "classification": "ECONOMIC_ORDERING_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "positive_required_point_estimates_both_years": true,
+    "positive_symbol_spreads_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "q5_net_not_worse_than_q1_both_years": true,
+    "uncertainty_no_clear_reversal_both_years": true
+  },
+  "DELTA_LIQ_30": {
+    "classification": "ECONOMIC_ORDERING_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "positive_required_point_estimates_both_years": true,
+    "positive_symbol_spreads_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "q5_net_not_worse_than_q1_both_years": true,
+    "uncertainty_no_clear_reversal_both_years": true
+  },
+  "DELTA_LIQ_5": {
+    "classification": "ECONOMIC_ORDERING_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "positive_required_point_estimates_both_years": true,
+    "positive_symbol_spreads_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "q5_net_not_worse_than_q1_both_years": true,
+    "uncertainty_no_clear_reversal_both_years": true
+  },
+  "DELTA_LIQ_60": {
+    "classification": "ECONOMIC_ORDERING_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "positive_required_point_estimates_both_years": true,
+    "positive_symbol_spreads_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "q5_net_not_worse_than_q1_both_years": true,
+    "uncertainty_no_clear_reversal_both_years": true
+  },
+  "DELTA_LIQ_EVENT": {
+    "classification": "ECONOMIC_ORDERING_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "positive_required_point_estimates_both_years": true,
+    "positive_symbol_spreads_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "q5_net_not_worse_than_q1_both_years": true,
+    "uncertainty_no_clear_reversal_both_years": true
+  }
+}

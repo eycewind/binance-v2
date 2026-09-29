@@ -1,0 +1,4171 @@
+{
+  "bin_boundaries": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.4853673192943281,
+          0.4957600759920747,
+          0.5100246698966274,
+          0.5328314418837905
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 256.0,
+        "training_weighted_mass": {
+          "Q1": 51.20870545938043,
+          "Q2": 51.197382422678814,
+          "Q3": 51.200861219696975,
+          "Q4": 51.21863307511725,
+          "Q5": 51.17441782312652
+        }
+      },
+      "DELTA_LIQ_30": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.4756835017204972,
+          0.4894885996361887,
+          0.5083797137148498,
+          0.5377457023724918
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 256.0,
+        "training_weighted_mass": {
+          "Q1": 51.273521568383785,
+          "Q2": 51.1639713480721,
+          "Q3": 51.246301540483586,
+          "Q4": 51.14724279520246,
+          "Q5": 51.16896274785806
+        }
+      },
+      "DELTA_LIQ_5": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.48865730936567864,
+          0.49560713297632714,
+          0.504801442938313,
+          0.5194403961597376
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 256.0,
+        "training_weighted_mass": {
+          "Q1": 51.25355136674965,
+          "Q2": 51.230101209414165,
+          "Q3": 51.123446269584875,
+          "Q4": 51.20785874473741,
+          "Q5": 51.1850424095139
+        }
+      },
+      "DELTA_LIQ_60": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.4586078385088559,
+          0.47649749039905626,
+          0.5018616747217064,
+          0.541384553987983
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 256.0,
+        "training_weighted_mass": {
+          "Q1": 51.21717277111759,
+          "Q2": 51.20526574701516,
+          "Q3": 51.27687132502016,
+          "Q4": 51.10390313793798,
+          "Q5": 51.196787018909106
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.44741370014535004,
+          0.470470074088694,
+          0.5037571824964069,
+          0.5545188291585795
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 256.0,
+        "training_weighted_mass": {
+          "Q1": 51.242439645931704,
+          "Q2": 51.17724501293604,
+          "Q3": 51.194024304109675,
+          "Q4": 51.191134137701866,
+          "Q5": 51.19515689932071
+        }
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.4800235559187629,
+          0.48816302110364124,
+          0.4997873388549825,
+          0.5173079891492095
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 523.0,
+        "training_weighted_mass": {
+          "Q1": 104.62235695767177,
+          "Q2": 104.58667755025492,
+          "Q3": 104.66203212692955,
+          "Q4": 104.52959379285252,
+          "Q5": 104.59933957229123
+        }
+      },
+      "DELTA_LIQ_30": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.4736577198128271,
+          0.4848670737094567,
+          0.5005060594305681,
+          0.5240599876804818
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 523.0,
+        "training_weighted_mass": {
+          "Q1": 104.65135522108838,
+          "Q2": 104.58884708479363,
+          "Q3": 104.56214264460071,
+          "Q4": 104.60488379986741,
+          "Q5": 104.59277124964987
+        }
+      },
+      "DELTA_LIQ_5": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.4818371318862759,
+          0.48707754300387357,
+          0.4944424562836984,
+          0.5056795681716408
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 523.0,
+        "training_weighted_mass": {
+          "Q1": 104.66800307592717,
+          "Q2": 104.71100499729124,
+          "Q3": 104.46291663510061,
+          "Q4": 104.63464449940209,
+          "Q5": 104.52343079227887
+        }
+      },
+      "DELTA_LIQ_60": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.4600557185601068,
+          0.4753091898609916,
+          0.49678847941150833,
+          0.5285345907822652
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 523.0,
+        "training_weighted_mass": {
+          "Q1": 104.60090997888292,
+          "Q2": 104.68744029228348,
+          "Q3": 104.52390615434123,
+          "Q4": 104.60679069259515,
+          "Q5": 104.5809528818972
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "assignment": "searchsorted(cut_values, p, side=left); identical values remain together",
+        "cut_values": [
+          0.44930557733684556,
+          0.4691594045995723,
+          0.4976995376148559,
+          0.5396558712054453
+        ],
+        "duplicate_values_never_split": true,
+        "training_only": true,
+        "training_total_weight": 523.0,
+        "training_weighted_mass": {
+          "Q1": 104.60976442092368,
+          "Q2": 104.60723630067174,
+          "Q3": 104.62184081263928,
+          "Q4": 104.59309186579787,
+          "Q5": 104.56806659996742
+        }
+      }
+    }
+  },
+  "bin_definition": {
+    "count": 5,
+    "duplicate_rule": "inverse weighted empirical CDF cuts and left assignment; identical predictions never split",
+    "labels": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ],
+    "quantiles": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "source": "corresponding training S+C9 predictions only",
+    "threshold_or_bin_search": false,
+    "validation_boundaries_frozen": true,
+    "weights": "1/n_i per eligible snapshot in trade i"
+  },
+  "bin_summaries": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "Q1": {
+          "effective_whole_trade_weight": 53.79851193073442,
+          "negative_contribution": -0.09685776723485653,
+          "net_contribution": -0.03890447314984592,
+          "positive_contribution": 0.05795329408501061,
+          "positive_to_absolute_negative_contribution_ratio": 0.5983339874487088,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.4853673192943281
+          },
+          "snapshot_count": 1129,
+          "trade_count": 155,
+          "weighted_mean_delta_liq": -0.0007231514730358237,
+          "weighted_mean_negative_delta_liq": -0.0034799166409478,
+          "weighted_mean_positive_delta_liq": 0.0023004401403776786,
+          "weighted_mean_predicted_probability": 0.4666292224583148,
+          "weighted_median_delta_liq": -0.0001104515941325419,
+          "weighted_median_predicted_probability": 0.4739446641992794,
+          "weighted_observed_positive_rate": 0.46827063711562,
+          "weighted_p10_delta_liq": -0.004562476502636742,
+          "weighted_p25_delta_liq": -0.002073649504888522,
+          "weighted_p75_delta_liq": 0.0013880668459028134,
+          "weighted_p90_delta_liq": 0.003333285805124319
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 42.48253453103898,
+          "negative_contribution": -0.04616498187267201,
+          "net_contribution": -0.011003242406482115,
+          "positive_contribution": 0.0351617394661899,
+          "positive_to_absolute_negative_contribution_ratio": 0.7616539212160801,
+          "probability_boundary": {
+            "lower_exclusive": 0.4853673192943281,
+            "upper_inclusive": 0.4957600759920747
+          },
+          "snapshot_count": 1016,
+          "trade_count": 195,
+          "weighted_mean_delta_liq": -0.00025900626052437686,
+          "weighted_mean_negative_delta_liq": -0.0018864027808445313,
+          "weighted_mean_positive_delta_liq": 0.0019925612534227254,
+          "weighted_mean_predicted_probability": 0.49077435910177886,
+          "weighted_median_delta_liq": -0.00025775323737605056,
+          "weighted_median_predicted_probability": 0.49079794064670573,
+          "weighted_observed_positive_rate": 0.41538255337803676,
+          "weighted_p10_delta_liq": -0.0031191751872595434,
+          "weighted_p25_delta_liq": -0.0013792377817934496,
+          "weighted_p75_delta_liq": 0.0007951674906295238,
+          "weighted_p90_delta_liq": 0.002419257755703143
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 51.228623797126346,
+          "negative_contribution": -0.059959403418006624,
+          "net_contribution": -0.016547017444877056,
+          "positive_contribution": 0.04341238597312957,
+          "positive_to_absolute_negative_contribution_ratio": 0.7240296517041769,
+          "probability_boundary": {
+            "lower_exclusive": 0.4957600759920747,
+            "upper_inclusive": 0.5100246698966274
+          },
+          "snapshot_count": 1723,
+          "trade_count": 208,
+          "weighted_mean_delta_liq": -0.0003230033566860185,
+          "weighted_mean_negative_delta_liq": -0.002036502596648293,
+          "weighted_mean_positive_delta_liq": 0.002032576826561663,
+          "weighted_mean_predicted_probability": 0.5025688979937948,
+          "weighted_median_delta_liq": -0.0003192748405649584,
+          "weighted_median_predicted_probability": 0.5024468128452657,
+          "weighted_observed_positive_rate": 0.4169212167607602,
+          "weighted_p10_delta_liq": -0.0031659081182178854,
+          "weighted_p25_delta_liq": -0.0015570693553596583,
+          "weighted_p75_delta_liq": 0.0010238211506242577,
+          "weighted_p90_delta_liq": 0.0026014898992664254
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 57.69777846371632,
+          "negative_contribution": -0.06099785730821498,
+          "net_contribution": 0.02581478691656911,
+          "positive_contribution": 0.08681264422478409,
+          "positive_to_absolute_negative_contribution_ratio": 1.423208093788115,
+          "probability_boundary": {
+            "lower_exclusive": 0.5100246698966274,
+            "upper_inclusive": 0.5328314418837905
+          },
+          "snapshot_count": 2579,
+          "trade_count": 195,
+          "weighted_mean_delta_liq": 0.000447413879770136,
+          "weighted_mean_negative_delta_liq": -0.0021588268462355933,
+          "weighted_mean_positive_delta_liq": 0.0030201558704554578,
+          "weighted_mean_predicted_probability": 0.5211685631269516,
+          "weighted_median_delta_liq": 0.0,
+          "weighted_median_predicted_probability": 0.5210347044833182,
+          "weighted_observed_positive_rate": 0.4981894601613505,
+          "weighted_p10_delta_liq": -0.0031710794071149167,
+          "weighted_p25_delta_liq": -0.0014530381664661718,
+          "weighted_p75_delta_liq": 0.00188593102909158,
+          "weighted_p90_delta_liq": 0.004879282523071197
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 61.792551277383936,
+          "negative_contribution": -0.05755028921718265,
+          "net_contribution": 0.07452043399004944,
+          "positive_contribution": 0.1320707232072321,
+          "positive_to_absolute_negative_contribution_ratio": 2.2948750562977196,
+          "probability_boundary": {
+            "lower_exclusive": 0.5328314418837905,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 2184,
+          "trade_count": 160,
+          "weighted_mean_delta_liq": 0.0012059776210813925,
+          "weighted_mean_negative_delta_liq": -0.0023974448794828133,
+          "weighted_mean_positive_delta_liq": 0.0035480657422024796,
+          "weighted_mean_predicted_probability": 0.5484820508100011,
+          "weighted_median_delta_liq": 0.000855290809756866,
+          "weighted_median_predicted_probability": 0.5475731950953464,
+          "weighted_observed_positive_rate": 0.6023914111165449,
+          "weighted_p10_delta_liq": -0.0029847153541110176,
+          "weighted_p25_delta_liq": -0.0010822982079885148,
+          "weighted_p75_delta_liq": 0.0037277251709911074,
+          "weighted_p90_delta_liq": 0.005942499071308702
+        }
+      },
+      "DELTA_LIQ_30": {
+        "Q1": {
+          "effective_whole_trade_weight": 54.213939204082145,
+          "negative_contribution": -0.1301574759070396,
+          "net_contribution": -0.06401377915766653,
+          "positive_contribution": 0.06614369674937308,
+          "positive_to_absolute_negative_contribution_ratio": 0.5081820793498937,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.4756835017204972
+          },
+          "snapshot_count": 1071,
+          "trade_count": 152,
+          "weighted_mean_delta_liq": -0.0011807623666063815,
+          "weighted_mean_negative_delta_liq": -0.004458345059848574,
+          "weighted_mean_positive_delta_liq": 0.002719365404633686,
+          "weighted_mean_predicted_probability": 0.45151537242167084,
+          "weighted_median_delta_liq": -0.00032017519719636234,
+          "weighted_median_predicted_probability": 0.4612248285211915,
+          "weighted_observed_positive_rate": 0.44865233378845887,
+          "weighted_p10_delta_liq": -0.0059902462135745516,
+          "weighted_p25_delta_liq": -0.00277652378109758,
+          "weighted_p75_delta_liq": 0.0014909095628518115,
+          "weighted_p90_delta_liq": 0.003686472998559793
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 42.78349722846547,
+          "negative_contribution": -0.0669762070699191,
+          "net_contribution": -0.01939247947567005,
+          "positive_contribution": 0.047583727594249045,
+          "positive_to_absolute_negative_contribution_ratio": 0.7104571858566807,
+          "probability_boundary": {
+            "lower_exclusive": 0.4756835017204972,
+            "upper_inclusive": 0.4894885996361887
+          },
+          "snapshot_count": 968,
+          "trade_count": 196,
+          "weighted_mean_delta_liq": -0.0004532700861763004,
+          "weighted_mean_negative_delta_liq": -0.00258520031169537,
+          "weighted_mean_positive_delta_liq": 0.0029176601138702373,
+          "weighted_mean_predicted_probability": 0.4827732265104177,
+          "weighted_median_delta_liq": -0.0005011377450172172,
+          "weighted_median_predicted_probability": 0.48313495837018705,
+          "weighted_observed_positive_rate": 0.38119524993210274,
+          "weighted_p10_delta_liq": -0.004038245730403332,
+          "weighted_p25_delta_liq": -0.0020951272053878253,
+          "weighted_p75_delta_liq": 0.0008664508047717162,
+          "weighted_p90_delta_liq": 0.0027288395256484825
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 50.35876952785028,
+          "negative_contribution": -0.08498238345844347,
+          "net_contribution": -0.015924649595085758,
+          "positive_contribution": 0.06905773386335771,
+          "positive_to_absolute_negative_contribution_ratio": 0.8126123444999288,
+          "probability_boundary": {
+            "lower_exclusive": 0.4894885996361887,
+            "upper_inclusive": 0.5083797137148498
+          },
+          "snapshot_count": 1643,
+          "trade_count": 210,
+          "weighted_mean_delta_liq": -0.000316223961474651,
+          "weighted_mean_negative_delta_liq": -0.0028950963958020394,
+          "weighted_mean_positive_delta_liq": 0.003382018155047878,
+          "weighted_mean_predicted_probability": 0.49841690805988353,
+          "weighted_median_delta_liq": -0.0005877752621157696,
+          "weighted_median_predicted_probability": 0.4983092718602818,
+          "weighted_observed_positive_rate": 0.40547238187593365,
+          "weighted_p10_delta_liq": -0.0042892519010833885,
+          "weighted_p25_delta_liq": -0.002157132683846044,
+          "weighted_p75_delta_liq": 0.001378165133826883,
+          "weighted_p90_delta_liq": 0.004583149443861203
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 55.62687595851324,
+          "negative_contribution": -0.08744868924895371,
+          "net_contribution": 0.03794891074980064,
+          "positive_contribution": 0.12539759999875436,
+          "positive_to_absolute_negative_contribution_ratio": 1.433956312847247,
+          "probability_boundary": {
+            "lower_exclusive": 0.5083797137148498,
+            "upper_inclusive": 0.5377457023724918
+          },
+          "snapshot_count": 2431,
+          "trade_count": 194,
+          "weighted_mean_delta_liq": 0.000682204601568909,
+          "weighted_mean_negative_delta_liq": -0.003317379930952903,
+          "weighted_mean_positive_delta_liq": 0.00433893466485928,
+          "weighted_mean_predicted_probability": 0.5225580493530805,
+          "weighted_median_delta_liq": 0.00019665231979229243,
+          "weighted_median_predicted_probability": 0.5222646152387186,
+          "weighted_observed_positive_rate": 0.5195429351370959,
+          "weighted_p10_delta_liq": -0.005213111554023271,
+          "weighted_p25_delta_liq": -0.002089893901067171,
+          "weighted_p75_delta_liq": 0.0031619398799533657,
+          "weighted_p90_delta_liq": 0.008263519969783147
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 64.01691808108887,
+          "negative_contribution": -0.0795021152510456,
+          "net_contribution": 0.09050367611160655,
+          "positive_contribution": 0.17000579136265215,
+          "positive_to_absolute_negative_contribution_ratio": 2.1383807314537617,
+          "probability_boundary": {
+            "lower_exclusive": 0.5377457023724918,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 2518,
+          "trade_count": 160,
+          "weighted_mean_delta_liq": 0.0014137462224746193,
+          "weighted_mean_negative_delta_liq": -0.0034588470417287404,
+          "weighted_mean_positive_delta_liq": 0.004180420483406745,
+          "weighted_mean_predicted_probability": 0.5582698607915462,
+          "weighted_median_delta_liq": 0.0013201517203639242,
+          "weighted_median_predicted_probability": 0.5573153376953229,
+          "weighted_observed_positive_rate": 0.6352563087330201,
+          "weighted_p10_delta_liq": -0.004065790871013632,
+          "weighted_p25_delta_liq": -0.0011704962088628012,
+          "weighted_p75_delta_liq": 0.004581304123552513,
+          "weighted_p90_delta_liq": 0.007246866934880927
+        }
+      },
+      "DELTA_LIQ_5": {
+        "Q1": {
+          "effective_whole_trade_weight": 53.150192994475034,
+          "negative_contribution": -0.057799792004328734,
+          "net_contribution": -0.017922022869550178,
+          "positive_contribution": 0.03987776913477856,
+          "positive_to_absolute_negative_contribution_ratio": 0.6899292843786019,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.48865730936567864
+          },
+          "snapshot_count": 1192,
+          "trade_count": 157,
+          "weighted_mean_delta_liq": -0.0003371958192402645,
+          "weighted_mean_negative_delta_liq": -0.0020937956999983426,
+          "weighted_mean_positive_delta_liq": 0.0016110412551352542,
+          "weighted_mean_predicted_probability": 0.47566371336452135,
+          "weighted_median_delta_liq": -9.016452589412447e-05,
+          "weighted_median_predicted_probability": 0.4807399333780978,
+          "weighted_observed_positive_rate": 0.46571405731794435,
+          "weighted_p10_delta_liq": -0.0032551265190638775,
+          "weighted_p25_delta_liq": -0.0013974040766751156,
+          "weighted_p75_delta_liq": 0.0010642278649066854,
+          "weighted_p90_delta_liq": 0.0024150952937662847
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 43.676138818138035,
+          "negative_contribution": -0.025865936323652583,
+          "net_contribution": -0.008179270329741358,
+          "positive_contribution": 0.017686665993911225,
+          "positive_to_absolute_negative_contribution_ratio": 0.6837821671175309,
+          "probability_boundary": {
+            "lower_exclusive": 0.48865730936567864,
+            "upper_inclusive": 0.49560713297632714
+          },
+          "snapshot_count": 1090,
+          "trade_count": 197,
+          "weighted_mean_delta_liq": -0.00018727091155650938,
+          "weighted_mean_negative_delta_liq": -0.0010623197639113807,
+          "weighted_mean_positive_delta_liq": 0.0009594497749609903,
+          "weighted_mean_predicted_probability": 0.49230597986105834,
+          "weighted_median_delta_liq": -0.00017090543897052123,
+          "weighted_median_predicted_probability": 0.49231591235957967,
+          "weighted_observed_positive_rate": 0.42206514763118275,
+          "weighted_p10_delta_liq": -0.0015902432542807222,
+          "weighted_p25_delta_liq": -0.0008419902865969102,
+          "weighted_p75_delta_liq": 0.0005808067932747464,
+          "weighted_p90_delta_liq": 0.0013527670544675628
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 51.41557735643933,
+          "negative_contribution": -0.030856477962113306,
+          "net_contribution": -0.005539635653829093,
+          "positive_contribution": 0.025316842308284213,
+          "positive_to_absolute_negative_contribution_ratio": 0.8204709020701956,
+          "probability_boundary": {
+            "lower_exclusive": 0.49560713297632714,
+            "upper_inclusive": 0.504801442938313
+          },
+          "snapshot_count": 1783,
+          "trade_count": 207,
+          "weighted_mean_delta_liq": -0.00010774236016889354,
+          "weighted_mean_negative_delta_liq": -0.0011294026001281163,
+          "weighted_mean_positive_delta_liq": 0.0010969972771509684,
+          "weighted_mean_predicted_probability": 0.5000556900146826,
+          "weighted_median_delta_liq": -8.621338933778588e-05,
+          "weighted_median_predicted_probability": 0.5000786004443946,
+          "weighted_observed_positive_rate": 0.44885830997591314,
+          "weighted_p10_delta_liq": -0.0017065231784174559,
+          "weighted_p25_delta_liq": -0.0008352295750285066,
+          "weighted_p75_delta_liq": 0.000677066107263272,
+          "weighted_p90_delta_liq": 0.0015465038486184995
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 57.17414854880502,
+          "negative_contribution": -0.03243227378520984,
+          "net_contribution": 0.014098033713341424,
+          "positive_contribution": 0.04653030749855126,
+          "positive_to_absolute_negative_contribution_ratio": 1.4346914991748305,
+          "probability_boundary": {
+            "lower_exclusive": 0.504801442938313,
+            "upper_inclusive": 0.5194403961597376
+          },
+          "snapshot_count": 2511,
+          "trade_count": 197,
+          "weighted_mean_delta_liq": 0.00024658056256503865,
+          "weighted_mean_negative_delta_liq": -0.00119613423101704,
+          "weighted_mean_positive_delta_liq": 0.0016140728632457685,
+          "weighted_mean_predicted_probability": 0.5119811598100019,
+          "weighted_median_delta_liq": 1.531184850534829e-05,
+          "weighted_median_predicted_probability": 0.5119081736692046,
+          "weighted_observed_positive_rate": 0.5042118879407542,
+          "weighted_p10_delta_liq": -0.0018092013420867943,
+          "weighted_p25_delta_liq": -0.0008535502793132537,
+          "weighted_p75_delta_liq": 0.0009343833759674,
+          "weighted_p90_delta_liq": 0.002214509679429739
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 61.58394228214258,
+          "negative_contribution": -0.03700998165096601,
+          "net_contribution": 0.04178865301943165,
+          "positive_contribution": 0.07879863467039766,
+          "positive_to_absolute_negative_contribution_ratio": 2.1291184473835294,
+          "probability_boundary": {
+            "lower_exclusive": 0.5194403961597376,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 2055,
+          "trade_count": 161,
+          "weighted_mean_delta_liq": 0.0006785641105595323,
+          "weighted_mean_negative_delta_liq": -0.0013899869168111758,
+          "weighted_mean_positive_delta_liq": 0.0023258192637523128,
+          "weighted_mean_predicted_probability": 0.529907631430447,
+          "weighted_median_delta_liq": 0.00021412202412432165,
+          "weighted_median_predicted_probability": 0.5290264376204388,
+          "weighted_observed_positive_rate": 0.5501425582072639,
+          "weighted_p10_delta_liq": -0.001968830435984387,
+          "weighted_p25_delta_liq": -0.0008306837028314929,
+          "weighted_p75_delta_liq": 0.0016912099502117148,
+          "weighted_p90_delta_liq": 0.004312154830589975
+        }
+      },
+      "DELTA_LIQ_60": {
+        "Q1": {
+          "effective_whole_trade_weight": 53.48178797438129,
+          "negative_contribution": -0.17367680179497183,
+          "net_contribution": -0.10774555998289763,
+          "positive_contribution": 0.0659312418120742,
+          "positive_to_absolute_negative_contribution_ratio": 0.3796203127341501,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.4586078385088559
+          },
+          "snapshot_count": 1023,
+          "trade_count": 147,
+          "weighted_mean_delta_liq": -0.002014621501332559,
+          "weighted_mean_negative_delta_liq": -0.005636365441952625,
+          "weighted_mean_positive_delta_liq": 0.003006036754257547,
+          "weighted_mean_predicted_probability": 0.4299115774969707,
+          "weighted_median_delta_liq": -0.0005636839976421015,
+          "weighted_median_predicted_probability": 0.4410160515608588,
+          "weighted_observed_positive_rate": 0.41010121076750483,
+          "weighted_p10_delta_liq": -0.007430137802312516,
+          "weighted_p25_delta_liq": -0.003176479278935858,
+          "weighted_p75_delta_liq": 0.0013880668459028134,
+          "weighted_p90_delta_liq": 0.004070626231248979
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 42.65311535037635,
+          "negative_contribution": -0.07923577754219802,
+          "net_contribution": -0.02272222976697126,
+          "positive_contribution": 0.056513547775226755,
+          "positive_to_absolute_negative_contribution_ratio": 0.7132327028043581,
+          "probability_boundary": {
+            "lower_exclusive": 0.4586078385088559,
+            "upper_inclusive": 0.47649749039905626
+          },
+          "snapshot_count": 908,
+          "trade_count": 197,
+          "weighted_mean_delta_liq": -0.0005327214572796908,
+          "weighted_mean_negative_delta_liq": -0.0028542079985233062,
+          "weighted_mean_positive_delta_liq": 0.0039330819512323895,
+          "weighted_mean_predicted_probability": 0.46774905988091525,
+          "weighted_median_delta_liq": -0.000782169561296087,
+          "weighted_median_predicted_probability": 0.46816837457301286,
+          "weighted_observed_positive_rate": 0.33687502845753636,
+          "weighted_p10_delta_liq": -0.004258787444148879,
+          "weighted_p25_delta_liq": -0.002575295545692598,
+          "weighted_p75_delta_liq": 0.0005775595603839745,
+          "weighted_p90_delta_liq": 0.0041148943542542605
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 50.24013744987175,
+          "negative_contribution": -0.10621295949911541,
+          "net_contribution": -0.004643507849917156,
+          "positive_contribution": 0.10156945164919826,
+          "positive_to_absolute_negative_contribution_ratio": 0.9562811555970642,
+          "probability_boundary": {
+            "lower_exclusive": 0.47649749039905626,
+            "upper_inclusive": 0.5018616747217064
+          },
+          "snapshot_count": 1620,
+          "trade_count": 208,
+          "weighted_mean_delta_liq": -9.242625688574853e-05,
+          "weighted_mean_negative_delta_liq": -0.0035086886876990932,
+          "weighted_mean_positive_delta_liq": 0.005143331345551988,
+          "weighted_mean_predicted_probability": 0.48836322079532535,
+          "weighted_median_delta_liq": -0.0008753551021623025,
+          "weighted_median_predicted_probability": 0.48812778166189913,
+          "weighted_observed_positive_rate": 0.3930680872723923,
+          "weighted_p10_delta_liq": -0.00559885366319827,
+          "weighted_p25_delta_liq": -0.002672734640091221,
+          "weighted_p75_delta_liq": 0.0020199715481692237,
+          "weighted_p90_delta_liq": 0.008683482433948142
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 56.828505422743156,
+          "negative_contribution": -0.12349299072100842,
+          "net_contribution": 0.04445225759767599,
+          "positive_contribution": 0.1679452483186844,
+          "positive_to_absolute_negative_contribution_ratio": 1.3599577379909857,
+          "probability_boundary": {
+            "lower_exclusive": 0.5018616747217064,
+            "upper_inclusive": 0.541384553987983
+          },
+          "snapshot_count": 2454,
+          "trade_count": 195,
+          "weighted_mean_delta_liq": 0.0007822176083463545,
+          "weighted_mean_negative_delta_liq": -0.004678177900111128,
+          "weighted_mean_positive_delta_liq": 0.005546740632650339,
+          "weighted_mean_predicted_probability": 0.5208348004985301,
+          "weighted_median_delta_liq": 0.0004633644114558138,
+          "weighted_median_predicted_probability": 0.52090266322452,
+          "weighted_observed_positive_rate": 0.5327992782979684,
+          "weighted_p10_delta_liq": -0.0071325817644057,
+          "weighted_p25_delta_liq": -0.00310613484943417,
+          "weighted_p75_delta_liq": 0.005306043778911999,
+          "weighted_p90_delta_liq": 0.009469378090200167
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 63.79645380262744,
+          "negative_contribution": -0.09743954401330103,
+          "net_contribution": 0.10097002417214006,
+          "positive_contribution": 0.1984095681854411,
+          "positive_to_absolute_negative_contribution_ratio": 2.0362325192978847,
+          "probability_boundary": {
+            "lower_exclusive": 0.541384553987983,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 2626,
+          "trade_count": 158,
+          "weighted_mean_delta_liq": 0.001582690230471425,
+          "weighted_mean_negative_delta_liq": -0.004863918395960277,
+          "weighted_mean_positive_delta_liq": 0.004558624164037899,
+          "weighted_mean_predicted_probability": 0.5680444562718766,
+          "weighted_median_delta_liq": 0.0022342058919117566,
+          "weighted_median_predicted_probability": 0.5675384268050744,
+          "weighted_observed_positive_rate": 0.682232312529817,
+          "weighted_p10_delta_liq": -0.005707944498517463,
+          "weighted_p25_delta_liq": -0.001017159173597861,
+          "weighted_p75_delta_liq": 0.005388824380826007,
+          "weighted_p90_delta_liq": 0.007655727266644931
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "Q1": {
+          "effective_whole_trade_weight": 52.23713101151992,
+          "negative_contribution": -0.20787723529957108,
+          "net_contribution": -0.13176667884698395,
+          "positive_contribution": 0.07611055645258713,
+          "positive_to_absolute_negative_contribution_ratio": 0.36613223349302537,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.44741370014535004
+          },
+          "snapshot_count": 921,
+          "trade_count": 144,
+          "weighted_mean_delta_liq": -0.002522471588608595,
+          "weighted_mean_negative_delta_liq": -0.00675788344062952,
+          "weighted_mean_positive_delta_liq": 0.0036723538374139153,
+          "weighted_mean_predicted_probability": 0.4163320434055245,
+          "weighted_median_delta_liq": -0.0006310560192987393,
+          "weighted_median_predicted_probability": 0.42723806315429264,
+          "weighted_observed_positive_rate": 0.39675376908130877,
+          "weighted_p10_delta_liq": -0.00798549510819157,
+          "weighted_p25_delta_liq": -0.0031926835947195947,
+          "weighted_p75_delta_liq": 0.0012684144254495773,
+          "weighted_p90_delta_liq": 0.0043677161405481675
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 42.35603670606848,
+          "negative_contribution": -0.09861020172523469,
+          "net_contribution": -0.014502158170430157,
+          "positive_contribution": 0.08410804355480453,
+          "positive_to_absolute_negative_contribution_ratio": 0.852934504577542,
+          "probability_boundary": {
+            "lower_exclusive": 0.44741370014535004,
+            "upper_inclusive": 0.470470074088694
+          },
+          "snapshot_count": 847,
+          "trade_count": 195,
+          "weighted_mean_delta_liq": -0.0003423870432228705,
+          "weighted_mean_negative_delta_liq": -0.0033900193764604355,
+          "weighted_mean_positive_delta_liq": 0.006616906572333132,
+          "weighted_mean_predicted_probability": 0.45884855702516,
+          "weighted_median_delta_liq": -0.00109314993498424,
+          "weighted_median_predicted_probability": 0.4592751015727901,
+          "weighted_observed_positive_rate": 0.3001008408568315,
+          "weighted_p10_delta_liq": -0.005322367062546505,
+          "weighted_p25_delta_liq": -0.00282751231625673,
+          "weighted_p75_delta_liq": 0.0003349188692301367,
+          "weighted_p90_delta_liq": 0.011936195511909204
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 51.694884655011684,
+          "negative_contribution": -0.15772019478027047,
+          "net_contribution": 0.018728620924111955,
+          "positive_contribution": 0.17644881570438242,
+          "positive_to_absolute_negative_contribution_ratio": 1.1187458647905166,
+          "probability_boundary": {
+            "lower_exclusive": 0.470470074088694,
+            "upper_inclusive": 0.5037571824964069
+          },
+          "snapshot_count": 1600,
+          "trade_count": 209,
+          "weighted_mean_delta_liq": 0.0003622915700286078,
+          "weighted_mean_negative_delta_liq": -0.004665090901047475,
+          "weighted_mean_positive_delta_liq": 0.009896667206804254,
+          "weighted_mean_predicted_probability": 0.4859382027546319,
+          "weighted_median_delta_liq": -0.0013701311451652601,
+          "weighted_median_predicted_probability": 0.48562351329148906,
+          "weighted_observed_positive_rate": 0.3448912772047941,
+          "weighted_p10_delta_liq": -0.008694714982295067,
+          "weighted_p25_delta_liq": -0.0037305214415059708,
+          "weighted_p75_delta_liq": 0.009073153148380243,
+          "weighted_p90_delta_liq": 0.01187239672276928
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 55.242459290577116,
+          "negative_contribution": -0.21314841622623865,
+          "net_contribution": 0.04550724555826635,
+          "positive_contribution": 0.258655661784505,
+          "positive_to_absolute_negative_contribution_ratio": 1.2135002753666457,
+          "probability_boundary": {
+            "lower_exclusive": 0.5037571824964069,
+            "upper_inclusive": 0.5545188291585795
+          },
+          "snapshot_count": 2385,
+          "trade_count": 192,
+          "weighted_mean_delta_liq": 0.0008237729844519911,
+          "weighted_mean_negative_delta_liq": -0.008046370992118577,
+          "weighted_mean_positive_delta_liq": 0.009005380949331452,
+          "weighted_mean_predicted_probability": 0.5282595728224209,
+          "weighted_median_delta_liq": 0.0045262344698197695,
+          "weighted_median_predicted_probability": 0.5284811659585865,
+          "weighted_observed_positive_rate": 0.5199324167579199,
+          "weighted_p10_delta_liq": -0.011760819356471075,
+          "weighted_p25_delta_liq": -0.005813353706540397,
+          "weighted_p75_delta_liq": 0.008888084020247902,
+          "weighted_p90_delta_liq": 0.011061444924827584
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 65.46948833682279,
+          "negative_contribution": -0.15689831717209896,
+          "net_contribution": 0.11636796148367223,
+          "positive_contribution": 0.2732662786557712,
+          "positive_to_absolute_negative_contribution_ratio": 1.741677562774815,
+          "probability_boundary": {
+            "lower_exclusive": 0.5545188291585795,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 2878,
+          "trade_count": 158,
+          "weighted_mean_delta_liq": 0.001777438077490244,
+          "weighted_mean_negative_delta_liq": -0.00979877766192793,
+          "weighted_mean_positive_delta_liq": 0.005525626377051069,
+          "weighted_mean_predicted_probability": 0.5884831852720356,
+          "weighted_median_delta_liq": 0.004199033019965896,
+          "weighted_median_predicted_probability": 0.588218991060119,
+          "weighted_observed_positive_rate": 0.7553801699719108,
+          "weighted_p10_delta_liq": -0.009379366254558931,
+          "weighted_p25_delta_liq": 0.0003020377776780381,
+          "weighted_p75_delta_liq": 0.006288772865481632,
+          "weighted_p90_delta_liq": 0.008815094176367892
+        }
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "Q1": {
+          "effective_whole_trade_weight": 149.6033246364567,
+          "negative_contribution": -0.25558219777140234,
+          "net_contribution": -0.07029872093852735,
+          "positive_contribution": 0.185283476832875,
+          "positive_to_absolute_negative_contribution_ratio": 0.7249467233965807,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.4800235559187629
+          },
+          "snapshot_count": 3738,
+          "trade_count": 510,
+          "weighted_mean_delta_liq": -0.00046990079337713014,
+          "weighted_mean_negative_delta_liq": -0.0031863946391371316,
+          "weighted_mean_positive_delta_liq": 0.0026872782809064287,
+          "weighted_mean_predicted_probability": 0.4708714771313369,
+          "weighted_median_delta_liq": -0.00019300357168640456,
+          "weighted_median_predicted_probability": 0.47355014492064584,
+          "weighted_observed_positive_rate": 0.4608746327769311,
+          "weighted_p10_delta_liq": -0.005309105914229236,
+          "weighted_p25_delta_liq": -0.0023161707618712633,
+          "weighted_p75_delta_liq": 0.0014393895352480968,
+          "weighted_p90_delta_liq": 0.0036908009736426944
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 190.2101015626825,
+          "negative_contribution": -0.20771287316444467,
+          "net_contribution": -0.0758205255219305,
+          "positive_contribution": 0.13189234764251417,
+          "positive_to_absolute_negative_contribution_ratio": 0.634974354902385,
+          "probability_boundary": {
+            "lower_exclusive": 0.4800235559187629,
+            "upper_inclusive": 0.48816302110364124
+          },
+          "snapshot_count": 4979,
+          "trade_count": 794,
+          "weighted_mean_delta_liq": -0.0003986146103651825,
+          "weighted_mean_negative_delta_liq": -0.0019300382621721221,
+          "weighted_mean_positive_delta_liq": 0.001620063273609529,
+          "weighted_mean_predicted_probability": 0.48448295244651673,
+          "weighted_median_delta_liq": -0.00024682921466580906,
+          "weighted_median_predicted_probability": 0.4846559124462266,
+          "weighted_observed_positive_rate": 0.42801012655849896,
+          "weighted_p10_delta_liq": -0.003179958444950558,
+          "weighted_p25_delta_liq": -0.0014908935203103513,
+          "weighted_p75_delta_liq": 0.0007512712514727584,
+          "weighted_p90_delta_liq": 0.002067134677317085
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 254.882412381456,
+          "negative_contribution": -0.25928263277315183,
+          "net_contribution": -0.05434602138100439,
+          "positive_contribution": 0.20493661139214744,
+          "positive_to_absolute_negative_contribution_ratio": 0.7903985284330551,
+          "probability_boundary": {
+            "lower_exclusive": 0.48816302110364124,
+            "upper_inclusive": 0.4997873388549825
+          },
+          "snapshot_count": 9782,
+          "trade_count": 902,
+          "weighted_mean_delta_liq": -0.00021321997415682948,
+          "weighted_mean_negative_delta_liq": -0.0017461502743087805,
+          "weighted_mean_positive_delta_liq": 0.0019467662805498504,
+          "weighted_mean_predicted_probability": 0.49357252664869705,
+          "weighted_median_delta_liq": -0.0003086509196522226,
+          "weighted_median_predicted_probability": 0.49342276753402015,
+          "weighted_observed_positive_rate": 0.4130150398148888,
+          "weighted_p10_delta_liq": -0.002887014942048836,
+          "weighted_p25_delta_liq": -0.0014412253651912583,
+          "weighted_p75_delta_liq": 0.0008185249835278229,
+          "weighted_p90_delta_liq": 0.0025389456171105848
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 248.0412438263569,
+          "negative_contribution": -0.26794952069912004,
+          "net_contribution": 0.06015338899766387,
+          "positive_contribution": 0.3281029096967839,
+          "positive_to_absolute_negative_contribution_ratio": 1.2244952289547477,
+          "probability_boundary": {
+            "lower_exclusive": 0.4997873388549825,
+            "upper_inclusive": 0.5173079891492095
+          },
+          "snapshot_count": 12683,
+          "trade_count": 814,
+          "weighted_mean_delta_liq": 0.00024251365647793137,
+          "weighted_mean_negative_delta_liq": -0.002139124610912082,
+          "weighted_mean_positive_delta_liq": 0.00269249204618923,
+          "weighted_mean_predicted_probability": 0.507963763922886,
+          "weighted_median_delta_liq": -4.34211879253325e-05,
+          "weighted_median_predicted_probability": 0.507661889866437,
+          "weighted_observed_positive_rate": 0.4912830180111483,
+          "weighted_p10_delta_liq": -0.0033394624885318084,
+          "weighted_p25_delta_liq": -0.0014889206670826525,
+          "weighted_p75_delta_liq": 0.001598385726588617,
+          "weighted_p90_delta_liq": 0.00417105851556937
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 244.2629175930479,
+          "negative_contribution": -0.19850823970847392,
+          "net_contribution": 0.44246016048922615,
+          "positive_contribution": 0.6409684001977001,
+          "positive_to_absolute_negative_contribution_ratio": 3.228925918334756,
+          "probability_boundary": {
+            "lower_exclusive": 0.5173079891492095,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 8434,
+          "trade_count": 646,
+          "weighted_mean_delta_liq": 0.0018114094634142676,
+          "weighted_mean_negative_delta_liq": -0.0023301415580725127,
+          "weighted_mean_positive_delta_liq": 0.004047349443497939,
+          "weighted_mean_predicted_probability": 0.5276875554793328,
+          "weighted_median_delta_liq": 0.0012089434946717576,
+          "weighted_median_predicted_probability": 0.5273601906143585,
+          "weighted_observed_positive_rate": 0.6483483002006417,
+          "weighted_p10_delta_liq": -0.0028000839670186224,
+          "weighted_p25_delta_liq": -0.0008246649066719556,
+          "weighted_p75_delta_liq": 0.004187037777104819,
+          "weighted_p90_delta_liq": 0.007154429933561459
+        }
+      },
+      "DELTA_LIQ_30": {
+        "Q1": {
+          "effective_whole_trade_weight": 149.11448466267473,
+          "negative_contribution": -0.34939654765527806,
+          "net_contribution": -0.13739793973812559,
+          "positive_contribution": 0.21199860791715247,
+          "positive_to_absolute_negative_contribution_ratio": 0.6067564471939624,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.4736577198128271
+          },
+          "snapshot_count": 3435,
+          "trade_count": 497,
+          "weighted_mean_delta_liq": -0.0009214258430289041,
+          "weighted_mean_negative_delta_liq": -0.004138204686931869,
+          "weighted_mean_positive_delta_liq": 0.003298029268733644,
+          "weighted_mean_predicted_probability": 0.46085631630368173,
+          "weighted_median_delta_liq": -0.0004945124602235172,
+          "weighted_median_predicted_probability": 0.46468280887233215,
+          "weighted_observed_positive_rate": 0.43108079160661283,
+          "weighted_p10_delta_liq": -0.006828947270091248,
+          "weighted_p25_delta_liq": -0.0032655261725049057,
+          "weighted_p75_delta_liq": 0.0014474466438799717,
+          "weighted_p90_delta_liq": 0.0042214659013689
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 194.07922750705663,
+          "negative_contribution": -0.308785590143267,
+          "net_contribution": -0.13677860047037205,
+          "positive_contribution": 0.17200698967289496,
+          "positive_to_absolute_negative_contribution_ratio": 0.5570434475037809,
+          "probability_boundary": {
+            "lower_exclusive": 0.4736577198128271,
+            "upper_inclusive": 0.4848670737094567
+          },
+          "snapshot_count": 4889,
+          "trade_count": 802,
+          "weighted_mean_delta_liq": -0.0007047565173629869,
+          "weighted_mean_negative_delta_liq": -0.002615136827169884,
+          "weighted_mean_positive_delta_liq": 0.002286940572602625,
+          "weighted_mean_predicted_probability": 0.47974492103260796,
+          "weighted_median_delta_liq": -0.00045791691052818415,
+          "weighted_median_predicted_probability": 0.4799852761620736,
+          "weighted_observed_positive_rate": 0.38753609694566554,
+          "weighted_p10_delta_liq": -0.004530474698057105,
+          "weighted_p25_delta_liq": -0.0021855475146178374,
+          "weighted_p75_delta_liq": 0.0007198633802209991,
+          "weighted_p90_delta_liq": 0.0026119589341292338
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 250.44526251238568,
+          "negative_contribution": -0.37405738533149513,
+          "net_contribution": -0.07329560507215521,
+          "positive_contribution": 0.3007617802593399,
+          "positive_to_absolute_negative_contribution_ratio": 0.8040525118700715,
+          "probability_boundary": {
+            "lower_exclusive": 0.4848670737094567,
+            "upper_inclusive": 0.5005060594305681
+          },
+          "snapshot_count": 9619,
+          "trade_count": 892,
+          "weighted_mean_delta_liq": -0.00029266117608645314,
+          "weighted_mean_negative_delta_liq": -0.0024680783325318925,
+          "weighted_mean_positive_delta_liq": 0.003062699167169788,
+          "weighted_mean_predicted_probability": 0.49212013594421467,
+          "weighted_median_delta_liq": -0.0005622613546732965,
+          "weighted_median_predicted_probability": 0.49195277936529636,
+          "weighted_observed_positive_rate": 0.39210780354271335,
+          "weighted_p10_delta_liq": -0.004260968082881163,
+          "weighted_p25_delta_liq": -0.0021031184826897516,
+          "weighted_p75_delta_liq": 0.0011245195017984314,
+          "weighted_p90_delta_liq": 0.0038718158561313206
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 248.79562775543647,
+          "negative_contribution": -0.38224237264127575,
+          "net_contribution": 0.10942586349682965,
+          "positive_contribution": 0.4916682361381054,
+          "positive_to_absolute_negative_contribution_ratio": 1.2862735042708697,
+          "probability_boundary": {
+            "lower_exclusive": 0.5005060594305681,
+            "upper_inclusive": 0.5240599876804818
+          },
+          "snapshot_count": 12614,
+          "trade_count": 812,
+          "weighted_mean_delta_liq": 0.000439822293036412,
+          "weighted_mean_negative_delta_liq": -0.0030534508043683914,
+          "weighted_mean_positive_delta_liq": 0.003988897527552046,
+          "weighted_mean_predicted_probability": 0.5114952774192848,
+          "weighted_median_delta_liq": -3.051071601771569e-05,
+          "weighted_median_predicted_probability": 0.5111488646042455,
+          "weighted_observed_positive_rate": 0.4954234146213634,
+          "weighted_p10_delta_liq": -0.004749670664451628,
+          "weighted_p25_delta_liq": -0.0022273752223594557,
+          "weighted_p75_delta_liq": 0.002615718615998162,
+          "weighted_p90_delta_liq": 0.0071199507698963774
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 244.56539756244652,
+          "negative_contribution": -0.24321389342530664,
+          "net_contribution": 0.5356204522702,
+          "positive_contribution": 0.7788343456955067,
+          "positive_to_absolute_negative_contribution_ratio": 3.202260918267378,
+          "probability_boundary": {
+            "lower_exclusive": 0.5240599876804818,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 9059,
+          "trade_count": 640,
+          "weighted_mean_delta_liq": 0.002190090902509773,
+          "weighted_mean_negative_delta_liq": -0.0032193962104375283,
+          "weighted_mean_positive_delta_liq": 0.004620729264254649,
+          "weighted_mean_predicted_probability": 0.5378026819493307,
+          "weighted_median_delta_liq": 0.0020822613353574295,
+          "weighted_median_predicted_probability": 0.5373198906159172,
+          "weighted_observed_positive_rate": 0.689190942426906,
+          "weighted_p10_delta_liq": -0.0036070815215670108,
+          "weighted_p25_delta_liq": -0.000700912800494052,
+          "weighted_p75_delta_liq": 0.005138889770218953,
+          "weighted_p90_delta_liq": 0.00794177204633445
+        }
+      },
+      "DELTA_LIQ_5": {
+        "Q1": {
+          "effective_whole_trade_weight": 155.08958353956578,
+          "negative_contribution": -0.1454957295827797,
+          "net_contribution": -0.022901328673216953,
+          "positive_contribution": 0.12259440090956275,
+          "positive_to_absolute_negative_contribution_ratio": 0.8425979323318403,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.4818371318862759
+          },
+          "snapshot_count": 4727,
+          "trade_count": 541,
+          "weighted_mean_delta_liq": -0.00014766516325949417,
+          "weighted_mean_negative_delta_liq": -0.001841758925137927,
+          "weighted_mean_positive_delta_liq": 0.0016245199798193325,
+          "weighted_mean_predicted_probability": 0.4756033801133238,
+          "weighted_median_delta_liq": -5.077543498771195e-05,
+          "weighted_median_predicted_probability": 0.4774017682934917,
+          "weighted_observed_positive_rate": 0.486589741664317,
+          "weighted_p10_delta_liq": -0.0030135525023973746,
+          "weighted_p25_delta_liq": -0.0012411399025218078,
+          "weighted_p75_delta_liq": 0.0010167000163896767,
+          "weighted_p90_delta_liq": 0.0023266999148763715
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 186.47018947405317,
+          "negative_contribution": -0.10871180661276372,
+          "net_contribution": -0.031530497799858476,
+          "positive_contribution": 0.07718130881290525,
+          "positive_to_absolute_negative_contribution_ratio": 0.7099625258535947,
+          "probability_boundary": {
+            "lower_exclusive": 0.4818371318862759,
+            "upper_inclusive": 0.48707754300387357
+          },
+          "snapshot_count": 5150,
+          "trade_count": 808,
+          "weighted_mean_delta_liq": -0.00016909135926118562,
+          "weighted_mean_negative_delta_liq": -0.0010946465654918225,
+          "weighted_mean_positive_delta_liq": 0.0009046798771326427,
+          "weighted_mean_predicted_probability": 0.48471302398047905,
+          "weighted_median_delta_liq": -7.368910070090339e-05,
+          "weighted_median_predicted_probability": 0.484836931145401,
+          "weighted_observed_positive_rate": 0.4575175905719917,
+          "weighted_p10_delta_liq": -0.0018175148341583736,
+          "weighted_p25_delta_liq": -0.0008106267692895696,
+          "weighted_p75_delta_liq": 0.000536173529729695,
+          "weighted_p90_delta_liq": 0.0013414236509703414
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 255.71257043956865,
+          "negative_contribution": -0.13488252523694338,
+          "net_contribution": -0.019576177438510436,
+          "positive_contribution": 0.11530634779843295,
+          "positive_to_absolute_negative_contribution_ratio": 0.8548649841473411,
+          "probability_boundary": {
+            "lower_exclusive": 0.48707754300387357,
+            "upper_inclusive": 0.4944424562836984
+          },
+          "snapshot_count": 9976,
+          "trade_count": 891,
+          "weighted_mean_delta_liq": -7.655539735437758e-05,
+          "weighted_mean_negative_delta_liq": -0.0009696019766782904,
+          "weighted_mean_positive_delta_liq": 0.0010105476071326216,
+          "weighted_mean_predicted_probability": 0.49049150551652604,
+          "weighted_median_delta_liq": -0.00010263612382300407,
+          "weighted_median_predicted_probability": 0.49038957881260803,
+          "weighted_observed_positive_rate": 0.44621520059169406,
+          "weighted_p10_delta_liq": -0.0015580177224801448,
+          "weighted_p25_delta_liq": -0.0007445799134677602,
+          "weighted_p75_delta_liq": 0.0005157201025726863,
+          "weighted_p90_delta_liq": 0.0013341355776939282
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 248.24482191180905,
+          "negative_contribution": -0.1505643705201083,
+          "net_contribution": 0.0019311812353985935,
+          "positive_contribution": 0.1524955517555069,
+          "positive_to_absolute_negative_contribution_ratio": 1.0128262830623709,
+          "probability_boundary": {
+            "lower_exclusive": 0.4944424562836984,
+            "upper_inclusive": 0.5056795681716408
+          },
+          "snapshot_count": 12565,
+          "trade_count": 816,
+          "weighted_mean_delta_liq": 7.77934146028101e-06,
+          "weighted_mean_negative_delta_liq": -0.001202432157460181,
+          "weighted_mean_positive_delta_liq": 0.0012555855804112512,
+          "weighted_mean_predicted_probability": 0.4996369972485621,
+          "weighted_median_delta_liq": -2.146222049918833e-05,
+          "weighted_median_predicted_probability": 0.49943125102085884,
+          "weighted_observed_positive_rate": 0.4892498011038529,
+          "weighted_p10_delta_liq": -0.0017675126862321802,
+          "weighted_p25_delta_liq": -0.0008612150633623513,
+          "weighted_p75_delta_liq": 0.0007947012038388265,
+          "weighted_p90_delta_liq": 0.001868726044264804
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 241.48283463500334,
+          "negative_contribution": -0.13708092047212034,
+          "net_contribution": 0.2604534358590234,
+          "positive_contribution": 0.39753435633114376,
+          "positive_to_absolute_negative_contribution_ratio": 2.8999977163998887,
+          "probability_boundary": {
+            "lower_exclusive": 0.5056795681716408,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 7198,
+          "trade_count": 660,
+          "weighted_mean_delta_liq": 0.0010785587979894875,
+          "weighted_mean_negative_delta_liq": -0.0013996073899350966,
+          "weighted_mean_positive_delta_liq": 0.0027945625938978467,
+          "weighted_mean_predicted_probability": 0.5127867454227414,
+          "weighted_median_delta_liq": 0.0004017325561404732,
+          "weighted_median_predicted_probability": 0.5125273360110585,
+          "weighted_observed_positive_rate": 0.5890803838544272,
+          "weighted_p10_delta_liq": -0.0018990293966508033,
+          "weighted_p25_delta_liq": -0.0007470936125675963,
+          "weighted_p75_delta_liq": 0.002073936614546255,
+          "weighted_p90_delta_liq": 0.004828822436673136
+        }
+      },
+      "DELTA_LIQ_60": {
+        "Q1": {
+          "effective_whole_trade_weight": 146.3698677015167,
+          "negative_contribution": -0.3825308580596724,
+          "net_contribution": -0.1519392225072998,
+          "positive_contribution": 0.2305916355523726,
+          "positive_to_absolute_negative_contribution_ratio": 0.6028053180389483,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.4600557185601068
+          },
+          "snapshot_count": 3079,
+          "trade_count": 484,
+          "weighted_mean_delta_liq": -0.0010380498725129704,
+          "weighted_mean_negative_delta_liq": -0.004545748009990589,
+          "weighted_mean_positive_delta_liq": 0.003722718593654,
+          "weighted_mean_predicted_probability": 0.4435498595774783,
+          "weighted_median_delta_liq": -0.0005937624475105853,
+          "weighted_median_predicted_probability": 0.44864640149798085,
+          "weighted_observed_positive_rate": 0.4231863597730604,
+          "weighted_p10_delta_liq": -0.007964354414388596,
+          "weighted_p25_delta_liq": -0.0036302323004259746,
+          "weighted_p75_delta_liq": 0.0013200453244012356,
+          "weighted_p90_delta_liq": 0.004279419572711277
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 197.2490580436262,
+          "negative_contribution": -0.3890668075012734,
+          "net_contribution": -0.1742739566144585,
+          "positive_contribution": 0.21479285088681493,
+          "positive_to_absolute_negative_contribution_ratio": 0.5520718980534259,
+          "probability_boundary": {
+            "lower_exclusive": 0.4600557185601068,
+            "upper_inclusive": 0.4753091898609916
+          },
+          "snapshot_count": 4756,
+          "trade_count": 805,
+          "weighted_mean_delta_liq": -0.000883522376953069,
+          "weighted_mean_negative_delta_liq": -0.003029900887350466,
+          "weighted_mean_positive_delta_liq": 0.0031799215822879644,
+          "weighted_mean_predicted_probability": 0.4683420434375757,
+          "weighted_median_delta_liq": -0.0006988106927249193,
+          "weighted_median_predicted_probability": 0.4686469005171137,
+          "weighted_observed_positive_rate": 0.34244314273640364,
+          "weighted_p10_delta_liq": -0.005634231616868534,
+          "weighted_p25_delta_liq": -0.002664523397214907,
+          "weighted_p75_delta_liq": 0.0005458481600187498,
+          "weighted_p90_delta_liq": 0.003148570959257768
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 249.8573350568609,
+          "negative_contribution": -0.5229830564379387,
+          "net_contribution": -0.10763801703624937,
+          "positive_contribution": 0.4153450394016894,
+          "positive_to_absolute_negative_contribution_ratio": 0.7941845042373327,
+          "probability_boundary": {
+            "lower_exclusive": 0.4753091898609916,
+            "upper_inclusive": 0.49678847941150833
+          },
+          "snapshot_count": 9652,
+          "trade_count": 890,
+          "weighted_mean_delta_liq": -0.0004307979071807269,
+          "weighted_mean_negative_delta_liq": -0.0032814236780027354,
+          "weighted_mean_positive_delta_liq": 0.004616680128304167,
+          "weighted_mean_predicted_probability": 0.48532462160218265,
+          "weighted_median_delta_liq": -0.0009575555124605433,
+          "weighted_median_predicted_probability": 0.4852017020945336,
+          "weighted_observed_positive_rate": 0.36007016634741296,
+          "weighted_p10_delta_liq": -0.005565710741500539,
+          "weighted_p25_delta_liq": -0.003019792943873767,
+          "weighted_p75_delta_liq": 0.001414696166944509,
+          "weighted_p90_delta_liq": 0.006794754251734161
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 246.40084177966088,
+          "negative_contribution": -0.5265986557395568,
+          "net_contribution": 0.17228431596319194,
+          "positive_contribution": 0.6988829717027487,
+          "positive_to_absolute_negative_contribution_ratio": 1.32716436718061,
+          "probability_boundary": {
+            "lower_exclusive": 0.49678847941150833,
+            "upper_inclusive": 0.5285345907822652
+          },
+          "snapshot_count": 12420,
+          "trade_count": 806,
+          "weighted_mean_delta_liq": 0.0006992034390745062,
+          "weighted_mean_negative_delta_liq": -0.004368443583500658,
+          "weighted_mean_positive_delta_liq": 0.005565534890709449,
+          "weighted_mean_predicted_probability": 0.5117198783135554,
+          "weighted_median_delta_liq": 0.00013977318206025288,
+          "weighted_median_predicted_probability": 0.5112062966979514,
+          "weighted_observed_positive_rate": 0.5096304421098269,
+          "weighted_p10_delta_liq": -0.0065108425747612275,
+          "weighted_p25_delta_liq": -0.003306710661951115,
+          "weighted_p75_delta_liq": 0.005048383924663653,
+          "weighted_p90_delta_liq": 0.009249848238080517
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 247.12289741833533,
+          "negative_contribution": -0.30042084966376503,
+          "net_contribution": 0.6003014258094067,
+          "positive_contribution": 0.9007222754731717,
+          "positive_to_absolute_negative_contribution_ratio": 2.9982016111107868,
+          "probability_boundary": {
+            "lower_exclusive": 0.5285345907822652,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 9709,
+          "trade_count": 635,
+          "weighted_mean_delta_liq": 0.0024291614904190877,
+          "weighted_mean_negative_delta_liq": -0.004434007493853661,
+          "weighted_mean_positive_delta_liq": 0.005033196410069452,
+          "weighted_mean_predicted_probability": 0.5469903800915673,
+          "weighted_median_delta_liq": 0.0029734759969807104,
+          "weighted_median_predicted_probability": 0.5465190686834296,
+          "weighted_observed_positive_rate": 0.7241591755746433,
+          "weighted_p10_delta_liq": -0.00442274667647132,
+          "weighted_p25_delta_liq": -0.00036264219688030095,
+          "weighted_p75_delta_liq": 0.005715592910168993,
+          "weighted_p90_delta_liq": 0.008509041478215521
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "Q1": {
+          "effective_whole_trade_weight": 140.23404999018953,
+          "negative_contribution": -0.42278936952116675,
+          "net_contribution": -0.1896356417416208,
+          "positive_contribution": 0.23315372777954596,
+          "positive_to_absolute_negative_contribution_ratio": 0.551465444941546,
+          "probability_boundary": {
+            "lower_exclusive": null,
+            "upper_inclusive": 0.44930557733684556
+          },
+          "snapshot_count": 2634,
+          "trade_count": 462,
+          "weighted_mean_delta_liq": -0.0013522795765713628,
+          "weighted_mean_negative_delta_liq": -0.004974608057404682,
+          "weighted_mean_positive_delta_liq": 0.004245745237474834,
+          "weighted_mean_predicted_probability": 0.42974753129936955,
+          "weighted_median_delta_liq": -0.0009242776805341458,
+          "weighted_median_predicted_probability": 0.4354534312888566,
+          "weighted_observed_positive_rate": 0.39159303230411224,
+          "weighted_p10_delta_liq": -0.00890244205611134,
+          "weighted_p25_delta_liq": -0.0041648266251157785,
+          "weighted_p75_delta_liq": 0.0010736103857400398,
+          "weighted_p90_delta_liq": 0.0035496977036036693
+        },
+        "Q2": {
+          "effective_whole_trade_weight": 201.09946706163197,
+          "negative_contribution": -0.5067505781886271,
+          "net_contribution": -0.19627081719476103,
+          "positive_contribution": 0.3104797609938661,
+          "positive_to_absolute_negative_contribution_ratio": 0.6126875318103665,
+          "probability_boundary": {
+            "lower_exclusive": 0.44930557733684556,
+            "upper_inclusive": 0.4691594045995723
+          },
+          "snapshot_count": 4567,
+          "trade_count": 806,
+          "weighted_mean_delta_liq": -0.0009759887485659465,
+          "weighted_mean_negative_delta_liq": -0.0035412044543633972,
+          "weighted_mean_positive_delta_liq": 0.00546466504416078,
+          "weighted_mean_predicted_probability": 0.4599929598154736,
+          "weighted_median_delta_liq": -0.0010845093884281599,
+          "weighted_median_predicted_probability": 0.4603953287721066,
+          "weighted_observed_positive_rate": 0.2825262653440459,
+          "weighted_p10_delta_liq": -0.006866439218863092,
+          "weighted_p25_delta_liq": -0.0032839930351427713,
+          "weighted_p75_delta_liq": 0.0001747759416780353,
+          "weighted_p90_delta_liq": 0.008475723428583593
+        },
+        "Q3": {
+          "effective_whole_trade_weight": 248.2064761303267,
+          "negative_contribution": -0.8368617788723675,
+          "net_contribution": -0.14811818164856538,
+          "positive_contribution": 0.6887435972238021,
+          "positive_to_absolute_negative_contribution_ratio": 0.8230075917098905,
+          "probability_boundary": {
+            "lower_exclusive": 0.4691594045995723,
+            "upper_inclusive": 0.4976995376148559
+          },
+          "snapshot_count": 9420,
+          "trade_count": 892,
+          "weighted_mean_delta_liq": -0.0005967538960216024,
+          "weighted_mean_negative_delta_liq": -0.004687249264994556,
+          "weighted_mean_positive_delta_liq": 0.009944168850309364,
+          "weighted_mean_predicted_probability": 0.4825724161448486,
+          "weighted_median_delta_liq": -0.002047192069373296,
+          "weighted_median_predicted_probability": 0.48234904139796214,
+          "weighted_observed_positive_rate": 0.2790461120079129,
+          "weighted_p10_delta_liq": -0.008462715931389994,
+          "weighted_p25_delta_liq": -0.004775027926542406,
+          "weighted_p75_delta_liq": 0.0009216849658880617,
+          "weighted_p90_delta_liq": 0.011518367354828227
+        },
+        "Q4": {
+          "effective_whole_trade_weight": 247.63521603030844,
+          "negative_contribution": -0.9554581470135617,
+          "net_contribution": 0.16501043275345428,
+          "positive_contribution": 1.120468579767016,
+          "positive_to_absolute_negative_contribution_ratio": 1.1727029417973158,
+          "probability_boundary": {
+            "lower_exclusive": 0.4976995376148559,
+            "upper_inclusive": 0.5396558712054453
+          },
+          "snapshot_count": 12453,
+          "trade_count": 804,
+          "weighted_mean_delta_liq": 0.0006663447767996715,
+          "weighted_mean_negative_delta_liq": -0.0076922710687594995,
+          "weighted_mean_positive_delta_liq": 0.009079974412122284,
+          "weighted_mean_predicted_probability": 0.5176265506911666,
+          "weighted_median_delta_liq": -0.00020159452073187367,
+          "weighted_median_predicted_probability": 0.5171707019832756,
+          "weighted_observed_positive_rate": 0.4983134993785483,
+          "weighted_p10_delta_liq": -0.010787555545073928,
+          "weighted_p25_delta_liq": -0.0062499922418365935,
+          "weighted_p75_delta_liq": 0.008807300836825448,
+          "weighted_p90_delta_liq": 0.011191964660895223
+        },
+        "Q5": {
+          "effective_whole_trade_weight": 249.82479078754332,
+          "negative_contribution": -0.5542461415513014,
+          "net_contribution": 0.5698142369341062,
+          "positive_contribution": 1.1240603784854075,
+          "positive_to_absolute_negative_contribution_ratio": 2.0280887753936017,
+          "probability_boundary": {
+            "lower_exclusive": 0.5396558712054453,
+            "upper_inclusive": null
+          },
+          "snapshot_count": 10542,
+          "trade_count": 625,
+          "weighted_mean_delta_liq": 0.0022808554552886193,
+          "weighted_mean_negative_delta_liq": -0.010690871266376847,
+          "weighted_mean_positive_delta_liq": 0.00568306050238699,
+          "weighted_mean_predicted_probability": 0.5634037471068406,
+          "weighted_median_delta_liq": 0.004313491055411419,
+          "weighted_median_predicted_probability": 0.562845929871523,
+          "weighted_observed_positive_rate": 0.7917203861842694,
+          "weighted_p10_delta_liq": -0.009829496587762492,
+          "weighted_p25_delta_liq": 0.0013065248100006107,
+          "weighted_p75_delta_liq": 0.006567067562758779,
+          "weighted_p90_delta_liq": 0.00900707767300071
+        }
+      }
+    }
+  },
+  "binary_label_definition": {
+    "continuous_value": "V_H = DELTA_LIQ_H; no transformation",
+    "exact_zero": 0,
+    "exact_zero_retained": true,
+    "rule": "Y_H = 1 iff DELTA_LIQ_H > 0; Y_H = 0 iff DELTA_LIQ_H <= 0"
+  },
+  "calendar_month_uncertainty": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0012295366536506321,
+              0.0027573223012566984
+            ],
+            "replicate_sha256": "ee420cec376376156a44a17ade2ea02216b5c960f3dc7850db4f57c6e7c6b30e"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0004598526321431106,
+              0.0016833699817025262
+            ],
+            "replicate_sha256": "34b7caa5f4477cae442241e12e05d1b82a436bb99197384192bff145625c0b2c"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.06643218520805938,
+              0.20476114677685764
+            ],
+            "replicate_sha256": "b91a10dcb3f1969caa0b7786e2305be4d7d44c9f77cf0a73ff9441a9e7ce8283"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.13301207946318766,
+              0.34482380863528866
+            ],
+            "replicate_sha256": "f0ff9e8a2ede4e453aa60c08bc1ff8fbe5f141a9db4768948b34af21c3e3d8a5"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.08306736757022003,
+              0.2080585948549909
+            ],
+            "replicate_sha256": "8ff4e38c84a90e2ff29f6e20f591b96aba8a2cd847c705b1131242b586a02c2f"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0012786277138988568,
+              0.004198491996646294
+            ],
+            "replicate_sha256": "1521ff9279a90f25267f6a16fc2ab466290fd9ce8730aeae289cbbe2bcd4d63c"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0008334537566177,
+              0.0025662644431921544
+            ],
+            "replicate_sha256": "286b4b2de655ea4339d8528b170aca3f746366f0c742306cce884f1bff6a7f12"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.10313332455056534,
+              0.26772200479565195
+            ],
+            "replicate_sha256": "61f41bea6cfd323c831aa1cefe2ef5bb36777248317b0b38be8426a3e2e05464"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.10943662592535697,
+              0.3860172546647857
+            ],
+            "replicate_sha256": "90040d0e0f8c0c7fa39d8234d3d0ac2572423f58998ef40ee3609b4765e719b0"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.12707279524836568,
+              0.24791753167518726
+            ],
+            "replicate_sha256": "7ec98fb74ce8ba0d2f9ea7cb04de782ee1f1c7edae02e956af897b33ecdc9e34"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0007819271881396896,
+              0.001272178311319263
+            ],
+            "replicate_sha256": "34dd5d5e2f7365504ff29db0491e4a4f3d109069946b1844e6d400ff1190796a"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              8.761828860474451e-05,
+              0.0005850715136309643
+            ],
+            "replicate_sha256": "cc7eaa53a9877b1ee782c033d05b32b09310b694d0a3d192aa42d13a306334a6"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.02648481609299813,
+              0.13710009635304332
+            ],
+            "replicate_sha256": "d5141aae989e7a14cd5227f63f363b8b9bc4a322ba6bbffa296105e7bbcb31ec"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.13043964195989252,
+              0.24777824603520957
+            ],
+            "replicate_sha256": "62d938ce2b4be988d49183fa3e9ac73eb5ac4f336f394e906c670a97f1f84d3a"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.08308469150220243,
+              0.14437553141058262
+            ],
+            "replicate_sha256": "cf11b0b69c50b982349b48beb9ad47cfb04fd6d1a1a5c6d3c73c78290346d468"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.001600802875095543,
+              0.005868983399709253
+            ],
+            "replicate_sha256": "926406714e5741a033a2b51c705d9cbf1a8bdee766df44ca4c644f7ebcba80d3"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0013672435117631488,
+              0.003992945401824273
+            ],
+            "replicate_sha256": "7fadff11b965e2ee4b6bcd2f3ce56facb720a66c78d3ee5eaf3bdee1e4074c21"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.21404008919570422,
+              0.3391438847052474
+            ],
+            "replicate_sha256": "3427b9119d0681b377af1fe9cd60a3834ea6a61de3891bddff0e24bb51c623b1"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.1154179247488772,
+              0.3804205352334936
+            ],
+            "replicate_sha256": "4992a696d5697b867f92656eba092a37bc655f3d2874b2e112d361022d485968"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.1458892705876877,
+              0.2634125547734243
+            ],
+            "replicate_sha256": "04951bc69a81e74f774dd93da616ecb24d92f739173d8e7310c474985bb1bd75"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.001961919809624662,
+              0.00639868789731158
+            ],
+            "replicate_sha256": "659a4986aee682ea758b68a44b12dd1b45786dbcfde3fbb3cdc69967849433c2"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.003754084468671522,
+              0.005315417093170936
+            ],
+            "replicate_sha256": "0a09afeb229fd6809874434e7ed617f0f08ada3f63ce778239757201d0e4449a"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.30762397933885594,
+              0.4018885478093814
+            ],
+            "replicate_sha256": "d63b3295bab1995421430d177d8d3228c161dd43b0412037eb6042a13e90bdb0"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.09630403050745606,
+              0.28943209891348165
+            ],
+            "replicate_sha256": "d31b3f3cef27b2734aa34e8cf8d171e658332c4b3216d9fa7baae56d0e13b847"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.11764409721481033,
+              0.21653507967031688
+            ],
+            "replicate_sha256": "4abfefab6640dc51533223ba126b4bcdee31f79c7dea123f5d26652c4ad557c2"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0016167941678957136,
+              0.0029334910008726907
+            ],
+            "replicate_sha256": "d9e52417d1320a9ed3dc1f964b46f50e681cadb2ae4eac7ec7239686dca2f6ea"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.000917656150832579,
+              0.001975998555973744
+            ],
+            "replicate_sha256": "1f55e72452872955141463cc5d3a9901d299fc6958625a0c078c203c521855a1"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.13353892322665792,
+              0.2326025600408406
+            ],
+            "replicate_sha256": "f5cc4b04b96adcb5a19e32aaa9a4ad79c8b23a971308af1a7d260c8d6b296c78"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.15815875362168413,
+              0.24863275958829564
+            ],
+            "replicate_sha256": "4e13064e1a471a87a631e9ecf71728c8b3f2a633f1a13baf0efdbe7784437ee7"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.14735878028183885,
+              0.23383826986406067
+            ],
+            "replicate_sha256": "1f6eda569fa0abc224d12c4191f17add341c35332f1eec48b9e14ff5554d8408"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0023323268029713027,
+              0.0038374253742723464
+            ],
+            "replicate_sha256": "21e1e2372306de5eaec475de96fdca52205e06744aacb31769272eef6d2fed07"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0017913576557435841,
+              0.0033857532440588066
+            ],
+            "replicate_sha256": "64ecef7944b47b4f75f217951dba933f46131d50e4a1a099de42620ec53e54d2"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.195786682623937,
+              0.30728341630329087
+            ],
+            "replicate_sha256": "bbb4376fe6dd3e2e1d72bc9b6c0f42f5d56e4f9303e8a8e3a5e6e4efb38c38d0"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.16881226657172063,
+              0.2527384676813757
+            ],
+            "replicate_sha256": "043061f868ecb8ece4c8f53f1a08fce3ed94a31d0f249d6a869c2bd9846287de"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.18452372911269635,
+              0.2789206646690819
+            ],
+            "replicate_sha256": "738e5c64728067d557a42d4fef1855706a60ad0faf662c8053cb4c5f1f8b1d6f"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0008125719372804025,
+              0.0016827372341229987
+            ],
+            "replicate_sha256": "002f453e2be2138fb65d38c8c2443de3331ac3202cee288d0d982f748da528ef"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0002669856685021959,
+              0.00064333381499182
+            ],
+            "replicate_sha256": "9fc9d824d4d25c70121faf11002b91a1496d87db308e1edd50f281bee4a38a35"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.07354229539011417,
+              0.12995172995900967
+            ],
+            "replicate_sha256": "c0985baf35570397b2d21e5b0c69a17330a859b0179695978030fe667ac5757d"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.12403155622698754,
+              0.22227159500117188
+            ],
+            "replicate_sha256": "aa169ade07ae09528b65e372efad1215bab7072f43c162d18df1a4bb5800f6d5"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.08826822067946463,
+              0.149710027146708
+            ],
+            "replicate_sha256": "14ab3e0cc895373ed5fd889c95e0e42583de9019473aaefacb9baaab5276e190"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.002751828974933343,
+              0.004148843179174559
+            ],
+            "replicate_sha256": "48f1c59656901fc68d806c970f143f5b285e24e10964ebe18b970849bf689d20"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0027537798181104787,
+              0.004416282367254192
+            ],
+            "replicate_sha256": "73dbb1bf10a85803442f61f7f79423972d92033678eea4f5acd2ca01bbee4a19"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.23549355382057977,
+              0.35464767519533813
+            ],
+            "replicate_sha256": "f416959c748dc78760b53d3402608a1769ee2a56dee8b81b98dbe31f0b2d9d0f"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.16636723712750714,
+              0.2338800342256111
+            ],
+            "replicate_sha256": "4094dd0b363d6ac666aca547495494678f29859bca85af9a7b405e43b8757e25"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.20746821122355436,
+              0.2924402406156536
+            ],
+            "replicate_sha256": "07997cc64e4cd27d5af4555d6caf5c0b4ae04d6fe29ee4020be5c71b7fd965b4"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "paired UTC entry-calendar-month blocks; whole trades and all symbols retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0027508993325094273,
+              0.004407911455788019
+            ],
+            "replicate_sha256": "53fa8eda46510deba79bd19869d9fa0591ff4be4bc5881426d7d4963857d3eb9"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.004658391576532492,
+              0.00575517216720954
+            ],
+            "replicate_sha256": "6baa7a8ea7b9426dee98340ab98818a65d06249bc1e80529cdccb13886a38d5d"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.3399120368988443,
+              0.4501865545464228
+            ],
+            "replicate_sha256": "7c1264724b562c3656e8a6b760a832f14fd95063810c5b56e2cea5c069145cd6"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.11394257105705517,
+              0.1893057970951168
+            ],
+            "replicate_sha256": "3c7812470219f84f209bc0599ad499d67534dd1000f46c18b715314086b88e75"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.16577339452357093,
+              0.2579856855182793
+            ],
+            "replicate_sha256": "b02ff2a30dfa7b79ed8514fa026310d40ebbab46184132bf2a326a5d36bd9b93"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "calendar_month"
+      }
+    }
+  },
+  "concentration": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.3473512120885633,
+        "top_1pct_positive_rows_share": 0.05906111528972624,
+        "top_20pct_positive_rows_share": 0.5407548256047776,
+        "top_5pct_positive_rows_share": 0.2097521057747157
+      },
+      "DELTA_LIQ_30": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.32048592605459636,
+        "top_1pct_positive_rows_share": 0.04836575580821088,
+        "top_20pct_positive_rows_share": 0.5191213945808894,
+        "top_5pct_positive_rows_share": 0.1849975894402692
+      },
+      "DELTA_LIQ_5": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.3786842958547964,
+        "top_1pct_positive_rows_share": 0.07021648660451167,
+        "top_20pct_positive_rows_share": 0.5661154559609965,
+        "top_5pct_positive_rows_share": 0.23687486400991087
+      },
+      "DELTA_LIQ_60": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.28685681305421534,
+        "top_1pct_positive_rows_share": 0.04119307090171429,
+        "top_20pct_positive_rows_share": 0.48570813447608874,
+        "top_5pct_positive_rows_share": 0.16172121166930314
+      },
+      "DELTA_LIQ_EVENT": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.23217030565547728,
+        "top_1pct_positive_rows_share": 0.035033274652182006,
+        "top_20pct_positive_rows_share": 0.4044786719110466,
+        "top_5pct_positive_rows_share": 0.13178483530354015
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.36767634676289856,
+        "top_1pct_positive_rows_share": 0.06629277442530002,
+        "top_20pct_positive_rows_share": 0.5660104264473846,
+        "top_5pct_positive_rows_share": 0.22982296353047119
+      },
+      "DELTA_LIQ_30": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.3334716208757468,
+        "top_1pct_positive_rows_share": 0.05224714273629091,
+        "top_20pct_positive_rows_share": 0.5328891234248451,
+        "top_5pct_positive_rows_share": 0.19955688170106473
+      },
+      "DELTA_LIQ_5": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.42600316485106704,
+        "top_1pct_positive_rows_share": 0.09926762363000412,
+        "top_20pct_positive_rows_share": 0.6068564452824248,
+        "top_5pct_positive_rows_share": 0.2836032651869648
+      },
+      "DELTA_LIQ_60": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.2993617072448579,
+        "top_1pct_positive_rows_share": 0.04660354211236357,
+        "top_20pct_positive_rows_share": 0.49332410234874724,
+        "top_5pct_positive_rows_share": 0.17485839922601257
+      },
+      "DELTA_LIQ_EVENT": {
+        "definition": "descending positive DELTA_LIQ; percentages use whole-trade weighted positive-row mass; boundary weight fractionalized",
+        "top_10pct_positive_rows_share": 0.23324644387761212,
+        "top_1pct_positive_rows_share": 0.035204208486519034,
+        "top_20pct_positive_rows_share": 0.403055006753185,
+        "top_5pct_positive_rows_share": 0.13299054626631943
+      }
+    }
+  },
+  "confirmations": {
+    "C25_started": false,
+    "accessed_2026": false,
+    "horizon_selection": false,
+    "model_training": "only exact reproduction strictly required because C23 row-level predictions were not stored",
+    "policy_or_pnl_optimization": false,
+    "probability_recalibration": false,
+    "staged_committed_or_pushed": false,
+    "threshold_or_bin_search": false
+  },
+  "contract_sha256": "59ff709a0cbbc0847a5f67ea5cb87abaaabbd262e58bc750767871953d20693e",
+  "economic_ordering": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "Delta_mean_Q5_Q1": 0.001929129094117216,
+        "Delta_median_Q5_Q1": 0.0009657424038894079,
+        "Delta_positive_rate_Q5_Q1": 0.13412077400092492,
+        "mean_delta_liq_nondecreasing": false,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.22912683712147447,
+        "weighted_spearman": 0.15672163594061025
+      },
+      "DELTA_LIQ_30": {
+        "Delta_mean_Q5_Q1": 0.0025945085890810007,
+        "Delta_median_Q5_Q1": 0.0016403269175602865,
+        "Delta_positive_rate_Q5_Q1": 0.1866039749445612,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.2426967014109602,
+        "weighted_spearman": 0.19171601217384954
+      },
+      "DELTA_LIQ_5": {
+        "Delta_mean_Q5_Q1": 0.0010157599297997968,
+        "Delta_median_Q5_Q1": 0.0003042865500184461,
+        "Delta_positive_rate_Q5_Q1": 0.08442850088931952,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.19051885266157792,
+        "weighted_spearman": 0.11071421238171134
+      },
+      "DELTA_LIQ_60": {
+        "Delta_mean_Q5_Q1": 0.0035973117318039843,
+        "Delta_median_Q5_Q1": 0.002797889889553858,
+        "Delta_positive_rate_Q5_Q1": 0.27213110176231214,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.2567724462890328,
+        "weighted_spearman": 0.21998137880954058
+      },
+      "DELTA_LIQ_EVENT": {
+        "Delta_mean_Q5_Q1": 0.004299909666098839,
+        "Delta_median_Q5_Q1": 0.004830089039264635,
+        "Delta_positive_rate_Q5_Q1": 0.35862640089060205,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.20454763292909484,
+        "weighted_spearman": 0.19439804238180755
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "Delta_mean_Q5_Q1": 0.002281310256791398,
+        "Delta_median_Q5_Q1": 0.0014019470663581622,
+        "Delta_positive_rate_Q5_Q1": 0.18747366742371063,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.20308587193402705,
+        "weighted_spearman": 0.19257590293632018
+      },
+      "DELTA_LIQ_30": {
+        "Delta_mean_Q5_Q1": 0.003111516745538677,
+        "Delta_median_Q5_Q1": 0.0025767737955809467,
+        "Delta_positive_rate_Q5_Q1": 0.2581101508202932,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.21134768214716357,
+        "weighted_spearman": 0.235917621457833
+      },
+      "DELTA_LIQ_5": {
+        "Delta_mean_Q5_Q1": 0.0012262239612489817,
+        "Delta_median_Q5_Q1": 0.00045250799112818516,
+        "Delta_positive_rate_Q5_Q1": 0.10249064219011017,
+        "mean_delta_liq_nondecreasing": false,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.17735567669065738,
+        "weighted_spearman": 0.11987642280764983
+      },
+      "DELTA_LIQ_60": {
+        "Delta_mean_Q5_Q1": 0.003467211362932058,
+        "Delta_median_Q5_Q1": 0.0035672384444912957,
+        "Delta_positive_rate_Q5_Q1": 0.30097281580158286,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.19883704560526275,
+        "weighted_spearman": 0.25387588029615754
+      },
+      "DELTA_LIQ_EVENT": {
+        "Delta_mean_Q5_Q1": 0.003633135031859982,
+        "Delta_median_Q5_Q1": 0.005237768735945565,
+        "Delta_positive_rate_Q5_Q1": 0.4001273538801572,
+        "mean_delta_liq_nondecreasing": true,
+        "median_delta_liq_nondecreasing": false,
+        "positive_rate_nondecreasing": false,
+        "weighted_linear_correlation": 0.15046174871197762,
+        "weighted_spearman": 0.21388855281443944
+      }
+    }
+  },
+  "frozen_classification": {
+    "DELTA_LIQ_15": {
+      "classification": "ECONOMIC_ORDERING_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "positive_required_point_estimates_both_years": true,
+      "positive_symbol_spreads_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "q5_net_not_worse_than_q1_both_years": true,
+      "uncertainty_no_clear_reversal_both_years": true
+    },
+    "DELTA_LIQ_30": {
+      "classification": "ECONOMIC_ORDERING_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "positive_required_point_estimates_both_years": true,
+      "positive_symbol_spreads_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "q5_net_not_worse_than_q1_both_years": true,
+      "uncertainty_no_clear_reversal_both_years": true
+    },
+    "DELTA_LIQ_5": {
+      "classification": "ECONOMIC_ORDERING_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "positive_required_point_estimates_both_years": true,
+      "positive_symbol_spreads_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "q5_net_not_worse_than_q1_both_years": true,
+      "uncertainty_no_clear_reversal_both_years": true
+    },
+    "DELTA_LIQ_60": {
+      "classification": "ECONOMIC_ORDERING_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "positive_required_point_estimates_both_years": true,
+      "positive_symbol_spreads_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "q5_net_not_worse_than_q1_both_years": true,
+      "uncertainty_no_clear_reversal_both_years": true
+    },
+    "DELTA_LIQ_EVENT": {
+      "classification": "ECONOMIC_ORDERING_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "positive_required_point_estimates_both_years": true,
+      "positive_symbol_spreads_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "q5_net_not_worse_than_q1_both_years": true,
+      "uncertainty_no_clear_reversal_both_years": true
+    }
+  },
+  "frozen_prediction_provenance": {
+    "C20_reproduction": {
+      "frozen_probability_target_panel_sha256": "d20a975c50a561a9fa520d6b56e3e83b9c84f08b32dc3ed2d35407cbb0a7c70d",
+      "maximum_absolute_differences": {
+        "economic_ordering": 6.661338147750939e-16,
+        "overall_forward_value": 2.220446049250313e-16,
+        "symbol_summary": 8.881784197001252e-16,
+        "year_summary": 5.551115123125783e-16
+      },
+      "population_match": true,
+      "snapshot_rows": 56217,
+      "status": "PASS",
+      "symbol_membership": {
+        "BNBUSDT": 328,
+        "BTCUSDT": 335,
+        "ETHUSDT": 320,
+        "SOLUSDT": 311,
+        "XRPUSDT": 316
+      },
+      "tolerance": 1e-15,
+      "trade_count": 1610,
+      "year_membership": {
+        "2024": 523,
+        "2025": 1087
+      }
+    },
+    "C23_artifact_hashes_sha256": "76a45610b6c66d10dddaf93d94ed6062a36f1098db9bc002d0b5f7044092e0e2",
+    "C23_source_sha256": "df1e68580b16f2440e30f450946df7ecde7b4481568d1762fe40e3fcac9412f4",
+    "contract_sha256": "59ff709a0cbbc0847a5f67ea5cb87abaaabbd262e58bc750767871953d20693e",
+    "no_2026_access": true,
+    "no_recalibration": true,
+    "prediction_source": "exact reproduction of frozen target-specific C23 S+C9 logistic predictions"
+  },
+  "implication_for_C25": "None selected: C24 stops without horizon selection or starting C25.",
+  "interpretation": "C24 describes whether frozen S+C9 probabilities order executable forward value; positive-rate ordering and value-magnitude ordering are reported separately and do not define a policy.",
+  "limitations": [
+    "2024 has one honest chronological validation block",
+    "repeated snapshots are dependent; intervals use month and whole-trade clusters",
+    "five symbols are not independent replications",
+    "tail outcomes can separate probability ordering from economic magnitude ordering"
+  ],
+  "population_reconciliation": {
+    "actual_scored_snapshots": 56217,
+    "actual_scored_trades": 1610,
+    "causal_snapshots": 75164,
+    "eligible_target_snapshots": 56217,
+    "eligible_target_trades": 1610,
+    "exact_reconciliation": true,
+    "expected_scored_snapshots": 56217,
+    "expected_scored_trades": 1610,
+    "honestly_scored_snapshots": 56217,
+    "honestly_scored_trades": 1610,
+    "source_trades": 2199,
+    "target_ineligible": {}
+  },
+  "symbol_stability": {
+    "BNBUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.0015873019067918247,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0007966283035871169,
+            "Q2": -0.0002460903138595548,
+            "Q3": -0.000136220735882499,
+            "Q4": 0.0007872441429208091,
+            "Q5": 0.0007906736032047078
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4022932201776748,
+            "Q2": 0.4054388481325401,
+            "Q3": 0.4295528935264333,
+            "Q4": 0.5485797742536495,
+            "Q5": 0.5766954325556406
+          },
+          "weighted_spearman": 0.1696861996039762
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.002673817016932298,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0013199395011908395,
+            "Q2": -0.0008275365266440464,
+            "Q3": 3.8626516653706395e-05,
+            "Q4": 0.0019795091028223023,
+            "Q5": 0.0013538775157414585
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.3846392638912717,
+            "Q2": 0.3277157618769934,
+            "Q3": 0.44539463437160465,
+            "Q4": 0.6325667091644855,
+            "Q5": 0.6461971242266701
+          },
+          "weighted_spearman": 0.2576693632868292
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0006202083916607012,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.00036343078993523114,
+            "Q2": -0.0001540112533895951,
+            "Q3": -1.9445924712873816e-05,
+            "Q4": 0.00021888538298796197,
+            "Q5": 0.00025677760172547004
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.44923150938573353,
+            "Q2": 0.4176988900601566,
+            "Q3": 0.43816435468744913,
+            "Q4": 0.5533653067521868,
+            "Q5": 0.4827408929269221
+          },
+          "weighted_spearman": 0.06994655177486087
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.003259763510361228,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0016354291573902908,
+            "Q2": -0.00060339413865397,
+            "Q3": 0.000550700329105555,
+            "Q4": 0.0023270736674732484,
+            "Q5": 0.001624334352970937
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.34256969526778674,
+            "Q2": 0.3436589674907247,
+            "Q3": 0.44448637258838436,
+            "Q4": 0.6492051284203407,
+            "Q5": 0.703270813373175
+          },
+          "weighted_spearman": 0.28291913894096343
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.003758896090987792,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.001732918286264646,
+            "Q2": -0.0006475800812725153,
+            "Q3": 0.0010652599224616358,
+            "Q4": 0.002738980542977653,
+            "Q5": 0.0020259778047231457
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.3349051101137613,
+            "Q2": 0.28839162688843006,
+            "Q3": 0.4420639801068413,
+            "Q4": 0.6311789012927462,
+            "Q5": 0.7825488226336644
+          },
+          "weighted_spearman": 0.25220048655583643
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.0013473046173690334,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0003148707717655057,
+            "Q2": -0.00028167910563309457,
+            "Q3": -0.0004169650324315322,
+            "Q4": -5.37767678896042e-05,
+            "Q5": 0.0010324338456035277
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.466840881158575,
+            "Q2": 0.42869156022626825,
+            "Q3": 0.3889646859681021,
+            "Q4": 0.4800872806256524,
+            "Q5": 0.6273632737567191
+          },
+          "weighted_spearman": 0.14339163483413997
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.001773094590060263,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0005484120749337164,
+            "Q2": -0.0005267714400165404,
+            "Q3": -0.0005406709226692638,
+            "Q4": -0.00014840924138387804,
+            "Q5": 0.0012246825151265466
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.48187929518480255,
+            "Q2": 0.4020712814031392,
+            "Q3": 0.354144657710206,
+            "Q4": 0.4711181398201443,
+            "Q5": 0.6401848300714181
+          },
+          "weighted_spearman": 0.15890999659657695
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0008170965512291672,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.00017377726386822755,
+            "Q2": -0.00010750247152435613,
+            "Q3": -0.00014993571822030744,
+            "Q4": -4.714867200121789e-05,
+            "Q5": 0.0006433192873609397
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4993145404984769,
+            "Q2": 0.4794369375520333,
+            "Q3": 0.4166895924411533,
+            "Q4": 0.48074768744546037,
+            "Q5": 0.587631815121452
+          },
+          "weighted_spearman": 0.08493826438367771
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.0018851603984591523,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.000644980513882161,
+            "Q2": -0.0007436865236213127,
+            "Q3": -0.0007552273910300387,
+            "Q4": -4.231365375603963e-05,
+            "Q5": 0.0012401798845769914
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.48298833686222015,
+            "Q2": 0.35442217912013385,
+            "Q3": 0.32444268539098203,
+            "Q4": 0.4750660238120121,
+            "Q5": 0.6511508366567008
+          },
+          "weighted_spearman": 0.16069283588661407
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.0021302352376285257,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0009094884562982882,
+            "Q2": -0.001074204629640191,
+            "Q3": -0.0011682398151895358,
+            "Q4": -3.4239999665292584e-05,
+            "Q5": 0.0012207467813302375
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.47532615251547256,
+            "Q2": 0.2892818384247084,
+            "Q3": 0.22001584682322697,
+            "Q4": 0.44524931065286005,
+            "Q5": 0.7283297048836103
+          },
+          "weighted_spearman": 0.13891949204291257
+        }
+      }
+    },
+    "BTCUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.00042512644356861387,
+          "mean_delta_liq_by_bin": {
+            "Q1": 6.945987023095067e-05,
+            "Q2": -0.0005095853288011767,
+            "Q3": -0.0001414482137388464,
+            "Q4": -0.00013467410072867447,
+            "Q5": 0.0004945863137995646
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.588711430061819,
+            "Q2": 0.339660215410284,
+            "Q3": 0.42520369145325587,
+            "Q4": 0.46097111210524316,
+            "Q5": 0.5818385464549126
+          },
+          "weighted_spearman": 0.08840027706868678
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.0007041225731779339,
+          "mean_delta_liq_by_bin": {
+            "Q1": 0.00011374138762285632,
+            "Q2": -0.0006765737180421303,
+            "Q3": -6.628239156726843e-06,
+            "Q4": -0.0005003251457723994,
+            "Q5": 0.0008178639608007902
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.5532758841027585,
+            "Q2": 0.34635551665081105,
+            "Q3": 0.38664799482116774,
+            "Q4": 0.4560388951186892,
+            "Q5": 0.5991180987736633
+          },
+          "weighted_spearman": 0.09591514034130882
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.00024154883585648452,
+          "mean_delta_liq_by_bin": {
+            "Q1": 1.9750148340715395e-06,
+            "Q2": -0.0002843220044786941,
+            "Q3": -0.0001354094585309697,
+            "Q4": 3.9145350287571544e-05,
+            "Q5": 0.00024352385069055605
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.5047696231269256,
+            "Q2": 0.3761570703555551,
+            "Q3": 0.4812098475168438,
+            "Q4": 0.4558308247796646,
+            "Q5": 0.5463943800776506
+          },
+          "weighted_spearman": 0.05812433905772068
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.0007428612512077428,
+          "mean_delta_liq_by_bin": {
+            "Q1": 0.0002985075296685342,
+            "Q2": -0.0007585967344593032,
+            "Q3": -9.677950309166772e-05,
+            "Q4": -0.0002721777799458103,
+            "Q5": 0.001041368780876277
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.5130275227850519,
+            "Q2": 0.26420813992265035,
+            "Q3": 0.3759163830270142,
+            "Q4": 0.43325722353058993,
+            "Q5": 0.6686169337395703
+          },
+          "weighted_spearman": 0.13023476197994785
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.0021676036425557128,
+          "mean_delta_liq_by_bin": {
+            "Q1": 0.000213669312546507,
+            "Q2": 0.00014422535190211248,
+            "Q3": 0.0004334593333016934,
+            "Q4": 0.0010934083750751326,
+            "Q5": 0.00238127295510222
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.47251450589169525,
+            "Q2": 0.26745128286725783,
+            "Q3": 0.29023661165719616,
+            "Q4": 0.4365323888922164,
+            "Q5": 0.7943359640321359
+          },
+          "weighted_spearman": 0.1523506834196789
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.002454712408042283,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0007614534532733398,
+            "Q2": -0.00037165155505105554,
+            "Q3": -0.00023586283486742306,
+            "Q4": 3.249714105442324e-05,
+            "Q5": 0.0016932589547689434
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.405526087086471,
+            "Q2": 0.41801691383630757,
+            "Q3": 0.3974029136816802,
+            "Q4": 0.46588667749014456,
+            "Q5": 0.601619572927834
+          },
+          "weighted_spearman": 0.15546302901947265
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.0034858591261515345,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0014857828070493414,
+            "Q2": -0.0006188374069578755,
+            "Q3": -0.0003908351229883837,
+            "Q4": 0.0003261448796265171,
+            "Q5": 0.0020000763191021934
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.34954688739409767,
+            "Q2": 0.3964140971674056,
+            "Q3": 0.35793221728453783,
+            "Q4": 0.4754901657949523,
+            "Q5": 0.6248462973226483
+          },
+          "weighted_spearman": 0.21692829899253263
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0012789221467432606,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0002536924938275058,
+            "Q2": -0.00018249036820552192,
+            "Q3": -6.23764432466188e-05,
+            "Q4": -2.2984293837281884e-05,
+            "Q5": 0.0010252296529157548
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.48774979254875156,
+            "Q2": 0.45429848995074595,
+            "Q3": 0.44345731829240215,
+            "Q4": 0.47494793573685784,
+            "Q5": 0.5591322893336271
+          },
+          "weighted_spearman": 0.08118188643971119
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.004008459006655988,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0016183602202446332,
+            "Q2": -0.0008128246339398964,
+            "Q3": -0.000398257549599768,
+            "Q4": 0.000554901513386542,
+            "Q5": 0.002390098786411355
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.33775854331779087,
+            "Q2": 0.3524052815864947,
+            "Q3": 0.3271682919482964,
+            "Q4": 0.4898042141936406,
+            "Q5": 0.6800535200458174
+          },
+          "weighted_spearman": 0.24960684797503202
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.004323444358613305,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0017203968653978182,
+            "Q2": -0.0007119414571645287,
+            "Q3": -0.00034638894995314863,
+            "Q4": 0.0007175296282533688,
+            "Q5": 0.0026030474932154865
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.32131542903693106,
+            "Q2": 0.3033796759999209,
+            "Q3": 0.24708620417139562,
+            "Q4": 0.43647824762154563,
+            "Q5": 0.7551463626547377
+          },
+          "weighted_spearman": 0.1825627368633198
+        }
+      }
+    },
+    "ETHUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.002106338598246338,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0011166044707960755,
+            "Q2": -0.00048132102181439626,
+            "Q3": -0.00042238740748650014,
+            "Q4": -4.5766798358737906e-05,
+            "Q5": 0.0009897341274502625
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4632717407900368,
+            "Q2": 0.40765066045364123,
+            "Q3": 0.4157442990109362,
+            "Q4": 0.46857006861000694,
+            "Q5": 0.5895325203819438
+          },
+          "weighted_spearman": 0.15843261111135648
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.0024437557605397485,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0015671570380064595,
+            "Q2": -0.0011638194435604,
+            "Q3": -0.00034921779044950866,
+            "Q4": -6.801321045076382e-05,
+            "Q5": 0.0008765987225332891
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4462355855784639,
+            "Q2": 0.38181003941345515,
+            "Q3": 0.428088675996346,
+            "Q4": 0.4691579268722215,
+            "Q5": 0.578124295240973
+          },
+          "weighted_spearman": 0.15763371581165456
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0010700314064461232,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.00040561925802071403,
+            "Q2": -0.00023350631748654622,
+            "Q3": -0.0001792756441063181,
+            "Q4": -4.4461555313755456e-05,
+            "Q5": 0.0006644121484254093
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4573547029631225,
+            "Q2": 0.42176930505230426,
+            "Q3": 0.4058655305952952,
+            "Q4": 0.5047713270341161,
+            "Q5": 0.5809964264930833
+          },
+          "weighted_spearman": 0.1277044132901142
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.003309958544398479,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0024672401549798635,
+            "Q2": -0.0014156187255879417,
+            "Q3": -0.0003894631620191164,
+            "Q4": -0.00037394008730958406,
+            "Q5": 0.0008427183894186154
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.3863956330849987,
+            "Q2": 0.31933249931265695,
+            "Q3": 0.371050321650541,
+            "Q4": 0.48318130846926116,
+            "Q5": 0.6337929495855634
+          },
+          "weighted_spearman": 0.19616692878970649
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.0029635430357407714,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.003310688071884354,
+            "Q2": -0.0016864992128923634,
+            "Q3": -0.0008243422111819451,
+            "Q4": -0.0023277504058147476,
+            "Q5": -0.0003471450361435828
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.3875454543830741,
+            "Q2": 0.25508362824913533,
+            "Q3": 0.3346678669968652,
+            "Q4": 0.4270618246867375,
+            "Q5": 0.6934606295582825
+          },
+          "weighted_spearman": 0.13364157358860965
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.003104864840125848,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0009461078030052042,
+            "Q2": -0.0005936353342513766,
+            "Q3": -0.00025262244385342166,
+            "Q4": 0.0008683418294117871,
+            "Q5": 0.0021587570371206437
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.46836216400431363,
+            "Q2": 0.4577885486329512,
+            "Q3": 0.41087471847106993,
+            "Q4": 0.5500111830459903,
+            "Q5": 0.6819661405548567
+          },
+          "weighted_spearman": 0.25138931928289476
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.004401077767473871,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.001685610602603049,
+            "Q2": -0.0010303316436507807,
+            "Q3": -0.00031516007523153344,
+            "Q4": 0.0010349343165808188,
+            "Q5": 0.0027154671648708215
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.41639177652801407,
+            "Q2": 0.39822194004607764,
+            "Q3": 0.4159964055360921,
+            "Q4": 0.540372854641449,
+            "Q5": 0.7301447070981987
+          },
+          "weighted_spearman": 0.2911181023669162
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0013775361326476138,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0002747364331191073,
+            "Q2": -0.00017778192811760093,
+            "Q3": -5.6245105683874386e-05,
+            "Q4": 0.00022668603235493506,
+            "Q5": 0.0011027996995285065
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4618613635751691,
+            "Q2": 0.469738119496213,
+            "Q3": 0.45826716010182167,
+            "Q4": 0.5270323632244729,
+            "Q5": 0.6031670011069674
+          },
+          "weighted_spearman": 0.16301581585610025
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.004710985419165967,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0018332759558311277,
+            "Q2": -0.0011316634783264663,
+            "Q3": -0.0004776193454944084,
+            "Q4": 0.0013126093322146717,
+            "Q5": 0.0028777094633348392
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.41128013581707684,
+            "Q2": 0.35871302388271875,
+            "Q3": 0.3887103639109849,
+            "Q4": 0.5718371128510885,
+            "Q5": 0.755331638721418
+          },
+          "weighted_spearman": 0.3004529159180632
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.004559753449758888,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.002307596394784162,
+            "Q2": -0.001342465667666244,
+            "Q3": -0.0007712041763438432,
+            "Q4": 0.0013823041309775084,
+            "Q5": 0.0022521570549747265
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.36859583765176984,
+            "Q2": 0.2885958966173486,
+            "Q3": 0.3012615506386946,
+            "Q4": 0.5599912290263437,
+            "Q5": 0.802320482916493
+          },
+          "weighted_spearman": 0.23902290544256055
+        }
+      }
+    },
+    "SOLUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.0022168616403734263,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0006279310951600696,
+            "Q2": 0.000583860692743064,
+            "Q3": -0.0009548347962650387,
+            "Q4": 0.001148567983189153,
+            "Q5": 0.0015889305452133566
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4336320804412866,
+            "Q2": 0.5222864567965132,
+            "Q3": 0.36778329318623487,
+            "Q4": 0.5355751369685948,
+            "Q5": 0.6191495499528844
+          },
+          "weighted_spearman": 0.1575369358927198
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.00164357460592981,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.00029046288432344245,
+            "Q2": 0.0009179114977622296,
+            "Q3": -0.0016357995194350172,
+            "Q4": 0.0012080554269520334,
+            "Q5": 0.0013531117216063677
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4462115651371992,
+            "Q2": 0.46524799088154106,
+            "Q3": 0.35101467668735475,
+            "Q4": 0.5243338624936777,
+            "Q5": 0.6458053266549763
+          },
+          "weighted_spearman": 0.14150181203804107
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0014537918731977817,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.00034258177839701596,
+            "Q2": -3.6928682301891645e-05,
+            "Q3": -0.00018274776377621735,
+            "Q4": 0.0009064032866295354,
+            "Q5": 0.0011112100948007658
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.43459298473791824,
+            "Q2": 0.4406549366228708,
+            "Q3": 0.46182535281651227,
+            "Q4": 0.5540794244828138,
+            "Q5": 0.5783685086925393
+          },
+          "weighted_spearman": 0.16602717813013917
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.0017598872331620057,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0003895192818159313,
+            "Q2": 0.0009017420026265475,
+            "Q3": -0.0016236146774630214,
+            "Q4": 0.0014827364846203186,
+            "Q5": 0.0013703679513460743
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4379908764318161,
+            "Q2": 0.4492729143726058,
+            "Q3": 0.324424945353977,
+            "Q4": 0.5541545788919887,
+            "Q5": 0.6615290319506117
+          },
+          "weighted_spearman": 0.1507134390671822
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.0023950053816427464,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.000283100801191361,
+            "Q2": 0.0006731760224167127,
+            "Q3": -0.0007998494515180214,
+            "Q4": 0.0019203751809357295,
+            "Q5": 0.0021119045804513853
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4236979144329661,
+            "Q2": 0.3693067354034406,
+            "Q3": 0.2542266982851503,
+            "Q4": 0.5579406556840919,
+            "Q5": 0.7389434625328838
+          },
+          "weighted_spearman": 0.1646699180607155
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.002185413867505162,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0005040508991283909,
+            "Q2": -0.00027165388587222595,
+            "Q3": 0.00026515300889354103,
+            "Q4": 5.4451539475236846e-05,
+            "Q5": 0.001681362968376771
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4540923365237753,
+            "Q2": 0.4314138696479851,
+            "Q3": 0.4742546520928599,
+            "Q4": 0.4894902018100721,
+            "Q5": 0.620080025665097
+          },
+          "weighted_spearman": 0.1773335999457252
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.0031623915563138913,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.00108309171210181,
+            "Q2": -0.00037677806049674734,
+            "Q3": 0.0004105519951356311,
+            "Q4": 0.00043856994888530706,
+            "Q5": 0.0020792998442120815
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4193441810126554,
+            "Q2": 0.3761999801603871,
+            "Q3": 0.47144045490496866,
+            "Q4": 0.49352997996875003,
+            "Q5": 0.6929095956310612
+          },
+          "weighted_spearman": 0.22772234215431214
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0012441651923165836,
+          "mean_delta_liq_by_bin": {
+            "Q1": -9.743928107430175e-05,
+            "Q2": -0.00022020230449922796,
+            "Q3": 5.4667168282407354e-05,
+            "Q4": -0.00017823749563136934,
+            "Q5": 0.0011467259112422818
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.47625595243045465,
+            "Q2": 0.42083356423078483,
+            "Q3": 0.47493086950505564,
+            "Q4": 0.47291492499214555,
+            "Q5": 0.561842065354825
+          },
+          "weighted_spearman": 0.11246477400048287
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.0038128552062375587,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0012738541824048766,
+            "Q2": -0.0005231484527816477,
+            "Q3": 0.0003457379997321492,
+            "Q4": 0.0007060837182639829,
+            "Q5": 0.0025390010238326823
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4005233389551827,
+            "Q2": 0.333924902709536,
+            "Q3": 0.44378013592360804,
+            "Q4": 0.5080489263943334,
+            "Q5": 0.7399736348216137
+          },
+          "weighted_spearman": 0.2493279878626343
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.003653936051122652,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0012171258521733556,
+            "Q2": -0.0009146624909532377,
+            "Q3": 0.00018212742062412,
+            "Q4": 0.00039987866727319167,
+            "Q5": 0.0024368101989492965
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.3783286131231939,
+            "Q2": 0.25674393026158543,
+            "Q3": 0.37368703191211655,
+            "Q4": 0.5166594797205963,
+            "Q5": 0.813001789052758
+          },
+          "weighted_spearman": 0.21035348949535249
+        }
+      }
+    },
+    "XRPUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.0033468540026031337,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0010985041893218398,
+            "Q2": -0.00043160046598204394,
+            "Q3": -0.00014102157929488416,
+            "Q4": 0.0004762457189919131,
+            "Q5": 0.002248349813281294
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4677883950875464,
+            "Q2": 0.4726622557661572,
+            "Q3": 0.4341707654775158,
+            "Q4": 0.4696639920164319,
+            "Q5": 0.6499091127535725
+          },
+          "weighted_spearman": 0.18326906325151035
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.005586205606074363,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.003011986053472654,
+            "Q2": -0.00011711434522128063,
+            "Q3": 1.7598112505704937e-05,
+            "Q4": 0.0006275960998653867,
+            "Q5": 0.002574219552601709
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.41473661359355957,
+            "Q2": 0.4296654546442749,
+            "Q3": 0.4069109559584718,
+            "Q4": 0.4972736901577209,
+            "Q5": 0.6920605982681709
+          },
+          "weighted_spearman": 0.247601438714212
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.001768511654024115,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0005422842915226574,
+            "Q2": -0.00014018439299738172,
+            "Q3": -2.2158487611876505e-05,
+            "Q4": 0.0001975675047775521,
+            "Q5": 0.0012262273625014575
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.492222012646323,
+            "Q2": 0.5037422982854327,
+            "Q3": 0.45087244954782485,
+            "Q4": 0.4488808178168802,
+            "Q5": 0.5885888863269172
+          },
+          "weighted_spearman": 0.11816056816395977
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.009022302699798194,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.006165978528689049,
+            "Q2": -0.0004301591444371201,
+            "Q3": 0.0008992413058865506,
+            "Q4": 0.0006108139502996066,
+            "Q5": 0.002856324171109146
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.3634486683363775,
+            "Q2": 0.3780442686450559,
+            "Q3": 0.44703043667692743,
+            "Q4": 0.530078533729816,
+            "Q5": 0.7256566118150304
+          },
+          "weighted_spearman": 0.27428354769593666
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.01034623271793049,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.008173161674232654,
+            "Q2": -0.00045032267914522965,
+            "Q3": 0.0018314030917552168,
+            "Q4": 0.0008956545788284556,
+            "Q5": 0.0021730710436978352
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.3569627088671115,
+            "Q2": 0.3688381351623948,
+            "Q3": 0.40094080674086013,
+            "Q4": 0.5438886404407208,
+            "Q5": 0.7427936408873501
+          },
+          "weighted_spearman": 0.18155069581861835
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "Delta_mean_Q5_Q1": 0.00228818719106021,
+          "mean_delta_liq_by_bin": {
+            "Q1": 7.556695178113794e-05,
+            "Q2": -0.0004800865430120956,
+            "Q3": -0.0002667709744272074,
+            "Q4": 0.00028998062830487776,
+            "Q5": 0.0023637541428413477
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.49071317500828554,
+            "Q2": 0.4098610237652602,
+            "Q3": 0.42024069711983913,
+            "Q4": 0.4671289423460405,
+            "Q5": 0.70526364204821
+          },
+          "weighted_spearman": 0.21620476300318509
+        },
+        "DELTA_LIQ_30": {
+          "Delta_mean_Q5_Q1": 0.002756456673722377,
+          "mean_delta_liq_by_bin": {
+            "Q1": 3.5032213602740163e-05,
+            "Q2": -0.0009677227590050582,
+            "Q3": -0.00037711128293666505,
+            "Q4": 0.0005591258997172796,
+            "Q5": 0.002791488887325117
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.47036065677416833,
+            "Q2": 0.3606700324451545,
+            "Q3": 0.40205741474782813,
+            "Q4": 0.4954845759796722,
+            "Q5": 0.7391277541154482
+          },
+          "weighted_spearman": 0.24268958854827205
+        },
+        "DELTA_LIQ_5": {
+          "Delta_mean_Q5_Q1": 0.0013407157389975553,
+          "mean_delta_liq_by_bin": {
+            "Q1": 1.069921534730448e-06,
+            "Q2": -0.00017564609375880045,
+            "Q3": -0.0001315340292243264,
+            "Q4": 4.490186003837361e-05,
+            "Q5": 0.0013417856605322858
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.5103350069107537,
+            "Q2": 0.4531082956647154,
+            "Q3": 0.4533094652816953,
+            "Q4": 0.4885004948295316,
+            "Q5": 0.6325511523069736
+          },
+          "weighted_spearman": 0.15075928849810838
+        },
+        "DELTA_LIQ_60": {
+          "Delta_mean_Q5_Q1": 0.002885519119402449,
+          "mean_delta_liq_by_bin": {
+            "Q1": 3.538706753736065e-05,
+            "Q2": -0.0011864355487081811,
+            "Q3": -0.0006631727124005122,
+            "Q4": 0.0009747730754133947,
+            "Q5": 0.0029209061869398096
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.46720778586931033,
+            "Q2": 0.31008188909182327,
+            "Q3": 0.35278812861117276,
+            "Q4": 0.5007321302309443,
+            "Q5": 0.7750515792788101
+          },
+          "weighted_spearman": 0.25315439402497514
+        },
+        "DELTA_LIQ_EVENT": {
+          "Delta_mean_Q5_Q1": 0.0034800192000792743,
+          "mean_delta_liq_by_bin": {
+            "Q1": -0.0007028929042943216,
+            "Q2": -0.0009153896038677169,
+            "Q3": -0.0007090054560787391,
+            "Q4": 0.0008202907960619207,
+            "Q5": 0.002777126295784953
+          },
+          "positive_rate_by_bin": {
+            "Q1": 0.4085733899397005,
+            "Q2": 0.2638317100127122,
+            "Q3": 0.2925539223622493,
+            "Q4": 0.5321809220938302,
+            "Q5": 0.8440605393376497
+          },
+          "weighted_spearman": 0.21726193989314613
+        }
+      }
+    }
+  },
+  "tail_asymmetry": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "Q1": {
+          "negative_contribution": -0.09685776723485653,
+          "net_contribution": -0.03890447314984592,
+          "positive_contribution": 0.05795329408501061,
+          "positive_to_absolute_negative_contribution_ratio": 0.5983339874487088,
+          "weighted_mean_negative_delta_liq": -0.0034799166409478,
+          "weighted_mean_positive_delta_liq": 0.0023004401403776786
+        },
+        "Q2": {
+          "negative_contribution": -0.04616498187267201,
+          "net_contribution": -0.011003242406482115,
+          "positive_contribution": 0.0351617394661899,
+          "positive_to_absolute_negative_contribution_ratio": 0.7616539212160801,
+          "weighted_mean_negative_delta_liq": -0.0018864027808445313,
+          "weighted_mean_positive_delta_liq": 0.0019925612534227254
+        },
+        "Q3": {
+          "negative_contribution": -0.059959403418006624,
+          "net_contribution": -0.016547017444877056,
+          "positive_contribution": 0.04341238597312957,
+          "positive_to_absolute_negative_contribution_ratio": 0.7240296517041769,
+          "weighted_mean_negative_delta_liq": -0.002036502596648293,
+          "weighted_mean_positive_delta_liq": 0.002032576826561663
+        },
+        "Q4": {
+          "negative_contribution": -0.06099785730821498,
+          "net_contribution": 0.02581478691656911,
+          "positive_contribution": 0.08681264422478409,
+          "positive_to_absolute_negative_contribution_ratio": 1.423208093788115,
+          "weighted_mean_negative_delta_liq": -0.0021588268462355933,
+          "weighted_mean_positive_delta_liq": 0.0030201558704554578
+        },
+        "Q5": {
+          "negative_contribution": -0.05755028921718265,
+          "net_contribution": 0.07452043399004944,
+          "positive_contribution": 0.1320707232072321,
+          "positive_to_absolute_negative_contribution_ratio": 2.2948750562977196,
+          "weighted_mean_negative_delta_liq": -0.0023974448794828133,
+          "weighted_mean_positive_delta_liq": 0.0035480657422024796
+        }
+      },
+      "DELTA_LIQ_30": {
+        "Q1": {
+          "negative_contribution": -0.1301574759070396,
+          "net_contribution": -0.06401377915766653,
+          "positive_contribution": 0.06614369674937308,
+          "positive_to_absolute_negative_contribution_ratio": 0.5081820793498937,
+          "weighted_mean_negative_delta_liq": -0.004458345059848574,
+          "weighted_mean_positive_delta_liq": 0.002719365404633686
+        },
+        "Q2": {
+          "negative_contribution": -0.0669762070699191,
+          "net_contribution": -0.01939247947567005,
+          "positive_contribution": 0.047583727594249045,
+          "positive_to_absolute_negative_contribution_ratio": 0.7104571858566807,
+          "weighted_mean_negative_delta_liq": -0.00258520031169537,
+          "weighted_mean_positive_delta_liq": 0.0029176601138702373
+        },
+        "Q3": {
+          "negative_contribution": -0.08498238345844347,
+          "net_contribution": -0.015924649595085758,
+          "positive_contribution": 0.06905773386335771,
+          "positive_to_absolute_negative_contribution_ratio": 0.8126123444999288,
+          "weighted_mean_negative_delta_liq": -0.0028950963958020394,
+          "weighted_mean_positive_delta_liq": 0.003382018155047878
+        },
+        "Q4": {
+          "negative_contribution": -0.08744868924895371,
+          "net_contribution": 0.03794891074980064,
+          "positive_contribution": 0.12539759999875436,
+          "positive_to_absolute_negative_contribution_ratio": 1.433956312847247,
+          "weighted_mean_negative_delta_liq": -0.003317379930952903,
+          "weighted_mean_positive_delta_liq": 0.00433893466485928
+        },
+        "Q5": {
+          "negative_contribution": -0.0795021152510456,
+          "net_contribution": 0.09050367611160655,
+          "positive_contribution": 0.17000579136265215,
+          "positive_to_absolute_negative_contribution_ratio": 2.1383807314537617,
+          "weighted_mean_negative_delta_liq": -0.0034588470417287404,
+          "weighted_mean_positive_delta_liq": 0.004180420483406745
+        }
+      },
+      "DELTA_LIQ_5": {
+        "Q1": {
+          "negative_contribution": -0.057799792004328734,
+          "net_contribution": -0.017922022869550178,
+          "positive_contribution": 0.03987776913477856,
+          "positive_to_absolute_negative_contribution_ratio": 0.6899292843786019,
+          "weighted_mean_negative_delta_liq": -0.0020937956999983426,
+          "weighted_mean_positive_delta_liq": 0.0016110412551352542
+        },
+        "Q2": {
+          "negative_contribution": -0.025865936323652583,
+          "net_contribution": -0.008179270329741358,
+          "positive_contribution": 0.017686665993911225,
+          "positive_to_absolute_negative_contribution_ratio": 0.6837821671175309,
+          "weighted_mean_negative_delta_liq": -0.0010623197639113807,
+          "weighted_mean_positive_delta_liq": 0.0009594497749609903
+        },
+        "Q3": {
+          "negative_contribution": -0.030856477962113306,
+          "net_contribution": -0.005539635653829093,
+          "positive_contribution": 0.025316842308284213,
+          "positive_to_absolute_negative_contribution_ratio": 0.8204709020701956,
+          "weighted_mean_negative_delta_liq": -0.0011294026001281163,
+          "weighted_mean_positive_delta_liq": 0.0010969972771509684
+        },
+        "Q4": {
+          "negative_contribution": -0.03243227378520984,
+          "net_contribution": 0.014098033713341424,
+          "positive_contribution": 0.04653030749855126,
+          "positive_to_absolute_negative_contribution_ratio": 1.4346914991748305,
+          "weighted_mean_negative_delta_liq": -0.00119613423101704,
+          "weighted_mean_positive_delta_liq": 0.0016140728632457685
+        },
+        "Q5": {
+          "negative_contribution": -0.03700998165096601,
+          "net_contribution": 0.04178865301943165,
+          "positive_contribution": 0.07879863467039766,
+          "positive_to_absolute_negative_contribution_ratio": 2.1291184473835294,
+          "weighted_mean_negative_delta_liq": -0.0013899869168111758,
+          "weighted_mean_positive_delta_liq": 0.0023258192637523128
+        }
+      },
+      "DELTA_LIQ_60": {
+        "Q1": {
+          "negative_contribution": -0.17367680179497183,
+          "net_contribution": -0.10774555998289763,
+          "positive_contribution": 0.0659312418120742,
+          "positive_to_absolute_negative_contribution_ratio": 0.3796203127341501,
+          "weighted_mean_negative_delta_liq": -0.005636365441952625,
+          "weighted_mean_positive_delta_liq": 0.003006036754257547
+        },
+        "Q2": {
+          "negative_contribution": -0.07923577754219802,
+          "net_contribution": -0.02272222976697126,
+          "positive_contribution": 0.056513547775226755,
+          "positive_to_absolute_negative_contribution_ratio": 0.7132327028043581,
+          "weighted_mean_negative_delta_liq": -0.0028542079985233062,
+          "weighted_mean_positive_delta_liq": 0.0039330819512323895
+        },
+        "Q3": {
+          "negative_contribution": -0.10621295949911541,
+          "net_contribution": -0.004643507849917156,
+          "positive_contribution": 0.10156945164919826,
+          "positive_to_absolute_negative_contribution_ratio": 0.9562811555970642,
+          "weighted_mean_negative_delta_liq": -0.0035086886876990932,
+          "weighted_mean_positive_delta_liq": 0.005143331345551988
+        },
+        "Q4": {
+          "negative_contribution": -0.12349299072100842,
+          "net_contribution": 0.04445225759767599,
+          "positive_contribution": 0.1679452483186844,
+          "positive_to_absolute_negative_contribution_ratio": 1.3599577379909857,
+          "weighted_mean_negative_delta_liq": -0.004678177900111128,
+          "weighted_mean_positive_delta_liq": 0.005546740632650339
+        },
+        "Q5": {
+          "negative_contribution": -0.09743954401330103,
+          "net_contribution": 0.10097002417214006,
+          "positive_contribution": 0.1984095681854411,
+          "positive_to_absolute_negative_contribution_ratio": 2.0362325192978847,
+          "weighted_mean_negative_delta_liq": -0.004863918395960277,
+          "weighted_mean_positive_delta_liq": 0.004558624164037899
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "Q1": {
+          "negative_contribution": -0.20787723529957108,
+          "net_contribution": -0.13176667884698395,
+          "positive_contribution": 0.07611055645258713,
+          "positive_to_absolute_negative_contribution_ratio": 0.36613223349302537,
+          "weighted_mean_negative_delta_liq": -0.00675788344062952,
+          "weighted_mean_positive_delta_liq": 0.0036723538374139153
+        },
+        "Q2": {
+          "negative_contribution": -0.09861020172523469,
+          "net_contribution": -0.014502158170430157,
+          "positive_contribution": 0.08410804355480453,
+          "positive_to_absolute_negative_contribution_ratio": 0.852934504577542,
+          "weighted_mean_negative_delta_liq": -0.0033900193764604355,
+          "weighted_mean_positive_delta_liq": 0.006616906572333132
+        },
+        "Q3": {
+          "negative_contribution": -0.15772019478027047,
+          "net_contribution": 0.018728620924111955,
+          "positive_contribution": 0.17644881570438242,
+          "positive_to_absolute_negative_contribution_ratio": 1.1187458647905166,
+          "weighted_mean_negative_delta_liq": -0.004665090901047475,
+          "weighted_mean_positive_delta_liq": 0.009896667206804254
+        },
+        "Q4": {
+          "negative_contribution": -0.21314841622623865,
+          "net_contribution": 0.04550724555826635,
+          "positive_contribution": 0.258655661784505,
+          "positive_to_absolute_negative_contribution_ratio": 1.2135002753666457,
+          "weighted_mean_negative_delta_liq": -0.008046370992118577,
+          "weighted_mean_positive_delta_liq": 0.009005380949331452
+        },
+        "Q5": {
+          "negative_contribution": -0.15689831717209896,
+          "net_contribution": 0.11636796148367223,
+          "positive_contribution": 0.2732662786557712,
+          "positive_to_absolute_negative_contribution_ratio": 1.741677562774815,
+          "weighted_mean_negative_delta_liq": -0.00979877766192793,
+          "weighted_mean_positive_delta_liq": 0.005525626377051069
+        }
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "Q1": {
+          "negative_contribution": -0.25558219777140234,
+          "net_contribution": -0.07029872093852735,
+          "positive_contribution": 0.185283476832875,
+          "positive_to_absolute_negative_contribution_ratio": 0.7249467233965807,
+          "weighted_mean_negative_delta_liq": -0.0031863946391371316,
+          "weighted_mean_positive_delta_liq": 0.0026872782809064287
+        },
+        "Q2": {
+          "negative_contribution": -0.20771287316444467,
+          "net_contribution": -0.0758205255219305,
+          "positive_contribution": 0.13189234764251417,
+          "positive_to_absolute_negative_contribution_ratio": 0.634974354902385,
+          "weighted_mean_negative_delta_liq": -0.0019300382621721221,
+          "weighted_mean_positive_delta_liq": 0.001620063273609529
+        },
+        "Q3": {
+          "negative_contribution": -0.25928263277315183,
+          "net_contribution": -0.05434602138100439,
+          "positive_contribution": 0.20493661139214744,
+          "positive_to_absolute_negative_contribution_ratio": 0.7903985284330551,
+          "weighted_mean_negative_delta_liq": -0.0017461502743087805,
+          "weighted_mean_positive_delta_liq": 0.0019467662805498504
+        },
+        "Q4": {
+          "negative_contribution": -0.26794952069912004,
+          "net_contribution": 0.06015338899766387,
+          "positive_contribution": 0.3281029096967839,
+          "positive_to_absolute_negative_contribution_ratio": 1.2244952289547477,
+          "weighted_mean_negative_delta_liq": -0.002139124610912082,
+          "weighted_mean_positive_delta_liq": 0.00269249204618923
+        },
+        "Q5": {
+          "negative_contribution": -0.19850823970847392,
+          "net_contribution": 0.44246016048922615,
+          "positive_contribution": 0.6409684001977001,
+          "positive_to_absolute_negative_contribution_ratio": 3.228925918334756,
+          "weighted_mean_negative_delta_liq": -0.0023301415580725127,
+          "weighted_mean_positive_delta_liq": 0.004047349443497939
+        }
+      },
+      "DELTA_LIQ_30": {
+        "Q1": {
+          "negative_contribution": -0.34939654765527806,
+          "net_contribution": -0.13739793973812559,
+          "positive_contribution": 0.21199860791715247,
+          "positive_to_absolute_negative_contribution_ratio": 0.6067564471939624,
+          "weighted_mean_negative_delta_liq": -0.004138204686931869,
+          "weighted_mean_positive_delta_liq": 0.003298029268733644
+        },
+        "Q2": {
+          "negative_contribution": -0.308785590143267,
+          "net_contribution": -0.13677860047037205,
+          "positive_contribution": 0.17200698967289496,
+          "positive_to_absolute_negative_contribution_ratio": 0.5570434475037809,
+          "weighted_mean_negative_delta_liq": -0.002615136827169884,
+          "weighted_mean_positive_delta_liq": 0.002286940572602625
+        },
+        "Q3": {
+          "negative_contribution": -0.37405738533149513,
+          "net_contribution": -0.07329560507215521,
+          "positive_contribution": 0.3007617802593399,
+          "positive_to_absolute_negative_contribution_ratio": 0.8040525118700715,
+          "weighted_mean_negative_delta_liq": -0.0024680783325318925,
+          "weighted_mean_positive_delta_liq": 0.003062699167169788
+        },
+        "Q4": {
+          "negative_contribution": -0.38224237264127575,
+          "net_contribution": 0.10942586349682965,
+          "positive_contribution": 0.4916682361381054,
+          "positive_to_absolute_negative_contribution_ratio": 1.2862735042708697,
+          "weighted_mean_negative_delta_liq": -0.0030534508043683914,
+          "weighted_mean_positive_delta_liq": 0.003988897527552046
+        },
+        "Q5": {
+          "negative_contribution": -0.24321389342530664,
+          "net_contribution": 0.5356204522702,
+          "positive_contribution": 0.7788343456955067,
+          "positive_to_absolute_negative_contribution_ratio": 3.202260918267378,
+          "weighted_mean_negative_delta_liq": -0.0032193962104375283,
+          "weighted_mean_positive_delta_liq": 0.004620729264254649
+        }
+      },
+      "DELTA_LIQ_5": {
+        "Q1": {
+          "negative_contribution": -0.1454957295827797,
+          "net_contribution": -0.022901328673216953,
+          "positive_contribution": 0.12259440090956275,
+          "positive_to_absolute_negative_contribution_ratio": 0.8425979323318403,
+          "weighted_mean_negative_delta_liq": -0.001841758925137927,
+          "weighted_mean_positive_delta_liq": 0.0016245199798193325
+        },
+        "Q2": {
+          "negative_contribution": -0.10871180661276372,
+          "net_contribution": -0.031530497799858476,
+          "positive_contribution": 0.07718130881290525,
+          "positive_to_absolute_negative_contribution_ratio": 0.7099625258535947,
+          "weighted_mean_negative_delta_liq": -0.0010946465654918225,
+          "weighted_mean_positive_delta_liq": 0.0009046798771326427
+        },
+        "Q3": {
+          "negative_contribution": -0.13488252523694338,
+          "net_contribution": -0.019576177438510436,
+          "positive_contribution": 0.11530634779843295,
+          "positive_to_absolute_negative_contribution_ratio": 0.8548649841473411,
+          "weighted_mean_negative_delta_liq": -0.0009696019766782904,
+          "weighted_mean_positive_delta_liq": 0.0010105476071326216
+        },
+        "Q4": {
+          "negative_contribution": -0.1505643705201083,
+          "net_contribution": 0.0019311812353985935,
+          "positive_contribution": 0.1524955517555069,
+          "positive_to_absolute_negative_contribution_ratio": 1.0128262830623709,
+          "weighted_mean_negative_delta_liq": -0.001202432157460181,
+          "weighted_mean_positive_delta_liq": 0.0012555855804112512
+        },
+        "Q5": {
+          "negative_contribution": -0.13708092047212034,
+          "net_contribution": 0.2604534358590234,
+          "positive_contribution": 0.39753435633114376,
+          "positive_to_absolute_negative_contribution_ratio": 2.8999977163998887,
+          "weighted_mean_negative_delta_liq": -0.0013996073899350966,
+          "weighted_mean_positive_delta_liq": 0.0027945625938978467
+        }
+      },
+      "DELTA_LIQ_60": {
+        "Q1": {
+          "negative_contribution": -0.3825308580596724,
+          "net_contribution": -0.1519392225072998,
+          "positive_contribution": 0.2305916355523726,
+          "positive_to_absolute_negative_contribution_ratio": 0.6028053180389483,
+          "weighted_mean_negative_delta_liq": -0.004545748009990589,
+          "weighted_mean_positive_delta_liq": 0.003722718593654
+        },
+        "Q2": {
+          "negative_contribution": -0.3890668075012734,
+          "net_contribution": -0.1742739566144585,
+          "positive_contribution": 0.21479285088681493,
+          "positive_to_absolute_negative_contribution_ratio": 0.5520718980534259,
+          "weighted_mean_negative_delta_liq": -0.003029900887350466,
+          "weighted_mean_positive_delta_liq": 0.0031799215822879644
+        },
+        "Q3": {
+          "negative_contribution": -0.5229830564379387,
+          "net_contribution": -0.10763801703624937,
+          "positive_contribution": 0.4153450394016894,
+          "positive_to_absolute_negative_contribution_ratio": 0.7941845042373327,
+          "weighted_mean_negative_delta_liq": -0.0032814236780027354,
+          "weighted_mean_positive_delta_liq": 0.004616680128304167
+        },
+        "Q4": {
+          "negative_contribution": -0.5265986557395568,
+          "net_contribution": 0.17228431596319194,
+          "positive_contribution": 0.6988829717027487,
+          "positive_to_absolute_negative_contribution_ratio": 1.32716436718061,
+          "weighted_mean_negative_delta_liq": -0.004368443583500658,
+          "weighted_mean_positive_delta_liq": 0.005565534890709449
+        },
+        "Q5": {
+          "negative_contribution": -0.30042084966376503,
+          "net_contribution": 0.6003014258094067,
+          "positive_contribution": 0.9007222754731717,
+          "positive_to_absolute_negative_contribution_ratio": 2.9982016111107868,
+          "weighted_mean_negative_delta_liq": -0.004434007493853661,
+          "weighted_mean_positive_delta_liq": 0.005033196410069452
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "Q1": {
+          "negative_contribution": -0.42278936952116675,
+          "net_contribution": -0.1896356417416208,
+          "positive_contribution": 0.23315372777954596,
+          "positive_to_absolute_negative_contribution_ratio": 0.551465444941546,
+          "weighted_mean_negative_delta_liq": -0.004974608057404682,
+          "weighted_mean_positive_delta_liq": 0.004245745237474834
+        },
+        "Q2": {
+          "negative_contribution": -0.5067505781886271,
+          "net_contribution": -0.19627081719476103,
+          "positive_contribution": 0.3104797609938661,
+          "positive_to_absolute_negative_contribution_ratio": 0.6126875318103665,
+          "weighted_mean_negative_delta_liq": -0.0035412044543633972,
+          "weighted_mean_positive_delta_liq": 0.00546466504416078
+        },
+        "Q3": {
+          "negative_contribution": -0.8368617788723675,
+          "net_contribution": -0.14811818164856538,
+          "positive_contribution": 0.6887435972238021,
+          "positive_to_absolute_negative_contribution_ratio": 0.8230075917098905,
+          "weighted_mean_negative_delta_liq": -0.004687249264994556,
+          "weighted_mean_positive_delta_liq": 0.009944168850309364
+        },
+        "Q4": {
+          "negative_contribution": -0.9554581470135617,
+          "net_contribution": 0.16501043275345428,
+          "positive_contribution": 1.120468579767016,
+          "positive_to_absolute_negative_contribution_ratio": 1.1727029417973158,
+          "weighted_mean_negative_delta_liq": -0.0076922710687594995,
+          "weighted_mean_positive_delta_liq": 0.009079974412122284
+        },
+        "Q5": {
+          "negative_contribution": -0.5542461415513014,
+          "net_contribution": 0.5698142369341062,
+          "positive_contribution": 1.1240603784854075,
+          "positive_to_absolute_negative_contribution_ratio": 2.0280887753936017,
+          "weighted_mean_negative_delta_liq": -0.010690871266376847,
+          "weighted_mean_positive_delta_liq": 0.00568306050238699
+        }
+      }
+    }
+  },
+  "whole_trade_uncertainty": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0010970791566837096,
+              0.0028487922663254584
+            ],
+            "replicate_sha256": "28e01760e0fc88d7aa0222c9e06f2cdd3b259a47fb3e2e85e09d186bd0eaea85"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.00043017396618694247,
+              0.0015532187854009267
+            ],
+            "replicate_sha256": "d169bf7f918c51f008da04d9bd5fad946630f128936986ed1cfeb49d49dcad0e"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.059771642318920515,
+              0.19967943726446322
+            ],
+            "replicate_sha256": "86328cdf86739989a859da2010674400ff820751e6d493f4a22247ebd6133e57"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.11813494891290456,
+              0.34104895006368385
+            ],
+            "replicate_sha256": "c60c4fc1ab200f4c1880dc52d0c4503d485a547625944657eff7c14db48cf116"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.09489336594062649,
+              0.21456172116925756
+            ],
+            "replicate_sha256": "90528764414434cf34f5f7a50c1f55e361876593ad2717b1e0f3fa00c71bb9c9"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0013875878209400085,
+              0.004117968253519303
+            ],
+            "replicate_sha256": "6930e4e5161516af19cf06afbfcb25d44e7b8a9476f6b7bfc3dfe3674b75ba04"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0008879769662125313,
+              0.0025711746129824615
+            ],
+            "replicate_sha256": "99685a752c6eb3e85aef779b8c3dcacc6646836ad4842ffa2fe7f0982dbc3a8f"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.09981175891408135,
+              0.26575701079709024
+            ],
+            "replicate_sha256": "e6e662e3fc9e25e10aa830c7fb5781d385f430bb43a62aef014037564964cf3b"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.10716766379187496,
+              0.38408719928207347
+            ],
+            "replicate_sha256": "6c49ce055127ebf401c060f10e380a904e3c176ead683f7fd47c9e470c638c9a"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.1233828071350506,
+              0.25458742363341724
+            ],
+            "replicate_sha256": "2c53641d48757e55082b521799bd373fbc4948e20c29407bf97d8b199113d9af"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0006030911417062393,
+              0.0014724773700735814
+            ],
+            "replicate_sha256": "d5cd0c6acd0c2edd575f5fcde5c10a2a5779cca61ebe2d49b2bd582d9c069f00"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              7.545799494242888e-05,
+              0.0005915337468514662
+            ],
+            "replicate_sha256": "5be856b798a0c9bb3952f07514ed594960daf027baed10b19c6fafcd1571ea03"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.024515205097318256,
+              0.14410954081344363
+            ],
+            "replicate_sha256": "7fa0d15d20c3ba96934e5b413222763c69b5e01989f1942b02f276169e965ccf"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.11381859593183724,
+              0.2532959855335895
+            ],
+            "replicate_sha256": "0c582a7d5867b9572fd39be96a9e69370a4f9708e37eec3c62cd6454084c3139"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.06387813940287514,
+              0.16065471625602673
+            ],
+            "replicate_sha256": "7b90d3e64c3140232b55d80fdea9a1d8ebbd0c75e0fa591976fb3d17d1dcd8fc"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.001752029589286431,
+              0.006251433347695747
+            ],
+            "replicate_sha256": "acb1d882dafc53fe0a882272ebd573aa5c1aebc6f57ca0a865c89959233ad877"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.0018273279846630086,
+              0.0038198610823469608
+            ],
+            "replicate_sha256": "fac9e0113fd3c46652fa2711e87e42e9603fe714c5ab189e548b7e5356bb0137"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.1826583824066128,
+              0.35472337413351407
+            ],
+            "replicate_sha256": "1d4e58c39632a7cfefe296878b4618e2899219d5e397d24ef00827a20b712352"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.11107111698230307,
+              0.4040571357150091
+            ],
+            "replicate_sha256": "d6ada80f49b267f72c208c13fff0b0e2ceacc369375e02ea18397a82cfdf9845"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.15098185477021508,
+              0.2800032427782604
+            ],
+            "replicate_sha256": "34f368ee497565045c134d823e76ed468650c0cb4184207123410b2f9a8faf09"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0016929487312066496,
+              0.008029103379076441
+            ],
+            "replicate_sha256": "1b727652d29757fe2dd564af2f092542514a90c371e465e40944754d5e745e7b"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.003921218856374238,
+              0.005575287691187579
+            ],
+            "replicate_sha256": "83cb18d619aa532d86c4441f385c9109ae9c702dc946f5025b747e273c97c956"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.2606624106367506,
+              0.44647316983762525
+            ],
+            "replicate_sha256": "0497dc85d1ba2456ff968d7a732f004fdf59c71af6460b0dba1b488c09385e02"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.06745103273244245,
+              0.33458904121154154
+            ],
+            "replicate_sha256": "5168e11fd1ba459c05f9dfa7b22509c4adf18aa7ceb7e721c62899bd71994961"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.11777625441766623,
+              0.2601432256785909
+            ],
+            "replicate_sha256": "86d93f1babcf2cd28a37b2b7a0ba2c0e4385ced1aba7fe5abbb13d3cbc8da1d7"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0017990212359558328,
+              0.002777477746810989
+            ],
+            "replicate_sha256": "b708dafa00bdfd265018939b49dfc55b05d0c21f66edce4b940adc4ec41266e2"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.00110587144210107,
+              0.0018033212276217345
+            ],
+            "replicate_sha256": "ceab8d91226f147c7b70b534f66340ded8584df17aa725484f2b17bc2e4e2d94"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.1477651962528383,
+              0.22667114005341563
+            ],
+            "replicate_sha256": "f21d75a652ac1c216302c98aca6fac46582efc728bd2b9edbae231689d63affa"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.16312235303664074,
+              0.24178041469948683
+            ],
+            "replicate_sha256": "a08fc8b73ff5f64fcd0a95664f80260ac20cba3b4fcdc4e172b7bb97d2ab2a27"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.16151927997229587,
+              0.22399116051660872
+            ],
+            "replicate_sha256": "ffd35f2f1a77f596e0234c43f70ec68d75de6a6d21664b063fb97d01fb9cf1f0"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.00247215199618377,
+              0.00371523107756651
+            ],
+            "replicate_sha256": "367182c07e93562020dfd295b2a02fbcf247645ba2b2118c8fdab733865db192"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.002082250986599254,
+              0.0030844780890203053
+            ],
+            "replicate_sha256": "3d54ecb22608625468853e0c284a77a2f9a8644edfe64e071fe5435718933f3b"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.2113988438467144,
+              0.30009532621026125
+            ],
+            "replicate_sha256": "20ac185bb3b0c687bada89ab4a9188b084186fa01b1d2699a20ff6fd4a7f41e5"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.17315257276354556,
+              0.2474893334062514
+            ],
+            "replicate_sha256": "a316d7952d432db9aea6b30320d4f3c2b06166929f08424113461807c9dcf1e2"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.2015285531395844,
+              0.2675256284780796
+            ],
+            "replicate_sha256": "4d06b5c6ab1075cfcee4bfd22bd4599312db9426f28fc0d136b951fe6783b946"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0009167380335571072,
+              0.0015911216976000602
+            ],
+            "replicate_sha256": "da07b25073ed7d6aef26612b62b6fed400a6f6fa490343b3b7a67dbfbcaee769"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.00031440481957345674,
+              0.0006024446855944258
+            ],
+            "replicate_sha256": "6c6891f8a5dff0cdda35913ea67baba35a7a8c3037a8f4024912621c0f218531"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.07313705935765771,
+              0.1319992915871412
+            ],
+            "replicate_sha256": "18c54d9654504edb966d7897872530124b59f1acd7d9700b9042f92dc26a8c32"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.13583105221954006,
+              0.21732447735401642
+            ],
+            "replicate_sha256": "01d639da32853c3c791c2a5da568c14397b31176653ea8b03aad4238f5982f50"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.09477281770958124,
+              0.14522346656878699
+            ],
+            "replicate_sha256": "59951383d91b10da176fc4cfc5a1499334f096b151fe5d278b62d531280de4fd"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.002733782729414553,
+              0.004169706763856632
+            ],
+            "replicate_sha256": "34ecc365e2e187c40cda94017d31e42b73dfc8b43d48d5803a203df7ee49c664"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.003000223171356746,
+              0.0041244644202379725
+            ],
+            "replicate_sha256": "eb9f3d9df107949ac8c5c7addcc764e0ac83712b5c0031834203ed0807f4f0c2"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.25026330193967206,
+              0.3449031837579658
+            ],
+            "replicate_sha256": "98da98bd1de8ab45a3bd7a385e793572d72fc2b4967ec08939be1800a569d749"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.16124190796107918,
+              0.23439677315303994
+            ],
+            "replicate_sha256": "48ba85ebdf49e649b2a792a4fa45936bc93a7b19fa844a322e51b769445fd0a7"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.21897942291393946,
+              0.2838413343734012
+            ],
+            "replicate_sha256": "842ce7b3b461a7169f0ecfd2dc0db253fda4f1070485481b4441607a3306e708"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "construction": "paired whole trades with all snapshots retained",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_mean_Q5_Q1": {
+            "ci95": [
+              0.0027469200054708533,
+              0.004496034865869473
+            ],
+            "replicate_sha256": "f2e31911a23177214536453f93c13a8c9ce1f301e7f0f4fa589e1652b6f03d0c"
+          },
+          "Delta_median_Q5_Q1": {
+            "ci95": [
+              0.00476261087738742,
+              0.005756328575582569
+            ],
+            "replicate_sha256": "9144a20315862d03bf6cbc6d46c1f29ece6103cee26707e4e93e2444619db4a0"
+          },
+          "Delta_positive_rate_Q5_Q1": {
+            "ci95": [
+              0.34876123244951435,
+              0.4483700321169804
+            ],
+            "replicate_sha256": "cadf49a5979432e93626ea35e05866d462165a9c8dc76ae68bcb008389baa9e0"
+          },
+          "weighted_linear_correlation": {
+            "ci95": [
+              0.11371417825824927,
+              0.18449139172368587
+            ],
+            "replicate_sha256": "b1ee2da8e01c2e2e8b8997fe6ff97365cdba5521e17fab880154b3650eee0ca2"
+          },
+          "weighted_spearman": {
+            "ci95": [
+              0.17568256267741855,
+              0.24612551997496668
+            ],
+            "replicate_sha256": "b51fba778e425cb9c819027dc26f0f9fdcccefda41de3db301d504e10e4140c9"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "predictions_and_outcomes_frozen": true,
+        "rejected_empty_Q1_or_Q5_draws": 0,
+        "replicates": 2000,
+        "seed": 20240924,
+        "unit": "whole_trade"
+      }
+    }
+  }
+}

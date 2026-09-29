@@ -1,0 +1,6 @@
+{
+  "continuous_value": "V_H = DELTA_LIQ_H; no transformation",
+  "exact_zero": 0,
+  "exact_zero_retained": true,
+  "rule": "Y_H = 1 iff DELTA_LIQ_H > 0; Y_H = 0 iff DELTA_LIQ_H <= 0"
+}

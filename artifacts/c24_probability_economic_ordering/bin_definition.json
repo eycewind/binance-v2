@@ -1,0 +1,21 @@
+{
+  "count": 5,
+  "duplicate_rule": "inverse weighted empirical CDF cuts and left assignment; identical predictions never split",
+  "labels": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5"
+  ],
+  "quantiles": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "source": "corresponding training S+C9 predictions only",
+  "threshold_or_bin_search": false,
+  "validation_boundaries_frozen": true,
+  "weights": "1/n_i per eligible snapshot in trade i"
+}
