@@ -1,0 +1,9 @@
+{
+  "established_before_model_fitting": true,
+  "exact_zero": 0,
+  "exact_zero_retained": true,
+  "negative": 0,
+  "positive": 1,
+  "rule": "Y_H = 1 iff DELTA_LIQ_H > 0, otherwise 0",
+  "source": "implemented C22 fit_models and binary_metrics"
+}

@@ -1,0 +1,30 @@
+{
+  "C22_source_sha256": "0f2c27f8f27509a91c6ead4bed3c3c43eb8133554326128d4088dd23c916b9b9",
+  "contract_sha256": "1ad709e44a0a63ab2d845d3e6b5705083e70d1faf990ba02247743d82ee15c7e",
+  "frozen_C20_reproduction": {
+    "frozen_probability_target_panel_sha256": "d20a975c50a561a9fa520d6b56e3e83b9c84f08b32dc3ed2d35407cbb0a7c70d",
+    "maximum_absolute_differences": {
+      "economic_ordering": 6.661338147750939e-16,
+      "overall_forward_value": 2.220446049250313e-16,
+      "symbol_summary": 8.881784197001252e-16,
+      "year_summary": 5.551115123125783e-16
+    },
+    "population_match": true,
+    "snapshot_rows": 56217,
+    "status": "PASS",
+    "symbol_membership": {
+      "BNBUSDT": 328,
+      "BTCUSDT": 335,
+      "ETHUSDT": 320,
+      "SOLUSDT": 311,
+      "XRPUSDT": 316
+    },
+    "tolerance": 1e-15,
+    "trade_count": 1610,
+    "year_membership": {
+      "2024": 523,
+      "2025": 1087
+    }
+  },
+  "no_2026_access": true
+}

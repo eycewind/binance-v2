@@ -1,0 +1,22 @@
+{
+  "S": {
+    "features": [
+      "elapsed_minutes_since_entry",
+      "observable_current_return_from_entry"
+    ]
+  },
+  "S+C9": {
+    "features": [
+      "elapsed_minutes_since_entry",
+      "observable_current_return_from_entry",
+      "p_t2"
+    ]
+  },
+  "fixed_models": {
+    "binary": "L2 logistic C=1.0",
+    "continuous": "ridge alpha=1.0"
+  },
+  "sole_difference": [
+    "p_t2"
+  ]
+}

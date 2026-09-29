@@ -1,0 +1,8 @@
+{
+  "features_disjoint_from_prohibited": true,
+  "future_variables": false,
+  "next_open_predictor": false,
+  "no_2026_access": true,
+  "status": "PASS",
+  "training_only_preprocessing": true
+}

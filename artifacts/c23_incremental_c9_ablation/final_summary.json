@@ -1,0 +1,2521 @@
+{
+  "binary_label_definition": {
+    "established_before_model_fitting": true,
+    "exact_zero": 0,
+    "exact_zero_retained": true,
+    "negative": 0,
+    "positive": 1,
+    "rule": "Y_H = 1 iff DELTA_LIQ_H > 0, otherwise 0",
+    "source": "implemented C22 fit_models and binary_metrics"
+  },
+  "calendar_month_uncertainty": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.00034392874810074137,
+              0.001940406248998383
+            ],
+            "replicate_sha256": "3b44e514a04bc8d2210c5f181da8febb349e1e53e0e5e167c7157e56fdbd00bf"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0006884461248815033,
+              0.003891954381878948
+            ],
+            "replicate_sha256": "89800cec4eed3211fb5be0cf73c711d653f066fee0c1c73b443ca779bc72a5cd"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -5.996263832040282e-06,
+              1.605282553788839e-05
+            ],
+            "replicate_sha256": "3e6ed1f0e9bdeebf10ddc3ed99fc7b358b28db591c833f5393d132fac48318d9"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -1.610506899118059e-05,
+              3.9790494303418994e-05
+            ],
+            "replicate_sha256": "d8fc853ff70cda9d477db5d181ea5597b419644833db9da08c32572121f13781"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0009563471876329888,
+              0.002788022247403793
+            ],
+            "replicate_sha256": "4b1bba10f8a835f8740b86892299f837c61424e68a51721d6c6f20fb0eaf6c44"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0019174044928139677,
+              0.005650998508309191
+            ],
+            "replicate_sha256": "c9bc5af3303d3cfec79d343d35bfa666ee3976fb1469c7ca717d10b248baa490"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -6.043486758363064e-06,
+              2.466397646555714e-05
+            ],
+            "replicate_sha256": "af29d59be377e56b9121773cd4a8905498d0b0b9610e3e2ac01393c3a01ccac5"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -3.118149114788877e-05,
+              5.038503959595934e-05
+            ],
+            "replicate_sha256": "13cad3a0c22b581b76d7068d4616fd2f35353d431c4e1adf68f4264db17dec43"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0003585328676334043,
+              0.0006703686717796364
+            ],
+            "replicate_sha256": "34f263b68155c923b70cb7c1f9ffeffcc59c8a143ff7e031039fb8a53fe654a4"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0007179949474270808,
+              0.0013580837757747322
+            ],
+            "replicate_sha256": "1ced027ac688fe2f61d104ca3dc9e2884e7fbc1f98b8d5baca579e19ff6a44e9"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -1.6227312676605262e-06,
+              2.5614226134562657e-07
+            ],
+            "replicate_sha256": "d2724f0525f62ea1bd653083ac87b65130cbf2d4cbd63aa45eae48ee2657cbf3"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -6.254328812011281e-07,
+              1.560673554262598e-05
+            ],
+            "replicate_sha256": "fe5cbe623989bb6a4a20499cd164392663d00dc5494cc74e856540e96cfd8a44"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.002155989304393785,
+              0.005320340915843602
+            ],
+            "replicate_sha256": "947b7c7eac33c612cddf588d7ec75218638b13e115067f8c535751f68678d0fc"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.004337405278301731,
+              0.010833264752373228
+            ],
+            "replicate_sha256": "1ffbeea96c80f39335768170aa4972f74d49daf38c2d746e083d0eb61fec91c5"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -4.003628748940318e-06,
+              4.660981997289034e-05
+            ],
+            "replicate_sha256": "c355781b483738569d15c3cccc1337e4da7e40f4d711bce7885755aa86406bc3"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -7.713557771117999e-05,
+              5.1413748609654454e-05
+            ],
+            "replicate_sha256": "cd16d313c882e7e97fe040b9ae874a7f3ca6c732e1935918d1123cfe419f9569"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.005640699747260253,
+              0.009928388515985848
+            ],
+            "replicate_sha256": "a0dca02204e1bf3c12d1bfa294f1510a80761ca8e1cb5bb2d34d21de9376c81a"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.011380656322117155,
+              0.02007185756985741
+            ],
+            "replicate_sha256": "4f8875f3042bf3114a2ea2bfb47848d0625a431d12fcc3042a0caafdca35e44b"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              6.495090492121373e-05,
+              0.00012051258934798158
+            ],
+            "replicate_sha256": "ff224b1b6c2bab86653748ec6933d3673e50ab45cc250d2d9ff899b2d669ddbe"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -0.00012191727774493386,
+              3.601196193869262e-05
+            ],
+            "replicate_sha256": "b482cc0ea62158d775a84521bf47c8f7f644d394894bafde03eefa4a8b03d012"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.001235049208676895,
+              0.002317701899169779
+            ],
+            "replicate_sha256": "ea6939eddaaf40d4390e207b0e7d152488d1589efbb15f6cde0ba5fa6a192425"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0024727432380624663,
+              0.004640356278322441
+            ],
+            "replicate_sha256": "22171c71774ea9c953b34777f4364b9f96d43327cc6663c634a99cc9fa55f6c4"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              8.239910190228688e-06,
+              2.433396537934909e-05
+            ],
+            "replicate_sha256": "417849ef6a4c55f1166d106cd2a1a99711698c7b0d26f17542a7dfc56f492bb6"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              1.759509464537409e-05,
+              4.72057387680629e-05
+            ],
+            "replicate_sha256": "0183f9b4727014a9f3d85f816429e0ca2190dfc832a3b387564361db35d74c69"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0022534981356688508,
+              0.0038946833605087807
+            ],
+            "replicate_sha256": "b22a6ada1cf9aafdc9d3d984bee6db77d49cb98ed2423e72cfce737d58cab4ba"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.004515713215697886,
+              0.007807014018878293
+            ],
+            "replicate_sha256": "5bdab4be69e0a1f3c26654221165b4c75e760590be52c9467bf5e010b401cc5e"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              1.725671931471492e-05,
+              4.20582969208341e-05
+            ],
+            "replicate_sha256": "6abda39fc766487442b2d459df29fd8449866593356a26357f23c901dae3d748"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              2.098488098383087e-05,
+              5.747049380464341e-05
+            ],
+            "replicate_sha256": "f4ea01fb53703b56052b434180f8e7812458876c4ff39e0a88ff5b45a55c3197"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0004215231506014813,
+              0.0008806225770960021
+            ],
+            "replicate_sha256": "afba435044c45d3345f2c7014db39e30f8085686667a6f9ca90d45b8e8cca729"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0008432118578006354,
+              0.001761725716508141
+            ],
+            "replicate_sha256": "4fcab5b5289221dddbfe803a6f0c11c2cc214fa9f3bf40094b0ec07fd10883c6"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -7.571546604614001e-07,
+              5.881474835143032e-06
+            ],
+            "replicate_sha256": "d99f4314441eeb2703f44b2f5558771ff9b106522f06ea0097b06bad1515c056"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              7.1048548415865664e-06,
+              2.551091587284519e-05
+            ],
+            "replicate_sha256": "2b8ab533d5af9110af6f63df0bf194df3b8a36bf6fc93ee86811b284bbc7c96a"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.003989595026761746,
+              0.006397074930931896
+            ],
+            "replicate_sha256": "cd04c39d2fc41c9d0b971289646eb28452f6e85dcb80e9e7ca3d3e3833635823"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.008003063969507604,
+              0.012837000987006918
+            ],
+            "replicate_sha256": "b9120999ed6eb7f522f7ce3d05eee34babb293605f5e6457bc7819f6a9f1c99a"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              2.5818590785199515e-05,
+              5.320231806873456e-05
+            ],
+            "replicate_sha256": "91195057bcdb48d3ce623acb923f07555e9c5d09f8bccb1b40b0281d121c0cd4"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              1.998407519332127e-05,
+              5.288256654111258e-05
+            ],
+            "replicate_sha256": "90b03de296cf94db13a880f072d4e92f1200eb710f88b052c2597273964ea553"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": [
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.007890469871037418,
+              0.011050214993454146
+            ],
+            "replicate_sha256": "d6b465ca79f0efbbcd202e0ffcbd56a8588ad0fb94e0f7b5f6706adf3f788f22"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.015862815581206308,
+              0.022213092473727547
+            ],
+            "replicate_sha256": "551a4ce516fe83e96f51845f863d7ccf4d9142e0ec31de0b8d823cf18f14fef7"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              4.530150274434411e-05,
+              6.607113411485306e-05
+            ],
+            "replicate_sha256": "32a7d82bf76a4608aeb5525f5c54f7d4654720b62097702d907bb4d2f0e402c4"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              7.322248487986582e-06,
+              3.295895010331628e-05
+            ],
+            "replicate_sha256": "b63c248178d4bcaf4c92033f081234c7ff3281d8c7d3162a917922999216dd25"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "calendar_month"
+      }
+    }
+  },
+  "confirmations": {
+    "C24_started": false,
+    "accessed_2026": false,
+    "new_model_family_horizon_threshold_search": false,
+    "policy_or_pnl_optimization": false,
+    "sole_feature_difference": "current frozen p_t2",
+    "staged_committed_or_pushed": false
+  },
+  "contract_sha256": "1ad709e44a0a63ab2d845d3e6b5705083e70d1faf990ba02247743d82ee15c7e",
+  "decision_timing_audit": {
+    "next_1m_open": "target/accounting only; not a predictor",
+    "observable_price": "frozen architecture-B fast.close[fast.at(t)]",
+    "observable_return": "OBS_PRICE(t)/entry_price-1",
+    "prediction_time": "after completed frozen 5-minute state bar at t",
+    "status": "PASS"
+  },
+  "feature_schema": {
+    "S": {
+      "features": [
+        "elapsed_minutes_since_entry",
+        "observable_current_return_from_entry"
+      ]
+    },
+    "S+C9": {
+      "features": [
+        "elapsed_minutes_since_entry",
+        "observable_current_return_from_entry",
+        "p_t2"
+      ]
+    },
+    "fixed_models": {
+      "binary": "L2 logistic C=1.0",
+      "continuous": "ridge alpha=1.0"
+    },
+    "sole_difference": [
+      "p_t2"
+    ]
+  },
+  "fold_reconciliation": {
+    "2024_coverage": "single available chronological validation block; not comprehensive multi-fold OOF coverage",
+    "fold_A": "NOT_FABRICATED_NO_EARLIER_HONESTLY_SCORED_TRAINING_BLOCK",
+    "fold_B": {
+      "bounds_ms": [
+        1704067200000,
+        1727740800000,
+        1735689600000
+      ],
+      "train_rows": 7970,
+      "train_trades": 256,
+      "training_strictly_precedes_validation": true,
+      "validation_rows": 8631,
+      "validation_trades": 267
+    }
+  },
+  "frozen_classification": {
+    "DELTA_LIQ_15": {
+      "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "proper_scores_favorable_both_years": true,
+      "symbols_with_brier_improvement_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "uncertainty_directionally_supportive": true
+    },
+    "DELTA_LIQ_30": {
+      "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "proper_scores_favorable_both_years": true,
+      "symbols_with_brier_improvement_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "uncertainty_directionally_supportive": true
+    },
+    "DELTA_LIQ_5": {
+      "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "proper_scores_favorable_both_years": true,
+      "symbols_with_brier_improvement_by_year": {
+        "2024": 4,
+        "2025": 5
+      },
+      "uncertainty_directionally_supportive": true
+    },
+    "DELTA_LIQ_60": {
+      "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "proper_scores_favorable_both_years": true,
+      "symbols_with_brier_improvement_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "uncertainty_directionally_supportive": true
+    },
+    "DELTA_LIQ_EVENT": {
+      "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+      "not_obviously_one_symbol": true,
+      "proper_scores_favorable_both_years": true,
+      "symbols_with_brier_improvement_by_year": {
+        "2024": 5,
+        "2025": 5
+      },
+      "uncertainty_directionally_supportive": true
+    }
+  },
+  "implication_for_C24": "STOP after C23; C24 is not started or authorized.",
+  "interpretation": "C9 incremental information is assessed separately as probability refinement, ranking discrimination, and continuous value prediction; none defines a policy.",
+  "limitations": [
+    "single available 2024 chronological validation block",
+    "dependent repeated snapshots handled by equal whole-trade weighting and dependence-aware uncertainty",
+    "five symbols are not independent replications",
+    "predictive evidence is not causal or a policy advantage"
+  ],
+  "metrics": {
+    "2024": {
+      "binary": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5573301807079517,
+            "brier": 0.24910048501893242,
+            "calibration_intercept": -0.07935386211791437,
+            "calibration_slope": 1.7015811047266058,
+            "ece": 0.01759234822243024,
+            "log_loss": 0.6913849093083755,
+            "prevalence": 0.48750859384813006,
+            "rows": 8631,
+            "trades": 267
+          },
+          "S+C9": {
+            "auc": 0.5661230462027933,
+            "brier": 0.24783734208936634,
+            "calibration_intercept": -0.1083980613136628,
+            "calibration_slope": 1.7627445801794581,
+            "ece": 0.02181179357675885,
+            "log_loss": 0.6888379688329178,
+            "prevalence": 0.48750859384813006,
+            "rows": 8631,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.5842816734785453,
+            "brier": 0.24762684391553932,
+            "calibration_intercept": -0.05286498215761222,
+            "calibration_slope": 2.285483047559842,
+            "ece": 0.0371885604248924,
+            "log_loss": 0.6884497367420919,
+            "prevalence": 0.48920924337153454,
+            "rows": 8631,
+            "trades": 267
+          },
+          "S+C9": {
+            "auc": 0.5914500074348685,
+            "brier": 0.2454668542953781,
+            "calibration_intercept": -0.09089124112757146,
+            "calibration_slope": 1.953468456999415,
+            "ece": 0.04216770657325804,
+            "log_loss": 0.6840875540795466,
+            "prevalence": 0.48920924337153454,
+            "rows": 8631,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5377035686745828,
+            "brier": 0.2496006878839312,
+            "calibration_intercept": -0.07351667818029055,
+            "calibration_slope": 1.5234772013503195,
+            "ece": 0.018470817492467276,
+            "log_loss": 0.6923674750233612,
+            "prevalence": 0.48304535616613414,
+            "rows": 8631,
+            "trades": 267
+          },
+          "S+C9": {
+            "auc": 0.5453924519669009,
+            "brier": 0.24907911957604176,
+            "calibration_intercept": -0.09146662516528141,
+            "calibration_slope": 1.709589511892525,
+            "ece": 0.02092885120766708,
+            "log_loss": 0.6913182066943754,
+            "prevalence": 0.48304535616613414,
+            "rows": 8631,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.6245694100679157,
+            "brier": 0.24545201444466355,
+            "calibration_intercept": 0.0254409120420771,
+            "calibration_slope": 2.9105940706951254,
+            "ece": 0.09925854294083636,
+            "log_loss": 0.6841298150426617,
+            "prevalence": 0.48633595155972426,
+            "rows": 8631,
+            "trades": 267
+          },
+          "S+C9": {
+            "auc": 0.6300602116572281,
+            "brier": 0.24121669236666404,
+            "calibration_intercept": -0.05353255313485636,
+            "calibration_slope": 2.203310882408347,
+            "ece": 0.07347001531046668,
+            "log_loss": 0.6755701491413735,
+            "prevalence": 0.48633595155972426,
+            "rows": 8631,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6551282008074772,
+            "brier": 0.24333822991647708,
+            "calibration_intercept": 0.020704984311611156,
+            "calibration_slope": 3.190368617625011,
+            "ece": 0.12175019999212233,
+            "log_loss": 0.6799303093429256,
+            "prevalence": 0.4848021506881427,
+            "rows": 8631,
+            "trades": 267
+          },
+          "S+C9": {
+            "auc": 0.67031447388846,
+            "brier": 0.2352517569341574,
+            "calibration_intercept": -0.08679655168725897,
+            "calibration_slope": 2.4211810698521177,
+            "ece": 0.0992727237645311,
+            "log_loss": 0.6635194441629758,
+            "prevalence": 0.4848021506881427,
+            "rows": 8631,
+            "trades": 267
+          }
+        }
+      },
+      "calibration": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "calibration_intercept": -0.07935386211791437,
+            "calibration_slope": 1.7015811047266058,
+            "ece": 0.01759234822243024
+          },
+          "S+C9": {
+            "calibration_intercept": -0.1083980613136628,
+            "calibration_slope": 1.7627445801794581,
+            "ece": 0.02181179357675885
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "calibration_intercept": -0.05286498215761222,
+            "calibration_slope": 2.285483047559842,
+            "ece": 0.0371885604248924
+          },
+          "S+C9": {
+            "calibration_intercept": -0.09089124112757146,
+            "calibration_slope": 1.953468456999415,
+            "ece": 0.04216770657325804
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "calibration_intercept": -0.07351667818029055,
+            "calibration_slope": 1.5234772013503195,
+            "ece": 0.018470817492467276
+          },
+          "S+C9": {
+            "calibration_intercept": -0.09146662516528141,
+            "calibration_slope": 1.709589511892525,
+            "ece": 0.02092885120766708
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "calibration_intercept": 0.0254409120420771,
+            "calibration_slope": 2.9105940706951254,
+            "ece": 0.09925854294083636
+          },
+          "S+C9": {
+            "calibration_intercept": -0.05353255313485636,
+            "calibration_slope": 2.203310882408347,
+            "ece": 0.07347001531046668
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "calibration_intercept": 0.020704984311611156,
+            "calibration_slope": 3.190368617625011,
+            "ece": 0.12175019999212233
+          },
+          "S+C9": {
+            "calibration_intercept": -0.08679655168725897,
+            "calibration_slope": 2.4211810698521177,
+            "ece": 0.0992727237645311
+          }
+        }
+      },
+      "continuous": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "correlation": 0.2325162920158329,
+            "mae": 0.002538885639634957,
+            "rmse": 0.0039042131014623118,
+            "rows": 8631,
+            "sign_accuracy": 0.493793391283141,
+            "trades": 267
+          },
+          "S+C9": {
+            "correlation": 0.2379446279161808,
+            "mae": 0.002533938936339323,
+            "rmse": 0.0038973470527396653,
+            "rows": 8631,
+            "sign_accuracy": 0.5014192066075442,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "correlation": 0.2740866855434502,
+            "mae": 0.0034377782587606616,
+            "rmse": 0.0053162611168431195,
+            "rows": 8631,
+            "sign_accuracy": 0.5307257028411295,
+            "trades": 267
+          },
+          "S+C9": {
+            "correlation": 0.2628722907195172,
+            "mae": 0.0034271092677787794,
+            "rmse": 0.005317715273717323,
+            "rows": 8631,
+            "sign_accuracy": 0.5461581716498659,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "correlation": 0.17398331736539138,
+            "mae": 0.0014785091276347847,
+            "rmse": 0.0023217786487516783,
+            "rows": 8631,
+            "sign_accuracy": 0.48871959089539385,
+            "trades": 267
+          },
+          "S+C9": {
+            "correlation": 0.19173508672365172,
+            "mae": 0.0014792186444073114,
+            "rmse": 0.0023156979019646074,
+            "rows": 8631,
+            "sign_accuracy": 0.49512179269980283,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "correlation": 0.33453164835397764,
+            "mae": 0.004297337174690448,
+            "rmse": 0.00682704579707071,
+            "rows": 8631,
+            "sign_accuracy": 0.5579845452612862,
+            "trades": 267
+          },
+          "S+C9": {
+            "correlation": 0.29047367193675955,
+            "mae": 0.004270361862993338,
+            "rmse": 0.006854254834577537,
+            "rows": 8631,
+            "sign_accuracy": 0.5839855916517609,
+            "trades": 267
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "correlation": 0.2634994626050653,
+            "mae": 0.006278748364280834,
+            "rmse": 0.009679287573261907,
+            "rows": 8631,
+            "sign_accuracy": 0.5055213423172774,
+            "trades": 267
+          },
+          "S+C9": {
+            "correlation": 0.18768811557940854,
+            "mae": 0.006185564312421003,
+            "rmse": 0.009731358905348013,
+            "rows": 8631,
+            "sign_accuracy": 0.5604667084819572,
+            "trades": 267
+          }
+        }
+      }
+    },
+    "2025": {
+      "binary": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5667087329472346,
+            "brier": 0.24928692756552617,
+            "calibration_intercept": 0.02631996955779491,
+            "calibration_slope": 5.150304890536825,
+            "ece": 0.05998542090522495,
+            "log_loss": 0.6917215275753333,
+            "prevalence": 0.49296816460550075,
+            "rows": 39616,
+            "trades": 1087
+          },
+          "S+C9": {
+            "auc": 0.5835832705164434,
+            "brier": 0.24751002565683095,
+            "calibration_intercept": -0.025677924179446487,
+            "calibration_slope": 3.786529524624358,
+            "ece": 0.05365669825973457,
+            "log_loss": 0.6881636119131629,
+            "prevalence": 0.49296816460550075,
+            "rows": 39616,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.5926336277651484,
+            "brier": 0.2485320089763412,
+            "calibration_intercept": 0.006936879480493869,
+            "calibration_slope": 5.240689310263862,
+            "ece": 0.08224339473988265,
+            "log_loss": 0.6902123892246957,
+            "prevalence": 0.48712610347990776,
+            "rows": 39616,
+            "trades": 1087
+          },
+          "S+C9": {
+            "auc": 0.6148137446938103,
+            "brier": 0.24544775713614467,
+            "calibration_intercept": -0.05854327739936972,
+            "calibration_slope": 3.85289690709203,
+            "ece": 0.07348997301976792,
+            "log_loss": 0.6840306358925802,
+            "prevalence": 0.48712610347990776,
+            "rows": 39616,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5359843821581072,
+            "brier": 0.24975051923494093,
+            "calibration_intercept": 0.09781733791172971,
+            "calibration_slope": 4.028263859828169,
+            "ece": 0.017122638908266118,
+            "log_loss": 0.692648498110495,
+            "prevalence": 0.49548091883163026,
+            "rows": 39616,
+            "trades": 1087
+          },
+          "S+C9": {
+            "auc": 0.5455551377148213,
+            "brier": 0.2490960854774438,
+            "calibration_intercept": 0.05310557104795399,
+            "calibration_slope": 3.190063542322306,
+            "ece": 0.031841067236988735,
+            "log_loss": 0.6913393940522675,
+            "prevalence": 0.49548091883163026,
+            "rows": 39616,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.6146882464540733,
+            "brier": 0.247495017384525,
+            "calibration_intercept": 0.07875738553204695,
+            "calibration_slope": 4.9575069007259,
+            "ece": 0.09702587178132509,
+            "log_loss": 0.6881407662743488,
+            "prevalence": 0.4820461588048298,
+            "rows": 39616,
+            "trades": 1087
+          },
+          "S+C9": {
+            "auc": 0.6437065306521067,
+            "brier": 0.2423108906307167,
+            "calibration_intercept": -0.026372953069208064,
+            "calibration_slope": 3.6311206094381876,
+            "ece": 0.09869839450466412,
+            "log_loss": 0.6777408982403186,
+            "prevalence": 0.4820461588048298,
+            "rows": 39616,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.647746513413829,
+            "brier": 0.2457442283794395,
+            "calibration_intercept": 0.004318432093481127,
+            "calibration_slope": 5.307082008600379,
+            "ece": 0.13106419883314632,
+            "log_loss": 0.684639926068087,
+            "prevalence": 0.4619898448105262,
+            "rows": 39616,
+            "trades": 1087
+          },
+          "S+C9": {
+            "auc": 0.6944714542978997,
+            "brier": 0.23633157098065505,
+            "calibration_intercept": -0.1379100563311653,
+            "calibration_slope": 3.996534976767667,
+            "ece": 0.13814019395936503,
+            "log_loss": 0.665714881907765,
+            "prevalence": 0.4619898448105262,
+            "rows": 39616,
+            "trades": 1087
+          }
+        }
+      },
+      "calibration": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "calibration_intercept": 0.02631996955779491,
+            "calibration_slope": 5.150304890536825,
+            "ece": 0.05998542090522495
+          },
+          "S+C9": {
+            "calibration_intercept": -0.025677924179446487,
+            "calibration_slope": 3.786529524624358,
+            "ece": 0.05365669825973457
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "calibration_intercept": 0.006936879480493869,
+            "calibration_slope": 5.240689310263862,
+            "ece": 0.08224339473988265
+          },
+          "S+C9": {
+            "calibration_intercept": -0.05854327739936972,
+            "calibration_slope": 3.85289690709203,
+            "ece": 0.07348997301976792
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "calibration_intercept": 0.09781733791172971,
+            "calibration_slope": 4.028263859828169,
+            "ece": 0.017122638908266118
+          },
+          "S+C9": {
+            "calibration_intercept": 0.05310557104795399,
+            "calibration_slope": 3.190063542322306,
+            "ece": 0.031841067236988735
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "calibration_intercept": 0.07875738553204695,
+            "calibration_slope": 4.9575069007259,
+            "ece": 0.09702587178132509
+          },
+          "S+C9": {
+            "calibration_intercept": -0.026372953069208064,
+            "calibration_slope": 3.6311206094381876,
+            "ece": 0.09869839450466412
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "calibration_intercept": 0.004318432093481127,
+            "calibration_slope": 5.307082008600379,
+            "ece": 0.13106419883314632
+          },
+          "S+C9": {
+            "calibration_intercept": -0.1379100563311653,
+            "calibration_slope": 3.996534976767667,
+            "ece": 0.13814019395936503
+          }
+        }
+      },
+      "continuous": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "correlation": 0.12187310213518299,
+            "mae": 0.002463140136583674,
+            "rmse": 0.0037338921801808667,
+            "rows": 39616,
+            "sign_accuracy": 0.5035832080352741,
+            "trades": 1087
+          },
+          "S+C9": {
+            "correlation": 0.18386885637888534,
+            "mae": 0.002447040808079745,
+            "rmse": 0.0037015070347746946,
+            "rows": 39616,
+            "sign_accuracy": 0.5190132325215704,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "correlation": 0.13231155842662884,
+            "mae": 0.0032953247138586355,
+            "rmse": 0.0047939776302523334,
+            "rows": 39616,
+            "sign_accuracy": 0.521262940626082,
+            "trades": 1087
+          },
+          "S+C9": {
+            "correlation": 0.18497117704414745,
+            "mae": 0.003265941553995649,
+            "rmse": 0.004755080378656299,
+            "rows": 39616,
+            "sign_accuracy": 0.545110384641109,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "correlation": 0.10738715675875508,
+            "mae": 0.0014244263244975175,
+            "rmse": 0.002373628851718729,
+            "rows": 39616,
+            "sign_accuracy": 0.49862023236407077,
+            "trades": 1087
+          },
+          "S+C9": {
+            "correlation": 0.1670959199587098,
+            "mae": 0.0014219217478082212,
+            "rmse": 0.0023572663971163253,
+            "rows": 39616,
+            "sign_accuracy": 0.5003382324530438,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "correlation": 0.12156085106317939,
+            "mae": 0.004153064663973803,
+            "rmse": 0.005876611631713625,
+            "rows": 39616,
+            "sign_accuracy": 0.5422492193571562,
+            "trades": 1087
+          },
+          "S+C9": {
+            "correlation": 0.1621354191440704,
+            "mae": 0.004114085895498625,
+            "rmse": 0.005840634347802912,
+            "rows": 39616,
+            "sign_accuracy": 0.5739770585364713,
+            "trades": 1087
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "correlation": 0.07843941710455932,
+            "mae": 0.006110831645010558,
+            "rmse": 0.008144264364286662,
+            "rows": 39616,
+            "sign_accuracy": 0.5287861309544046,
+            "trades": 1087
+          },
+          "S+C9": {
+            "correlation": 0.10252900893786529,
+            "mae": 0.006055569861110203,
+            "rmse": 0.008125121610741647,
+            "rows": 39616,
+            "sign_accuracy": 0.5556414221041261,
+            "trades": 1087
+          }
+        }
+      }
+    }
+  },
+  "paired_differences": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "Delta_AUC": 0.008792865494841595,
+        "Delta_Brier": 0.0012631429295660856,
+        "Delta_LogLoss": 0.0025469404754576708,
+        "Delta_MAE": 4.946703295634e-06,
+        "Delta_RMSE": 6.8660487226464804e-06
+      },
+      "DELTA_LIQ_30": {
+        "Delta_AUC": 0.007168333956323214,
+        "Delta_Brier": 0.002159989620161229,
+        "Delta_LogLoss": 0.004362182662545289,
+        "Delta_MAE": 1.0668990981882193e-05,
+        "Delta_RMSE": -1.454156874203423e-06
+      },
+      "DELTA_LIQ_5": {
+        "Delta_AUC": 0.007688883292318094,
+        "Delta_Brier": 0.0005215683078894362,
+        "Delta_LogLoss": 0.0010492683289857752,
+        "Delta_MAE": -7.095167725266766e-07,
+        "Delta_RMSE": 6.080746787070872e-06
+      },
+      "DELTA_LIQ_60": {
+        "Delta_AUC": 0.005490801589312477,
+        "Delta_Brier": 0.004235322077999509,
+        "Delta_LogLoss": 0.008559665901288205,
+        "Delta_MAE": 2.6975311697110226e-05,
+        "Delta_RMSE": -2.72090375068269e-05
+      },
+      "DELTA_LIQ_EVENT": {
+        "Delta_AUC": 0.015186273080982748,
+        "Delta_Brier": 0.008086472982319681,
+        "Delta_LogLoss": 0.01641086517994983,
+        "Delta_MAE": 9.31840518598303e-05,
+        "Delta_RMSE": -5.20713320861059e-05
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "Delta_AUC": 0.01687453756920887,
+        "Delta_Brier": 0.0017769019086952276,
+        "Delta_LogLoss": 0.003557915662170452,
+        "Delta_MAE": 1.6099328503928808e-05,
+        "Delta_RMSE": 3.238514540617214e-05
+      },
+      "DELTA_LIQ_30": {
+        "Delta_AUC": 0.022180116928661953,
+        "Delta_Brier": 0.0030842518401965335,
+        "Delta_LogLoss": 0.006181753332115569,
+        "Delta_MAE": 2.9383159862986577e-05,
+        "Delta_RMSE": 3.889725159603435e-05
+      },
+      "DELTA_LIQ_5": {
+        "Delta_AUC": 0.009570755556714161,
+        "Delta_Brier": 0.0006544337574971304,
+        "Delta_LogLoss": 0.0013091040582274838,
+        "Delta_MAE": 2.504576689296321e-06,
+        "Delta_RMSE": 1.63624546024037e-05
+      },
+      "DELTA_LIQ_60": {
+        "Delta_AUC": 0.02901828419803343,
+        "Delta_Brier": 0.005184126753808305,
+        "Delta_LogLoss": 0.010399868034030257,
+        "Delta_MAE": 3.8978768475177866e-05,
+        "Delta_RMSE": 3.597728391071305e-05
+      },
+      "DELTA_LIQ_EVENT": {
+        "Delta_AUC": 0.04672494088407064,
+        "Delta_Brier": 0.00941265739878444,
+        "Delta_LogLoss": 0.018925044160322035,
+        "Delta_MAE": 5.5261783900354376e-05,
+        "Delta_RMSE": 1.914275354501435e-05
+      }
+    },
+    "direction": "positive means S+C9 improves proper/error score; Delta_AUC is AUC(S+C9)-AUC(S)"
+  },
+  "population_reconciliation": {
+    "causal_snapshots": 75164,
+    "eligible_target_snapshots": 56217,
+    "eligible_target_trades": 1610,
+    "exact_reconciliation": true,
+    "expected_scored_snapshots": 56217,
+    "expected_scored_trades": 1610,
+    "honestly_scored_snapshots": 56217,
+    "honestly_scored_trades": 1610,
+    "source_trades": 2199,
+    "target_ineligible": {}
+  },
+  "symbol_stability": {
+    "BNBUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5905088168496265,
+            "brier": 0.24868512841556667,
+            "log_loss": 0.6905188461896735,
+            "mae": 0.002202221306841076,
+            "rmse": 0.00323949330749182
+          },
+          "S+C9": {
+            "auc": 0.5871839635768995,
+            "brier": 0.24731181524427823,
+            "log_loss": 0.6877683091159007,
+            "mae": 0.0022049471338369416,
+            "rmse": 0.0032321110016307877
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.6363200960701437,
+            "brier": 0.24634545421370185,
+            "log_loss": 0.6858398431525029,
+            "mae": 0.003077996952380407,
+            "rmse": 0.004326758062654363
+          },
+          "S+C9": {
+            "auc": 0.6383499781633947,
+            "brier": 0.2427137492717401,
+            "log_loss": 0.6785419386024083,
+            "mae": 0.0030636206024413294,
+            "rmse": 0.004293619797706807
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5252429008301165,
+            "brier": 0.25004868092442595,
+            "log_loss": 0.6932453711801788,
+            "mae": 0.0012723705625402116,
+            "rmse": 0.001891829511930364
+          },
+          "S+C9": {
+            "auc": 0.5252333265301852,
+            "brier": 0.25006988648195516,
+            "log_loss": 0.6932902994127764,
+            "mae": 0.001280464954295941,
+            "rmse": 0.001893416642026214
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.673443319393206,
+            "brier": 0.24452596657693984,
+            "log_loss": 0.682210077662718,
+            "mae": 0.00382671519454875,
+            "rmse": 0.005306458708858297
+          },
+          "S+C9": {
+            "auc": 0.6763933385195405,
+            "brier": 0.23782997242843448,
+            "log_loss": 0.6687281860633594,
+            "mae": 0.0037967400441806308,
+            "rmse": 0.005263708495804838
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6979319697354951,
+            "brier": 0.24292313773211976,
+            "log_loss": 0.6790474186534539,
+            "mae": 0.005594611478414181,
+            "rmse": 0.007326909623065907
+          },
+          "S+C9": {
+            "auc": 0.7181946399646616,
+            "brier": 0.2304614476260025,
+            "log_loss": 0.6538660447017827,
+            "mae": 0.005466889485209653,
+            "rmse": 0.007271494002083251
+          }
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5638211647278097,
+            "brier": 0.24921349353186412,
+            "log_loss": 0.6915731750298443,
+            "mae": 0.0018738288068708038,
+            "rmse": 0.0029181322954298775
+          },
+          "S+C9": {
+            "auc": 0.5718399930412579,
+            "brier": 0.24781697462195007,
+            "log_loss": 0.688776398079505,
+            "mae": 0.0018666399740246522,
+            "rmse": 0.0029048982926952165
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.5665054619500011,
+            "brier": 0.24891599092821592,
+            "log_loss": 0.6909770528686366,
+            "mae": 0.0025927288515811405,
+            "rmse": 0.00392532172508835
+          },
+          "S+C9": {
+            "auc": 0.5771256968722556,
+            "brier": 0.24698282080862918,
+            "log_loss": 0.6871026166274848,
+            "mae": 0.0025822435841781582,
+            "rmse": 0.00391311345809324
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5256587392553642,
+            "brier": 0.2496829353536817,
+            "log_loss": 0.6925132494029078,
+            "mae": 0.0010969618915827996,
+            "rmse": 0.001777693973106276
+          },
+          "S+C9": {
+            "auc": 0.5332739578982315,
+            "brier": 0.2491889835565931,
+            "log_loss": 0.6915251868639488,
+            "mae": 0.0010949202859315641,
+            "rmse": 0.0017690818340738408
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.5783631894131128,
+            "brier": 0.2479455451400262,
+            "log_loss": 0.6890348527108251,
+            "mae": 0.0032995755969529596,
+            "rmse": 0.004814170879702515
+          },
+          "S+C9": {
+            "auc": 0.5956576157889174,
+            "brier": 0.2447822189038801,
+            "log_loss": 0.6826917739931219,
+            "mae": 0.003284108359637455,
+            "rmse": 0.0048055461339905296
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6100812572707767,
+            "brier": 0.24638400534241917,
+            "log_loss": 0.6859105831274718,
+            "mae": 0.005153879128182605,
+            "rmse": 0.007031769604334702
+          },
+          "S+C9": {
+            "auc": 0.6453787618446902,
+            "brier": 0.2396987280944239,
+            "log_loss": 0.6724774237216642,
+            "mae": 0.0051151879309006085,
+            "rmse": 0.007026403781429907
+          }
+        }
+      }
+    },
+    "BTCUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5311187303208018,
+            "brier": 0.25007117882682295,
+            "log_loss": 0.6932882551844356,
+            "mae": 0.0018314364821694828,
+            "rmse": 0.0025665917083553622
+          },
+          "S+C9": {
+            "auc": 0.535598083657936,
+            "brier": 0.2491013806378752,
+            "log_loss": 0.6913393865009909,
+            "mae": 0.0018261745853415843,
+            "rmse": 0.0025680061245433356
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.5488337526653806,
+            "brier": 0.24939995502178652,
+            "log_loss": 0.6919454100255495,
+            "mae": 0.0025601710010007108,
+            "rmse": 0.003613795056659802
+          },
+          "S+C9": {
+            "auc": 0.5448497500328201,
+            "brier": 0.2481594358429807,
+            "log_loss": 0.6894445774549506,
+            "mae": 0.0025503740327033155,
+            "rmse": 0.0036233682779624565
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5273221443586151,
+            "brier": 0.2498886387878011,
+            "log_loss": 0.6929243282996158,
+            "mae": 0.0010537430249145444,
+            "rmse": 0.001483507937155146
+          },
+          "S+C9": {
+            "auc": 0.5314550757338711,
+            "brier": 0.24949753943204753,
+            "log_loss": 0.6921411541362801,
+            "mae": 0.0010539544647415794,
+            "rmse": 0.0014841765729652506
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.5940463893131609,
+            "brier": 0.2468408607958533,
+            "log_loss": 0.6868262661893387,
+            "mae": 0.003231859909169594,
+            "rmse": 0.004643618710362298
+          },
+          "S+C9": {
+            "auc": 0.5925158703004344,
+            "brier": 0.243276207555134,
+            "log_loss": 0.679624698783203,
+            "mae": 0.003199009228873778,
+            "rmse": 0.00465818790985171
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6433630596726098,
+            "brier": 0.24336458179239026,
+            "log_loss": 0.6798476718358457,
+            "mae": 0.004974656133973967,
+            "rmse": 0.006651550626856854
+          },
+          "S+C9": {
+            "auc": 0.657059568207456,
+            "brier": 0.23470203044228422,
+            "log_loss": 0.6622361153074642,
+            "mae": 0.004850259963626,
+            "rmse": 0.0066351236047201756
+          }
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5496595548351145,
+            "brier": 0.2494317108185983,
+            "log_loss": 0.692010795653345,
+            "mae": 0.0017813111055788426,
+            "rmse": 0.0029708643810051638
+          },
+          "S+C9": {
+            "auc": 0.5693683519464716,
+            "brier": 0.24801572353965934,
+            "log_loss": 0.6891764426993603,
+            "mae": 0.0017681930670421704,
+            "rmse": 0.0029342376182996278
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.5785867724904207,
+            "brier": 0.24878855805730885,
+            "log_loss": 0.6907245587132098,
+            "mae": 0.0024167155332426807,
+            "rmse": 0.0037783315891448343
+          },
+          "S+C9": {
+            "auc": 0.5998346554896083,
+            "brier": 0.24628899067626908,
+            "log_loss": 0.6857170224707478,
+            "mae": 0.0023951805408188283,
+            "rmse": 0.00373049540963938
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5136760603744446,
+            "brier": 0.24968608577773,
+            "log_loss": 0.6925194613214075,
+            "mae": 0.0010198317021172943,
+            "rmse": 0.0019360760382358885
+          },
+          "S+C9": {
+            "auc": 0.526732697748384,
+            "brier": 0.24926970536558396,
+            "log_loss": 0.6916866264810744,
+            "mae": 0.001016945155874498,
+            "rmse": 0.001918621361403241
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.605775496352391,
+            "brier": 0.2473264567914657,
+            "log_loss": 0.6878002459470718,
+            "mae": 0.0031777380965078007,
+            "rmse": 0.004803435824226811
+          },
+          "S+C9": {
+            "auc": 0.6344998456676572,
+            "brier": 0.2427651990658773,
+            "log_loss": 0.6786507337159525,
+            "mae": 0.003145373045482259,
+            "rmse": 0.004757662358021918
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6216216062535309,
+            "brier": 0.24630046590931834,
+            "log_loss": 0.6857511491238307,
+            "mae": 0.005029691958602259,
+            "rmse": 0.0067260018213367535
+          },
+          "S+C9": {
+            "auc": 0.6760275585169148,
+            "brier": 0.2376846170883989,
+            "log_loss": 0.668435659777708,
+            "mae": 0.004975468214422793,
+            "rmse": 0.006696905173058267
+          }
+        }
+      }
+    },
+    "ETHUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5513256200496424,
+            "brier": 0.24908935116036368,
+            "log_loss": 0.6913160330448088,
+            "mae": 0.0021841061002963293,
+            "rmse": 0.00313235427043294
+          },
+          "S+C9": {
+            "auc": 0.5559773282024404,
+            "brier": 0.2480970711412541,
+            "log_loss": 0.6893187822983664,
+            "mae": 0.0021805011136636888,
+            "rmse": 0.0031235772712586763
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.561749399889799,
+            "brier": 0.24823375320438412,
+            "log_loss": 0.6895838044693151,
+            "mae": 0.003021003483530808,
+            "rmse": 0.004486280465327598
+          },
+          "S+C9": {
+            "auc": 0.5576280401413439,
+            "brier": 0.24750645042479422,
+            "log_loss": 0.6881114833428743,
+            "mae": 0.0030231624872191338,
+            "rmse": 0.004487971041342864
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.559919485518703,
+            "brier": 0.24905632202331765,
+            "log_loss": 0.6912574736577383,
+            "mae": 0.0012547691929969537,
+            "rmse": 0.0017843966647857034
+          },
+          "S+C9": {
+            "auc": 0.561759069606915,
+            "brier": 0.2482764089254763,
+            "log_loss": 0.6896941413460564,
+            "mae": 0.0012569534585711222,
+            "rmse": 0.00177839723000902
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.621341456817198,
+            "brier": 0.24507982258671257,
+            "log_loss": 0.6832480424799466,
+            "mae": 0.0040389579629633,
+            "rmse": 0.006040356404297682
+          },
+          "S+C9": {
+            "auc": 0.6075748045919459,
+            "brier": 0.24273233078912204,
+            "log_loss": 0.6785002884707996,
+            "mae": 0.004027365055716314,
+            "rmse": 0.006058895044007403
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.651858954222246,
+            "brier": 0.24293521214791342,
+            "log_loss": 0.6789425693429441,
+            "mae": 0.0072599703118585305,
+            "rmse": 0.01062238616496489
+          },
+          "S+C9": {
+            "auc": 0.6362685276500626,
+            "brier": 0.23871170019139357,
+            "log_loss": 0.6703364976183476,
+            "mae": 0.0072013753070774185,
+            "rmse": 0.010696768233684074
+          }
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5835996641118475,
+            "brier": 0.24928938615118632,
+            "log_loss": 0.6917276924471044,
+            "mae": 0.002721770522691723,
+            "rmse": 0.0040363322818712695
+          },
+          "S+C9": {
+            "auc": 0.5961092856436138,
+            "brier": 0.24718495138262667,
+            "log_loss": 0.6875141896627462,
+            "mae": 0.0026999008573605323,
+            "rmse": 0.00399424012035006
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.6128938448358325,
+            "brier": 0.2483835592723857,
+            "log_loss": 0.6899181412094844,
+            "mae": 0.0036683031042633527,
+            "rmse": 0.005193460613243695
+          },
+          "S+C9": {
+            "auc": 0.6330006380845264,
+            "brier": 0.2447399158585188,
+            "log_loss": 0.6826154121372252,
+            "mae": 0.0036285404983359493,
+            "rmse": 0.005142626077789195
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5552078419643982,
+            "brier": 0.24978772965888318,
+            "log_loss": 0.6927230881331757,
+            "mae": 0.001526556794500618,
+            "rmse": 0.0024312942013276027
+          },
+          "S+C9": {
+            "auc": 0.5641488953684287,
+            "brier": 0.24887183851776884,
+            "log_loss": 0.6908908426715672,
+            "mae": 0.001522266154154201,
+            "rmse": 0.0024136614812649876
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.6318757312360908,
+            "brier": 0.24779065520474097,
+            "log_loss": 0.6887397052155317,
+            "mae": 0.004573167155902003,
+            "rmse": 0.006241844195147593
+          },
+          "S+C9": {
+            "auc": 0.6595613130508944,
+            "brier": 0.24183895568057184,
+            "log_loss": 0.6768026423658927,
+            "mae": 0.004522558043939895,
+            "rmse": 0.006195067224532703
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6567103987553834,
+            "brier": 0.24610535401150532,
+            "log_loss": 0.6853746008361078,
+            "mae": 0.006673599336559814,
+            "rmse": 0.00867444704170516
+          },
+          "S+C9": {
+            "auc": 0.7060692161254318,
+            "brier": 0.23594088131563468,
+            "log_loss": 0.6649433782096115,
+            "mae": 0.0066119330378860055,
+            "rmse": 0.008647615192133307
+          }
+        }
+      }
+    },
+    "SOLUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5510049781113899,
+            "brier": 0.2490698139856282,
+            "log_loss": 0.6912920463590515,
+            "mae": 0.0032748949309189808,
+            "rmse": 0.004626337132419814
+          },
+          "S+C9": {
+            "auc": 0.5721731586947043,
+            "brier": 0.24720010365125097,
+            "log_loss": 0.6875430251834458,
+            "mae": 0.003257796495375627,
+            "rmse": 0.004596857628447645
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.555240022533143,
+            "brier": 0.2482865301010683,
+            "log_loss": 0.6897046138740808,
+            "mae": 0.0044149650402081665,
+            "rmse": 0.006285044820434655
+          },
+          "S+C9": {
+            "auc": 0.5817638914666389,
+            "brier": 0.2455669173614739,
+            "log_loss": 0.6842421801273958,
+            "mae": 0.004387126945338751,
+            "rmse": 0.006267021145415672
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5553565839387055,
+            "brier": 0.2490572944374336,
+            "log_loss": 0.6912590429616975,
+            "mae": 0.001928272066855235,
+            "rmse": 0.0028113183939191583
+          },
+          "S+C9": {
+            "auc": 0.5680115854399069,
+            "brier": 0.2479887230689191,
+            "log_loss": 0.6891195495555654,
+            "mae": 0.001919993299806427,
+            "rmse": 0.0027922799861419796
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.5727386942673277,
+            "brier": 0.24755805658630697,
+            "log_loss": 0.6882424730952128,
+            "mae": 0.004988699764660231,
+            "rmse": 0.006825346662157153
+          },
+          "S+C9": {
+            "auc": 0.5972227871367783,
+            "brier": 0.2434325510437674,
+            "log_loss": 0.6799521893990589,
+            "mae": 0.004935937888208552,
+            "rmse": 0.00680858722803748
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6201303435461335,
+            "brier": 0.24494371884606092,
+            "log_loss": 0.6830014715085362,
+            "mae": 0.005798927258224962,
+            "rmse": 0.007526044586969761
+          },
+          "S+C9": {
+            "auc": 0.643634442189997,
+            "brier": 0.2372772776642784,
+            "log_loss": 0.6675344215274366,
+            "mae": 0.005686927559036703,
+            "rmse": 0.007494687473218768
+          }
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5633081879418933,
+            "brier": 0.249325625969466,
+            "log_loss": 0.691799206493568,
+            "mae": 0.003240864670902118,
+            "rmse": 0.0046189648847011384
+          },
+          "S+C9": {
+            "auc": 0.5780945596118972,
+            "brier": 0.24761764186362498,
+            "log_loss": 0.6883793264801813,
+            "mae": 0.00322447287709537,
+            "rmse": 0.004590935969457795
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.6114816785655343,
+            "brier": 0.24805730495900974,
+            "log_loss": 0.6892628126742435,
+            "mae": 0.004234155577031099,
+            "rmse": 0.005815307936714082
+          },
+          "S+C9": {
+            "auc": 0.6292032747440737,
+            "brier": 0.244391695522605,
+            "log_loss": 0.6819128220952553,
+            "mae": 0.0041982436501154215,
+            "rmse": 0.005780252878429313
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5340758115635184,
+            "brier": 0.24973794965176394,
+            "log_loss": 0.6926233722992315,
+            "mae": 0.0019103785228053057,
+            "rmse": 0.003169588264925489
+          },
+          "S+C9": {
+            "auc": 0.540862591616306,
+            "brier": 0.24923408186200077,
+            "log_loss": 0.6916156208291696,
+            "mae": 0.0019127167027651582,
+            "rmse": 0.0031531207824645013
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.6404782074374477,
+            "brier": 0.24703821493505393,
+            "log_loss": 0.6872260870132771,
+            "mae": 0.005247975327908907,
+            "rmse": 0.007005231187137364
+          },
+          "S+C9": {
+            "auc": 0.6645555237879024,
+            "brier": 0.24063972888404242,
+            "log_loss": 0.6743818753843549,
+            "mae": 0.005198831134167132,
+            "rmse": 0.006968459532758061
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6923292149471313,
+            "brier": 0.24468786451488944,
+            "log_loss": 0.6825245410947279,
+            "mae": 0.007198926806540322,
+            "rmse": 0.009278496464052608
+          },
+          "S+C9": {
+            "auc": 0.7213117600940135,
+            "brier": 0.23349033399889474,
+            "log_loss": 0.6599887263753855,
+            "mae": 0.007137027057986458,
+            "rmse": 0.0092614088546036
+          }
+        }
+      }
+    },
+    "XRPUSDT": {
+      "2024": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5578913414030927,
+            "brier": 0.24845837157427605,
+            "log_loss": 0.6902689274907405,
+            "mae": 0.0033855519643390163,
+            "rmse": 0.005516339605331112
+          },
+          "S+C9": {
+            "auc": 0.569010029766352,
+            "brier": 0.2473195815690728,
+            "log_loss": 0.687917715788812,
+            "mae": 0.0033833108321986755,
+            "rmse": 0.005524952167096123
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.6034303623487816,
+            "brier": 0.24566417633478646,
+            "log_loss": 0.6847902066005143,
+            "mae": 0.004329724184360888,
+            "rmse": 0.007378222631636968
+          },
+          "S+C9": {
+            "auc": 0.6171871949760285,
+            "brier": 0.24320036564369807,
+            "log_loss": 0.6797391741239955,
+            "mae": 0.004326836146282254,
+            "rmse": 0.0074155908692353474
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.52443601190452,
+            "brier": 0.24986499437426052,
+            "log_loss": 0.6929847338101761,
+            "mae": 0.0019945075977811375,
+            "rmse": 0.0033196613928882933
+          },
+          "S+C9": {
+            "auc": 0.5355591159312689,
+            "brier": 0.24939315998217837,
+            "log_loss": 0.6920119957315651,
+            "mae": 0.0019950464809158244,
+            "rmse": 0.003315177471804507
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.6445409624759765,
+            "brier": 0.24305234973592355,
+            "log_loss": 0.679753473267583,
+            "mae": 0.005677060832719682,
+            "rmse": 0.010430123557302046
+          },
+          "S+C9": {
+            "auc": 0.6534791082158218,
+            "brier": 0.23879271865812804,
+            "log_loss": 0.6710365227666005,
+            "mae": 0.0056714783725959955,
+            "rmse": 0.010544322058619292
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.643187049495741,
+            "brier": 0.24253781082703746,
+            "log_loss": 0.6788883879504876,
+            "mae": 0.00812294838805413,
+            "rmse": 0.014778121066645368
+          },
+          "S+C9": {
+            "auc": 0.6645570670054719,
+            "brier": 0.2357767126531396,
+            "log_loss": 0.6650199870191342,
+            "mae": 0.008091105851708249,
+            "rmse": 0.014964757241347586
+          }
+        }
+      },
+      "2025": {
+        "DELTA_LIQ_15": {
+          "S": {
+            "auc": 0.5799926492959545,
+            "brier": 0.24916937681471568,
+            "log_loss": 0.6914867271056447,
+            "mae": 0.0027543469582568957,
+            "rmse": 0.003899185638065102
+          },
+          "S+C9": {
+            "auc": 0.5962413088234596,
+            "brier": 0.2468842808504064,
+            "log_loss": 0.6869105457187354,
+            "mae": 0.0027320667704611107,
+            "rmse": 0.003857988670723249
+          }
+        },
+        "DELTA_LIQ_30": {
+          "S": {
+            "auc": 0.604347345800624,
+            "brier": 0.24848762960764245,
+            "log_loss": 0.6901254904555312,
+            "mae": 0.003634869947595355,
+            "rmse": 0.005016093201367983
+          },
+          "S+C9": {
+            "auc": 0.6259217396855855,
+            "brier": 0.24474582827428967,
+            "log_loss": 0.682625926146892,
+            "mae": 0.0035947516706766602,
+            "rmse": 0.004968257497965432
+          }
+        },
+        "DELTA_LIQ_5": {
+          "S": {
+            "auc": 0.5494165955342022,
+            "brier": 0.2498626373742467,
+            "log_loss": 0.6928728122240597,
+            "mae": 0.001601967996062319,
+            "rmse": 0.002347219580213161
+          },
+          "S+C9": {
+            "auc": 0.558144293368066,
+            "brier": 0.2489076745312725,
+            "log_loss": 0.6909624095030925,
+            "mae": 0.0015963943299406986,
+            "rmse": 0.00232545952619493
+          }
+        },
+        "DELTA_LIQ_60": {
+          "S": {
+            "auc": 0.6310962012515144,
+            "brier": 0.2473632154095217,
+            "log_loss": 0.6878812300578264,
+            "mae": 0.004547236969645301,
+            "rmse": 0.006276289973749518
+          },
+          "S+C9": {
+            "auc": 0.65476454394534,
+            "brier": 0.24142450101164736,
+            "log_loss": 0.6759692649071686,
+            "mae": 0.004498943252891617,
+            "rmse": 0.006236362735115396
+          }
+        },
+        "DELTA_LIQ_EVENT": {
+          "S": {
+            "auc": 0.6806266158871394,
+            "brier": 0.24518367523308457,
+            "log_loss": 0.6835193752449679,
+            "mae": 0.006585373642791243,
+            "rmse": 0.008791050718393943
+          },
+          "S+C9": {
+            "auc": 0.7126237823753238,
+            "brier": 0.23465643672133737,
+            "log_loss": 0.6623534592529551,
+            "mae": 0.006525025577135612,
+            "rmse": 0.008773356389074014
+          }
+        }
+      }
+    }
+  },
+  "whole_trade_uncertainty": {
+    "2024": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.00041573839381108533,
+              0.002160677567185784
+            ],
+            "replicate_sha256": "a979a07ec1898a17065e7ec70caba42eb8195296f899d500562f879e613b72a8"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0008547794414485027,
+              0.004344205372716494
+            ],
+            "replicate_sha256": "70dae06189e2695469fa11b4557634a33844157176c92a6d6740471c701b83a2"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -6.50948724196628e-06,
+              1.7203282298440393e-05
+            ],
+            "replicate_sha256": "efc2778a8802452dbe918bdee7abd1479c8d9da1548125cc9ca650c211788647"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -1.8844659951483847e-05,
+              3.060293446680571e-05
+            ],
+            "replicate_sha256": "3f5f59975151707c5705b47ad442ef5a380188a7e85c2f648661b35c45682a44"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0008831848147126759,
+              0.0034444844132574034
+            ],
+            "replicate_sha256": "fbd1a404d8de59d7d83e03b8ae40f11322d406361538df5700ba1cf039514484"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0017899312896846986,
+              0.0069507479958373294
+            ],
+            "replicate_sha256": "156e3a3d038234fadf28f89e11527d5d915f2e12b777535f2840aa55d501f997"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -7.658874250518704e-06,
+              2.9991698426070072e-05
+            ],
+            "replicate_sha256": "d0d616bc98c8b34daea30ad46b3a453adbd9de3c5cac3f98d4fd360faae34567"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -4.219210349306543e-05,
+              3.671050725826929e-05
+            ],
+            "replicate_sha256": "32b7f962841ade2efa5b59fd2188bedb757b5711afa1b869efee531c85b4fa11"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.00010298914176515711,
+              0.0009702569704031889
+            ],
+            "replicate_sha256": "6ac81af7edf752c800b0e19b6bd45b1dfb22125c34036ae5b6ea25db5d7ca18a"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.00021074618514823896,
+              0.0019454157230823469
+            ],
+            "replicate_sha256": "b5db3829239f7525b21a2d1c8377e6ebd42ed8266d26e42206a95e373206b5ba"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -4.515738574176339e-06,
+              3.6317384475403017e-06
+            ],
+            "replicate_sha256": "7a1c0300c852f69d34f454864a036b6653da8c9bca91f4080ad1d724c869f575"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -2.835557092563173e-06,
+              1.4929609603505401e-05
+            ],
+            "replicate_sha256": "7e9a5779c5c3eb89ba9624acc13ad01aaebd083d060b557a56dba33cefc372f6"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0023601827727508192,
+              0.006191278884121033
+            ],
+            "replicate_sha256": "b5482ce91d851b846cdf1ffd7531b8bdd57ee66aeee8617bbc2167e18a609bf0"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.004790519474324415,
+              0.01248014334275357
+            ],
+            "replicate_sha256": "0e84be60b1c5f65b0e3c00ea89f9b1e91de183982213454768b8f823181cf50a"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              -1.281253854520372e-06,
+              5.6807993856749055e-05
+            ],
+            "replicate_sha256": "707a48fa06b094d4031d9eabdcef9eba8ab82b76b4325a119b35dfcd86df0538"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -9.598204105644532e-05,
+              3.849892384932881e-05
+            ],
+            "replicate_sha256": "0fb7f889878c0b4bf9c12d885a831746f47bb232b37b9b1f78c8c3da5bfb1603"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.005218014850422423,
+              0.011005433859183011
+            ],
+            "replicate_sha256": "a0ea682f748a665205b1cd68721c757879ccbae5d25b051c4114e97910c9f1f1"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.010564406435961229,
+              0.02234312219036151
+            ],
+            "replicate_sha256": "1f3d6b3ae3cd3392cc3ea8f3212f6121b1a5860f60bb5832e0fe386c74885b8b"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              5.1935235381765406e-05,
+              0.00013440416313217148
+            ],
+            "replicate_sha256": "c71a2811de8a38845fa04c53d63011166c359aadca9181d7519878507ec7e6ea"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              -0.00014812204583021065,
+              3.712536967020141e-05
+            ],
+            "replicate_sha256": "283de9de307b5cf8ef8e61a5f2ce6e0ff407de4a13b92e4627208a8a5f753b99"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    },
+    "2025": {
+      "DELTA_LIQ_15": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0013947058243699538,
+              0.002169246010493645
+            ],
+            "replicate_sha256": "c533b4e6a8a4c066149ed4d02e0a722d39d0cfe7029aacb887f0a47b58bc44b6"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0027924173543511675,
+              0.004343885333122793
+            ],
+            "replicate_sha256": "92acf2f5d40f02d9e2e6f2ab302f380568f164042d96aaa8cce0c8a5c418ee5b"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              1.0065049859370352e-05,
+              2.197397341974831e-05
+            ],
+            "replicate_sha256": "2e82a38835215d977addb72f4957d5c2cc876e5b0f65115dc365502c7980c0f8"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              2.2044925694653985e-05,
+              4.304258690973417e-05
+            ],
+            "replicate_sha256": "1f6ac1b48e1b11026d94e9b860b12aa237fe34b5a56f2e1dd67f12a100e7cf72"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_30": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0025378670460640155,
+              0.003673231056149471
+            ],
+            "replicate_sha256": "ef8d8f0aded694664de031ac4bde34567b5b0225b1b8302ae78efe30b52decfe"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.005086126219473191,
+              0.007362321134399677
+            ],
+            "replicate_sha256": "9719771170312218c6032320b67ae142fa2feb96ddac68838ce54eb6496f4f77"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              2.1383062148508835e-05,
+              3.763214849225256e-05
+            ],
+            "replicate_sha256": "b0813fdfa5325caff520a7b5615ac352f66214cca9c7fc33a2cbe1bbb8d29d2f"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              2.721521243512588e-05,
+              5.085839421717366e-05
+            ],
+            "replicate_sha256": "321bf5f6cf615d3a3268981bd1554413819091e88c4cdf795484cafc8e3c99cc"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_5": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.0004534758639695588,
+              0.0008587417220194457
+            ],
+            "replicate_sha256": "62dafd537e18abe962d0d296a65d193228e5b24c6b0eb2057f1edfe0536b5ed2"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.0009071493783104373,
+              0.0017179609945500909
+            ],
+            "replicate_sha256": "307f5cee864260553614ed57ef735c1d206ddd8f509028b44b0b87784119bd99"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              1.52398714859856e-08,
+              5.067303710100742e-06
+            ],
+            "replicate_sha256": "7ec0e6e6317a229e895c34d9588280c950b2fbcdfc256882bf370a880ac50956"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              9.921633840114516e-06,
+              2.285950655264412e-05
+            ],
+            "replicate_sha256": "4113b4ef6d896cc779e70333b0a1cab8aeed2e934d69bded39afc5d2bfe397ed"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_60": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.004351926067866532,
+              0.006050618870142923
+            ],
+            "replicate_sha256": "66164bd0f46aa45a92fa8b8b59a85adfb991b475588ae1e190292bbcc589f7b9"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.008729875262879166,
+              0.012140876009030742
+            ],
+            "replicate_sha256": "2fabade99c8a2913244da4b37d23ca94b6d10e6916c82b5172744f9c274de758"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              3.023810887658252e-05,
+              4.791118305552513e-05
+            ],
+            "replicate_sha256": "2aa30016f91adc3281ffe9ac847f34b3a4f7c0779812715a3b64bcda4f46c33e"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              2.4433543331415956e-05,
+              4.795041291993465e-05
+            ],
+            "replicate_sha256": "7034d732ee1ac869d26dc4a251c21f704e7154c546c85f8419edd1593af0b191"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      },
+      "DELTA_LIQ_EVENT": {
+        "calendar_months": null,
+        "construction": "whole_trades_with_replacement_all_snapshots_attached",
+        "generator": "PCG64",
+        "intervals": {
+          "Delta_Brier": {
+            "ci95": [
+              0.008192196437760382,
+              0.010596990268042937
+            ],
+            "replicate_sha256": "dcc40bcde516c0ab337010a366c552b7a465da169f5dd629e4e106a7d7c601c8"
+          },
+          "Delta_LogLoss": {
+            "ci95": [
+              0.016475528811262973,
+              0.02131565779167659
+            ],
+            "replicate_sha256": "38357897fc660cf96ebc33de960e69220e342b906e091ac52d8615debc6289d5"
+          },
+          "Delta_MAE": {
+            "ci95": [
+              4.7794596998507037e-05,
+              6.251307355824773e-05
+            ],
+            "replicate_sha256": "2ecb194bcb226045ed7c5b730d64fd7db31389ed7625b359f0bdcef7fc247805"
+          },
+          "Delta_RMSE": {
+            "ci95": [
+              1.017992131921463e-05,
+              2.814131654406931e-05
+            ],
+            "replicate_sha256": "25ee76f7d78521691bd85988267531a7477b24304f110078d16d24e16a452f0c"
+          }
+        },
+        "models_refit_inside_replicates": false,
+        "pairing_preserved": true,
+        "quantile_method": "linear_type_7",
+        "replicates": 2000,
+        "seed": 20240923,
+        "unit": "whole_trade"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "next_1m_open": "target/accounting only; not a predictor",
+  "observable_price": "frozen architecture-B fast.close[fast.at(t)]",
+  "observable_return": "OBS_PRICE(t)/entry_price-1",
+  "prediction_time": "after completed frozen 5-minute state bar at t",
+  "status": "PASS"
+}

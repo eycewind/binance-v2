@@ -1,0 +1,501 @@
+{
+  "2024": {
+    "DELTA_LIQ_15": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.00034392874810074137,
+            0.001940406248998383
+          ],
+          "replicate_sha256": "3b44e514a04bc8d2210c5f181da8febb349e1e53e0e5e167c7157e56fdbd00bf"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.0006884461248815033,
+            0.003891954381878948
+          ],
+          "replicate_sha256": "89800cec4eed3211fb5be0cf73c711d653f066fee0c1c73b443ca779bc72a5cd"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            -5.996263832040282e-06,
+            1.605282553788839e-05
+          ],
+          "replicate_sha256": "3e6ed1f0e9bdeebf10ddc3ed99fc7b358b28db591c833f5393d132fac48318d9"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            -1.610506899118059e-05,
+            3.9790494303418994e-05
+          ],
+          "replicate_sha256": "d8fc853ff70cda9d477db5d181ea5597b419644833db9da08c32572121f13781"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_30": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.0009563471876329888,
+            0.002788022247403793
+          ],
+          "replicate_sha256": "4b1bba10f8a835f8740b86892299f837c61424e68a51721d6c6f20fb0eaf6c44"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.0019174044928139677,
+            0.005650998508309191
+          ],
+          "replicate_sha256": "c9bc5af3303d3cfec79d343d35bfa666ee3976fb1469c7ca717d10b248baa490"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            -6.043486758363064e-06,
+            2.466397646555714e-05
+          ],
+          "replicate_sha256": "af29d59be377e56b9121773cd4a8905498d0b0b9610e3e2ac01393c3a01ccac5"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            -3.118149114788877e-05,
+            5.038503959595934e-05
+          ],
+          "replicate_sha256": "13cad3a0c22b581b76d7068d4616fd2f35353d431c4e1adf68f4264db17dec43"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_5": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.0003585328676334043,
+            0.0006703686717796364
+          ],
+          "replicate_sha256": "34f263b68155c923b70cb7c1f9ffeffcc59c8a143ff7e031039fb8a53fe654a4"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.0007179949474270808,
+            0.0013580837757747322
+          ],
+          "replicate_sha256": "1ced027ac688fe2f61d104ca3dc9e2884e7fbc1f98b8d5baca579e19ff6a44e9"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            -1.6227312676605262e-06,
+            2.5614226134562657e-07
+          ],
+          "replicate_sha256": "d2724f0525f62ea1bd653083ac87b65130cbf2d4cbd63aa45eae48ee2657cbf3"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            -6.254328812011281e-07,
+            1.560673554262598e-05
+          ],
+          "replicate_sha256": "fe5cbe623989bb6a4a20499cd164392663d00dc5494cc74e856540e96cfd8a44"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_60": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.002155989304393785,
+            0.005320340915843602
+          ],
+          "replicate_sha256": "947b7c7eac33c612cddf588d7ec75218638b13e115067f8c535751f68678d0fc"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.004337405278301731,
+            0.010833264752373228
+          ],
+          "replicate_sha256": "1ffbeea96c80f39335768170aa4972f74d49daf38c2d746e083d0eb61fec91c5"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            -4.003628748940318e-06,
+            4.660981997289034e-05
+          ],
+          "replicate_sha256": "c355781b483738569d15c3cccc1337e4da7e40f4d711bce7885755aa86406bc3"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            -7.713557771117999e-05,
+            5.1413748609654454e-05
+          ],
+          "replicate_sha256": "cd16d313c882e7e97fe040b9ae874a7f3ca6c732e1935918d1123cfe419f9569"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_EVENT": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.005640699747260253,
+            0.009928388515985848
+          ],
+          "replicate_sha256": "a0dca02204e1bf3c12d1bfa294f1510a80761ca8e1cb5bb2d34d21de9376c81a"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.011380656322117155,
+            0.02007185756985741
+          ],
+          "replicate_sha256": "4f8875f3042bf3114a2ea2bfb47848d0625a431d12fcc3042a0caafdca35e44b"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            6.495090492121373e-05,
+            0.00012051258934798158
+          ],
+          "replicate_sha256": "ff224b1b6c2bab86653748ec6933d3673e50ab45cc250d2d9ff899b2d669ddbe"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            -0.00012191727774493386,
+            3.601196193869262e-05
+          ],
+          "replicate_sha256": "b482cc0ea62158d775a84521bf47c8f7f644d394894bafde03eefa4a8b03d012"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    }
+  },
+  "2025": {
+    "DELTA_LIQ_15": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.001235049208676895,
+            0.002317701899169779
+          ],
+          "replicate_sha256": "ea6939eddaaf40d4390e207b0e7d152488d1589efbb15f6cde0ba5fa6a192425"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.0024727432380624663,
+            0.004640356278322441
+          ],
+          "replicate_sha256": "22171c71774ea9c953b34777f4364b9f96d43327cc6663c634a99cc9fa55f6c4"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            8.239910190228688e-06,
+            2.433396537934909e-05
+          ],
+          "replicate_sha256": "417849ef6a4c55f1166d106cd2a1a99711698c7b0d26f17542a7dfc56f492bb6"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            1.759509464537409e-05,
+            4.72057387680629e-05
+          ],
+          "replicate_sha256": "0183f9b4727014a9f3d85f816429e0ca2190dfc832a3b387564361db35d74c69"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_30": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.0022534981356688508,
+            0.0038946833605087807
+          ],
+          "replicate_sha256": "b22a6ada1cf9aafdc9d3d984bee6db77d49cb98ed2423e72cfce737d58cab4ba"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.004515713215697886,
+            0.007807014018878293
+          ],
+          "replicate_sha256": "5bdab4be69e0a1f3c26654221165b4c75e760590be52c9467bf5e010b401cc5e"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            1.725671931471492e-05,
+            4.20582969208341e-05
+          ],
+          "replicate_sha256": "6abda39fc766487442b2d459df29fd8449866593356a26357f23c901dae3d748"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            2.098488098383087e-05,
+            5.747049380464341e-05
+          ],
+          "replicate_sha256": "f4ea01fb53703b56052b434180f8e7812458876c4ff39e0a88ff5b45a55c3197"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_5": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.0004215231506014813,
+            0.0008806225770960021
+          ],
+          "replicate_sha256": "afba435044c45d3345f2c7014db39e30f8085686667a6f9ca90d45b8e8cca729"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.0008432118578006354,
+            0.001761725716508141
+          ],
+          "replicate_sha256": "4fcab5b5289221dddbfe803a6f0c11c2cc214fa9f3bf40094b0ec07fd10883c6"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            -7.571546604614001e-07,
+            5.881474835143032e-06
+          ],
+          "replicate_sha256": "d99f4314441eeb2703f44b2f5558771ff9b106522f06ea0097b06bad1515c056"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            7.1048548415865664e-06,
+            2.551091587284519e-05
+          ],
+          "replicate_sha256": "2b8ab533d5af9110af6f63df0bf194df3b8a36bf6fc93ee86811b284bbc7c96a"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_60": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.003989595026761746,
+            0.006397074930931896
+          ],
+          "replicate_sha256": "cd04c39d2fc41c9d0b971289646eb28452f6e85dcb80e9e7ca3d3e3833635823"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.008003063969507604,
+            0.012837000987006918
+          ],
+          "replicate_sha256": "b9120999ed6eb7f522f7ce3d05eee34babb293605f5e6457bc7819f6a9f1c99a"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            2.5818590785199515e-05,
+            5.320231806873456e-05
+          ],
+          "replicate_sha256": "91195057bcdb48d3ce623acb923f07555e9c5d09f8bccb1b40b0281d121c0cd4"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            1.998407519332127e-05,
+            5.288256654111258e-05
+          ],
+          "replicate_sha256": "90b03de296cf94db13a880f072d4e92f1200eb710f88b052c2597273964ea553"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    },
+    "DELTA_LIQ_EVENT": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "whole_utc_entry_calendar_month_clusters_with_all_symbols_and_whole_trades",
+      "generator": "PCG64",
+      "intervals": {
+        "Delta_Brier": {
+          "ci95": [
+            0.007890469871037418,
+            0.011050214993454146
+          ],
+          "replicate_sha256": "d6b465ca79f0efbbcd202e0ffcbd56a8588ad0fb94e0f7b5f6706adf3f788f22"
+        },
+        "Delta_LogLoss": {
+          "ci95": [
+            0.015862815581206308,
+            0.022213092473727547
+          ],
+          "replicate_sha256": "551a4ce516fe83e96f51845f863d7ccf4d9142e0ec31de0b8d823cf18f14fef7"
+        },
+        "Delta_MAE": {
+          "ci95": [
+            4.530150274434411e-05,
+            6.607113411485306e-05
+          ],
+          "replicate_sha256": "32a7d82bf76a4608aeb5525f5c54f7d4654720b62097702d907bb4d2f0e402c4"
+        },
+        "Delta_RMSE": {
+          "ci95": [
+            7.322248487986582e-06,
+            3.295895010331628e-05
+          ],
+          "replicate_sha256": "b63c248178d4bcaf4c92033f081234c7ff3281d8c7d3162a917922999216dd25"
+        }
+      },
+      "models_refit_inside_replicates": false,
+      "pairing_preserved": true,
+      "quantile_method": "linear_type_7",
+      "replicates": 2000,
+      "seed": 20240923,
+      "unit": "calendar_month"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "DELTA_LIQ_15": {
+    "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "proper_scores_favorable_both_years": true,
+    "symbols_with_brier_improvement_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "uncertainty_directionally_supportive": true
+  },
+  "DELTA_LIQ_30": {
+    "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "proper_scores_favorable_both_years": true,
+    "symbols_with_brier_improvement_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "uncertainty_directionally_supportive": true
+  },
+  "DELTA_LIQ_5": {
+    "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "proper_scores_favorable_both_years": true,
+    "symbols_with_brier_improvement_by_year": {
+      "2024": 4,
+      "2025": 5
+    },
+    "uncertainty_directionally_supportive": true
+  },
+  "DELTA_LIQ_60": {
+    "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "proper_scores_favorable_both_years": true,
+    "symbols_with_brier_improvement_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "uncertainty_directionally_supportive": true
+  },
+  "DELTA_LIQ_EVENT": {
+    "classification": "INCREMENTAL_C9_SIGNAL_SUPPORTED",
+    "not_obviously_one_symbol": true,
+    "proper_scores_favorable_both_years": true,
+    "symbols_with_brier_improvement_by_year": {
+      "2024": 5,
+      "2025": 5
+    },
+    "uncertainty_directionally_supportive": true
+  }
+}
