@@ -1,0 +1,11 @@
+{
+  "conda_environment": "binance-v2-research",
+  "contract_sha256": "8d0ee3cd336b95a61147622d66f6b8ec30787c7e07d26e41348debd52dccb19d",
+  "generator": "PCG64",
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "replicates": 2000,
+  "seed": 20260929,
+  "version": "C29_RUN_V1"
+}

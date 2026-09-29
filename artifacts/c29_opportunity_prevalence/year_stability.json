@@ -1,0 +1,122 @@
+{
+  "H12": {
+    "2024": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.02089823511286873,
+        "prevalence": 0.4172003659652333
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.021807551020163237,
+        "prevalence": 0.39524245196706315
+      },
+      "mean_C_BASE": -0.001289506455222885,
+      "mean_DESIGN_BNB": -0.0007900259637172509,
+      "mean_whole_C0": 0.001110277990662707,
+      "valid_count": 1093
+    },
+    "2025": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.0192631879688565,
+        "prevalence": 0.4048913043478261
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.02051648866683523,
+        "prevalence": 0.37318840579710144
+      },
+      "mean_C_BASE": -0.0036600937883262937,
+      "mean_DESIGN_BNB": -0.00316179888777414,
+      "mean_whole_C0": -0.0012660055863936415,
+      "valid_count": 1104
+    }
+  },
+  "H24": {
+    "2024": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.030385301248207302,
+        "prevalence": 0.4592863677950595
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.031294186280521365,
+        "prevalence": 0.44373284537968893
+      },
+      "mean_C_BASE": 0.00015820521752754792,
+      "mean_DESIGN_BNB": 0.0006584097464219322,
+      "mean_whole_C0": 0.0025614683451500907,
+      "valid_count": 1093
+    },
+    "2025": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.02940162872978839,
+        "prevalence": 0.40072529465095197
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.030333765507766498,
+        "prevalence": 0.386219401631913
+      },
+      "mean_C_BASE": -0.0034427069164466484,
+      "mean_DESIGN_BNB": -0.0029443032951968423,
+      "mean_whole_C0": -0.0010480963592996995,
+      "valid_count": 1103
+    }
+  },
+  "H3": {
+    "2024": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.013023499020187405,
+        "prevalence": 0.27721866422689845
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.013993418575702575,
+        "prevalence": 0.24885635864592864
+      },
+      "mean_C_BASE": -0.002734242163359833,
+      "mean_DESIGN_BNB": -0.0022354842208874366,
+      "mean_whole_C0": -0.0003379292483164731,
+      "valid_count": 1093
+    },
+    "2025": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.012080910286267474,
+        "prevalence": 0.3047016274864376
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.013192700628660218,
+        "prevalence": 0.26582278481012656
+      },
+      "mean_C_BASE": -0.0025451770859378246,
+      "mean_DESIGN_BNB": -0.0020463245872167374,
+      "mean_whole_C0": -0.00014840986963800222,
+      "valid_count": 1106
+    }
+  },
+  "H6": {
+    "2024": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.01525122737132379,
+        "prevalence": 0.35681610247026535
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.01634228385590283,
+        "prevalence": 0.32387923147301007
+      },
+      "mean_C_BASE": -0.002645900068263516,
+      "mean_DESIGN_BNB": -0.002147097943664901,
+      "mean_whole_C0": -0.0002493748775035172,
+      "valid_count": 1093
+    },
+    "2025": {
+      "GROSS40": {
+        "mean_gross_opportunity_return": 0.015034431008678791,
+        "prevalence": 0.3601809954751131
+      },
+      "GROSS50": {
+        "mean_gross_opportunity_return": 0.01583446886899613,
+        "prevalence": 0.334841628959276
+      },
+      "mean_C_BASE": -0.0027006102604816094,
+      "mean_DESIGN_BNB": -0.002201835497840117,
+      "mean_whole_C0": -0.0003042165319112681,
+      "valid_count": 1105
+    }
+  }
+}

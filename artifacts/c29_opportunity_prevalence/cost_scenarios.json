@@ -1,0 +1,29 @@
+{
+  "C0": {
+    "accounting": "frozen c2 apply_round_trip_costs",
+    "adverse_execution_per_leg": 0.0,
+    "explicit_fee_per_leg": 0.0
+  },
+  "C_BASE": {
+    "accounting": "frozen c2 apply_round_trip_costs",
+    "adverse_execution_per_leg": 0.0002,
+    "explicit_fee_per_leg": 0.001
+  },
+  "C_S10": {
+    "accounting": "frozen c2 apply_round_trip_costs",
+    "adverse_execution_per_leg": 0.001,
+    "explicit_fee_per_leg": 0.001
+  },
+  "C_S5": {
+    "accounting": "frozen c2 apply_round_trip_costs",
+    "adverse_execution_per_leg": 0.0005,
+    "explicit_fee_per_leg": 0.001
+  },
+  "DESIGN_BNB": {
+    "adverse_execution_per_leg": 0.0002,
+    "explicit_fee_per_leg": 0.00075,
+    "indicative_round_trip_friction_bp": 19,
+    "local_to_C29": true,
+    "prespecified_not_fitted": true
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "H12": {
+    "BNBUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.013870296557152781,
+      "GROSS40_prevalence": 0.4421768707482993,
+      "GROSS50_net_C_BASE_mean": 0.01484642232933489,
+      "GROSS50_prevalence": 0.40816326530612246,
+      "mean_C0": 0.001095081396380297,
+      "mean_C_BASE": -0.0013046666214000335,
+      "mean_DESIGN_BNB": -0.0008051937118786725,
+      "valid_count": 441
+    },
+    "BTCUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.014072252855685214,
+      "GROSS40_prevalence": 0.37028824833702884,
+      "GROSS50_net_C_BASE_mean": 0.015263769819036752,
+      "GROSS50_prevalence": 0.3370288248337029,
+      "mean_C0": -2.8209315544252193e-05,
+      "mean_C_BASE": -0.00242526466735366,
+      "mean_DESIGN_BNB": -0.001926352197385491,
+      "valid_count": 451
+    },
+    "ETHUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.017586430330997743,
+      "GROSS40_prevalence": 0.41935483870967744,
+      "GROSS50_net_C_BASE_mean": 0.018671912467143233,
+      "GROSS50_prevalence": 0.391705069124424,
+      "mean_C0": 0.000323156372746332,
+      "mean_C_BASE": -0.002074741245826408,
+      "mean_DESIGN_BNB": -0.001575653470189578,
+      "valid_count": 434
+    },
+    "SOLUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.025697075050858283,
+      "GROSS40_prevalence": 0.4222737819025522,
+      "GROSS50_net_C_BASE_mean": 0.02650606489823669,
+      "GROSS50_prevalence": 0.40835266821345706,
+      "mean_C0": 0.0002742392413825286,
+      "mean_C_BASE": -0.002123541116810832,
+      "mean_DESIGN_BNB": -0.0016244777472293117,
+      "valid_count": 431
+    },
+    "XRPUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.01694791958914839,
+      "GROSS40_prevalence": 0.4022727272727273,
+      "GROSS50_net_C_BASE_mean": 0.01792708830751627,
+      "GROSS50_prevalence": 0.37727272727272726,
+      "mean_C0": -0.002074526811102892,
+      "mean_C_BASE": -0.0044666768882336266,
+      "mean_DESIGN_BNB": -0.0039687853803821475,
+      "valid_count": 440
+    }
+  },
+  "H24": {
+    "BNBUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.02181895159149949,
+      "GROSS40_prevalence": 0.4489795918367347,
+      "GROSS50_net_C_BASE_mean": 0.022433479932307866,
+      "GROSS50_prevalence": 0.43537414965986393,
+      "mean_C0": 0.0023072108135486075,
+      "mean_C_BASE": -9.544282750386975e-05,
+      "mean_DESIGN_BNB": 0.0004046348455589003,
+      "valid_count": 441
+    },
+    "BTCUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.01891298532803681,
+      "GROSS40_prevalence": 0.401330376940133,
+      "GROSS50_net_C_BASE_mean": 0.020002396295692376,
+      "GROSS50_prevalence": 0.376940133037694,
+      "mean_C0": -0.0006950087986313527,
+      "mean_C_BASE": -0.0030904657500814606,
+      "mean_DESIGN_BNB": -0.002591885964075162,
+      "valid_count": 451
+    },
+    "ETHUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.026508014657088404,
+      "GROSS40_prevalence": 0.4457274826789838,
+      "GROSS50_net_C_BASE_mean": 0.02729149746339749,
+      "GROSS50_prevalence": 0.43187066974595845,
+      "mean_C0": -0.000369418579661331,
+      "mean_C_BASE": -0.002765656010905132,
+      "mean_DESIGN_BNB": -0.002266913779296006,
+      "valid_count": 433
+    },
+    "SOLUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.03752858415765079,
+      "GROSS40_prevalence": 0.46403712296983757,
+      "GROSS50_net_C_BASE_mean": 0.037885864197493416,
+      "GROSS50_prevalence": 0.4593967517401392,
+      "mean_C0": 0.002466223762784159,
+      "mean_C_BASE": 6.318894813805851e-05,
+      "mean_DESIGN_BNB": 0.0005633459569820974,
+      "valid_count": 431
+    },
+    "XRPUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.03228589786670439,
+      "GROSS40_prevalence": 0.39090909090909093,
+      "GROSS50_net_C_BASE_mean": 0.03375719475185567,
+      "GROSS50_prevalence": 0.37272727272727274,
+      "mean_C0": 8.322595359697469e-05,
+      "mean_C_BASE": -0.0023140965222560894,
+      "mean_DESIGN_BNB": -0.0018151284542741726,
+      "valid_count": 440
+    }
+  },
+  "H3": {
+    "BNBUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.008646254308635288,
+      "GROSS40_prevalence": 0.2895927601809955,
+      "GROSS50_net_C_BASE_mean": 0.009463357301141733,
+      "GROSS50_prevalence": 0.2579185520361991,
+      "mean_C0": 0.000774714986558913,
+      "mean_C_BASE": -0.0016242650735406507,
+      "mean_DESIGN_BNB": -0.0011249520033250688,
+      "valid_count": 442
+    },
+    "BTCUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.0076079926322994845,
+      "GROSS40_prevalence": 0.24611973392461198,
+      "GROSS50_net_C_BASE_mean": 0.008699445018512612,
+      "GROSS50_prevalence": 0.20620842572062084,
+      "mean_C0": -0.0007477670430265468,
+      "mean_C_BASE": -0.0031430975264770053,
+      "mean_DESIGN_BNB": -0.0026445440629592628,
+      "valid_count": 451
+    },
+    "ETHUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.009155507980642639,
+      "GROSS40_prevalence": 0.3064516129032258,
+      "GROSS50_net_C_BASE_mean": 0.010393961289118356,
+      "GROSS50_prevalence": 0.26036866359447003,
+      "mean_C0": -0.00011943641585722078,
+      "mean_C_BASE": -0.0025162730850887154,
+      "mean_DESIGN_BNB": -0.0020174061307424544,
+      "valid_count": 434
+    },
+    "SOLUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.014222622137591685,
+      "GROSS40_prevalence": 0.30162412993039445,
+      "GROSS50_net_C_BASE_mean": 0.015561790796934934,
+      "GROSS50_prevalence": 0.271461716937355,
+      "mean_C0": -0.0004168687948772857,
+      "mean_C_BASE": -0.0028129924821201045,
+      "mean_DESIGN_BNB": -0.0023142739246828827,
+      "valid_count": 431
+    },
+    "XRPUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.010479553850526914,
+      "GROSS40_prevalence": 0.3129251700680272,
+      "GROSS50_net_C_BASE_mean": 0.011058545760326461,
+      "GROSS50_prevalence": 0.2925170068027211,
+      "mean_C0": -0.0006965379065974116,
+      "mean_C_BASE": -0.0030919911925876803,
+      "mean_DESIGN_BNB": -0.0025934121694939326,
+      "valid_count": 441
+    }
+  },
+  "H6": {
+    "BNBUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.011678787182112897,
+      "GROSS40_prevalence": 0.3764172335600907,
+      "GROSS50_net_C_BASE_mean": 0.012624180938466376,
+      "GROSS50_prevalence": 0.3424036281179138,
+      "mean_C0": 0.001728632606382475,
+      "mean_C_BASE": -0.0006726341115579319,
+      "mean_DESIGN_BNB": -0.0001728451065206946,
+      "valid_count": 441
+    },
+    "BTCUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.009629641404948425,
+      "GROSS40_prevalence": 0.3082039911308204,
+      "GROSS50_net_C_BASE_mean": 0.010397016258537634,
+      "GROSS50_prevalence": 0.2793791574279379,
+      "mean_C0": -0.0003703343929495877,
+      "mean_C_BASE": -0.0027665696288762995,
+      "mean_DESIGN_BNB": -0.0022678278541907386,
+      "valid_count": 451
+    },
+    "ETHUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.012082196589066724,
+      "GROSS40_prevalence": 0.3617511520737327,
+      "GROSS50_net_C_BASE_mean": 0.013141618784737706,
+      "GROSS50_prevalence": 0.3271889400921659,
+      "mean_C0": -0.00014007197573886936,
+      "mean_C_BASE": -0.0025368591789957087,
+      "mean_DESIGN_BNB": -0.002038002520278031,
+      "valid_count": 434
+    },
+    "SOLUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.016684769672835168,
+      "GROSS40_prevalence": 0.4176334106728538,
+      "GROSS50_net_C_BASE_mean": 0.017281172996862625,
+      "GROSS50_prevalence": 0.4013921113689095,
+      "mean_C0": -0.0005067706976685635,
+      "mean_C_BASE": -0.002902678878994892,
+      "mean_DESIGN_BNB": -0.002404005176003359,
+      "valid_count": 431
+    },
+    "XRPUSDT": {
+      "GROSS40_net_C_BASE_mean": 0.012580721718360947,
+      "GROSS40_prevalence": 0.3310657596371882,
+      "GROSS50_net_C_BASE_mean": 0.0137004913260951,
+      "GROSS50_prevalence": 0.29931972789115646,
+      "mean_C0": -0.0020971037843580107,
+      "mean_C_BASE": -0.004489199741707497,
+      "mean_DESIGN_BNB": -0.003991319498107265,
+      "valid_count": 441
+    }
+  }
+}

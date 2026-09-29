@@ -1,0 +1,542 @@
+{
+  "H12": {
+    ">=+0.0020": {
+      "by_year": {
+        "2024": {
+          "count": 518,
+          "prevalence": 0.4739249771271729,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 497,
+          "prevalence": 0.45018115942028986,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "count": 1015,
+        "prevalence": 0.46199362767410107,
+        "valid_count": 2197
+      }
+    },
+    ">=+0.0040": {
+      "by_year": {
+        "2024": {
+          "count": 456,
+          "prevalence": 0.4172003659652333,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 447,
+          "prevalence": 0.4048913043478261,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "count": 903,
+        "prevalence": 0.4110150204824761,
+        "valid_count": 2197
+      }
+    },
+    ">=+0.0050": {
+      "by_year": {
+        "2024": {
+          "count": 432,
+          "prevalence": 0.39524245196706315,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 412,
+          "prevalence": 0.37318840579710144,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "count": 844,
+        "prevalence": 0.38416021847974513,
+        "valid_count": 2197
+      }
+    },
+    ">=+0.0075": {
+      "by_year": {
+        "2024": {
+          "count": 366,
+          "prevalence": 0.33485818847209514,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 353,
+          "prevalence": 0.3197463768115942,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "count": 719,
+        "prevalence": 0.32726445152480654,
+        "valid_count": 2197
+      }
+    },
+    ">=+0.0100": {
+      "by_year": {
+        "2024": {
+          "count": 311,
+          "prevalence": 0.2845379688929552,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 305,
+          "prevalence": 0.276268115942029,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "count": 616,
+        "prevalence": 0.2803823395539372,
+        "valid_count": 2197
+      }
+    },
+    ">=+0.0150": {
+      "by_year": {
+        "2024": {
+          "count": 240,
+          "prevalence": 0.21957913998170173,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 202,
+          "prevalence": 0.18297101449275363,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "count": 442,
+        "prevalence": 0.20118343195266272,
+        "valid_count": 2197
+      }
+    },
+    ">=+0.0200": {
+      "by_year": {
+        "2024": {
+          "count": 171,
+          "prevalence": 0.1564501372369625,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 144,
+          "prevalence": 0.13043478260869565,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "count": 315,
+        "prevalence": 0.14337733272644515,
+        "valid_count": 2197
+      }
+    }
+  },
+  "H24": {
+    ">=+0.0020": {
+      "by_year": {
+        "2024": {
+          "count": 544,
+          "prevalence": 0.4977127172918573,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 485,
+          "prevalence": 0.4397098821396192,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "count": 1029,
+        "prevalence": 0.4685792349726776,
+        "valid_count": 2196
+      }
+    },
+    ">=+0.0040": {
+      "by_year": {
+        "2024": {
+          "count": 502,
+          "prevalence": 0.4592863677950595,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 442,
+          "prevalence": 0.40072529465095197,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "count": 944,
+        "prevalence": 0.42987249544626593,
+        "valid_count": 2196
+      }
+    },
+    ">=+0.0050": {
+      "by_year": {
+        "2024": {
+          "count": 485,
+          "prevalence": 0.44373284537968893,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 426,
+          "prevalence": 0.386219401631913,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "count": 911,
+        "prevalence": 0.41484517304189433,
+        "valid_count": 2196
+      }
+    },
+    ">=+0.0075": {
+      "by_year": {
+        "2024": {
+          "count": 439,
+          "prevalence": 0.40164684354986274,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 387,
+          "prevalence": 0.35086128739800543,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "count": 826,
+        "prevalence": 0.3761384335154827,
+        "valid_count": 2196
+      }
+    },
+    ">=+0.0100": {
+      "by_year": {
+        "2024": {
+          "count": 399,
+          "prevalence": 0.3650503202195791,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 352,
+          "prevalence": 0.31912964641885766,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "count": 751,
+        "prevalence": 0.3419854280510018,
+        "valid_count": 2196
+      }
+    },
+    ">=+0.0150": {
+      "by_year": {
+        "2024": {
+          "count": 317,
+          "prevalence": 0.2900274473924977,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 272,
+          "prevalence": 0.24660018132366274,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "count": 589,
+        "prevalence": 0.26821493624772313,
+        "valid_count": 2196
+      }
+    },
+    ">=+0.0200": {
+      "by_year": {
+        "2024": {
+          "count": 268,
+          "prevalence": 0.24519670631290028,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 224,
+          "prevalence": 0.20308250226654578,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "count": 492,
+        "prevalence": 0.22404371584699453,
+        "valid_count": 2196
+      }
+    }
+  },
+  "H3": {
+    ">=+0.0020": {
+      "by_year": {
+        "2024": {
+          "count": 398,
+          "prevalence": 0.36413540713632203,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 435,
+          "prevalence": 0.3933092224231465,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "count": 833,
+        "prevalence": 0.37880854934060937,
+        "valid_count": 2199
+      }
+    },
+    ">=+0.0040": {
+      "by_year": {
+        "2024": {
+          "count": 303,
+          "prevalence": 0.27721866422689845,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 337,
+          "prevalence": 0.3047016274864376,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "count": 640,
+        "prevalence": 0.29104138244656663,
+        "valid_count": 2199
+      }
+    },
+    ">=+0.0050": {
+      "by_year": {
+        "2024": {
+          "count": 272,
+          "prevalence": 0.24885635864592864,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 294,
+          "prevalence": 0.26582278481012656,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "count": 566,
+        "prevalence": 0.25738972260118237,
+        "valid_count": 2199
+      }
+    },
+    ">=+0.0075": {
+      "by_year": {
+        "2024": {
+          "count": 187,
+          "prevalence": 0.17108874656907594,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 199,
+          "prevalence": 0.17992766726943943,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "count": 386,
+        "prevalence": 0.1755343337880855,
+        "valid_count": 2199
+      }
+    },
+    ">=+0.0100": {
+      "by_year": {
+        "2024": {
+          "count": 141,
+          "prevalence": 0.12900274473924978,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 153,
+          "prevalence": 0.1383363471971067,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "count": 294,
+        "prevalence": 0.13369713506139155,
+        "valid_count": 2199
+      }
+    },
+    ">=+0.0150": {
+      "by_year": {
+        "2024": {
+          "count": 77,
+          "prevalence": 0.07044830741079597,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 79,
+          "prevalence": 0.07142857142857142,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "count": 156,
+        "prevalence": 0.07094133697135062,
+        "valid_count": 2199
+      }
+    },
+    ">=+0.0200": {
+      "by_year": {
+        "2024": {
+          "count": 48,
+          "prevalence": 0.04391582799634035,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 49,
+          "prevalence": 0.04430379746835443,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "count": 97,
+        "prevalence": 0.04411095952705776,
+        "valid_count": 2199
+      }
+    }
+  },
+  "H6": {
+    ">=+0.0020": {
+      "by_year": {
+        "2024": {
+          "count": 464,
+          "prevalence": 0.42451967063129004,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 475,
+          "prevalence": 0.4298642533936652,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "count": 939,
+        "prevalence": 0.42720655141037306,
+        "valid_count": 2198
+      }
+    },
+    ">=+0.0040": {
+      "by_year": {
+        "2024": {
+          "count": 390,
+          "prevalence": 0.35681610247026535,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 398,
+          "prevalence": 0.3601809954751131,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "count": 788,
+        "prevalence": 0.35850773430391264,
+        "valid_count": 2198
+      }
+    },
+    ">=+0.0050": {
+      "by_year": {
+        "2024": {
+          "count": 354,
+          "prevalence": 0.32387923147301007,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 370,
+          "prevalence": 0.334841628959276,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "count": 724,
+        "prevalence": 0.3293903548680619,
+        "valid_count": 2198
+      }
+    },
+    ">=+0.0075": {
+      "by_year": {
+        "2024": {
+          "count": 265,
+          "prevalence": 0.242451967063129,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 270,
+          "prevalence": 0.24434389140271492,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "count": 535,
+        "prevalence": 0.24340309372156507,
+        "valid_count": 2198
+      }
+    },
+    ">=+0.0100": {
+      "by_year": {
+        "2024": {
+          "count": 219,
+          "prevalence": 0.20036596523330283,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 220,
+          "prevalence": 0.19909502262443438,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "count": 439,
+        "prevalence": 0.1997270245677889,
+        "valid_count": 2198
+      }
+    },
+    ">=+0.0150": {
+      "by_year": {
+        "2024": {
+          "count": 137,
+          "prevalence": 0.1253430924062214,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 139,
+          "prevalence": 0.1257918552036199,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "count": 276,
+        "prevalence": 0.12556869881710647,
+        "valid_count": 2198
+      }
+    },
+    ">=+0.0200": {
+      "by_year": {
+        "2024": {
+          "count": 85,
+          "prevalence": 0.0777676120768527,
+          "valid_count": 1093
+        },
+        "2025": {
+          "count": 93,
+          "prevalence": 0.08416289592760182,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "count": 178,
+        "prevalence": 0.08098271155595996,
+        "valid_count": 2198
+      }
+    }
+  }
+}

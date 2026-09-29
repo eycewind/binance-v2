@@ -1,0 +1,1258 @@
+{
+  "H12": {
+    "2024-01": {
+      "GROSS40": {
+        "count": 30,
+        "gross_contribution_usdt": 681.3286798730286,
+        "prevalence": 0.30612244897959184
+      },
+      "GROSS50": {
+        "count": 28,
+        "gross_contribution_usdt": 673.0076792274323,
+        "prevalence": 0.2857142857142857
+      },
+      "valid_count": 98
+    },
+    "2024-02": {
+      "GROSS40": {
+        "count": 42,
+        "gross_contribution_usdt": 872.6708308867779,
+        "prevalence": 0.5060240963855421
+      },
+      "GROSS50": {
+        "count": 41,
+        "gross_contribution_usdt": 867.9183556392533,
+        "prevalence": 0.4939759036144578
+      },
+      "valid_count": 83
+    },
+    "2024-03": {
+      "GROSS40": {
+        "count": 45,
+        "gross_contribution_usdt": 1423.2598292341902,
+        "prevalence": 0.4787234042553192
+      },
+      "GROSS50": {
+        "count": 43,
+        "gross_contribution_usdt": 1414.2295581769672,
+        "prevalence": 0.4574468085106383
+      },
+      "valid_count": 94
+    },
+    "2024-04": {
+      "GROSS40": {
+        "count": 51,
+        "gross_contribution_usdt": 945.3989086155818,
+        "prevalence": 0.5543478260869565
+      },
+      "GROSS50": {
+        "count": 47,
+        "gross_contribution_usdt": 926.5843912462016,
+        "prevalence": 0.5108695652173914
+      },
+      "valid_count": 92
+    },
+    "2024-05": {
+      "GROSS40": {
+        "count": 36,
+        "gross_contribution_usdt": 721.757076315183,
+        "prevalence": 0.3673469387755102
+      },
+      "GROSS50": {
+        "count": 35,
+        "gross_contribution_usdt": 717.1935842516909,
+        "prevalence": 0.35714285714285715
+      },
+      "valid_count": 98
+    },
+    "2024-06": {
+      "GROSS40": {
+        "count": 36,
+        "gross_contribution_usdt": 716.7959559113418,
+        "prevalence": 0.391304347826087
+      },
+      "GROSS50": {
+        "count": 32,
+        "gross_contribution_usdt": 699.0953922465768,
+        "prevalence": 0.34782608695652173
+      },
+      "valid_count": 92
+    },
+    "2024-07": {
+      "GROSS40": {
+        "count": 45,
+        "gross_contribution_usdt": 726.0132986661823,
+        "prevalence": 0.5294117647058824
+      },
+      "GROSS50": {
+        "count": 41,
+        "gross_contribution_usdt": 708.0507084015532,
+        "prevalence": 0.4823529411764706
+      },
+      "valid_count": 85
+    },
+    "2024-08": {
+      "GROSS40": {
+        "count": 30,
+        "gross_contribution_usdt": 602.3757412591314,
+        "prevalence": 0.32608695652173914
+      },
+      "GROSS50": {
+        "count": 29,
+        "gross_contribution_usdt": 597.4539623876249,
+        "prevalence": 0.31521739130434784
+      },
+      "valid_count": 92
+    },
+    "2024-09": {
+      "GROSS40": {
+        "count": 34,
+        "gross_contribution_usdt": 650.7296342341949,
+        "prevalence": 0.3953488372093023
+      },
+      "GROSS50": {
+        "count": 32,
+        "gross_contribution_usdt": 641.4005843355077,
+        "prevalence": 0.37209302325581395
+      },
+      "valid_count": 86
+    },
+    "2024-10": {
+      "GROSS40": {
+        "count": 28,
+        "gross_contribution_usdt": 359.59435051706373,
+        "prevalence": 0.3076923076923077
+      },
+      "GROSS50": {
+        "count": 27,
+        "gross_contribution_usdt": 355.27093308143105,
+        "prevalence": 0.2967032967032967
+      },
+      "valid_count": 91
+    },
+    "2024-11": {
+      "GROSS40": {
+        "count": 39,
+        "gross_contribution_usdt": 1036.7831050971272,
+        "prevalence": 0.43820224719101125
+      },
+      "GROSS50": {
+        "count": 39,
+        "gross_contribution_usdt": 1036.7831050971272,
+        "prevalence": 0.43820224719101125
+      },
+      "valid_count": 89
+    },
+    "2024-12": {
+      "GROSS40": {
+        "count": 40,
+        "gross_contribution_usdt": 792.8878008583371,
+        "prevalence": 0.43010752688172044
+      },
+      "GROSS50": {
+        "count": 38,
+        "gross_contribution_usdt": 783.873786619152,
+        "prevalence": 0.40860215053763443
+      },
+      "valid_count": 93
+    },
+    "2025-01": {
+      "GROSS40": {
+        "count": 40,
+        "gross_contribution_usdt": 784.718351252751,
+        "prevalence": 0.43010752688172044
+      },
+      "GROSS50": {
+        "count": 36,
+        "gross_contribution_usdt": 765.8869480004835,
+        "prevalence": 0.3870967741935484
+      },
+      "valid_count": 93
+    },
+    "2025-02": {
+      "GROSS40": {
+        "count": 38,
+        "gross_contribution_usdt": 867.1899391490502,
+        "prevalence": 0.4418604651162791
+      },
+      "GROSS50": {
+        "count": 35,
+        "gross_contribution_usdt": 853.7440921420173,
+        "prevalence": 0.4069767441860465
+      },
+      "valid_count": 86
+    },
+    "2025-03": {
+      "GROSS40": {
+        "count": 39,
+        "gross_contribution_usdt": 650.5035571572134,
+        "prevalence": 0.43820224719101125
+      },
+      "GROSS50": {
+        "count": 35,
+        "gross_contribution_usdt": 632.4793746956253,
+        "prevalence": 0.39325842696629215
+      },
+      "valid_count": 89
+    },
+    "2025-04": {
+      "GROSS40": {
+        "count": 42,
+        "gross_contribution_usdt": 1065.9629572359363,
+        "prevalence": 0.45652173913043476
+      },
+      "GROSS50": {
+        "count": 41,
+        "gross_contribution_usdt": 1061.2685807078187,
+        "prevalence": 0.44565217391304346
+      },
+      "valid_count": 92
+    },
+    "2025-05": {
+      "GROSS40": {
+        "count": 48,
+        "gross_contribution_usdt": 923.7329505674336,
+        "prevalence": 0.47058823529411764
+      },
+      "GROSS50": {
+        "count": 45,
+        "gross_contribution_usdt": 909.5057038030217,
+        "prevalence": 0.4411764705882353
+      },
+      "valid_count": 102
+    },
+    "2025-06": {
+      "GROSS40": {
+        "count": 27,
+        "gross_contribution_usdt": 352.08119678939977,
+        "prevalence": 0.2967032967032967
+      },
+      "GROSS50": {
+        "count": 22,
+        "gross_contribution_usdt": 330.0703285118519,
+        "prevalence": 0.24175824175824176
+      },
+      "valid_count": 91
+    },
+    "2025-07": {
+      "GROSS40": {
+        "count": 43,
+        "gross_contribution_usdt": 844.3626182529146,
+        "prevalence": 0.46236559139784944
+      },
+      "GROSS50": {
+        "count": 39,
+        "gross_contribution_usdt": 826.5590647087021,
+        "prevalence": 0.41935483870967744
+      },
+      "valid_count": 93
+    },
+    "2025-08": {
+      "GROSS40": {
+        "count": 37,
+        "gross_contribution_usdt": 838.7996605423846,
+        "prevalence": 0.4065934065934066
+      },
+      "GROSS50": {
+        "count": 36,
+        "gross_contribution_usdt": 833.8915914178635,
+        "prevalence": 0.3956043956043956
+      },
+      "valid_count": 91
+    },
+    "2025-09": {
+      "GROSS40": {
+        "count": 37,
+        "gross_contribution_usdt": 557.2480132155143,
+        "prevalence": 0.42045454545454547
+      },
+      "GROSS50": {
+        "count": 34,
+        "gross_contribution_usdt": 543.8477645005505,
+        "prevalence": 0.38636363636363635
+      },
+      "valid_count": 88
+    },
+    "2025-10": {
+      "GROSS40": {
+        "count": 35,
+        "gross_contribution_usdt": 747.3910569298097,
+        "prevalence": 0.3763440860215054
+      },
+      "GROSS50": {
+        "count": 33,
+        "gross_contribution_usdt": 738.8049054696501,
+        "prevalence": 0.3548387096774194
+      },
+      "valid_count": 93
+    },
+    "2025-11": {
+      "GROSS40": {
+        "count": 27,
+        "gross_contribution_usdt": 509.78617878363707,
+        "prevalence": 0.2872340425531915
+      },
+      "GROSS50": {
+        "count": 26,
+        "gross_contribution_usdt": 505.6460426293536,
+        "prevalence": 0.2765957446808511
+      },
+      "valid_count": 94
+    },
+    "2025-12": {
+      "GROSS40": {
+        "count": 34,
+        "gross_contribution_usdt": 468.8685422028102,
+        "prevalence": 0.3695652173913043
+      },
+      "GROSS50": {
+        "count": 30,
+        "gross_contribution_usdt": 451.08893414917475,
+        "prevalence": 0.32608695652173914
+      },
+      "valid_count": 92
+    }
+  },
+  "H24": {
+    "2024-01": {
+      "GROSS40": {
+        "count": 46,
+        "gross_contribution_usdt": 1216.2631407288268,
+        "prevalence": 0.46938775510204084
+      },
+      "GROSS50": {
+        "count": 46,
+        "gross_contribution_usdt": 1216.2631407288268,
+        "prevalence": 0.46938775510204084
+      },
+      "valid_count": 98
+    },
+    "2024-02": {
+      "GROSS40": {
+        "count": 44,
+        "gross_contribution_usdt": 1375.0280941122983,
+        "prevalence": 0.5301204819277109
+      },
+      "GROSS50": {
+        "count": 43,
+        "gross_contribution_usdt": 1370.932014416922,
+        "prevalence": 0.5180722891566265
+      },
+      "valid_count": 83
+    },
+    "2024-03": {
+      "GROSS40": {
+        "count": 47,
+        "gross_contribution_usdt": 1653.1630831942898,
+        "prevalence": 0.5
+      },
+      "GROSS50": {
+        "count": 47,
+        "gross_contribution_usdt": 1653.1630831942898,
+        "prevalence": 0.5
+      },
+      "valid_count": 94
+    },
+    "2024-04": {
+      "GROSS40": {
+        "count": 37,
+        "gross_contribution_usdt": 977.5252296367029,
+        "prevalence": 0.40217391304347827
+      },
+      "GROSS50": {
+        "count": 36,
+        "gross_contribution_usdt": 972.6076858774937,
+        "prevalence": 0.391304347826087
+      },
+      "valid_count": 92
+    },
+    "2024-05": {
+      "GROSS40": {
+        "count": 45,
+        "gross_contribution_usdt": 1494.2333327688643,
+        "prevalence": 0.45918367346938777
+      },
+      "GROSS50": {
+        "count": 45,
+        "gross_contribution_usdt": 1494.2333327688643,
+        "prevalence": 0.45918367346938777
+      },
+      "valid_count": 98
+    },
+    "2024-06": {
+      "GROSS40": {
+        "count": 35,
+        "gross_contribution_usdt": 809.343757610675,
+        "prevalence": 0.3804347826086957
+      },
+      "GROSS50": {
+        "count": 32,
+        "gross_contribution_usdt": 795.4122996124203,
+        "prevalence": 0.34782608695652173
+      },
+      "valid_count": 92
+    },
+    "2024-07": {
+      "GROSS40": {
+        "count": 42,
+        "gross_contribution_usdt": 1121.0707273165676,
+        "prevalence": 0.49411764705882355
+      },
+      "GROSS50": {
+        "count": 41,
+        "gross_contribution_usdt": 1116.4450512562207,
+        "prevalence": 0.4823529411764706
+      },
+      "valid_count": 85
+    },
+    "2024-08": {
+      "GROSS40": {
+        "count": 34,
+        "gross_contribution_usdt": 1220.9058474159872,
+        "prevalence": 0.3695652173913043
+      },
+      "GROSS50": {
+        "count": 34,
+        "gross_contribution_usdt": 1220.9058474159872,
+        "prevalence": 0.3695652173913043
+      },
+      "valid_count": 92
+    },
+    "2024-09": {
+      "GROSS40": {
+        "count": 46,
+        "gross_contribution_usdt": 1118.4849764969917,
+        "prevalence": 0.5348837209302325
+      },
+      "GROSS50": {
+        "count": 42,
+        "gross_contribution_usdt": 1100.6113329156824,
+        "prevalence": 0.4883720930232558
+      },
+      "valid_count": 86
+    },
+    "2024-10": {
+      "GROSS40": {
+        "count": 42,
+        "gross_contribution_usdt": 859.252695722336,
+        "prevalence": 0.46153846153846156
+      },
+      "GROSS50": {
+        "count": 40,
+        "gross_contribution_usdt": 850.8625799839964,
+        "prevalence": 0.43956043956043955
+      },
+      "valid_count": 91
+    },
+    "2024-11": {
+      "GROSS40": {
+        "count": 45,
+        "gross_contribution_usdt": 2024.5898031082365,
+        "prevalence": 0.5056179775280899
+      },
+      "GROSS50": {
+        "count": 43,
+        "gross_contribution_usdt": 2015.9258673880645,
+        "prevalence": 0.48314606741573035
+      },
+      "valid_count": 89
+    },
+    "2024-12": {
+      "GROSS40": {
+        "count": 39,
+        "gross_contribution_usdt": 1383.5605384882897,
+        "prevalence": 0.41935483870967744
+      },
+      "GROSS50": {
+        "count": 36,
+        "gross_contribution_usdt": 1370.3181104940932,
+        "prevalence": 0.3870967741935484
+      },
+      "valid_count": 93
+    },
+    "2025-01": {
+      "GROSS40": {
+        "count": 38,
+        "gross_contribution_usdt": 909.6048794191964,
+        "prevalence": 0.40860215053763443
+      },
+      "GROSS50": {
+        "count": 37,
+        "gross_contribution_usdt": 905.0061809376348,
+        "prevalence": 0.3978494623655914
+      },
+      "valid_count": 93
+    },
+    "2025-02": {
+      "GROSS40": {
+        "count": 34,
+        "gross_contribution_usdt": 1006.7667774354957,
+        "prevalence": 0.3953488372093023
+      },
+      "GROSS50": {
+        "count": 33,
+        "gross_contribution_usdt": 1002.2570831136799,
+        "prevalence": 0.38372093023255816
+      },
+      "valid_count": 86
+    },
+    "2025-03": {
+      "GROSS40": {
+        "count": 37,
+        "gross_contribution_usdt": 1763.5078630156545,
+        "prevalence": 0.4157303370786517
+      },
+      "GROSS50": {
+        "count": 37,
+        "gross_contribution_usdt": 1763.5078630156545,
+        "prevalence": 0.4157303370786517
+      },
+      "valid_count": 89
+    },
+    "2025-04": {
+      "GROSS40": {
+        "count": 41,
+        "gross_contribution_usdt": 1290.9649745788442,
+        "prevalence": 0.44565217391304346
+      },
+      "GROSS50": {
+        "count": 40,
+        "gross_contribution_usdt": 1286.008637547926,
+        "prevalence": 0.43478260869565216
+      },
+      "valid_count": 92
+    },
+    "2025-05": {
+      "GROSS40": {
+        "count": 32,
+        "gross_contribution_usdt": 1013.6525794432808,
+        "prevalence": 0.3137254901960784
+      },
+      "GROSS50": {
+        "count": 32,
+        "gross_contribution_usdt": 1013.6525794432808,
+        "prevalence": 0.3137254901960784
+      },
+      "valid_count": 102
+    },
+    "2025-06": {
+      "GROSS40": {
+        "count": 30,
+        "gross_contribution_usdt": 787.88495475038,
+        "prevalence": 0.32967032967032966
+      },
+      "GROSS50": {
+        "count": 28,
+        "gross_contribution_usdt": 778.74009935233,
+        "prevalence": 0.3076923076923077
+      },
+      "valid_count": 91
+    },
+    "2025-07": {
+      "GROSS40": {
+        "count": 48,
+        "gross_contribution_usdt": 1184.7293172502523,
+        "prevalence": 0.5161290322580645
+      },
+      "GROSS50": {
+        "count": 45,
+        "gross_contribution_usdt": 1170.0876757072224,
+        "prevalence": 0.4838709677419355
+      },
+      "valid_count": 93
+    },
+    "2025-08": {
+      "GROSS40": {
+        "count": 41,
+        "gross_contribution_usdt": 1428.6596802963595,
+        "prevalence": 0.45054945054945056
+      },
+      "GROSS50": {
+        "count": 41,
+        "gross_contribution_usdt": 1428.6596802963595,
+        "prevalence": 0.45054945054945056
+      },
+      "valid_count": 91
+    },
+    "2025-09": {
+      "GROSS40": {
+        "count": 40,
+        "gross_contribution_usdt": 826.3978744769827,
+        "prevalence": 0.45454545454545453
+      },
+      "GROSS50": {
+        "count": 36,
+        "gross_contribution_usdt": 808.537534458297,
+        "prevalence": 0.4090909090909091
+      },
+      "valid_count": 88
+    },
+    "2025-10": {
+      "GROSS40": {
+        "count": 38,
+        "gross_contribution_usdt": 1077.6014703431783,
+        "prevalence": 0.40860215053763443
+      },
+      "GROSS50": {
+        "count": 37,
+        "gross_contribution_usdt": 1073.5260960947016,
+        "prevalence": 0.3978494623655914
+      },
+      "valid_count": 93
+    },
+    "2025-11": {
+      "GROSS40": {
+        "count": 32,
+        "gross_contribution_usdt": 937.5554877114513,
+        "prevalence": 0.3404255319148936
+      },
+      "GROSS50": {
+        "count": 31,
+        "gross_contribution_usdt": 933.4725126446024,
+        "prevalence": 0.32978723404255317
+      },
+      "valid_count": 94
+    },
+    "2025-12": {
+      "GROSS40": {
+        "count": 31,
+        "gross_contribution_usdt": 768.1940398453909,
+        "prevalence": 0.34065934065934067
+      },
+      "GROSS50": {
+        "count": 29,
+        "gross_contribution_usdt": 758.7281636968391,
+        "prevalence": 0.31868131868131866
+      },
+      "valid_count": 91
+    }
+  },
+  "H3": {
+    "2024-01": {
+      "GROSS40": {
+        "count": 24,
+        "gross_contribution_usdt": 361.73843287458953,
+        "prevalence": 0.24489795918367346
+      },
+      "GROSS50": {
+        "count": 21,
+        "gross_contribution_usdt": 347.76301695048915,
+        "prevalence": 0.21428571428571427
+      },
+      "valid_count": 98
+    },
+    "2024-02": {
+      "GROSS40": {
+        "count": 20,
+        "gross_contribution_usdt": 320.5990272629681,
+        "prevalence": 0.24096385542168675
+      },
+      "GROSS50": {
+        "count": 20,
+        "gross_contribution_usdt": 320.5990272629681,
+        "prevalence": 0.24096385542168675
+      },
+      "valid_count": 83
+    },
+    "2024-03": {
+      "GROSS40": {
+        "count": 27,
+        "gross_contribution_usdt": 442.0020026285471,
+        "prevalence": 0.2872340425531915
+      },
+      "GROSS50": {
+        "count": 26,
+        "gross_contribution_usdt": 437.87619944964945,
+        "prevalence": 0.2765957446808511
+      },
+      "valid_count": 94
+    },
+    "2024-04": {
+      "GROSS40": {
+        "count": 24,
+        "gross_contribution_usdt": 357.5664655061777,
+        "prevalence": 0.2608695652173913
+      },
+      "GROSS50": {
+        "count": 23,
+        "gross_contribution_usdt": 353.25284959889166,
+        "prevalence": 0.25
+      },
+      "valid_count": 92
+    },
+    "2024-05": {
+      "GROSS40": {
+        "count": 26,
+        "gross_contribution_usdt": 350.51379558213773,
+        "prevalence": 0.2653061224489796
+      },
+      "GROSS50": {
+        "count": 24,
+        "gross_contribution_usdt": 341.8008679584302,
+        "prevalence": 0.24489795918367346
+      },
+      "valid_count": 98
+    },
+    "2024-06": {
+      "GROSS40": {
+        "count": 18,
+        "gross_contribution_usdt": 153.62123984842333,
+        "prevalence": 0.1956521739130435
+      },
+      "GROSS50": {
+        "count": 13,
+        "gross_contribution_usdt": 130.74443430844428,
+        "prevalence": 0.14130434782608695
+      },
+      "valid_count": 92
+    },
+    "2024-07": {
+      "GROSS40": {
+        "count": 28,
+        "gross_contribution_usdt": 375.4343531092692,
+        "prevalence": 0.32941176470588235
+      },
+      "GROSS50": {
+        "count": 26,
+        "gross_contribution_usdt": 366.1867907208932,
+        "prevalence": 0.3058823529411765
+      },
+      "valid_count": 85
+    },
+    "2024-08": {
+      "GROSS40": {
+        "count": 29,
+        "gross_contribution_usdt": 307.7377691831705,
+        "prevalence": 0.31521739130434784
+      },
+      "GROSS50": {
+        "count": 26,
+        "gross_contribution_usdt": 294.7263152601805,
+        "prevalence": 0.2826086956521739
+      },
+      "valid_count": 92
+    },
+    "2024-09": {
+      "GROSS40": {
+        "count": 23,
+        "gross_contribution_usdt": 245.8092249423305,
+        "prevalence": 0.26744186046511625
+      },
+      "GROSS50": {
+        "count": 18,
+        "gross_contribution_usdt": 223.32758064112215,
+        "prevalence": 0.20930232558139536
+      },
+      "valid_count": 86
+    },
+    "2024-10": {
+      "GROSS40": {
+        "count": 22,
+        "gross_contribution_usdt": 221.117950314498,
+        "prevalence": 0.24175824175824176
+      },
+      "GROSS50": {
+        "count": 20,
+        "gross_contribution_usdt": 211.94057034194384,
+        "prevalence": 0.21978021978021978
+      },
+      "valid_count": 91
+    },
+    "2024-11": {
+      "GROSS40": {
+        "count": 33,
+        "gross_contribution_usdt": 460.8364981470196,
+        "prevalence": 0.3707865168539326
+      },
+      "GROSS50": {
+        "count": 30,
+        "gross_contribution_usdt": 446.95690306474125,
+        "prevalence": 0.33707865168539325
+      },
+      "valid_count": 89
+    },
+    "2024-12": {
+      "GROSS40": {
+        "count": 29,
+        "gross_contribution_usdt": 349.14344371765253,
+        "prevalence": 0.3118279569892473
+      },
+      "GROSS50": {
+        "count": 25,
+        "gross_contribution_usdt": 331.03529703334686,
+        "prevalence": 0.26881720430107525
+      },
+      "valid_count": 93
+    },
+    "2025-01": {
+      "GROSS40": {
+        "count": 33,
+        "gross_contribution_usdt": 373.17013377978014,
+        "prevalence": 0.3548387096774194
+      },
+      "GROSS50": {
+        "count": 31,
+        "gross_contribution_usdt": 364.4282804431317,
+        "prevalence": 0.3333333333333333
+      },
+      "valid_count": 93
+    },
+    "2025-02": {
+      "GROSS40": {
+        "count": 28,
+        "gross_contribution_usdt": 510.73662271037665,
+        "prevalence": 0.32558139534883723
+      },
+      "GROSS50": {
+        "count": 28,
+        "gross_contribution_usdt": 510.73662271037665,
+        "prevalence": 0.32558139534883723
+      },
+      "valid_count": 86
+    },
+    "2025-03": {
+      "GROSS40": {
+        "count": 38,
+        "gross_contribution_usdt": 522.4535079196357,
+        "prevalence": 0.42696629213483145
+      },
+      "GROSS50": {
+        "count": 36,
+        "gross_contribution_usdt": 513.403466681322,
+        "prevalence": 0.4044943820224719
+      },
+      "valid_count": 89
+    },
+    "2025-04": {
+      "GROSS40": {
+        "count": 17,
+        "gross_contribution_usdt": 243.54555632420522,
+        "prevalence": 0.18478260869565216
+      },
+      "GROSS50": {
+        "count": 15,
+        "gross_contribution_usdt": 235.10372210532,
+        "prevalence": 0.16304347826086957
+      },
+      "valid_count": 92
+    },
+    "2025-05": {
+      "GROSS40": {
+        "count": 28,
+        "gross_contribution_usdt": 303.7736413065571,
+        "prevalence": 0.27450980392156865
+      },
+      "GROSS50": {
+        "count": 22,
+        "gross_contribution_usdt": 276.2194486461567,
+        "prevalence": 0.21568627450980393
+      },
+      "valid_count": 102
+    },
+    "2025-06": {
+      "GROSS40": {
+        "count": 22,
+        "gross_contribution_usdt": 216.21937483974511,
+        "prevalence": 0.24175824175824176
+      },
+      "GROSS50": {
+        "count": 19,
+        "gross_contribution_usdt": 203.4622213659227,
+        "prevalence": 0.2087912087912088
+      },
+      "valid_count": 91
+    },
+    "2025-07": {
+      "GROSS40": {
+        "count": 29,
+        "gross_contribution_usdt": 261.54598858995814,
+        "prevalence": 0.3118279569892473
+      },
+      "GROSS50": {
+        "count": 26,
+        "gross_contribution_usdt": 247.67932419059866,
+        "prevalence": 0.27956989247311825
+      },
+      "valid_count": 93
+    },
+    "2025-08": {
+      "GROSS40": {
+        "count": 29,
+        "gross_contribution_usdt": 333.77418164796745,
+        "prevalence": 0.31868131868131866
+      },
+      "GROSS50": {
+        "count": 26,
+        "gross_contribution_usdt": 319.83498598061055,
+        "prevalence": 0.2857142857142857
+      },
+      "valid_count": 91
+    },
+    "2025-09": {
+      "GROSS40": {
+        "count": 23,
+        "gross_contribution_usdt": 266.1335311912105,
+        "prevalence": 0.26136363636363635
+      },
+      "GROSS50": {
+        "count": 18,
+        "gross_contribution_usdt": 243.5405718326581,
+        "prevalence": 0.20454545454545456
+      },
+      "valid_count": 88
+    },
+    "2025-10": {
+      "GROSS40": {
+        "count": 32,
+        "gross_contribution_usdt": 371.26892738179083,
+        "prevalence": 0.34408602150537637
+      },
+      "GROSS50": {
+        "count": 28,
+        "gross_contribution_usdt": 354.2033253819618,
+        "prevalence": 0.3010752688172043
+      },
+      "valid_count": 93
+    },
+    "2025-11": {
+      "GROSS40": {
+        "count": 28,
+        "gross_contribution_usdt": 308.8792511597853,
+        "prevalence": 0.2978723404255319
+      },
+      "GROSS50": {
+        "count": 23,
+        "gross_contribution_usdt": 286.5781024587578,
+        "prevalence": 0.24468085106382978
+      },
+      "valid_count": 94
+    },
+    "2025-12": {
+      "GROSS40": {
+        "count": 30,
+        "gross_contribution_usdt": 359.7660496211264,
+        "prevalence": 0.3191489361702128
+      },
+      "GROSS50": {
+        "count": 22,
+        "gross_contribution_usdt": 323.46391302928737,
+        "prevalence": 0.23404255319148937
+      },
+      "valid_count": 94
+    }
+  },
+  "H6": {
+    "2024-01": {
+      "GROSS40": {
+        "count": 24,
+        "gross_contribution_usdt": 463.3124178034725,
+        "prevalence": 0.24489795918367346
+      },
+      "GROSS50": {
+        "count": 22,
+        "gross_contribution_usdt": 453.82629313402765,
+        "prevalence": 0.22448979591836735
+      },
+      "valid_count": 98
+    },
+    "2024-02": {
+      "GROSS40": {
+        "count": 26,
+        "gross_contribution_usdt": 484.597643806518,
+        "prevalence": 0.3132530120481928
+      },
+      "GROSS50": {
+        "count": 24,
+        "gross_contribution_usdt": 475.6889874400332,
+        "prevalence": 0.2891566265060241
+      },
+      "valid_count": 83
+    },
+    "2024-03": {
+      "GROSS40": {
+        "count": 41,
+        "gross_contribution_usdt": 862.0458673943201,
+        "prevalence": 0.43617021276595747
+      },
+      "GROSS50": {
+        "count": 38,
+        "gross_contribution_usdt": 849.5284072916236,
+        "prevalence": 0.40425531914893614
+      },
+      "valid_count": 94
+    },
+    "2024-04": {
+      "GROSS40": {
+        "count": 36,
+        "gross_contribution_usdt": 544.7771031854134,
+        "prevalence": 0.391304347826087
+      },
+      "GROSS50": {
+        "count": 33,
+        "gross_contribution_usdt": 531.0707926446237,
+        "prevalence": 0.358695652173913
+      },
+      "valid_count": 92
+    },
+    "2024-05": {
+      "GROSS40": {
+        "count": 32,
+        "gross_contribution_usdt": 476.94087433979826,
+        "prevalence": 0.32653061224489793
+      },
+      "GROSS50": {
+        "count": 30,
+        "gross_contribution_usdt": 467.03592893523785,
+        "prevalence": 0.30612244897959184
+      },
+      "valid_count": 98
+    },
+    "2024-06": {
+      "GROSS40": {
+        "count": 33,
+        "gross_contribution_usdt": 321.02408247084895,
+        "prevalence": 0.358695652173913
+      },
+      "GROSS50": {
+        "count": 25,
+        "gross_contribution_usdt": 284.7065636640034,
+        "prevalence": 0.2717391304347826
+      },
+      "valid_count": 92
+    },
+    "2024-07": {
+      "GROSS40": {
+        "count": 38,
+        "gross_contribution_usdt": 597.6607540431322,
+        "prevalence": 0.4470588235294118
+      },
+      "GROSS50": {
+        "count": 34,
+        "gross_contribution_usdt": 579.6336302408313,
+        "prevalence": 0.4
+      },
+      "valid_count": 85
+    },
+    "2024-08": {
+      "GROSS40": {
+        "count": 26,
+        "gross_contribution_usdt": 286.59810154699073,
+        "prevalence": 0.2826086956521739
+      },
+      "GROSS50": {
+        "count": 22,
+        "gross_contribution_usdt": 268.9457762607723,
+        "prevalence": 0.2391304347826087
+      },
+      "valid_count": 92
+    },
+    "2024-09": {
+      "GROSS40": {
+        "count": 32,
+        "gross_contribution_usdt": 441.3052005694601,
+        "prevalence": 0.37209302325581395
+      },
+      "GROSS50": {
+        "count": 31,
+        "gross_contribution_usdt": 436.81547513343867,
+        "prevalence": 0.36046511627906974
+      },
+      "valid_count": 86
+    },
+    "2024-10": {
+      "GROSS40": {
+        "count": 27,
+        "gross_contribution_usdt": 298.8668250127572,
+        "prevalence": 0.2967032967032967
+      },
+      "GROSS50": {
+        "count": 25,
+        "gross_contribution_usdt": 290.4384830786453,
+        "prevalence": 0.27472527472527475
+      },
+      "valid_count": 91
+    },
+    "2024-11": {
+      "GROSS40": {
+        "count": 41,
+        "gross_contribution_usdt": 660.6765087967262,
+        "prevalence": 0.4606741573033708
+      },
+      "GROSS50": {
+        "count": 37,
+        "gross_contribution_usdt": 642.0286989005156,
+        "prevalence": 0.4157303370786517
+      },
+      "valid_count": 89
+    },
+    "2024-12": {
+      "GROSS40": {
+        "count": 34,
+        "gross_contribution_usdt": 510.1732958468408,
+        "prevalence": 0.3655913978494624
+      },
+      "GROSS50": {
+        "count": 33,
+        "gross_contribution_usdt": 505.4494482658504,
+        "prevalence": 0.3548387096774194
+      },
+      "valid_count": 93
+    },
+    "2025-01": {
+      "GROSS40": {
+        "count": 37,
+        "gross_contribution_usdt": 544.8318482508454,
+        "prevalence": 0.3978494623655914
+      },
+      "GROSS50": {
+        "count": 34,
+        "gross_contribution_usdt": 531.9023534966558,
+        "prevalence": 0.3655913978494624
+      },
+      "valid_count": 93
+    },
+    "2025-02": {
+      "GROSS40": {
+        "count": 36,
+        "gross_contribution_usdt": 766.378279945623,
+        "prevalence": 0.4186046511627907
+      },
+      "GROSS50": {
+        "count": 35,
+        "gross_contribution_usdt": 761.9898512779057,
+        "prevalence": 0.4069767441860465
+      },
+      "valid_count": 86
+    },
+    "2025-03": {
+      "GROSS40": {
+        "count": 40,
+        "gross_contribution_usdt": 643.6407569419547,
+        "prevalence": 0.449438202247191
+      },
+      "GROSS50": {
+        "count": 36,
+        "gross_contribution_usdt": 625.8251047832131,
+        "prevalence": 0.4044943820224719
+      },
+      "valid_count": 89
+    },
+    "2025-04": {
+      "GROSS40": {
+        "count": 31,
+        "gross_contribution_usdt": 543.1324092885222,
+        "prevalence": 0.33695652173913043
+      },
+      "GROSS50": {
+        "count": 29,
+        "gross_contribution_usdt": 534.5513391897081,
+        "prevalence": 0.31521739130434784
+      },
+      "valid_count": 92
+    },
+    "2025-05": {
+      "GROSS40": {
+        "count": 42,
+        "gross_contribution_usdt": 561.7788078895268,
+        "prevalence": 0.4117647058823529
+      },
+      "GROSS50": {
+        "count": 39,
+        "gross_contribution_usdt": 548.4471764118948,
+        "prevalence": 0.38235294117647056
+      },
+      "valid_count": 102
+    },
+    "2025-06": {
+      "GROSS40": {
+        "count": 24,
+        "gross_contribution_usdt": 247.6081104438631,
+        "prevalence": 0.26373626373626374
+      },
+      "GROSS50": {
+        "count": 21,
+        "gross_contribution_usdt": 234.44407605268464,
+        "prevalence": 0.23076923076923078
+      },
+      "valid_count": 91
+    },
+    "2025-07": {
+      "GROSS40": {
+        "count": 33,
+        "gross_contribution_usdt": 489.31222851015184,
+        "prevalence": 0.3548387096774194
+      },
+      "GROSS50": {
+        "count": 31,
+        "gross_contribution_usdt": 480.8032348532016,
+        "prevalence": 0.3333333333333333
+      },
+      "valid_count": 93
+    },
+    "2025-08": {
+      "GROSS40": {
+        "count": 31,
+        "gross_contribution_usdt": 484.31405596773925,
+        "prevalence": 0.34065934065934067
+      },
+      "GROSS50": {
+        "count": 30,
+        "gross_contribution_usdt": 479.41294241498747,
+        "prevalence": 0.32967032967032966
+      },
+      "valid_count": 91
+    },
+    "2025-09": {
+      "GROSS40": {
+        "count": 32,
+        "gross_contribution_usdt": 414.61293957739247,
+        "prevalence": 0.36363636363636365
+      },
+      "GROSS50": {
+        "count": 29,
+        "gross_contribution_usdt": 400.9982194165383,
+        "prevalence": 0.32954545454545453
+      },
+      "valid_count": 88
+    },
+    "2025-10": {
+      "GROSS40": {
+        "count": 31,
+        "gross_contribution_usdt": 504.8078502588304,
+        "prevalence": 0.3333333333333333
+      },
+      "GROSS50": {
+        "count": 30,
+        "gross_contribution_usdt": 500.0497030166621,
+        "prevalence": 0.3225806451612903
+      },
+      "valid_count": 93
+    },
+    "2025-11": {
+      "GROSS40": {
+        "count": 25,
+        "gross_contribution_usdt": 407.9033026657255,
+        "prevalence": 0.26595744680851063
+      },
+      "GROSS50": {
+        "count": 24,
+        "gross_contribution_usdt": 403.2385548237469,
+        "prevalence": 0.2553191489361702
+      },
+      "valid_count": 94
+    },
+    "2025-12": {
+      "GROSS40": {
+        "count": 36,
+        "gross_contribution_usdt": 375.38295171398465,
+        "prevalence": 0.3870967741935484
+      },
+      "GROSS50": {
+        "count": 32,
+        "gross_contribution_usdt": 357.0909257913702,
+        "prevalence": 0.34408602150537637
+      },
+      "valid_count": 93
+    }
+  }
+}

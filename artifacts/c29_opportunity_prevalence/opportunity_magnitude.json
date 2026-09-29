@@ -1,0 +1,218 @@
+{
+  "H12": {
+    "GROSS40": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.01416103288804578,
+        "mean_excess_above_hurdle": -0.018161032888045776,
+        "median_C0": -0.008870523178543123,
+        "median_excess_above_hurdle": -0.012870523178543123,
+        "p25_C0": -0.01970241037538457,
+        "p75_C0": -0.0021242298057531457,
+        "p90_C0": 0.0016427006921209458,
+        "total_gross_pnl_usdt": -18324.376557131236,
+        "trade_count": 1294
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.020088859616331115,
+        "mean_excess_above_hurdle": 0.01608885961633111,
+        "median_C0": 0.014638977329594467,
+        "median_excess_above_hurdle": 0.010638977329594467,
+        "p25_C0": 0.008479081215719305,
+        "p75_C0": 0.025057081024115517,
+        "p90_C0": 0.04291087063796312,
+        "total_gross_pnl_usdt": 18140.240233546985,
+        "trade_count": 903
+      }
+    },
+    "GROSS50": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.013346483144886087,
+        "mean_excess_above_hurdle": -0.018346483144886086,
+        "median_C0": -0.007869249394673261,
+        "median_excess_above_hurdle": -0.012869249394673262,
+        "p25_C0": -0.018856903565294715,
+        "p75_C0": -0.0013029608662443479,
+        "p90_C0": 0.0025199800073244885,
+        "total_gross_pnl_usdt": -18057.79169503088,
+        "trade_count": 1353
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.021177316790813545,
+        "mean_excess_above_hurdle": 0.016177316790813544,
+        "median_C0": 0.015773341138358262,
+        "median_excess_above_hurdle": 0.010773341138358261,
+        "p25_C0": 0.009620990749384249,
+        "p75_C0": 0.02595757378010114,
+        "p90_C0": 0.043851629896069264,
+        "total_gross_pnl_usdt": 17873.65537144663,
+        "trade_count": 844
+      }
+    }
+  },
+  "H24": {
+    "GROSS40": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.02125024481487624,
+        "mean_excess_above_hurdle": -0.02525024481487624,
+        "median_C0": -0.014096719511622667,
+        "median_excess_above_hurdle": -0.018096719511622665,
+        "p25_C0": -0.030703098064167673,
+        "p75_C0": -0.0039394601269406165,
+        "p90_C0": 0.0008824241409347631,
+        "total_gross_pnl_usdt": -26605.30650822504,
+        "trade_count": 1252
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.02992472576818489,
+        "mean_excess_above_hurdle": 0.025924725768184886,
+        "median_C0": 0.021068441702902077,
+        "median_excess_above_hurdle": 0.017068441702902077,
+        "p25_C0": 0.01131935217858117,
+        "p75_C0": 0.03815914878215458,
+        "p90_C0": 0.060831495979151384,
+        "total_gross_pnl_usdt": 28248.94112516651,
+        "trade_count": 944
+      }
+    },
+    "GROSS50": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.020588505708497983,
+        "mean_excess_above_hurdle": -0.025588505708497983,
+        "median_C0": -0.013487493879618,
+        "median_excess_above_hurdle": -0.018487493879618,
+        "p25_C0": -0.03032004491858504,
+        "p75_C0": -0.0033176092478358894,
+        "p90_C0": 0.0016734204371080096,
+        "total_gross_pnl_usdt": -26456.229835419887,
+        "trade_count": 1285
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.030845076237498784,
+        "mean_excess_above_hurdle": 0.02584507623749878,
+        "median_C0": 0.021823186316272426,
+        "median_excess_above_hurdle": 0.016823186316272425,
+        "p25_C0": 0.012127218412912555,
+        "p75_C0": 0.038850387569802816,
+        "p90_C0": 0.06122653819130801,
+        "total_gross_pnl_usdt": 28099.864452361373,
+        "trade_count": 911
+      }
+    }
+  },
+  "H3": {
+    "GROSS40": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.005484852439909209,
+        "mean_excess_above_hurdle": -0.00948485243990921,
+        "median_C0": -0.0027290063786413158,
+        "median_excess_above_hurdle": -0.006729006378641315,
+        "p25_C0": -0.007708030976265718,
+        "p75_C0": 0.0004372354118245312,
+        "p90_C0": 0.0023738617381902716,
+        "total_gross_pnl_usdt": -8550.88495381845,
+        "trade_count": 1559
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.012527167139982693,
+        "mean_excess_above_hurdle": 0.00852716713998269,
+        "median_C0": 0.00919669360366055,
+        "median_excess_above_hurdle": 0.005196693603660549,
+        "p25_C0": 0.0061070978188112685,
+        "p75_C0": 0.014751702110328637,
+        "p90_C0": 0.02522427741297879,
+        "total_gross_pnl_usdt": 8017.386969588922,
+        "trade_count": 640
+      }
+    },
+    "GROSS50": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.005032677171859608,
+        "mean_excess_above_hurdle": -0.010032677171859608,
+        "median_C0": -0.0023764258555132754,
+        "median_excess_above_hurdle": -0.0073764258555132755,
+        "p25_C0": -0.00737113884764085,
+        "p75_C0": 0.0008957362952346557,
+        "p90_C0": 0.002888055642268955,
+        "total_gross_pnl_usdt": -8218.361821646735,
+        "trade_count": 1633
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.013577497945966794,
+        "mean_excess_above_hurdle": 0.008577497945966793,
+        "median_C0": 0.010368482195782916,
+        "median_excess_above_hurdle": 0.005368482195782917,
+        "p25_C0": 0.006876926175880015,
+        "p75_C0": 0.0159378808172319,
+        "p90_C0": 0.02627781458653726,
+        "total_gross_pnl_usdt": 7684.863837417205,
+        "trade_count": 566
+      }
+    }
+  },
+  "H6": {
+    "GROSS40": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.00889390654265513,
+        "mean_excess_above_hurdle": -0.01289390654265513,
+        "median_C0": -0.0047218223062548085,
+        "median_excess_above_hurdle": -0.008721822306254807,
+        "p25_C0": -0.013105554869578328,
+        "p75_C0": -0.0003356313730756142,
+        "p90_C0": 0.002082962213078008,
+        "total_gross_pnl_usdt": -12540.408225143748,
+        "trade_count": 1410
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.015141728700850808,
+        "mean_excess_above_hurdle": 0.011141728700850808,
+        "median_C0": 0.011288620602535729,
+        "median_excess_above_hurdle": 0.00728862060253573,
+        "p25_C0": 0.006575180328991109,
+        "p75_C0": 0.019190503106373085,
+        "p90_C0": 0.029506899143717194,
+        "total_gross_pnl_usdt": 11931.682216270428,
+        "trade_count": 788
+      }
+    },
+    "GROSS50": {
+      "below": {
+        "group": "below_hurdle",
+        "mean_C0": -0.008312515587104115,
+        "mean_excess_above_hurdle": -0.013312515587104116,
+        "median_C0": -0.004376856588111877,
+        "median_excess_above_hurdle": -0.009376856588111878,
+        "p25_C0": -0.012495388851468477,
+        "p75_C0": 0.00014117650409096427,
+        "p90_C0": 0.0029922258820299593,
+        "total_gross_pnl_usdt": -12252.647975391481,
+        "trade_count": 1474
+      },
+      "positive": {
+        "group": "at_or_above_hurdle",
+        "mean_C0": 0.016082765147124544,
+        "mean_excess_above_hurdle": 0.011082765147124545,
+        "median_C0": 0.012329299893795564,
+        "median_excess_above_hurdle": 0.0073292998937955645,
+        "p25_C0": 0.007303538531210818,
+        "p75_C0": 0.019956716697040803,
+        "p90_C0": 0.03015590985805289,
+        "total_gross_pnl_usdt": 11643.92196651816,
+        "trade_count": 724
+      }
+    }
+  }
+}

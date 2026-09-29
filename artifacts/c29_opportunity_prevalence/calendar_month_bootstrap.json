@@ -1,0 +1,538 @@
+{
+  "H12": {
+    "2024": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.37330626560029273,
+            0.46423084051524416
+          ],
+          "replicate_sha256": "20fdc09bc109f2c1688ec5af564121c0df506f158442c78a20a574bcd458a207"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.3548088203759184,
+            0.43923663976372934
+          ],
+          "replicate_sha256": "fe2d7eaca81811bcef6e9ca65bc5d6039ab0f794b87c7f9f31b8ba24d3ea48a1"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0009150397062591151,
+            0.003170015587370794
+          ],
+          "replicate_sha256": "67073ac086a4d53eec7bc79a9c01b040868b594b928e6bc9ce397fc3b2970aa1"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.0033099692165657756,
+            0.0007652936971737621
+          ],
+          "replicate_sha256": "98b2c42a3d3e955e0af5736826e917b1c5669de1f88febcfbd70490922e3d88f"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.002811499209819864,
+            0.0012658018464407788
+          ],
+          "replicate_sha256": "260896ef8c0ffffda92f961d07d42e91602e61809734f95265f5c7c37f2bdf8f"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "2025": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.3688922520262926,
+            0.4369317434535004
+          ],
+          "replicate_sha256": "cf01e1475328b6d7a2faefcf134160d0c7adc9015a50593fa6dd4823887bce1a"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.3357450340947736,
+            0.40555120585715854
+          ],
+          "replicate_sha256": "36ef876c85c85d5231a567559eaf8af286df8ce67e586ede17a4b809eb95139c"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0034631691462078036,
+            0.0009685973095848436
+          ],
+          "replicate_sha256": "cfc22f1b8bdf89658806dd83df6a542bcac0b80da472dc5613d9477841d8f7df"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.005851990476895761,
+            -0.0014308475102853147
+          ],
+          "replicate_sha256": "5291aa2d47266bf8a24d946f06d86c67f30c7cc4aa7320cc1b29c436d4147bdb"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.005354791799565864,
+            -0.0009314377070322896
+          ],
+          "replicate_sha256": "89d0dd66f30df467fddf5e00671326175e50c40836f6d8ddf9373a3069fdf44d"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "pooled": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.3824860264279451,
+            0.43876270482867347
+          ],
+          "replicate_sha256": "f731c9a871256973848e6d3fbe6ce97f7ab627c0830ca30ad698b133883e0479"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.356038047146464,
+            0.41179224502535255
+          ],
+          "replicate_sha256": "cc9ed61f7100bbb09ac93f99d7ce036c5451365e85cca985463041420098195e"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.001665743517482171,
+            0.0015273777598172292
+          ],
+          "replicate_sha256": "88d4b835f02e72487c9d8c24485e6bffe63d2bafa579b5e58ec9d44a85afcff4"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.004058873498437024,
+            -0.000873406525507039
+          ],
+          "replicate_sha256": "16fda9cbeefc90a402a554edd14e101ad041b0d5742aa308cc988c0808115ee3"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.0035607780377494716,
+            -0.0003737179318549329
+          ],
+          "replicate_sha256": "d8b0214117c80709eb2b7255c5e76c6e061c724ae1e7edd11f190ec723837586"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    }
+  },
+  "H24": {
+    "2024": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.42933663366336633,
+            0.48807339449541287
+          ],
+          "replicate_sha256": "5d802f13ca315faa49cacee7c06dddbaf0c4eba049ff7b46e3b67ecfc8f5a67a"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.4124022784637424,
+            0.47284897492872713
+          ],
+          "replicate_sha256": "7518fd3c07f7314874555d37a1fd417b5511e91dc324e0351181798b6b256c0b"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0008438881728224597,
+            0.006070258189453399
+          ],
+          "replicate_sha256": "4338fd44a7499d0b4dc85b5968c89b40689fd6d82d29e2679fc86519e24e3ce9"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.003238988242104484,
+            0.0036585840610876175
+          ],
+          "replicate_sha256": "666013aeb8eaf5728337566524bbabb133f4fd399cdd3e3aa0de22b7c37b40fc"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.0027404827359698764,
+            0.004160539218373851
+          ],
+          "replicate_sha256": "0056ca05a94a0af0c128b22d85ce290d06bda84be5be45b0ff6e49e7f71308d5"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "2025": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.3676341248900616,
+            0.43525869115347937
+          ],
+          "replicate_sha256": "bfe88798b57ab63fd3398b3e49a645c52b34e88b8dc8d4875817ecd436b4af4e"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.3549496831687776,
+            0.4188861265878167
+          ],
+          "replicate_sha256": "e8e05efba508050d5fbdd2a2021b819ad782872f64d1bc0a945642a215a2261a"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.004031671999591555,
+            0.001839763983810414
+          ],
+          "replicate_sha256": "7867ecb217dc8b7406b4f57c713b43a6660c1d8bdce094bfa174f4e48f4a87db"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.006419130559029458,
+            -0.0005617691297078449
+          ],
+          "replicate_sha256": "a5db2b2aaa70c48e64c6bd78f722a1c9ebde8ec591f910d09237fb2b879eb4de"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.005922215522863654,
+            -6.192467827650294e-05
+          ],
+          "replicate_sha256": "563c831300a4ec3a1640eb7546dea3fda90880935f41a556129d4fa7c0fa1d57"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "pooled": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.40575554452168155,
+            0.45545500927643784
+          ],
+          "replicate_sha256": "8a9922188efc67209e916cf1ef048e8121271a871d22c7967812bf487b85d452"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.39076107232374035,
+            0.4398899219908806
+          ],
+          "replicate_sha256": "b7df92ae36d01944294e64a25c3f2320647644a0ccd6ba15587ffe110aea6fa7"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0015231020585817587,
+            0.003160317059109836
+          ],
+          "replicate_sha256": "008a99bebc8873261a424318ca00f80f30ed2b2ca443eb0bbe53c424296e86f4"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.003916573968654648,
+            0.0007556184174777052
+          ],
+          "replicate_sha256": "1d4b72cf4a39dc8d0c281e19cef4bd90a82bef2d0d4210de5884e85dd371ef23"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.0034184073403569315,
+            0.0012561217278915311
+          ],
+          "replicate_sha256": "7933b8bfad5e8ba7ba0e9bdd6229903e5e47f263f6f25d7b8840a9a5b5712ba0"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    }
+  },
+  "H3": {
+    "2024": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.2524746403412385,
+            0.30129611489220337
+          ],
+          "replicate_sha256": "fda0008f3270020779ff350dd66d37598f2c34a42cdf37f98cf8a99987b039e1"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.22068328716528163,
+            0.274617530393181
+          ],
+          "replicate_sha256": "50c40b3221f0e3b75ad5e84ae6730dc03ce5c3833127c9f03d54b2668f49d598"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0010630449896813666,
+            0.0003487577565261102
+          ],
+          "replicate_sha256": "401afab50d87e3afe6b72851da36bd21bf3e6c319e911e1b71991d8a6fd14f4b"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.00345761971312301,
+            -0.0020492012317118264
+          ],
+          "replicate_sha256": "60de2bc5cf060bf6f336a77a7521a41e02728505c6ce4f19207c6c4eebe30c78"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.0029592235501417043,
+            -0.0015501006828650581
+          ],
+          "replicate_sha256": "a17d7c616d5c646f5301777c3f61f3736a4a4c4277c2ef1ea4d3a0c50f6f15d0"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "2025": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.27205344459646114,
+            0.3375126123740184
+          ],
+          "replicate_sha256": "28c672b94268a5c9763168cda766c1056ccd0e5f96b7b8c6fb0fe0b6fe1f1ad1"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.23029716094410257,
+            0.3038473813942983
+          ],
+          "replicate_sha256": "7dd0cefc04e7b5665d80ca279aa209fb0adf3b5524f602d9960462abd17ea6a3"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0009215522091552071,
+            0.0005797982944958395
+          ],
+          "replicate_sha256": "55703276eb5cf8ee75dd6a2a3bc66a64d15188ab8db1337264413abe56c5e3dc"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.0033164661081915626,
+            -0.00181871452632336
+          ],
+          "replicate_sha256": "c814d5893feb35a8423d2d0b3461bc2032e961c979cc7ef98a6c1b9c6c732e69"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.002817999350706219,
+            -0.0013194987052193778
+          ],
+          "replicate_sha256": "35a25e5bb8c3584111a7bf28660ad9b529dd1bfe3f7c24d2e2c53af7fc006771"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "pooled": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.2693500393399955,
+            0.31156317496414176
+          ],
+          "replicate_sha256": "e593c81d62f73835ee631919d66e45d0b0ca4b9e0a77a6d3188f20bdba2651e8"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.23458492052409077,
+            0.28031045984369135
+          ],
+          "replicate_sha256": "044057cd5ed0be44b0671bda621755924b719de1335646ad7bcec024ef80bd29"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0008019292750861309,
+            0.00026111600284888496
+          ],
+          "replicate_sha256": "31d2114f4e061303dbbec6e55caf4b11b5b7f9461cd6746553bb6cdc582bec9e"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.003197129925005845,
+            -0.0021366328973279163
+          ],
+          "replicate_sha256": "f0f718abe53ce6698eefde843758f92256fd5fac9f572167a780d281913a2180"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.002698603484463381,
+            -0.0016375760752784492
+          ],
+          "replicate_sha256": "c2573946468ee4546ac782b260c8b61f5e81e8497a54811c59d7a1d9c65a4a59"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    }
+  },
+  "H6": {
+    "2024": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.31932021466905186,
+            0.3926375139416051
+          ],
+          "replicate_sha256": "4c7051955b9eec1bb85005b5a75238c3deb7c92239c787223b145053639e47dd"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.2890709909327422,
+            0.3583881111087083
+          ],
+          "replicate_sha256": "e5a6e8b44fdb3dabc70faaf3fcc128103a6a46b8cbde7595d7280e4a138cd650"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.001499977266387151,
+            0.0009836530333678405
+          ],
+          "replicate_sha256": "fc3854e7a7b0e1bc23edba80d7922edc2dc8cf5f17244e15079da8418aa0bc98"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.0038935046094306573,
+            -0.0014158278769236645
+          ],
+          "replicate_sha256": "8c236a683073da7d95bef4bc23c9e2aa34df8c7a167a5f8be94ed1a3ca2dbb49"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.0033953264435602763,
+            -0.0009164105619704
+          ],
+          "replicate_sha256": "ade322c5a593c5f252e1ccd99a96fab75410f4b67331525e03cea0a019ec4c63"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "2025": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.3275229357798165,
+            0.3915018604030385
+          ],
+          "replicate_sha256": "ff4343521bc2dc0afaee521b1f8e0835c312d0eae74783d8b96743a201d756da"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.3044613742236025,
+            0.36330819428849415
+          ],
+          "replicate_sha256": "1345232d0b7ae26acab59cf9b7c4ac92b902ea6eec50110fd1e0b8903aad09a9"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0017766452648592004,
+            0.000932859312493977
+          ],
+          "replicate_sha256": "249a916305e005fa0754b9a42102e6494ca280daa88c243ed4706c3eca9d7983"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.004169509400687675,
+            -0.0014664998390023394
+          ],
+          "replicate_sha256": "604bf637de64404e73a0af0e8b15420c33cfbd654dbf0082e5dac597efc0c470"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.0036714692718257057,
+            -0.0009671078663847044
+          ],
+          "replicate_sha256": "07a34ed80c0318dedf41638acda48f23b56c0ddc80ac97d5368835c8c791ca74"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    },
+    "pooled": {
+      "complete_trades_and_all_horizons_preserved": true,
+      "generator": "PCG64",
+      "intervals": {
+        "GROSS40_prevalence": {
+          "ci95": [
+            0.33485403448493045,
+            0.38280854833946354
+          ],
+          "replicate_sha256": "2021dacc26e07ba044838772c25ea94b261ff1b604722843647b8ba115f3cfb9"
+        },
+        "GROSS50_prevalence": {
+          "ci95": [
+            0.30590855774859915,
+            0.35249384977039144
+          ],
+          "replicate_sha256": "b5872f9cce505268885b8548e1195ff8fee547cbe148ec9c6f1b3f3d79c8b67a"
+        },
+        "mean_C0": {
+          "ci95": [
+            -0.0012515319753414226,
+            0.0005859993513264699
+          ],
+          "replicate_sha256": "32c8987a9cc52a509b5454c1d05413d2d2cf49001caa213a95bc0b09cebea3c6"
+        },
+        "mean_C_BASE": {
+          "ci95": [
+            -0.0036456548722996335,
+            -0.001812528334188521
+          ],
+          "replicate_sha256": "920b3b081236b6d842a7d44f4b6a4ab66dc1f03043390ff2274ef0b7a4b33af8"
+        },
+        "mean_DESIGN_BNB": {
+          "ci95": [
+            -0.0031473527504787316,
+            -0.0013133094192126818
+          ],
+          "replicate_sha256": "a4ae3e5dffbb9797777ad4a9596e1a9d3353e20f9564184f3f794ce5e2d90e97"
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "UTC_entry_calendar_month"
+    }
+  }
+}

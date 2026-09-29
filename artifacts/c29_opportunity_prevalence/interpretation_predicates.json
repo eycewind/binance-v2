@@ -1,0 +1,8 @@
+{
+  "classification": "OPPORTUNITY_VARIATION_PRESENT",
+  "each_year_has_dependence_aware_positive_lower_bound": true,
+  "gross40_both_years_at_least_two_horizons": true,
+  "gross50_both_years_at_least_one_horizon": true,
+  "not_confined_to_one_month_or_symbol": true,
+  "opportunity_C_BASE_means_positive": true
+}

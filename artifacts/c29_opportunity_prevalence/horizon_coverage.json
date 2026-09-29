@@ -1,0 +1,66 @@
+{
+  "H12": {
+    "original_trade_count": 2199,
+    "unavailable_trade_count": 2,
+    "valid_by_symbol": {
+      "BNBUSDT": 441,
+      "BTCUSDT": 451,
+      "ETHUSDT": 434,
+      "SOLUSDT": 431,
+      "XRPUSDT": 440
+    },
+    "valid_by_year": {
+      "2024": 1093,
+      "2025": 1104
+    },
+    "valid_executable_trade_count": 2197
+  },
+  "H24": {
+    "original_trade_count": 2199,
+    "unavailable_trade_count": 3,
+    "valid_by_symbol": {
+      "BNBUSDT": 441,
+      "BTCUSDT": 451,
+      "ETHUSDT": 433,
+      "SOLUSDT": 431,
+      "XRPUSDT": 440
+    },
+    "valid_by_year": {
+      "2024": 1093,
+      "2025": 1103
+    },
+    "valid_executable_trade_count": 2196
+  },
+  "H3": {
+    "original_trade_count": 2199,
+    "unavailable_trade_count": 0,
+    "valid_by_symbol": {
+      "BNBUSDT": 442,
+      "BTCUSDT": 451,
+      "ETHUSDT": 434,
+      "SOLUSDT": 431,
+      "XRPUSDT": 441
+    },
+    "valid_by_year": {
+      "2024": 1093,
+      "2025": 1106
+    },
+    "valid_executable_trade_count": 2199
+  },
+  "H6": {
+    "original_trade_count": 2199,
+    "unavailable_trade_count": 1,
+    "valid_by_symbol": {
+      "BNBUSDT": 441,
+      "BTCUSDT": 451,
+      "ETHUSDT": 434,
+      "SOLUSDT": 431,
+      "XRPUSDT": 441
+    },
+    "valid_by_year": {
+      "2024": 1093,
+      "2025": 1105
+    },
+    "valid_executable_trade_count": 2198
+  }
+}

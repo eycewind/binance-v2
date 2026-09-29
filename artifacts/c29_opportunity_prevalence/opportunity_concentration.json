@@ -1,0 +1,98 @@
+{
+  "H12": {
+    "GROSS40": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 903,
+      "top_10_percent_share": 0.30712835781086234,
+      "top_10_trades_share": 0.05760009548899563,
+      "top_1_percent_share": 0.05760009548899563,
+      "top_1_trade_share": 0.009856329872358249,
+      "top_5_percent_share": 0.1893591411908511,
+      "top_5_trades_share": 0.033554604098569536,
+      "trades_required_for_50_percent": 197
+    },
+    "GROSS50": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 844,
+      "top_10_percent_share": 0.2972044328473189,
+      "top_10_trades_share": 0.05845919863235332,
+      "top_1_percent_share": 0.05382213563803466,
+      "top_1_trade_share": 0.010003336642111449,
+      "top_5_percent_share": 0.1827667931846593,
+      "top_5_trades_share": 0.034055069689997435,
+      "trades_required_for_50_percent": 192
+    }
+  },
+  "H24": {
+    "GROSS40": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 944,
+      "top_10_percent_share": 0.32983181961052843,
+      "top_10_trades_share": 0.07549057039667656,
+      "top_1_percent_share": 0.07549057039667656,
+      "top_1_trade_share": 0.011465278355903583,
+      "top_5_percent_share": 0.21401138504771813,
+      "top_5_trades_share": 0.04576550449294427,
+      "trades_required_for_50_percent": 189
+    },
+    "GROSS50": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 911,
+      "top_10_percent_share": 0.32507385546198075,
+      "top_10_trades_share": 0.07589106638775077,
+      "top_1_percent_share": 0.07589106638775077,
+      "top_1_trade_share": 0.011526104469601771,
+      "top_5_percent_share": 0.2093402394212444,
+      "top_5_trades_share": 0.046008301718910384,
+      "trades_required_for_50_percent": 187
+    }
+  },
+  "H3": {
+    "GROSS40": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 640,
+      "top_10_percent_share": 0.2942637835043696,
+      "top_10_trades_share": 0.07460979534833359,
+      "top_1_percent_share": 0.05694875847031909,
+      "top_1_trade_share": 0.011968902109092251,
+      "top_5_percent_share": 0.1807821092303094,
+      "top_5_trades_share": 0.04402917361443162,
+      "trades_required_for_50_percent": 150
+    },
+    "GROSS50": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 566,
+      "top_10_percent_share": 0.2836889102539493,
+      "top_10_trades_share": 0.07783815220211711,
+      "top_1_percent_share": 0.05291708073215665,
+      "top_1_trade_share": 0.012486795061026408,
+      "top_5_percent_share": 0.17484888459352724,
+      "top_5_trades_share": 0.045934310650942056,
+      "trades_required_for_50_percent": 140
+    }
+  },
+  "H6": {
+    "GROSS40": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 788,
+      "top_10_percent_share": 0.2912483774205105,
+      "top_10_trades_share": 0.06541294576831222,
+      "top_1_percent_share": 0.05556815495510612,
+      "top_1_trade_share": 0.011428909959280616,
+      "top_5_percent_share": 0.18252727307924826,
+      "top_5_trades_share": 0.03895017209925268,
+      "trades_required_for_50_percent": 183
+    },
+    "GROSS50": {
+      "months_with_at_least_one": 24,
+      "opportunity_count": 724,
+      "top_10_percent_share": 0.28306973309010747,
+      "top_10_trades_share": 0.0670295184029835,
+      "top_1_percent_share": 0.05694142988722382,
+      "top_1_trade_share": 0.01171135654332125,
+      "top_5_percent_share": 0.17686470345415775,
+      "top_5_trades_share": 0.0399127611034906,
+      "trades_required_for_50_percent": 176
+    }
+  }
+}

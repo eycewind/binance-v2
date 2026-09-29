@@ -1,0 +1,1358 @@
+{
+  "H12": {
+    "GROSS40": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 30,
+          "prevalence": 0.30612244897959184,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 42,
+          "prevalence": 0.5060240963855421,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 45,
+          "prevalence": 0.4787234042553192,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 51,
+          "prevalence": 0.5543478260869565,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 36,
+          "prevalence": 0.3673469387755102,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 36,
+          "prevalence": 0.391304347826087,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 45,
+          "prevalence": 0.5294117647058824,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 30,
+          "prevalence": 0.32608695652173914,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 34,
+          "prevalence": 0.3953488372093023,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 28,
+          "prevalence": 0.3076923076923077,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 39,
+          "prevalence": 0.43820224719101125,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 40,
+          "prevalence": 0.43010752688172044,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 40,
+          "prevalence": 0.43010752688172044,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 38,
+          "prevalence": 0.4418604651162791,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 39,
+          "prevalence": 0.43820224719101125,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 42,
+          "prevalence": 0.45652173913043476,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 48,
+          "prevalence": 0.47058823529411764,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 27,
+          "prevalence": 0.2967032967032967,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 43,
+          "prevalence": 0.46236559139784944,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 37,
+          "prevalence": 0.4065934065934066,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 37,
+          "prevalence": 0.42045454545454547,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 35,
+          "prevalence": 0.3763440860215054,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 27,
+          "prevalence": 0.2872340425531915,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 34,
+          "prevalence": 0.3695652173913043,
+          "valid_count": 92
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 195,
+          "prevalence": 0.4421768707482993,
+          "valid_count": 441
+        },
+        "BTCUSDT": {
+          "opportunity_count": 167,
+          "prevalence": 0.37028824833702884,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 182,
+          "prevalence": 0.41935483870967744,
+          "valid_count": 434
+        },
+        "SOLUSDT": {
+          "opportunity_count": 182,
+          "prevalence": 0.4222737819025522,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 177,
+          "prevalence": 0.4022727272727273,
+          "valid_count": 440
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 456,
+          "prevalence": 0.4172003659652333,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 447,
+          "prevalence": 0.4048913043478261,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "opportunity_count": 903,
+        "prevalence": 0.4110150204824761,
+        "valid_count": 2197
+      }
+    },
+    "GROSS40_GROSS50_intersection_count": 844,
+    "GROSS50": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 28,
+          "prevalence": 0.2857142857142857,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 41,
+          "prevalence": 0.4939759036144578,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 43,
+          "prevalence": 0.4574468085106383,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 47,
+          "prevalence": 0.5108695652173914,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 35,
+          "prevalence": 0.35714285714285715,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 32,
+          "prevalence": 0.34782608695652173,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 41,
+          "prevalence": 0.4823529411764706,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 29,
+          "prevalence": 0.31521739130434784,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 32,
+          "prevalence": 0.37209302325581395,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 27,
+          "prevalence": 0.2967032967032967,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 39,
+          "prevalence": 0.43820224719101125,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 38,
+          "prevalence": 0.40860215053763443,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 36,
+          "prevalence": 0.3870967741935484,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 35,
+          "prevalence": 0.4069767441860465,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 35,
+          "prevalence": 0.39325842696629215,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 41,
+          "prevalence": 0.44565217391304346,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 45,
+          "prevalence": 0.4411764705882353,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 22,
+          "prevalence": 0.24175824175824176,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 39,
+          "prevalence": 0.41935483870967744,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 36,
+          "prevalence": 0.3956043956043956,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 34,
+          "prevalence": 0.38636363636363635,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 33,
+          "prevalence": 0.3548387096774194,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 26,
+          "prevalence": 0.2765957446808511,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 30,
+          "prevalence": 0.32608695652173914,
+          "valid_count": 92
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 180,
+          "prevalence": 0.40816326530612246,
+          "valid_count": 441
+        },
+        "BTCUSDT": {
+          "opportunity_count": 152,
+          "prevalence": 0.3370288248337029,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 170,
+          "prevalence": 0.391705069124424,
+          "valid_count": 434
+        },
+        "SOLUSDT": {
+          "opportunity_count": 176,
+          "prevalence": 0.40835266821345706,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 166,
+          "prevalence": 0.37727272727272726,
+          "valid_count": 440
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 432,
+          "prevalence": 0.39524245196706315,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 412,
+          "prevalence": 0.37318840579710144,
+          "valid_count": 1104
+        }
+      },
+      "full_population": {
+        "opportunity_count": 844,
+        "prevalence": 0.38416021847974513,
+        "valid_count": 2197
+      }
+    }
+  },
+  "H24": {
+    "GROSS40": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 46,
+          "prevalence": 0.46938775510204084,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 44,
+          "prevalence": 0.5301204819277109,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 47,
+          "prevalence": 0.5,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 37,
+          "prevalence": 0.40217391304347827,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 45,
+          "prevalence": 0.45918367346938777,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 35,
+          "prevalence": 0.3804347826086957,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 42,
+          "prevalence": 0.49411764705882355,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 34,
+          "prevalence": 0.3695652173913043,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 46,
+          "prevalence": 0.5348837209302325,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 42,
+          "prevalence": 0.46153846153846156,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 45,
+          "prevalence": 0.5056179775280899,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 39,
+          "prevalence": 0.41935483870967744,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 38,
+          "prevalence": 0.40860215053763443,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 34,
+          "prevalence": 0.3953488372093023,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 37,
+          "prevalence": 0.4157303370786517,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 41,
+          "prevalence": 0.44565217391304346,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 32,
+          "prevalence": 0.3137254901960784,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 30,
+          "prevalence": 0.32967032967032966,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 48,
+          "prevalence": 0.5161290322580645,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 41,
+          "prevalence": 0.45054945054945056,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 40,
+          "prevalence": 0.45454545454545453,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 38,
+          "prevalence": 0.40860215053763443,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 32,
+          "prevalence": 0.3404255319148936,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 31,
+          "prevalence": 0.34065934065934067,
+          "valid_count": 91
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 198,
+          "prevalence": 0.4489795918367347,
+          "valid_count": 441
+        },
+        "BTCUSDT": {
+          "opportunity_count": 181,
+          "prevalence": 0.401330376940133,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 193,
+          "prevalence": 0.4457274826789838,
+          "valid_count": 433
+        },
+        "SOLUSDT": {
+          "opportunity_count": 200,
+          "prevalence": 0.46403712296983757,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 172,
+          "prevalence": 0.39090909090909093,
+          "valid_count": 440
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 502,
+          "prevalence": 0.4592863677950595,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 442,
+          "prevalence": 0.40072529465095197,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "opportunity_count": 944,
+        "prevalence": 0.42987249544626593,
+        "valid_count": 2196
+      }
+    },
+    "GROSS40_GROSS50_intersection_count": 911,
+    "GROSS50": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 46,
+          "prevalence": 0.46938775510204084,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 43,
+          "prevalence": 0.5180722891566265,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 47,
+          "prevalence": 0.5,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 36,
+          "prevalence": 0.391304347826087,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 45,
+          "prevalence": 0.45918367346938777,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 32,
+          "prevalence": 0.34782608695652173,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 41,
+          "prevalence": 0.4823529411764706,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 34,
+          "prevalence": 0.3695652173913043,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 42,
+          "prevalence": 0.4883720930232558,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 40,
+          "prevalence": 0.43956043956043955,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 43,
+          "prevalence": 0.48314606741573035,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 36,
+          "prevalence": 0.3870967741935484,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 37,
+          "prevalence": 0.3978494623655914,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 33,
+          "prevalence": 0.38372093023255816,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 37,
+          "prevalence": 0.4157303370786517,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 40,
+          "prevalence": 0.43478260869565216,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 32,
+          "prevalence": 0.3137254901960784,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 28,
+          "prevalence": 0.3076923076923077,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 45,
+          "prevalence": 0.4838709677419355,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 41,
+          "prevalence": 0.45054945054945056,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 36,
+          "prevalence": 0.4090909090909091,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 37,
+          "prevalence": 0.3978494623655914,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 31,
+          "prevalence": 0.32978723404255317,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 29,
+          "prevalence": 0.31868131868131866,
+          "valid_count": 91
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 192,
+          "prevalence": 0.43537414965986393,
+          "valid_count": 441
+        },
+        "BTCUSDT": {
+          "opportunity_count": 170,
+          "prevalence": 0.376940133037694,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 187,
+          "prevalence": 0.43187066974595845,
+          "valid_count": 433
+        },
+        "SOLUSDT": {
+          "opportunity_count": 198,
+          "prevalence": 0.4593967517401392,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 164,
+          "prevalence": 0.37272727272727274,
+          "valid_count": 440
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 485,
+          "prevalence": 0.44373284537968893,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 426,
+          "prevalence": 0.386219401631913,
+          "valid_count": 1103
+        }
+      },
+      "full_population": {
+        "opportunity_count": 911,
+        "prevalence": 0.41484517304189433,
+        "valid_count": 2196
+      }
+    }
+  },
+  "H3": {
+    "GROSS40": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 24,
+          "prevalence": 0.24489795918367346,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 20,
+          "prevalence": 0.24096385542168675,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 27,
+          "prevalence": 0.2872340425531915,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 24,
+          "prevalence": 0.2608695652173913,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 26,
+          "prevalence": 0.2653061224489796,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 18,
+          "prevalence": 0.1956521739130435,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 28,
+          "prevalence": 0.32941176470588235,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 29,
+          "prevalence": 0.31521739130434784,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 23,
+          "prevalence": 0.26744186046511625,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 22,
+          "prevalence": 0.24175824175824176,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 33,
+          "prevalence": 0.3707865168539326,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 29,
+          "prevalence": 0.3118279569892473,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 33,
+          "prevalence": 0.3548387096774194,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 28,
+          "prevalence": 0.32558139534883723,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 38,
+          "prevalence": 0.42696629213483145,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 17,
+          "prevalence": 0.18478260869565216,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 28,
+          "prevalence": 0.27450980392156865,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 22,
+          "prevalence": 0.24175824175824176,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 29,
+          "prevalence": 0.3118279569892473,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 29,
+          "prevalence": 0.31868131868131866,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 23,
+          "prevalence": 0.26136363636363635,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 32,
+          "prevalence": 0.34408602150537637,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 28,
+          "prevalence": 0.2978723404255319,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 30,
+          "prevalence": 0.3191489361702128,
+          "valid_count": 94
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 128,
+          "prevalence": 0.2895927601809955,
+          "valid_count": 442
+        },
+        "BTCUSDT": {
+          "opportunity_count": 111,
+          "prevalence": 0.24611973392461198,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 133,
+          "prevalence": 0.3064516129032258,
+          "valid_count": 434
+        },
+        "SOLUSDT": {
+          "opportunity_count": 130,
+          "prevalence": 0.30162412993039445,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 138,
+          "prevalence": 0.3129251700680272,
+          "valid_count": 441
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 303,
+          "prevalence": 0.27721866422689845,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 337,
+          "prevalence": 0.3047016274864376,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "opportunity_count": 640,
+        "prevalence": 0.29104138244656663,
+        "valid_count": 2199
+      }
+    },
+    "GROSS40_GROSS50_intersection_count": 566,
+    "GROSS50": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 21,
+          "prevalence": 0.21428571428571427,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 20,
+          "prevalence": 0.24096385542168675,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 26,
+          "prevalence": 0.2765957446808511,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 23,
+          "prevalence": 0.25,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 24,
+          "prevalence": 0.24489795918367346,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 13,
+          "prevalence": 0.14130434782608695,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 26,
+          "prevalence": 0.3058823529411765,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 26,
+          "prevalence": 0.2826086956521739,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 18,
+          "prevalence": 0.20930232558139536,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 20,
+          "prevalence": 0.21978021978021978,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 30,
+          "prevalence": 0.33707865168539325,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 25,
+          "prevalence": 0.26881720430107525,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 31,
+          "prevalence": 0.3333333333333333,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 28,
+          "prevalence": 0.32558139534883723,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 36,
+          "prevalence": 0.4044943820224719,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 15,
+          "prevalence": 0.16304347826086957,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 22,
+          "prevalence": 0.21568627450980393,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 19,
+          "prevalence": 0.2087912087912088,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 26,
+          "prevalence": 0.27956989247311825,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 26,
+          "prevalence": 0.2857142857142857,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 18,
+          "prevalence": 0.20454545454545456,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 28,
+          "prevalence": 0.3010752688172043,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 23,
+          "prevalence": 0.24468085106382978,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 22,
+          "prevalence": 0.23404255319148937,
+          "valid_count": 94
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 114,
+          "prevalence": 0.2579185520361991,
+          "valid_count": 442
+        },
+        "BTCUSDT": {
+          "opportunity_count": 93,
+          "prevalence": 0.20620842572062084,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 113,
+          "prevalence": 0.26036866359447003,
+          "valid_count": 434
+        },
+        "SOLUSDT": {
+          "opportunity_count": 117,
+          "prevalence": 0.271461716937355,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 129,
+          "prevalence": 0.2925170068027211,
+          "valid_count": 441
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 272,
+          "prevalence": 0.24885635864592864,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 294,
+          "prevalence": 0.26582278481012656,
+          "valid_count": 1106
+        }
+      },
+      "full_population": {
+        "opportunity_count": 566,
+        "prevalence": 0.25738972260118237,
+        "valid_count": 2199
+      }
+    }
+  },
+  "H6": {
+    "GROSS40": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 24,
+          "prevalence": 0.24489795918367346,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 26,
+          "prevalence": 0.3132530120481928,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 41,
+          "prevalence": 0.43617021276595747,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 36,
+          "prevalence": 0.391304347826087,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 32,
+          "prevalence": 0.32653061224489793,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 33,
+          "prevalence": 0.358695652173913,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 38,
+          "prevalence": 0.4470588235294118,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 26,
+          "prevalence": 0.2826086956521739,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 32,
+          "prevalence": 0.37209302325581395,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 27,
+          "prevalence": 0.2967032967032967,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 41,
+          "prevalence": 0.4606741573033708,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 34,
+          "prevalence": 0.3655913978494624,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 37,
+          "prevalence": 0.3978494623655914,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 36,
+          "prevalence": 0.4186046511627907,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 40,
+          "prevalence": 0.449438202247191,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 31,
+          "prevalence": 0.33695652173913043,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 42,
+          "prevalence": 0.4117647058823529,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 24,
+          "prevalence": 0.26373626373626374,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 33,
+          "prevalence": 0.3548387096774194,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 31,
+          "prevalence": 0.34065934065934067,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 32,
+          "prevalence": 0.36363636363636365,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 31,
+          "prevalence": 0.3333333333333333,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 25,
+          "prevalence": 0.26595744680851063,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 36,
+          "prevalence": 0.3870967741935484,
+          "valid_count": 93
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 166,
+          "prevalence": 0.3764172335600907,
+          "valid_count": 441
+        },
+        "BTCUSDT": {
+          "opportunity_count": 139,
+          "prevalence": 0.3082039911308204,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 157,
+          "prevalence": 0.3617511520737327,
+          "valid_count": 434
+        },
+        "SOLUSDT": {
+          "opportunity_count": 180,
+          "prevalence": 0.4176334106728538,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 146,
+          "prevalence": 0.3310657596371882,
+          "valid_count": 441
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 390,
+          "prevalence": 0.35681610247026535,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 398,
+          "prevalence": 0.3601809954751131,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "opportunity_count": 788,
+        "prevalence": 0.35850773430391264,
+        "valid_count": 2198
+      }
+    },
+    "GROSS40_GROSS50_intersection_count": 724,
+    "GROSS50": {
+      "by_entry_month": {
+        "2024-01": {
+          "opportunity_count": 22,
+          "prevalence": 0.22448979591836735,
+          "valid_count": 98
+        },
+        "2024-02": {
+          "opportunity_count": 24,
+          "prevalence": 0.2891566265060241,
+          "valid_count": 83
+        },
+        "2024-03": {
+          "opportunity_count": 38,
+          "prevalence": 0.40425531914893614,
+          "valid_count": 94
+        },
+        "2024-04": {
+          "opportunity_count": 33,
+          "prevalence": 0.358695652173913,
+          "valid_count": 92
+        },
+        "2024-05": {
+          "opportunity_count": 30,
+          "prevalence": 0.30612244897959184,
+          "valid_count": 98
+        },
+        "2024-06": {
+          "opportunity_count": 25,
+          "prevalence": 0.2717391304347826,
+          "valid_count": 92
+        },
+        "2024-07": {
+          "opportunity_count": 34,
+          "prevalence": 0.4,
+          "valid_count": 85
+        },
+        "2024-08": {
+          "opportunity_count": 22,
+          "prevalence": 0.2391304347826087,
+          "valid_count": 92
+        },
+        "2024-09": {
+          "opportunity_count": 31,
+          "prevalence": 0.36046511627906974,
+          "valid_count": 86
+        },
+        "2024-10": {
+          "opportunity_count": 25,
+          "prevalence": 0.27472527472527475,
+          "valid_count": 91
+        },
+        "2024-11": {
+          "opportunity_count": 37,
+          "prevalence": 0.4157303370786517,
+          "valid_count": 89
+        },
+        "2024-12": {
+          "opportunity_count": 33,
+          "prevalence": 0.3548387096774194,
+          "valid_count": 93
+        },
+        "2025-01": {
+          "opportunity_count": 34,
+          "prevalence": 0.3655913978494624,
+          "valid_count": 93
+        },
+        "2025-02": {
+          "opportunity_count": 35,
+          "prevalence": 0.4069767441860465,
+          "valid_count": 86
+        },
+        "2025-03": {
+          "opportunity_count": 36,
+          "prevalence": 0.4044943820224719,
+          "valid_count": 89
+        },
+        "2025-04": {
+          "opportunity_count": 29,
+          "prevalence": 0.31521739130434784,
+          "valid_count": 92
+        },
+        "2025-05": {
+          "opportunity_count": 39,
+          "prevalence": 0.38235294117647056,
+          "valid_count": 102
+        },
+        "2025-06": {
+          "opportunity_count": 21,
+          "prevalence": 0.23076923076923078,
+          "valid_count": 91
+        },
+        "2025-07": {
+          "opportunity_count": 31,
+          "prevalence": 0.3333333333333333,
+          "valid_count": 93
+        },
+        "2025-08": {
+          "opportunity_count": 30,
+          "prevalence": 0.32967032967032966,
+          "valid_count": 91
+        },
+        "2025-09": {
+          "opportunity_count": 29,
+          "prevalence": 0.32954545454545453,
+          "valid_count": 88
+        },
+        "2025-10": {
+          "opportunity_count": 30,
+          "prevalence": 0.3225806451612903,
+          "valid_count": 93
+        },
+        "2025-11": {
+          "opportunity_count": 24,
+          "prevalence": 0.2553191489361702,
+          "valid_count": 94
+        },
+        "2025-12": {
+          "opportunity_count": 32,
+          "prevalence": 0.34408602150537637,
+          "valid_count": 93
+        }
+      },
+      "by_symbol": {
+        "BNBUSDT": {
+          "opportunity_count": 151,
+          "prevalence": 0.3424036281179138,
+          "valid_count": 441
+        },
+        "BTCUSDT": {
+          "opportunity_count": 126,
+          "prevalence": 0.2793791574279379,
+          "valid_count": 451
+        },
+        "ETHUSDT": {
+          "opportunity_count": 142,
+          "prevalence": 0.3271889400921659,
+          "valid_count": 434
+        },
+        "SOLUSDT": {
+          "opportunity_count": 173,
+          "prevalence": 0.4013921113689095,
+          "valid_count": 431
+        },
+        "XRPUSDT": {
+          "opportunity_count": 132,
+          "prevalence": 0.29931972789115646,
+          "valid_count": 441
+        }
+      },
+      "by_year": {
+        "2024": {
+          "opportunity_count": 354,
+          "prevalence": 0.32387923147301007,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 370,
+          "prevalence": 0.334841628959276,
+          "valid_count": 1105
+        }
+      },
+      "full_population": {
+        "opportunity_count": 724,
+        "prevalence": 0.3293903548680619,
+        "valid_count": 2198
+      }
+    }
+  }
+}

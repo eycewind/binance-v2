@@ -1,0 +1,613 @@
+{
+  "MFE_limitation": "MFE is retrospective and is not used as a C29 target, policy, or opportunity label.",
+  "classification": "OPPORTUNITY_VARIATION_PRESENT",
+  "confirmations": {
+    "C30_started": false,
+    "accessed_2026": false,
+    "model_fitted": false,
+    "pnl_optimization": false,
+    "threshold_horizon_or_policy_search": false
+  },
+  "contract_sha256": "8d0ee3cd336b95a61147622d66f6b8ec30787c7e07d26e41348debd52dccb19d",
+  "execution_timing": {
+    "entry_decision_timestamp_rule": "available_at_ms of the completed E1 hourly bar",
+    "entry_fill_timestamp_rule": "next valid executable 1-minute open; frozen entries fill exactly at decision timestamp",
+    "exit_fill_rule": "first valid executable 1-minute open at or after endpoint; all included fills occur exactly at endpoint",
+    "horizon_anchor": "entry decision timestamp",
+    "horizon_end_timestamp_rule": "entry decision timestamp plus exactly H hours",
+    "horizons_hours": [
+      3,
+      6,
+      12,
+      24
+    ],
+    "mfe_exit": false,
+    "no_interpolation": true,
+    "no_synthetic_fills": true
+  },
+  "horizon_coverage": {
+    "H12": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 2,
+      "valid_by_symbol": {
+        "BNBUSDT": 441,
+        "BTCUSDT": 451,
+        "ETHUSDT": 434,
+        "SOLUSDT": 431,
+        "XRPUSDT": 440
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1104
+      },
+      "valid_executable_trade_count": 2197
+    },
+    "H24": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 3,
+      "valid_by_symbol": {
+        "BNBUSDT": 441,
+        "BTCUSDT": 451,
+        "ETHUSDT": 433,
+        "SOLUSDT": 431,
+        "XRPUSDT": 440
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1103
+      },
+      "valid_executable_trade_count": 2196
+    },
+    "H3": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 0,
+      "valid_by_symbol": {
+        "BNBUSDT": 442,
+        "BTCUSDT": 451,
+        "ETHUSDT": 434,
+        "SOLUSDT": 431,
+        "XRPUSDT": 441
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1106
+      },
+      "valid_executable_trade_count": 2199
+    },
+    "H6": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 1,
+      "valid_by_symbol": {
+        "BNBUSDT": 441,
+        "BTCUSDT": 451,
+        "ETHUSDT": 434,
+        "SOLUSDT": 431,
+        "XRPUSDT": 441
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1105
+      },
+      "valid_executable_trade_count": 2198
+    }
+  },
+  "interpretation_predicates": {
+    "classification": "OPPORTUNITY_VARIATION_PRESENT",
+    "each_year_has_dependence_aware_positive_lower_bound": true,
+    "gross40_both_years_at_least_two_horizons": true,
+    "gross50_both_years_at_least_one_horizon": true,
+    "not_confined_to_one_month_or_symbol": true,
+    "opportunity_C_BASE_means_positive": true
+  },
+  "later_entry_state_prediction_study_justified": true,
+  "no_preferred_holding_horizon": "No preferred holding horizon was selected.",
+  "opportunity_prevalence": {
+    "H12": {
+      "GROSS40": {
+        "2024": {
+          "opportunity_count": 456,
+          "prevalence": 0.4172003659652333,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 447,
+          "prevalence": 0.4048913043478261,
+          "valid_count": 1104
+        },
+        "pooled": {
+          "opportunity_count": 903,
+          "prevalence": 0.4110150204824761,
+          "valid_count": 2197
+        }
+      },
+      "GROSS50": {
+        "2024": {
+          "opportunity_count": 432,
+          "prevalence": 0.39524245196706315,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 412,
+          "prevalence": 0.37318840579710144,
+          "valid_count": 1104
+        },
+        "pooled": {
+          "opportunity_count": 844,
+          "prevalence": 0.38416021847974513,
+          "valid_count": 2197
+        }
+      }
+    },
+    "H24": {
+      "GROSS40": {
+        "2024": {
+          "opportunity_count": 502,
+          "prevalence": 0.4592863677950595,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 442,
+          "prevalence": 0.40072529465095197,
+          "valid_count": 1103
+        },
+        "pooled": {
+          "opportunity_count": 944,
+          "prevalence": 0.42987249544626593,
+          "valid_count": 2196
+        }
+      },
+      "GROSS50": {
+        "2024": {
+          "opportunity_count": 485,
+          "prevalence": 0.44373284537968893,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 426,
+          "prevalence": 0.386219401631913,
+          "valid_count": 1103
+        },
+        "pooled": {
+          "opportunity_count": 911,
+          "prevalence": 0.41484517304189433,
+          "valid_count": 2196
+        }
+      }
+    },
+    "H3": {
+      "GROSS40": {
+        "2024": {
+          "opportunity_count": 303,
+          "prevalence": 0.27721866422689845,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 337,
+          "prevalence": 0.3047016274864376,
+          "valid_count": 1106
+        },
+        "pooled": {
+          "opportunity_count": 640,
+          "prevalence": 0.29104138244656663,
+          "valid_count": 2199
+        }
+      },
+      "GROSS50": {
+        "2024": {
+          "opportunity_count": 272,
+          "prevalence": 0.24885635864592864,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 294,
+          "prevalence": 0.26582278481012656,
+          "valid_count": 1106
+        },
+        "pooled": {
+          "opportunity_count": 566,
+          "prevalence": 0.25738972260118237,
+          "valid_count": 2199
+        }
+      }
+    },
+    "H6": {
+      "GROSS40": {
+        "2024": {
+          "opportunity_count": 390,
+          "prevalence": 0.35681610247026535,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 398,
+          "prevalence": 0.3601809954751131,
+          "valid_count": 1105
+        },
+        "pooled": {
+          "opportunity_count": 788,
+          "prevalence": 0.35850773430391264,
+          "valid_count": 2198
+        }
+      },
+      "GROSS50": {
+        "2024": {
+          "opportunity_count": 354,
+          "prevalence": 0.32387923147301007,
+          "valid_count": 1093
+        },
+        "2025": {
+          "opportunity_count": 370,
+          "prevalence": 0.334841628959276,
+          "valid_count": 1105
+        },
+        "pooled": {
+          "opportunity_count": 724,
+          "prevalence": 0.3293903548680619,
+          "valid_count": 2198
+        }
+      }
+    }
+  },
+  "population_reconciliation": {
+    "expected_entry_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "frozen_entry_file_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "original_trade_count": 2199,
+    "reproduced_count": 2199,
+    "semantic_entry_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "status": "PASS",
+    "symbol_counts": {
+      "BNBUSDT": 442,
+      "BTCUSDT": 451,
+      "ETHUSDT": 434,
+      "SOLUSDT": 431,
+      "XRPUSDT": 441
+    },
+    "timestamps_prices_and_24h_refractory_exact": true,
+    "unique_trade_count": 2199,
+    "year_counts": {
+      "2024": 1093,
+      "2025": 1106
+    }
+  },
+  "whole_population_economics": {
+    "H12": {
+      "C0": {
+        "exact_zero_fraction": 0.0013654984069185253,
+        "mean": -8.381261883670524e-05,
+        "median": 0.0004332172479348628,
+        "negative_fraction": 0.4906690942193901,
+        "p10": -0.02516488327868021,
+        "p25": -0.011754238081858262,
+        "p75": 0.011526270291038374,
+        "p90": 0.025410217285254486,
+        "positive_fraction": 0.5079654073736914,
+        "total_pnl_usdt": -184.1363235842474,
+        "trade_count": 2197
+      },
+      "C_BASE": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0024807346826904147,
+        "median": -0.0019649442000903216,
+        "negative_fraction": 0.5498406918525262,
+        "p10": -0.027501682931867548,
+        "p25": -0.014123184700729957,
+        "p75": 0.009101517430722893,
+        "p90": 0.022952182896643185,
+        "positive_fraction": 0.45015930814747385,
+        "total_pnl_usdt": -5455.624271968716,
+        "trade_count": 2197
+      },
+      "C_S10": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.004075490021877761,
+        "median": -0.003560524144530279,
+        "negative_fraction": 0.5889849795175239,
+        "p10": -0.0290564367470751,
+        "p25": -0.015699327006592392,
+        "p75": 0.007488245297885633,
+        "p90": 0.021316767409315342,
+        "positive_fraction": 0.4110150204824761,
+        "total_pnl_usdt": -8962.805429643511,
+        "trade_count": 2197
+      },
+      "C_S5": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0030790668020781336,
+        "median": -0.002563585700983793,
+        "negative_fraction": 0.5653163404642695,
+        "p10": -0.028085006983225476,
+        "p25": -0.014714533444420964,
+        "p75": 0.008496238043552705,
+        "p90": 0.022338595601734772,
+        "positive_fraction": 0.4346836595357305,
+        "total_pnl_usdt": -6771.474473929828,
+        "trade_count": 2197
+      },
+      "DESIGN_BNB": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0019818499546862115,
+        "median": -0.001465801512161329,
+        "negative_fraction": 0.536185707783341,
+        "p10": -0.027015311815776107,
+        "p25": -0.013630122657773039,
+        "p75": 0.009606194737272873,
+        "p90": 0.02346378727288878,
+        "positive_fraction": 0.4638142922166591,
+        "total_pnl_usdt": -4357.389943708446,
+        "trade_count": 2197
+      },
+      "cost_drag_from_C0": {
+        "C_BASE": {
+          "mean_return_drag": 0.0023969220638537093,
+          "total_pnl_drag_usdt": 5271.487948384469
+        },
+        "C_S10": {
+          "mean_return_drag": 0.003991677403041056,
+          "total_pnl_drag_usdt": 8778.669106059264
+        },
+        "C_S5": {
+          "mean_return_drag": 0.0029952541832414283,
+          "total_pnl_drag_usdt": 6587.33815034558
+        },
+        "DESIGN_BNB": {
+          "mean_return_drag": 0.0018980373358495062,
+          "total_pnl_drag_usdt": 4173.253620124198
+        }
+      }
+    },
+    "H24": {
+      "C0": {
+        "exact_zero_fraction": 0.001366120218579235,
+        "mean": 0.0007484674940534977,
+        "median": 0.0001900710823773011,
+        "negative_fraction": 0.49635701275045535,
+        "p10": -0.03954996855745821,
+        "p25": -0.016994183076352583,
+        "p75": 0.01678725067252077,
+        "p90": 0.03922375054716912,
+        "positive_fraction": 0.5022768670309654,
+        "total_pnl_usdt": 1643.6346169414837,
+        "trade_count": 2196
+      },
+      "C_BASE": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0016504496475787994,
+        "median": -0.0022075075143885344,
+        "negative_fraction": 0.5359744990892532,
+        "p10": -0.0418522853922552,
+        "p25": -0.01935056890270058,
+        "p75": 0.01434988659527208,
+        "p90": 0.03673260342063704,
+        "positive_fraction": 0.4640255009107468,
+        "total_pnl_usdt": -3628.011813509129,
+        "trade_count": 2196
+      },
+      "C_S10": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.003246532381172281,
+        "median": -0.0038026996676812875,
+        "negative_fraction": 0.5701275045537341,
+        "p10": -0.043384096593029,
+        "p25": -0.020918354077873066,
+        "p75": 0.01272822378263742,
+        "p90": 0.03507515688090672,
+        "positive_fraction": 0.42987249544626593,
+        "total_pnl_usdt": -7136.514494163388,
+        "trade_count": 2196
+      },
+      "C_S5": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0022492797886308883,
+        "median": -0.0028060035209276496,
+        "negative_fraction": 0.5500910746812386,
+        "p10": -0.042427001663609874,
+        "p25": -0.019938782156204156,
+        "p75": 0.013741459130711732,
+        "p90": 0.03611075035231996,
+        "positive_fraction": 0.44990892531876137,
+        "total_pnl_usdt": -4944.357834249275,
+        "trade_count": 2196
+      },
+      "DESIGN_BNB": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.001151149672933946,
+        "median": -0.001708486138535672,
+        "negative_fraction": 0.5295992714025501,
+        "p10": -0.04137309137705203,
+        "p25": -0.018860121207392295,
+        "p75": 0.014857188744583694,
+        "p90": 0.03725109973529829,
+        "positive_fraction": 0.4704007285974499,
+        "total_pnl_usdt": -2529.820625274268,
+        "trade_count": 2196
+      },
+      "cost_drag_from_C0": {
+        "C_BASE": {
+          "mean_return_drag": 0.002398917141632297,
+          "total_pnl_drag_usdt": 5271.646430450613
+        },
+        "C_S10": {
+          "mean_return_drag": 0.003994999875225779,
+          "total_pnl_drag_usdt": 8780.14911110487
+        },
+        "C_S5": {
+          "mean_return_drag": 0.002997747282684386,
+          "total_pnl_drag_usdt": 6587.992451190758
+        },
+        "DESIGN_BNB": {
+          "mean_return_drag": 0.0018996171669874435,
+          "total_pnl_drag_usdt": 4173.455242215752
+        }
+      }
+    },
+    "H3": {
+      "C0": {
+        "exact_zero_fraction": 0.004092769440654843,
+        "mean": -0.0002426093607228447,
+        "median": -5.974299649153636e-05,
+        "negative_fraction": 0.5038653933606184,
+        "p10": -0.013095601118628813,
+        "p25": -0.005367407683925478,
+        "p75": 0.005168494266023685,
+        "p90": 0.01200132652821219,
+        "positive_fraction": 0.4920418371987267,
+        "total_pnl_usdt": -533.4979842295386,
+        "trade_count": 2199
+      },
+      "C_BASE": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0026391507692585412,
+        "median": -0.0024567227581899467,
+        "negative_fraction": 0.6398362892223738,
+        "p10": -0.015461332325349752,
+        "p25": -0.00775166432066862,
+        "p75": 0.0027589817766749195,
+        "p90": 0.009575434899677174,
+        "positive_fraction": 0.3601637107776262,
+        "total_pnl_usdt": -5809.296034141139,
+        "trade_count": 2199
+      },
+      "C_S10": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.004233652845267271,
+        "median": -0.0040515164857534165,
+        "negative_fraction": 0.7094133697135061,
+        "p10": -0.017035335306045195,
+        "p25": -0.009337992912148027,
+        "p75": 0.0011558495909545496,
+        "p90": 0.007961405104867652,
+        "positive_fraction": 0.29058663028649384,
+        "total_pnl_usdt": -9319.112409349484,
+        "trade_count": 2199
+      },
+      "C_S5": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0032373878674911614,
+        "median": -0.003055069280412931,
+        "negative_fraction": 0.671668940427467,
+        "p10": -0.01605187842118038,
+        "p25": -0.008346834830440335,
+        "p75": 0.002157506769963488,
+        "p90": 0.008969871247276813,
+        "positive_fraction": 0.32833105957253295,
+        "total_pnl_usdt": -7126.134936533679,
+        "trade_count": 2199
+      },
+      "DESIGN_BNB": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0021403452691640197,
+        "median": -0.001957826021212223,
+        "negative_fraction": 0.614824920418372,
+        "p10": -0.014968939524017537,
+        "p25": -0.007255415718491977,
+        "p75": 0.0032604870200030134,
+        "p90": 0.010080349224393903,
+        "positive_fraction": 0.385175079581628,
+        "total_pnl_usdt": -4710.149211326847,
+        "trade_count": 2199
+      },
+      "cost_drag_from_C0": {
+        "C_BASE": {
+          "mean_return_drag": 0.0023965414085356965,
+          "total_pnl_drag_usdt": 5275.7980499116
+        },
+        "C_S10": {
+          "mean_return_drag": 0.003991043484544427,
+          "total_pnl_drag_usdt": 8785.614425119946
+        },
+        "C_S5": {
+          "mean_return_drag": 0.0029947785067683166,
+          "total_pnl_drag_usdt": 6592.63695230414
+        },
+        "DESIGN_BNB": {
+          "mean_return_drag": 0.001897735908441175,
+          "total_pnl_drag_usdt": 4176.651227097308
+        }
+      }
+    },
+    "H6": {
+      "C0": {
+        "exact_zero_fraction": 0.001364877161055505,
+        "mean": -0.0002769454089505439,
+        "median": 6.319726148325345e-05,
+        "negative_fraction": 0.4968152866242038,
+        "p10": -0.01897045481484614,
+        "p25": -0.007654038363635181,
+        "p75": 0.0071322598304908525,
+        "p90": 0.018027841694292293,
+        "positive_fraction": 0.5018198362147407,
+        "total_pnl_usdt": -608.7260088732986,
+        "trade_count": 2198
+      },
+      "C_BASE": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0026734045097562336,
+        "median": -0.0023340772031317262,
+        "negative_fraction": 0.5855323020928116,
+        "p10": -0.02132210327480887,
+        "p25": -0.010032813665445221,
+        "p75": 0.004718039953593995,
+        "p90": 0.015587503767805488,
+        "positive_fraction": 0.41446769790718835,
+        "total_pnl_usdt": -5882.019255556645,
+        "trade_count": 2198
+      },
+      "C_S10": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.00426785182357896,
+        "median": -0.003929067006761617,
+        "negative_fraction": 0.6424021838034577,
+        "p10": -0.022886736515902856,
+        "p25": -0.01161549533478137,
+        "p75": 0.0031117757797544275,
+        "p90": 0.013963862350182805,
+        "positive_fraction": 0.3575978161965423,
+        "total_pnl_usdt": -9390.119046534788,
+        "trade_count": 2198
+      },
+      "C_S5": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0032716210619063222,
+        "median": -0.002932497290625666,
+        "negative_fraction": 0.6041856232939036,
+        "p10": -0.021909133962340635,
+        "p25": -0.010626615895956933,
+        "p75": 0.004115389864383443,
+        "p90": 0.014978333955571473,
+        "positive_fraction": 0.3958143767060964,
+        "total_pnl_usdt": -7198.214117164178,
+        "trade_count": 2198
+      },
+      "DESIGN_BNB": {
+        "exact_zero_fraction": 0.0,
+        "mean": -0.0021746161408276008,
+        "median": -0.0018351191279959364,
+        "negative_fraction": 0.5696087352138307,
+        "p10": -0.020832641593929793,
+        "p25": -0.009537705924011812,
+        "p75": 0.005220524971688996,
+        "p90": 0.01609542488090845,
+        "positive_fraction": 0.43039126478616924,
+        "total_pnl_usdt": -4783.391132247218,
+        "trade_count": 2198
+      },
+      "cost_drag_from_C0": {
+        "C_BASE": {
+          "mean_return_drag": 0.00239645910080569,
+          "total_pnl_drag_usdt": 5273.293246683346
+        },
+        "C_S10": {
+          "mean_return_drag": 0.003990906414628416,
+          "total_pnl_drag_usdt": 8781.39303766149
+        },
+        "C_S5": {
+          "mean_return_drag": 0.0029946756529557784,
+          "total_pnl_drag_usdt": 6589.48810829088
+        },
+        "DESIGN_BNB": {
+          "mean_return_drag": 0.001897670731877057,
+          "total_pnl_drag_usdt": 4174.665123373919
+        }
+      }
+    }
+  }
+}

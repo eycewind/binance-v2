@@ -1,0 +1,118 @@
+{
+  "H12": {
+    "C0": {
+      "mean_negative_return": -0.01739886020384805,
+      "mean_positive_return": 0.016641429190111075,
+      "positive_contribution_fraction_from_GROSS40": 0.9767607916411666,
+      "positive_contribution_fraction_from_GROSS50": 0.9624065362623887,
+      "positive_to_absolute_negative_contribution_ratio": 0.9901825226408444,
+      "total_negative_contribution_usdt": -18755.971299748184,
+      "total_positive_contribution_usdt": 18571.834976163933
+    },
+    "C_BASE": {
+      "mean_negative_return": -0.017755463593822768,
+      "mean_positive_return": 0.016176365948905015,
+      "positive_contribution_fraction_from_GROSS40": 0.995857584898489,
+      "positive_contribution_fraction_from_GROSS50": 0.9880745960850043,
+      "positive_to_absolute_negative_contribution_ratio": 0.7458960448491386,
+      "total_negative_contribution_usdt": -21448.60002133787,
+      "total_positive_contribution_usdt": 15998.425923467066
+    },
+    "DESIGN_BNB": {
+      "mean_negative_return": -0.01771013412015625,
+      "mean_positive_return": 0.016200602201274245,
+      "positive_contribution_fraction_from_GROSS40": 0.9929321783192908,
+      "positive_contribution_fraction_from_GROSS50": 0.983598438221224,
+      "positive_to_absolute_negative_contribution_ratio": 0.7912945993534932,
+      "total_negative_contribution_usdt": -20862.537993544058,
+      "total_positive_contribution_usdt": 16508.413643098476
+    }
+  },
+  "H24": {
+    "C0": {
+      "mean_negative_return": -0.02471376103968624,
+      "mean_positive_return": 0.02591263295575656,
+      "positive_contribution_fraction_from_GROSS40": 0.9883599019116744,
+      "positive_contribution_fraction_from_GROSS50": 0.983144081429832,
+      "positive_to_absolute_negative_contribution_ratio": 1.0610154668282696,
+      "total_negative_contribution_usdt": -26937.999533258033,
+      "total_positive_contribution_usdt": 28581.63415019948
+    },
+    "C_BASE": {
+      "mean_negative_return": -0.025150881346120684,
+      "mean_positive_return": 0.025493817387930325,
+      "positive_contribution_fraction_from_GROSS40": 0.997695796260853,
+      "positive_contribution_fraction_from_GROSS50": 0.9950160778893838,
+      "positive_to_absolute_negative_contribution_ratio": 0.8775651809107629,
+      "total_negative_contribution_usdt": -29602.587344384025,
+      "total_positive_contribution_usdt": 25978.199918301027
+    },
+    "DESIGN_BNB": {
+      "mean_negative_return": -0.0249630866226443,
+      "mean_positive_return": 0.02565744923559765,
+      "positive_contribution_fraction_from_GROSS40": 0.9961997112982954,
+      "positive_contribution_fraction_from_GROSS50": 0.992949155068125,
+      "positive_to_absolute_negative_contribution_ratio": 0.9129264739229376,
+      "total_negative_contribution_usdt": -29032.069742135267,
+      "total_positive_contribution_usdt": 26504.145060372357
+    }
+  },
+  "H3": {
+    "C0": {
+      "mean_negative_return": -0.008455638921486569,
+      "mean_positive_return": 0.008165757801088339,
+      "positive_contribution_fraction_from_GROSS40": 0.9074215535693099,
+      "positive_contribution_fraction_from_GROSS50": 0.8697860174105179,
+      "positive_to_absolute_negative_contribution_ratio": 0.9430561805998017,
+      "total_negative_contribution_usdt": -9368.847925007121,
+      "total_positive_contribution_usdt": 8835.349940777593
+    },
+    "C_BASE": {
+      "mean_negative_return": -0.008795340321137775,
+      "mean_positive_return": 0.00829741324525419,
+      "positive_contribution_fraction_from_GROSS40": 0.9836352664514155,
+      "positive_contribution_fraction_from_GROSS50": 0.9601493456218612,
+      "positive_to_absolute_negative_contribution_ratio": 0.5310325667964726,
+      "total_negative_contribution_usdt": -12375.04383184088,
+      "total_positive_contribution_usdt": 6571.551290241318
+    },
+    "DESIGN_BNB": {
+      "mean_negative_return": -0.008646696315953216,
+      "mean_positive_return": 0.008245235150268084,
+      "positive_contribution_fraction_from_GROSS40": 0.9718786468774558,
+      "positive_contribution_fraction_from_GROSS50": 0.9444683895979421,
+      "positive_to_absolute_negative_contribution_ratio": 0.5973922147357932,
+      "total_negative_contribution_usdt": -11690.333419168734,
+      "total_positive_contribution_usdt": 6983.7141722770675
+    }
+  },
+  "H6": {
+    "C0": {
+      "mean_negative_return": -0.012048345468214807,
+      "mean_positive_return": 0.011376307563388281,
+      "positive_contribution_fraction_from_GROSS40": 0.9508780902876249,
+      "positive_contribution_fraction_from_GROSS50": 0.9279454549906508,
+      "positive_to_absolute_negative_contribution_ratio": 0.9537329501766255,
+      "total_negative_contribution_usdt": -13156.793251290568,
+      "total_positive_contribution_usdt": 12548.06724241727
+    },
+    "C_BASE": {
+      "mean_negative_return": -0.012424227425161825,
+      "mean_positive_return": 0.011101907336705892,
+      "positive_contribution_fraction_from_GROSS40": 0.9901432093485193,
+      "positive_contribution_fraction_from_GROSS50": 0.9769281876846105,
+      "positive_to_absolute_negative_contribution_ratio": 0.632510931433032,
+      "total_negative_contribution_usdt": -15989.980696183271,
+      "total_positive_contribution_usdt": 10113.837583739083
+    },
+    "DESIGN_BNB": {
+      "mean_negative_return": -0.012269649373868782,
+      "mean_positive_return": 0.011185829533345295,
+      "positive_contribution_fraction_from_GROSS40": 0.9840726465787684,
+      "positive_contribution_fraction_from_GROSS50": 0.9684108938294214,
+      "positive_to_absolute_negative_contribution_ratio": 0.6888471278133977,
+      "total_negative_contribution_usdt": -15361.601016083716,
+      "total_positive_contribution_usdt": 10581.79473854464
+    }
+  }
+}

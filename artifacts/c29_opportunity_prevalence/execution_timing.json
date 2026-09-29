@@ -1,0 +1,16 @@
+{
+  "entry_decision_timestamp_rule": "available_at_ms of the completed E1 hourly bar",
+  "entry_fill_timestamp_rule": "next valid executable 1-minute open; frozen entries fill exactly at decision timestamp",
+  "exit_fill_rule": "first valid executable 1-minute open at or after endpoint; all included fills occur exactly at endpoint",
+  "horizon_anchor": "entry decision timestamp",
+  "horizon_end_timestamp_rule": "entry decision timestamp plus exactly H hours",
+  "horizons_hours": [
+    3,
+    6,
+    12,
+    24
+  ],
+  "mfe_exit": false,
+  "no_interpolation": true,
+  "no_synthetic_fills": true
+}
