@@ -1,0 +1,60 @@
+{
+  "M0": {
+    "definition": "target-specific training prevalence/weighted mean",
+    "features": []
+  },
+  "M1": {
+    "features": [
+      "p_t2"
+    ]
+  },
+  "M2": {
+    "features": [
+      "p_t2",
+      "elapsed_minutes_since_entry",
+      "observable_current_return_from_entry"
+    ]
+  },
+  "M3": {
+    "features": [
+      "p_t2",
+      "elapsed_minutes_since_entry",
+      "observable_current_return_from_entry",
+      "first_honest_p_t2",
+      "delta_p_from_first",
+      "delta_p_5m",
+      "delta_p_5m_missing",
+      "delta_p_15m",
+      "delta_p_15m_missing",
+      "delta_p_30m",
+      "delta_p_30m_missing"
+    ]
+  },
+  "fixed_regularization": {
+    "logistic_C": 1.0,
+    "ridge_alpha": 1.0
+  },
+  "prohibited_predictors": [
+    "exit_now_price",
+    "exit_now_net",
+    "event_price",
+    "event_net",
+    "forward_price_5",
+    "forward_price_15",
+    "forward_price_30",
+    "forward_price_60",
+    "forward_net_5",
+    "forward_net_15",
+    "forward_net_30",
+    "forward_net_60",
+    "DELTA_LIQ_5",
+    "DELTA_LIQ_15",
+    "DELTA_LIQ_30",
+    "DELTA_LIQ_60",
+    "DELTA_LIQ_EVENT",
+    "outcome",
+    "terminal_ms",
+    "mean_p",
+    "mean_v"
+  ]
+}

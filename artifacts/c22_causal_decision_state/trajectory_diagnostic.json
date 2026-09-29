@@ -1,0 +1,113 @@
+{
+  "associations": {
+    "delta_p_15m": {
+      "DELTA_LIQ_15": {
+        "correlation": 0.06656742451800825,
+        "rows": 51447,
+        "trades": 1549
+      },
+      "DELTA_LIQ_30": {
+        "correlation": 0.07030807078940553,
+        "rows": 51447,
+        "trades": 1549
+      },
+      "DELTA_LIQ_5": {
+        "correlation": 0.0640483349537435,
+        "rows": 51447,
+        "trades": 1549
+      },
+      "DELTA_LIQ_60": {
+        "correlation": 0.06095050848275391,
+        "rows": 51447,
+        "trades": 1549
+      },
+      "DELTA_LIQ_EVENT": {
+        "correlation": 0.04953888141872943,
+        "rows": 51447,
+        "trades": 1549
+      }
+    },
+    "delta_p_30m": {
+      "DELTA_LIQ_15": {
+        "correlation": 0.07629034469187367,
+        "rows": 46855,
+        "trades": 1494
+      },
+      "DELTA_LIQ_30": {
+        "correlation": 0.08767326439454276,
+        "rows": 46855,
+        "trades": 1494
+      },
+      "DELTA_LIQ_5": {
+        "correlation": 0.0653572129661983,
+        "rows": 46855,
+        "trades": 1494
+      },
+      "DELTA_LIQ_60": {
+        "correlation": 0.07915040963623922,
+        "rows": 46855,
+        "trades": 1494
+      },
+      "DELTA_LIQ_EVENT": {
+        "correlation": 0.0632011646106222,
+        "rows": 46855,
+        "trades": 1494
+      }
+    },
+    "delta_p_5m": {
+      "DELTA_LIQ_15": {
+        "correlation": 0.05644288361351538,
+        "rows": 54607,
+        "trades": 1588
+      },
+      "DELTA_LIQ_30": {
+        "correlation": 0.053958695999076496,
+        "rows": 54607,
+        "trades": 1588
+      },
+      "DELTA_LIQ_5": {
+        "correlation": 0.06869797931449166,
+        "rows": 54607,
+        "trades": 1588
+      },
+      "DELTA_LIQ_60": {
+        "correlation": 0.048191117083090984,
+        "rows": 54607,
+        "trades": 1588
+      },
+      "DELTA_LIQ_EVENT": {
+        "correlation": 0.038267770935711244,
+        "rows": 54607,
+        "trades": 1588
+      }
+    },
+    "delta_p_from_first": {
+      "DELTA_LIQ_15": {
+        "correlation": 0.07332865208928466,
+        "rows": 56217,
+        "trades": 1610
+      },
+      "DELTA_LIQ_30": {
+        "correlation": 0.08580422318088879,
+        "rows": 56217,
+        "trades": 1610
+      },
+      "DELTA_LIQ_5": {
+        "correlation": 0.05599061613450047,
+        "rows": 56217,
+        "trades": 1610
+      },
+      "DELTA_LIQ_60": {
+        "correlation": 0.08743108801354459,
+        "rows": 56217,
+        "trades": 1610
+      },
+      "DELTA_LIQ_EVENT": {
+        "correlation": 0.06993584363603927,
+        "rows": 56217,
+        "trades": 1610
+      }
+    }
+  },
+  "descriptive_only": true
+}

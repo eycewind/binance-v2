@@ -1,0 +1,7 @@
+{
+  "execution_if_later_policy": "next valid 1-minute open after t",
+  "next_open_predictor": false,
+  "prediction_information_cutoff": "<= t",
+  "state_t": "after completion of the 5-minute state bar ending at t",
+  "status": "PASS"
+}

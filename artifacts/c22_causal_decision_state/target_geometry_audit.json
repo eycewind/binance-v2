@@ -1,0 +1,70 @@
+{
+  "completed_before_model_fitting": true,
+  "interpretation": [
+    "Target geometry can induce within-trade relationships.",
+    "Retrospectively removing price-related variation does not demonstrate a predictive mechanism.",
+    "Incremental predictive value is determined only by frozen out-of-sample model evaluation."
+  ],
+  "status": "PASS",
+  "targets": {
+    "DELTA_LIQ_15": {
+      "endpoint": "price at min(t+H, frozen lifecycle terminal)",
+      "identity": "DELTA_LIQ_H(t) = FORWARD_NET_H(t) - EXIT_NOW_NET(t)",
+      "mechanical_components": {
+        "current_executable_liquidation_price": "negative term -B_i*P_exec,it",
+        "fixed_or_horizon_event_endpoint_price": "positive term +B_i*P_endpoint,it",
+        "trade_specific_quantity_cost_scaling": "B_i=q_i*(1-s)*(1-f)/N_i"
+      },
+      "paired_cost_form": "q_i*(1-s)*(1-f)*(P_endpoint,it-P_exec,it)/N_i",
+      "predictor_status": "TARGET_ACCOUNTING_ONLY"
+    },
+    "DELTA_LIQ_30": {
+      "endpoint": "price at min(t+H, frozen lifecycle terminal)",
+      "identity": "DELTA_LIQ_H(t) = FORWARD_NET_H(t) - EXIT_NOW_NET(t)",
+      "mechanical_components": {
+        "current_executable_liquidation_price": "negative term -B_i*P_exec,it",
+        "fixed_or_horizon_event_endpoint_price": "positive term +B_i*P_endpoint,it",
+        "trade_specific_quantity_cost_scaling": "B_i=q_i*(1-s)*(1-f)/N_i"
+      },
+      "paired_cost_form": "q_i*(1-s)*(1-f)*(P_endpoint,it-P_exec,it)/N_i",
+      "predictor_status": "TARGET_ACCOUNTING_ONLY"
+    },
+    "DELTA_LIQ_5": {
+      "endpoint": "price at min(t+H, frozen lifecycle terminal)",
+      "identity": "DELTA_LIQ_H(t) = FORWARD_NET_H(t) - EXIT_NOW_NET(t)",
+      "mechanical_components": {
+        "current_executable_liquidation_price": "negative term -B_i*P_exec,it",
+        "fixed_or_horizon_event_endpoint_price": "positive term +B_i*P_endpoint,it",
+        "trade_specific_quantity_cost_scaling": "B_i=q_i*(1-s)*(1-f)/N_i"
+      },
+      "paired_cost_form": "q_i*(1-s)*(1-f)*(P_endpoint,it-P_exec,it)/N_i",
+      "predictor_status": "TARGET_ACCOUNTING_ONLY"
+    },
+    "DELTA_LIQ_60": {
+      "endpoint": "price at min(t+H, frozen lifecycle terminal)",
+      "identity": "DELTA_LIQ_H(t) = FORWARD_NET_H(t) - EXIT_NOW_NET(t)",
+      "mechanical_components": {
+        "current_executable_liquidation_price": "negative term -B_i*P_exec,it",
+        "fixed_or_horizon_event_endpoint_price": "positive term +B_i*P_endpoint,it",
+        "trade_specific_quantity_cost_scaling": "B_i=q_i*(1-s)*(1-f)/N_i"
+      },
+      "paired_cost_form": "q_i*(1-s)*(1-f)*(P_endpoint,it-P_exec,it)/N_i",
+      "predictor_status": "TARGET_ACCOUNTING_ONLY"
+    },
+    "DELTA_LIQ_EVENT": {
+      "A_i": "B_i * P_event,i (trade-fixed event endpoint contribution)",
+      "B_i": "q_i*(1-s)*(1-f)/N_i (positive trade-specific scale)",
+      "endpoint": "frozen lifecycle event price",
+      "explicit_form": "V_it = A_i - B_i P_exec,it",
+      "identity": "DELTA_LIQ_H(t) = FORWARD_NET_H(t) - EXIT_NOW_NET(t)",
+      "mechanical_components": {
+        "current_executable_liquidation_price": "negative term -B_i*P_exec,it",
+        "fixed_or_horizon_event_endpoint_price": "positive term +B_i*P_endpoint,it",
+        "trade_specific_quantity_cost_scaling": "B_i=q_i*(1-s)*(1-f)/N_i"
+      },
+      "paired_cost_form": "q_i*(1-s)*(1-f)*(P_endpoint,it-P_exec,it)/N_i",
+      "predictor_status": "TARGET_ACCOUNTING_ONLY"
+    }
+  },
+  "targets_unchanged": true
+}

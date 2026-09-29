@@ -1,0 +1,15 @@
+{
+  "availability_note": "fold_A cannot be fit from the exact honestly scored C9 population because it has no earlier scored training block; no unscored probabilities were inferred",
+  "fold_B": {
+    "bounds_ms": [
+      1704067200000,
+      1727740800000,
+      1735689600000
+    ],
+    "train_rows": 7970,
+    "train_trades": 256,
+    "training_strictly_precedes_validation": true,
+    "validation_rows": 8631,
+    "validation_trades": 267
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "OBS_PRICE_formula": "frozen architecture-B fast.close[fast.at(t)]",
+  "bar_semantics": "close of completed 5-minute bar ending at t; underlying final minute is t-60000",
+  "distinct_from_C20_exit_now": "C20 target accounting uses 1-minute open[t]",
+  "field": "features.current_return reconstructed by C9/C8 feature_row",
+  "return_formula": "OBS_PRICE(t)/entry_price-1"
+}

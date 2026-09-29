@@ -1,0 +1,23 @@
+{
+  "calibration_2024.json": "4a51140a6c2cfb901d93c7bcbe52408e6072608fe8c5f1f1342bf94e87981806",
+  "calibration_2025.json": "43fe87189a310daae7837d8106db9d7a8a63030e142bed7b5ed033b6478ab5fc",
+  "decision_timing_audit.json": "c3a91542a0fc6f2c792d77f354a1aac54a52a437be50316004d2011c3ecc6461",
+  "feature_associations.json": "ee0c0e447295c9ad6061f812b9ee7f90bc8ef83e8b6a4b3fe47632f9fd732ce9",
+  "feature_schema.json": "1268bb774773eb8267786757d6faedd8e1259d6be2b316fff5802e3c4b6ea96a",
+  "final_summary.json": "72eaa86e22b5ed66244b445bf6f786530fba516852debd298641ae6180d4d96e",
+  "fold_definitions.json": "912d566c760b6ecb81517ab0b8b4d3c9f31273ad74b4f2fcfdf439fed86b9c15",
+  "interpretation_predicates.json": "779f5530b3c094aa9884dbf74c4a1392711dbe50015d77a0b24d2d34c7e27243",
+  "leakage_firewall.json": "a693abb9d474e5c8573a16f22a426a3d6a403dad50f69c4b06f8674e5b7994b1",
+  "model_metrics_binary_2024.json": "316187b78ba06a69eb4d9766f7338cffce7fe0a5794094ed880a95d82ac49050",
+  "model_metrics_binary_2025.json": "9d1e74999bf962ec26102376137622fa73a1f4bfaa847c26594eb3ce985194c5",
+  "model_metrics_continuous_2024.json": "8b3d01ccfafcefe4a84c4fa5978fe6fe7d478012e77b9a78253fa975e9cc2c37",
+  "model_metrics_continuous_2025.json": "781a4497cc6f02bc15c584e52264a6152e6ac996da2fc5de082c92cafafc6b93",
+  "observable_price_definition.json": "83cf7a05847d506107f13e40a1b73ec45efeaff728f7e809395d55fc5a29fba0",
+  "population_reconciliation.json": "558bbea5644316e390354c1481743a8092f285f36c1a592399ae04dd82686d58",
+  "provenance.json": "d2a64fb9e7c3eac2afd5a7013b65b263707451935bcbbd0e6f8fc408ab14701f",
+  "run_manifest.json": "b3b736a60ee6b6f20c0e7585c6f7926d092440994099894e99e6c97aae9651b2",
+  "symbol_metrics.json": "99f499d55953dbb380f180fe7064185db87b0750e7ebf6427b4a00171826838d",
+  "target_geometry_audit.json": "0e4454cacf628d8a840d1c58dbdf99faad5f0db8223ccf8261b0725fdb7b6204",
+  "trade_context_diagnostic.json": "3ccc7014213b0dfb2a5af1ed76b234d8930d6eb24eeff7776fd51ebe2e82bb0b",
+  "trajectory_diagnostic.json": "3eccc37b8fc18f4c6b2a221787f86132b47def517da4bb036a11e46fef9526aa"
+}

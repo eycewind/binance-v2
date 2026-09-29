@@ -1,0 +1,10 @@
+{
+  "feature_names_disjoint_from_prohibited": true,
+  "full_trade_mean_predictor": false,
+  "future_probability_access": false,
+  "next_open_predictor": false,
+  "no_2026_access": true,
+  "preprocessing_training_only": true,
+  "status": "PASS",
+  "whole_trade_folds": true
+}

@@ -1,0 +1,2898 @@
+{
+  "families": {
+    "current_probability": [
+      "p_t2"
+    ],
+    "elapsed_current_observable_price_progress": [
+      "elapsed_minutes_since_entry",
+      "observable_current_return_from_entry"
+    ],
+    "initial_trade_context": [
+      "first_honest_p_t2",
+      "delta_p_from_first"
+    ],
+    "probability_trajectory": [
+      "delta_p_5m",
+      "delta_p_5m_missing",
+      "delta_p_15m",
+      "delta_p_15m_missing",
+      "delta_p_30m",
+      "delta_p_30m_missing"
+    ]
+  },
+  "fit_details_2024": {
+    "fold_B": {
+      "DELTA_LIQ_15": {
+        "M0": {
+          "training_prevalence": 0.506553879460903,
+          "training_weighted_mean": 0.0002952374182967257
+        },
+        "M1": {
+          "binary": {
+            "coef": [
+              0.02627772190673208,
+              0.07376626187119151
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.0002952374182967259,
+              0.000342024967802762
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2"
+          ],
+          "preprocessor": {
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M2": {
+          "binary": {
+            "coef": [
+              0.026309082059686566,
+              0.06636602252189859,
+              -0.005781578954385742,
+              0.05521831054210771
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.0002952374182967258,
+              0.00023219143971289064,
+              -8.721755717157892e-05,
+              0.0003278527766329958
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry"
+          ],
+          "preprocessor": {
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M3": {
+          "binary": {
+            "coef": [
+              0.02656028895035054,
+              0.058629520408706004,
+              -0.0002826578462167827,
+              0.051958882299899055,
+              0.042493053407890224,
+              0.018500547384972723,
+              0.02132716893610721,
+              0.02616855858518855,
+              -0.00314513236909576,
+              0.03245129930767942,
+              -0.006765191642238696,
+              0.02393836371741418
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00029523741829672566,
+              0.00017765707821189707,
+              -7.983404284270542e-06,
+              0.0003074810300329751,
+              0.000107812825112965,
+              7.733710661319326e-05,
+              5.519420144959945e-05,
+              0.0001983585101509441,
+              -5.233203408017033e-05,
+              0.00021693445978661737,
+              -2.8655000039602618e-05,
+              7.856841909672898e-05
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry",
+            "first_honest_p_t2",
+            "delta_p_from_first",
+            "delta_p_5m",
+            "delta_p_5m_missing",
+            "delta_p_15m",
+            "delta_p_15m_missing",
+            "delta_p_30m",
+            "delta_p_30m_missing"
+          ],
+          "preprocessor": {
+            "delta_p_15m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.007495210840155156,
+              "mean": 0.0017626901659140862,
+              "sd": 0.18765996022790088
+            },
+            "delta_p_15m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.23240973096853582,
+              "sd": 0.4223688529232105
+            },
+            "delta_p_30m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0076563017415614,
+              "mean": -0.004258445831450147,
+              "sd": 0.18473457011774538
+            },
+            "delta_p_30m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.4070069619370713,
+              "sd": 0.4912761900111046
+            },
+            "delta_p_5m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0009429405737183577,
+              "mean": 0.008361152218750627,
+              "sd": 0.14213501176990426
+            },
+            "delta_p_5m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.08528241032284525,
+              "sd": 0.27930148730783927
+            },
+            "delta_p_from_first": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.013469704225824943,
+              "sd": 0.27558167889316854
+            },
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "first_honest_p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.23908793589093966,
+              "mean": 0.3440686184691113,
+              "sd": 0.2799137879494553
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_30": {
+        "M0": {
+          "training_prevalence": 0.5036993815164181,
+          "training_weighted_mean": 0.0002432881150357306
+        },
+        "M1": {
+          "binary": {
+            "coef": [
+              0.01488730744131372,
+              0.09609754239970938
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00024328811503573054,
+              0.0005009542741830566
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2"
+          ],
+          "preprocessor": {
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M2": {
+          "binary": {
+            "coef": [
+              0.014899715430551828,
+              0.08633787926251425,
+              0.001181084480101432,
+              0.07275842741372238
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.000243288115035731,
+              0.0003313887092127195,
+              -5.0998969614310495e-05,
+              0.0005032882806979448
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry"
+          ],
+          "preprocessor": {
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M3": {
+          "binary": {
+            "coef": [
+              0.01521972036567895,
+              0.07706993232269535,
+              0.005731525968596859,
+              0.06945980914364581,
+              0.05984056072343619,
+              0.02027440989751931,
+              0.01454685103313371,
+              0.02347408478569236,
+              -0.0018708980185536662,
+              0.03275199888580789,
+              -0.006770138300044807,
+              0.017815260178086857
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00024328811503573092,
+              0.0002632751828292054,
+              1.5141325960427374e-05,
+              0.0004783988215046584,
+              0.00015204279079460045,
+              0.00012245775500611969,
+              5.5490005630773475e-05,
+              0.00022985436376692585,
+              -6.576855893230849e-05,
+              0.0001986018924121599,
+              -4.950545303209813e-05,
+              2.461681097755545e-05
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry",
+            "first_honest_p_t2",
+            "delta_p_from_first",
+            "delta_p_5m",
+            "delta_p_5m_missing",
+            "delta_p_15m",
+            "delta_p_15m_missing",
+            "delta_p_30m",
+            "delta_p_30m_missing"
+          ],
+          "preprocessor": {
+            "delta_p_15m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.007495210840155156,
+              "mean": 0.0017626901659140862,
+              "sd": 0.18765996022790088
+            },
+            "delta_p_15m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.23240973096853582,
+              "sd": 0.4223688529232105
+            },
+            "delta_p_30m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0076563017415614,
+              "mean": -0.004258445831450147,
+              "sd": 0.18473457011774538
+            },
+            "delta_p_30m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.4070069619370713,
+              "sd": 0.4912761900111046
+            },
+            "delta_p_5m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0009429405737183577,
+              "mean": 0.008361152218750627,
+              "sd": 0.14213501176990426
+            },
+            "delta_p_5m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.08528241032284525,
+              "sd": 0.27930148730783927
+            },
+            "delta_p_from_first": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.013469704225824943,
+              "sd": 0.27558167889316854
+            },
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "first_honest_p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.23908793589093966,
+              "mean": 0.3440686184691113,
+              "sd": 0.2799137879494553
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_5": {
+        "M0": {
+          "training_prevalence": 0.5025383349818148,
+          "training_weighted_mean": 0.00017899033717604042
+        },
+        "M1": {
+          "binary": {
+            "coef": [
+              0.010165667074276694,
+              0.04721972186284314
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00017899033717604006,
+              0.0001651690968524992
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2"
+          ],
+          "preprocessor": {
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M2": {
+          "binary": {
+            "coef": [
+              0.010168473225649169,
+              0.04212094078108415,
+              -0.007221601508993719,
+              0.03803843112345548
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00017899033717604053,
+              0.0001161715349776994,
+              -5.653876160588704e-05,
+              0.00014686130143042625
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry"
+          ],
+          "preprocessor": {
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M3": {
+          "binary": {
+            "coef": [
+              0.010248394679091758,
+              0.03697175018198027,
+              -0.003016549524482132,
+              0.03613286057722699,
+              0.028631906856606746,
+              0.009801772757827886,
+              0.023679807767162442,
+              0.012429595801764896,
+              -0.006836037879375148,
+              0.027507813164732522,
+              -0.007251321870451411,
+              0.01886234136770835
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00017899033717604044,
+              8.62388569196132e-05,
+              -1.1478554607776707e-05,
+              0.00013336827124468725,
+              4.2636433204939006e-05,
+              4.739208593084474e-05,
+              8.961679481712853e-05,
+              8.730097401490654e-05,
+              -4.7561098544658064e-05,
+              0.00010905732007942624,
+              -2.337184071023284e-05,
+              5.98585311912266e-05
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry",
+            "first_honest_p_t2",
+            "delta_p_from_first",
+            "delta_p_5m",
+            "delta_p_5m_missing",
+            "delta_p_15m",
+            "delta_p_15m_missing",
+            "delta_p_30m",
+            "delta_p_30m_missing"
+          ],
+          "preprocessor": {
+            "delta_p_15m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.007495210840155156,
+              "mean": 0.0017626901659140862,
+              "sd": 0.18765996022790088
+            },
+            "delta_p_15m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.23240973096853582,
+              "sd": 0.4223688529232105
+            },
+            "delta_p_30m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0076563017415614,
+              "mean": -0.004258445831450147,
+              "sd": 0.18473457011774538
+            },
+            "delta_p_30m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.4070069619370713,
+              "sd": 0.4912761900111046
+            },
+            "delta_p_5m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0009429405737183577,
+              "mean": 0.008361152218750627,
+              "sd": 0.14213501176990426
+            },
+            "delta_p_5m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.08528241032284525,
+              "sd": 0.27930148730783927
+            },
+            "delta_p_from_first": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.013469704225824943,
+              "sd": 0.27558167889316854
+            },
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "first_honest_p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.23908793589093966,
+              "mean": 0.3440686184691113,
+              "sd": 0.2799137879494553
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_60": {
+        "M0": {
+          "training_prevalence": 0.49589872619819975,
+          "training_weighted_mean": 0.00023903961359497683
+        },
+        "M1": {
+          "binary": {
+            "coef": [
+              -0.016337511808005564,
+              0.13009316996161147
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00023903961359497762,
+              0.0006598839597546398
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2"
+          ],
+          "preprocessor": {
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M2": {
+          "binary": {
+            "coef": [
+              -0.016454448379206996,
+              0.1184835279036467,
+              0.010018683017404467,
+              0.08671348504635534
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.0002390396135949766,
+              0.00046944405431610176,
+              -2.2621094132363083e-06,
+              0.0005633616220757318
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry"
+          ],
+          "preprocessor": {
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M3": {
+          "binary": {
+            "coef": [
+              -0.016086037266191372,
+              0.1046635691621826,
+              0.013472439226579164,
+              0.08051608460320724,
+              0.07572771217522324,
+              0.03315817510342441,
+              0.017697059715247192,
+              0.022729281939376372,
+              0.006925909336824919,
+              0.027059599121976058,
+              0.011262911755059057,
+              0.01253087016271113
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.00023903961359497648,
+              0.0003601825967960794,
+              6.60909445546736e-05,
+              0.0005227494425810037,
+              0.0002235771935885825,
+              0.0001517178877100944,
+              5.259412261976982e-05,
+              0.00020276569663729165,
+              -3.1181913731159913e-05,
+              0.0001649389209653237,
+              2.847101633300624e-05,
+              7.890212711426354e-05
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry",
+            "first_honest_p_t2",
+            "delta_p_from_first",
+            "delta_p_5m",
+            "delta_p_5m_missing",
+            "delta_p_15m",
+            "delta_p_15m_missing",
+            "delta_p_30m",
+            "delta_p_30m_missing"
+          ],
+          "preprocessor": {
+            "delta_p_15m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.007495210840155156,
+              "mean": 0.0017626901659140862,
+              "sd": 0.18765996022790088
+            },
+            "delta_p_15m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.23240973096853582,
+              "sd": 0.4223688529232105
+            },
+            "delta_p_30m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0076563017415614,
+              "mean": -0.004258445831450147,
+              "sd": 0.18473457011774538
+            },
+            "delta_p_30m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.4070069619370713,
+              "sd": 0.4912761900111046
+            },
+            "delta_p_5m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0009429405737183577,
+              "mean": 0.008361152218750627,
+              "sd": 0.14213501176990426
+            },
+            "delta_p_5m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.08528241032284525,
+              "sd": 0.27930148730783927
+            },
+            "delta_p_from_first": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.013469704225824943,
+              "sd": 0.27558167889316854
+            },
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "first_honest_p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.23908793589093966,
+              "mean": 0.3440686184691113,
+              "sd": 0.2799137879494553
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "M0": {
+          "training_prevalence": 0.49639469026521044,
+          "training_weighted_mean": 0.0005931677785713378
+        },
+        "M1": {
+          "binary": {
+            "coef": [
+              -0.014211884697988612,
+              0.17189615748617604
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.0005931677785713377,
+              0.000680883612140145
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2"
+          ],
+          "preprocessor": {
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M2": {
+          "binary": {
+            "coef": [
+              -0.01431823541049736,
+              0.15932626341992587,
+              0.034536612075988835,
+              0.09380313386589474
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.0005931677785713393,
+              0.0005831856169881678,
+              0.00041345589005641184,
+              0.0002748137020119927
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry"
+          ],
+          "preprocessor": {
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        },
+        "M3": {
+          "binary": {
+            "coef": [
+              -0.013491970327461385,
+              0.14021097921854675,
+              0.03584766925281842,
+              0.08477363488826882,
+              0.0994384407583748,
+              0.04646048558271525,
+              0.024693993082836353,
+              0.019036783448106224,
+              0.019693201686742493,
+              0.018354033197000616,
+              0.024655677423153777,
+              0.0003325055118007741
+            ],
+            "converged": true,
+            "regularization_C": 1.0
+          },
+          "continuous": {
+            "coef": [
+              0.000593167778571339,
+              0.00043386906850973893,
+              0.00045373329446668774,
+              0.0002582733198733341,
+              0.00038590938942081383,
+              6.433106839654267e-05,
+              8.522835544795252e-05,
+              0.0002042254482767554,
+              -1.4456149768386422e-05,
+              0.0001603860942354618,
+              5.483117288321348e-05,
+              -1.7763470114051905e-06
+            ],
+            "ridge_alpha": 1.0
+          },
+          "features": [
+            "p_t2",
+            "elapsed_minutes_since_entry",
+            "observable_current_return_from_entry",
+            "first_honest_p_t2",
+            "delta_p_from_first",
+            "delta_p_5m",
+            "delta_p_5m_missing",
+            "delta_p_15m",
+            "delta_p_15m_missing",
+            "delta_p_30m",
+            "delta_p_30m_missing"
+          ],
+          "preprocessor": {
+            "delta_p_15m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.007495210840155156,
+              "mean": 0.0017626901659140862,
+              "sd": 0.18765996022790088
+            },
+            "delta_p_15m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.23240973096853582,
+              "sd": 0.4223688529232105
+            },
+            "delta_p_30m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0076563017415614,
+              "mean": -0.004258445831450147,
+              "sd": 0.18473457011774538
+            },
+            "delta_p_30m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.4070069619370713,
+              "sd": 0.4912761900111046
+            },
+            "delta_p_5m": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.0009429405737183577,
+              "mean": 0.008361152218750627,
+              "sd": 0.14213501176990426
+            },
+            "delta_p_5m_missing": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.08528241032284525,
+              "sd": 0.27930148730783927
+            },
+            "delta_p_from_first": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.0,
+              "mean": 0.013469704225824943,
+              "sd": 0.27558167889316854
+            },
+            "elapsed_minutes_since_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": 45.0,
+              "mean": 85.3515625,
+              "sd": 108.67637041759319
+            },
+            "first_honest_p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.23908793589093966,
+              "mean": 0.3440686184691113,
+              "sd": 0.2799137879494553
+            },
+            "observable_current_return_from_entry": {
+              "imputation": "training_weighted_median",
+              "impute_value": -0.00016605778811029648,
+              "mean": -0.00047612365313805846,
+              "sd": 0.005079433211832641
+            },
+            "p_t2": {
+              "imputation": "training_weighted_median",
+              "impute_value": 0.259358522678518,
+              "mean": 0.3575383226949364,
+              "sd": 0.28983357413258276
+            }
+          }
+        }
+      }
+    }
+  },
+  "fit_details_2025": {
+    "DELTA_LIQ_15": {
+      "M0": {
+        "training_prevalence": 0.49683095162417223,
+        "training_weighted_mean": 0.00020929496556285895
+      },
+      "M1": {
+        "binary": {
+          "coef": [
+            -0.012677301504147644,
+            0.06145491764004184
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00020929496556285838,
+            0.00034632803801154196
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2"
+        ],
+        "preprocessor": {
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M2": {
+        "binary": {
+          "coef": [
+            -0.012705937566500259,
+            0.05705908194446656,
+            -0.0009233615843280634,
+            0.035232944945954046
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00020929496556285895,
+            0.00023700510532648832,
+            -8.439099983401781e-05,
+            0.00036007319266283315
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry"
+        ],
+        "preprocessor": {
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M3": {
+        "binary": {
+          "coef": [
+            -0.012668790188916415,
+            0.05027308388445438,
+            0.002273730316811348,
+            0.03221496169944869,
+            0.03329448414384087,
+            0.019498865703730658,
+            0.013880737129384051,
+            0.01884845367399133,
+            0.0022096955127537715,
+            0.021382859776720452,
+            0.0013089149917354136,
+            0.014190815981721483
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00020929496556285895,
+            0.00017852225863564716,
+            -2.806100980180507e-05,
+            0.00033396133063170715,
+            8.582806960959991e-05,
+            9.958698622555573e-05,
+            6.272453683464413e-05,
+            0.00015175113478121483,
+            2.601354438452522e-06,
+            0.00014181081194831454,
+            -3.144411530147582e-05,
+            7.221121189986336e-05
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry",
+          "first_honest_p_t2",
+          "delta_p_from_first",
+          "delta_p_5m",
+          "delta_p_5m_missing",
+          "delta_p_15m",
+          "delta_p_15m_missing",
+          "delta_p_30m",
+          "delta_p_30m_missing"
+        ],
+        "preprocessor": {
+          "delta_p_15m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.005450111378621392,
+            "mean": 0.0009710602274632517,
+            "sd": 0.1917704850128659
+          },
+          "delta_p_15m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.22426314441331768,
+            "sd": 0.4170961357662872
+          },
+          "delta_p_30m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.006527028648629141,
+            "mean": -0.005402292477121863,
+            "sd": 0.19492144877438797
+          },
+          "delta_p_30m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.40053393701019174,
+            "sd": 0.4900066349686578
+          },
+          "delta_p_5m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.001753571262823883,
+            "mean": 0.004492706841992923,
+            "sd": 0.14020833581530287
+          },
+          "delta_p_5m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.08431461091661258,
+            "sd": 0.27785906014127526
+          },
+          "delta_p_from_first": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.001780959120093303,
+            "sd": 0.29012282683550256
+          },
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "first_honest_p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.2934171636070855,
+            "mean": 0.38781527929452225,
+            "sd": 0.27170677071791693
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      }
+    },
+    "DELTA_LIQ_30": {
+      "M0": {
+        "training_prevalence": 0.4963019304940783,
+        "training_weighted_mean": 0.00017476756421057725
+      },
+      "M1": {
+        "binary": {
+          "coef": [
+            -0.014791667023749787,
+            0.08068406533879754
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00017476756421057712,
+            0.00047477479812062023
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2"
+        ],
+        "preprocessor": {
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M2": {
+        "binary": {
+          "coef": [
+            -0.014868036204907991,
+            0.07427117144501054,
+            0.0030596758072158614,
+            0.050917173162487575
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00017476756421057674,
+            0.00029094676184432877,
+            -7.405139321953227e-05,
+            0.0005956782785280348
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry"
+        ],
+        "preprocessor": {
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M3": {
+        "binary": {
+          "coef": [
+            -0.01479882324853352,
+            0.06570570435079814,
+            0.005888110270047386,
+            0.04723373649112367,
+            0.04416572192210266,
+            0.02487520937318296,
+            0.014971805942079258,
+            0.02056273598643768,
+            0.0030029667876389486,
+            0.022737481913738224,
+            0.002524791097890803,
+            0.009908086656536766
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.0001747675642105767,
+            0.00022407079624844632,
+            -2.0804549971013283e-05,
+            0.0005591856829504488,
+            8.305649172320923e-05,
+            0.00014809977716450753,
+            6.994700934529098e-05,
+            0.00015889293837078388,
+            -4.037249554894274e-06,
+            0.00014136445698309044,
+            -3.750516915872207e-05,
+            5.602492674856119e-05
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry",
+          "first_honest_p_t2",
+          "delta_p_from_first",
+          "delta_p_5m",
+          "delta_p_5m_missing",
+          "delta_p_15m",
+          "delta_p_15m_missing",
+          "delta_p_30m",
+          "delta_p_30m_missing"
+        ],
+        "preprocessor": {
+          "delta_p_15m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.005450111378621392,
+            "mean": 0.0009710602274632517,
+            "sd": 0.1917704850128659
+          },
+          "delta_p_15m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.22426314441331768,
+            "sd": 0.4170961357662872
+          },
+          "delta_p_30m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.006527028648629141,
+            "mean": -0.005402292477121863,
+            "sd": 0.19492144877438797
+          },
+          "delta_p_30m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.40053393701019174,
+            "sd": 0.4900066349686578
+          },
+          "delta_p_5m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.001753571262823883,
+            "mean": 0.004492706841992923,
+            "sd": 0.14020833581530287
+          },
+          "delta_p_5m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.08431461091661258,
+            "sd": 0.27785906014127526
+          },
+          "delta_p_from_first": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.001780959120093303,
+            "sd": 0.29012282683550256
+          },
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "first_honest_p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.2934171636070855,
+            "mean": 0.38781527929452225,
+            "sd": 0.27170677071791693
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      }
+    },
+    "DELTA_LIQ_5": {
+      "M0": {
+        "training_prevalence": 0.49258685248891504,
+        "training_weighted_mean": 0.00013397186270883136
+      },
+      "M1": {
+        "binary": {
+          "coef": [
+            -0.02966354439678465,
+            0.03989592300355339
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00013397186270883144,
+            0.00017848633777541658
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2"
+        ],
+        "preprocessor": {
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M2": {
+        "binary": {
+          "coef": [
+            -0.029679524340365904,
+            0.03703349097466326,
+            -0.004903954982512679,
+            0.023521313510123695
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00013397186270883136,
+            0.00013320334285975822,
+            -5.2527779890059996e-05,
+            0.00015168231048252146
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry"
+        ],
+        "preprocessor": {
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M3": {
+        "binary": {
+          "coef": [
+            -0.02968325753529175,
+            0.032483541882313324,
+            -0.0022175940147815395,
+            0.021548741400526032,
+            0.021660437639833927,
+            0.01246091497085244,
+            0.018586993238022778,
+            0.01213154480979239,
+            -0.0032926965837410836,
+            0.018522712566831894,
+            -0.0009834310078458961,
+            0.012031615916554378
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00013397186270883136,
+            9.811272579964627e-05,
+            -1.8837284775765316e-05,
+            0.00013743025035990456,
+            5.0199942548609574e-05,
+            5.189330009757048e-05,
+            7.157972231207712e-05,
+            8.337509055214099e-05,
+            -1.6657203574220222e-05,
+            8.388498640752368e-05,
+            -1.4647117398328044e-05,
+            4.5835286177916594e-05
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry",
+          "first_honest_p_t2",
+          "delta_p_from_first",
+          "delta_p_5m",
+          "delta_p_5m_missing",
+          "delta_p_15m",
+          "delta_p_15m_missing",
+          "delta_p_30m",
+          "delta_p_30m_missing"
+        ],
+        "preprocessor": {
+          "delta_p_15m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.005450111378621392,
+            "mean": 0.0009710602274632517,
+            "sd": 0.1917704850128659
+          },
+          "delta_p_15m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.22426314441331768,
+            "sd": 0.4170961357662872
+          },
+          "delta_p_30m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.006527028648629141,
+            "mean": -0.005402292477121863,
+            "sd": 0.19492144877438797
+          },
+          "delta_p_30m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.40053393701019174,
+            "sd": 0.4900066349686578
+          },
+          "delta_p_5m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.001753571262823883,
+            "mean": 0.004492706841992923,
+            "sd": 0.14020833581530287
+          },
+          "delta_p_5m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.08431461091661258,
+            "sd": 0.27785906014127526
+          },
+          "delta_p_from_first": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.001780959120093303,
+            "sd": 0.29012282683550256
+          },
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "first_honest_p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.2934171636070855,
+            "mean": 0.38781527929452225,
+            "sd": 0.27170677071791693
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      }
+    },
+    "DELTA_LIQ_60": {
+      "M0": {
+        "training_prevalence": 0.4910167743273148,
+        "training_weighted_mean": 0.00013672108078459662
+      },
+      "M1": {
+        "binary": {
+          "coef": [
+            -0.03598226817636628,
+            0.11002988443185026
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00013672108078459673,
+            0.000582181984190837
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2"
+        ],
+        "preprocessor": {
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M2": {
+        "binary": {
+          "coef": [
+            -0.036186688755282304,
+            0.10170441316364366,
+            0.010030899559463038,
+            0.06556205224385642
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00013672108078459648,
+            0.00030439190790067006,
+            -4.6575740663095865e-05,
+            0.0008907286103519671
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry"
+        ],
+        "preprocessor": {
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M3": {
+        "binary": {
+          "coef": [
+            -0.03614718611072427,
+            0.08946620773110867,
+            0.012147120186715528,
+            0.05968328509911988,
+            0.05532433122076391,
+            0.03837770009546345,
+            0.016462431401479894,
+            0.019631232938474654,
+            0.010083548509151625,
+            0.019585721800912566,
+            0.013432220676856054,
+            0.006860453374514147
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00013672108078459643,
+            0.00023671544821379594,
+            1.5121940004391847e-05,
+            0.0008432327924165458,
+            5.756115133557354e-05,
+            0.00018472373614020833,
+            6.110335374816512e-05,
+            0.0001402421991824103,
+            -1.0885978168502167e-05,
+            0.0001287453578564669,
+            -2.14657734598952e-05,
+            0.00010794554793257893
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry",
+          "first_honest_p_t2",
+          "delta_p_from_first",
+          "delta_p_5m",
+          "delta_p_5m_missing",
+          "delta_p_15m",
+          "delta_p_15m_missing",
+          "delta_p_30m",
+          "delta_p_30m_missing"
+        ],
+        "preprocessor": {
+          "delta_p_15m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.005450111378621392,
+            "mean": 0.0009710602274632517,
+            "sd": 0.1917704850128659
+          },
+          "delta_p_15m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.22426314441331768,
+            "sd": 0.4170961357662872
+          },
+          "delta_p_30m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.006527028648629141,
+            "mean": -0.005402292477121863,
+            "sd": 0.19492144877438797
+          },
+          "delta_p_30m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.40053393701019174,
+            "sd": 0.4900066349686578
+          },
+          "delta_p_5m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.001753571262823883,
+            "mean": 0.004492706841992923,
+            "sd": 0.14020833581530287
+          },
+          "delta_p_5m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.08431461091661258,
+            "sd": 0.27785906014127526
+          },
+          "delta_p_from_first": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.001780959120093303,
+            "sd": 0.29012282683550256
+          },
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "first_honest_p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.2934171636070855,
+            "mean": 0.38781527929452225,
+            "sd": 0.27170677071791693
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      }
+    },
+    "DELTA_LIQ_EVENT": {
+      "M0": {
+        "training_prevalence": 0.4904765104046425,
+        "training_weighted_mean": 0.0003559960655122352
+      },
+      "M1": {
+        "binary": {
+          "coef": [
+            -0.03815364015889687,
+            0.14708504482285414
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.0003559960655122352,
+            0.0005687793498880817
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2"
+        ],
+        "preprocessor": {
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M2": {
+        "binary": {
+          "coef": [
+            -0.03845002134252337,
+            0.13741503534209507,
+            0.024307959151177175,
+            0.07482315909589002
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.0003559960655122347,
+            0.00024658973410512653,
+            0.0002739159007230307,
+            0.0009857805378872167
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry"
+        ],
+        "preprocessor": {
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      },
+      "M3": {
+        "binary": {
+          "coef": [
+            -0.03829797737181638,
+            0.12035704927249034,
+            0.024619910797108888,
+            0.06634526011642851,
+            0.07188347199293327,
+            0.05401050872151464,
+            0.021762627269803537,
+            0.015243477309731399,
+            0.019820276805488448,
+            0.011984335792031637,
+            0.027708401771804506,
+            -0.0027928643872167465
+          ],
+          "converged": true,
+          "regularization_C": 1.0
+        },
+        "continuous": {
+          "coef": [
+            0.00035599606551223466,
+            0.0001729305037921857,
+            0.00031562407045238137,
+            0.0009496524994005752,
+            7.063051140474104e-05,
+            0.00010818284603107605,
+            0.00010077285175539296,
+            0.00014360048658740678,
+            2.508053299383028e-05,
+            0.00011528389534957641,
+            2.5739241299625397e-05,
+            2.8936050686992054e-05
+          ],
+          "ridge_alpha": 1.0
+        },
+        "features": [
+          "p_t2",
+          "elapsed_minutes_since_entry",
+          "observable_current_return_from_entry",
+          "first_honest_p_t2",
+          "delta_p_from_first",
+          "delta_p_5m",
+          "delta_p_5m_missing",
+          "delta_p_15m",
+          "delta_p_15m_missing",
+          "delta_p_30m",
+          "delta_p_30m_missing"
+        ],
+        "preprocessor": {
+          "delta_p_15m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.005450111378621392,
+            "mean": 0.0009710602274632517,
+            "sd": 0.1917704850128659
+          },
+          "delta_p_15m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.22426314441331768,
+            "sd": 0.4170961357662872
+          },
+          "delta_p_30m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.006527028648629141,
+            "mean": -0.005402292477121863,
+            "sd": 0.19492144877438797
+          },
+          "delta_p_30m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.40053393701019174,
+            "sd": 0.4900066349686578
+          },
+          "delta_p_5m": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.001753571262823883,
+            "mean": 0.004492706841992923,
+            "sd": 0.14020833581530287
+          },
+          "delta_p_5m_missing": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.08431461091661258,
+            "sd": 0.27785906014127526
+          },
+          "delta_p_from_first": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.0,
+            "mean": 0.001780959120093303,
+            "sd": 0.29012282683550256
+          },
+          "elapsed_minutes_since_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": 45.0,
+            "mean": 86.8738049713193,
+            "sd": 114.37164776946162
+          },
+          "first_honest_p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.2934171636070855,
+            "mean": 0.38781527929452225,
+            "sd": 0.27170677071791693
+          },
+          "observable_current_return_from_entry": {
+            "imputation": "training_weighted_median",
+            "impute_value": -0.00036778227289435694,
+            "mean": -0.0008615759319819372,
+            "sd": 0.006109946792292204
+          },
+          "p_t2": {
+            "imputation": "training_weighted_median",
+            "impute_value": 0.3086494815514639,
+            "mean": 0.3895962384146156,
+            "sd": 0.2924706755863186
+          }
+        }
+      }
+    }
+  },
+  "interpretation": "standardized predictive associations only; no causal claim",
+  "standardized_coefficients_2024": {
+    "fold_B": {
+      "DELTA_LIQ_15": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.07376626187119151
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.000342024967802762
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.06636602252189859
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -0.005781578954385742,
+              "observable_current_return_from_entry": 0.05521831054210771
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00023219143971289064
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -8.721755717157892e-05,
+              "observable_current_return_from_entry": 0.0003278527766329958
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.058629520408706004
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -0.0002826578462167827,
+              "observable_current_return_from_entry": 0.051958882299899055
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.018500547384972723,
+              "first_honest_p_t2": 0.042493053407890224
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -0.00314513236909576,
+              "delta_p_15m_missing": 0.03245129930767942,
+              "delta_p_30m": -0.006765191642238696,
+              "delta_p_30m_missing": 0.02393836371741418,
+              "delta_p_5m": 0.02132716893610721,
+              "delta_p_5m_missing": 0.02616855858518855
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00017765707821189707
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -7.983404284270542e-06,
+              "observable_current_return_from_entry": 0.0003074810300329751
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 7.733710661319326e-05,
+              "first_honest_p_t2": 0.000107812825112965
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -5.233203408017033e-05,
+              "delta_p_15m_missing": 0.00021693445978661737,
+              "delta_p_30m": -2.8655000039602618e-05,
+              "delta_p_30m_missing": 7.856841909672898e-05,
+              "delta_p_5m": 5.519420144959945e-05,
+              "delta_p_5m_missing": 0.0001983585101509441
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_30": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.09609754239970938
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0005009542741830566
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.08633787926251425
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.001181084480101432,
+              "observable_current_return_from_entry": 0.07275842741372238
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0003313887092127195
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -5.0998969614310495e-05,
+              "observable_current_return_from_entry": 0.0005032882806979448
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.07706993232269535
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.005731525968596859,
+              "observable_current_return_from_entry": 0.06945980914364581
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.02027440989751931,
+              "first_honest_p_t2": 0.05984056072343619
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -0.0018708980185536662,
+              "delta_p_15m_missing": 0.03275199888580789,
+              "delta_p_30m": -0.006770138300044807,
+              "delta_p_30m_missing": 0.017815260178086857,
+              "delta_p_5m": 0.01454685103313371,
+              "delta_p_5m_missing": 0.02347408478569236
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0002632751828292054
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 1.5141325960427374e-05,
+              "observable_current_return_from_entry": 0.0004783988215046584
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.00012245775500611969,
+              "first_honest_p_t2": 0.00015204279079460045
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -6.576855893230849e-05,
+              "delta_p_15m_missing": 0.0001986018924121599,
+              "delta_p_30m": -4.950545303209813e-05,
+              "delta_p_30m_missing": 2.461681097755545e-05,
+              "delta_p_5m": 5.5490005630773475e-05,
+              "delta_p_5m_missing": 0.00022985436376692585
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_5": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.04721972186284314
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0001651690968524992
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.04212094078108415
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -0.007221601508993719,
+              "observable_current_return_from_entry": 0.03803843112345548
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0001161715349776994
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -5.653876160588704e-05,
+              "observable_current_return_from_entry": 0.00014686130143042625
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.03697175018198027
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -0.003016549524482132,
+              "observable_current_return_from_entry": 0.03613286057722699
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.009801772757827886,
+              "first_honest_p_t2": 0.028631906856606746
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -0.006836037879375148,
+              "delta_p_15m_missing": 0.027507813164732522,
+              "delta_p_30m": -0.007251321870451411,
+              "delta_p_30m_missing": 0.01886234136770835,
+              "delta_p_5m": 0.023679807767162442,
+              "delta_p_5m_missing": 0.012429595801764896
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 8.62388569196132e-05
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -1.1478554607776707e-05,
+              "observable_current_return_from_entry": 0.00013336827124468725
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 4.739208593084474e-05,
+              "first_honest_p_t2": 4.2636433204939006e-05
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -4.7561098544658064e-05,
+              "delta_p_15m_missing": 0.00010905732007942624,
+              "delta_p_30m": -2.337184071023284e-05,
+              "delta_p_30m_missing": 5.98585311912266e-05,
+              "delta_p_5m": 8.961679481712853e-05,
+              "delta_p_5m_missing": 8.730097401490654e-05
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_60": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.13009316996161147
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0006598839597546398
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.1184835279036467
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.010018683017404467,
+              "observable_current_return_from_entry": 0.08671348504635534
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00046944405431610176
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -2.2621094132363083e-06,
+              "observable_current_return_from_entry": 0.0005633616220757318
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.1046635691621826
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.013472439226579164,
+              "observable_current_return_from_entry": 0.08051608460320724
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.03315817510342441,
+              "first_honest_p_t2": 0.07572771217522324
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 0.006925909336824919,
+              "delta_p_15m_missing": 0.027059599121976058,
+              "delta_p_30m": 0.011262911755059057,
+              "delta_p_30m_missing": 0.01253087016271113,
+              "delta_p_5m": 0.017697059715247192,
+              "delta_p_5m_missing": 0.022729281939376372
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0003601825967960794
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 6.60909445546736e-05,
+              "observable_current_return_from_entry": 0.0005227494425810037
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.0001517178877100944,
+              "first_honest_p_t2": 0.0002235771935885825
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -3.1181913731159913e-05,
+              "delta_p_15m_missing": 0.0001649389209653237,
+              "delta_p_30m": 2.847101633300624e-05,
+              "delta_p_30m_missing": 7.890212711426354e-05,
+              "delta_p_5m": 5.259412261976982e-05,
+              "delta_p_5m_missing": 0.00020276569663729165
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.17189615748617604
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.000680883612140145
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.15932626341992587
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.034536612075988835,
+              "observable_current_return_from_entry": 0.09380313386589474
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0005831856169881678
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.00041345589005641184,
+              "observable_current_return_from_entry": 0.0002748137020119927
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.14021097921854675
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.03584766925281842,
+              "observable_current_return_from_entry": 0.08477363488826882
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.04646048558271525,
+              "first_honest_p_t2": 0.0994384407583748
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 0.019693201686742493,
+              "delta_p_15m_missing": 0.018354033197000616,
+              "delta_p_30m": 0.024655677423153777,
+              "delta_p_30m_missing": 0.0003325055118007741,
+              "delta_p_5m": 0.024693993082836353,
+              "delta_p_5m_missing": 0.019036783448106224
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00043386906850973893
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.00045373329446668774,
+              "observable_current_return_from_entry": 0.0002582733198733341
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 6.433106839654267e-05,
+              "first_honest_p_t2": 0.00038590938942081383
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -1.4456149768386422e-05,
+              "delta_p_15m_missing": 0.0001603860942354618,
+              "delta_p_30m": 5.483117288321348e-05,
+              "delta_p_30m_missing": -1.7763470114051905e-06,
+              "delta_p_5m": 8.522835544795252e-05,
+              "delta_p_5m_missing": 0.0002042254482767554
+            }
+          }
+        }
+      }
+    }
+  },
+  "standardized_coefficients_2025": {
+    "full_2024_training": {
+      "DELTA_LIQ_15": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.06145491764004184
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00034632803801154196
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.05705908194446656
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -0.0009233615843280634,
+              "observable_current_return_from_entry": 0.035232944945954046
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00023700510532648832
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -8.439099983401781e-05,
+              "observable_current_return_from_entry": 0.00036007319266283315
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.05027308388445438
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.002273730316811348,
+              "observable_current_return_from_entry": 0.03221496169944869
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.019498865703730658,
+              "first_honest_p_t2": 0.03329448414384087
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 0.0022096955127537715,
+              "delta_p_15m_missing": 0.021382859776720452,
+              "delta_p_30m": 0.0013089149917354136,
+              "delta_p_30m_missing": 0.014190815981721483,
+              "delta_p_5m": 0.013880737129384051,
+              "delta_p_5m_missing": 0.01884845367399133
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00017852225863564716
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -2.806100980180507e-05,
+              "observable_current_return_from_entry": 0.00033396133063170715
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 9.958698622555573e-05,
+              "first_honest_p_t2": 8.582806960959991e-05
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 2.601354438452522e-06,
+              "delta_p_15m_missing": 0.00014181081194831454,
+              "delta_p_30m": -3.144411530147582e-05,
+              "delta_p_30m_missing": 7.221121189986336e-05,
+              "delta_p_5m": 6.272453683464413e-05,
+              "delta_p_5m_missing": 0.00015175113478121483
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_30": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.08068406533879754
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00047477479812062023
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.07427117144501054
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.0030596758072158614,
+              "observable_current_return_from_entry": 0.050917173162487575
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00029094676184432877
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -7.405139321953227e-05,
+              "observable_current_return_from_entry": 0.0005956782785280348
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.06570570435079814
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.005888110270047386,
+              "observable_current_return_from_entry": 0.04723373649112367
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.02487520937318296,
+              "first_honest_p_t2": 0.04416572192210266
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 0.0030029667876389486,
+              "delta_p_15m_missing": 0.022737481913738224,
+              "delta_p_30m": 0.002524791097890803,
+              "delta_p_30m_missing": 0.009908086656536766,
+              "delta_p_5m": 0.014971805942079258,
+              "delta_p_5m_missing": 0.02056273598643768
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00022407079624844632
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -2.0804549971013283e-05,
+              "observable_current_return_from_entry": 0.0005591856829504488
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.00014809977716450753,
+              "first_honest_p_t2": 8.305649172320923e-05
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -4.037249554894274e-06,
+              "delta_p_15m_missing": 0.00014136445698309044,
+              "delta_p_30m": -3.750516915872207e-05,
+              "delta_p_30m_missing": 5.602492674856119e-05,
+              "delta_p_5m": 6.994700934529098e-05,
+              "delta_p_5m_missing": 0.00015889293837078388
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_5": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.03989592300355339
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00017848633777541658
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.03703349097466326
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -0.004903954982512679,
+              "observable_current_return_from_entry": 0.023521313510123695
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00013320334285975822
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -5.2527779890059996e-05,
+              "observable_current_return_from_entry": 0.00015168231048252146
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.032483541882313324
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -0.0022175940147815395,
+              "observable_current_return_from_entry": 0.021548741400526032
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.01246091497085244,
+              "first_honest_p_t2": 0.021660437639833927
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -0.0032926965837410836,
+              "delta_p_15m_missing": 0.018522712566831894,
+              "delta_p_30m": -0.0009834310078458961,
+              "delta_p_30m_missing": 0.012031615916554378,
+              "delta_p_5m": 0.018586993238022778,
+              "delta_p_5m_missing": 0.01213154480979239
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 9.811272579964627e-05
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -1.8837284775765316e-05,
+              "observable_current_return_from_entry": 0.00013743025035990456
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 5.189330009757048e-05,
+              "first_honest_p_t2": 5.0199942548609574e-05
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -1.6657203574220222e-05,
+              "delta_p_15m_missing": 8.388498640752368e-05,
+              "delta_p_30m": -1.4647117398328044e-05,
+              "delta_p_30m_missing": 4.5835286177916594e-05,
+              "delta_p_5m": 7.157972231207712e-05,
+              "delta_p_5m_missing": 8.337509055214099e-05
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_60": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.11002988443185026
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.000582181984190837
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.10170441316364366
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.010030899559463038,
+              "observable_current_return_from_entry": 0.06556205224385642
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00030439190790067006
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": -4.6575740663095865e-05,
+              "observable_current_return_from_entry": 0.0008907286103519671
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.08946620773110867
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.012147120186715528,
+              "observable_current_return_from_entry": 0.05968328509911988
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.03837770009546345,
+              "first_honest_p_t2": 0.05532433122076391
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 0.010083548509151625,
+              "delta_p_15m_missing": 0.019585721800912566,
+              "delta_p_30m": 0.013432220676856054,
+              "delta_p_30m_missing": 0.006860453374514147,
+              "delta_p_5m": 0.016462431401479894,
+              "delta_p_5m_missing": 0.019631232938474654
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00023671544821379594
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 1.5121940004391847e-05,
+              "observable_current_return_from_entry": 0.0008432327924165458
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.00018472373614020833,
+              "first_honest_p_t2": 5.756115133557354e-05
+            },
+            "probability_trajectory": {
+              "delta_p_15m": -1.0885978168502167e-05,
+              "delta_p_15m_missing": 0.0001287453578564669,
+              "delta_p_30m": -2.14657734598952e-05,
+              "delta_p_30m_missing": 0.00010794554793257893,
+              "delta_p_5m": 6.110335374816512e-05,
+              "delta_p_5m_missing": 0.0001402421991824103
+            }
+          }
+        }
+      },
+      "DELTA_LIQ_EVENT": {
+        "M1": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.14708504482285414
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0005687793498880817
+            },
+            "elapsed_current_observable_price_progress": {},
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M2": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.13741503534209507
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.024307959151177175,
+              "observable_current_return_from_entry": 0.07482315909589002
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.00024658973410512653
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.0002739159007230307,
+              "observable_current_return_from_entry": 0.0009857805378872167
+            },
+            "initial_trade_context": {},
+            "probability_trajectory": {}
+          }
+        },
+        "M3": {
+          "binary": {
+            "current_probability": {
+              "p_t2": 0.12035704927249034
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.024619910797108888,
+              "observable_current_return_from_entry": 0.06634526011642851
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.05401050872151464,
+              "first_honest_p_t2": 0.07188347199293327
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 0.019820276805488448,
+              "delta_p_15m_missing": 0.011984335792031637,
+              "delta_p_30m": 0.027708401771804506,
+              "delta_p_30m_missing": -0.0027928643872167465,
+              "delta_p_5m": 0.021762627269803537,
+              "delta_p_5m_missing": 0.015243477309731399
+            }
+          },
+          "continuous": {
+            "current_probability": {
+              "p_t2": 0.0001729305037921857
+            },
+            "elapsed_current_observable_price_progress": {
+              "elapsed_minutes_since_entry": 0.00031562407045238137,
+              "observable_current_return_from_entry": 0.0009496524994005752
+            },
+            "initial_trade_context": {
+              "delta_p_from_first": 0.00010818284603107605,
+              "first_honest_p_t2": 7.063051140474104e-05
+            },
+            "probability_trajectory": {
+              "delta_p_15m": 2.508053299383028e-05,
+              "delta_p_15m_missing": 0.00011528389534957641,
+              "delta_p_30m": 2.5739241299625397e-05,
+              "delta_p_30m_missing": 2.8936050686992054e-05,
+              "delta_p_5m": 0.00010077285175539296,
+              "delta_p_5m_missing": 0.00014360048658740678
+            }
+          }
+        }
+      }
+    }
+  }
+}

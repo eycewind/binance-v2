@@ -1,0 +1,27 @@
+{
+  "DELTA_LIQ_15": {
+    "classification": "WEAK_CAUSAL_STATE_SIGNAL",
+    "not_dependent_on_one_symbol": true,
+    "symbols_with_M3_brier_improvement": 5
+  },
+  "DELTA_LIQ_30": {
+    "classification": "WEAK_CAUSAL_STATE_SIGNAL",
+    "not_dependent_on_one_symbol": true,
+    "symbols_with_M3_brier_improvement": 5
+  },
+  "DELTA_LIQ_5": {
+    "classification": "WEAK_CAUSAL_STATE_SIGNAL",
+    "not_dependent_on_one_symbol": true,
+    "symbols_with_M3_brier_improvement": 5
+  },
+  "DELTA_LIQ_60": {
+    "classification": "WEAK_CAUSAL_STATE_SIGNAL",
+    "not_dependent_on_one_symbol": true,
+    "symbols_with_M3_brier_improvement": 5
+  },
+  "DELTA_LIQ_EVENT": {
+    "classification": "WEAK_CAUSAL_STATE_SIGNAL",
+    "not_dependent_on_one_symbol": true,
+    "symbols_with_M3_brier_improvement": 5
+  }
+}
