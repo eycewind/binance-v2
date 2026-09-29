@@ -1,0 +1,13 @@
+{
+  "FEASIBILITY_GATE": "FAIL",
+  "classification": "STOP_TEMPORARY_EXIT_CANDIDATE",
+  "predicates": {
+    "2024_calendar_month_no_clear_negative": false,
+    "2024_mean_margin_positive": false,
+    "2024_whole_trade_no_clear_negative": false,
+    "2025_calendar_month_no_clear_negative": false,
+    "2025_mean_margin_positive": false,
+    "2025_whole_trade_no_clear_negative": false
+  },
+  "stage_b_authorized": false
+}

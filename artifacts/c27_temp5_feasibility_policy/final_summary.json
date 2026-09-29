@@ -1,0 +1,349 @@
+{
+  "FEASIBILITY_GATE": "FAIL",
+  "calendar_month_uncertainty": {
+    "2024": {
+      "calendar_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "construction": "resample UTC entry-calendar-month blocks with whole attached trades",
+      "generator": "PCG64",
+      "intervals": {
+        "fraction_margin_gt_0": {
+          "ci95": [
+            0.125,
+            0.17647058823529413
+          ],
+          "replicate_sha256": "02e86940ddb923ac48374f4b97b5f4b42f56c73084092190ab5b7c737f255eab"
+        },
+        "mean_feasibility_margin_5": {
+          "ci95": [
+            -0.0024750338896465003,
+            -0.0019079150759409148
+          ],
+          "replicate_sha256": "5d18b37fbb111c16f38792af910716b6fe1269df37b9414393a606ef3125e7c3"
+        },
+        "mean_incremental_friction": {
+          "ci95": [
+            0.002382485322341229,
+            0.002385251742164356
+          ],
+          "replicate_sha256": "665126fa58affa926117d39944f73fcca0539637daf29402a26474f7d693f0b4"
+        },
+        "mean_signed_avoidable_5": {
+          "ci95": [
+            -9.213180381957164e-05,
+            0.0004773366662234409
+          ],
+          "replicate_sha256": "6cf2388db47677dbbc1382aa599c4aaa44a5902830d5fc62c425a583dfad886f"
+        }
+      },
+      "paired_quantities_preserved": true,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "calendar_month"
+    },
+    "2025": {
+      "calendar_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "construction": "resample UTC entry-calendar-month blocks with whole attached trades",
+      "generator": "PCG64",
+      "intervals": {
+        "fraction_margin_gt_0": {
+          "ci95": [
+            0.08752327746741155,
+            0.1378677272610615
+          ],
+          "replicate_sha256": "b82ce9b71cce19f43412803ee68f38a3519f682c13274222d361487090d1ed21"
+        },
+        "mean_feasibility_margin_5": {
+          "ci95": [
+            -0.002458161314244623,
+            -0.0020467614541697142
+          ],
+          "replicate_sha256": "888d5ecce28d3b06871ed37227e83cb394378911b286103afd1e79d15b48d147"
+        },
+        "mean_incremental_friction": {
+          "ci95": [
+            0.0023829358998622946,
+            0.002384333511859145
+          ],
+          "replicate_sha256": "073ab0ddb11d1d34cc875d57b78a3430f27ee4fc186b6231d1faca840bcdf99e"
+        },
+        "mean_signed_avoidable_5": {
+          "ci95": [
+            -7.465531107475556e-05,
+            0.0003362492504171101
+          ],
+          "replicate_sha256": "3fec42e9d385265d226f58568561a6f52025720dd75c9cca8debde42209c8e81"
+        }
+      },
+      "paired_quantities_preserved": true,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "calendar_month"
+    }
+  },
+  "classification": "STOP_TEMPORARY_EXIT_CANDIDATE",
+  "confirmations": {
+    "C28_started": false,
+    "accessed_2026": false,
+    "stage_b_run": false,
+    "staged_committed_or_pushed": false,
+    "tuning_or_search": false
+  },
+  "contract_sha256": "ff495e32f6d115080ae4a6fd09330ec14dfab6c9df9f9a0b00d517a5e2129b8a",
+  "feasibility": {
+    "2024": {
+      "C0": {
+        "fraction_margin_eq_0": 0.01910828025477707,
+        "fraction_margin_gt_0": 0.4713375796178344,
+        "fraction_margin_lt_0": 0.5095541401273885,
+        "mean_feasibility_margin_5": 0.00021265434223868867,
+        "mean_gross_avoidable_5": 0.0009557816444659857,
+        "mean_incremental_friction": 0.0,
+        "mean_signed_avoidable_5": 0.00021265434223868867,
+        "median_feasibility_margin_5": -0.00014472967507015225,
+        "median_incremental_friction": 0.0,
+        "median_signed_avoidable_5": -0.00014472967507015225,
+        "trigger_count": 157
+      },
+      "C_BASE": {
+        "fraction_margin_eq_0": 0.0,
+        "fraction_margin_gt_0": 0.1464968152866242,
+        "fraction_margin_lt_0": 0.8535031847133758,
+        "mean_feasibility_margin_5": -0.0021708570441681015,
+        "mean_gross_avoidable_5": 0.0009557816444659857,
+        "mean_incremental_friction": 0.00238351138640679,
+        "mean_signed_avoidable_5": 0.00021265434223868867,
+        "median_feasibility_margin_5": -0.0025324975723608778,
+        "median_incremental_friction": 0.0023854257060581694,
+        "median_signed_avoidable_5": -0.00014472967507015225,
+        "trigger_count": 157
+      },
+      "C_S10": {
+        "fraction_margin_eq_0": 0.0,
+        "fraction_margin_gt_0": 0.06369426751592357,
+        "fraction_margin_lt_0": 0.9363057324840764,
+        "mean_feasibility_margin_5": -0.003753517491757802,
+        "mean_gross_avoidable_5": 0.0009557816444659857,
+        "mean_incremental_friction": 0.003966171833996492,
+        "mean_signed_avoidable_5": 0.00021265434223868867,
+        "median_feasibility_margin_5": -0.004117346335409242,
+        "median_incremental_friction": 0.003969357269034015,
+        "median_signed_avoidable_5": -0.00014472967507015225,
+        "trigger_count": 157
+      },
+      "C_S5": {
+        "fraction_margin_eq_0": 0.0,
+        "fraction_margin_gt_0": 0.10828025477707007,
+        "fraction_margin_lt_0": 0.89171974522293,
+        "mean_feasibility_margin_5": -0.002764948418477121,
+        "mean_gross_avoidable_5": 0.0009557816444659857,
+        "mean_incremental_friction": 0.00297760276071581,
+        "mean_signed_avoidable_5": 0.00021265434223868867,
+        "median_feasibility_margin_5": -0.0031274453563517875,
+        "median_incremental_friction": 0.002979994225472854,
+        "median_signed_avoidable_5": -0.00014472967507015225,
+        "trigger_count": 157
+      }
+    },
+    "2025": {
+      "C0": {
+        "fraction_margin_eq_0": 0.0073937153419593345,
+        "fraction_margin_gt_0": 0.4879852125693161,
+        "fraction_margin_lt_0": 0.5046210720887245,
+        "mean_feasibility_margin_5": 0.00013719408011796065,
+        "mean_gross_avoidable_5": 0.0008265820365999717,
+        "mean_incremental_friction": 0.0,
+        "mean_signed_avoidable_5": 0.00013719408011796065,
+        "median_feasibility_margin_5": -3.393829798483371e-05,
+        "median_incremental_friction": 0.0,
+        "median_signed_avoidable_5": -3.393829798483371e-05,
+        "trigger_count": 541
+      },
+      "C_BASE": {
+        "fraction_margin_eq_0": 0.0,
+        "fraction_margin_gt_0": 0.11275415896487985,
+        "fraction_margin_lt_0": 0.8872458410351202,
+        "mean_feasibility_margin_5": -0.002246413658424562,
+        "mean_gross_avoidable_5": 0.0008265820365999717,
+        "mean_incremental_friction": 0.0023836077385425225,
+        "mean_signed_avoidable_5": 0.00013719408011796065,
+        "median_feasibility_margin_5": -0.0024168165542851174,
+        "median_incremental_friction": 0.002384552783073796,
+        "median_signed_avoidable_5": -3.393829798483371e-05,
+        "trigger_count": 541
+      },
+      "C_S10": {
+        "fraction_margin_eq_0": 0.0,
+        "fraction_margin_gt_0": 0.04621072088724584,
+        "fraction_margin_lt_0": 0.9537892791127541,
+        "mean_feasibility_margin_5": -0.00382913808419164,
+        "mean_gross_avoidable_5": 0.0008265820365999717,
+        "mean_incremental_friction": 0.003966332164309601,
+        "mean_signed_avoidable_5": 0.00013719408011796065,
+        "median_feasibility_margin_5": -0.004000005157248604,
+        "median_incremental_friction": 0.003967904721933151,
+        "median_signed_avoidable_5": -3.393829798483371e-05,
+        "trigger_count": 541
+      },
+      "C_S5": {
+        "fraction_margin_eq_0": 0.0,
+        "fraction_margin_gt_0": 0.08502772643253234,
+        "fraction_margin_lt_0": 0.9149722735674677,
+        "mean_feasibility_margin_5": -0.0028405290485503465,
+        "mean_gross_avoidable_5": 0.0008265820365999717,
+        "mean_incremental_friction": 0.0029777231286683067,
+        "mean_signed_avoidable_5": 0.00013719408011796065,
+        "median_feasibility_margin_5": -0.003010750120606611,
+        "median_incremental_friction": 0.0029789037260093457,
+        "median_signed_avoidable_5": -3.393829798483371e-05,
+        "trigger_count": 541
+      }
+    }
+  },
+  "first_q1_population": {
+    "count": 698,
+    "counts_exact_C26": true,
+    "one_trigger_per_trade": true,
+    "status": "PASS",
+    "timestamps_and_probabilities_exact_C25": true,
+    "year_counts": {
+      "2024": 157,
+      "2025": 541
+    }
+  },
+  "predicates": {
+    "2024_calendar_month_no_clear_negative": false,
+    "2024_mean_margin_positive": false,
+    "2024_whole_trade_no_clear_negative": false,
+    "2025_calendar_month_no_clear_negative": false,
+    "2025_mean_margin_positive": false,
+    "2025_whole_trade_no_clear_negative": false
+  },
+  "reason": "C_BASE mean feasibility margin is not positive in both years; the frozen sell/re-entry friction exceeds mean signed five-minute avoidable value.",
+  "reconciliation": {
+    "C25_exact": true,
+    "C25_total_pnl_difference": 643.3400867765678,
+    "C26_exact": true,
+    "first_q1_count": 698,
+    "original_trade_count": 2199,
+    "status": "PASS",
+    "year_counts": {
+      "2024": 157,
+      "2025": 541
+    }
+  },
+  "stage_b_authorized": false,
+  "timing_semantics": {
+    "duration_anchor": "state t, not sell fill",
+    "lifecycle_precedence_while_flat": true,
+    "one_interruption_maximum": true,
+    "reentry": "one attempt at next valid 1m open after t_reassess",
+    "t_reassess": "earliest eligible completed 5m state >= t+5m",
+    "temporary_sell": "next valid 1m open strictly after t (open timestamp t)",
+    "trigger": "first honest pre-T2 Q1 completed 5m state t"
+  },
+  "transaction_cost_definition": {
+    "actual_notional_each_leg": true,
+    "gross_avoidable_5": "max(0, -DELTA_LIQ_5)",
+    "incremental_friction": "actual quote cost of the additional temporary sell and one re-entry, divided by original 1000 USDT; sale proceeds net of frozen slippage and fee fund the buy executed with frozen slippage and fee",
+    "later_P0_outcome_used": false,
+    "margin": "signed_avoidable_5 - incremental_friction",
+    "signed_avoidable_5": "-frozen C_BASE DELTA_LIQ_5"
+  },
+  "whole_trade_uncertainty": {
+    "2024": {
+      "calendar_months": null,
+      "construction": "resample complete first-Q1 trades",
+      "generator": "PCG64",
+      "intervals": {
+        "fraction_margin_gt_0": {
+          "ci95": [
+            0.09554140127388536,
+            0.20382165605095542
+          ],
+          "replicate_sha256": "02f7e0650b07bf650313d9b84a2be60424114835545d5e41c5dff98f534099a5"
+        },
+        "mean_feasibility_margin_5": {
+          "ci95": [
+            -0.002551623547330105,
+            -0.0017651795435913214
+          ],
+          "replicate_sha256": "86c3af337259378a2fbbcbd2ef12a4f71d5b16ba8cefdba897c378b287438afb"
+        },
+        "mean_incremental_friction": {
+          "ci95": [
+            0.00238222920527089,
+            0.0023845845117379315
+          ],
+          "replicate_sha256": "6da43942034d7a45be060e188e8faa03734c227fdfadcdc8d68e3b8a3d5ad2c7"
+        },
+        "mean_signed_avoidable_5": {
+          "ci95": [
+            -0.00016781167241438057,
+            0.0006186102273349626
+          ],
+          "replicate_sha256": "e9bc6ee3ee9b0fbe6eaaece4ec1a22551194636e3e4c8e77b9bab041cd8f3912"
+        }
+      },
+      "paired_quantities_preserved": true,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "whole_trade"
+    },
+    "2025": {
+      "calendar_months": null,
+      "construction": "resample complete first-Q1 trades",
+      "generator": "PCG64",
+      "intervals": {
+        "fraction_margin_gt_0": {
+          "ci95": [
+            0.08687615526802218,
+            0.13863216266173753
+          ],
+          "replicate_sha256": "ab810bd861a81bc5dc1027f24786d8e2ff8552b30e69a8958329d9d0198365d6"
+        },
+        "mean_feasibility_margin_5": {
+          "ci95": [
+            -0.0024357378693212967,
+            -0.0020576607015113644
+          ],
+          "replicate_sha256": "aa1481a1d3e1b2bc7daf6552ec3cae2b24380d559a5d5eb782bdc45a29fcead9"
+        },
+        "mean_incremental_friction": {
+          "ci95": [
+            0.0023831378965466156,
+            0.0023840551206944457
+          ],
+          "replicate_sha256": "01ece8118811c62461aa1921ba495799e7d49f7dabf9004b3b0858367bb00940"
+        },
+        "mean_signed_avoidable_5": {
+          "ci95": [
+            -5.249555300380789e-05,
+            0.0003259048255132222
+          ],
+          "replicate_sha256": "25789a528d92a664593febdc2276585c3be8f2b67d59bbc9a4f79f157c5461da"
+        }
+      },
+      "paired_quantities_preserved": true,
+      "replicates": 2000,
+      "seed": 20260929,
+      "unit": "whole_trade"
+    }
+  }
+}

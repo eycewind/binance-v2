@@ -1,0 +1,54 @@
+{
+  "C0": {
+    "fraction_margin_eq_0": 0.0073937153419593345,
+    "fraction_margin_gt_0": 0.4879852125693161,
+    "fraction_margin_lt_0": 0.5046210720887245,
+    "mean_feasibility_margin_5": 0.00013719408011796065,
+    "mean_gross_avoidable_5": 0.0008265820365999717,
+    "mean_incremental_friction": 0.0,
+    "mean_signed_avoidable_5": 0.00013719408011796065,
+    "median_feasibility_margin_5": -3.393829798483371e-05,
+    "median_incremental_friction": 0.0,
+    "median_signed_avoidable_5": -3.393829798483371e-05,
+    "trigger_count": 541
+  },
+  "C_BASE": {
+    "fraction_margin_eq_0": 0.0,
+    "fraction_margin_gt_0": 0.11275415896487985,
+    "fraction_margin_lt_0": 0.8872458410351202,
+    "mean_feasibility_margin_5": -0.002246413658424562,
+    "mean_gross_avoidable_5": 0.0008265820365999717,
+    "mean_incremental_friction": 0.0023836077385425225,
+    "mean_signed_avoidable_5": 0.00013719408011796065,
+    "median_feasibility_margin_5": -0.0024168165542851174,
+    "median_incremental_friction": 0.002384552783073796,
+    "median_signed_avoidable_5": -3.393829798483371e-05,
+    "trigger_count": 541
+  },
+  "C_S10": {
+    "fraction_margin_eq_0": 0.0,
+    "fraction_margin_gt_0": 0.04621072088724584,
+    "fraction_margin_lt_0": 0.9537892791127541,
+    "mean_feasibility_margin_5": -0.00382913808419164,
+    "mean_gross_avoidable_5": 0.0008265820365999717,
+    "mean_incremental_friction": 0.003966332164309601,
+    "mean_signed_avoidable_5": 0.00013719408011796065,
+    "median_feasibility_margin_5": -0.004000005157248604,
+    "median_incremental_friction": 0.003967904721933151,
+    "median_signed_avoidable_5": -3.393829798483371e-05,
+    "trigger_count": 541
+  },
+  "C_S5": {
+    "fraction_margin_eq_0": 0.0,
+    "fraction_margin_gt_0": 0.08502772643253234,
+    "fraction_margin_lt_0": 0.9149722735674677,
+    "mean_feasibility_margin_5": -0.0028405290485503465,
+    "mean_gross_avoidable_5": 0.0008265820365999717,
+    "mean_incremental_friction": 0.0029777231286683067,
+    "mean_signed_avoidable_5": 0.00013719408011796065,
+    "median_feasibility_margin_5": -0.003010750120606611,
+    "median_incremental_friction": 0.0029789037260093457,
+    "median_signed_avoidable_5": -3.393829798483371e-05,
+    "trigger_count": 541
+  }
+}

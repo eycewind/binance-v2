@@ -1,0 +1,12 @@
+{
+  "C25_exact": true,
+  "C25_total_pnl_difference": 643.3400867765678,
+  "C26_exact": true,
+  "first_q1_count": 698,
+  "original_trade_count": 2199,
+  "status": "PASS",
+  "year_counts": {
+    "2024": 157,
+    "2025": 541
+  }
+}

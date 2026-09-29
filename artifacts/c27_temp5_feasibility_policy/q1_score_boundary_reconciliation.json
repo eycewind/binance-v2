@@ -1,0 +1,10 @@
+{
+  "boundaries": {
+    "2024": 0.48865730936567864,
+    "2025": 0.4818371318862759
+  },
+  "model": "S+C9",
+  "status": "PASS",
+  "target": "DELTA_LIQ_5",
+  "tie_convention": "probability <= frozen upper boundary"
+}

@@ -1,0 +1,17 @@
+{
+  "feasibility_2024.json": "3cc1ec4349901c3909edf2a804398b012ee3d62f5bf76709b2065e8532035739",
+  "feasibility_2025.json": "9883b01df0665de912756e6aadb4ade2e3d68ce47b584c219d57f4a057a89e1c",
+  "feasibility_calendar_month_bootstrap.json": "4d37ada0b54a7d96c6d8ea837519085c7ff97cb59e8a936c0adbb68f5f98585d",
+  "feasibility_cost_robustness.json": "cb23d89dde4940fb46a9d65cf4d46f6ba90f7ad6ddbdc74cc53a5a4ac45b61f3",
+  "feasibility_definition.json": "a09ee6a6dd94332f6be3634f0e87922c221850e5d823c66fe7281b3ad27e3660",
+  "feasibility_gate.json": "1b0cb1373a1e03a6b2daf31067f974ed91b4358aac070a82e8158484d001ad7d",
+  "feasibility_whole_trade_bootstrap.json": "8be2c9048e5ad9d7eacea727bda8224f2cc22db076e247cd85e758c60346884c",
+  "final_summary.json": "e2bcec63d7ce9863206e93245e3e765ec245110b68e55667b79ece84e0c79fdd",
+  "interpretation_predicates.json": "e4a3c7cb975c408a253a348811dc04d7f24e36df9cc6658f8442b6fc38f95351",
+  "population_reconciliation.json": "362d40784a57cb388bd5d9e340348afbf9a5c4b442bf27e1e8047b4b43f98976",
+  "provenance.json": "ee01cd2378bff36f203730740c14255590fe735f6fa5300c27d353470d6aa64e",
+  "q1_score_boundary_reconciliation.json": "2c1a619dfb34546a28592f45f527f9099078c941100585a829096f7c14f25192",
+  "run_manifest.json": "d2579f6923e2eed2c02ea9b0dc70fc5934e03480ef4ad192c6fd01d6ae6f9856",
+  "timing_contract.json": "166cf171dfe51600300042721e2fea1c1b0ec90c0e62bb081a7e8a0723228a45",
+  "trigger_reconciliation.json": "3386936905b7f55c7ad68d52dcb97706163245200f0ca5f747733bd0a71f5888"
+}

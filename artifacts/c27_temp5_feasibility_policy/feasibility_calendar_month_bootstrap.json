@@ -1,0 +1,97 @@
+{
+  "2024": {
+    "calendar_months": [
+      "2024-10",
+      "2024-11",
+      "2024-12"
+    ],
+    "construction": "resample UTC entry-calendar-month blocks with whole attached trades",
+    "generator": "PCG64",
+    "intervals": {
+      "fraction_margin_gt_0": {
+        "ci95": [
+          0.125,
+          0.17647058823529413
+        ],
+        "replicate_sha256": "02e86940ddb923ac48374f4b97b5f4b42f56c73084092190ab5b7c737f255eab"
+      },
+      "mean_feasibility_margin_5": {
+        "ci95": [
+          -0.0024750338896465003,
+          -0.0019079150759409148
+        ],
+        "replicate_sha256": "5d18b37fbb111c16f38792af910716b6fe1269df37b9414393a606ef3125e7c3"
+      },
+      "mean_incremental_friction": {
+        "ci95": [
+          0.002382485322341229,
+          0.002385251742164356
+        ],
+        "replicate_sha256": "665126fa58affa926117d39944f73fcca0539637daf29402a26474f7d693f0b4"
+      },
+      "mean_signed_avoidable_5": {
+        "ci95": [
+          -9.213180381957164e-05,
+          0.0004773366662234409
+        ],
+        "replicate_sha256": "6cf2388db47677dbbc1382aa599c4aaa44a5902830d5fc62c425a583dfad886f"
+      }
+    },
+    "paired_quantities_preserved": true,
+    "replicates": 2000,
+    "seed": 20260929,
+    "unit": "calendar_month"
+  },
+  "2025": {
+    "calendar_months": [
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "construction": "resample UTC entry-calendar-month blocks with whole attached trades",
+    "generator": "PCG64",
+    "intervals": {
+      "fraction_margin_gt_0": {
+        "ci95": [
+          0.08752327746741155,
+          0.1378677272610615
+        ],
+        "replicate_sha256": "b82ce9b71cce19f43412803ee68f38a3519f682c13274222d361487090d1ed21"
+      },
+      "mean_feasibility_margin_5": {
+        "ci95": [
+          -0.002458161314244623,
+          -0.0020467614541697142
+        ],
+        "replicate_sha256": "888d5ecce28d3b06871ed37227e83cb394378911b286103afd1e79d15b48d147"
+      },
+      "mean_incremental_friction": {
+        "ci95": [
+          0.0023829358998622946,
+          0.002384333511859145
+        ],
+        "replicate_sha256": "073ab0ddb11d1d34cc875d57b78a3430f27ee4fc186b6231d1faca840bcdf99e"
+      },
+      "mean_signed_avoidable_5": {
+        "ci95": [
+          -7.465531107475556e-05,
+          0.0003362492504171101
+        ],
+        "replicate_sha256": "3fec42e9d385265d226f58568561a6f52025720dd75c9cca8debde42209c8e81"
+      }
+    },
+    "paired_quantities_preserved": true,
+    "replicates": 2000,
+    "seed": 20260929,
+    "unit": "calendar_month"
+  }
+}

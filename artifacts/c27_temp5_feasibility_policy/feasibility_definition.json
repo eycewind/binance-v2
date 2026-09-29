@@ -1,0 +1,8 @@
+{
+  "actual_notional_each_leg": true,
+  "gross_avoidable_5": "max(0, -DELTA_LIQ_5)",
+  "incremental_friction": "actual quote cost of the additional temporary sell and one re-entry, divided by original 1000 USDT; sale proceeds net of frozen slippage and fee fund the buy executed with frozen slippage and fee",
+  "later_P0_outcome_used": false,
+  "margin": "signed_avoidable_5 - incremental_friction",
+  "signed_avoidable_5": "-frozen C_BASE DELTA_LIQ_5"
+}

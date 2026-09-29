@@ -1,0 +1,80 @@
+{
+  "2024": {
+    "calendar_months": null,
+    "construction": "resample complete first-Q1 trades",
+    "generator": "PCG64",
+    "intervals": {
+      "fraction_margin_gt_0": {
+        "ci95": [
+          0.09554140127388536,
+          0.20382165605095542
+        ],
+        "replicate_sha256": "02f7e0650b07bf650313d9b84a2be60424114835545d5e41c5dff98f534099a5"
+      },
+      "mean_feasibility_margin_5": {
+        "ci95": [
+          -0.002551623547330105,
+          -0.0017651795435913214
+        ],
+        "replicate_sha256": "86c3af337259378a2fbbcbd2ef12a4f71d5b16ba8cefdba897c378b287438afb"
+      },
+      "mean_incremental_friction": {
+        "ci95": [
+          0.00238222920527089,
+          0.0023845845117379315
+        ],
+        "replicate_sha256": "6da43942034d7a45be060e188e8faa03734c227fdfadcdc8d68e3b8a3d5ad2c7"
+      },
+      "mean_signed_avoidable_5": {
+        "ci95": [
+          -0.00016781167241438057,
+          0.0006186102273349626
+        ],
+        "replicate_sha256": "e9bc6ee3ee9b0fbe6eaaece4ec1a22551194636e3e4c8e77b9bab041cd8f3912"
+      }
+    },
+    "paired_quantities_preserved": true,
+    "replicates": 2000,
+    "seed": 20260929,
+    "unit": "whole_trade"
+  },
+  "2025": {
+    "calendar_months": null,
+    "construction": "resample complete first-Q1 trades",
+    "generator": "PCG64",
+    "intervals": {
+      "fraction_margin_gt_0": {
+        "ci95": [
+          0.08687615526802218,
+          0.13863216266173753
+        ],
+        "replicate_sha256": "ab810bd861a81bc5dc1027f24786d8e2ff8552b30e69a8958329d9d0198365d6"
+      },
+      "mean_feasibility_margin_5": {
+        "ci95": [
+          -0.0024357378693212967,
+          -0.0020576607015113644
+        ],
+        "replicate_sha256": "aa1481a1d3e1b2bc7daf6552ec3cae2b24380d559a5d5eb782bdc45a29fcead9"
+      },
+      "mean_incremental_friction": {
+        "ci95": [
+          0.0023831378965466156,
+          0.0023840551206944457
+        ],
+        "replicate_sha256": "01ece8118811c62461aa1921ba495799e7d49f7dabf9004b3b0858367bb00940"
+      },
+      "mean_signed_avoidable_5": {
+        "ci95": [
+          -5.249555300380789e-05,
+          0.0003259048255132222
+        ],
+        "replicate_sha256": "25789a528d92a664593febdc2276585c3be8f2b67d59bbc9a4f79f157c5461da"
+      }
+    },
+    "paired_quantities_preserved": true,
+    "replicates": 2000,
+    "seed": 20260929,
+    "unit": "whole_trade"
+  }
+}

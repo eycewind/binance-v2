@@ -1,0 +1,9 @@
+{
+  "duration_anchor": "state t, not sell fill",
+  "lifecycle_precedence_while_flat": true,
+  "one_interruption_maximum": true,
+  "reentry": "one attempt at next valid 1m open after t_reassess",
+  "t_reassess": "earliest eligible completed 5m state >= t+5m",
+  "temporary_sell": "next valid 1m open strictly after t (open timestamp t)",
+  "trigger": "first honest pre-T2 Q1 completed 5m state t"
+}

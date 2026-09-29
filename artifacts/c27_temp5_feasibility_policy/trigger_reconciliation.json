@@ -1,0 +1,11 @@
+{
+  "count": 698,
+  "counts_exact_C26": true,
+  "one_trigger_per_trade": true,
+  "status": "PASS",
+  "timestamps_and_probabilities_exact_C25": true,
+  "year_counts": {
+    "2024": 157,
+    "2025": 541
+  }
+}
