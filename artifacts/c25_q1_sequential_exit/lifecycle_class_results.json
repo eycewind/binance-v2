@@ -1,0 +1,34 @@
+{
+  "P0_FIRST": {
+    "c25_total_pnl": -10335.269815846572,
+    "changed_count": 594,
+    "changed_fraction": 0.43870014771048743,
+    "count": 1354,
+    "losses": 157,
+    "mean_c25_return": -0.0076331387118512345,
+    "mean_p0_return": -0.009371902835448176,
+    "mean_paired_return_difference": 0.0017387641235969407,
+    "median_paired_return_difference": 0.0,
+    "model_exit_count": 597,
+    "p0_total_pnl": -12689.55643919683,
+    "ties": 760,
+    "total_pnl_difference": 2354.286623350258,
+    "wins": 437
+  },
+  "T2_FIRST": {
+    "c25_total_pnl": 6066.780207494659,
+    "changed_count": 101,
+    "changed_fraction": 0.11952662721893491,
+    "count": 845,
+    "losses": 69,
+    "mean_c25_return": 0.007179621547330958,
+    "mean_p0_return": 0.009204410348009881,
+    "mean_paired_return_difference": -0.0020247888006789234,
+    "median_paired_return_difference": 0.0,
+    "model_exit_count": 101,
+    "p0_total_pnl": 7777.72674406835,
+    "ties": 744,
+    "total_pnl_difference": -1710.94653657369,
+    "wins": 32
+  }
+}

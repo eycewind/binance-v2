@@ -1,0 +1,62 @@
+{
+  "C0": {
+    "c25_total_pnl": 1009.467853256651,
+    "changed_count": 695,
+    "changed_fraction": 0.3160527512505684,
+    "count": 2199,
+    "losses": 226,
+    "mean_c25_return": 0.0004590576867924743,
+    "mean_p0_return": 0.00016608737483031635,
+    "mean_paired_return_difference": 0.00029297031196215824,
+    "median_paired_return_difference": 0.0,
+    "p0_total_pnl": 365.2261372518656,
+    "ties": 1504,
+    "total_pnl_difference": 644.241716004786,
+    "wins": 469
+  },
+  "C_BASE": {
+    "c25_total_pnl": -4268.4896083519125,
+    "changed_count": 695,
+    "changed_fraction": 0.3160527512505684,
+    "count": 2199,
+    "losses": 226,
+    "mean_c25_return": -0.0019411048696461632,
+    "mean_p0_return": -0.0022336651637692036,
+    "mean_paired_return_difference": 0.00029256029412304117,
+    "median_paired_return_difference": 0.0,
+    "p0_total_pnl": -4911.829695128479,
+    "ties": 1504,
+    "total_pnl_difference": 643.3400867765678,
+    "wins": 469
+  },
+  "C_S10": {
+    "c25_total_pnl": -7780.769303678085,
+    "changed_count": 695,
+    "changed_fraction": 0.3160527512505684,
+    "count": 2199,
+    "losses": 226,
+    "mean_c25_return": -0.0035383216478754365,
+    "mean_p0_return": -0.003830414219612246,
+    "mean_paired_return_difference": 0.0002920925717368093,
+    "median_paired_return_difference": 0.0,
+    "p0_total_pnl": -8423.080868927329,
+    "ties": 1504,
+    "total_pnl_difference": 642.3115652492436,
+    "wins": 469
+  },
+  "C_S5": {
+    "c25_total_pnl": -5586.252717430351,
+    "changed_count": 695,
+    "changed_fraction": 0.3160527512505684,
+    "count": 2199,
+    "losses": 226,
+    "mean_c25_return": -0.00254036048996378,
+    "mean_p0_return": -0.0028327453005378652,
+    "mean_paired_return_difference": 0.0002923848105740854,
+    "median_paired_return_difference": 0.0,
+    "p0_total_pnl": -6229.206915882765,
+    "ties": 1504,
+    "total_pnl_difference": 642.9541984524138,
+    "wins": 469
+  }
+}

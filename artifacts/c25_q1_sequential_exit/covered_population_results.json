@@ -1,0 +1,15 @@
+{
+  "c25_total_pnl": -2443.0490057222155,
+  "changed_count": 695,
+  "changed_fraction": 0.5132939438700148,
+  "count": 1354,
+  "losses": 226,
+  "mean_c25_return": -0.0018043197974314737,
+  "mean_p0_return": -0.0022794601864835917,
+  "mean_paired_return_difference": 0.00047514038905211787,
+  "median_paired_return_difference": 0.0,
+  "p0_total_pnl": -3086.389092498783,
+  "ties": 659,
+  "total_pnl_difference": 643.3400867765678,
+  "wins": 469
+}

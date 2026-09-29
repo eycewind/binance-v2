@@ -1,0 +1,18 @@
+{
+  "2024": {
+    "model": "S+C9 L2 logistic C=1.0",
+    "published_metrics_exact": true,
+    "status": "PASS",
+    "target": "DELTA_LIQ_5",
+    "training_prediction_sha256": "fb9444f1e63708ebe8576fd6b3fb521ce8f3a20685229d37afcd54b4befba32f",
+    "validation_prediction_sha256": "daa199be6cf2de4715a2277905085852335b920a48cc88b5142a5b369a938d88"
+  },
+  "2025": {
+    "model": "S+C9 L2 logistic C=1.0",
+    "published_metrics_exact": true,
+    "status": "PASS",
+    "target": "DELTA_LIQ_5",
+    "training_prediction_sha256": "16b2235076e3f222e347ac9d140ca1990e4725b5935cf38b655b1f0008b41739",
+    "validation_prediction_sha256": "08a474d2fa986b8331c232e97182e4e1b95544682e384a4d06a0f560d4017896"
+  }
+}

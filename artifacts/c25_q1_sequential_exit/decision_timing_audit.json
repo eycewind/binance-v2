@@ -1,0 +1,7 @@
+{
+  "decision": "after completed five-minute state",
+  "execution": "open at state-end timestamp, the next one-minute interval",
+  "same_bar_fill": false,
+  "sole_score": "DELTA_LIQ_5",
+  "status": "PASS"
+}

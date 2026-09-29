@@ -1,0 +1,30 @@
+{
+  "counts": {
+    "2024_TRAINING_ONLY_FALLBACK": 256,
+    "ELIGIBLE_NEVER_Q1": 243,
+    "MODEL_EXIT_EXECUTED": 698,
+    "NO_HONEST_MODEL_COVERAGE": 589,
+    "REACHED_T2_BEFORE_MODEL_EXIT": 413
+  },
+  "executed_exits": 698,
+  "failed_execution_opportunities": 0,
+  "fallback_p0_trades": 1501,
+  "q1_decisions": 698,
+  "reassessments_before_first_q1": {
+    "mean": 19.79512893982808,
+    "total": 13817
+  },
+  "time_entry_to_first_q1_minutes": {
+    "max": 1370.0,
+    "mean": 109.02578796561605,
+    "median": 50.0,
+    "min": 10.0
+  },
+  "time_q1_signal_to_actual_fill_minutes": {
+    "max": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "min": 0.0
+  },
+  "unique_trades_with_q1": 698
+}

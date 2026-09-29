@@ -1,0 +1,18 @@
+{
+  "2024": {
+    "boundary": 0.48865730936567864,
+    "comparison": "probability <= boundary (searchsorted side=left)",
+    "identical_values_never_split": true,
+    "status": "PASS",
+    "validation_q1_snapshots": 1192,
+    "validation_q1_trades": 157
+  },
+  "2025": {
+    "boundary": 0.4818371318862759,
+    "comparison": "probability <= boundary (searchsorted side=left)",
+    "identical_values_never_split": true,
+    "status": "PASS",
+    "validation_q1_snapshots": 4727,
+    "validation_q1_trades": 541
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "causal_snapshots": 75164,
+  "eligible_target_snapshots": 56217,
+  "eligible_target_trades": 1610,
+  "exact_reconciliation": true,
+  "honestly_scored_snapshots": 56217,
+  "honestly_scored_trades": 1610,
+  "lifecycle_classes": {
+    "P0_FIRST": 1354,
+    "T2_FIRST": 845
+  },
+  "original_entries": 2199,
+  "paired_p0": 2199,
+  "source_trades": 2199,
+  "target_ineligible": {},
+  "years": {
+    "2024": 1093,
+    "2025": 1106
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "2024_training_rows": 7970,
+  "2024_training_trades": 256,
+  "2024_validation_rows": 8631,
+  "2024_validation_trades": 267,
+  "2025_evaluation_rows": 39616,
+  "2025_evaluation_trades": 1087,
+  "covered_trades": 1354,
+  "no_honest_coverage_trades": 589,
+  "training_only_fallback_trades": 256
+}

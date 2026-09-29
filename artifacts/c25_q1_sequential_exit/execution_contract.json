@@ -1,0 +1,12 @@
+{
+  "costs": [
+    "C0",
+    "C_BASE",
+    "C_S5",
+    "C_S10"
+  ],
+  "full_exit": true,
+  "missing_fill": "fail closed then later honest reassessment",
+  "partial_exit": false,
+  "reentry": false
+}

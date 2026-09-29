@@ -1,0 +1,11 @@
+{
+  "2024_honest_mean_positive": false,
+  "2025_untouched_mean_positive": true,
+  "calendar_month_no_clear_negative": true,
+  "classification": "WEAK_POLICY_ECONOMIC_SIGNAL",
+  "full_population_mean_positive": true,
+  "not_obviously_one_symbol": true,
+  "positive_symbols": 4,
+  "profitable_tail_not_net_surrendered": false,
+  "whole_trade_no_clear_negative": true
+}

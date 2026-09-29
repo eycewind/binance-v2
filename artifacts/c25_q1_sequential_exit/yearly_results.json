@@ -1,0 +1,32 @@
+{
+  "2024": {
+    "c25_total_pnl": -849.0569311431681,
+    "changed_count": 156,
+    "changed_fraction": 0.5842696629213483,
+    "count": 267,
+    "losses": 55,
+    "mean_c25_return": -0.0031799885061541875,
+    "mean_p0_return": -0.0031759410764343084,
+    "mean_paired_return_difference": -4.047429719879166e-06,
+    "median_paired_return_difference": 0.0,
+    "p0_total_pnl": -847.9762674079603,
+    "ties": 111,
+    "total_pnl_difference": -1.080663735207736,
+    "wins": 101
+  },
+  "2025": {
+    "c25_total_pnl": -1593.9920745790475,
+    "changed_count": 539,
+    "changed_fraction": 0.49586016559337626,
+    "count": 1087,
+    "losses": 171,
+    "mean_c25_return": -0.0014664140520506417,
+    "mean_p0_return": -0.0020592574287864062,
+    "mean_paired_return_difference": 0.0005928433767357639,
+    "median_paired_return_difference": 0.0,
+    "p0_total_pnl": -2238.4128250908234,
+    "ties": 548,
+    "total_pnl_difference": 644.4207505117755,
+    "wins": 368
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "AVOIDED_LOSS": {
+    "count": 469,
+    "pnl_contribution": 2739.6910903891035
+  },
+  "DEEPENED_LOSS": {
+    "count": 188,
+    "pnl_contribution": -359.5442420926985
+  },
+  "PRESERVED_GAIN": {
+    "count": 0,
+    "pnl_contribution": 0.0
+  },
+  "SURRENDERED_UPSIDE": {
+    "count": 38,
+    "pnl_contribution": -1736.8067615198397
+  },
+  "TIE": {
+    "count": 3,
+    "pnl_contribution": 0.0
+  }
+}
