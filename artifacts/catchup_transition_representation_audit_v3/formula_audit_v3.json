@@ -1,0 +1,13 @@
+{
+  "dispersion_ddof": 0,
+  "independent_synthetic_fixtures": true,
+  "real_row_identity_failures": {
+    "BASKET_ACCELERATION": 0,
+    "CATCHUP_ONSET_RELATIVE_IMPROVEMENT": 0,
+    "DISPERSION_CHANGE": 0,
+    "NEW_JOINER_FRACTION": 0,
+    "PRIOR_RELATIVE_DEFICIT": 0,
+    "RELATIVE_IMPROVEMENT": 0
+  },
+  "status": "PASS"
+}

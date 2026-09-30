@@ -1,0 +1,35 @@
+{
+  "command": "conda run -n binance-v2-research env PYTHONPATH=src python scripts/catchup_transition_representation_audit_v3.py",
+  "documents": {
+    "V1_audit_checkpoint": "ec871bd",
+    "V2_audit_checkpoint": "bc128fd",
+    "actual": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V3_CONTRACT.md": "a21ead9857dde0cdde9f7360d221a735aa64eff19e2f1a308220175b247665cf",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V2.md": "7e860e091db7cb0d70a2f39cc753438405b7b152a4a2c289532fcb24257134de",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V3.md": "88fda7e56760fadb14760a667070976df7f9e37c37a49faa8fcb0199a6dc1a26",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    },
+    "all_match": true,
+    "expected": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V3_CONTRACT.md": "a21ead9857dde0cdde9f7360d221a735aa64eff19e2f1a308220175b247665cf",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V2.md": "7e860e091db7cb0d70a2f39cc753438405b7b152a4a2c289532fcb24257134de",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V3.md": "88fda7e56760fadb14760a667070976df7f9e37c37a49faa8fcb0199a6dc1a26",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    }
+  },
+  "environment": "binance-v2-research",
+  "git_HEAD": "634e0ad02d66920daaa9ca6c01bb0a0405e76412",
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "source_paths": [
+    "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv",
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz"
+  ]
+}

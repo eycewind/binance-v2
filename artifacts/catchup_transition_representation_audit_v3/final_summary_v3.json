@@ -1,0 +1,80 @@
+{
+  "C31_started": false,
+  "PASS_does_not_imply_predictive_usefulness": true,
+  "all_technical_implementation_gates_pass": true,
+  "catchup_onset_available": {
+    "absent": 0,
+    "available": 2199,
+    "available_percentage": 100.0,
+    "total": 2199
+  },
+  "catchup_same_boundary": {
+    "count": 685,
+    "percentage": 31.150522964984084,
+    "total": 2199
+  },
+  "catchup_state_at_E1": {
+    "false": 1321,
+    "missing": 0,
+    "total": 2199,
+    "true": 878,
+    "true_percentage": 39.92723965438836
+  },
+  "classification": "REPRESENTATION_V3_NEEDS_REVISION",
+  "episode_onsets_materially_more_event_like_than_V2": false,
+  "exact_or_affine_primary_pair_count": 0,
+  "market_expansion_state_at_E1": {
+    "false": 846,
+    "missing": 0,
+    "total": 2199,
+    "true": 1353,
+    "true_percentage": 61.52796725784447
+  },
+  "market_onset_available": {
+    "absent": 0,
+    "available": 2199,
+    "available_percentage": 100.0,
+    "total": 2199
+  },
+  "market_same_boundary": {
+    "count": 1105,
+    "percentage": 50.25011368804002,
+    "total": 2199
+  },
+  "missing_state_encoding_requires_prospective_amendment": false,
+  "near_redundancy_flag_count": 0,
+  "no_feature_selected_removed_or_added": true,
+  "no_model_fit": true,
+  "onset_definitions_interval_and_window_unchanged": true,
+  "population_count": 2199,
+  "predictive_contract_design_technically_justified": false,
+  "primary_schema": [
+    "NEW_JOINER_FRACTION",
+    "BASKET_ACCELERATION",
+    "PRIOR_RELATIVE_DEFICIT",
+    "RELATIVE_IMPROVEMENT",
+    "DISPERSION_CHANGE",
+    "MINUTES_SINCE_MARKET_EXPANSION_ONSET",
+    "MINUTES_SINCE_CATCHUP_ONSET",
+    "CATCHUP_ONSET_RELATIVE_IMPROVEMENT"
+  ],
+  "raw_complete_primary_count": 2199,
+  "raw_complete_primary_percent": 100.0,
+  "recurrence_revision_reason": {
+    "assessment": "FALSE -> TRUE catch-up onsets remain a generic recurring condition",
+    "basis": "outcome-free mechanics only; no automatic frequency threshold imposed",
+    "entries_with_four_or_more_onsets": 1503,
+    "entries_with_one_onset": 9,
+    "entries_with_two_or_more_onsets": 2190,
+    "entries_with_zero_onsets": 0,
+    "mean_onsets_per_12h": 3.920418371987267,
+    "same_boundary_percentage": 31.150522964984084
+  },
+  "sequence_ordering": {
+    "CATCHUP_BEFORE_MARKET": 1121,
+    "MARKET_BEFORE_CATCHUP": 494,
+    "SAME_BOUNDARY": 584
+  },
+  "state_aware_valid_count": 2199,
+  "state_aware_valid_percent": 100.0
+}

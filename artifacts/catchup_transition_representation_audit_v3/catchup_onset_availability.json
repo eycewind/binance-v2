@@ -1,0 +1,200 @@
+{
+  "by_UTC_entry_month": {
+    "2024-01": {
+      "absent": 0,
+      "available": 98,
+      "available_percentage": 100.0,
+      "total": 98
+    },
+    "2024-02": {
+      "absent": 0,
+      "available": 83,
+      "available_percentage": 100.0,
+      "total": 83
+    },
+    "2024-03": {
+      "absent": 0,
+      "available": 94,
+      "available_percentage": 100.0,
+      "total": 94
+    },
+    "2024-04": {
+      "absent": 0,
+      "available": 92,
+      "available_percentage": 100.0,
+      "total": 92
+    },
+    "2024-05": {
+      "absent": 0,
+      "available": 98,
+      "available_percentage": 100.0,
+      "total": 98
+    },
+    "2024-06": {
+      "absent": 0,
+      "available": 92,
+      "available_percentage": 100.0,
+      "total": 92
+    },
+    "2024-07": {
+      "absent": 0,
+      "available": 85,
+      "available_percentage": 100.0,
+      "total": 85
+    },
+    "2024-08": {
+      "absent": 0,
+      "available": 92,
+      "available_percentage": 100.0,
+      "total": 92
+    },
+    "2024-09": {
+      "absent": 0,
+      "available": 86,
+      "available_percentage": 100.0,
+      "total": 86
+    },
+    "2024-10": {
+      "absent": 0,
+      "available": 91,
+      "available_percentage": 100.0,
+      "total": 91
+    },
+    "2024-11": {
+      "absent": 0,
+      "available": 89,
+      "available_percentage": 100.0,
+      "total": 89
+    },
+    "2024-12": {
+      "absent": 0,
+      "available": 93,
+      "available_percentage": 100.0,
+      "total": 93
+    },
+    "2025-01": {
+      "absent": 0,
+      "available": 93,
+      "available_percentage": 100.0,
+      "total": 93
+    },
+    "2025-02": {
+      "absent": 0,
+      "available": 86,
+      "available_percentage": 100.0,
+      "total": 86
+    },
+    "2025-03": {
+      "absent": 0,
+      "available": 89,
+      "available_percentage": 100.0,
+      "total": 89
+    },
+    "2025-04": {
+      "absent": 0,
+      "available": 92,
+      "available_percentage": 100.0,
+      "total": 92
+    },
+    "2025-05": {
+      "absent": 0,
+      "available": 102,
+      "available_percentage": 100.0,
+      "total": 102
+    },
+    "2025-06": {
+      "absent": 0,
+      "available": 91,
+      "available_percentage": 100.0,
+      "total": 91
+    },
+    "2025-07": {
+      "absent": 0,
+      "available": 93,
+      "available_percentage": 100.0,
+      "total": 93
+    },
+    "2025-08": {
+      "absent": 0,
+      "available": 91,
+      "available_percentage": 100.0,
+      "total": 91
+    },
+    "2025-09": {
+      "absent": 0,
+      "available": 88,
+      "available_percentage": 100.0,
+      "total": 88
+    },
+    "2025-10": {
+      "absent": 0,
+      "available": 93,
+      "available_percentage": 100.0,
+      "total": 93
+    },
+    "2025-11": {
+      "absent": 0,
+      "available": 94,
+      "available_percentage": 100.0,
+      "total": 94
+    },
+    "2025-12": {
+      "absent": 0,
+      "available": 94,
+      "available_percentage": 100.0,
+      "total": 94
+    }
+  },
+  "by_symbol": {
+    "BNBUSDT": {
+      "absent": 0,
+      "available": 442,
+      "available_percentage": 100.0,
+      "total": 442
+    },
+    "BTCUSDT": {
+      "absent": 0,
+      "available": 451,
+      "available_percentage": 100.0,
+      "total": 451
+    },
+    "ETHUSDT": {
+      "absent": 0,
+      "available": 434,
+      "available_percentage": 100.0,
+      "total": 434
+    },
+    "SOLUSDT": {
+      "absent": 0,
+      "available": 431,
+      "available_percentage": 100.0,
+      "total": 431
+    },
+    "XRPUSDT": {
+      "absent": 0,
+      "available": 441,
+      "available_percentage": 100.0,
+      "total": 441
+    }
+  },
+  "by_year": {
+    "2024": {
+      "absent": 0,
+      "available": 1093,
+      "available_percentage": 100.0,
+      "total": 1093
+    },
+    "2025": {
+      "absent": 0,
+      "available": 1106,
+      "available_percentage": 100.0,
+      "total": 1106
+    }
+  },
+  "pooled": {
+    "absent": 0,
+    "available": 2199,
+    "available_percentage": 100.0,
+    "total": 2199
+  }
+}

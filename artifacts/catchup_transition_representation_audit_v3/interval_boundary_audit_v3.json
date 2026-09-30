@@ -1,0 +1,12 @@
+{
+  "PREVIOUS_60": "[u-120m,u-60m)",
+  "RECENT_60": "[u-60m,u)",
+  "bar_beginning_at_boundary_used": false,
+  "expected_bars_each": 60,
+  "most_recent_onset_selected": true,
+  "non_overlapping": true,
+  "prior_state_warmup_boundary": "t-13h",
+  "search_window": "inclusive [t-12h,t]",
+  "source_warmup_start": "t-15h",
+  "status": "PASS"
+}

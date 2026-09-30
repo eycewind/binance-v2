@@ -1,0 +1,338 @@
+{
+  "catchup": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "count": 31,
+        "percentage": 31.632653061224488,
+        "total": 98
+      },
+      "2024-02": {
+        "count": 32,
+        "percentage": 38.55421686746988,
+        "total": 83
+      },
+      "2024-03": {
+        "count": 39,
+        "percentage": 41.48936170212766,
+        "total": 94
+      },
+      "2024-04": {
+        "count": 24,
+        "percentage": 26.08695652173913,
+        "total": 92
+      },
+      "2024-05": {
+        "count": 30,
+        "percentage": 30.612244897959183,
+        "total": 98
+      },
+      "2024-06": {
+        "count": 28,
+        "percentage": 30.434782608695652,
+        "total": 92
+      },
+      "2024-07": {
+        "count": 27,
+        "percentage": 31.764705882352942,
+        "total": 85
+      },
+      "2024-08": {
+        "count": 31,
+        "percentage": 33.69565217391305,
+        "total": 92
+      },
+      "2024-09": {
+        "count": 23,
+        "percentage": 26.74418604651163,
+        "total": 86
+      },
+      "2024-10": {
+        "count": 24,
+        "percentage": 26.373626373626372,
+        "total": 91
+      },
+      "2024-11": {
+        "count": 34,
+        "percentage": 38.20224719101124,
+        "total": 89
+      },
+      "2024-12": {
+        "count": 25,
+        "percentage": 26.881720430107528,
+        "total": 93
+      },
+      "2025-01": {
+        "count": 28,
+        "percentage": 30.107526881720432,
+        "total": 93
+      },
+      "2025-02": {
+        "count": 30,
+        "percentage": 34.883720930232556,
+        "total": 86
+      },
+      "2025-03": {
+        "count": 34,
+        "percentage": 38.20224719101124,
+        "total": 89
+      },
+      "2025-04": {
+        "count": 19,
+        "percentage": 20.652173913043477,
+        "total": 92
+      },
+      "2025-05": {
+        "count": 26,
+        "percentage": 25.49019607843137,
+        "total": 102
+      },
+      "2025-06": {
+        "count": 26,
+        "percentage": 28.571428571428573,
+        "total": 91
+      },
+      "2025-07": {
+        "count": 31,
+        "percentage": 33.333333333333336,
+        "total": 93
+      },
+      "2025-08": {
+        "count": 30,
+        "percentage": 32.967032967032964,
+        "total": 91
+      },
+      "2025-09": {
+        "count": 32,
+        "percentage": 36.36363636363637,
+        "total": 88
+      },
+      "2025-10": {
+        "count": 26,
+        "percentage": 27.956989247311828,
+        "total": 93
+      },
+      "2025-11": {
+        "count": 29,
+        "percentage": 30.851063829787233,
+        "total": 94
+      },
+      "2025-12": {
+        "count": 26,
+        "percentage": 27.659574468085108,
+        "total": 94
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "count": 129,
+        "percentage": 29.18552036199095,
+        "total": 442
+      },
+      "BTCUSDT": {
+        "count": 112,
+        "percentage": 24.83370288248337,
+        "total": 451
+      },
+      "ETHUSDT": {
+        "count": 148,
+        "percentage": 34.10138248847926,
+        "total": 434
+      },
+      "SOLUSDT": {
+        "count": 170,
+        "percentage": 39.443155452436194,
+        "total": 431
+      },
+      "XRPUSDT": {
+        "count": 126,
+        "percentage": 28.571428571428573,
+        "total": 441
+      }
+    },
+    "by_year": {
+      "2024": {
+        "count": 348,
+        "percentage": 31.838975297346753,
+        "total": 1093
+      },
+      "2025": {
+        "count": 337,
+        "percentage": 30.470162748643762,
+        "total": 1106
+      }
+    },
+    "pooled": {
+      "count": 685,
+      "percentage": 31.150522964984084,
+      "total": 2199
+    }
+  },
+  "market_expansion": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "count": 49,
+        "percentage": 50.0,
+        "total": 98
+      },
+      "2024-02": {
+        "count": 39,
+        "percentage": 46.98795180722892,
+        "total": 83
+      },
+      "2024-03": {
+        "count": 41,
+        "percentage": 43.61702127659574,
+        "total": 94
+      },
+      "2024-04": {
+        "count": 50,
+        "percentage": 54.34782608695652,
+        "total": 92
+      },
+      "2024-05": {
+        "count": 51,
+        "percentage": 52.04081632653061,
+        "total": 98
+      },
+      "2024-06": {
+        "count": 38,
+        "percentage": 41.30434782608695,
+        "total": 92
+      },
+      "2024-07": {
+        "count": 45,
+        "percentage": 52.94117647058823,
+        "total": 85
+      },
+      "2024-08": {
+        "count": 43,
+        "percentage": 46.73913043478261,
+        "total": 92
+      },
+      "2024-09": {
+        "count": 38,
+        "percentage": 44.18604651162791,
+        "total": 86
+      },
+      "2024-10": {
+        "count": 46,
+        "percentage": 50.54945054945055,
+        "total": 91
+      },
+      "2024-11": {
+        "count": 49,
+        "percentage": 55.056179775280896,
+        "total": 89
+      },
+      "2024-12": {
+        "count": 52,
+        "percentage": 55.913978494623656,
+        "total": 93
+      },
+      "2025-01": {
+        "count": 50,
+        "percentage": 53.763440860215056,
+        "total": 93
+      },
+      "2025-02": {
+        "count": 40,
+        "percentage": 46.51162790697674,
+        "total": 86
+      },
+      "2025-03": {
+        "count": 47,
+        "percentage": 52.80898876404494,
+        "total": 89
+      },
+      "2025-04": {
+        "count": 46,
+        "percentage": 50.0,
+        "total": 92
+      },
+      "2025-05": {
+        "count": 52,
+        "percentage": 50.98039215686274,
+        "total": 102
+      },
+      "2025-06": {
+        "count": 45,
+        "percentage": 49.45054945054945,
+        "total": 91
+      },
+      "2025-07": {
+        "count": 45,
+        "percentage": 48.38709677419355,
+        "total": 93
+      },
+      "2025-08": {
+        "count": 53,
+        "percentage": 58.24175824175824,
+        "total": 91
+      },
+      "2025-09": {
+        "count": 34,
+        "percentage": 38.63636363636363,
+        "total": 88
+      },
+      "2025-10": {
+        "count": 44,
+        "percentage": 47.31182795698925,
+        "total": 93
+      },
+      "2025-11": {
+        "count": 61,
+        "percentage": 64.8936170212766,
+        "total": 94
+      },
+      "2025-12": {
+        "count": 47,
+        "percentage": 50.0,
+        "total": 94
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "count": 204,
+        "percentage": 46.15384615384615,
+        "total": 442
+      },
+      "BTCUSDT": {
+        "count": 232,
+        "percentage": 51.44124168514412,
+        "total": 451
+      },
+      "ETHUSDT": {
+        "count": 213,
+        "percentage": 49.07834101382488,
+        "total": 434
+      },
+      "SOLUSDT": {
+        "count": 228,
+        "percentage": 52.90023201856148,
+        "total": 431
+      },
+      "XRPUSDT": {
+        "count": 228,
+        "percentage": 51.70068027210884,
+        "total": 441
+      }
+    },
+    "by_year": {
+      "2024": {
+        "count": 541,
+        "percentage": 49.4967978042086,
+        "total": 1093
+      },
+      "2025": {
+        "count": 564,
+        "percentage": 50.99457504520796,
+        "total": 1106
+      }
+    },
+    "pooled": {
+      "count": 1105,
+      "percentage": 50.25011368804002,
+      "total": 2199
+    }
+  }
+}

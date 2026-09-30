@@ -1,0 +1,33 @@
+{
+  "V2_mean_subject_qualifying_conditions_per_12h_historical": 5.31,
+  "V2_subject_same_boundary_onset_rate_historical_percent": 81.95,
+  "V3_catchup_FALSE_to_TRUE_onset_count_distribution": {
+    "bands": {
+      "0": 0,
+      "1": 9,
+      "2": 126,
+      "3": 561,
+      "4+": 1503
+    },
+    "count": 2199,
+    "exact_frequency_table": {
+      "1": 9,
+      "2": 126,
+      "3": 561,
+      "4": 905,
+      "5": 531,
+      "6": 67
+    },
+    "max": 6.0,
+    "mean": 3.920418371987267,
+    "median": 4.0,
+    "min": 1.0,
+    "p10": 3.0,
+    "p25": 3.0,
+    "p75": 5.0,
+    "p90": 5.0,
+    "std": 0.9371017638572461
+  },
+  "V3_catchup_same_boundary_onset_rate_percent": 31.150522964984084,
+  "outcome_free_mechanics_only": true
+}

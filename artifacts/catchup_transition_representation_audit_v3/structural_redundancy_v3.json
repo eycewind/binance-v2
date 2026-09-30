@@ -1,0 +1,15 @@
+{
+  "BREADTH_CHANGE_support_only": true,
+  "BTC_primary_field": false,
+  "NEW_JOINER_FRACTION_primary": true,
+  "V2_subject_absolute_onset_fields_in_primary": false,
+  "algebraic_support_relationships": {
+    "BASKET_ACCELERATION": "BASKET_RECENT_RETURN-BASKET_PREV_RETURN",
+    "DISPERSION_CHANGE": "DISPERSION_RECENT-DISPERSION_PREVIOUS",
+    "PRIOR_RELATIVE_DEFICIT": "-SUBJECT_RELATIVE_PREVIOUS",
+    "RELATIVE_IMPROVEMENT": "SUBJECT_RELATIVE_RECENT-SUBJECT_RELATIVE_PREVIOUS"
+  },
+  "duplicate_age_alias": false,
+  "duplicate_relative_return_alias": false,
+  "status": "PASS"
+}

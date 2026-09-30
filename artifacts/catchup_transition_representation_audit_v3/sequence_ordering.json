@@ -1,0 +1,168 @@
+{
+  "by_UTC_entry_month": {
+    "2024-01": {
+      "CATCHUP_BEFORE_MARKET": 54,
+      "MARKET_BEFORE_CATCHUP": 22,
+      "SAME_BOUNDARY": 22
+    },
+    "2024-02": {
+      "CATCHUP_BEFORE_MARKET": 38,
+      "MARKET_BEFORE_CATCHUP": 23,
+      "SAME_BOUNDARY": 22
+    },
+    "2024-03": {
+      "CATCHUP_BEFORE_MARKET": 41,
+      "MARKET_BEFORE_CATCHUP": 29,
+      "SAME_BOUNDARY": 24
+    },
+    "2024-04": {
+      "CATCHUP_BEFORE_MARKET": 51,
+      "MARKET_BEFORE_CATCHUP": 19,
+      "SAME_BOUNDARY": 22
+    },
+    "2024-05": {
+      "CATCHUP_BEFORE_MARKET": 52,
+      "MARKET_BEFORE_CATCHUP": 21,
+      "SAME_BOUNDARY": 25
+    },
+    "2024-06": {
+      "CATCHUP_BEFORE_MARKET": 45,
+      "MARKET_BEFORE_CATCHUP": 23,
+      "SAME_BOUNDARY": 24
+    },
+    "2024-07": {
+      "CATCHUP_BEFORE_MARKET": 50,
+      "MARKET_BEFORE_CATCHUP": 18,
+      "SAME_BOUNDARY": 17
+    },
+    "2024-08": {
+      "CATCHUP_BEFORE_MARKET": 44,
+      "MARKET_BEFORE_CATCHUP": 24,
+      "SAME_BOUNDARY": 24
+    },
+    "2024-09": {
+      "CATCHUP_BEFORE_MARKET": 35,
+      "MARKET_BEFORE_CATCHUP": 24,
+      "SAME_BOUNDARY": 27
+    },
+    "2024-10": {
+      "CATCHUP_BEFORE_MARKET": 49,
+      "MARKET_BEFORE_CATCHUP": 20,
+      "SAME_BOUNDARY": 22
+    },
+    "2024-11": {
+      "CATCHUP_BEFORE_MARKET": 40,
+      "MARKET_BEFORE_CATCHUP": 21,
+      "SAME_BOUNDARY": 28
+    },
+    "2024-12": {
+      "CATCHUP_BEFORE_MARKET": 51,
+      "MARKET_BEFORE_CATCHUP": 24,
+      "SAME_BOUNDARY": 18
+    },
+    "2025-01": {
+      "CATCHUP_BEFORE_MARKET": 55,
+      "MARKET_BEFORE_CATCHUP": 15,
+      "SAME_BOUNDARY": 23
+    },
+    "2025-02": {
+      "CATCHUP_BEFORE_MARKET": 40,
+      "MARKET_BEFORE_CATCHUP": 21,
+      "SAME_BOUNDARY": 25
+    },
+    "2025-03": {
+      "CATCHUP_BEFORE_MARKET": 36,
+      "MARKET_BEFORE_CATCHUP": 21,
+      "SAME_BOUNDARY": 32
+    },
+    "2025-04": {
+      "CATCHUP_BEFORE_MARKET": 58,
+      "MARKET_BEFORE_CATCHUP": 14,
+      "SAME_BOUNDARY": 20
+    },
+    "2025-05": {
+      "CATCHUP_BEFORE_MARKET": 58,
+      "MARKET_BEFORE_CATCHUP": 18,
+      "SAME_BOUNDARY": 26
+    },
+    "2025-06": {
+      "CATCHUP_BEFORE_MARKET": 45,
+      "MARKET_BEFORE_CATCHUP": 18,
+      "SAME_BOUNDARY": 28
+    },
+    "2025-07": {
+      "CATCHUP_BEFORE_MARKET": 43,
+      "MARKET_BEFORE_CATCHUP": 23,
+      "SAME_BOUNDARY": 27
+    },
+    "2025-08": {
+      "CATCHUP_BEFORE_MARKET": 46,
+      "MARKET_BEFORE_CATCHUP": 17,
+      "SAME_BOUNDARY": 28
+    },
+    "2025-09": {
+      "CATCHUP_BEFORE_MARKET": 38,
+      "MARKET_BEFORE_CATCHUP": 24,
+      "SAME_BOUNDARY": 26
+    },
+    "2025-10": {
+      "CATCHUP_BEFORE_MARKET": 47,
+      "MARKET_BEFORE_CATCHUP": 21,
+      "SAME_BOUNDARY": 25
+    },
+    "2025-11": {
+      "CATCHUP_BEFORE_MARKET": 57,
+      "MARKET_BEFORE_CATCHUP": 16,
+      "SAME_BOUNDARY": 21
+    },
+    "2025-12": {
+      "CATCHUP_BEFORE_MARKET": 48,
+      "MARKET_BEFORE_CATCHUP": 18,
+      "SAME_BOUNDARY": 28
+    }
+  },
+  "by_symbol": {
+    "BNBUSDT": {
+      "CATCHUP_BEFORE_MARKET": 248,
+      "MARKET_BEFORE_CATCHUP": 122,
+      "SAME_BOUNDARY": 72
+    },
+    "BTCUSDT": {
+      "CATCHUP_BEFORE_MARKET": 276,
+      "MARKET_BEFORE_CATCHUP": 120,
+      "SAME_BOUNDARY": 55
+    },
+    "ETHUSDT": {
+      "CATCHUP_BEFORE_MARKET": 211,
+      "MARKET_BEFORE_CATCHUP": 97,
+      "SAME_BOUNDARY": 126
+    },
+    "SOLUSDT": {
+      "CATCHUP_BEFORE_MARKET": 163,
+      "MARKET_BEFORE_CATCHUP": 67,
+      "SAME_BOUNDARY": 201
+    },
+    "XRPUSDT": {
+      "CATCHUP_BEFORE_MARKET": 223,
+      "MARKET_BEFORE_CATCHUP": 88,
+      "SAME_BOUNDARY": 130
+    }
+  },
+  "by_year": {
+    "2024": {
+      "CATCHUP_BEFORE_MARKET": 550,
+      "MARKET_BEFORE_CATCHUP": 268,
+      "SAME_BOUNDARY": 275
+    },
+    "2025": {
+      "CATCHUP_BEFORE_MARKET": 571,
+      "MARKET_BEFORE_CATCHUP": 226,
+      "SAME_BOUNDARY": 309
+    }
+  },
+  "pooled": {
+    "CATCHUP_BEFORE_MARKET": 1121,
+    "MARKET_BEFORE_CATCHUP": 494,
+    "SAME_BOUNDARY": 584
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "documents": {
+    "V1_audit_checkpoint": "ec871bd",
+    "V2_audit_checkpoint": "bc128fd",
+    "actual": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V3_CONTRACT.md": "a21ead9857dde0cdde9f7360d221a735aa64eff19e2f1a308220175b247665cf",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V2.md": "7e860e091db7cb0d70a2f39cc753438405b7b152a4a2c289532fcb24257134de",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V3.md": "88fda7e56760fadb14760a667070976df7f9e37c37a49faa8fcb0199a6dc1a26",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    },
+    "all_match": true,
+    "expected": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V3_CONTRACT.md": "a21ead9857dde0cdde9f7360d221a735aa64eff19e2f1a308220175b247665cf",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V2.md": "7e860e091db7cb0d70a2f39cc753438405b7b152a4a2c289532fcb24257134de",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V3.md": "88fda7e56760fadb14760a667070976df7f9e37c37a49faa8fcb0199a6dc1a26",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    }
+  },
+  "entry_input": {
+    "count": 2199,
+    "decision_execution_timestamp_equal_in_frozen_fixture": true,
+    "expected_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "file_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "fixture_id_exact": true,
+    "measurement_anchor": "entry_decision_ts/entry_execution_ms timestamp only; entry_price unused",
+    "semantic_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "status": "PASS",
+    "symbol_counts": {
+      "BNBUSDT": 442,
+      "BTCUSDT": 451,
+      "ETHUSDT": 434,
+      "SOLUSDT": 431,
+      "XRPUSDT": 441
+    },
+    "unique_trade_ids": 2199,
+    "year_counts": {
+      "2024": 1093,
+      "2025": 1106
+    }
+  },
+  "input_allowlist_enforced": true,
+  "market_inputs": {
+    "BNBUSDT": {
+      "first_open_ms": 1703980800000,
+      "last_open_ms": 1767225540000,
+      "last_open_strictly_pre_2026": true,
+      "path": "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+      "sha256": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+      "valid_contiguous_hours": 17568
+    },
+    "BTCUSDT": {
+      "first_open_ms": 1703980800000,
+      "last_open_ms": 1767225540000,
+      "last_open_strictly_pre_2026": true,
+      "path": "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+      "sha256": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+      "valid_contiguous_hours": 17568
+    },
+    "ETHUSDT": {
+      "first_open_ms": 1703980800000,
+      "last_open_ms": 1767225540000,
+      "last_open_strictly_pre_2026": true,
+      "path": "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+      "sha256": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+      "valid_contiguous_hours": 17568
+    },
+    "SOLUSDT": {
+      "first_open_ms": 1703980800000,
+      "last_open_ms": 1767225540000,
+      "last_open_strictly_pre_2026": true,
+      "path": "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+      "sha256": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+      "valid_contiguous_hours": 17568
+    },
+    "XRPUSDT": {
+      "first_open_ms": 1703980800000,
+      "last_open_ms": 1767225540000,
+      "last_open_strictly_pre_2026": true,
+      "path": "data/normalized/c2_history/XRPUSDT_1m.csv.gz",
+      "sha256": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb",
+      "valid_contiguous_hours": 17568
+    }
+  },
+  "outcome_artifacts_opened": false,
+  "post_E1_data_used": false,
+  "sealed_boundary_data_or_metadata_accessed": false
+}

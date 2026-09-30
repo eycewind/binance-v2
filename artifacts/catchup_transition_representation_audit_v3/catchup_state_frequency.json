@@ -1,0 +1,232 @@
+{
+  "by_UTC_entry_month": {
+    "2024-01": {
+      "false": 60,
+      "missing": 0,
+      "total": 98,
+      "true": 38,
+      "true_percentage": 38.775510204081634
+    },
+    "2024-02": {
+      "false": 40,
+      "missing": 0,
+      "total": 83,
+      "true": 43,
+      "true_percentage": 51.80722891566265
+    },
+    "2024-03": {
+      "false": 50,
+      "missing": 0,
+      "total": 94,
+      "true": 44,
+      "true_percentage": 46.808510638297875
+    },
+    "2024-04": {
+      "false": 57,
+      "missing": 0,
+      "total": 92,
+      "true": 35,
+      "true_percentage": 38.04347826086956
+    },
+    "2024-05": {
+      "false": 59,
+      "missing": 0,
+      "total": 98,
+      "true": 39,
+      "true_percentage": 39.795918367346935
+    },
+    "2024-06": {
+      "false": 61,
+      "missing": 0,
+      "total": 92,
+      "true": 31,
+      "true_percentage": 33.69565217391305
+    },
+    "2024-07": {
+      "false": 48,
+      "missing": 0,
+      "total": 85,
+      "true": 37,
+      "true_percentage": 43.529411764705884
+    },
+    "2024-08": {
+      "false": 53,
+      "missing": 0,
+      "total": 92,
+      "true": 39,
+      "true_percentage": 42.391304347826086
+    },
+    "2024-09": {
+      "false": 55,
+      "missing": 0,
+      "total": 86,
+      "true": 31,
+      "true_percentage": 36.04651162790697
+    },
+    "2024-10": {
+      "false": 56,
+      "missing": 0,
+      "total": 91,
+      "true": 35,
+      "true_percentage": 38.46153846153846
+    },
+    "2024-11": {
+      "false": 48,
+      "missing": 0,
+      "total": 89,
+      "true": 41,
+      "true_percentage": 46.06741573033708
+    },
+    "2024-12": {
+      "false": 54,
+      "missing": 0,
+      "total": 93,
+      "true": 39,
+      "true_percentage": 41.935483870967744
+    },
+    "2025-01": {
+      "false": 57,
+      "missing": 0,
+      "total": 93,
+      "true": 36,
+      "true_percentage": 38.70967741935484
+    },
+    "2025-02": {
+      "false": 51,
+      "missing": 0,
+      "total": 86,
+      "true": 35,
+      "true_percentage": 40.69767441860465
+    },
+    "2025-03": {
+      "false": 49,
+      "missing": 0,
+      "total": 89,
+      "true": 40,
+      "true_percentage": 44.943820224719104
+    },
+    "2025-04": {
+      "false": 63,
+      "missing": 0,
+      "total": 92,
+      "true": 29,
+      "true_percentage": 31.52173913043478
+    },
+    "2025-05": {
+      "false": 68,
+      "missing": 0,
+      "total": 102,
+      "true": 34,
+      "true_percentage": 33.333333333333336
+    },
+    "2025-06": {
+      "false": 54,
+      "missing": 0,
+      "total": 91,
+      "true": 37,
+      "true_percentage": 40.65934065934066
+    },
+    "2025-07": {
+      "false": 52,
+      "missing": 0,
+      "total": 93,
+      "true": 41,
+      "true_percentage": 44.086021505376344
+    },
+    "2025-08": {
+      "false": 54,
+      "missing": 0,
+      "total": 91,
+      "true": 37,
+      "true_percentage": 40.65934065934066
+    },
+    "2025-09": {
+      "false": 54,
+      "missing": 0,
+      "total": 88,
+      "true": 34,
+      "true_percentage": 38.63636363636363
+    },
+    "2025-10": {
+      "false": 60,
+      "missing": 0,
+      "total": 93,
+      "true": 33,
+      "true_percentage": 35.483870967741936
+    },
+    "2025-11": {
+      "false": 58,
+      "missing": 0,
+      "total": 94,
+      "true": 36,
+      "true_percentage": 38.297872340425535
+    },
+    "2025-12": {
+      "false": 60,
+      "missing": 0,
+      "total": 94,
+      "true": 34,
+      "true_percentage": 36.170212765957444
+    }
+  },
+  "by_symbol": {
+    "BNBUSDT": {
+      "false": 280,
+      "missing": 0,
+      "total": 442,
+      "true": 162,
+      "true_percentage": 36.65158371040724
+    },
+    "BTCUSDT": {
+      "false": 298,
+      "missing": 0,
+      "total": 451,
+      "true": 153,
+      "true_percentage": 33.92461197339246
+    },
+    "ETHUSDT": {
+      "false": 251,
+      "missing": 0,
+      "total": 434,
+      "true": 183,
+      "true_percentage": 42.16589861751152
+    },
+    "SOLUSDT": {
+      "false": 220,
+      "missing": 0,
+      "total": 431,
+      "true": 211,
+      "true_percentage": 48.95591647331786
+    },
+    "XRPUSDT": {
+      "false": 272,
+      "missing": 0,
+      "total": 441,
+      "true": 169,
+      "true_percentage": 38.321995464852606
+    }
+  },
+  "by_year": {
+    "2024": {
+      "false": 641,
+      "missing": 0,
+      "total": 1093,
+      "true": 452,
+      "true_percentage": 41.35407136322049
+    },
+    "2025": {
+      "false": 680,
+      "missing": 0,
+      "total": 1106,
+      "true": 426,
+      "true_percentage": 38.517179023508135
+    }
+  },
+  "pooled": {
+    "false": 1321,
+    "missing": 0,
+    "total": 2199,
+    "true": 878,
+    "true_percentage": 39.92723965438836
+  }
+}

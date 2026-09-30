@@ -1,0 +1,28 @@
+{
+  "FALSE_to_TRUE_only": true,
+  "catchup": {
+    "FALSE_FALSE": 0,
+    "FALSE_TRUE": 1,
+    "FALSE_TRUE_FALSE": 1,
+    "FALSE_TRUE_FALSE_TRUE": 2,
+    "FALSE_TRUE_TRUE": 1,
+    "TRUE_TRUE": 0
+  },
+  "expected": {
+    "FALSE_FALSE": 0,
+    "FALSE_TRUE": 1,
+    "FALSE_TRUE_FALSE": 1,
+    "FALSE_TRUE_FALSE_TRUE": 2,
+    "FALSE_TRUE_TRUE": 1,
+    "TRUE_TRUE": 0
+  },
+  "market_expansion": {
+    "FALSE_FALSE": 0,
+    "FALSE_TRUE": 1,
+    "FALSE_TRUE_FALSE": 1,
+    "FALSE_TRUE_FALSE_TRUE": 2,
+    "FALSE_TRUE_TRUE": 1,
+    "TRUE_TRUE": 0
+  },
+  "status": "PASS"
+}

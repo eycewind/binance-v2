@@ -1,0 +1,200 @@
+{
+  "by_UTC_entry_month": {
+    "2024-01": {
+      "both available": 98,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-02": {
+      "both available": 83,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-03": {
+      "both available": 94,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-04": {
+      "both available": 92,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-05": {
+      "both available": 98,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-06": {
+      "both available": 92,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-07": {
+      "both available": 85,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-08": {
+      "both available": 92,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-09": {
+      "both available": 86,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-10": {
+      "both available": 91,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-11": {
+      "both available": 89,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2024-12": {
+      "both available": 93,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-01": {
+      "both available": 93,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-02": {
+      "both available": 86,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-03": {
+      "both available": 89,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-04": {
+      "both available": 92,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-05": {
+      "both available": 102,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-06": {
+      "both available": 91,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-07": {
+      "both available": 93,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-08": {
+      "both available": 91,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-09": {
+      "both available": 88,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-10": {
+      "both available": 93,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-11": {
+      "both available": 94,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025-12": {
+      "both available": 94,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    }
+  },
+  "by_symbol": {
+    "BNBUSDT": {
+      "both available": 442,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "BTCUSDT": {
+      "both available": 451,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "ETHUSDT": {
+      "both available": 434,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "SOLUSDT": {
+      "both available": 431,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "XRPUSDT": {
+      "both available": 441,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    }
+  },
+  "by_year": {
+    "2024": {
+      "both available": 1093,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    },
+    "2025": {
+      "both available": 1106,
+      "catch-up only": 0,
+      "market only": 0,
+      "neither": 0
+    }
+  },
+  "pooled": {
+    "both available": 2199,
+    "catch-up only": 0,
+    "market only": 0,
+    "neither": 0
+  }
+}

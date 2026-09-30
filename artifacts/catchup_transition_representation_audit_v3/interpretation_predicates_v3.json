@@ -1,0 +1,30 @@
+{
+  "FALSE_to_TRUE_semantics_pass": true,
+  "all_technical_implementation_gates_pass": true,
+  "causal_timing_pass": true,
+  "entry_fill_independence_pass": true,
+  "episode_onsets_materially_more_event_like_than_V2": false,
+  "formulas_pass": true,
+  "future_mutation_pass": true,
+  "material_implementation_ambiguity": false,
+  "no_unresolved_primary_duplicate": true,
+  "null_reasons_distinguished": true,
+  "outcome_artifact_read": false,
+  "population_exact": true,
+  "predictive_contract_design_technically_justified": false,
+  "prospective_missing_state_encoding_required_before_predictive_experiment": false,
+  "recurrence_evidence": {
+    "assessment": "FALSE -> TRUE catch-up onsets remain a generic recurring condition",
+    "basis": "outcome-free mechanics only; no automatic frequency threshold imposed",
+    "entries_with_four_or_more_onsets": 1503,
+    "entries_with_one_onset": 9,
+    "entries_with_two_or_more_onsets": 2190,
+    "entries_with_zero_onsets": 0,
+    "mean_onsets_per_12h": 3.920418371987267,
+    "same_boundary_percentage": 31.150522964984084
+  },
+  "schema_exact": true,
+  "sealed_boundary_accessed": false,
+  "semantic_revision_needed_for_recurrence": true,
+  "state_aware_valid_at_least_99_percent": true
+}

@@ -1,0 +1,11 @@
+{
+  "full_representation_unchanged": true,
+  "mutations": [
+    "realized entry price",
+    "realized fill timestamp",
+    "first post-E1 execution price",
+    "slippage assumptions"
+  ],
+  "representation_API_accepts_entry_fill_inputs": false,
+  "status": "PASS"
+}
