@@ -1,0 +1,17 @@
+{
+  "mutations": [
+    {
+      "entry_execution_price": 1,
+      "entry_execution_timestamp": 1735776060000,
+      "future_first_open": 1
+    },
+    {
+      "entry_execution_price": 1e+30,
+      "entry_execution_timestamp": 1735779540000,
+      "future_first_open": 1e+30
+    }
+  ],
+  "representation_API_accepts_fill_or_future_open": false,
+  "representation_unchanged": true,
+  "status": "PASS"
+}

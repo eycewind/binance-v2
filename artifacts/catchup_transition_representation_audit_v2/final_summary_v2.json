@@ -1,0 +1,36 @@
+{
+  "C31_started": false,
+  "V1_V2_completeness": {
+    "V1_complete_primary_count": 397,
+    "V1_complete_primary_percentage": 18.053660754888586,
+    "V2_complete_primary_count": 2199,
+    "V2_complete_primary_percentage": 100.0,
+    "absolute_count_improvement": 1802,
+    "outcome_data_used": false,
+    "percentage_point_improvement": 81.94633924511142,
+    "same_boundary_V1_defect_resolved": true
+  },
+  "all_technical_implementation_gates_pass": true,
+  "classification": "REPRESENTATION_V2_NEEDS_REVISION",
+  "complete_primary_count": 2199,
+  "complete_primary_percentage": 100.0,
+  "exact_or_affine_primary_pair_count": 0,
+  "near_redundancy_flag_count": 0,
+  "no_feature_removed_replaced_or_selected": true,
+  "no_model_fit": true,
+  "onset_rule_unchanged": true,
+  "population_count": 2199,
+  "revision_reason": {
+    "BTC_mean_qualifying_events_13_inclusive_boundaries": 5.314233742610277,
+    "assessment": "onset functions as a recurring condition rather than a distinctive transition event",
+    "basis": "descriptive only; no outcome association or invented favorable threshold",
+    "market_mean_qualifying_events_13_inclusive_boundaries": 4.699863574351978,
+    "subject_detection_age_median_minutes": 0.0,
+    "subject_exactly_one_count": 0,
+    "subject_mean_qualifying_events_13_inclusive_boundaries": 5.311959981809913,
+    "subject_same_boundary_count": 1802,
+    "subject_same_boundary_percentage": 81.94633924511142
+  },
+  "same_boundary_count": 1802,
+  "same_boundary_percentage": 81.94633924511142
+}

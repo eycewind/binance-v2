@@ -1,0 +1,19 @@
+{
+  "candidate_boundaries": 13,
+  "concepts_distinct": true,
+  "detection_timestamp": "u",
+  "most_recent_selected": true,
+  "movement_interval": "[u-60m,u)",
+  "search_window": "inclusive [t-12h,t]",
+  "status": "PASS",
+  "symbol_rule": "recent>0 AND recent>previous",
+  "synthetic_same_boundary": {
+    "bar_at_E1_used": false,
+    "detection_age_minutes": 0,
+    "interval_end": 1735776000000,
+    "interval_start": 1735772400000,
+    "onset_interval_return": 0.010000000000000009,
+    "same_boundary_detection": 1735776000000,
+    "status": "PASS"
+  }
+}

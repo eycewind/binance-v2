@@ -1,0 +1,58 @@
+{
+  "market_x_prior_deficit_sign_x_relative_improvement_sign": [
+    {
+      "count": 668,
+      "state": [
+        "present",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "count": 421,
+      "state": [
+        "present",
+        "negative",
+        "positive"
+      ]
+    },
+    {
+      "count": 232,
+      "state": [
+        "present",
+        "positive",
+        "negative"
+      ]
+    },
+    {
+      "count": 878,
+      "state": [
+        "present",
+        "positive",
+        "positive"
+      ]
+    }
+  ],
+  "sign_state_counts": {
+    "BASKET_ACCELERATION": {
+      "negative": 547,
+      "positive": 1652
+    },
+    "DISPERSION_CHANGE": {
+      "negative": 907,
+      "positive": 1292
+    },
+    "NEW_JOINER_FRACTION": {
+      "positive": 1499,
+      "zero": 700
+    },
+    "market_onset_age": {
+      "positive": 846,
+      "zero": 1353
+    },
+    "subject_onset_age": {
+      "positive": 397,
+      "zero": 1802
+    }
+  }
+}

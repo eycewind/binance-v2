@@ -1,0 +1,27 @@
+{
+  "causal_availability": true,
+  "completeness_at_least_80pct": true,
+  "entry_fill_independence_pass": true,
+  "formulas_pass": true,
+  "future_mutation_pass": true,
+  "no_2026_access": true,
+  "no_unresolved_exact_or_affine_duplicate": true,
+  "onset_repetitiveness_evidence": {
+    "BTC_mean_qualifying_events_13_inclusive_boundaries": 5.314233742610277,
+    "assessment": "onset functions as a recurring condition rather than a distinctive transition event",
+    "basis": "descriptive only; no outcome association or invented favorable threshold",
+    "market_mean_qualifying_events_13_inclusive_boundaries": 4.699863574351978,
+    "subject_detection_age_median_minutes": 0.0,
+    "subject_exactly_one_count": 0,
+    "subject_mean_qualifying_events_13_inclusive_boundaries": 5.311959981809913,
+    "subject_same_boundary_count": 1802,
+    "subject_same_boundary_percentage": 81.94633924511142
+  },
+  "onset_repetitiveness_requires_revision": true,
+  "onset_repetitiveness_reviewed_descriptively": true,
+  "outcome_firewall_guaranteed": true,
+  "population_exact": true,
+  "same_boundary_defect_resolved": true,
+  "schema_exact": true,
+  "timestamp_semantics_pass": true
+}

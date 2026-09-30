@@ -1,0 +1,15 @@
+{
+  "ONSET_60": "[u-60m,u)",
+  "PREVIOUS_60": "[t-120m,t-60m)",
+  "RECENT_60": "[t-60m,t)",
+  "bar_at_or_after_boundary_used": false,
+  "earliest_source_timestamp": 1704020400000,
+  "expected_bars_each": 60,
+  "invalid_gap_reason": "invalid/noncontiguous source hour; no interpolation",
+  "latest_source_timestamp": 1767211140000,
+  "observed_valid_bar_counts": [
+    60
+  ],
+  "overlap": false,
+  "status": "PASS"
+}

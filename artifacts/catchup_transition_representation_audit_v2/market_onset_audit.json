@@ -1,0 +1,8 @@
+{
+  "qualifying_count_includes_all": true,
+  "rule": "BREADTH_CHANGE>0 AND BREADTH_RECENT>=0.6",
+  "status": "PASS",
+  "three_of_five_accepted": true,
+  "two_of_five_rejected": true,
+  "zero_change_rejected": true
+}
