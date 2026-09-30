@@ -1,0 +1,7 @@
+{
+  "condition": "BREADTH_CHANGE>0 AND BREADTH_RECENT>=0.6",
+  "majority_count": 3,
+  "selection": "most recent",
+  "status": "PASS",
+  "universe_size": 5
+}

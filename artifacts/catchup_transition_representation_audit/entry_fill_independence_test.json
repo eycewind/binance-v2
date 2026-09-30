@@ -1,0 +1,13 @@
+{
+  "mutated_fill_a": {
+    "fill_price": 1.0,
+    "fill_timestamp": 1735776060000
+  },
+  "mutated_fill_b": {
+    "fill_price": 1e+30,
+    "fill_timestamp": 1735779540000
+  },
+  "representation_api_accepts_fill_fields": false,
+  "representation_exactly_unchanged": true,
+  "status": "PASS"
+}

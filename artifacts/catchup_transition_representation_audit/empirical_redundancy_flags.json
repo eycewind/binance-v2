@@ -1,0 +1,14 @@
+{
+  "features_removed": false,
+  "flags": [
+    {
+      "flag": "NEAR_REDUNDANT_RANK",
+      "pair": [
+        "BREADTH_CHANGE",
+        "NEW_JOINER_FRACTION"
+      ],
+      "value": 0.9591728532029064
+    }
+  ],
+  "threshold": 0.95
+}

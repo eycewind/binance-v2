@@ -1,0 +1,37 @@
+{
+  "dynamic_dropping": false,
+  "peers": {
+    "BNBUSDT": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "BTCUSDT": [
+      "BNBUSDT",
+      "ETHUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "ETHUSDT": [
+      "BNBUSDT",
+      "BTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "SOLUSDT": [
+      "BNBUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "XRPUSDT"
+    ],
+    "XRPUSDT": [
+      "BNBUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "SOLUSDT"
+    ]
+  },
+  "status": "PASS",
+  "weighting": "equal arithmetic 0.25 each"
+}

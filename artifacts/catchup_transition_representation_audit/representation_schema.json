@@ -1,0 +1,210 @@
+{
+  "feature_selection_or_removal": false,
+  "per_row_feature_provenance": {
+    "BASKET_ACCELERATION": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BASKET_EXTENSION_SINCE_MARKET_ONSET": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BASKET_PREV_RETURN": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BASKET_RECENT_RETURN": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BREADTH_CHANGE": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BREADTH_PREVIOUS": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BREADTH_RECENT": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BTC_ONSET_LEAD_MINUTES": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "BTC_ONSET_TS": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "CATCHUP_SEQUENCE_CANDIDATE": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "DISPERSION_CHANGE": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "DISPERSION_PREVIOUS": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "DISPERSION_RECENT": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "MARKET_ONSET_TS": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "MINUTES_SINCE_MARKET_ONSET": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "MINUTES_SINCE_SUBJECT_ONSET": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "NEW_JOINER_FRACTION": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "PERSISTENT_PARTICIPANT_FRACTION": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "PRIOR_RELATIVE_DEFICIT": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "RELATIVE_IMPROVEMENT": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "SUBJECT_EXTENSION_SINCE_ONSET": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "SUBJECT_ONSET_TS": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "SUBJECT_PREV_RETURN": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "SUBJECT_RECENT_RETURN": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "SUBJECT_RELATIVE_PREVIOUS": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    },
+    "SUBJECT_RELATIVE_RECENT": {
+      "available_ts": "E1_decision_ts",
+      "cutoff_test": "available_ts<=E1_decision_ts",
+      "source_end_ts": "E1_decision_ts-1m (latest completed source bar)",
+      "source_start_ts": "E1_decision_ts-14h (conservative full onset dependency envelope)"
+    }
+  },
+  "primary_count": 10,
+  "primary_variables_ordered": [
+    "BREADTH_CHANGE",
+    "NEW_JOINER_FRACTION",
+    "BASKET_ACCELERATION",
+    "PRIOR_RELATIVE_DEFICIT",
+    "RELATIVE_IMPROVEMENT",
+    "DISPERSION_CHANGE",
+    "MINUTES_SINCE_MARKET_ONSET",
+    "MINUTES_SINCE_SUBJECT_ONSET",
+    "SUBJECT_EXTENSION_SINCE_ONSET",
+    "BTC_ONSET_LEAD_MINUTES"
+  ],
+  "row_provenance_retained_during_computation": [
+    "source_start_ts",
+    "source_end_ts",
+    "available_ts",
+    "E1_decision_ts"
+  ],
+  "support_variables_ordered": [
+    "SUBJECT_PREV_RETURN",
+    "SUBJECT_RECENT_RETURN",
+    "BASKET_PREV_RETURN",
+    "BASKET_RECENT_RETURN",
+    "BREADTH_PREVIOUS",
+    "BREADTH_RECENT",
+    "PERSISTENT_PARTICIPANT_FRACTION",
+    "SUBJECT_RELATIVE_PREVIOUS",
+    "SUBJECT_RELATIVE_RECENT",
+    "DISPERSION_PREVIOUS",
+    "DISPERSION_RECENT",
+    "MARKET_ONSET_TS",
+    "SUBJECT_ONSET_TS",
+    "BTC_ONSET_TS",
+    "BASKET_EXTENSION_SINCE_MARKET_ONSET",
+    "CATCHUP_SEQUENCE_CANDIDATE"
+  ],
+  "units": {
+    "BASKET_ACCELERATION": "return/fraction",
+    "BREADTH_CHANGE": "return/fraction",
+    "BTC_ONSET_LEAD_MINUTES": "minutes",
+    "DISPERSION_CHANGE": "return/fraction",
+    "MINUTES_SINCE_MARKET_ONSET": "minutes",
+    "MINUTES_SINCE_SUBJECT_ONSET": "minutes",
+    "NEW_JOINER_FRACTION": "return/fraction",
+    "PRIOR_RELATIVE_DEFICIT": "return/fraction",
+    "RELATIVE_IMPROVEMENT": "return/fraction",
+    "SUBJECT_EXTENSION_SINCE_ONSET": "return/fraction"
+  }
+}

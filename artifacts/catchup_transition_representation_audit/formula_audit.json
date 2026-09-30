@@ -1,0 +1,36 @@
+{
+  "expected": {
+    "BASKET_ACCELERATION": 0.0325,
+    "BREADTH_CHANGE": 0.0,
+    "DISPERSION_CHANGE": 0.01414213562373095,
+    "NEW_JOINER_FRACTION": 0.0,
+    "PRIOR_RELATIVE_DEFICIT": 0.0125,
+    "RELATIVE_IMPROVEMENT": -0.0125
+  },
+  "fixture_returns": {
+    "previous": {
+      "BNBUSDT": 0.01,
+      "BTCUSDT": 0.02,
+      "ETHUSDT": 0.03,
+      "SOLUSDT": 0.04,
+      "XRPUSDT": 0.05
+    },
+    "recent": {
+      "BNBUSDT": 0.02,
+      "BTCUSDT": 0.04,
+      "ETHUSDT": 0.06,
+      "SOLUSDT": 0.08,
+      "XRPUSDT": 0.1
+    }
+  },
+  "identities_verified_on_all_real_rows": true,
+  "population_std_ddof": 0,
+  "real_row_identity_failures": {
+    "BASKET_ACCELERATION": 0,
+    "BREADTH_CHANGE": 0,
+    "DISPERSION_CHANGE": 0,
+    "PRIOR_RELATIVE_DEFICIT": 0,
+    "RELATIVE_IMPROVEMENT": 0
+  },
+  "status": "PASS"
+}

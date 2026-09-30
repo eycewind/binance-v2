@@ -1,0 +1,10 @@
+{
+  "absolute_threshold": false,
+  "candidate_count": 13,
+  "onset_at_E1_extension_semantics": "onset is available; extension is null because reference open at t is not pre-E1",
+  "persistence_requirement": false,
+  "search_boundaries_inclusive": "[t-12h,t]",
+  "selection": "most recent",
+  "status": "PASS",
+  "symbol_condition": "recent>0 AND recent>previous"
+}

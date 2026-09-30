@@ -1,0 +1,46 @@
+{
+  "command": "CONDA_DEFAULT_ENV=binance-v2-research python scripts/catchup_transition_representation_audit.py",
+  "documents": {
+    "actual": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_CONTRACT.md": "9900fc5f5aadc875355fb22cfcd488c1fea93c2da217d74905b05182defddf0a",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    },
+    "all_match": true,
+    "design_checkpoint": "5180f7f",
+    "expected": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_CONTRACT.md": "9900fc5f5aadc875355fb22cfcd488c1fea93c2da217d74905b05182defddf0a",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    }
+  },
+  "environment": "binance-v2-research",
+  "git_HEAD": "bf5a8aa399011997fc2a87ec66a968adb515f2ae",
+  "git_status_short": [
+    " M .gitignore",
+    "?? artifacts/c30_opportunity_prediction/",
+    "?? artifacts/c4_sequential_exit_state/locked_2025/",
+    "?? artifacts/c4_sequential_exit_state/locked_2025_input.json",
+    "?? artifacts/catchup_transition_representation_audit/",
+    "?? scripts/c21_between_within_covariance.py",
+    "?? scripts/c24_probability_economic_ordering.py",
+    "?? scripts/c30_opportunity_prediction.py",
+    "?? scripts/catchup_transition_representation_audit.py",
+    "?? src/binance_data_foundation/c30_opportunity_prediction.py",
+    "?? src/binance_data_foundation/catchup_transition_representation_audit.py",
+    "?? tests/test_c30_opportunity_prediction.py",
+    "?? tests/test_catchup_transition_representation_audit.py"
+  ],
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "source_paths": [
+    "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv",
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz"
+  ],
+  "timestamp_utc": "2026-09-29T12:10:33.363603+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "complete_primary_at_least_80pct": false,
+  "entry_fill_independence_pass": true,
+  "future_mutation_pass": true,
+  "near_redundancy_flags_present": true,
+  "no_2026_access": true,
+  "no_unresolved_exact_duplicate": true,
+  "onset_missingness_rule_explained": true,
+  "outcome_firewall_guaranteed": true,
+  "population_exact": true,
+  "sequence_causal": true,
+  "structural_redundancy_known": true,
+  "ten_formulas_pass": true,
+  "timing_availability_checks_pass": true
+}

@@ -1,0 +1,372 @@
+{
+  "MINUTES_SINCE_MARKET_ONSET": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "(0, 60] minutes": 23,
+        "(180, 360] minutes": 3,
+        "(60, 180] minutes": 13,
+        "0 minutes": 59
+      },
+      "2024-02": {
+        "(0, 60] minutes": 17,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 7,
+        "0 minutes": 58
+      },
+      "2024-03": {
+        "(0, 60] minutes": 34,
+        "(180, 360] minutes": 2,
+        "(60, 180] minutes": 12,
+        "0 minutes": 46
+      },
+      "2024-04": {
+        "(0, 60] minutes": 20,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 9,
+        "0 minutes": 62
+      },
+      "2024-05": {
+        "(0, 60] minutes": 14,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 19,
+        "0 minutes": 64
+      },
+      "2024-06": {
+        "(0, 60] minutes": 27,
+        "(60, 180] minutes": 15,
+        "0 minutes": 50
+      },
+      "2024-07": {
+        "(0, 60] minutes": 25,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 8,
+        "0 minutes": 51
+      },
+      "2024-08": {
+        "(0, 60] minutes": 26,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 15,
+        "0 minutes": 50
+      },
+      "2024-09": {
+        "(0, 60] minutes": 17,
+        "(180, 360] minutes": 1,
+        "(360, 720] minutes": 1,
+        "(60, 180] minutes": 17,
+        "0 minutes": 50
+      },
+      "2024-10": {
+        "(0, 60] minutes": 26,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 11,
+        "0 minutes": 53
+      },
+      "2024-11": {
+        "(0, 60] minutes": 25,
+        "(60, 180] minutes": 5,
+        "0 minutes": 59
+      },
+      "2024-12": {
+        "(0, 60] minutes": 24,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 10,
+        "0 minutes": 58
+      },
+      "2025-01": {
+        "(0, 60] minutes": 23,
+        "(180, 360] minutes": 3,
+        "(60, 180] minutes": 5,
+        "0 minutes": 62
+      },
+      "2025-02": {
+        "(0, 60] minutes": 28,
+        "(60, 180] minutes": 11,
+        "0 minutes": 47
+      },
+      "2025-03": {
+        "(0, 60] minutes": 27,
+        "(60, 180] minutes": 9,
+        "0 minutes": 53
+      },
+      "2025-04": {
+        "(0, 60] minutes": 29,
+        "(60, 180] minutes": 8,
+        "0 minutes": 55
+      },
+      "2025-05": {
+        "(0, 60] minutes": 25,
+        "(180, 360] minutes": 2,
+        "(60, 180] minutes": 2,
+        "0 minutes": 73
+      },
+      "2025-06": {
+        "(0, 60] minutes": 18,
+        "(60, 180] minutes": 12,
+        "0 minutes": 61
+      },
+      "2025-07": {
+        "(0, 60] minutes": 25,
+        "(60, 180] minutes": 12,
+        "0 minutes": 56
+      },
+      "2025-08": {
+        "(0, 60] minutes": 17,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 9,
+        "0 minutes": 64
+      },
+      "2025-09": {
+        "(0, 60] minutes": 22,
+        "(60, 180] minutes": 21,
+        "0 minutes": 45
+      },
+      "2025-10": {
+        "(0, 60] minutes": 25,
+        "(180, 360] minutes": 4,
+        "(60, 180] minutes": 10,
+        "0 minutes": 54
+      },
+      "2025-11": {
+        "(0, 60] minutes": 23,
+        "(60, 180] minutes": 7,
+        "0 minutes": 64
+      },
+      "2025-12": {
+        "(0, 60] minutes": 22,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 12,
+        "0 minutes": 59
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "(0, 60] minutes": 121,
+        "(180, 360] minutes": 9,
+        "(60, 180] minutes": 55,
+        "0 minutes": 257
+      },
+      "BTCUSDT": {
+        "(0, 60] minutes": 112,
+        "(180, 360] minutes": 1,
+        "(360, 720] minutes": 1,
+        "(60, 180] minutes": 56,
+        "0 minutes": 281
+      },
+      "ETHUSDT": {
+        "(0, 60] minutes": 107,
+        "(180, 360] minutes": 5,
+        "(60, 180] minutes": 47,
+        "0 minutes": 275
+      },
+      "SOLUSDT": {
+        "(0, 60] minutes": 103,
+        "(180, 360] minutes": 5,
+        "(60, 180] minutes": 48,
+        "0 minutes": 275
+      },
+      "XRPUSDT": {
+        "(0, 60] minutes": 119,
+        "(180, 360] minutes": 4,
+        "(60, 180] minutes": 53,
+        "0 minutes": 265
+      }
+    },
+    "by_year": {
+      "2024": {
+        "(0, 60] minutes": 278,
+        "(180, 360] minutes": 13,
+        "(360, 720] minutes": 1,
+        "(60, 180] minutes": 141,
+        "0 minutes": 660
+      },
+      "2025": {
+        "(0, 60] minutes": 284,
+        "(180, 360] minutes": 11,
+        "(60, 180] minutes": 118,
+        "0 minutes": 693
+      }
+    },
+    "pooled": {
+      "(0, 60] minutes": 562,
+      "(180, 360] minutes": 24,
+      "(360, 720] minutes": 1,
+      "(60, 180] minutes": 259,
+      "0 minutes": 1353
+    }
+  },
+  "MINUTES_SINCE_SUBJECT_ONSET": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "(0, 60] minutes": 21,
+        "(60, 180] minutes": 3,
+        "0 minutes": 74
+      },
+      "2024-02": {
+        "(0, 60] minutes": 12,
+        "(60, 180] minutes": 1,
+        "0 minutes": 70
+      },
+      "2024-03": {
+        "(0, 60] minutes": 13,
+        "(60, 180] minutes": 2,
+        "0 minutes": 79
+      },
+      "2024-04": {
+        "(0, 60] minutes": 13,
+        "(60, 180] minutes": 2,
+        "0 minutes": 77
+      },
+      "2024-05": {
+        "(0, 60] minutes": 10,
+        "(60, 180] minutes": 2,
+        "0 minutes": 86
+      },
+      "2024-06": {
+        "(0, 60] minutes": 13,
+        "(60, 180] minutes": 4,
+        "0 minutes": 75
+      },
+      "2024-07": {
+        "(0, 60] minutes": 12,
+        "(60, 180] minutes": 3,
+        "0 minutes": 70
+      },
+      "2024-08": {
+        "(0, 60] minutes": 14,
+        "(60, 180] minutes": 3,
+        "0 minutes": 75
+      },
+      "2024-09": {
+        "(0, 60] minutes": 13,
+        "(60, 180] minutes": 2,
+        "0 minutes": 71
+      },
+      "2024-10": {
+        "(0, 60] minutes": 12,
+        "(60, 180] minutes": 3,
+        "0 minutes": 76
+      },
+      "2024-11": {
+        "(0, 60] minutes": 14,
+        "(60, 180] minutes": 1,
+        "0 minutes": 74
+      },
+      "2024-12": {
+        "(0, 60] minutes": 15,
+        "(60, 180] minutes": 3,
+        "0 minutes": 75
+      },
+      "2025-01": {
+        "(0, 60] minutes": 9,
+        "(60, 180] minutes": 2,
+        "0 minutes": 82
+      },
+      "2025-02": {
+        "(0, 60] minutes": 15,
+        "(60, 180] minutes": 3,
+        "0 minutes": 68
+      },
+      "2025-03": {
+        "(0, 60] minutes": 16,
+        "(60, 180] minutes": 2,
+        "0 minutes": 71
+      },
+      "2025-04": {
+        "(0, 60] minutes": 12,
+        "(60, 180] minutes": 2,
+        "0 minutes": 78
+      },
+      "2025-05": {
+        "(0, 60] minutes": 14,
+        "(60, 180] minutes": 2,
+        "0 minutes": 86
+      },
+      "2025-06": {
+        "(0, 60] minutes": 15,
+        "(60, 180] minutes": 6,
+        "0 minutes": 70
+      },
+      "2025-07": {
+        "(0, 60] minutes": 18,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 2,
+        "0 minutes": 72
+      },
+      "2025-08": {
+        "(0, 60] minutes": 11,
+        "(60, 180] minutes": 2,
+        "0 minutes": 78
+      },
+      "2025-09": {
+        "(0, 60] minutes": 16,
+        "(60, 180] minutes": 3,
+        "0 minutes": 69
+      },
+      "2025-10": {
+        "(0, 60] minutes": 13,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 3,
+        "0 minutes": 76
+      },
+      "2025-11": {
+        "(0, 60] minutes": 15,
+        "(60, 180] minutes": 3,
+        "0 minutes": 76
+      },
+      "2025-12": {
+        "(0, 60] minutes": 17,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 2,
+        "0 minutes": 74
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "(0, 60] minutes": 79,
+        "(60, 180] minutes": 12,
+        "0 minutes": 351
+      },
+      "BTCUSDT": {
+        "(0, 60] minutes": 75,
+        "(180, 360] minutes": 1,
+        "(60, 180] minutes": 9,
+        "0 minutes": 366
+      },
+      "ETHUSDT": {
+        "(0, 60] minutes": 57,
+        "(180, 360] minutes": 2,
+        "(60, 180] minutes": 14,
+        "0 minutes": 361
+      },
+      "SOLUSDT": {
+        "(0, 60] minutes": 56,
+        "(60, 180] minutes": 13,
+        "0 minutes": 362
+      },
+      "XRPUSDT": {
+        "(0, 60] minutes": 66,
+        "(60, 180] minutes": 13,
+        "0 minutes": 362
+      }
+    },
+    "by_year": {
+      "2024": {
+        "(0, 60] minutes": 162,
+        "(60, 180] minutes": 29,
+        "0 minutes": 902
+      },
+      "2025": {
+        "(0, 60] minutes": 171,
+        "(180, 360] minutes": 3,
+        "(60, 180] minutes": 32,
+        "0 minutes": 900
+      }
+    },
+    "pooled": {
+      "(0, 60] minutes": 333,
+      "(180, 360] minutes": 3,
+      "(60, 180] minutes": 61,
+      "0 minutes": 1802
+    }
+  }
+}

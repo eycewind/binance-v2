@@ -1,0 +1,43 @@
+{
+  "joint_market_x_deficit_x_improvement": [
+    {
+      "count": 668,
+      "market_onset": "present",
+      "prior_deficit": "non-positive",
+      "relative_improvement": "non-positive"
+    },
+    {
+      "count": 421,
+      "market_onset": "present",
+      "prior_deficit": "non-positive",
+      "relative_improvement": "positive"
+    },
+    {
+      "count": 232,
+      "market_onset": "present",
+      "prior_deficit": "positive",
+      "relative_improvement": "non-positive"
+    },
+    {
+      "count": 878,
+      "market_onset": "present",
+      "prior_deficit": "positive",
+      "relative_improvement": "positive"
+    }
+  ],
+  "sign_counts": {
+    "BASKET_ACCELERATION": {
+      "negative": 547,
+      "positive": 1652
+    },
+    "BREADTH_CHANGE": {
+      "negative": 305,
+      "positive": 1384,
+      "zero": 510
+    },
+    "DISPERSION_CHANGE": {
+      "negative": 907,
+      "positive": 1292
+    }
+  }
+}

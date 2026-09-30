@@ -1,0 +1,11 @@
+{
+  "all_E1_base_intervals_valid": true,
+  "earliest_source_ms": 1704020400000,
+  "expected_bars_per_interval_per_symbol": 60,
+  "latest_source_ms": 1767211140000,
+  "missing_reason": "invalid/noncontiguous source hour; no interpolation",
+  "overlap_minutes": 0,
+  "previous_60": "[t-120m,t-60m)",
+  "recent_60": "[t-60m,t)",
+  "status": "PASS"
+}

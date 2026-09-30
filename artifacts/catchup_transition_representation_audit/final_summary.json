@@ -1,0 +1,18 @@
+{
+  "C31_started": false,
+  "catchup_sequence": {
+    "count": 878,
+    "frequency": 0.3992723965438836,
+    "total": 2199
+  },
+  "classification": "REPRESENTATION_NEEDS_REVISION",
+  "complete_primary_count": 397,
+  "complete_primary_percentage": 18.053660754888586,
+  "exact_or_affine_primary_pair_count": 0,
+  "later_predictive_contract_design_technically_justified": false,
+  "near_redundancy_flag_count": 1,
+  "no_feature_selected_or_removed": true,
+  "no_model_fit": true,
+  "pass_does_not_imply_prediction": true,
+  "transition_timing_limitation": "onset-age can characterize E1 relative to detected onset, but cannot classify E1 as before/during/after a complete transition without an independently defined transition-end rule"
+}

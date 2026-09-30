@@ -1,0 +1,1146 @@
+{
+  "BTC_ONSET_TS": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "availability_percentage": 100.0,
+        "available": 98,
+        "total": 98,
+        "unavailable": 0
+      },
+      "2024-02": {
+        "availability_percentage": 100.0,
+        "available": 83,
+        "total": 83,
+        "unavailable": 0
+      },
+      "2024-03": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      },
+      "2024-04": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-05": {
+        "availability_percentage": 100.0,
+        "available": 98,
+        "total": 98,
+        "unavailable": 0
+      },
+      "2024-06": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-07": {
+        "availability_percentage": 100.0,
+        "available": 85,
+        "total": 85,
+        "unavailable": 0
+      },
+      "2024-08": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-09": {
+        "availability_percentage": 100.0,
+        "available": 86,
+        "total": 86,
+        "unavailable": 0
+      },
+      "2024-10": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2024-11": {
+        "availability_percentage": 100.0,
+        "available": 89,
+        "total": 89,
+        "unavailable": 0
+      },
+      "2024-12": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-01": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-02": {
+        "availability_percentage": 100.0,
+        "available": 86,
+        "total": 86,
+        "unavailable": 0
+      },
+      "2025-03": {
+        "availability_percentage": 100.0,
+        "available": 89,
+        "total": 89,
+        "unavailable": 0
+      },
+      "2025-04": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2025-05": {
+        "availability_percentage": 100.0,
+        "available": 102,
+        "total": 102,
+        "unavailable": 0
+      },
+      "2025-06": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2025-07": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-08": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2025-09": {
+        "availability_percentage": 100.0,
+        "available": 88,
+        "total": 88,
+        "unavailable": 0
+      },
+      "2025-10": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-11": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      },
+      "2025-12": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "availability_percentage": 100.0,
+        "available": 442,
+        "total": 442,
+        "unavailable": 0
+      },
+      "BTCUSDT": {
+        "availability_percentage": 100.0,
+        "available": 451,
+        "total": 451,
+        "unavailable": 0
+      },
+      "ETHUSDT": {
+        "availability_percentage": 100.0,
+        "available": 434,
+        "total": 434,
+        "unavailable": 0
+      },
+      "SOLUSDT": {
+        "availability_percentage": 100.0,
+        "available": 431,
+        "total": 431,
+        "unavailable": 0
+      },
+      "XRPUSDT": {
+        "availability_percentage": 100.0,
+        "available": 441,
+        "total": 441,
+        "unavailable": 0
+      }
+    },
+    "by_year": {
+      "2024": {
+        "availability_percentage": 100.0,
+        "available": 1093,
+        "total": 1093,
+        "unavailable": 0
+      },
+      "2025": {
+        "availability_percentage": 100.0,
+        "available": 1106,
+        "total": 1106,
+        "unavailable": 0
+      }
+    },
+    "pooled": {
+      "availability_percentage": 100.0,
+      "available": 2199,
+      "total": 2199,
+      "unavailable": 0
+    }
+  },
+  "MARKET_ONSET_TS": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "availability_percentage": 100.0,
+        "available": 98,
+        "total": 98,
+        "unavailable": 0
+      },
+      "2024-02": {
+        "availability_percentage": 100.0,
+        "available": 83,
+        "total": 83,
+        "unavailable": 0
+      },
+      "2024-03": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      },
+      "2024-04": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-05": {
+        "availability_percentage": 100.0,
+        "available": 98,
+        "total": 98,
+        "unavailable": 0
+      },
+      "2024-06": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-07": {
+        "availability_percentage": 100.0,
+        "available": 85,
+        "total": 85,
+        "unavailable": 0
+      },
+      "2024-08": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-09": {
+        "availability_percentage": 100.0,
+        "available": 86,
+        "total": 86,
+        "unavailable": 0
+      },
+      "2024-10": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2024-11": {
+        "availability_percentage": 100.0,
+        "available": 89,
+        "total": 89,
+        "unavailable": 0
+      },
+      "2024-12": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-01": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-02": {
+        "availability_percentage": 100.0,
+        "available": 86,
+        "total": 86,
+        "unavailable": 0
+      },
+      "2025-03": {
+        "availability_percentage": 100.0,
+        "available": 89,
+        "total": 89,
+        "unavailable": 0
+      },
+      "2025-04": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2025-05": {
+        "availability_percentage": 100.0,
+        "available": 102,
+        "total": 102,
+        "unavailable": 0
+      },
+      "2025-06": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2025-07": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-08": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2025-09": {
+        "availability_percentage": 100.0,
+        "available": 88,
+        "total": 88,
+        "unavailable": 0
+      },
+      "2025-10": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-11": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      },
+      "2025-12": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "availability_percentage": 100.0,
+        "available": 442,
+        "total": 442,
+        "unavailable": 0
+      },
+      "BTCUSDT": {
+        "availability_percentage": 100.0,
+        "available": 451,
+        "total": 451,
+        "unavailable": 0
+      },
+      "ETHUSDT": {
+        "availability_percentage": 100.0,
+        "available": 434,
+        "total": 434,
+        "unavailable": 0
+      },
+      "SOLUSDT": {
+        "availability_percentage": 100.0,
+        "available": 431,
+        "total": 431,
+        "unavailable": 0
+      },
+      "XRPUSDT": {
+        "availability_percentage": 100.0,
+        "available": 441,
+        "total": 441,
+        "unavailable": 0
+      }
+    },
+    "by_year": {
+      "2024": {
+        "availability_percentage": 100.0,
+        "available": 1093,
+        "total": 1093,
+        "unavailable": 0
+      },
+      "2025": {
+        "availability_percentage": 100.0,
+        "available": 1106,
+        "total": 1106,
+        "unavailable": 0
+      }
+    },
+    "pooled": {
+      "availability_percentage": 100.0,
+      "available": 2199,
+      "total": 2199,
+      "unavailable": 0
+    }
+  },
+  "SUBJECT_ONSET_TS": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "availability_percentage": 100.0,
+        "available": 98,
+        "total": 98,
+        "unavailable": 0
+      },
+      "2024-02": {
+        "availability_percentage": 100.0,
+        "available": 83,
+        "total": 83,
+        "unavailable": 0
+      },
+      "2024-03": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      },
+      "2024-04": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-05": {
+        "availability_percentage": 100.0,
+        "available": 98,
+        "total": 98,
+        "unavailable": 0
+      },
+      "2024-06": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-07": {
+        "availability_percentage": 100.0,
+        "available": 85,
+        "total": 85,
+        "unavailable": 0
+      },
+      "2024-08": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2024-09": {
+        "availability_percentage": 100.0,
+        "available": 86,
+        "total": 86,
+        "unavailable": 0
+      },
+      "2024-10": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2024-11": {
+        "availability_percentage": 100.0,
+        "available": 89,
+        "total": 89,
+        "unavailable": 0
+      },
+      "2024-12": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-01": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-02": {
+        "availability_percentage": 100.0,
+        "available": 86,
+        "total": 86,
+        "unavailable": 0
+      },
+      "2025-03": {
+        "availability_percentage": 100.0,
+        "available": 89,
+        "total": 89,
+        "unavailable": 0
+      },
+      "2025-04": {
+        "availability_percentage": 100.0,
+        "available": 92,
+        "total": 92,
+        "unavailable": 0
+      },
+      "2025-05": {
+        "availability_percentage": 100.0,
+        "available": 102,
+        "total": 102,
+        "unavailable": 0
+      },
+      "2025-06": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2025-07": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-08": {
+        "availability_percentage": 100.0,
+        "available": 91,
+        "total": 91,
+        "unavailable": 0
+      },
+      "2025-09": {
+        "availability_percentage": 100.0,
+        "available": 88,
+        "total": 88,
+        "unavailable": 0
+      },
+      "2025-10": {
+        "availability_percentage": 100.0,
+        "available": 93,
+        "total": 93,
+        "unavailable": 0
+      },
+      "2025-11": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      },
+      "2025-12": {
+        "availability_percentage": 100.0,
+        "available": 94,
+        "total": 94,
+        "unavailable": 0
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "availability_percentage": 100.0,
+        "available": 442,
+        "total": 442,
+        "unavailable": 0
+      },
+      "BTCUSDT": {
+        "availability_percentage": 100.0,
+        "available": 451,
+        "total": 451,
+        "unavailable": 0
+      },
+      "ETHUSDT": {
+        "availability_percentage": 100.0,
+        "available": 434,
+        "total": 434,
+        "unavailable": 0
+      },
+      "SOLUSDT": {
+        "availability_percentage": 100.0,
+        "available": 431,
+        "total": 431,
+        "unavailable": 0
+      },
+      "XRPUSDT": {
+        "availability_percentage": 100.0,
+        "available": 441,
+        "total": 441,
+        "unavailable": 0
+      }
+    },
+    "by_year": {
+      "2024": {
+        "availability_percentage": 100.0,
+        "available": 1093,
+        "total": 1093,
+        "unavailable": 0
+      },
+      "2025": {
+        "availability_percentage": 100.0,
+        "available": 1106,
+        "total": 1106,
+        "unavailable": 0
+      }
+    },
+    "pooled": {
+      "availability_percentage": 100.0,
+      "available": 2199,
+      "total": 2199,
+      "unavailable": 0
+    }
+  },
+  "all_three": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-02": {
+        "count": 83,
+        "total": 83
+      },
+      "2024-03": {
+        "count": 94,
+        "total": 94
+      },
+      "2024-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-05": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-06": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-07": {
+        "count": 85,
+        "total": 85
+      },
+      "2024-08": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-09": {
+        "count": 86,
+        "total": 86
+      },
+      "2024-10": {
+        "count": 91,
+        "total": 91
+      },
+      "2024-11": {
+        "count": 89,
+        "total": 89
+      },
+      "2024-12": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-01": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-02": {
+        "count": 86,
+        "total": 86
+      },
+      "2025-03": {
+        "count": 89,
+        "total": 89
+      },
+      "2025-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2025-05": {
+        "count": 102,
+        "total": 102
+      },
+      "2025-06": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-07": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-08": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-09": {
+        "count": 88,
+        "total": 88
+      },
+      "2025-10": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-11": {
+        "count": 94,
+        "total": 94
+      },
+      "2025-12": {
+        "count": 94,
+        "total": 94
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "count": 442,
+        "total": 442
+      },
+      "BTCUSDT": {
+        "count": 451,
+        "total": 451
+      },
+      "ETHUSDT": {
+        "count": 434,
+        "total": 434
+      },
+      "SOLUSDT": {
+        "count": 431,
+        "total": 431
+      },
+      "XRPUSDT": {
+        "count": 441,
+        "total": 441
+      }
+    },
+    "by_year": {
+      "2024": {
+        "count": 1093,
+        "total": 1093
+      },
+      "2025": {
+        "count": 1106,
+        "total": 1106
+      }
+    },
+    "pooled": {
+      "count": 2199,
+      "total": 2199
+    }
+  },
+  "market_and_BTC": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-02": {
+        "count": 83,
+        "total": 83
+      },
+      "2024-03": {
+        "count": 94,
+        "total": 94
+      },
+      "2024-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-05": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-06": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-07": {
+        "count": 85,
+        "total": 85
+      },
+      "2024-08": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-09": {
+        "count": 86,
+        "total": 86
+      },
+      "2024-10": {
+        "count": 91,
+        "total": 91
+      },
+      "2024-11": {
+        "count": 89,
+        "total": 89
+      },
+      "2024-12": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-01": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-02": {
+        "count": 86,
+        "total": 86
+      },
+      "2025-03": {
+        "count": 89,
+        "total": 89
+      },
+      "2025-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2025-05": {
+        "count": 102,
+        "total": 102
+      },
+      "2025-06": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-07": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-08": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-09": {
+        "count": 88,
+        "total": 88
+      },
+      "2025-10": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-11": {
+        "count": 94,
+        "total": 94
+      },
+      "2025-12": {
+        "count": 94,
+        "total": 94
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "count": 442,
+        "total": 442
+      },
+      "BTCUSDT": {
+        "count": 451,
+        "total": 451
+      },
+      "ETHUSDT": {
+        "count": 434,
+        "total": 434
+      },
+      "SOLUSDT": {
+        "count": 431,
+        "total": 431
+      },
+      "XRPUSDT": {
+        "count": 441,
+        "total": 441
+      }
+    },
+    "by_year": {
+      "2024": {
+        "count": 1093,
+        "total": 1093
+      },
+      "2025": {
+        "count": 1106,
+        "total": 1106
+      }
+    },
+    "pooled": {
+      "count": 2199,
+      "total": 2199
+    }
+  },
+  "market_and_subject": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-02": {
+        "count": 83,
+        "total": 83
+      },
+      "2024-03": {
+        "count": 94,
+        "total": 94
+      },
+      "2024-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-05": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-06": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-07": {
+        "count": 85,
+        "total": 85
+      },
+      "2024-08": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-09": {
+        "count": 86,
+        "total": 86
+      },
+      "2024-10": {
+        "count": 91,
+        "total": 91
+      },
+      "2024-11": {
+        "count": 89,
+        "total": 89
+      },
+      "2024-12": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-01": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-02": {
+        "count": 86,
+        "total": 86
+      },
+      "2025-03": {
+        "count": 89,
+        "total": 89
+      },
+      "2025-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2025-05": {
+        "count": 102,
+        "total": 102
+      },
+      "2025-06": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-07": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-08": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-09": {
+        "count": 88,
+        "total": 88
+      },
+      "2025-10": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-11": {
+        "count": 94,
+        "total": 94
+      },
+      "2025-12": {
+        "count": 94,
+        "total": 94
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "count": 442,
+        "total": 442
+      },
+      "BTCUSDT": {
+        "count": 451,
+        "total": 451
+      },
+      "ETHUSDT": {
+        "count": 434,
+        "total": 434
+      },
+      "SOLUSDT": {
+        "count": 431,
+        "total": 431
+      },
+      "XRPUSDT": {
+        "count": 441,
+        "total": 441
+      }
+    },
+    "by_year": {
+      "2024": {
+        "count": 1093,
+        "total": 1093
+      },
+      "2025": {
+        "count": 1106,
+        "total": 1106
+      }
+    },
+    "pooled": {
+      "count": 2199,
+      "total": 2199
+    }
+  },
+  "subject_and_BTC": {
+    "by_UTC_entry_month": {
+      "2024-01": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-02": {
+        "count": 83,
+        "total": 83
+      },
+      "2024-03": {
+        "count": 94,
+        "total": 94
+      },
+      "2024-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-05": {
+        "count": 98,
+        "total": 98
+      },
+      "2024-06": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-07": {
+        "count": 85,
+        "total": 85
+      },
+      "2024-08": {
+        "count": 92,
+        "total": 92
+      },
+      "2024-09": {
+        "count": 86,
+        "total": 86
+      },
+      "2024-10": {
+        "count": 91,
+        "total": 91
+      },
+      "2024-11": {
+        "count": 89,
+        "total": 89
+      },
+      "2024-12": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-01": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-02": {
+        "count": 86,
+        "total": 86
+      },
+      "2025-03": {
+        "count": 89,
+        "total": 89
+      },
+      "2025-04": {
+        "count": 92,
+        "total": 92
+      },
+      "2025-05": {
+        "count": 102,
+        "total": 102
+      },
+      "2025-06": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-07": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-08": {
+        "count": 91,
+        "total": 91
+      },
+      "2025-09": {
+        "count": 88,
+        "total": 88
+      },
+      "2025-10": {
+        "count": 93,
+        "total": 93
+      },
+      "2025-11": {
+        "count": 94,
+        "total": 94
+      },
+      "2025-12": {
+        "count": 94,
+        "total": 94
+      }
+    },
+    "by_symbol": {
+      "BNBUSDT": {
+        "count": 442,
+        "total": 442
+      },
+      "BTCUSDT": {
+        "count": 451,
+        "total": 451
+      },
+      "ETHUSDT": {
+        "count": 434,
+        "total": 434
+      },
+      "SOLUSDT": {
+        "count": 431,
+        "total": 431
+      },
+      "XRPUSDT": {
+        "count": 441,
+        "total": 441
+      }
+    },
+    "by_year": {
+      "2024": {
+        "count": 1093,
+        "total": 1093
+      },
+      "2025": {
+        "count": 1106,
+        "total": 1106
+      }
+    },
+    "pooled": {
+      "count": 2199,
+      "total": 2199
+    }
+  }
+}
