@@ -1,0 +1,84 @@
+{
+  "by_symbol": {
+    "BNBUSDT": {
+      "count": 1006,
+      "mean": 17.359840954274354,
+      "median": 11.5,
+      "negative_fraction": 0.0,
+      "p05": 2.0,
+      "p10": 3.0,
+      "p25": 5.0,
+      "p75": 26.0,
+      "p90": 39.0,
+      "p95": 50.0,
+      "positive_fraction": 1.0
+    },
+    "BTCUSDT": {
+      "count": 988,
+      "mean": 17.690283400809715,
+      "median": 12.0,
+      "negative_fraction": 0.0,
+      "p05": 2.0,
+      "p10": 3.0,
+      "p25": 5.0,
+      "p75": 26.0,
+      "p90": 39.0,
+      "p95": 50.0,
+      "positive_fraction": 1.0
+    },
+    "ETHUSDT": {
+      "count": 961,
+      "mean": 18.189386056191466,
+      "median": 13.0,
+      "negative_fraction": 0.0,
+      "p05": 2.0,
+      "p10": 3.0,
+      "p25": 5.0,
+      "p75": 26.0,
+      "p90": 39.0,
+      "p95": 52.0,
+      "positive_fraction": 1.0
+    },
+    "SOLUSDT": {
+      "count": 942,
+      "mean": 18.5552016985138,
+      "median": 13.0,
+      "negative_fraction": 0.0,
+      "p05": 2.0,
+      "p10": 3.0,
+      "p25": 5.0,
+      "p75": 27.0,
+      "p90": 41.0,
+      "p95": 51.0,
+      "positive_fraction": 1.0
+    },
+    "XRPUSDT": {
+      "count": 969,
+      "mean": 18.001031991744068,
+      "median": 12.0,
+      "negative_fraction": 0.0,
+      "p05": 2.0,
+      "p10": 3.0,
+      "p25": 5.0,
+      "p75": 26.0,
+      "p90": 42.0,
+      "p95": 53.59999999999991,
+      "positive_fraction": 1.0
+    }
+  },
+  "no_refractory_period": true,
+  "pooled": {
+    "count": 4866,
+    "mean": 17.94985614467735,
+    "median": 12.0,
+    "negative_fraction": 0.0,
+    "p05": 2.0,
+    "p10": 3.0,
+    "p25": 5.0,
+    "p75": 26.0,
+    "p90": 40.0,
+    "p95": 52.0,
+    "positive_fraction": 1.0
+  },
+  "units": "hours"
+}

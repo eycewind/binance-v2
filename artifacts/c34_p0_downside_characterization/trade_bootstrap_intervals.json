@@ -1,0 +1,155 @@
+{
+  "2024": {
+    "generator": "PCG64",
+    "group_count": 2464,
+    "intervals": {
+      "delta_mae_24h": {
+        "ci95": [
+          -0.0001987170421297122,
+          0.002806466844726879
+        ],
+        "point_estimate": 0.0013230261878555574,
+        "replicate_sha256": "4001ce52173f962e84092db49125b043499236d133af1cff0e543026e677c0cd"
+      },
+      "delta_probability_down_0.010": {
+        "ci95": [
+          -0.029626623376623366,
+          0.01663961038961037
+        ],
+        "point_estimate": -0.007711647727272728,
+        "replicate_sha256": "5ecbd42f59224d67c6e0c7a70208ffc4121707e392175fa701ed3d1eb187bb05"
+      },
+      "delta_probability_down_0.020": {
+        "ci95": [
+          -0.025568181818181768,
+          0.024350649350649345
+        ],
+        "point_estimate": -7.873376623376668e-05,
+        "replicate_sha256": "3724bf0bf93c0e1b186197998911832cece04e7809163a8b5ccca2fc6ec0d262"
+      },
+      "delta_return_24h": {
+        "ci95": [
+          -0.0004759495684450589,
+          0.003316692464209305
+        ],
+        "point_estimate": 0.001402241612924701,
+        "replicate_sha256": "2ae1a9b5b7672eed740e202eff2d16f031a3931b5a240e7b23d5ad6f400a28e2"
+      },
+      "downside_asymmetry_difference": {
+        "ci95": [
+          -0.004568443434539771,
+          0.0002279251586932122
+        ],
+        "point_estimate": -0.0021738889294184516,
+        "replicate_sha256": "604f8e184cf68b17f690400cd7bd8299d85efa816b319613e00c7f6b6efe69a7"
+      }
+    },
+    "iterations": 2000,
+    "paired": true,
+    "quantile_method": "linear Type-7",
+    "seed": 20261001,
+    "unit": "event"
+  },
+  "2025": {
+    "generator": "PCG64",
+    "group_count": 2407,
+    "intervals": {
+      "delta_mae_24h": {
+        "ci95": [
+          -0.002642935908678386,
+          0.0005979477866881711
+        ],
+        "point_estimate": -0.0010588014938272697,
+        "replicate_sha256": "c2c2b1253dd586eaa7c303b7b337b0c7ab648ccbc9572bb9163a7ece9b0fa0ff"
+      },
+      "delta_probability_down_0.010": {
+        "ci95": [
+          -0.00042584129621939747,
+          0.046541337764852454
+        ],
+        "point_estimate": 0.02324075612796012,
+        "replicate_sha256": "2607a67e90879e01ec7bbf1f6a76cb2a90868b0a8dcc5f95ad53a016fb6a7297"
+      },
+      "delta_probability_down_0.020": {
+        "ci95": [
+          -0.009150394682177022,
+          0.03905276277523889
+        ],
+        "point_estimate": 0.014547361861238053,
+        "replicate_sha256": "19fac9b0fee75526d57b68d3d34894e718c0349bd03c5c56ff119d560c3841b3"
+      },
+      "delta_return_24h": {
+        "ci95": [
+          -0.003707648354290706,
+          -9.70919369235103e-05
+        ],
+        "point_estimate": -0.001956606776251922,
+        "replicate_sha256": "dc96e83e0185cabcf2074efd6b2fe4db767963ce989afe7aa9588e1299a79af6"
+      },
+      "downside_asymmetry_difference": {
+        "ci95": [
+          0.00023803556149277553,
+          0.005197654985159063
+        ],
+        "point_estimate": 0.002751457928121245,
+        "replicate_sha256": "469fcc823da442e8c6d0f539e61231a8907d1dc3b695425e9e66282765cc3021"
+      }
+    },
+    "iterations": 2000,
+    "paired": true,
+    "quantile_method": "linear Type-7",
+    "seed": 20261001,
+    "unit": "event"
+  },
+  "pooled": {
+    "generator": "PCG64",
+    "group_count": 4871,
+    "intervals": {
+      "delta_mae_24h": {
+        "ci95": [
+          -0.0009372827720582738,
+          0.0012392949028534861
+        ],
+        "point_estimate": 0.00014736918317093616,
+        "replicate_sha256": "3d8ccf8a5ac66a9a89ed9e8aeec15c8d4c61765beda8bb47c4becbc7b2734734"
+      },
+      "delta_probability_down_0.010": {
+        "ci95": [
+          -0.00944364606856907,
+          0.02381441182508715
+        ],
+        "point_estimate": 0.007389960993635803,
+        "replicate_sha256": "28c8a6c533c04f77733853b58a9e0fd5ec1f38668f6b911f468227eab935eb7c"
+      },
+      "delta_probability_down_0.020": {
+        "ci95": [
+          -0.009443646068569069,
+          0.024435434202422494
+        ],
+        "point_estimate": 0.00745534797782796,
+        "replicate_sha256": "a0335aac1db668818c1cc0402290edd9f3906ccdd863a0254c5c3fb9694223f8"
+      },
+      "delta_return_24h": {
+        "ci95": [
+          -0.0015641192341625224,
+          0.0010770273636841123
+        ],
+        "point_estimate": -0.00024463201659217967,
+        "replicate_sha256": "ce43e71f639de1256a109d2dafd8f5221a3431685ac51e53eaff146819b46be6"
+      },
+      "downside_asymmetry_difference": {
+        "ci95": [
+          -0.0014094477188199795,
+          0.0018779900166275584
+        ],
+        "point_estimate": 0.00025377794133965575,
+        "replicate_sha256": "868083cb2f951629ea62ce120ab5037eb21576fab882a1e6e43774a0ebc47298"
+      }
+    },
+    "iterations": 2000,
+    "paired": true,
+    "quantile_method": "linear Type-7",
+    "seed": 20261001,
+    "unit": "event"
+  }
+}

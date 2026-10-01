@@ -1,0 +1,11 @@
+{
+  "e1_or_trade_state_used": false,
+  "evaluation_cadence": "every completed hour",
+  "h1": "UTC-aligned 60-minute bars; available at end boundary",
+  "p0_version": "P0_H1_SMA24_CROSSDOWN_V1",
+  "reference_price": "exact 1-minute open at decision boundary",
+  "refractory_period": false,
+  "rule": "previous completed H1 close >= previous inclusive causal SMA24 AND current completed H1 close < current inclusive causal SMA24",
+  "sma24": "arithmetic mean of 24 contiguous completed H1 closes ending with current bar",
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "classification": "NO_USEFUL_P0_DOWNSIDE_SIGNAL",
+  "created_at_utc": "2026-10-01T06:29:19.127063+00:00",
+  "required_artifacts": [
+    "run_manifest.json",
+    "provenance.json",
+    "p0_definition_reconciliation.json",
+    "event_population.json",
+    "event_spacing.json",
+    "reference_population.json",
+    "matched_reference.json",
+    "forward_return_profiles.json",
+    "forward_mae_profiles.json",
+    "forward_mfe_profiles.json",
+    "downside_thresholds.json",
+    "upside_thresholds.json",
+    "downside_asymmetry.json",
+    "yearly_results.json",
+    "symbol_results.json",
+    "month_results.json",
+    "trade_bootstrap_intervals.json",
+    "month_bootstrap_intervals.json",
+    "interpretation_predicates.json",
+    "final_summary.json",
+    "reproducibility_hashes.json"
+  ],
+  "row_level_artifacts_written": false,
+  "status": "COMPLETE",
+  "version": "C34_RUN_V1"
+}

@@ -1,0 +1,25 @@
+{
+  "artifact_sha256": {
+    "downside_asymmetry.json": "e4ac63b52057f47eebbb09dd5d382ebf9bdec9f1fb42e726fb014a5345039383",
+    "downside_thresholds.json": "c97a5cd7685f8b7557242a330ae3d44b08875049e35dd138802740d23a78dfd0",
+    "event_population.json": "71390987b497cf2d4b7be53b25bcb025f7c640fbbfb91978c086821340e3fd4f",
+    "event_spacing.json": "d97d45f05e18032f58411b9cde9befdf9a3673d555d50cba28fdcafcfa1868cb",
+    "final_summary.json": "21326cff47c7423f336e0ae52bde001770650410b439eea6436bf3c1ee002f07",
+    "forward_mae_profiles.json": "a837059c839974c34996dbbb8e7a0b932bc92129de9cf4e2d5cfbeb1c09940af",
+    "forward_mfe_profiles.json": "2ebcb9e65a66b146108e03e9303c2c58e34e908ab5990236627cd22d8d32790a",
+    "forward_return_profiles.json": "8c577e869eafad024f67a6cea69b5e2bb7205902d983acccacdf0df9016b4e8d",
+    "interpretation_predicates.json": "a8b3dfcfe1aed736fc8035913b5df659e8fb7906a1a00bc854eb763344947872",
+    "matched_reference.json": "d5c797504c8b587666efed3a10897540922650451bfeadd1c3f0225631f89982",
+    "month_bootstrap_intervals.json": "b8585217dcf16b16cf4c40df5096f81ca110667ad962dbe3b8627031b10d5b47",
+    "month_results.json": "b01cafe227533ae67f81df94cc3ff97ae746dc8a711e8e50db52c09acaf3b90e",
+    "p0_definition_reconciliation.json": "53b6e94c2bc733aee100bc9651024becf5a868837eb21e66370dae82b370870a",
+    "provenance.json": "0f70d0b35ec5f356e2877ef19c47500e828c1f33d39aefaaf57e8cb0c633ea6c",
+    "reference_population.json": "8ee7c5c403a090d1cfe2271c6299e23cc1f3039f9d03966138600de29bd39c38",
+    "run_manifest.json": "72a7c9d90d7dd247d62d315f862403e2556f851294685788eddeba0468703f94",
+    "symbol_results.json": "7ae5ede6ff3e038345ddf3d776e22be81284cad30ac7785f95d91c4a3c98bfaa",
+    "trade_bootstrap_intervals.json": "4899340b9602369abf886d982e37ed87aff42425a1ec13cf0184428d82c57e45",
+    "upside_thresholds.json": "10fec43a2c68284ee69db1a3ae5ca1f2c428726bf37028a08a41cd68c68c9110",
+    "yearly_results.json": "086c3d9de57005aabff59b3106828076a2b4c4a3affc647ce9dfc56459049aed"
+  },
+  "verified_after_write": true
+}

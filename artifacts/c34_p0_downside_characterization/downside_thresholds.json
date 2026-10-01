@@ -1,0 +1,398 @@
+{
+  "eligible_non_p0": {
+    "12h": {
+      "0.005": {
+        "count": 82604,
+        "hits": 63532,
+        "incidence": 0.7691152970800446,
+        "median_time_to_threshold_minutes_among_hits": 75.0
+      },
+      "0.010": {
+        "count": 82604,
+        "hits": 47911,
+        "incidence": 0.5800082320468742,
+        "median_time_to_threshold_minutes_among_hits": 166.0
+      },
+      "0.020": {
+        "count": 82604,
+        "hits": 27166,
+        "incidence": 0.328870272626023,
+        "median_time_to_threshold_minutes_among_hits": 281.0
+      },
+      "0.030": {
+        "count": 82604,
+        "hits": 15757,
+        "incidence": 0.19075347440801899,
+        "median_time_to_threshold_minutes_among_hits": 345.0
+      }
+    },
+    "24h": {
+      "0.005": {
+        "count": 82604,
+        "hits": 69134,
+        "incidence": 0.8369328361822672,
+        "median_time_to_threshold_minutes_among_hits": 89.0
+      },
+      "0.010": {
+        "count": 82604,
+        "hits": 57243,
+        "incidence": 0.692980969444579,
+        "median_time_to_threshold_minutes_among_hits": 222.0
+      },
+      "0.020": {
+        "count": 82604,
+        "hits": 38784,
+        "incidence": 0.4695172146627282,
+        "median_time_to_threshold_minutes_among_hits": 439.0
+      },
+      "0.030": {
+        "count": 82604,
+        "hits": 26231,
+        "incidence": 0.3175512081739383,
+        "median_time_to_threshold_minutes_among_hits": 583.0
+      }
+    },
+    "3h": {
+      "0.005": {
+        "count": 82604,
+        "hits": 45583,
+        "incidence": 0.5518255774538763,
+        "median_time_to_threshold_minutes_among_hits": 40.0
+      },
+      "0.010": {
+        "count": 82604,
+        "hits": 25065,
+        "incidence": 0.30343566897486807,
+        "median_time_to_threshold_minutes_among_hits": 70.0
+      },
+      "0.020": {
+        "count": 82604,
+        "hits": 8873,
+        "incidence": 0.10741610575759043,
+        "median_time_to_threshold_minutes_among_hits": 93.0
+      },
+      "0.030": {
+        "count": 82604,
+        "hits": 3759,
+        "incidence": 0.045506270882765966,
+        "median_time_to_threshold_minutes_among_hits": 101.0
+      }
+    },
+    "48h": {
+      "0.005": {
+        "count": 82604,
+        "hits": 73314,
+        "incidence": 0.8875357125562927,
+        "median_time_to_threshold_minutes_among_hits": 100.0
+      },
+      "0.010": {
+        "count": 82604,
+        "hits": 64727,
+        "incidence": 0.7835819088663987,
+        "median_time_to_threshold_minutes_among_hits": 278.0
+      },
+      "0.020": {
+        "count": 82604,
+        "hits": 49582,
+        "incidence": 0.6002372766451988,
+        "median_time_to_threshold_minutes_among_hits": 625.0
+      },
+      "0.030": {
+        "count": 82604,
+        "hits": 37695,
+        "incidence": 0.4563338337126531,
+        "median_time_to_threshold_minutes_among_hits": 895.0
+      }
+    },
+    "6h": {
+      "0.005": {
+        "count": 82604,
+        "hits": 55508,
+        "incidence": 0.6719771439639727,
+        "median_time_to_threshold_minutes_among_hits": 58.0
+      },
+      "0.010": {
+        "count": 82604,
+        "hits": 36567,
+        "incidence": 0.4426783206624377,
+        "median_time_to_threshold_minutes_among_hits": 112.0
+      },
+      "0.020": {
+        "count": 82604,
+        "hits": 16608,
+        "incidence": 0.20105563895210884,
+        "median_time_to_threshold_minutes_among_hits": 167.0
+      },
+      "0.030": {
+        "count": 82604,
+        "hits": 8187,
+        "incidence": 0.09911142317563314,
+        "median_time_to_threshold_minutes_among_hits": 191.0
+      }
+    }
+  },
+  "event": {
+    "12h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 3685,
+        "incidence": 0.7565181687538494,
+        "median_time_to_threshold_minutes_among_hits": 66.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 2781,
+        "incidence": 0.5709299938411004,
+        "median_time_to_threshold_minutes_among_hits": 155.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 1591,
+        "incidence": 0.3266269759802915,
+        "median_time_to_threshold_minutes_among_hits": 260.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 916,
+        "incidence": 0.18805173475672346,
+        "median_time_to_threshold_minutes_among_hits": 311.0
+      }
+    },
+    "24h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 4028,
+        "incidence": 0.8269349209607884,
+        "median_time_to_threshold_minutes_among_hits": 81.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 3306,
+        "incidence": 0.6787107370149866,
+        "median_time_to_threshold_minutes_among_hits": 214.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 2246,
+        "incidence": 0.4610962841305687,
+        "median_time_to_threshold_minutes_among_hits": 412.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 1523,
+        "incidence": 0.31266680353110243,
+        "median_time_to_threshold_minutes_among_hits": 559.0
+      }
+    },
+    "3h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 2635,
+        "incidence": 0.5409566824060767,
+        "median_time_to_threshold_minutes_among_hits": 33.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 1513,
+        "incidence": 0.310613836994457,
+        "median_time_to_threshold_minutes_among_hits": 58.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 573,
+        "incidence": 0.11763498254978444,
+        "median_time_to_threshold_minutes_among_hits": 81.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 262,
+        "incidence": 0.05378772326011086,
+        "median_time_to_threshold_minutes_among_hits": 93.5
+      }
+    },
+    "48h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 4293,
+        "incidence": 0.8813385341818928,
+        "median_time_to_threshold_minutes_among_hits": 96.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 3769,
+        "incidence": 0.7737630876616711,
+        "median_time_to_threshold_minutes_among_hits": 281.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 2880,
+        "incidence": 0.5912543625538904,
+        "median_time_to_threshold_minutes_among_hits": 592.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 2189,
+        "incidence": 0.4493943748716896,
+        "median_time_to_threshold_minutes_among_hits": 903.0
+      }
+    },
+    "6h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 3187,
+        "incidence": 0.6542804352289058,
+        "median_time_to_threshold_minutes_among_hits": 46.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 2104,
+        "incidence": 0.43194415931020325,
+        "median_time_to_threshold_minutes_among_hits": 95.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 1014,
+        "incidence": 0.2081708068158489,
+        "median_time_to_threshold_minutes_among_hits": 148.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 525,
+        "incidence": 0.10778074317388626,
+        "median_time_to_threshold_minutes_among_hits": 180.0
+      }
+    }
+  },
+  "matched": {
+    "12h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 3596,
+        "incidence": 0.7382467665777048,
+        "median_time_to_threshold_minutes_among_hits": 67.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 2751,
+        "incidence": 0.564771094231164,
+        "median_time_to_threshold_minutes_among_hits": 157.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 1564,
+        "incidence": 0.3210839663313488,
+        "median_time_to_threshold_minutes_among_hits": 264.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 920,
+        "incidence": 0.18887292137138165,
+        "median_time_to_threshold_minutes_among_hits": 305.0
+      }
+    },
+    "24h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 3937,
+        "incidence": 0.8082529254773148,
+        "median_time_to_threshold_minutes_among_hits": 81.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 3270,
+        "incidence": 0.671320057483063,
+        "median_time_to_threshold_minutes_among_hits": 213.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 2211,
+        "incidence": 0.4539109012523096,
+        "median_time_to_threshold_minutes_among_hits": 422.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 1505,
+        "incidence": 0.3089714637651406,
+        "median_time_to_threshold_minutes_among_hits": 551.0
+      }
+    },
+    "3h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 2614,
+        "incidence": 0.5366454526791213,
+        "median_time_to_threshold_minutes_among_hits": 36.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 1484,
+        "incidence": 0.30466023403818515,
+        "median_time_to_threshold_minutes_among_hits": 55.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 581,
+        "incidence": 0.1192773557791008,
+        "median_time_to_threshold_minutes_among_hits": 81.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 274,
+        "incidence": 0.056251283104085406,
+        "median_time_to_threshold_minutes_among_hits": 94.0
+      }
+    },
+    "48h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 4228,
+        "incidence": 0.8679942516936974,
+        "median_time_to_threshold_minutes_among_hits": 97.5
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 3734,
+        "incidence": 0.766577704783412,
+        "median_time_to_threshold_minutes_among_hits": 277.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 2861,
+        "incidence": 0.5873537261342641,
+        "median_time_to_threshold_minutes_among_hits": 631.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 2214,
+        "incidence": 0.45452679121330325,
+        "median_time_to_threshold_minutes_among_hits": 902.0
+      }
+    },
+    "6h": {
+      "0.005": {
+        "count": 4871,
+        "hits": 3167,
+        "incidence": 0.6501745021556149,
+        "median_time_to_threshold_minutes_among_hits": 51.0
+      },
+      "0.010": {
+        "count": 4871,
+        "hits": 2121,
+        "incidence": 0.4354342024225005,
+        "median_time_to_threshold_minutes_among_hits": 103.0
+      },
+      "0.020": {
+        "count": 4871,
+        "hits": 971,
+        "incidence": 0.19934305070827346,
+        "median_time_to_threshold_minutes_among_hits": 152.0
+      },
+      "0.030": {
+        "count": 4871,
+        "hits": 536,
+        "incidence": 0.11003900636419627,
+        "median_time_to_threshold_minutes_among_hits": 170.5
+      }
+    }
+  }
+}

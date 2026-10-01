@@ -1,0 +1,90 @@
+{
+  "matched": {
+    "12h": {
+      "downside_asymmetry_difference": -0.0003583291018605557,
+      "event_downside_asymmetry": 0.0014683127815761955,
+      "event_probability_abs_mae_gt_mfe": 0.5058509546294395,
+      "reference_downside_asymmetry": 0.0018266418834367512,
+      "reference_probability_abs_mae_gt_mfe": 0.494354342024225
+    },
+    "1h": {
+      "downside_asymmetry_difference": 7.653515137863443e-05,
+      "event_downside_asymmetry": 0.0007290639658661443,
+      "event_probability_abs_mae_gt_mfe": 0.5019503182098132,
+      "reference_downside_asymmetry": 0.0006525288144875099,
+      "reference_probability_abs_mae_gt_mfe": 0.5035926914391295
+    },
+    "24h": {
+      "downside_asymmetry_difference": 0.00025602126759517035,
+      "event_downside_asymmetry": 0.0015579015502369814,
+      "event_probability_abs_mae_gt_mfe": 0.5003079449804968,
+      "reference_downside_asymmetry": 0.001301880282641811,
+      "reference_probability_abs_mae_gt_mfe": 0.485321289262985
+    },
+    "3h": {
+      "downside_asymmetry_difference": -0.0003661914636092171,
+      "event_downside_asymmetry": 0.0007094933463138702,
+      "event_probability_abs_mae_gt_mfe": 0.4986655717511805,
+      "reference_downside_asymmetry": 0.0010756848099230873,
+      "reference_probability_abs_mae_gt_mfe": 0.4978443851365223
+    },
+    "48h": {
+      "downside_asymmetry_difference": -9.840919789615848e-05,
+      "event_downside_asymmetry": 0.001666593410614002,
+      "event_probability_abs_mae_gt_mfe": 0.4902484089509341,
+      "reference_downside_asymmetry": 0.0017650026085101606,
+      "reference_probability_abs_mae_gt_mfe": 0.4906590022582632
+    },
+    "6h": {
+      "downside_asymmetry_difference": -0.0003913589938406934,
+      "event_downside_asymmetry": 0.0009262118529686138,
+      "event_probability_abs_mae_gt_mfe": 0.5027715048244714,
+      "reference_downside_asymmetry": 0.0013175708468093073,
+      "reference_probability_abs_mae_gt_mfe": 0.5005132416341613
+    }
+  },
+  "unmatched": {
+    "12h": {
+      "downside_asymmetry_difference": 0.0006217121327392987,
+      "event_downside_asymmetry": 0.0014683127815761955,
+      "event_probability_abs_mae_gt_mfe": 0.5058509546294395,
+      "reference_downside_asymmetry": 0.0008466006488368968,
+      "reference_probability_abs_mae_gt_mfe": 0.5056050554452569
+    },
+    "1h": {
+      "downside_asymmetry_difference": 0.0005032253417849237,
+      "event_downside_asymmetry": 0.0007290639658661443,
+      "event_probability_abs_mae_gt_mfe": 0.5019503182098132,
+      "reference_downside_asymmetry": 0.00022583862408122064,
+      "reference_probability_abs_mae_gt_mfe": 0.5055687375914
+    },
+    "24h": {
+      "downside_asymmetry_difference": 0.0008231012191617336,
+      "event_downside_asymmetry": 0.0015579015502369814,
+      "event_probability_abs_mae_gt_mfe": 0.5003079449804968,
+      "reference_downside_asymmetry": 0.0007348003310752478,
+      "reference_probability_abs_mae_gt_mfe": 0.5011863832259938
+    },
+    "3h": {
+      "downside_asymmetry_difference": 0.00020068141833565027,
+      "event_downside_asymmetry": 0.0007094933463138702,
+      "event_probability_abs_mae_gt_mfe": 0.4986655717511805,
+      "reference_downside_asymmetry": 0.00050881192797822,
+      "reference_probability_abs_mae_gt_mfe": 0.5055445256888287
+    },
+    "48h": {
+      "downside_asymmetry_difference": 0.001278691906963711,
+      "event_downside_asymmetry": 0.001666593410614002,
+      "event_probability_abs_mae_gt_mfe": 0.4902484089509341,
+      "reference_downside_asymmetry": 0.00038790150365029114,
+      "reference_probability_abs_mae_gt_mfe": 0.4927485351798944
+    },
+    "6h": {
+      "downside_asymmetry_difference": 0.00019840363628541823,
+      "event_downside_asymmetry": 0.0009262118529686138,
+      "event_probability_abs_mae_gt_mfe": 0.5027715048244714,
+      "reference_downside_asymmetry": 0.0007278082166831956,
+      "reference_probability_abs_mae_gt_mfe": 0.5082683647281003
+    }
+  }
+}

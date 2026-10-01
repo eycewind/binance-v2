@@ -1,0 +1,32 @@
+{
+  "algorithm": "1:1 nearest neighbor with replacement",
+  "distance": "Euclidean on standardized causal features",
+  "distance_profile": {
+    "count": 4871,
+    "mean": 0.3468202163668198,
+    "median": 0.2475550246855334,
+    "negative_fraction": 0.0,
+    "p05": 0.08063742880541569,
+    "p10": 0.102906360285126,
+    "p25": 0.15517199388154684,
+    "p75": 0.40752157272067613,
+    "p90": 0.676693219180783,
+    "p95": 0.9134006831189294,
+    "positive_fraction": 1.0
+  },
+  "features": [
+    "current_1h_return",
+    "trailing_24h_realized_volatility",
+    "close_over_sma24_minus_1"
+  ],
+  "outcomes_used": false,
+  "pair_count": 4871,
+  "scaling": "candidate-pool population standard deviation; zero replaced by 1",
+  "strata": [
+    "symbol",
+    "calendar year",
+    "UTC month"
+  ],
+  "tie_break": "earliest t_ms",
+  "unique_control_count": 3364
+}

@@ -1,0 +1,27 @@
+{
+  "contract_sha256": "3824b467c5e64e31bb400fe3eefcd084f70d98be7ec5f378a0d39479e98e195b",
+  "environment": "binance-v2-research",
+  "git_head": "cc6ecfc8d7f745592524b06cd92d11136a5e050b",
+  "implementation_sha256": "1f1e888d670ace5f15273f37cb5b0dda0093b2c36c3d260464b840fd18cfc8b8",
+  "no_2026_access": true,
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "rng": {
+    "generator": "PCG64",
+    "iterations": 2000,
+    "seed": 20261001
+  },
+  "source_hashes": {
+    "data/normalized/c2_frozen_inputs/BNBUSDT_1h.csv.gz": "175e102d2893771392dc54df22f33fe3d37a66a0b681fdd33a2d5e5a89899f3a",
+    "data/normalized/c2_frozen_inputs/BTCUSDT_1h.csv.gz": "f9f9453665b89a8bb7c10c84c4257f606856f6f31996a6b34b30fa2649c97971",
+    "data/normalized/c2_frozen_inputs/ETHUSDT_1h.csv.gz": "ed03a4bafbebdc7c0b3936abc12a7597ff467659d566bf954bc17c41f2b43e67",
+    "data/normalized/c2_frozen_inputs/SOLUSDT_1h.csv.gz": "936a588a20660ef80ff5f3b2c45590bff4cfafde4232100db8eca14e81716a20",
+    "data/normalized/c2_frozen_inputs/XRPUSDT_1h.csv.gz": "49da571c398801b2b45450aa2d8f7efb0d05720e551815f8f632aa07248943c8",
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+  }
+}

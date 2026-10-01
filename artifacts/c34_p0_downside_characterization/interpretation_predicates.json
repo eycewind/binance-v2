@@ -1,0 +1,19 @@
+{
+  "classification": "NO_USEFUL_P0_DOWNSIDE_SIGNAL",
+  "directional_predicates_true_of_six": 3,
+  "higher_down_1pct_both_years": false,
+  "lower_return_both_years": false,
+  "month_breadth": {
+    "not_explained_by_one_isolated_month": false,
+    "total": 24,
+    "worse_count": 10
+  },
+  "pooled_month_bootstrap_delta_mae_excludes_zero": false,
+  "predicate_operationalization_frozen_before_outcome_execution": true,
+  "symbol_breadth": {
+    "not_explained_by_one_symbol": true,
+    "total": 5,
+    "worse_count": 3
+  },
+  "worse_mae_both_years": false
+}
