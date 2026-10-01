@@ -1,0 +1,20 @@
+{
+  "all_60_offsets_present": true,
+  "bar_interval_left_closed_right_open": true,
+  "bars_exactly_60m": true,
+  "entry_identical_all_phases": true,
+  "evaluation_cadence_exactly_60m": true,
+  "execution_exact_boundary_1m_open": true,
+  "mfe_evaluation_only": true,
+  "no_2026_access": true,
+  "no_bar_at_t_in_completed_state": true,
+  "no_gaps_or_overlaps_within_phase": true,
+  "no_new_exit_logic": true,
+  "no_retraining": true,
+  "ohlcv_aggregation_exact": true,
+  "phase01_exact_plus_1m": true,
+  "phase59_exact_plus_59m": true,
+  "phase_changes_boundary_only": true,
+  "post_t_mutation_invariance": true,
+  "sma_exactly_24_completed_bars": true
+}

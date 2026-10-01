@@ -1,0 +1,11 @@
+{
+  "canonical_phase00_reconciled_exactly": true,
+  "classification": "NO_MATERIAL_HOURLY_PHASE_SENSITIVITY",
+  "common_support_ge_90pct": true,
+  "material_source_asymmetry": false,
+  "pooled_adjacent_smoothness_ratio_lt_1": true,
+  "retire_model_family": true,
+  "year_2024_spread_ge_10bp": false,
+  "year_2025_spread_ge_10bp": false,
+  "zero_shift_centered_spearman_ge_0_50": false
+}

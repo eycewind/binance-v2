@@ -1,0 +1,31 @@
+{
+  "c32_canonical_reconciliation_sha256": "4472ad427b4e4ba6abac187c1a77a194a3ff6384ab486253d5e7db2b2ac7fe62",
+  "canonical_p0_implementation_sha256": "d01eaad44890e16a3dd2e30608b37f9829156cae5c68a5a62ac49a65acee72c2",
+  "command": "conda run -n binance-v2-research env PYTHONPATH=src python scripts/c33_p0_hourly_phase_sensitivity.py",
+  "contract_sha256": "1df27210585514f77204c6321d04976617c0dcbbc16dcec76f470e679e1abc96",
+  "environment": "binance-v2-research",
+  "git_head": "43f862bf27b07f8aded3118d0ee3752d09e41129",
+  "no_2026_access": true,
+  "numpy": "2.4.6",
+  "phase_implementation_sha256": "58290b8cb04ae529aa3dd03c5d55446c4ba6a955e47a223236d3ad1c94178324",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "population_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "reference_hashes": {
+    "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+    "artifacts/c2_asymmetric_exit_experiment/p0_trade_records.csv": "b3c44b5f609d6651cba51ceb743843b709b85bdcb593f1e967034016f7163848"
+  },
+  "rng": {
+    "generator": "PCG64",
+    "iterations": 2000,
+    "seed": 20261001
+  },
+  "semantic_common_outcomes_sha256": "e9bb8037d4ad09a54fa3bc98d7aef3f7c37f79514f2a6de0b68db226af592d81",
+  "source_hashes": {
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb"
+  }
+}

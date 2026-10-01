@@ -1,0 +1,30 @@
+{
+  "exit_displacement": {
+    "centered_pearson": 0.6648268068309718,
+    "centered_spearman": 0.6464573492636845,
+    "pearson": 0.6648268068309717,
+    "spearman": 0.6464573492636845,
+    "zero_shift_is_primary": true
+  },
+  "mfe_to_exit_delay": {
+    "centered_pearson": 0.8508278664319258,
+    "centered_spearman": 0.816432570689664,
+    "pearson": 0.8508278664319257,
+    "spearman": 0.816432570689664,
+    "zero_shift_is_primary": true
+  },
+  "net_return": {
+    "centered_pearson": 0.14854374099107365,
+    "centered_spearman": 0.14076132258960825,
+    "pearson": 0.14854374099107365,
+    "spearman": 0.14076132258960825,
+    "zero_shift_is_primary": true
+  },
+  "surrender_gap": {
+    "centered_pearson": 0.8572149146649357,
+    "centered_spearman": 0.8018894137260351,
+    "pearson": 0.8572149146649358,
+    "spearman": 0.8018894137260351,
+    "zero_shift_is_primary": true
+  }
+}

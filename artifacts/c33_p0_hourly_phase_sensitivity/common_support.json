@@ -1,0 +1,20 @@
+{
+  "count": 2198,
+  "excluded_count": 1,
+  "exclusion_reason_counts": {
+    "execution_minute_missing": 1
+  },
+  "primary_inference_uses_common_support": true,
+  "rate": 0.9995452478399273,
+  "symbol_counts": {
+    "BNBUSDT": 441,
+    "BTCUSDT": 451,
+    "ETHUSDT": 434,
+    "SOLUSDT": 431,
+    "XRPUSDT": 441
+  },
+  "year_counts": {
+    "2024": 1093,
+    "2025": 1105
+  }
+}

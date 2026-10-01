@@ -1,0 +1,31 @@
+{
+  "artifact_sha256": {
+    "canonical_p0_reconciliation.json": "5f5e44c7cf395ba5488d044c7773961eb61c8963a7812fef84c24d1e0ffd5ca8",
+    "canonical_phase_deltas.json": "831b5e7a85f93f61aba9a8bc09cf749ecbd633a33af8a2c95108dd6312bc5e9e",
+    "causality_tests.json": "08d7cbfc89963e47906ef49f7b2e31bf2279e079b5072992aa072a42466e265d",
+    "circular_shift_diagnostic.json": "761ec276b248b611033be899a62ca9037827b1c0cabfc0498ea852f09e88bf5c",
+    "circular_smoothness.json": "83c23c4bfa4881f102e79cf5e7acb3f69b143ba7bf21eabbf31ad9ca8356f685",
+    "common_support.json": "8eac82451aa89f3189229d968b5e4761c7f0980f9bdaf997ef3c5058a533096c",
+    "cost_robustness.json": "ce1229efba72711080d27adb5155f5ba8fe491252e91fea628b5c235b4dd13ce",
+    "cross_year_phase_stability.json": "4411fc07d92531b5b3a5897254cffc0aa01cca741e90b023275f546bca47656b",
+    "exit_time_displacement.json": "f10e6fa306c3a14b8878481fd1f9a8d30dfa3a2b5eceada27c71243437c53bb3",
+    "final_summary.json": "1c9ff6978c83cc7c08453aa645e860316ebd36a3db227e3067abf92e39ab9f78",
+    "interpretation_predicates.json": "674b684e13d5710a071f2c369b5004cd730de2412b8339eb98264ce6655e00d9",
+    "local_neighborhood_consistency.json": "9400df4962d67f0976933be2f0e34c9a215e3b9ba153880190d4e8a19d00e8f8",
+    "month_bootstrap_intervals.json": "0515ed49a4e260fb9eb6b2c4c047523dd1b37d0e436b8ba325f119faec0da4c5",
+    "phase_bar_audit.json": "c07f26e6a5d15b326ed45083de687b8210b309b53dfb352d4a17823e7660ef5d",
+    "phase_definitions.json": "aa76d48cc1b23891c875f73a10353121464c8b235683655671a5809ed9b782c3",
+    "phase_gross_return_profile.json": "77d14ec62342915c5bd7028c4013a0247416a7a2d4893009a37c1a18b5c4fdb5",
+    "phase_holding_time_profile.json": "e4bae39fbaf1b42a0c9c3becde877a184f68f0ef9d7fe293518491e43c857e6c",
+    "phase_mfe_profile.json": "82ec049f513405cc284007eab30986a7d3bb036de7133486a445a14484c67851",
+    "phase_mfe_timing_profile.json": "a54225bf4a299ebef84e4d3a7ad051327783e5b290f6efdb329b99b6135d2d31",
+    "phase_net_return_profile.json": "b48e7929029cfde11a133e6f5d6447de60aa895ecf45c7366dc5b05c540e78aa",
+    "phase_surrender_profile.json": "e5ede9c55b51bfb0e68420d45efe38a57ea7c9b21d7248292e3d64e5bc2f0c3f",
+    "population_reconciliation.json": "97ad5ad90000828581ca40eaf581275f9ae3d1e654390abcb76fa98a36654d12",
+    "provenance.json": "3faf29256b0b85022693b8f27273d691fa691eb9f0ec5dc4b04cd258a4871eaf",
+    "robust_phase_statistics.json": "9f0a0c32fe991ffa8ff8bc12b8bc350724cd5c0f174eee5379c7d03bd59840fc",
+    "run_manifest.json": "ad50a1c372fef8579518da2d06f7f2f0c22272b0b3ce40c54804851c4df740d9",
+    "symbol_phase_profiles.json": "4b4976b51c6fa7db0a951c0fbb31bd400b3c2be5ce59d223927c81c51a16d6df",
+    "trade_bootstrap_intervals.json": "af4a6b3ccbd34ffce9e85a07acf8370c95e74fd6dd1e7cbffca16733524646f0"
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "entries_frozen": true,
+  "exit_observation_only_shifted": true,
+  "phase_count": 60,
+  "phases": {
+    "00": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:00",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 0
+    },
+    "01": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:01",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 1
+    },
+    "02": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:02",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 2
+    },
+    "03": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:03",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 3
+    },
+    "04": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:04",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 4
+    },
+    "05": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:05",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 5
+    },
+    "06": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:06",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 6
+    },
+    "07": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:07",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 7
+    },
+    "08": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:08",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 8
+    },
+    "09": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:09",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 9
+    },
+    "10": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:10",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 10
+    },
+    "11": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:11",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 11
+    },
+    "12": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:12",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 12
+    },
+    "13": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:13",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 13
+    },
+    "14": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:14",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 14
+    },
+    "15": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:15",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 15
+    },
+    "16": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:16",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 16
+    },
+    "17": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:17",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 17
+    },
+    "18": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:18",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 18
+    },
+    "19": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:19",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 19
+    },
+    "20": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:20",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 20
+    },
+    "21": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:21",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 21
+    },
+    "22": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:22",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 22
+    },
+    "23": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:23",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 23
+    },
+    "24": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:24",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 24
+    },
+    "25": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:25",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 25
+    },
+    "26": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:26",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 26
+    },
+    "27": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:27",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 27
+    },
+    "28": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:28",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 28
+    },
+    "29": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:29",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 29
+    },
+    "30": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:30",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 30
+    },
+    "31": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:31",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 31
+    },
+    "32": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:32",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 32
+    },
+    "33": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:33",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 33
+    },
+    "34": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:34",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 34
+    },
+    "35": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:35",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 35
+    },
+    "36": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:36",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 36
+    },
+    "37": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:37",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 37
+    },
+    "38": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:38",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 38
+    },
+    "39": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:39",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 39
+    },
+    "40": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:40",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 40
+    },
+    "41": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:41",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 41
+    },
+    "42": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:42",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 42
+    },
+    "43": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:43",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 43
+    },
+    "44": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:44",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 44
+    },
+    "45": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:45",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 45
+    },
+    "46": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:46",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 46
+    },
+    "47": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:47",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 47
+    },
+    "48": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:48",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 48
+    },
+    "49": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:49",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 49
+    },
+    "50": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:50",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 50
+    },
+    "51": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:51",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 51
+    },
+    "52": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:52",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 52
+    },
+    "53": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:53",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 53
+    },
+    "54": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:54",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 54
+    },
+    "55": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:55",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 55
+    },
+    "56": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:56",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 56
+    },
+    "57": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:57",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 57
+    },
+    "58": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:58",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 58
+    },
+    "59": {
+      "bar_duration_minutes": 60,
+      "bar_interval": "[t-60m,t)",
+      "boundaries": "UTC hh:59",
+      "evaluation_cadence_minutes": 60,
+      "minute_offset": 59
+    }
+  }
+}

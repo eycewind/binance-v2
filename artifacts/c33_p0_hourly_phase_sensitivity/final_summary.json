@@ -1,0 +1,18 @@
+{
+  "RETIRE_MODEL_FAMILY": true,
+  "another_rescue_experiment_started": false,
+  "best_phase_selected": false,
+  "bootstrap_iterations": 2000,
+  "canonical_phase_rank_descriptive_only": 54,
+  "classification": "NO_MATERIAL_HOURLY_PHASE_SENSITIVITY",
+  "common_support_count": 2198,
+  "common_support_rate": 0.9995452478399273,
+  "contract_sha256": "1df27210585514f77204c6321d04976617c0dcbbc16dcec76f470e679e1abc96",
+  "e1_unchanged": true,
+  "future_2026_data_or_metadata_accessed": false,
+  "increased_cadence_tested": false,
+  "new_exit_logic_introduced": false,
+  "p0_unchanged": true,
+  "phase_count": 60,
+  "retraining_occurred": false
+}
