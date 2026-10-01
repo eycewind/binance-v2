@@ -1,0 +1,11 @@
+{
+  "boundary_tests": {
+    "breadth_change_zero_false": true,
+    "breadth_recent_point_six_true": true,
+    "deficit_zero_false": true,
+    "improvement_zero_false": true
+  },
+  "catchup": "PRIOR_RELATIVE_DEFICIT>0 AND RELATIVE_IMPROVEMENT>0",
+  "market_expansion": "BREADTH_CHANGE>0 AND BREADTH_RECENT>=0.6",
+  "status": "PASS"
+}

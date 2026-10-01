@@ -1,0 +1,11 @@
+{
+  "PREVIOUS_60": "[u-120m,u-60m)",
+  "RECENT_60": "[u-60m,u)",
+  "bar_beginning_at_u_used": false,
+  "completed_bars_per_interval": 60,
+  "earliest_source_warmup": "t-13h",
+  "intervals_adjacent_non_overlapping": true,
+  "state_boundaries": "t-11h through t inclusive",
+  "state_boundary_count": 12,
+  "status": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "classification": "EXPECTED_STRUCTURAL_REDUNDANCY",
+  "deterministic_relationship_failures": {
+    "CATCHUP_STATE_AT_E1_iff_CATCHUP_CURRENT_RUN_LENGTH>0": 0,
+    "MARKET_EXPANSION_STATE_AT_E1_iff_MARKET_EXPANSION_CURRENT_RUN_LENGTH>0": 0
+  },
+  "features_removed": false,
+  "status": "PASS",
+  "unexpected_exact_sign_reversed_or_affine_pairs": []
+}

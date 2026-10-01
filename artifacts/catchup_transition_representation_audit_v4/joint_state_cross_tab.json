@@ -1,0 +1,150 @@
+{
+  "by_symbol": {
+    "BNBUSDT": {
+      "market=0,catchup=0": {
+        "count": 97,
+        "percentage_of_valid": 21.945701357466064
+      },
+      "market=0,catchup=1": {
+        "count": 88,
+        "percentage_of_valid": 19.90950226244344
+      },
+      "market=1,catchup=0": {
+        "count": 183,
+        "percentage_of_valid": 41.4027149321267
+      },
+      "market=1,catchup=1": {
+        "count": 74,
+        "percentage_of_valid": 16.742081447963802
+      }
+    },
+    "BTCUSDT": {
+      "market=0,catchup=0": {
+        "count": 72,
+        "percentage_of_valid": 15.964523281596453
+      },
+      "market=0,catchup=1": {
+        "count": 98,
+        "percentage_of_valid": 21.72949002217295
+      },
+      "market=1,catchup=0": {
+        "count": 226,
+        "percentage_of_valid": 50.110864745011085
+      },
+      "market=1,catchup=1": {
+        "count": 55,
+        "percentage_of_valid": 12.195121951219512
+      }
+    },
+    "ETHUSDT": {
+      "market=0,catchup=0": {
+        "count": 86,
+        "percentage_of_valid": 19.81566820276498
+      },
+      "market=0,catchup=1": {
+        "count": 73,
+        "percentage_of_valid": 16.820276497695854
+      },
+      "market=1,catchup=0": {
+        "count": 165,
+        "percentage_of_valid": 38.0184331797235
+      },
+      "market=1,catchup=1": {
+        "count": 110,
+        "percentage_of_valid": 25.34562211981567
+      }
+    },
+    "SOLUSDT": {
+      "market=0,catchup=0": {
+        "count": 105,
+        "percentage_of_valid": 24.361948955916475
+      },
+      "market=0,catchup=1": {
+        "count": 51,
+        "percentage_of_valid": 11.832946635730858
+      },
+      "market=1,catchup=0": {
+        "count": 115,
+        "percentage_of_valid": 26.682134570765662
+      },
+      "market=1,catchup=1": {
+        "count": 160,
+        "percentage_of_valid": 37.12296983758701
+      }
+    },
+    "XRPUSDT": {
+      "market=0,catchup=0": {
+        "count": 105,
+        "percentage_of_valid": 23.80952380952381
+      },
+      "market=0,catchup=1": {
+        "count": 71,
+        "percentage_of_valid": 16.099773242630384
+      },
+      "market=1,catchup=0": {
+        "count": 167,
+        "percentage_of_valid": 37.868480725623584
+      },
+      "market=1,catchup=1": {
+        "count": 98,
+        "percentage_of_valid": 22.22222222222222
+      }
+    }
+  },
+  "by_year": {
+    "2024": {
+      "market=0,catchup=0": {
+        "count": 226,
+        "percentage_of_valid": 20.677035681610246
+      },
+      "market=0,catchup=1": {
+        "count": 207,
+        "percentage_of_valid": 18.938700823421776
+      },
+      "market=1,catchup=0": {
+        "count": 415,
+        "percentage_of_valid": 37.96889295516926
+      },
+      "market=1,catchup=1": {
+        "count": 245,
+        "percentage_of_valid": 22.41537053979872
+      }
+    },
+    "2025": {
+      "market=0,catchup=0": {
+        "count": 239,
+        "percentage_of_valid": 21.609403254972875
+      },
+      "market=0,catchup=1": {
+        "count": 174,
+        "percentage_of_valid": 15.732368896925859
+      },
+      "market=1,catchup=0": {
+        "count": 441,
+        "percentage_of_valid": 39.87341772151899
+      },
+      "market=1,catchup=1": {
+        "count": 252,
+        "percentage_of_valid": 22.78481012658228
+      }
+    }
+  },
+  "pooled": {
+    "market=0,catchup=0": {
+      "count": 465,
+      "percentage_of_valid": 21.145975443383357
+    },
+    "market=0,catchup=1": {
+      "count": 381,
+      "percentage_of_valid": 17.32605729877217
+    },
+    "market=1,catchup=0": {
+      "count": 856,
+      "percentage_of_valid": 38.926784902228285
+    },
+    "market=1,catchup=1": {
+      "count": 497,
+      "percentage_of_valid": 22.60118235561619
+    }
+  }
+}

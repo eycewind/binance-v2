@@ -1,0 +1,45 @@
+{
+  "capitalization_volatility_or_learned_weighting": false,
+  "dynamic_dropping": false,
+  "equal_arithmetic_weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "peer_count": 4,
+  "peers": {
+    "BNBUSDT": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "BTCUSDT": [
+      "BNBUSDT",
+      "ETHUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "ETHUSDT": [
+      "BNBUSDT",
+      "BTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "SOLUSDT": [
+      "BNBUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "XRPUSDT"
+    ],
+    "XRPUSDT": [
+      "BNBUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "SOLUSDT"
+    ]
+  },
+  "status": "PASS",
+  "subject_excluded": true
+}

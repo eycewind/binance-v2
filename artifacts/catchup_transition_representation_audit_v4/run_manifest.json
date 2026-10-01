@@ -1,0 +1,58 @@
+{
+  "command": "conda run -n binance-v2-research env PYTHONPATH=src python scripts/catchup_transition_representation_audit_v4.py",
+  "documents": {
+    "actual": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V4_CONTRACT.md": "c1c94f4f2c3b72a71ed293440a00a7d5ba2471d8cc3ef4be156b6ab42582b352",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V2.md": "7e860e091db7cb0d70a2f39cc753438405b7b152a4a2c289532fcb24257134de",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V3.md": "88fda7e56760fadb14760a667070976df7f9e37c37a49faa8fcb0199a6dc1a26",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V4.md": "f37833e46148b06f1a50fb7deefb59e4bca33b3fc4933f9e008982806164802a",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    },
+    "all_match": true,
+    "expected": {
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V4_CONTRACT.md": "c1c94f4f2c3b72a71ed293440a00a7d5ba2471d8cc3ef4be156b6ab42582b352",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC.md": "629c5a394d363b555db8ed688b03c01e9927dd8a35ac73f08a4a18113e0d2e45",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V2.md": "7e860e091db7cb0d70a2f39cc753438405b7b152a4a2c289532fcb24257134de",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V3.md": "88fda7e56760fadb14760a667070976df7f9e37c37a49faa8fcb0199a6dc1a26",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V4.md": "f37833e46148b06f1a50fb7deefb59e4bca33b3fc4933f9e008982806164802a",
+      "docs/CATCHUP_TRANSITION_REPRESENTATION_SPEC.md": "61d8d6a7edbb9425122e32d8aa0ea9715c07c2f2e2dfc7ece6ae4a2f8d7b33a9"
+    },
+    "historical_checkpoints": {
+      "V1_audit": "ec871bd",
+      "V2_audit": "bc128fd",
+      "V4_spec": "7a56a25"
+    }
+  },
+  "environment": "binance-v2-research",
+  "git_HEAD": "b2518692eff15005108119813fb5ff4fcceba244",
+  "git_status_short": [
+    " M .gitignore",
+    "?? artifacts/c30_opportunity_prediction/",
+    "?? artifacts/c4_sequential_exit_state/locked_2025/",
+    "?? artifacts/c4_sequential_exit_state/locked_2025_input.json",
+    "?? artifacts/catchup_transition_representation_audit_v4/",
+    "?? scripts/c21_between_within_covariance.py",
+    "?? scripts/c24_probability_economic_ordering.py",
+    "?? scripts/c30_opportunity_prediction.py",
+    "?? scripts/catchup_transition_representation_audit.py",
+    "?? scripts/catchup_transition_representation_audit_v2.py",
+    "?? scripts/catchup_transition_representation_audit_v3.py",
+    "?? scripts/catchup_transition_representation_audit_v4.py",
+    "?? src/binance_data_foundation/c30_opportunity_prediction.py",
+    "?? src/binance_data_foundation/catchup_transition_representation_audit_v4.py",
+    "?? tests/test_c30_opportunity_prediction.py",
+    "?? tests/test_catchup_transition_representation_audit_v4.py"
+  ],
+  "numpy": "2.4.6",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "source_paths": [
+    "artifacts/c2_asymmetric_exit_experiment/frozen_entries.csv",
+    "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+    "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+    "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+    "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+    "data/normalized/c2_history/XRPUSDT_1m.csv.gz"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mutations": [
+    "entry fill price",
+    "entry fill timestamp",
+    "first post-E1 execution price",
+    "execution cost/slippage"
+  ],
+  "representation_API_accepts_fill_inputs": false,
+  "representation_unchanged": true,
+  "status": "PASS"
+}

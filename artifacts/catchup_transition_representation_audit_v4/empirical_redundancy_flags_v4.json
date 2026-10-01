@@ -1,0 +1,15 @@
+{
+  "features_removed": false,
+  "flags": [
+    {
+      "classification": "EXPECTED_STATE_RUN_DEPENDENCE",
+      "method": "Spearman",
+      "pair": [
+        "CATCHUP_STATE_AT_E1",
+        "CATCHUP_CURRENT_RUN_LENGTH"
+      ],
+      "value": 0.9777918973085612
+    }
+  ],
+  "threshold": 0.95
+}

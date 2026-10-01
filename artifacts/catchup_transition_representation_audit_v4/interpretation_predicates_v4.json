@@ -1,0 +1,17 @@
+{
+  "all_technical_gates_pass": true,
+  "entry_fill_independence_pass": true,
+  "formulas_pass": true,
+  "future_mutation_pass": true,
+  "intervals_pass": true,
+  "material_ambiguity": false,
+  "no_unexpected_structural_duplicate": true,
+  "outcome_labelled_artifact_read": false,
+  "population_exact": true,
+  "predictive_contract_design_technically_justified": true,
+  "schema_exact": true,
+  "sealed_boundary_accessed": false,
+  "state_and_run_semantics_pass": true,
+  "state_aware_valid_at_least_99_percent": true,
+  "state_run_relationships_pass": true
+}

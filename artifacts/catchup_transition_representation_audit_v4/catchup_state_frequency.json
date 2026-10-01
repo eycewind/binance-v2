@@ -1,0 +1,264 @@
+{
+  "by_UTC_entry_month": {
+    "2024-01": {
+      "false": 60,
+      "missing": 0,
+      "total": 98,
+      "true": 38,
+      "true_percentage_of_valid": 38.775510204081634,
+      "valid": 98
+    },
+    "2024-02": {
+      "false": 40,
+      "missing": 0,
+      "total": 83,
+      "true": 43,
+      "true_percentage_of_valid": 51.80722891566265,
+      "valid": 83
+    },
+    "2024-03": {
+      "false": 50,
+      "missing": 0,
+      "total": 94,
+      "true": 44,
+      "true_percentage_of_valid": 46.808510638297875,
+      "valid": 94
+    },
+    "2024-04": {
+      "false": 57,
+      "missing": 0,
+      "total": 92,
+      "true": 35,
+      "true_percentage_of_valid": 38.04347826086956,
+      "valid": 92
+    },
+    "2024-05": {
+      "false": 59,
+      "missing": 0,
+      "total": 98,
+      "true": 39,
+      "true_percentage_of_valid": 39.795918367346935,
+      "valid": 98
+    },
+    "2024-06": {
+      "false": 61,
+      "missing": 0,
+      "total": 92,
+      "true": 31,
+      "true_percentage_of_valid": 33.69565217391305,
+      "valid": 92
+    },
+    "2024-07": {
+      "false": 48,
+      "missing": 0,
+      "total": 85,
+      "true": 37,
+      "true_percentage_of_valid": 43.529411764705884,
+      "valid": 85
+    },
+    "2024-08": {
+      "false": 53,
+      "missing": 0,
+      "total": 92,
+      "true": 39,
+      "true_percentage_of_valid": 42.391304347826086,
+      "valid": 92
+    },
+    "2024-09": {
+      "false": 55,
+      "missing": 0,
+      "total": 86,
+      "true": 31,
+      "true_percentage_of_valid": 36.04651162790697,
+      "valid": 86
+    },
+    "2024-10": {
+      "false": 56,
+      "missing": 0,
+      "total": 91,
+      "true": 35,
+      "true_percentage_of_valid": 38.46153846153846,
+      "valid": 91
+    },
+    "2024-11": {
+      "false": 48,
+      "missing": 0,
+      "total": 89,
+      "true": 41,
+      "true_percentage_of_valid": 46.06741573033708,
+      "valid": 89
+    },
+    "2024-12": {
+      "false": 54,
+      "missing": 0,
+      "total": 93,
+      "true": 39,
+      "true_percentage_of_valid": 41.935483870967744,
+      "valid": 93
+    },
+    "2025-01": {
+      "false": 57,
+      "missing": 0,
+      "total": 93,
+      "true": 36,
+      "true_percentage_of_valid": 38.70967741935484,
+      "valid": 93
+    },
+    "2025-02": {
+      "false": 51,
+      "missing": 0,
+      "total": 86,
+      "true": 35,
+      "true_percentage_of_valid": 40.69767441860465,
+      "valid": 86
+    },
+    "2025-03": {
+      "false": 49,
+      "missing": 0,
+      "total": 89,
+      "true": 40,
+      "true_percentage_of_valid": 44.943820224719104,
+      "valid": 89
+    },
+    "2025-04": {
+      "false": 63,
+      "missing": 0,
+      "total": 92,
+      "true": 29,
+      "true_percentage_of_valid": 31.52173913043478,
+      "valid": 92
+    },
+    "2025-05": {
+      "false": 68,
+      "missing": 0,
+      "total": 102,
+      "true": 34,
+      "true_percentage_of_valid": 33.333333333333336,
+      "valid": 102
+    },
+    "2025-06": {
+      "false": 54,
+      "missing": 0,
+      "total": 91,
+      "true": 37,
+      "true_percentage_of_valid": 40.65934065934066,
+      "valid": 91
+    },
+    "2025-07": {
+      "false": 52,
+      "missing": 0,
+      "total": 93,
+      "true": 41,
+      "true_percentage_of_valid": 44.086021505376344,
+      "valid": 93
+    },
+    "2025-08": {
+      "false": 54,
+      "missing": 0,
+      "total": 91,
+      "true": 37,
+      "true_percentage_of_valid": 40.65934065934066,
+      "valid": 91
+    },
+    "2025-09": {
+      "false": 54,
+      "missing": 0,
+      "total": 88,
+      "true": 34,
+      "true_percentage_of_valid": 38.63636363636363,
+      "valid": 88
+    },
+    "2025-10": {
+      "false": 60,
+      "missing": 0,
+      "total": 93,
+      "true": 33,
+      "true_percentage_of_valid": 35.483870967741936,
+      "valid": 93
+    },
+    "2025-11": {
+      "false": 58,
+      "missing": 0,
+      "total": 94,
+      "true": 36,
+      "true_percentage_of_valid": 38.297872340425535,
+      "valid": 94
+    },
+    "2025-12": {
+      "false": 60,
+      "missing": 0,
+      "total": 94,
+      "true": 34,
+      "true_percentage_of_valid": 36.170212765957444,
+      "valid": 94
+    }
+  },
+  "by_symbol": {
+    "BNBUSDT": {
+      "false": 280,
+      "missing": 0,
+      "total": 442,
+      "true": 162,
+      "true_percentage_of_valid": 36.65158371040724,
+      "valid": 442
+    },
+    "BTCUSDT": {
+      "false": 298,
+      "missing": 0,
+      "total": 451,
+      "true": 153,
+      "true_percentage_of_valid": 33.92461197339246,
+      "valid": 451
+    },
+    "ETHUSDT": {
+      "false": 251,
+      "missing": 0,
+      "total": 434,
+      "true": 183,
+      "true_percentage_of_valid": 42.16589861751152,
+      "valid": 434
+    },
+    "SOLUSDT": {
+      "false": 220,
+      "missing": 0,
+      "total": 431,
+      "true": 211,
+      "true_percentage_of_valid": 48.95591647331786,
+      "valid": 431
+    },
+    "XRPUSDT": {
+      "false": 272,
+      "missing": 0,
+      "total": 441,
+      "true": 169,
+      "true_percentage_of_valid": 38.321995464852606,
+      "valid": 441
+    }
+  },
+  "by_year": {
+    "2024": {
+      "false": 641,
+      "missing": 0,
+      "total": 1093,
+      "true": 452,
+      "true_percentage_of_valid": 41.35407136322049,
+      "valid": 1093
+    },
+    "2025": {
+      "false": 680,
+      "missing": 0,
+      "total": 1106,
+      "true": 426,
+      "true_percentage_of_valid": 38.517179023508135,
+      "valid": 1106
+    }
+  },
+  "pooled": {
+    "false": 1321,
+    "missing": 0,
+    "total": 2199,
+    "true": 878,
+    "true_percentage_of_valid": 39.92723965438836,
+    "valid": 2199
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "features_added_removed_merged_or_selected_during_audit": false,
+  "ordered_schema_sha256": "6407a3d35663d6839d1314b8acc696156900f1faa930ad88aaaa213f018b076e",
+  "primary_count": 9,
+  "primary_variables_ordered": [
+    "NEW_JOINER_FRACTION",
+    "BASKET_ACCELERATION",
+    "PRIOR_RELATIVE_DEFICIT",
+    "RELATIVE_IMPROVEMENT",
+    "DISPERSION_CHANGE",
+    "MARKET_EXPANSION_STATE_AT_E1",
+    "MARKET_EXPANSION_CURRENT_RUN_LENGTH",
+    "CATCHUP_STATE_AT_E1",
+    "CATCHUP_CURRENT_RUN_LENGTH"
+  ],
+  "support_variables_ordered": [
+    "SUBJECT_PREV_RETURN",
+    "SUBJECT_RECENT_RETURN",
+    "BASKET_PREV_RETURN",
+    "BASKET_RECENT_RETURN",
+    "BREADTH_PREVIOUS",
+    "BREADTH_RECENT",
+    "BREADTH_CHANGE",
+    "PERSISTENT_PARTICIPANT_FRACTION",
+    "SUBJECT_RELATIVE_PREVIOUS",
+    "SUBJECT_RELATIVE_RECENT",
+    "DISPERSION_PREVIOUS",
+    "DISPERSION_RECENT"
+  ]
+}

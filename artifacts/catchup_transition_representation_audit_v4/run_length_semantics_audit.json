@@ -1,0 +1,23 @@
+{
+  "cap": 12,
+  "formula_boundaries": {
+    "breadth_change_zero_false": true,
+    "breadth_recent_point_six_true": true,
+    "deficit_zero_false": true,
+    "improvement_zero_false": true
+  },
+  "observed": {
+    "F_T": 1,
+    "F_T_T": 2,
+    "F_T_T_T": 3,
+    "TRUE_TRUE_then_missing": null,
+    "T_T_F_T": 1,
+    "current_FALSE": 0,
+    "current_FALSE_prior_missing": 0,
+    "current_TRUE_prior_missing": null,
+    "current_missing": null,
+    "twelve_TRUE": 12
+  },
+  "same_cases_applied_to_both_states": true,
+  "status": "PASS"
+}
