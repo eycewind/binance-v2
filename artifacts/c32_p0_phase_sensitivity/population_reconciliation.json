@@ -1,0 +1,18 @@
+{
+  "actual_count": 2199,
+  "actual_semantic_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "expected_count": 2199,
+  "expected_semantic_hash": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+  "status": "PASS",
+  "symbol_counts": {
+    "BNBUSDT": 442,
+    "BTCUSDT": 451,
+    "ETHUSDT": 434,
+    "SOLUSDT": 431,
+    "XRPUSDT": 441
+  },
+  "year_counts": {
+    "2024": 1093,
+    "2025": 1106
+  }
+}

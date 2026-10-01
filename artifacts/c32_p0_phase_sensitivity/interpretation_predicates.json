@@ -1,0 +1,10 @@
+{
+  "canonical_reconciliation_failure": true,
+  "classification": "C32_INSUFFICIENT",
+  "common_support_established": false,
+  "failure_kind": "no canonical daily aggregation phase",
+  "higher_cadence_p0_test_justified": false,
+  "no_material_predicate_evaluated": false,
+  "stable_predicate_evaluated": false,
+  "unstable_predicate_evaluated": false
+}

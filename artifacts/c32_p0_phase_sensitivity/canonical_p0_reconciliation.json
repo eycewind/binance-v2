@@ -1,0 +1,72 @@
+{
+  "accepted_horizon_hash_actual": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+  "accepted_horizon_hash_expected": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+  "accepted_trade_count": 2199,
+  "accepted_trade_hash_actual": "b3c44b5f609d6651cba51ceb743843b709b85bdcb593f1e967034016f7163848",
+  "accepted_trade_hash_expected": "b3c44b5f609d6651cba51ceb743843b709b85bdcb593f1e967034016f7163848",
+  "canonical_daily_phase": null,
+  "cost_semantics": "frozen C2 round-trip adverse slippage and quote fees",
+  "daily_phase_discovery": "FAIL_NO_UNIQUE_DAILY_PHASE",
+  "decision_semantics": "first completed 1h bar after entry with close < inclusive trailing SMA24",
+  "evaluation_interval_hours": 1,
+  "execution_semantics": "same decision boundary exact 1-minute open; missing/invalid boundary censors; no gap skipping",
+  "exit_prices_exact": true,
+  "exit_reasons_exact": true,
+  "exit_timestamps_exact": true,
+  "feature_order": [
+    "1h_close",
+    "SMA24_of_1h_close"
+  ],
+  "features": [
+    "1h_close",
+    "SMA24_of_1h_close"
+  ],
+  "gross_and_net_cost_rows_exact": true,
+  "model": "hourly close below trailing SMA of 24 consecutive 1-hour closes",
+  "observed_utc_evaluation_boundary_hours": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "p0_version": "P0_H1_SMA24_CROSSDOWN_V1",
+  "parameters": {
+    "bar_duration_hours": 1,
+    "sma_lookback_bars": 24,
+    "time_cap_days": 7
+  },
+  "reproduced_trade_count": 2199,
+  "status": "PASS",
+  "symbol_counts": {
+    "BNBUSDT": 442,
+    "BTCUSDT": 451,
+    "ETHUSDT": 434,
+    "SOLUSDT": 431,
+    "XRPUSDT": 441
+  },
+  "terminal_semantics": "seven-day exact-boundary open, or right-censor if dataset/cap minute unavailable",
+  "year_counts": {
+    "2024": 1093,
+    "2025": 1106
+  }
+}

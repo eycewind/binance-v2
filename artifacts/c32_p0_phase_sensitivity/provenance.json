@@ -1,0 +1,29 @@
+{
+  "command": "conda run -n binance-v2-research python scripts/c32_p0_phase_sensitivity.py",
+  "contract_sha256": "c449e5dc5ea3ef5f37e0184e31937bdb868cc657b7282c386c1f5189cd03344c",
+  "git_head": "e68120f9b718a019de827c241965ea219f7bb7fb",
+  "implementation_hashes": {
+    "src/binance_data_foundation/c2_entries.py": "afa045fb99ca559c8f88435f3ec274042783b2fafcb3f043ff4483fffa8daa6b",
+    "src/binance_data_foundation/c2_p0.py": "d01eaad44890e16a3dd2e30608b37f9829156cae5c68a5a62ac49a65acee72c2",
+    "src/binance_data_foundation/c32_p0_phase_sensitivity.py": "7296d10c4005a1c24c65f5c3e2380a93b9a44fa182bb0fcf49cc0e33a4496228"
+  },
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "reference_hashes": {
+    "artifacts/c2_asymmetric_exit_experiment/common_horizons_p0.csv": "81e57cfa46f8d39a0448ab6dee2f445c9212f6a29230fe7009c860a580666b7f",
+    "artifacts/c2_asymmetric_exit_experiment/p0_trade_records.csv": "b3c44b5f609d6651cba51ceb743843b709b85bdcb593f1e967034016f7163848"
+  },
+  "rng": {
+    "generator": "PCG64",
+    "iterations": 2000,
+    "seed": 20261001,
+    "used": false
+  },
+  "source_hashes": {
+    "data/normalized/c2_frozen_inputs/BNBUSDT_1h.csv.gz": "175e102d2893771392dc54df22f33fe3d37a66a0b681fdd33a2d5e5a89899f3a",
+    "data/normalized/c2_frozen_inputs/BTCUSDT_1h.csv.gz": "f9f9453665b89a8bb7c10c84c4257f606856f6f31996a6b34b30fa2649c97971",
+    "data/normalized/c2_frozen_inputs/ETHUSDT_1h.csv.gz": "ed03a4bafbebdc7c0b3936abc12a7597ff467659d566bf954bc17c41f2b43e67",
+    "data/normalized/c2_frozen_inputs/SOLUSDT_1h.csv.gz": "936a588a20660ef80ff5f3b2c45590bff4cfafde4232100db8eca14e81716a20",
+    "data/normalized/c2_frozen_inputs/XRPUSDT_1h.csv.gz": "49da571c398801b2b45450aa2d8f7efb0d05720e551815f8f632aa07248943c8"
+  }
+}

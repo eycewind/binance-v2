@@ -1,0 +1,20 @@
+{
+  "bootstrap_executed": false,
+  "bootstrap_spec": {
+    "generator": "PCG64",
+    "iterations": 2000,
+    "seed": 20261001
+  },
+  "canonical_p0_reproduced": true,
+  "canonical_phase": null,
+  "classification": "C32_INSUFFICIENT",
+  "e1_population_reconciled": true,
+  "failure_reason": "Accepted canonical P0 is hourly (1h bars, SMA24, evaluation every hour across UTC hours 00-23); it has no single frozen daily aggregation phase. Constructing once-daily 24h-OHLCV variants would change its bar duration, feature definition, lookback-in-bars and evaluation cadence.",
+  "future_market_data_or_metadata_accessed": false,
+  "higher_cadence_experiment_executed": false,
+  "higher_cadence_p0_test_justified": false,
+  "new_exit_logic_introduced": false,
+  "p0_retrained_or_modified": false,
+  "phase_experiment_executed": false,
+  "phase_selected": false
+}
