@@ -1,0 +1,90 @@
+{
+  "H12_GROSS40": {
+    "brier_baseline": 0.2413662150906905,
+    "brier_model": 0.25379742440742636,
+    "delta_brier": -0.012431209316735858,
+    "delta_logloss": -0.0257817106171061,
+    "log_loss_baseline": 0.6757992416388514,
+    "log_loss_model": 0.7015809522559575,
+    "pr_auc": 0.43397740801449625,
+    "roc_auc": 0.49811921296296297,
+    "training_prevalence_baseline": 0.43087971274685816
+  },
+  "H12_GROSS50": {
+    "brier_baseline": 0.23707874652247304,
+    "brier_model": 0.25145919263961536,
+    "delta_brier": -0.014380446117142315,
+    "delta_logloss": -0.029968484680267027,
+    "log_loss_baseline": 0.6671001770084004,
+    "log_loss_model": 0.6970686616886674,
+    "pr_auc": 0.4163340831247891,
+    "roc_auc": 0.50002942041777,
+    "training_prevalence_baseline": 0.40574506283662476
+  },
+  "H24_GROSS40": {
+    "brier_baseline": 0.24870021317515437,
+    "brier_model": 0.2578734421571933,
+    "delta_brier": -0.009173228982038956,
+    "delta_logloss": -0.019463504886737426,
+    "log_loss_baseline": 0.69054644627829,
+    "log_loss_model": 0.7100099511650274,
+    "pr_auc": 0.5005242781244719,
+    "roc_auc": 0.5084845430107527,
+    "training_prevalence_baseline": 0.45306859205776173
+  },
+  "H24_GROSS50": {
+    "brier_baseline": 0.2464497554194905,
+    "brier_model": 0.2569073707420422,
+    "delta_brier": -0.010457615322551683,
+    "delta_logloss": -0.02321951282713175,
+    "log_loss_baseline": 0.6860300274709593,
+    "log_loss_model": 0.7092495402980911,
+    "pr_auc": 0.47984866737702614,
+    "roc_auc": 0.5111581920903955,
+    "training_prevalence_baseline": 0.44404332129963897
+  },
+  "H3_GROSS40": {
+    "brier_baseline": 0.21553551858177664,
+    "brier_model": 0.22827789717829672,
+    "delta_brier": -0.012742378596520082,
+    "delta_logloss": -0.02978169057123181,
+    "log_loss_baseline": 0.6239592363216072,
+    "log_loss_model": 0.653740926892839,
+    "pr_auc": 0.3253720168095922,
+    "roc_auc": 0.5619918699186992,
+    "training_prevalence_baseline": 0.2495511669658887
+  },
+  "H3_GROSS50": {
+    "brier_baseline": 0.1991475684215707,
+    "brier_model": 0.21111746419223354,
+    "delta_brier": -0.011969895770662847,
+    "delta_logloss": -0.030614423226875687,
+    "log_loss_baseline": 0.5887086277381973,
+    "log_loss_model": 0.619323050965073,
+    "pr_auc": 0.2948784648292907,
+    "roc_auc": 0.5617426580827234,
+    "training_prevalence_baseline": 0.22800718132854578
+  },
+  "H6_GROSS40": {
+    "brier_baseline": 0.233554470908129,
+    "brier_model": 0.24389702078555506,
+    "delta_brier": -0.010342549877426055,
+    "delta_logloss": -0.025880521658651956,
+    "log_loss_baseline": 0.6599730959489578,
+    "log_loss_model": 0.6858536176076098,
+    "pr_auc": 0.39685066284296183,
+    "roc_auc": 0.5322007052776283,
+    "training_prevalence_baseline": 0.34470377019748655
+  },
+  "H6_GROSS50": {
+    "brier_baseline": 0.22520239280119872,
+    "brier_model": 0.23410685458784997,
+    "delta_brier": -0.008904461786651247,
+    "delta_logloss": -0.0241716985025201,
+    "log_loss_baseline": 0.6429157341102616,
+    "log_loss_model": 0.6670874326127817,
+    "pr_auc": 0.3700919002394085,
+    "roc_auc": 0.5384615384615384,
+    "training_prevalence_baseline": 0.3087971274685817
+  }
+}

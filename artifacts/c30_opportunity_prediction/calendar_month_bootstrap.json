@@ -1,0 +1,558 @@
+{
+  "generator": "PCG64",
+  "joint_task_draws": true,
+  "model_refit": false,
+  "predictions_frozen_before_bootstrap": true,
+  "replicates": 2000,
+  "results": {
+    "2024": {
+      "H12_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.02038001555820393,
+            -0.0048067398566026265
+          ],
+          "replicate_sha256": "4833982c6f10d88cf150850e897b5de26548725180386dacd79aa4382ebdec16",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.040588040813133164,
+            -0.010912514039528642
+          ],
+          "replicate_sha256": "cdfdc27d750c07f5a947e022361dde6f6117a5f46ebbf3eba0d9a48694545198",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.3799700153575396,
+            0.5001877075805855
+          ],
+          "replicate_sha256": "a4de9af33609f7ba9a062115dd81452d6c4376b970b85e7cbf311c56ccb21040",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.46555445371288573,
+            0.5329488805639951
+          ],
+          "replicate_sha256": "601cbf17444fce5a45c48b4083275035bc86902719b3e7b1d576d0c17365606c",
+          "valid_replicates": 2000
+        }
+      },
+      "H12_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.022225604582744387,
+            -0.005201110953905879
+          ],
+          "replicate_sha256": "60ac14b55e57046c75319cb1b93e38e1de7b32d0cfb251acb700ce0338f4d70e",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.04535899337221416,
+            -0.01172108028222085
+          ],
+          "replicate_sha256": "4691ccc6e6bf484b003bd83590273d4067abc377b4eb0df6bac5b446b335b2bf",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.36831427254653776,
+            0.46464751212467453
+          ],
+          "replicate_sha256": "0807935f0e7d3fbf8fea3357b982391e419a5c5236c10691d28d1f0163fb7c15",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.476227202613193,
+            0.5336006534491721
+          ],
+          "replicate_sha256": "acb1e9b14ad5b3416e67f589ec3e6f4dd9258fd8c43f4b2924a9204c7eec5104",
+          "valid_replicates": 2000
+        }
+      },
+      "H24_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.024485972781698673,
+            0.005178407161065296
+          ],
+          "replicate_sha256": "ef4959d77e7b0254c00831a1db9baaacb15787b7b2d8bb366a71226a405de205",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.054567470572169596,
+            0.014607991219711569
+          ],
+          "replicate_sha256": "049368eec7bf7657c7ea5a7d4e248f16b4e3c7642646d4ba446342adca67b41b",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.43313387628620736,
+            0.5577820851816663
+          ],
+          "replicate_sha256": "3a66a46145f4aa91f17f3842a3719e5252ae18c19b13b9494d906cc18f7a923f",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.4444233770400945,
+            0.5725924205449142
+          ],
+          "replicate_sha256": "e636794488154db4375baae345fc61766b9e1bccd1d3040e3f7805bf5b2c7992",
+          "valid_replicates": 2000
+        }
+      },
+      "H24_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.026823057457007443,
+            0.004461382966430548
+          ],
+          "replicate_sha256": "14182f5884f753bd1c42f99ace1868e5243ec522ebefda6cd731ad42f177bf6c",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.06248827655371669,
+            0.012649027609747513
+          ],
+          "replicate_sha256": "3594127e67856490e221ddd1c7e724b1f125953e95e0cd998a31f8b19d7b0f57",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.397838140900253,
+            0.5516130898043677
+          ],
+          "replicate_sha256": "2ef7e9a0b174536646e31c7061a8d3717356520dec000497f15c1dd1c4d19feb",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.45656392694063924,
+            0.5685139233526331
+          ],
+          "replicate_sha256": "0cf91b866f44ae2dbef6bd7ad2a6944ad757e76b61e8cff37c7fdc0bc132fdb4",
+          "valid_replicates": 2000
+        }
+      },
+      "H3_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.027703877680481714,
+            -0.0017596373732928772
+          ],
+          "replicate_sha256": "65700d336eb4417dcc48a1dd2135322de2dceba29f2200b5d25975e7bd47f62c",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.06492468910923321,
+            -0.0019516989568469894
+          ],
+          "replicate_sha256": "7cc9cbf68cf5e5a142d3aec5f8ce3caddb52847967d081cf0d285025db2b8282",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.28903981414832347,
+            0.36868345065141245
+          ],
+          "replicate_sha256": "094223e3d4b76f9f942d427a383633f014743f290c234443f269a933f4ad6d0e",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.5302763080540859,
+            0.5999759425370313
+          ],
+          "replicate_sha256": "4f6ae1a9f4f939b4ef8887aeb17d938019ec927b1712707f382654c9eae4d2a7",
+          "valid_replicates": 2000
+        }
+      },
+      "H3_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.025731589134329963,
+            -0.0019326871477726992
+          ],
+          "replicate_sha256": "51293afd6a6583b85fb85435ac7814df9595b73d8a26f8575965eb2c593c735f",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.06346519232496262,
+            -0.004557766535193908
+          ],
+          "replicate_sha256": "19eee28f7fde4b902123873f153c5555f087e49550b1d49fc7e9ba231cd3b59e",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.25628669633019624,
+            0.34258857340653076
+          ],
+          "replicate_sha256": "10b96b5c7892da1ae3fe181e3765d261ee980af662d686f471af53b25521e508",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.5274850223593673,
+            0.605663430420712
+          ],
+          "replicate_sha256": "16b7a350350ac47ea0948cd6c50940663ab6a15e1bf259fef4cafd47a0c4d9be",
+          "valid_replicates": 2000
+        }
+      },
+      "H6_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.029277336409844784,
+            0.0045860264816825775
+          ],
+          "replicate_sha256": "aae31798815d2d95f5a6e9ca87a653edc24501282058f0dea44cc35f350f28b2",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.06672272780961797,
+            0.007832561947102693
+          ],
+          "replicate_sha256": "2538b6eeb0b5b21e278059b3a3c976721fac8032b82d80c05a72962c1ccd910c",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.30390882104564104,
+            0.5015819493704132
+          ],
+          "replicate_sha256": "ea6d9a1752cb5ae3e6156411d243aeeb421c440fdbe9876867ad2a1e23fb567f",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.45821793873367783,
+            0.5961156224042279
+          ],
+          "replicate_sha256": "dde59eed51c6ff11ff873278b5a417e318b75937574c73f13d73df8c4ed779f2",
+          "valid_replicates": 2000
+        }
+      },
+      "H6_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.027908123964047432,
+            0.006877257612540184
+          ],
+          "replicate_sha256": "7a498a338db5c36d43ca10ab970f4282aa05600658c881169e67bcdba6686bb4",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.06879983089795005,
+            0.012842321513448477
+          ],
+          "replicate_sha256": "01a08143aa493ca8dc3dbd817bed016ea827c69213007175853a6e1c45503236",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.28270360608395606,
+            0.47146697138650956
+          ],
+          "replicate_sha256": "500cad2176b9f151b89566ae3ed5baad70f1168b4838bc2b02df3e6ad04923f7",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.47251447510356887,
+            0.6050566823588074
+          ],
+          "replicate_sha256": "d28392fd0cf3cbc99961a3db21c3904222db2579beacb6bced66109fb6e1b5d2",
+          "valid_replicates": 2000
+        }
+      }
+    },
+    "2025": {
+      "H12_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.007702836291479737,
+            0.006106605756440133
+          ],
+          "replicate_sha256": "8ef489d599362ca42d8205682ca2bb32c689a1dab260a05a1c3e15723a19c3a5",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.016195604995650183,
+            0.012090177163877591
+          ],
+          "replicate_sha256": "d7f19746676eca70c27bd32b0cae0bad2ef8be4d2deb97171a0198acdfebcd18",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.37395443913355686,
+            0.5170168166014406
+          ],
+          "replicate_sha256": "2db487c7462b3ba84558a0313e3209a28810411755e4dc9b8de04b23e52dc1ab",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.4823688354340572,
+            0.5834983576737005
+          ],
+          "replicate_sha256": "7211b5e0fd4795c23b67bc11e35d1a95878a603ce5b4ad2ee28393490c8ba5ba",
+          "valid_replicates": 2000
+        }
+      },
+      "H12_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.007558499928908239,
+            0.007190824746883326
+          ],
+          "replicate_sha256": "fe3b0341b89b4fb00f809a6d122059411b2bfbaad86026a8ac4c2145f24413f4",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.015756401650846463,
+            0.014847213544069154
+          ],
+          "replicate_sha256": "f2c6e2f01253040449d8aa8fd3185bb796dabc48c6a8718e3c95fcd3ecc7bdeb",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.3521721829874037,
+            0.4886585715404514
+          ],
+          "replicate_sha256": "a1c965b3d5b3d641d56ede333b9f55fbcb9c5b6321c5de0e1595ea95cf990f2b",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.4909639748819245,
+            0.6016086463187976
+          ],
+          "replicate_sha256": "156747fc774b6768d4a8fee239970d0e00279045418370e8997f8f361fcceeaa",
+          "valid_replicates": 2000
+        }
+      },
+      "H24_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.010394044505909077,
+            0.00278872525945104
+          ],
+          "replicate_sha256": "8ee854585c4245effeafcffadd6058d70270e8c5e7a5ce9f1dc9d31027c833ef",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.021608612575155572,
+            0.005926505753743242
+          ],
+          "replicate_sha256": "75087c18b87c2852ee066a4a41f478c1ac15e8fd24cba7ea0cfffb3f47c1e9f2",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.38213992565314925,
+            0.47987862129911885
+          ],
+          "replicate_sha256": "7be01b5945db0875d652ea404c49fe5a2757b49ed976c2b40873cd158e1169d0",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.45250015562322904,
+            0.5430182464995902
+          ],
+          "replicate_sha256": "7a262c0e5c05757c434dc844b6e4a554e11fb6efcc1f9ecfc9fa7e2250f2b1c7",
+          "valid_replicates": 2000
+        }
+      },
+      "H24_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.010422518906724604,
+            0.0034108663043292175
+          ],
+          "replicate_sha256": "3d077eb79aeb324825a708dfa55911973202f6bc3b241009419d14dfc57736f3",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.02158632256973398,
+            0.007270620968339451
+          ],
+          "replicate_sha256": "278373c6266a5ede9c00a55fdc4491b5869f9f2413db79882da039507b513b28",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.3648527658146113,
+            0.4670739668040304
+          ],
+          "replicate_sha256": "cab82f06857386e902d67753ed09912acd5049262ca1195e8051af9cdf1b4c55",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.4563863316508731,
+            0.5509556994937749
+          ],
+          "replicate_sha256": "ac5e7d6b8f23ecedf75185ac0abb9f0b17120e86bd07668c7763e815cdec57f7",
+          "valid_replicates": 2000
+        }
+      },
+      "H3_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.004851049422763732,
+            0.011175820671794167
+          ],
+          "replicate_sha256": "60e1910f2a45a6164483ce3fd6d8fb415ec49f7e75435acb24fc003cc3303858",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.012796523581108995,
+            0.02303221667987883
+          ],
+          "replicate_sha256": "96333488b97cc9176e12f14bec6d5ea0de361d782dd684ee924ec5e25dce6a17",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.2997997660029716,
+            0.4798003240013461
+          ],
+          "replicate_sha256": "0de1a9c3bcb7e1893ab61b751cd42082bbf94c49bca754c02499ed7a79584cfc",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.5257352702668157,
+            0.6249135447704968
+          ],
+          "replicate_sha256": "fabbc0e1a9e0d1a8db4b5bbbe9783ef9bbb7dd9b9a60b9ca56ae1a46e4903e18",
+          "valid_replicates": 2000
+        }
+      },
+      "H3_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.004206146888045621,
+            0.014003587758445055
+          ],
+          "replicate_sha256": "f3836da0c6b7697f8ff4700900fa7f598ea9156d06e3471d77f536533ada6751",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.011422221064600401,
+            0.030850946442614033
+          ],
+          "replicate_sha256": "dd92e4b9566c510fab39fdc184fdcb1ab92bc8f4deb723e6d750dabdd4de9fd7",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.2514910992213489,
+            0.4806245204280012
+          ],
+          "replicate_sha256": "ffe973a0ad853e38cad6664b01233365e8b34f27a67e84129e990b6575cb5d59",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.5230687030886892,
+            0.6366435068620162
+          ],
+          "replicate_sha256": "dbe97affd18fa5fc2646c96066be515a3693c83d3fcbc99e27ea939c4d60dfa6",
+          "valid_replicates": 2000
+        }
+      },
+      "H6_GROSS40": {
+        "delta_brier": {
+          "ci95": [
+            -0.011738083277245993,
+            0.0023373333177827645
+          ],
+          "replicate_sha256": "31632adc78292abef53924fef8b30b95a43eb6456745c8aecd6cbcae8ed85454",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.02632572383045064,
+            0.003754931006225836
+          ],
+          "replicate_sha256": "a18499e61509c1c74fe1a25830d1f9c2005c7920609a3d9f3c91ff2c00203d30",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.3184623505316264,
+            0.4516902728967033
+          ],
+          "replicate_sha256": "2f9fc5f1e68c4145d085f90c2dfff508ce0fcbe5e7e65ad6876d5df3d39eadf7",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.4719255267226464,
+            0.568167381366488
+          ],
+          "replicate_sha256": "441566478fe745f2af9470985e3a532b4a1a70ada38187e1a197d85a4ee6994a",
+          "valid_replicates": 2000
+        }
+      },
+      "H6_GROSS50": {
+        "delta_brier": {
+          "ci95": [
+            -0.010963859225310565,
+            0.002680979130658158
+          ],
+          "replicate_sha256": "4d0ec004a59542b8e5c5a43df761fa74aeab69e91eb7eae87bc9b3793a3c595d",
+          "valid_replicates": 2000
+        },
+        "delta_logloss": {
+          "ci95": [
+            -0.026224569058717843,
+            0.004806220028435858
+          ],
+          "replicate_sha256": "4692ae7c349a6885d84dec2fb8cd9046768413281d81fbfdcc80aac6053bf8df",
+          "valid_replicates": 2000
+        },
+        "pr_auc": {
+          "ci95": [
+            0.2989212250326541,
+            0.4292938630982911
+          ],
+          "replicate_sha256": "764632cfa2a08350abd249376e452485652435a48219e331c76718a53b20d053",
+          "valid_replicates": 2000
+        },
+        "roc_auc": {
+          "ci95": [
+            0.47791135783649286,
+            0.5706235681728259
+          ],
+          "replicate_sha256": "c55b55bbd6937d85f1607f3a91ef369a7c75d4e82767f5c2722afa37efa0e946",
+          "valid_replicates": 2000
+        }
+      }
+    }
+  },
+  "unit": "UTC_entry_calendar_month"
+}

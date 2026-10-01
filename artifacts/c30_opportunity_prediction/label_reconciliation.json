@@ -1,0 +1,146 @@
+{
+  "coverage": {
+    "H12": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 2,
+      "valid_by_symbol": {
+        "BNBUSDT": 441,
+        "BTCUSDT": 451,
+        "ETHUSDT": 434,
+        "SOLUSDT": 431,
+        "XRPUSDT": 440
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1104
+      },
+      "valid_executable_trade_count": 2197
+    },
+    "H24": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 3,
+      "valid_by_symbol": {
+        "BNBUSDT": 441,
+        "BTCUSDT": 451,
+        "ETHUSDT": 433,
+        "SOLUSDT": 431,
+        "XRPUSDT": 440
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1103
+      },
+      "valid_executable_trade_count": 2196
+    },
+    "H3": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 0,
+      "valid_by_symbol": {
+        "BNBUSDT": 442,
+        "BTCUSDT": 451,
+        "ETHUSDT": 434,
+        "SOLUSDT": 431,
+        "XRPUSDT": 441
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1106
+      },
+      "valid_executable_trade_count": 2199
+    },
+    "H6": {
+      "original_trade_count": 2199,
+      "unavailable_trade_count": 1,
+      "valid_by_symbol": {
+        "BNBUSDT": 441,
+        "BTCUSDT": 451,
+        "ETHUSDT": 434,
+        "SOLUSDT": 431,
+        "XRPUSDT": 441
+      },
+      "valid_by_year": {
+        "2024": 1093,
+        "2025": 1105
+      },
+      "valid_executable_trade_count": 2198
+    }
+  },
+  "reconciliation": {
+    "H12_GROSS40": {
+      "c29_valid_count": 2197,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 903,
+      "threshold": 0.004,
+      "valid_count": 2197
+    },
+    "H12_GROSS50": {
+      "c29_valid_count": 2197,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 844,
+      "threshold": 0.005,
+      "valid_count": 2197
+    },
+    "H24_GROSS40": {
+      "c29_valid_count": 2196,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 944,
+      "threshold": 0.004,
+      "valid_count": 2196
+    },
+    "H24_GROSS50": {
+      "c29_valid_count": 2196,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 911,
+      "threshold": 0.005,
+      "valid_count": 2196
+    },
+    "H3_GROSS40": {
+      "c29_valid_count": 2199,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 640,
+      "threshold": 0.004,
+      "valid_count": 2199
+    },
+    "H3_GROSS50": {
+      "c29_valid_count": 2199,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 566,
+      "threshold": 0.005,
+      "valid_count": 2199
+    },
+    "H6_GROSS40": {
+      "c29_valid_count": 2198,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 788,
+      "threshold": 0.004,
+      "valid_count": 2198
+    },
+    "H6_GROSS50": {
+      "c29_valid_count": 2198,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 724,
+      "threshold": 0.005,
+      "valid_count": 2198
+    }
+  },
+  "semantics": "1 iff executable C0 return at the fixed endpoint is >= hurdle; equality is positive",
+  "tasks": [
+    "H3_GROSS40",
+    "H3_GROSS50",
+    "H6_GROSS40",
+    "H6_GROSS50",
+    "H12_GROSS40",
+    "H12_GROSS50",
+    "H24_GROSS40",
+    "H24_GROSS50"
+  ],
+  "threshold_touch_or_MFE": false
+}

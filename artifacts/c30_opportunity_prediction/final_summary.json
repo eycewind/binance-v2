@@ -1,0 +1,617 @@
+{
+  "classification": "WEAK_OPPORTUNITY_PREDICTION_SIGNAL",
+  "confirmations": {
+    "C31_started": false,
+    "no_PnL_optimization": true,
+    "no_horizon_hurdle_probability_cutoff_model_feature_subset_or_strategy_selected": true,
+    "no_model_feature_or_regularization_search": true,
+    "no_post_2025_access": true,
+    "no_profitability_or_deployment_claim": true
+  },
+  "contract_sha256": "c4ea08332831f7deebd9c8cacfadf8b0d9ba3230e444be05ca510652ee38d64f",
+  "eight_tasks_correlated": "Tasks share entries and regimes; hurdles are nested within horizon and horizons share overlapping future paths. Results are not independent replications.",
+  "feature_matrix_summary": {
+    "complete_feature_rows": 2199,
+    "excluded_rows": 0,
+    "exclusions": [],
+    "source_entries": 2199
+  },
+  "fold_reconciliation": {
+    "H12_GROSS40": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-30T09:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T21:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.43087971274685816,
+        "training_rows": 557,
+        "validation_positive_prevalence": 0.40298507462686567,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-31T07:00:00+00:00",
+        "latest_validation_entry": "2025-12-31T08:00:00+00:00",
+        "training_positive_prevalence": 0.4175824175824176,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.4048913043478261,
+        "validation_rows": 1104,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    },
+    "H12_GROSS50": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-30T09:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T21:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.40574506283662476,
+        "training_rows": 557,
+        "validation_positive_prevalence": 0.3843283582089552,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-31T07:00:00+00:00",
+        "latest_validation_entry": "2025-12-31T08:00:00+00:00",
+        "training_positive_prevalence": 0.3956043956043956,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.37318840579710144,
+        "validation_rows": 1104,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    },
+    "H24_GROSS40": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-29T12:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.45306859205776173,
+        "training_rows": 554,
+        "validation_positive_prevalence": 0.4626865671641791,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-31T19:00:00+00:00",
+        "latest_validation_entry": "2025-12-30T09:00:00+00:00",
+        "training_positive_prevalence": 0.45879120879120877,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.40072529465095197,
+        "validation_rows": 1103,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    },
+    "H24_GROSS50": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-29T12:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.44404332129963897,
+        "training_rows": 554,
+        "validation_positive_prevalence": 0.44029850746268656,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-31T19:00:00+00:00",
+        "latest_validation_entry": "2025-12-30T09:00:00+00:00",
+        "training_positive_prevalence": 0.4432234432234432,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.386219401631913,
+        "validation_rows": 1103,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    },
+    "H3_GROSS40": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-30T09:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.2495511669658887,
+        "training_rows": 557,
+        "validation_positive_prevalence": 0.30597014925373134,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-30T22:00:00+00:00",
+        "latest_validation_entry": "2025-12-31T20:00:00+00:00",
+        "training_positive_prevalence": 0.2765567765567766,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.3047016274864376,
+        "validation_rows": 1106,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    },
+    "H3_GROSS50": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-30T09:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.22800718132854578,
+        "training_rows": 557,
+        "validation_positive_prevalence": 0.27052238805970147,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-30T22:00:00+00:00",
+        "latest_validation_entry": "2025-12-31T20:00:00+00:00",
+        "training_positive_prevalence": 0.24816849816849818,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.26582278481012656,
+        "validation_rows": 1106,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    },
+    "H6_GROSS40": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-30T09:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T15:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.34470377019748655,
+        "training_rows": 557,
+        "validation_positive_prevalence": 0.3694029850746269,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-31T01:00:00+00:00",
+        "latest_validation_entry": "2025-12-31T12:00:00+00:00",
+        "training_positive_prevalence": 0.35714285714285715,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.3601809954751131,
+        "validation_rows": 1105,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    },
+    "H6_GROSS50": {
+      "2024": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+        "latest_training_entry": "2024-06-30T09:00:00+00:00",
+        "latest_training_label_resolution": "2024-06-30T15:00:00+00:00",
+        "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+        "training_positive_prevalence": 0.3087971274685817,
+        "training_rows": 557,
+        "validation_positive_prevalence": 0.33955223880597013,
+        "validation_rows": 536,
+        "validation_start": "2024-07-01T00:00:00+00:00"
+      },
+      "2025": {
+        "all_training_labels_resolved_strictly_before_start": true,
+        "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+        "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+        "latest_training_entry": "2024-12-30T19:00:00+00:00",
+        "latest_training_label_resolution": "2024-12-31T01:00:00+00:00",
+        "latest_validation_entry": "2025-12-31T12:00:00+00:00",
+        "training_positive_prevalence": 0.3241758241758242,
+        "training_rows": 1092,
+        "validation_positive_prevalence": 0.334841628959276,
+        "validation_rows": 1105,
+        "validation_start": "2025-01-01T00:00:00+00:00"
+      }
+    }
+  },
+  "interpretation_predicates": {
+    "classification": "WEAK_OPPORTUNITY_PREDICTION_SIGNAL",
+    "criteria": {
+      "P5_P1_positive_both_years_count": 4,
+      "brier_positive_both_years_count": 0,
+      "dependence_aware_majority_directionally_supportive": false,
+      "logloss_positive_both_years_count": 0,
+      "materially_negative_2025_tasks": [
+        "H6_GROSS40"
+      ],
+      "no_dramatically_worse_P5_negative_mean_1_5x_rule": false,
+      "not_obviously_one_symbol_2025_at_least_3_positive_symbol_deltas": true
+    },
+    "directionally_supportive_definition": "at least half of 32 task/year/proper-score calendar-month CI lower bounds exceed zero",
+    "dramatically_worse_downside_definition": "P5 absolute DESIGN_BNB mean loss exceeds 1.5 times P1",
+    "materially_negative_definition": "whole-trade 95% CI upper bound below zero for either proper-score improvement",
+    "predicates_frozen_in_implementation_before_results": true
+  },
+  "label_reconciliation": {
+    "coverage": {
+      "H12": {
+        "original_trade_count": 2199,
+        "unavailable_trade_count": 2,
+        "valid_by_symbol": {
+          "BNBUSDT": 441,
+          "BTCUSDT": 451,
+          "ETHUSDT": 434,
+          "SOLUSDT": 431,
+          "XRPUSDT": 440
+        },
+        "valid_by_year": {
+          "2024": 1093,
+          "2025": 1104
+        },
+        "valid_executable_trade_count": 2197
+      },
+      "H24": {
+        "original_trade_count": 2199,
+        "unavailable_trade_count": 3,
+        "valid_by_symbol": {
+          "BNBUSDT": 441,
+          "BTCUSDT": 451,
+          "ETHUSDT": 433,
+          "SOLUSDT": 431,
+          "XRPUSDT": 440
+        },
+        "valid_by_year": {
+          "2024": 1093,
+          "2025": 1103
+        },
+        "valid_executable_trade_count": 2196
+      },
+      "H3": {
+        "original_trade_count": 2199,
+        "unavailable_trade_count": 0,
+        "valid_by_symbol": {
+          "BNBUSDT": 442,
+          "BTCUSDT": 451,
+          "ETHUSDT": 434,
+          "SOLUSDT": 431,
+          "XRPUSDT": 441
+        },
+        "valid_by_year": {
+          "2024": 1093,
+          "2025": 1106
+        },
+        "valid_executable_trade_count": 2199
+      },
+      "H6": {
+        "original_trade_count": 2199,
+        "unavailable_trade_count": 1,
+        "valid_by_symbol": {
+          "BNBUSDT": 441,
+          "BTCUSDT": 451,
+          "ETHUSDT": 434,
+          "SOLUSDT": 431,
+          "XRPUSDT": 441
+        },
+        "valid_by_year": {
+          "2024": 1093,
+          "2025": 1105
+        },
+        "valid_executable_trade_count": 2198
+      }
+    },
+    "reconciliation": {
+      "H12_GROSS40": {
+        "c29_valid_count": 2197,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 903,
+        "threshold": 0.004,
+        "valid_count": 2197
+      },
+      "H12_GROSS50": {
+        "c29_valid_count": 2197,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 844,
+        "threshold": 0.005,
+        "valid_count": 2197
+      },
+      "H24_GROSS40": {
+        "c29_valid_count": 2196,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 944,
+        "threshold": 0.004,
+        "valid_count": 2196
+      },
+      "H24_GROSS50": {
+        "c29_valid_count": 2196,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 911,
+        "threshold": 0.005,
+        "valid_count": 2196
+      },
+      "H3_GROSS40": {
+        "c29_valid_count": 2199,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 640,
+        "threshold": 0.004,
+        "valid_count": 2199
+      },
+      "H3_GROSS50": {
+        "c29_valid_count": 2199,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 566,
+        "threshold": 0.005,
+        "valid_count": 2199
+      },
+      "H6_GROSS40": {
+        "c29_valid_count": 2198,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 788,
+        "threshold": 0.004,
+        "valid_count": 2198
+      },
+      "H6_GROSS50": {
+        "c29_valid_count": 2198,
+        "exact": true,
+        "fixed_endpoint_only": true,
+        "positive_count": 724,
+        "threshold": 0.005,
+        "valid_count": 2198
+      }
+    },
+    "semantics": "1 iff executable C0 return at the fixed endpoint is >= hurdle; equality is positive",
+    "tasks": [
+      "H3_GROSS40",
+      "H3_GROSS50",
+      "H6_GROSS40",
+      "H6_GROSS50",
+      "H12_GROSS40",
+      "H12_GROSS50",
+      "H24_GROSS40",
+      "H24_GROSS50"
+    ],
+    "threshold_touch_or_MFE": false
+  },
+  "later_policy_research_scientifically_justified": true,
+  "limitations": [
+    "observational historical evaluation",
+    "correlated tasks",
+    "fixed five-symbol universe",
+    "economic groups are descriptive and not policies"
+  ],
+  "population_reconciliation": {
+    "expected_entry_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "frozen_entry_file_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "original_trade_count": 2199,
+    "reproduced_count": 2199,
+    "semantic_entry_sha256": "6885678a43b0d2f40b34e65adf15247072cdec2bbc8437cafd8cb69d8fba5da3",
+    "status": "PASS",
+    "symbol_counts": {
+      "BNBUSDT": 442,
+      "BTCUSDT": 451,
+      "ETHUSDT": 434,
+      "SOLUSDT": 431,
+      "XRPUSDT": 441
+    },
+    "timestamps_prices_and_24h_refractory_exact": true,
+    "unique_trade_count": 2199,
+    "year_counts": {
+      "2024": 1093,
+      "2025": 1106
+    }
+  },
+  "task_metrics_2024": {
+    "H12_GROSS40": {
+      "brier_baseline": 0.2413662150906905,
+      "brier_model": 0.25379742440742636,
+      "delta_brier": -0.012431209316735858,
+      "delta_logloss": -0.0257817106171061,
+      "log_loss_baseline": 0.6757992416388514,
+      "log_loss_model": 0.7015809522559575,
+      "pr_auc": 0.43397740801449625,
+      "roc_auc": 0.49811921296296297,
+      "training_prevalence_baseline": 0.43087971274685816
+    },
+    "H12_GROSS50": {
+      "brier_baseline": 0.23707874652247304,
+      "brier_model": 0.25145919263961536,
+      "delta_brier": -0.014380446117142315,
+      "delta_logloss": -0.029968484680267027,
+      "log_loss_baseline": 0.6671001770084004,
+      "log_loss_model": 0.6970686616886674,
+      "pr_auc": 0.4163340831247891,
+      "roc_auc": 0.50002942041777,
+      "training_prevalence_baseline": 0.40574506283662476
+    },
+    "H24_GROSS40": {
+      "brier_baseline": 0.24870021317515437,
+      "brier_model": 0.2578734421571933,
+      "delta_brier": -0.009173228982038956,
+      "delta_logloss": -0.019463504886737426,
+      "log_loss_baseline": 0.69054644627829,
+      "log_loss_model": 0.7100099511650274,
+      "pr_auc": 0.5005242781244719,
+      "roc_auc": 0.5084845430107527,
+      "training_prevalence_baseline": 0.45306859205776173
+    },
+    "H24_GROSS50": {
+      "brier_baseline": 0.2464497554194905,
+      "brier_model": 0.2569073707420422,
+      "delta_brier": -0.010457615322551683,
+      "delta_logloss": -0.02321951282713175,
+      "log_loss_baseline": 0.6860300274709593,
+      "log_loss_model": 0.7092495402980911,
+      "pr_auc": 0.47984866737702614,
+      "roc_auc": 0.5111581920903955,
+      "training_prevalence_baseline": 0.44404332129963897
+    },
+    "H3_GROSS40": {
+      "brier_baseline": 0.21553551858177664,
+      "brier_model": 0.22827789717829672,
+      "delta_brier": -0.012742378596520082,
+      "delta_logloss": -0.02978169057123181,
+      "log_loss_baseline": 0.6239592363216072,
+      "log_loss_model": 0.653740926892839,
+      "pr_auc": 0.3253720168095922,
+      "roc_auc": 0.5619918699186992,
+      "training_prevalence_baseline": 0.2495511669658887
+    },
+    "H3_GROSS50": {
+      "brier_baseline": 0.1991475684215707,
+      "brier_model": 0.21111746419223354,
+      "delta_brier": -0.011969895770662847,
+      "delta_logloss": -0.030614423226875687,
+      "log_loss_baseline": 0.5887086277381973,
+      "log_loss_model": 0.619323050965073,
+      "pr_auc": 0.2948784648292907,
+      "roc_auc": 0.5617426580827234,
+      "training_prevalence_baseline": 0.22800718132854578
+    },
+    "H6_GROSS40": {
+      "brier_baseline": 0.233554470908129,
+      "brier_model": 0.24389702078555506,
+      "delta_brier": -0.010342549877426055,
+      "delta_logloss": -0.025880521658651956,
+      "log_loss_baseline": 0.6599730959489578,
+      "log_loss_model": 0.6858536176076098,
+      "pr_auc": 0.39685066284296183,
+      "roc_auc": 0.5322007052776283,
+      "training_prevalence_baseline": 0.34470377019748655
+    },
+    "H6_GROSS50": {
+      "brier_baseline": 0.22520239280119872,
+      "brier_model": 0.23410685458784997,
+      "delta_brier": -0.008904461786651247,
+      "delta_logloss": -0.0241716985025201,
+      "log_loss_baseline": 0.6429157341102616,
+      "log_loss_model": 0.6670874326127817,
+      "pr_auc": 0.3700919002394085,
+      "roc_auc": 0.5384615384615384,
+      "training_prevalence_baseline": 0.3087971274685817
+    }
+  },
+  "task_metrics_2025": {
+    "H12_GROSS40": {
+      "brier_baseline": 0.24111540036647536,
+      "brier_model": 0.2419442840491639,
+      "delta_brier": -0.0008288836826885471,
+      "delta_logloss": -0.001979634338670544,
+      "log_loss_baseline": 0.6752772595952572,
+      "log_loss_model": 0.6772568939339277,
+      "pr_auc": 0.4476539001892966,
+      "roc_auc": 0.5324929600005448,
+      "training_prevalence_baseline": 0.4175824175824176
+    },
+    "H12_GROSS50": {
+      "brier_baseline": 0.23442129617476015,
+      "brier_model": 0.23469092196029048,
+      "delta_brier": -0.0002696257855303308,
+      "delta_logloss": -0.0006321595867058161,
+      "log_loss_baseline": 0.6616888843929486,
+      "log_loss_model": 0.6623210439796544,
+      "pr_auc": 0.4228328644088919,
+      "roc_auc": 0.5470530052191481,
+      "training_prevalence_baseline": 0.3956043956043956
+    },
+    "H24_GROSS40": {
+      "brier_baseline": 0.24351618326280336,
+      "brier_model": 0.24752597883076044,
+      "delta_brier": -0.004009795567957081,
+      "delta_logloss": -0.008307965473652423,
+      "log_loss_baseline": 0.6801539312958376,
+      "log_loss_model": 0.68846189676949,
+      "pr_auc": 0.4267121522595825,
+      "roc_auc": 0.4976485648373163,
+      "training_prevalence_baseline": 0.45879120879120877
+    },
+    "H24_GROSS50": {
+      "brier_baseline": 0.24030343619276898,
+      "brier_model": 0.24405623682524474,
+      "delta_brier": -0.003752800632475767,
+      "delta_logloss": -0.007760284355239788,
+      "log_loss_baseline": 0.6736840480977966,
+      "log_loss_model": 0.6814443324530364,
+      "pr_auc": 0.4107744070870506,
+      "roc_auc": 0.5035679364220775,
+      "training_prevalence_baseline": 0.4432234432234432
+    },
+    "H3_GROSS40": {
+      "brier_baseline": 0.21265067832740664,
+      "brier_model": 0.21061318360804715,
+      "delta_brier": 0.0020374947193594894,
+      "delta_logloss": 0.0028587743368332363,
+      "log_loss_baseline": 0.6167361021322538,
+      "log_loss_model": 0.6138773277954206,
+      "pr_auc": 0.3822206595708735,
+      "roc_auc": 0.5695207078444008,
+      "training_prevalence_baseline": 0.2765567765567766
+    },
+    "H3_GROSS50": {
+      "brier_baseline": 0.1954727057227405,
+      "brier_model": 0.19194630211444957,
+      "delta_brier": 0.003526403608290929,
+      "delta_logloss": 0.006579951295966224,
+      "log_loss_baseline": 0.5798821615363117,
+      "log_loss_model": 0.5733022102403454,
+      "pr_auc": 0.3576020183284758,
+      "roc_auc": 0.5741345799403506,
+      "training_prevalence_baseline": 0.24816849816849818
+    },
+    "H6_GROSS40": {
+      "brier_baseline": 0.23045987625819556,
+      "brier_model": 0.23539221494726034,
+      "delta_brier": -0.004932338689064786,
+      "delta_logloss": -0.011620181118198625,
+      "log_loss_baseline": 0.6535423383704813,
+      "log_loss_model": 0.6651625194886799,
+      "pr_auc": 0.3820623465512081,
+      "roc_auc": 0.5204096863383395,
+      "training_prevalence_baseline": 0.35714285714285715
+    },
+    "H6_GROSS50": {
+      "brier_baseline": 0.2228364718668533,
+      "brier_model": 0.22714489923642447,
+      "delta_brier": -0.004308427369571183,
+      "delta_logloss": -0.011146942599639664,
+      "log_loss_baseline": 0.6378127002497881,
+      "log_loss_model": 0.6489596428494278,
+      "pr_auc": 0.36177412877077186,
+      "roc_auc": 0.5245706931421217,
+      "training_prevalence_baseline": 0.3241758241758242
+    }
+  }
+}

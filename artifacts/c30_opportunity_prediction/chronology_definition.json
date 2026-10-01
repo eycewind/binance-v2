@@ -1,0 +1,9 @@
+{
+  "2025_refit": false,
+  "2025_training": "eligible 2024 only",
+  "rolling_retraining": false,
+  "task_specific_resolution": true,
+  "training_rule": "entry before validation start AND task label resolution strictly before validation start",
+  "validation_start_2024": "2024-07-01T00:00:00+00:00",
+  "validation_start_2025": "2025-01-01T00:00:00+00:00"
+}

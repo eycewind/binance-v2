@@ -1,0 +1,13 @@
+{
+  "MFE_used": false,
+  "P0_or_T2_used": false,
+  "decision_time": "completed E1 hourly bar available_at_ms",
+  "entry_fill_future_used": false,
+  "feature_source": "completed 1h bars only",
+  "future_cross_asset_movement_used": false,
+  "future_minute_bars_used": false,
+  "latest_feature_timestamp_lte_entry_decision": true,
+  "latest_source_bar_open_strictly_before_entry": true,
+  "realized_volatility_ddof": 0,
+  "validation_labels_used": false
+}

@@ -1,0 +1,18 @@
+{
+  "classification": "WEAK_OPPORTUNITY_PREDICTION_SIGNAL",
+  "criteria": {
+    "P5_P1_positive_both_years_count": 4,
+    "brier_positive_both_years_count": 0,
+    "dependence_aware_majority_directionally_supportive": false,
+    "logloss_positive_both_years_count": 0,
+    "materially_negative_2025_tasks": [
+      "H6_GROSS40"
+    ],
+    "no_dramatically_worse_P5_negative_mean_1_5x_rule": false,
+    "not_obviously_one_symbol_2025_at_least_3_positive_symbol_deltas": true
+  },
+  "directionally_supportive_definition": "at least half of 32 task/year/proper-score calendar-month CI lower bounds exceed zero",
+  "dramatically_worse_downside_definition": "P5 absolute DESIGN_BNB mean loss exceeds 1.5 times P1",
+  "materially_negative_definition": "whole-trade 95% CI upper bound below zero for either proper-score improvement",
+  "predicates_frozen_in_implementation_before_results": true
+}
