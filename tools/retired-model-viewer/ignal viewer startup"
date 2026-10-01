@@ -1,0 +1,472 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex d3ef9ac..e82bcdb 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,81 +1,419 @@[m
+[31m-# Signal Viewer[m
+[32m+[m[32m# PSX Signal Viewer[m
+ [m
+[31m-The viewer loads adjusted OHLCV data from a temporary local FastAPI service.[m
+[31m-The browser only knows the service's HTTP URL, so the API can later move[m
+[31m-without changing viewer behavior.[m
+[32m+[m[32mA local, read-only PSX signal viewer for visually inspecting historical OHLCV data, indicators, and generated buy/sell signals.[m
+ [m
+[31m-## Start the data API[m
+[32m+[m[32mThe application has **two separate services**:[m
+ [m
+[31m-Create a Python environment, install the service dependencies, and point the[m
+[31m-service at the PSX SQLite database:[m
+[32m+[m[32m1. **FastAPI backend** — reads PSX OHLCV data from the SQLite database.[m
+[32m+[m[32m2. **Vite/React frontend** — displays the interactive chart in the browser.[m
+[32m+[m
+[32m+[m[32mBoth services must be running at the same time.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## Project location[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32m/media/ata/Data/personal/psx/signal-viewer[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mMain layout:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32msignal-viewer/[m
+[32m+[m[32m├── api/[m
+[32m+[m[32m│   ├── app.py[m
+[32m+[m[32m│   └── requirements.txt[m
+[32m+[m[32m├── src/[m
+[32m+[m[32m│   ├── api.js[m
+[32m+[m[32m│   ├── App.jsx[m
+[32m+[m[32m│   ├── App.css[m
+[32m+[m[32m│   ├── SymbolSelector.jsx[m
+[32m+[m[32m│   └── chartViewport.js[m
+[32m+[m[32m├── node_modules/[m
+[32m+[m[32m├── package.json[m
+[32m+[m[32m├── package-lock.json[m
+[32m+[m[32m├── vite.config.js[m
+[32m+[m[32m└── README.md[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Quick Start[m
+[32m+[m
+[32m+[m[32m## Terminal 1 — Start the FastAPI data service[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcd /media/ata/Data/personal/psx/signal-viewer[m
+[32m+[m[32mconda activate psx[m
+[32m+[m[32mexport PSX_DB_PATH=/media/ata/Data/personal/psx/stock-watcher/data/psx_watcher.db[m
+[32m+[m[32muvicorn api.app:app --reload --port 8000[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mExpected output includes:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mUvicorn running on http://127.0.0.1:8000[m
+[32m+[m[32mApplication startup complete.[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mVerify the API:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcurl http://localhost:8000/health[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mExpected response:[m
+[32m+[m
+[32m+[m[32m```json[m
+[32m+[m[32m{"status":"ok"}[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mKeep this terminal running while using the viewer.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## Terminal 2 — Start the Vite/React viewer[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcd /media/ata/Data/personal/psx/signal-viewer[m
+[32m+[m[32mVITE_API_URL=http://localhost:8000 npm run dev[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mVite should print a local address similar to:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mLocal: http://localhost:5173/[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mOpen:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mhttp://localhost:5173[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mKeep this terminal running while using the viewer.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Normal startup sequence[m
+[32m+[m
+[32m+[m[32mFor future use, this is the complete startup procedure.[m
+[32m+[m
+[32m+[m[32m### Terminal 1[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcd /media/ata/Data/personal/psx/signal-viewer[m
+[32m+[m[32mconda activate psx[m
+[32m+[m[32mexport PSX_DB_PATH=/media/ata/Data/personal/psx/stock-watcher/data/psx_watcher.db[m
+[32m+[m[32muvicorn api.app:app --reload --port 8000[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m### Terminal 2[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcd /media/ata/Data/personal/psx/signal-viewer[m
+[32m+[m[32mVITE_API_URL=http://localhost:8000 npm run dev[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m### Browser[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mhttp://localhost:5173[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Important environment note[m
+[32m+[m
+[32m+[m[32mThe FastAPI service currently works from the Conda environment:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mpsx[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mAt the time this README was updated, `uvicorn` was **not installed** in the[m
+[32m+[m[32m`psx-ml-research` environment.[m
+[32m+[m
+[32m+[m[32mIf you see:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32muvicorn: command not found[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mcheck:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mconda info --envs[m
+[32m+[m[32mwhich python[m
+[32m+[m[32mwhich uvicorn[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mThe known-working setup is:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mconda activate psx[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mDo not install system-wide `uvicorn` just to run this viewer unless you[m
+[32m+[m[32mdeliberately want to change the environment setup.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Backend data source[m
+[32m+[m
+[32m+[m[32mThe API reads the SQLite database specified by:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mPSX_DB_PATH[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mCurrent working database:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32m/media/ata/Data/personal/psx/stock-watcher/data/psx_watcher.db[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mSet it before starting FastAPI:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mexport PSX_DB_PATH=/media/ata/Data/personal/psx/stock-watcher/data/psx_watcher.db[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mThe backend opens SQLite in **read-only mode** and enables SQLite `query_only`,[m
+[32m+[m[32mso the viewer does not modify the PSX database.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# API endpoints[m
+[32m+[m
+[32m+[m[32mThe FastAPI service exposes:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mGET /health[m
+[32m+[m[32mGET /symbols[m
+[32m+[m[32mGET /ohlcv/{symbol}[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mExamples:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcurl http://localhost:8000/health[m
+[32m+[m[32mcurl http://localhost:8000/symbols[m
+[32m+[m[32mcurl http://localhost:8000/ohlcv/OGDC[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mThe `/symbols` endpoint returns available PSX tickers.[m
+[32m+[m
+[32m+[m[32mThe `/ohlcv/{symbol}` endpoint returns adjusted historical OHLCV ordered by[m
+[32m+[m[32mtrading date.[m
+[32m+[m
+[32m+[m[32mThe backend reads from:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mdaily_ohlc[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mand serves adjusted values including `open_adj`, `high_adj`, `low_adj`,[m
+[32m+[m[32m`close_adj`, and `volume_adj`, with fallback to raw volume where needed.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Frontend/API connection[m
+[32m+[m
+[32m+[m[32mThe browser-side API URL is controlled by:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mVITE_API_URL[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mFor normal local use:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mVITE_API_URL=http://localhost:8000 npm run dev[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Installing frontend dependencies[m
+[32m+[m
+[32m+[m[32mThe project already contains:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mnode_modules/[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mso normal startup should only require:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mnpm run dev[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mIf dependencies are missing or broken:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mnpm install[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mThen:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mVITE_API_URL=http://localhost:8000 npm run dev[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Installing backend dependencies[m
+[32m+[m
+[32m+[m[32mNormally use the existing `psx` Conda environment.[m
+[32m+[m
+[32m+[m[32mIf the backend dependencies ever need to be rebuilt in an isolated environment:[m
+ [m
+ ```bash[m
+ python3 -m venv .venv[m
+[31m-. .venv/bin/activate[m
+[32m+[m[32msource .venv/bin/activate[m
+ pip install -r api/requirements.txt[m
+[31m-export PSX_DB_PATH=/path/to/psx_watcher.db[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mThen:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mexport PSX_DB_PATH=/media/ata/Data/personal/psx/stock-watcher/data/psx_watcher.db[m
+ uvicorn api.app:app --reload --port 8000[m
+ ```[m
+ [m
+[31m-The service opens SQLite in read-only mode. Its endpoints are:[m
+[32m+[m[32mThe existing known-working workflow remains the `psx` Conda environment.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Viewer behavior[m
+[32m+[m
+[32m+[m[32mThe viewer:[m
+[32m+[m
+[32m+[m[32m- retrieves the symbol list from the backend;[m
+[32m+[m[32m- loads adjusted OHLCV at runtime;[m
+[32m+[m[32m- calculates indicators in the browser from the full loaded history;[m
+[32m+[m[32m- calculates the current prototype trend-following signals in the frontend;[m
+[32m+[m[32m- supports zoom and horizontal pan;[m
+[32m+[m[32m- supports presets such as `1M`, `3M`, `6M`, `1Y`, `3Y`, `5Y`, and `ALL`;[m
+[32m+[m[32m- remembers the last successfully loaded symbol in browser local storage;[m
+[32m+[m[32m- allows signal markers to be clicked to inspect why a signal fired.[m
+[32m+[m
+[32m+[m[32mThe original prototype signal logic is implemented in:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32msrc/App.jsx[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m---[m
+ [m
+[31m-- `GET /health`[m
+[31m-- `GET /symbols`[m
+[31m-- `GET /ohlcv/{symbol}`[m
+[32m+[m[32m# Current signal logic in the viewer[m
+ [m
+[31m-## Start the viewer[m
+[32m+[m[32mThe frontend currently generates its own demonstration/research signals.[m
+ [m
+[31m-In another shell:[m
+[32m+[m[32mEntry requires all of:[m
+[32m+[m
+[32m+[m[32m1. close breaks the prior N-day high;[m
+[32m+[m[32m2. volume is above its moving average;[m
+[32m+[m[32m3. MACD histogram is positive.[m
+[32m+[m
+[32m+[m[32mExit occurs when either:[m
+[32m+[m
+[32m+[m[32m1. price falls below an ATR-based trailing stop; or[m
+[32m+[m[32m2. price closes below the configured slow SMA.[m
+[32m+[m
+[32m+[m[32mThis is calculated inside `src/App.jsx`.[m
+[32m+[m
+[32m+[m[32mThe viewer also contains an optional external-signal path that can later be[m
+[32m+[m[32mused to display signals generated outside the browser.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m# Troubleshooting[m
+[32m+[m
+[32m+[m[32m## `uvicorn: command not found`[m
+[32m+[m
+[32m+[m[32mUse:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mconda activate psx[m
+[32m+[m[32mwhich uvicorn[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mThen start the backend again.[m
+[32m+[m
+[32m+[m[32m## API health fails[m
+[32m+[m
+[32m+[m[32mCheck:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcurl http://localhost:8000/health[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mAlso verify:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mecho "$PSX_DB_PATH"[m
+[32m+[m[32mls -lh "$PSX_DB_PATH"[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m## Frontend opens but symbols/data do not load[m
+[32m+[m
+[32m+[m[32mVerify the backend:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mcurl http://localhost:8000/symbols[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mThen restart the frontend with:[m
+ [m
+ ```bash[m
+[31m-npm install[m
+ VITE_API_URL=http://localhost:8000 npm run dev[m
+ ```[m
+ [m
+[31m-`VITE_API_URL` is the centralized browser-side service location. It defaults[m
+[31m-to `http://localhost:8000` for local development.[m
+[32m+[m[32m## Port 8000 already in use[m
+ [m
+[31m-## Select a symbol[m
+[32m+[m[32mCheck:[m
+ [m
+[31m-The viewer retrieves the authoritative ticker list from `GET /symbols`. Type[m
+[31m-in the symbol field to search, use the arrow keys and Enter or click a[m
+[31m-suggestion, or enter an exact ticker and choose **Load**. Prefix matches appear[m
+[31m-first.[m
+[32m+[m[32m```bash[m
+[32m+[m[32mss -ltnp | grep :8000[m
+[32m+[m[32m```[m
+ [m
+[31m-The last successfully loaded symbol is saved in browser local storage and[m
+[31m-restored after refresh. Invalid input and failed requests leave the current[m
+[31m-chart in place so another symbol can be selected or the request retried.[m
+[32m+[m[32mStop the old process or start the API on another port. If the API port changes,[m
+[32m+[m[32muse the same port in `VITE_API_URL`.[m
+ [m
+[31m-## Navigate the chart[m
+[32m+[m[32m## Port 5173 already in use[m
+ [m
+[31m-Use `1M`, `3M`, `6M`, `1Y`, `3Y`, `5Y`, or `ALL` to select a calendar-based[m
+[31m-visible range. The metadata below the symbol shows the visible dates, bar[m
+[31m-count, and current mode.[m
+[32m+[m[32mVite may choose another port automatically. Use the exact URL printed by[m
+[32m+[m[32m`npm run dev`.[m
+ [m
+[31m-Place the pointer over the chart and use the mouse wheel to zoom horizontally.[m
+[31m-Click and drag horizontally to pan through history. Manual zoom or pan changes[m
+[31m-the mode to `Custom`; **Reset View** returns a custom viewport to `ALL`.[m
+[32m+[m[32m---[m
+ [m
+[31m-All OHLCV remains loaded in the browser. Indicators and signals continue to be[m
+[31m-calculated from the full history, while the viewport controls only which[m
+[31m-already-calculated values are rendered.[m
+[32m+[m[32m# Stopping the viewer[m
+ [m
+[31m-The C1 script at `scripts/export_market_data.py` remains available as a[m
+[31m-diagnostic/manual export utility. It is not used by the viewer's runtime path.[m
+[32m+[m[32mIn both terminals, press:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mCtrl+C[m
+[32m+[m[32m```[m
+ [m
+[31m-## Vite template notes[m
+[32m+[m[32mStop both:[m
+ [m
+[31m-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.[m
+[32m+[m[32m1. FastAPI backend[m
+[32m+[m[32m2. Vite development server[m
+ [m
+[31m-Currently, two official plugins are available:[m
+[32m+[m[32mNo database shutdown procedure is required because the backend is read-only.[m
+ [m
+[31m-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)[m
+[31m-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)[m
+[32m+[m[32m---[m
+ [m
+[31m-## React Compiler[m
+[32m+[m[32m# Development notes[m
+ [m
+[31m-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).[m
+[32m+[m[32mThe API allows local browser GET requests from `localhost` and `127.0.0.1`.[m
+ [m
+[31m-## Expanding the Oxlint configuration[m
+[32m+[m[32mThe viewer loads all OHLCV for the selected symbol into the browser. Indicators[m
+[32m+[m[32mand signals are calculated from the full history; viewport controls affect only[m
+[32m+[m[32mwhat is displayed.[m
+ [m
+[31m-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.[m
+[32m+[m[32mFor future Binance work, this PSX viewer should be treated as a **working[m
+[32m+[m[32mreference implementation**. Prefer copying/adapting it rather than modifying[m
+[32m+[m[32mthe functioning PSX viewer in place.[m
+\ No newline at end of file[m

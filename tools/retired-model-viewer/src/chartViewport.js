@@ -1,0 +1,4 @@
+export const RANGE_PRESETS=["6H","24H","TRADE","ALL"], MIN_VISIBLE_BARS=24;
+export function boundedViewport(v,total){if(!total)return{start:0,end:0,mode:v.mode||"ALL"};const end=Math.max(1,Math.min(total,v.end)),start=Math.max(0,Math.min(end-1,v.start));return{...v,start,end}}
+export function zoomViewport(v,total,anchorRatio,deltaY){const c=boundedViewport(v,total),count=c.end-c.start,target=Math.max(Math.min(MIN_VISIBLE_BARS,total),Math.min(total,Math.round(count*(deltaY<0?.8:1.25)))),ratio=Math.max(0,Math.min(1,anchorRatio)),anchor=c.start+ratio*Math.max(0,count-1),start=Math.max(0,Math.min(total-target,Math.round(anchor-ratio*(target-1))));return{start,end:start+target,mode:"Custom"}}
+export function panViewport(v,total,delta){const c=boundedViewport(v,total),count=c.end-c.start,start=Math.max(0,Math.min(total-count,c.start+Math.round(delta)));return{start,end:start+count,mode:"Custom"}}
