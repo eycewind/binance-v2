@@ -1,0 +1,226 @@
+{
+  "H12_GROSS40": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.01243,
+        -0.02578
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.012431209316735858,
+        -0.0257817106171061
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        -0.00083,
+        -0.00198
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.0008288836826885471,
+        -0.001979634338670544
+      ],
+      "validation_rows": 1104
+    }
+  },
+  "H12_GROSS50": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.01438,
+        -0.02997
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.014380446117142315,
+        -0.029968484680267027
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        -0.00027,
+        -0.00063
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.0002696257855303308,
+        -0.0006321595867058161
+      ],
+      "validation_rows": 1104
+    }
+  },
+  "H24_GROSS40": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.00917,
+        -0.01946
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.009173228982038956,
+        -0.019463504886737426
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        -0.00401,
+        -0.00831
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.004009795567957081,
+        -0.008307965473652423
+      ],
+      "validation_rows": 1103
+    }
+  },
+  "H24_GROSS50": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.01046,
+        -0.02322
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.010457615322551683,
+        -0.02321951282713175
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        -0.00375,
+        -0.00776
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.003752800632475767,
+        -0.007760284355239788
+      ],
+      "validation_rows": 1103
+    }
+  },
+  "H3_GROSS40": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.01274,
+        -0.02978
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.012742378596520082,
+        -0.02978169057123181
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        0.00204,
+        0.00286
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        0.0020374947193594894,
+        0.0028587743368332363
+      ],
+      "validation_rows": 1106
+    }
+  },
+  "H3_GROSS50": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.01197,
+        -0.03061
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.011969895770662847,
+        -0.030614423226875687
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        0.00353,
+        0.00658
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        0.003526403608290929,
+        0.006579951295966224
+      ],
+      "validation_rows": 1106
+    }
+  },
+  "H6_GROSS40": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.01034,
+        -0.02588
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.010342549877426055,
+        -0.025880521658651956
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        -0.00493,
+        -0.01162
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.004932338689064786,
+        -0.011620181118198625
+      ],
+      "validation_rows": 1105
+    }
+  },
+  "H6_GROSS50": {
+    "2024": {
+      "accepted_rounded_delta": [
+        -0.0089,
+        -0.02417
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.008904461786651247,
+        -0.0241716985025201
+      ],
+      "validation_rows": 536
+    },
+    "2025": {
+      "accepted_rounded_delta": [
+        -0.00431,
+        -0.01115
+      ],
+      "identical_row_ids": true,
+      "match": true,
+      "reproduced_delta": [
+        -0.004308427369571183,
+        -0.011146942599639664
+      ],
+      "validation_rows": 1105
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "C30_implementation_sha256": "8c0070a03191d84e6022cce5c1034c29c06ecb4e5c3d0a0cec80fb603d6c3332",
+  "V4_implementation_sha256": "7ecea6795ab1ad74d05220ad9ba19e7145601e028a224551ddcfe424d42d4f43",
+  "documents": {
+    "actual": {
+      "contracts/C29_opportunity_prevalence_CONTRACT.md": "8d0ee3cd336b95a61147622d66f6b8ec30787c7e07d26e41348debd52dccb19d",
+      "contracts/C30_opportunity_prediction_CONTRACT.md": "c4ea08332831f7deebd9c8cacfadf8b0d9ba3230e444be05ca510652ee38d64f",
+      "contracts/C31_V4_TRANSITION_REPRESENTATION_PREDICTION_CONTRACT.md": "4125ccc1d4756782c91fd2095f7914fb39f933a435d60d39fe26a04329fdaea0",
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V4_CONTRACT.md": "c1c94f4f2c3b72a71ed293440a00a7d5ba2471d8cc3ef4be156b6ab42582b352",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V4.md": "f37833e46148b06f1a50fb7deefb59e4bca33b3fc4933f9e008982806164802a"
+    },
+    "all_match": true,
+    "expected": {
+      "contracts/C29_opportunity_prevalence_CONTRACT.md": "8d0ee3cd336b95a61147622d66f6b8ec30787c7e07d26e41348debd52dccb19d",
+      "contracts/C30_opportunity_prediction_CONTRACT.md": "c4ea08332831f7deebd9c8cacfadf8b0d9ba3230e444be05ca510652ee38d64f",
+      "contracts/C31_V4_TRANSITION_REPRESENTATION_PREDICTION_CONTRACT.md": "4125ccc1d4756782c91fd2095f7914fb39f933a435d60d39fe26a04329fdaea0",
+      "contracts/CATCHUP_TRANSITION_REPRESENTATION_AUDIT_V4_CONTRACT.md": "c1c94f4f2c3b72a71ed293440a00a7d5ba2471d8cc3ef4be156b6ab42582b352",
+      "docs/CATCHUP_TRANSITION_MEASUREMENT_SPEC_V4.md": "f37833e46148b06f1a50fb7deefb59e4bca33b3fc4933f9e008982806164802a"
+    },
+    "v4_audit_artifacts_all_match": true,
+    "v4_audit_final_summary_sha256": "61ed578f95986c32a6dd34ea1737278e3a6e1a94b03fe2ebe3977171aae533f8"
+  },
+  "locked_C30_reproduced_before_V4_evaluation": true,
+  "sealed_boundary_accessed": false,
+  "source_boundary": {
+    "accepted_inputs": {
+      "BNBUSDT": {
+        "first_open_ms": 1703980800000,
+        "last_open_ms": 1767225540000,
+        "last_open_strictly_pre_2026": true,
+        "path": "data/normalized/c2_history/BNBUSDT_1m.csv.gz",
+        "sha256": "6e79f58348cdcfd4e15b26b6f4c14728d8ccafd174072d6d174afbd05df8c84f",
+        "valid_contiguous_hours": 17568
+      },
+      "BTCUSDT": {
+        "first_open_ms": 1703980800000,
+        "last_open_ms": 1767225540000,
+        "last_open_strictly_pre_2026": true,
+        "path": "data/normalized/c2_history/BTCUSDT_1m.csv.gz",
+        "sha256": "fa08f546140f3d6a7fad25ecb264c30d6f37e2986dcdf0ab21028ca3d5ba2cb7",
+        "valid_contiguous_hours": 17568
+      },
+      "ETHUSDT": {
+        "first_open_ms": 1703980800000,
+        "last_open_ms": 1767225540000,
+        "last_open_strictly_pre_2026": true,
+        "path": "data/normalized/c2_history/ETHUSDT_1m.csv.gz",
+        "sha256": "fba74415cb41188235b287cc2a47f9935568f613bc5ea1bb1f1d5a9405fc5ef9",
+        "valid_contiguous_hours": 17568
+      },
+      "SOLUSDT": {
+        "first_open_ms": 1703980800000,
+        "last_open_ms": 1767225540000,
+        "last_open_strictly_pre_2026": true,
+        "path": "data/normalized/c2_history/SOLUSDT_1m.csv.gz",
+        "sha256": "f0fef1a1f2f5ebdeac981d448860f94950c80e054dd78396c65cb91f858e4cef",
+        "valid_contiguous_hours": 17568
+      },
+      "XRPUSDT": {
+        "first_open_ms": 1703980800000,
+        "last_open_ms": 1767225540000,
+        "last_open_strictly_pre_2026": true,
+        "path": "data/normalized/c2_history/XRPUSDT_1m.csv.gz",
+        "sha256": "71f9d40b1aa9c7fb03a42b181bb203e61c27a9e5a07ecc0a4438bc6581187cfb",
+        "valid_contiguous_hours": 17568
+      }
+    },
+    "directory_discovery": false,
+    "explicit_pre_2026_boundary_ms": 1767225600000,
+    "outcome_columns_read": false
+  }
+}

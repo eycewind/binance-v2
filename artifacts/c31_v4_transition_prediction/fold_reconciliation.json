@@ -1,0 +1,226 @@
+{
+  "H12_GROSS40": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-30T09:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T21:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.43087971274685816,
+      "training_rows": 557,
+      "validation_positive_prevalence": 0.40298507462686567,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-31T07:00:00+00:00",
+      "latest_validation_entry": "2025-12-31T08:00:00+00:00",
+      "training_positive_prevalence": 0.4175824175824176,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.4048913043478261,
+      "validation_rows": 1104,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  },
+  "H12_GROSS50": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-30T09:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T21:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.40574506283662476,
+      "training_rows": 557,
+      "validation_positive_prevalence": 0.3843283582089552,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-31T07:00:00+00:00",
+      "latest_validation_entry": "2025-12-31T08:00:00+00:00",
+      "training_positive_prevalence": 0.3956043956043956,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.37318840579710144,
+      "validation_rows": 1104,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  },
+  "H24_GROSS40": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-29T12:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.45306859205776173,
+      "training_rows": 554,
+      "validation_positive_prevalence": 0.4626865671641791,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-31T19:00:00+00:00",
+      "latest_validation_entry": "2025-12-30T09:00:00+00:00",
+      "training_positive_prevalence": 0.45879120879120877,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.40072529465095197,
+      "validation_rows": 1103,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  },
+  "H24_GROSS50": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-29T12:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.44404332129963897,
+      "training_rows": 554,
+      "validation_positive_prevalence": 0.44029850746268656,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-31T19:00:00+00:00",
+      "latest_validation_entry": "2025-12-30T09:00:00+00:00",
+      "training_positive_prevalence": 0.4432234432234432,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.386219401631913,
+      "validation_rows": 1103,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  },
+  "H3_GROSS40": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-30T09:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.2495511669658887,
+      "training_rows": 557,
+      "validation_positive_prevalence": 0.30597014925373134,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-30T22:00:00+00:00",
+      "latest_validation_entry": "2025-12-31T20:00:00+00:00",
+      "training_positive_prevalence": 0.2765567765567766,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.3047016274864376,
+      "validation_rows": 1106,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  },
+  "H3_GROSS50": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-30T09:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T12:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.22800718132854578,
+      "training_rows": 557,
+      "validation_positive_prevalence": 0.27052238805970147,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-30T22:00:00+00:00",
+      "latest_validation_entry": "2025-12-31T20:00:00+00:00",
+      "training_positive_prevalence": 0.24816849816849818,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.26582278481012656,
+      "validation_rows": 1106,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  },
+  "H6_GROSS40": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-30T09:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T15:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.34470377019748655,
+      "training_rows": 557,
+      "validation_positive_prevalence": 0.3694029850746269,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-31T01:00:00+00:00",
+      "latest_validation_entry": "2025-12-31T12:00:00+00:00",
+      "training_positive_prevalence": 0.35714285714285715,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.3601809954751131,
+      "validation_rows": 1105,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  },
+  "H6_GROSS50": {
+    "2024": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2024-07-01T18:00:00+00:00",
+      "latest_training_entry": "2024-06-30T09:00:00+00:00",
+      "latest_training_label_resolution": "2024-06-30T15:00:00+00:00",
+      "latest_validation_entry": "2024-12-31T22:00:00+00:00",
+      "training_positive_prevalence": 0.3087971274685817,
+      "training_rows": 557,
+      "validation_positive_prevalence": 0.33955223880597013,
+      "validation_rows": 536,
+      "validation_start": "2024-07-01T00:00:00+00:00"
+    },
+    "2025": {
+      "all_training_labels_resolved_strictly_before_start": true,
+      "earliest_training_entry": "2024-01-01T01:00:00+00:00",
+      "earliest_validation_entry": "2025-01-01T01:00:00+00:00",
+      "latest_training_entry": "2024-12-30T19:00:00+00:00",
+      "latest_training_label_resolution": "2024-12-31T01:00:00+00:00",
+      "latest_validation_entry": "2025-12-31T12:00:00+00:00",
+      "training_positive_prevalence": 0.3241758241758242,
+      "training_rows": 1092,
+      "validation_positive_prevalence": 0.334841628959276,
+      "validation_rows": 1105,
+      "validation_start": "2025-01-01T00:00:00+00:00"
+    }
+  }
+}

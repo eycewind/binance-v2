@@ -1,0 +1,16 @@
+{
+  "audit_semantic_matrix_sha256": "9ab75dce3506de77c0b396da1c835dc7841ae782db4dade884d246fb29df5340",
+  "count": 2199,
+  "schema": [
+    "NEW_JOINER_FRACTION",
+    "BASKET_ACCELERATION",
+    "PRIOR_RELATIVE_DEFICIT",
+    "RELATIVE_IMPROVEMENT",
+    "DISPERSION_CHANGE",
+    "MARKET_EXPANSION_STATE_AT_E1",
+    "MARKET_EXPANSION_CURRENT_RUN_LENGTH",
+    "CATCHUP_STATE_AT_E1",
+    "CATCHUP_CURRENT_RUN_LENGTH"
+  ],
+  "semantic_matrix_sha256": "9ab75dce3506de77c0b396da1c835dc7841ae782db4dade884d246fb29df5340"
+}

@@ -1,0 +1,209 @@
+{
+  "BASKET_ACCELERATION": {
+    "2024_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "2025_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "agreement_count": 6
+  },
+  "CATCHUP_CURRENT_RUN_LENGTH": {
+    "2024_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": -1,
+      "H3_GROSS50": -1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "2025_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": 1
+    },
+    "agreement_count": 3
+  },
+  "CATCHUP_STATE_AT_E1": {
+    "2024_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": -1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": -1
+    },
+    "2025_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": -1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": -1
+    },
+    "agreement_count": 6
+  },
+  "DISPERSION_CHANGE": {
+    "2024_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "2025_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": -1
+    },
+    "agreement_count": 6
+  },
+  "MARKET_EXPANSION_CURRENT_RUN_LENGTH": {
+    "2024_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": -1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": -1
+    },
+    "2025_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": -1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": 1
+    },
+    "agreement_count": 5
+  },
+  "MARKET_EXPANSION_STATE_AT_E1": {
+    "2024_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "2025_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "agreement_count": 7
+  },
+  "NEW_JOINER_FRACTION": {
+    "2024_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": -1,
+      "H3_GROSS50": -1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": -1
+    },
+    "2025_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": -1,
+      "H3_GROSS50": -1,
+      "H6_GROSS40": -1,
+      "H6_GROSS50": -1
+    },
+    "agreement_count": 8
+  },
+  "PRIOR_RELATIVE_DEFICIT": {
+    "2024_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": 1,
+      "H24_GROSS50": 1,
+      "H3_GROSS40": -1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "2025_sign": {
+      "H12_GROSS40": 1,
+      "H12_GROSS50": 1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": -1,
+      "H3_GROSS50": -1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "agreement_count": 5
+  },
+  "RELATIVE_IMPROVEMENT": {
+    "2024_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "2025_sign": {
+      "H12_GROSS40": -1,
+      "H12_GROSS50": -1,
+      "H24_GROSS40": -1,
+      "H24_GROSS50": -1,
+      "H3_GROSS40": 1,
+      "H3_GROSS50": 1,
+      "H6_GROSS40": 1,
+      "H6_GROSS50": 1
+    },
+    "agreement_count": 8
+  }
+}

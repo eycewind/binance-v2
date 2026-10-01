@@ -1,0 +1,23 @@
+{
+  "C": 1.0,
+  "class_weight": null,
+  "estimator": "LogisticRegression",
+  "features": [
+    "NEW_JOINER_FRACTION",
+    "BASKET_ACCELERATION",
+    "PRIOR_RELATIVE_DEFICIT",
+    "RELATIVE_IMPROVEMENT",
+    "DISPERSION_CHANGE",
+    "MARKET_EXPANSION_STATE_AT_E1",
+    "MARKET_EXPANSION_CURRENT_RUN_LENGTH",
+    "CATCHUP_STATE_AT_E1",
+    "CATCHUP_CURRENT_RUN_LENGTH"
+  ],
+  "implementation": "locked deterministic C30 numerical implementation",
+  "max_iter": 10000,
+  "penalty": "l2",
+  "random_state": null,
+  "scaler": "StandardScaler",
+  "solver": "lbfgs",
+  "tol": 1e-06
+}

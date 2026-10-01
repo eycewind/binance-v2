@@ -1,0 +1,58 @@
+{
+  "2024": {
+    "improves_both": {
+      "count": 7,
+      "tasks": [
+        "H3_GROSS40",
+        "H3_GROSS50",
+        "H6_GROSS40",
+        "H6_GROSS50",
+        "H12_GROSS50",
+        "H24_GROSS40",
+        "H24_GROSS50"
+      ]
+    },
+    "improves_both_vs_B0": {
+      "count": 0,
+      "tasks": []
+    },
+    "improves_one": {
+      "count": 0,
+      "tasks": []
+    },
+    "worsens_both": {
+      "count": 1,
+      "tasks": [
+        "H12_GROSS40"
+      ]
+    }
+  },
+  "2025": {
+    "improves_both": {
+      "count": 4,
+      "tasks": [
+        "H6_GROSS40",
+        "H6_GROSS50",
+        "H24_GROSS40",
+        "H24_GROSS50"
+      ]
+    },
+    "improves_both_vs_B0": {
+      "count": 0,
+      "tasks": []
+    },
+    "improves_one": {
+      "count": 0,
+      "tasks": []
+    },
+    "worsens_both": {
+      "count": 4,
+      "tasks": [
+        "H3_GROSS40",
+        "H3_GROSS50",
+        "H12_GROSS40",
+        "H12_GROSS50"
+      ]
+    }
+  }
+}

@@ -1,0 +1,629 @@
+{
+  "generator": "PCG64",
+  "iterations": 2000,
+  "joint_eight_task_resampling": true,
+  "seed": 20261001,
+  "unit": "trade",
+  "years": {
+    "2024": {
+      "joint": {
+        "brier_v4_b0": {
+          "ci95": [
+            -0.010096525341794286,
+            -0.002381713225412121
+          ],
+          "replicate_sha256": "a240b99e9a5f09e1a0d4af8c0fa9925f6048405c6591a5f18f13657e06188be2",
+          "replicates": 2000
+        },
+        "brier_v4_c30": {
+          "ci95": [
+            -0.002049797792658233,
+            0.012215932811094158
+          ],
+          "replicate_sha256": "3ffeb730fa3d6ced5111c2844b8d3531e7bdba09183eb4fac125cb5f6f549f62",
+          "replicates": 2000
+        },
+        "logloss_v4_b0": {
+          "ci95": [
+            -0.024793090568884492,
+            -0.005349212451060696
+          ],
+          "replicate_sha256": "06e66f8f622899927010484c60e84ab6fffb771005073c7d36d8a1fe6693eb47",
+          "replicates": 2000
+        },
+        "logloss_v4_c30": {
+          "ci95": [
+            -0.006064324219248084,
+            0.028019215535050768
+          ],
+          "replicate_sha256": "d746fe68860f67547742211384c2f3fa8be7b9df9e98e1438d3d0fa313657a87",
+          "replicates": 2000
+        }
+      },
+      "task": {
+        "H12_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.021695926868867087,
+              -0.005723538249464854
+            ],
+            "replicate_sha256": "876b15853911c9b964b4b3949910dcfff129c2b011aa30526190571770b03223",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.013516766480748435,
+              0.011824993738748436
+            ],
+            "replicate_sha256": "7f489c2d1fa9c4d39ce918364e0e12edf68834b8f85073ecee40a79f72acb77f",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.04968950473079335,
+              -0.013393955513557028
+            ],
+            "replicate_sha256": "49d20b363c21fd207cf88783f691b832fa9323ca43b90351f87b13aab0620f54",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.033515345542435515,
+              0.023531925683715798
+            ],
+            "replicate_sha256": "34ce337006435f393c1f7e528a59334ed4a112d60d150e620a1f05ab0b9e5b5f",
+            "replicates": 2000
+          }
+        },
+        "H12_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.01984037097991564,
+              -0.004889858022555125
+            ],
+            "replicate_sha256": "3756b63115f783c1e9d83448c08d583c732bc7a8a026c01733543dccbfa9704e",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.01033567582937965,
+              0.015274653625692846
+            ],
+            "replicate_sha256": "bde06f3dbb58ab589e406d6d29fffa8a12f5bc0e438b162b153bc0ea6c36b1b3",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.046712103480306744,
+              -0.011514796239333379
+            ],
+            "replicate_sha256": "36354dfc91dc59a29f8d712bbcebfb8de27a20668bcb3bf5f1bcd8d3937ced20",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.02774093696371917,
+              0.03150559595862066
+            ],
+            "replicate_sha256": "5375e071905d3c31c5df3430a4ec572737a83a9969b555b416cf221b1d3b4e40",
+            "replicates": 2000
+          }
+        },
+        "H24_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.009111603137854227,
+              0.000970565603173525
+            ],
+            "replicate_sha256": "7cf6c95c048003578630b0d082c2a657c5fad1a76a41fb9b8b28bab6ecb7c8be",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.004825649761483239,
+              0.015504153385326628
+            ],
+            "replicate_sha256": "94850bc729d8d63307d55b13446711ecb6ef64d573c4a092614a3bc43c660e38",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.01977246464536426,
+              0.0017569344827394427
+            ],
+            "replicate_sha256": "401d9b9b0d9923be9eadd37efece3b605d266fa010244a548db9e88c63824ac3",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.011525816880080794,
+              0.033765027648434406
+            ],
+            "replicate_sha256": "5e18c7f8e4b658bb83510ead32cb834f8efc8928107eddc14b6653d2699efde6",
+            "replicates": 2000
+          }
+        },
+        "H24_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.010604229945304702,
+              5.0779884948894264e-05
+            ],
+            "replicate_sha256": "5ba799076db26a7f6376794b0b25313420cce5067b0e94cbbc58d254aa9fb869",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.005361224311823192,
+              0.016819117074455395
+            ],
+            "replicate_sha256": "a4b2b978ef44f388538b155567a935ca4f9c0be649d93806a8f5ee8faa5f37a8",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.02312684344841657,
+              -0.0001683038360165995
+            ],
+            "replicate_sha256": "af75010dc505cd295afac5b4111b3824d807fed8fde99b8f2f667eede41d3561",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.012553969882291066,
+              0.03780446365801964
+            ],
+            "replicate_sha256": "c1f4307427cd7b8d1e9560cbc81368c52267df3955f46a48aebbbcbf9f8cd1f4",
+            "replicates": 2000
+          }
+        },
+        "H3_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.008292512318910903,
+              0.0012989302999547592
+            ],
+            "replicate_sha256": "6dd5c95a77b210b1b547497f44f1317b1bee2807474e7b6cdcd31e08a36624d6",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.00013739709430671886,
+              0.018653952821566108
+            ],
+            "replicate_sha256": "94c9a68265ceb4849a2d1f5ad9065bfa7d2164b3a33bcbfeb9d901536679fbe6",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.0214761776460823,
+              0.002759438844162901
+            ],
+            "replicate_sha256": "94db723021196e894f21ba15011cf2414eb7790f22b3adfea17b315839c1ccbd",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.0029062043831113438,
+              0.044115916929633084
+            ],
+            "replicate_sha256": "b30edeee94261e3a2a222a3fe5877d27e1df895de6bac2765832d842c6c262f4",
+            "replicates": 2000
+          }
+        },
+        "H3_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.008119228872840549,
+              0.0014043199676639592
+            ],
+            "replicate_sha256": "5dda154fad8a5a0149a7d083bd55b429cbdd7eb413f041bc4b3c42674f819b4d",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.0008902081361214077,
+              0.018303611197481678
+            ],
+            "replicate_sha256": "e89aaac3d87fb131595202d00e4dc7740e89d781e94d71b8384eb50aa1324663",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.021788134646087275,
+              0.0038187405234289973
+            ],
+            "replicate_sha256": "0e8b4fe847e651feff57e7e5420feae2479689b316611575f8558438d61832e7",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.0045866952081886235,
+              0.048398718770882365
+            ],
+            "replicate_sha256": "5935de2008c2c34eac5d5ed607ad38d29e52cc0ccb4c60ebbd906510f83893aa",
+            "replicates": 2000
+          }
+        },
+        "H6_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.009754514064567489,
+              0.002343097285313981
+            ],
+            "replicate_sha256": "ab9f5b3b546ffad17be0d4fd097afc8df14d1af07ea28098fed15520232ccae8",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.005267918069977702,
+              0.01762990783927444
+            ],
+            "replicate_sha256": "229269c4fbd6461f092d6684d382ae775df12c4d668d20bd132d3446cf623558",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.025080188613438567,
+              0.005228271647732477
+            ],
+            "replicate_sha256": "265558c9b3b9b1f2c3bce8b34e810e44dd41f4b3e95f22b8e0d40705b57b8e82",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.012120101161362886,
+              0.042754363048134125
+            ],
+            "replicate_sha256": "5b7e6801f6f13c9d175fccd8dea24b80d9ac784aecf9f47ba34018b78fff4863",
+            "replicates": 2000
+          }
+        },
+        "H6_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.008757566169645802,
+              0.000990269074029037
+            ],
+            "replicate_sha256": "f662323a0025ce80d878c9d6b5a9a142bac10d36f7a6e234730b3e536f16f7b0",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.005570462192569216,
+              0.015909577513361646
+            ],
+            "replicate_sha256": "c04bfa759773339501d81119a1baf7b83482ea9aaf4143550c6df61a16a62221",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.023427404827747862,
+              0.0031506604554071235
+            ],
+            "replicate_sha256": "bc4be0bb561db0f34fa73fbe594546c3a9b9de89c8339ec6e52658a8d6564692",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.012534015813719997,
+              0.04106164125238184
+            ],
+            "replicate_sha256": "ee3e8467f53619380c430f151155e0118f8f625336ffb751d7b2b8e5e4955ba2",
+            "replicates": 2000
+          }
+        }
+      }
+    },
+    "2025": {
+      "joint": {
+        "brier_v4_b0": {
+          "ci95": [
+            -0.003122266253632016,
+            -0.0007487280390693056
+          ],
+          "replicate_sha256": "3fcb8300ad3208fe07140d8d0d87d1f66dfe177ca79487edbc9d751b5f5e481c",
+          "replicates": 2000
+        },
+        "brier_v4_c30": {
+          "ci95": [
+            -0.0038002847291659435,
+            0.0028420785567742418
+          ],
+          "replicate_sha256": "7cf0011127a44dc8c9e65c2ca256df89b923391db11c3f86820d0a20c4eb3d52",
+          "replicates": 2000
+        },
+        "logloss_v4_b0": {
+          "ci95": [
+            -0.0074034651182273556,
+            -0.001859116104737768
+          ],
+          "replicate_sha256": "fd83281bce49d4b349b62eb51e46f19ec993ca557f972ff54b38ca57a4bd9aa6",
+          "replicates": 2000
+        },
+        "logloss_v4_c30": {
+          "ci95": [
+            -0.008355693594516107,
+            0.006625650032261917
+          ],
+          "replicate_sha256": "d73a5bff85a0247bb2dc9fdfff029981420b2f0c2db84ecb4300fbbcb60c3ebc",
+          "replicates": 2000
+        }
+      },
+      "task": {
+        "H12_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.0033792434695113726,
+              8.380439986841373e-05
+            ],
+            "replicate_sha256": "d84824cbd412f365a83609b06bd9700ae65abed65a7624cf0e93391f8e7cd8ea",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.0058281344407901,
+              0.00397088159425585
+            ],
+            "replicate_sha256": "b4570055ee2803c66e1ddff461eb702081aa6be5315e969122fb82f7816ca128",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.006950793546358222,
+              0.0002072539133800873
+            ],
+            "replicate_sha256": "5930262f4041c9fce21aea9ffd4d60b6b4574bda6f43398065da6b74495f4fd3",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.011799117724448019,
+              0.008684760182372984
+            ],
+            "replicate_sha256": "1c9ac9714644d8061f1765474359ab0aa01a83cf1bd73d32dbc19b0de3f2c565",
+            "replicates": 2000
+          }
+        },
+        "H12_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.0025182033742956467,
+              0.00048042847442776414
+            ],
+            "replicate_sha256": "e4987e39798de197864c0fdf3612075c3e27cc18faf8d2ff598ec48265fcc154",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.005682712266441707,
+              0.004421753946095649
+            ],
+            "replicate_sha256": "6921a4d4802c99f474ed8fa0df0db19385d7cc3529db43646aa59db73e7ebe09",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.005247012659651579,
+              0.0010414212417026551
+            ],
+            "replicate_sha256": "926dbaa3fe87fa5524b1ce2d03b481ea95f9d16e827dcb008f4e21f41ab8741a",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.011919988830702263,
+              0.009475154418487897
+            ],
+            "replicate_sha256": "f117fa4c0700dad752f0d52f7eed3391cbf410eab853d77a86d1a673ff8ee5ec",
+            "replicates": 2000
+          }
+        },
+        "H24_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.00477117850526537,
+              3.257702986102873e-05
+            ],
+            "replicate_sha256": "9beeb5734abae94ef3684570c375ee955f65ca2359290a2a3571b38111dd8553",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.0029150387527110827,
+              0.006118387899204073
+            ],
+            "replicate_sha256": "34ab4e1b1a0221f525ae1656722f743bf395c86e4e03bf6e9af886e2ad1be15d",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.011052685649106983,
+              0.00014362264481004264
+            ],
+            "replicate_sha256": "ae4f32b80be22f9a5f703ab52bd68697d9e483d3b9419c5376a24de087aa843e",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.006354295987951184,
+              0.012477165780364233
+            ],
+            "replicate_sha256": "cac7ab0bc4bfd89feefdb3ba79e5980d50de9313d1c9af0aa26aef54743af915",
+            "replicates": 2000
+          }
+        },
+        "H24_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.004847899108733504,
+              2.5826628732071787e-05
+            ],
+            "replicate_sha256": "59275da4e8753c0aa973655c63dfebbc87ce6c6ebc7820f3d21efa30d963b2d7",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.0033397191616782985,
+              0.00595251160552779
+            ],
+            "replicate_sha256": "1b5bceb16541ab63ebf4bac899efb5c7dc446d468e8cd1f7b670e28eba87a36d",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.011662859275107088,
+              0.00017609678540411486
+            ],
+            "replicate_sha256": "ce2f2618784aae93d2412b1d3829707cf9eb7227f4a7f9b46fea634f46d3ad19",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.00748555323600979,
+              0.01198818758223864
+            ],
+            "replicate_sha256": "c7196883f7913e3482453c09d7033dfb5939b9bb9d2452baa1f9940d1f3a7a8a",
+            "replicates": 2000
+          }
+        },
+        "H3_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.003073285952842203,
+              0.0009081189754584708
+            ],
+            "replicate_sha256": "51e9f20d26c3062de73d06530d52422da2f037d0b0c51c937681506bfc7b9f0c",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.00805893844555742,
+              0.001712211965982238
+            ],
+            "replicate_sha256": "88d501669139a13047b1578fa6a71c7b13327f6961b55007f8f2ac8f20aacaa2",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.008113629654184256,
+              0.001875442483721261
+            ],
+            "replicate_sha256": "2335d4dffc75c8b39f638486d20d951a4793f3f7c8d30a956243b2cf94fa2d59",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.018043725272125687,
+              0.005882995447307293
+            ],
+            "replicate_sha256": "3af85b31bc910b7b925635315a9612854796a47f8722543a93553a15dbd749eb",
+            "replicates": 2000
+          }
+        },
+        "H3_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.0024824231480764696,
+              0.001607483240081042
+            ],
+            "replicate_sha256": "b01c2729373a419f0c0af9402ef31f78772147d59bdb8e1ef3b7d81f18000d9a",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.00879543078168091,
+              0.0007880269755010173
+            ],
+            "replicate_sha256": "fb11609480cf79b758ea617bbc4e12d63b7dbcb63608f5bd1506b65d4fc26068",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.0071656318599620985,
+              0.003640611517500414
+            ],
+            "replicate_sha256": "e2c99a858a5efbdcfcd4d1e2aa3d25017345eb2e5baac6aaefe557c44a0c4cdc",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.020814140281248217,
+              0.00424523096671619
+            ],
+            "replicate_sha256": "3cd2f8ea3b2ba89b59c63a2b567504fcaefadfaa4d33490ec403d86cf89488f3",
+            "replicates": 2000
+          }
+        },
+        "H6_GROSS40": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.006158850822017109,
+              -0.0008754161224198493
+            ],
+            "replicate_sha256": "9a8a3385529709661fa1cf502c65bfc1710cf6a1865a813046cf3a8b64d27a7b",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.00406475505904469,
+              0.007006668215857511
+            ],
+            "replicate_sha256": "ca66eb08627e24e37dd4cb7884529b4191b6618e8b6c994c79301a78a66295c4",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.01382410626017656,
+              -0.0020611922315216997
+            ],
+            "replicate_sha256": "8c53c1cb67293b075367a668b893bc27f712718f2720f1891893ad1ab19e0f8d",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.008592440346186146,
+              0.01606905675652268
+            ],
+            "replicate_sha256": "36bf7e2a977ce995d0e9015268d3ee03e90c3e982a9e7b59886121195c14a850",
+            "replicates": 2000
+          }
+        },
+        "H6_GROSS50": {
+          "brier_v4_b0": {
+            "ci95": [
+              -0.00574491594772067,
+              -0.0012456025601307187
+            ],
+            "replicate_sha256": "8e7c1dfb79a9498ec3e2cf3f36ec711c1a135b0cb16eaf4057e1c32112871aa9",
+            "replicates": 2000
+          },
+          "brier_v4_c30": {
+            "ci95": [
+              -0.004637471615766888,
+              0.00609422368323666
+            ],
+            "replicate_sha256": "3d886f80605e64dde66f16af5fb55c017b954b6e8d0d27a24bad48f824e430bb",
+            "replicates": 2000
+          },
+          "logloss_v4_b0": {
+            "ci95": [
+              -0.014377523046160644,
+              -0.0032763616162987917
+            ],
+            "replicate_sha256": "8551148e98f647134b504e525f7b5516995bff627007b0e7070ac93baad6b852",
+            "replicates": 2000
+          },
+          "logloss_v4_c30": {
+            "ci95": [
+              -0.010289534877948004,
+              0.014671009224647558
+            ],
+            "replicate_sha256": "4e1242452090852411888fc149ea7e3872dffd0e8b1feeaa0ceae1a724fa1524",
+            "replicates": 2000
+          }
+        }
+      }
+    }
+  }
+}

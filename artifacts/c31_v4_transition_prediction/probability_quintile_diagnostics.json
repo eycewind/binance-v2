@@ -1,0 +1,578 @@
+{
+  "H12_GROSS40": {
+    "2024": {
+      "training_boundaries": [
+        0.37336299043543425,
+        0.40867931959968223,
+        0.4421729889320524,
+        0.4839194259589745
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.3199253233184298,
+          "positive_label_rate": 0.4392523364485981,
+          "row_count": 107
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.39251294759256405,
+          "positive_label_rate": 0.392,
+          "row_count": 125
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.4245775451428853,
+          "positive_label_rate": 0.40816326530612246,
+          "row_count": 98
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.46116150757243474,
+          "positive_label_rate": 0.39285714285714285,
+          "row_count": 84
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.5605157381162642,
+          "positive_label_rate": 0.38524590163934425,
+          "row_count": 122
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.393547944606344,
+        0.408714866146671,
+        0.4262001130677777,
+        0.4442104900699752
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.37853478341012375,
+          "positive_label_rate": 0.4330357142857143,
+          "row_count": 224
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.401397471459278,
+          "positive_label_rate": 0.39622641509433965,
+          "row_count": 212
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.41702289327791126,
+          "positive_label_rate": 0.42731277533039647,
+          "row_count": 227
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.43458667225295267,
+          "positive_label_rate": 0.40772532188841204,
+          "row_count": 233
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.4613298837316254,
+          "positive_label_rate": 0.3557692307692308,
+          "row_count": 208
+        }
+      }
+    }
+  },
+  "H12_GROSS50": {
+    "2024": {
+      "training_boundaries": [
+        0.3516775791673984,
+        0.38276027320034545,
+        0.41338950043067213,
+        0.45648315306900616
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.3056675242390244,
+          "positive_label_rate": 0.4074074074074074,
+          "row_count": 108
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.3683639608116385,
+          "positive_label_rate": 0.42990654205607476,
+          "row_count": 107
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.3964662526920159,
+          "positive_label_rate": 0.29357798165137616,
+          "row_count": 109
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.4327532564109779,
+          "positive_label_rate": 0.45,
+          "row_count": 100
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.5339599182229573,
+          "positive_label_rate": 0.3482142857142857,
+          "row_count": 112
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.3739772962693988,
+        0.38493256254237335,
+        0.4012111013776087,
+        0.4193934115191415
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.36254135176764074,
+          "positive_label_rate": 0.38497652582159625,
+          "row_count": 213
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.37941626625273633,
+          "positive_label_rate": 0.36099585062240663,
+          "row_count": 241
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.391478879119058,
+          "positive_label_rate": 0.37628865979381443,
+          "row_count": 194
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.41104698629163106,
+          "positive_label_rate": 0.3940677966101695,
+          "row_count": 236
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.43416550012146693,
+          "positive_label_rate": 0.35,
+          "row_count": 220
+        }
+      }
+    }
+  },
+  "H24_GROSS40": {
+    "2024": {
+      "training_boundaries": [
+        0.416184995380461,
+        0.4384591508485554,
+        0.4618783536164389,
+        0.49373665300744124
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.38446008792729675,
+          "positive_label_rate": 0.43846153846153846,
+          "row_count": 130
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.42701470035988476,
+          "positive_label_rate": 0.4791666666666667,
+          "row_count": 96
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.44948324227277314,
+          "positive_label_rate": 0.46226415094339623,
+          "row_count": 106
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.476467001523689,
+          "positive_label_rate": 0.504950495049505,
+          "row_count": 101
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.5312875871026674,
+          "positive_label_rate": 0.4368932038834951,
+          "row_count": 103
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.42913472801466335,
+        0.4470541610354408,
+        0.46490610281168054,
+        0.4836424094169328
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.4159526869326143,
+          "positive_label_rate": 0.42990654205607476,
+          "row_count": 214
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.43754941991174867,
+          "positive_label_rate": 0.4107142857142857,
+          "row_count": 224
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.4567158451907523,
+          "positive_label_rate": 0.3673469387755102,
+          "row_count": 196
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.47386341316270986,
+          "positive_label_rate": 0.4090909090909091,
+          "row_count": 242
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.5136028349265009,
+          "positive_label_rate": 0.3832599118942731,
+          "row_count": 227
+        }
+      }
+    }
+  },
+  "H24_GROSS50": {
+    "2024": {
+      "training_boundaries": [
+        0.40254111736062215,
+        0.4272966515624401,
+        0.45234876625200576,
+        0.487688585841261
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.36604742772585647,
+          "positive_label_rate": 0.41025641025641024,
+          "row_count": 117
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.4135520189930479,
+          "positive_label_rate": 0.4818181818181818,
+          "row_count": 110
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.43830870391936144,
+          "positive_label_rate": 0.4583333333333333,
+          "row_count": 96
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.4677779849681869,
+          "positive_label_rate": 0.44339622641509435,
+          "row_count": 106
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.5254265369184528,
+          "positive_label_rate": 0.411214953271028,
+          "row_count": 107
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.4129555060594982,
+        0.4297058350430173,
+        0.4494689099617378,
+        0.47160496387015755
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.39739127947303754,
+          "positive_label_rate": 0.39805825242718446,
+          "row_count": 206
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.42122593230697664,
+          "positive_label_rate": 0.4131455399061033,
+          "row_count": 213
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.4392515984478878,
+          "positive_label_rate": 0.3466666666666667,
+          "row_count": 225
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.46028130099098385,
+          "positive_label_rate": 0.4107883817427386,
+          "row_count": 241
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.501514386560909,
+          "positive_label_rate": 0.3623853211009174,
+          "row_count": 218
+        }
+      }
+    }
+  },
+  "H3_GROSS40": {
+    "2024": {
+      "training_boundaries": [
+        0.2002064682876437,
+        0.23300755628513448,
+        0.25967144442912465,
+        0.29185213659980963
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.178249160659578,
+          "positive_label_rate": 0.2894736842105263,
+          "row_count": 114
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.2155526952789178,
+          "positive_label_rate": 0.2807017543859649,
+          "row_count": 114
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.24922762374456348,
+          "positive_label_rate": 0.33663366336633666,
+          "row_count": 101
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.2749689539242813,
+          "positive_label_rate": 0.308411214953271,
+          "row_count": 107
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.34439249485876516,
+          "positive_label_rate": 0.32,
+          "row_count": 100
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.23436824423146316,
+        0.2776984294649751,
+        0.2946572020791519,
+        0.30830987737606125
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.22897063706795662,
+          "positive_label_rate": 0.2803738317757009,
+          "row_count": 214
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.24336693049120114,
+          "positive_label_rate": 0.33495145631067963,
+          "row_count": 206
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.2883071880779517,
+          "positive_label_rate": 0.30434782608695654,
+          "row_count": 207
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.3014734912427413,
+          "positive_label_rate": 0.28,
+          "row_count": 250
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.3196301230462387,
+          "positive_label_rate": 0.32751091703056767,
+          "row_count": 229
+        }
+      }
+    }
+  },
+  "H3_GROSS50": {
+    "2024": {
+      "training_boundaries": [
+        0.17909110868088263,
+        0.2083918558060356,
+        0.2367694788289587,
+        0.2688675319259186
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.16102461367308266,
+          "positive_label_rate": 0.2413793103448276,
+          "row_count": 116
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.19339521849054553,
+          "positive_label_rate": 0.2336448598130841,
+          "row_count": 107
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.22257125159395436,
+          "positive_label_rate": 0.3063063063063063,
+          "row_count": 111
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.25079875100020904,
+          "positive_label_rate": 0.2828282828282828,
+          "row_count": 99
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.3302175133555259,
+          "positive_label_rate": 0.2912621359223301,
+          "row_count": 103
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.20983447009058437,
+        0.23547446908756084,
+        0.2585538421858756,
+        0.28228011757671445
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.19873207131037923,
+          "positive_label_rate": 0.2372093023255814,
+          "row_count": 215
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.22278722263670206,
+          "positive_label_rate": 0.29081632653061223,
+          "row_count": 196
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.24799732295123517,
+          "positive_label_rate": 0.2651162790697674,
+          "row_count": 215
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.2712175830622279,
+          "positive_label_rate": 0.27106227106227104,
+          "row_count": 273
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.30166026203408486,
+          "positive_label_rate": 0.26570048309178745,
+          "row_count": 207
+        }
+      }
+    }
+  },
+  "H6_GROSS40": {
+    "2024": {
+      "training_boundaries": [
+        0.29441019100737686,
+        0.32353002955333254,
+        0.3546758817292035,
+        0.39317822985398954
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.2569764216179154,
+          "positive_label_rate": 0.26956521739130435,
+          "row_count": 115
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.31010282083076063,
+          "positive_label_rate": 0.43010752688172044,
+          "row_count": 93
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.33871900634673435,
+          "positive_label_rate": 0.39473684210526316,
+          "row_count": 114
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.3735143924762042,
+          "positive_label_rate": 0.40816326530612246,
+          "row_count": 98
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.4501933254475752,
+          "positive_label_rate": 0.3620689655172414,
+          "row_count": 116
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.32359045165202194,
+        0.34584327795201336,
+        0.36285251557313153,
+        0.39119329590786767
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.30311105291722784,
+          "positive_label_rate": 0.38028169014084506,
+          "row_count": 213
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.33603113285028785,
+          "positive_label_rate": 0.38738738738738737,
+          "row_count": 222
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.35402201847395637,
+          "positive_label_rate": 0.3333333333333333,
+          "row_count": 216
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.37683394011803556,
+          "positive_label_rate": 0.3738738738738739,
+          "row_count": 222
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.4199593422854429,
+          "positive_label_rate": 0.3275862068965517,
+          "row_count": 232
+        }
+      }
+    }
+  },
+  "H6_GROSS50": {
+    "2024": {
+      "training_boundaries": [
+        0.26702945134491435,
+        0.29107249632212595,
+        0.31404742200341706,
+        0.3506559967661597
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.23566330038043456,
+          "positive_label_rate": 0.25833333333333336,
+          "row_count": 120
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.27996328441681223,
+          "positive_label_rate": 0.41237113402061853,
+          "row_count": 97
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.3017874664171553,
+          "positive_label_rate": 0.3763440860215054,
+          "row_count": 93
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.33041158835358875,
+          "positive_label_rate": 0.3486238532110092,
+          "row_count": 109
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.39755956805120796,
+          "positive_label_rate": 0.3247863247863248,
+          "row_count": 117
+        }
+      }
+    },
+    "2025": {
+      "training_boundaries": [
+        0.2997158964382893,
+        0.31427385319059936,
+        0.3271359493573388,
+        0.3525671254642981
+      ],
+      "validation": {
+        "Q1": {
+          "mean_predicted_probability": 0.28032760834621645,
+          "positive_label_rate": 0.3574660633484163,
+          "row_count": 221
+        },
+        "Q2": {
+          "mean_predicted_probability": 0.30804682637273195,
+          "positive_label_rate": 0.39545454545454545,
+          "row_count": 220
+        },
+        "Q3": {
+          "mean_predicted_probability": 0.32026656450843677,
+          "positive_label_rate": 0.29411764705882354,
+          "row_count": 204
+        },
+        "Q4": {
+          "mean_predicted_probability": 0.3391431113601902,
+          "positive_label_rate": 0.328,
+          "row_count": 250
+        },
+        "Q5": {
+          "mean_predicted_probability": 0.37539854863240735,
+          "positive_label_rate": 0.29523809523809524,
+          "row_count": 210
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "all_task_labels_exact": true,
+  "coverage": {
+    "H12": 2197,
+    "H24": 2196,
+    "H3": 2199,
+    "H6": 2198
+  },
+  "tasks": {
+    "H12_GROSS40": {
+      "c29_valid_count": 2197,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 903,
+      "threshold": 0.004,
+      "valid_count": 2197
+    },
+    "H12_GROSS50": {
+      "c29_valid_count": 2197,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 844,
+      "threshold": 0.005,
+      "valid_count": 2197
+    },
+    "H24_GROSS40": {
+      "c29_valid_count": 2196,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 944,
+      "threshold": 0.004,
+      "valid_count": 2196
+    },
+    "H24_GROSS50": {
+      "c29_valid_count": 2196,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 911,
+      "threshold": 0.005,
+      "valid_count": 2196
+    },
+    "H3_GROSS40": {
+      "c29_valid_count": 2199,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 640,
+      "threshold": 0.004,
+      "valid_count": 2199
+    },
+    "H3_GROSS50": {
+      "c29_valid_count": 2199,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 566,
+      "threshold": 0.005,
+      "valid_count": 2199
+    },
+    "H6_GROSS40": {
+      "c29_valid_count": 2198,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 788,
+      "threshold": 0.004,
+      "valid_count": 2198
+    },
+    "H6_GROSS50": {
+      "c29_valid_count": 2198,
+      "exact": true,
+      "fixed_endpoint_only": true,
+      "positive_count": 724,
+      "threshold": 0.005,
+      "valid_count": 2198
+    }
+  }
+}
